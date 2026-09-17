@@ -24,6 +24,7 @@ from .notify import Notifier, LIMA, in_quiet_hours
 from .parsers import extract_next_data
 from .privacy import PrivateFormatter
 from .state import State, offer_key
+from .vtex import SOURCES as VTEX_SOURCES, scan_home
 
 DINERS_URL = "https://dinersclubperu.pe/establecimientos/modotravel/categoria/viajes"
 UNAVAILABLE = {"hogar": "Ripley: acceso público bloqueado (403).",
@@ -52,13 +53,13 @@ class Deal:
 
     @property
     def key(self):
-        scope = "retail" if self.source in ("Falabella", "Sodimac") else self.source
+        scope = "retail" if self.source in ("Falabella", "Sodimac") else ("vtex" if self.source in {name for name, _ in VTEX_SOURCES} else self.source)
         return offer_key("catalog", scope, self.identity, self.seller.lower(),
                          self.price, self.pct, self.condition)
 
     @property
     def history_key(self):
-        scope = "retail" if self.source in ("Falabella", "Sodimac") else self.source
+        scope = "retail" if self.source in ("Falabella", "Sodimac") else ("vtex" if self.source in {name for name, _ in VTEX_SOURCES} else self.source)
         return offer_key("price", scope, self.identity, self.seller.lower(), self.condition)
 
 
@@ -356,7 +357,7 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
     for handler in logging.getLogger().handlers: handler.setFormatter(privacy)
     state_path = state_path or f'state/{group}.json'
     state = CatalogState.load(state_path, log)
-    scanner = scanner or (scan_retail if group == 'hogar' else scan_travel)
+    scanner = scanner or (scan_home if group == 'hogar' else scan_travel)
     deals, reports = scanner(state, now)
     reports = [(name, count, privacy.redact(error) if error else None) for name, count, error in reports]
     notifier = notifier or Notifier(cfg, HttpClient(), dry_run=dry_run, log=log)

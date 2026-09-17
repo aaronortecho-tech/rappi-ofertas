@@ -72,3 +72,12 @@ En Windows PowerShell las variables se definen así: `$env:DETALLE_EN_LOGS = "si
 - No agregues commits vacíos ni otros trucos para evitar que GitHub pause el workflow por inactividad.
 - Privacidad: los registros de un repositorio público los puede ver cualquiera. No imprimas la ubicación, el tema de ntfy ni las distancias. Solo con `DETALLE_EN_LOGS=si` se muestran los nombres de los locales.
 - PedidosYa bloquea el acceso automatizado con captcha: no lo agregues.
+
+## Nuevas fuentes: estado y reglas vigentes
+
+Lee FUENTES.md antes de ampliar. Su listado de candidatos no equivale a fuentes activas. La copia recibida se reconcilió con la versión desplegada, preservando Turbo, privacidad, errores visibles y pruebas.
+
+- `monitor/vtex.py`: Promart, Oechsle, Estilos, Casaideas y Shopstar. 50 productos por tienda y ronda; verifica robots.txt antes del catálogo. Stock positivo, precio mínimo S/ 10, descuento calculado >=60 % y <95 %, categorías de hogar/tecnología. Copias recortadas reales en tests/fixtures/vtex_*.json.
+- Se mantienen los tres temas ntfy y memorias separados existentes. No cambiar a un único tema, a una memoria compartida ni a frecuencias distintas por instrucciones de la propuesta original.
+- Productos >=60 %; viajes >=50 %. No sustituir por alertas de 25 % de caída histórica. Travelpayouts no está habilitado y requiere acceso/token; las demás fuentes propuestas necesitan verificación.
+- No publicar tópicos, ubicación, tokens ni respuestas VTEX completas (contienen campos de sesión innecesarios). Usar fixtures recortadas. Respetar bloqueos y robots.txt; no carrito, login ni compras.

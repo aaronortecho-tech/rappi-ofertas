@@ -7,7 +7,7 @@ El proyecto mantiene tres temas independientes de ntfy. Los nombres reales de lo
 | Grupo | Fuentes activas | Mínimo | Secreto |
 |---|---|---|---|
 | Ofertas del día | Rappi y Rappi Market/Turbo | 60 % | `NTFY_TOPIC` |
-| Hogar y tecnología | Falabella y Sodimac, con vendedores terceros | 60 % | `NTFY_TOPIC_HOGAR` |
+| Hogar y tecnología | Falabella, Sodimac, Promart, Oechsle, Estilos, Casaideas y Shopstar, con vendedores terceros | 60 % | `NTFY_TOPIC_HOGAR` |
 | Viajes y escapadas | Beneficios públicos de Diners Club | 50 % | `NTFY_TOPIC_VIAJES` |
 
 **Estado de cobertura:** Ripley, LATAM y Despegar no están activados: las comprobaciones de acceso devolvieron bloqueos. PedidosYa tampoco está integrado. Un resultado exitoso de los grupos nuevos solo confirma las fuentes activas de la tabla.
@@ -15,6 +15,9 @@ El proyecto mantiene tres temas independientes de ntfy. Los nombres reales de lo
 El workflow **Ofertas de hogar y viajes** corre cada 30 minutos y admite una prueba manual que envía un mensaje a cada tema nuevo. Usa memorias separadas (`state/hogar.json` y `state/viajes.json`) y comparte la exclusión de ejecución con Rappi para evitar conflictos al guardar los archivos. Solo se marcan como avisadas las ofertas cuyo envío fue aceptado por ntfy.
 
 ### Hogar y tecnología
+
+- Las cinco tiendas VTEX nuevas aportan una muestra de 50 productos por tienda, ordenada por descuento. Se revisa robots.txt en cada ronda y se exige stock, precio mínimo de S/ 10 y descuento entre 60 % y menos de 95 %. Se filtran categorías de hogar, muebles, tecnología y electrodomésticos. Las ofertas extremas se omiten hasta poder verificarlas.
+- Ver [FUENTES.md](FUENTES.md) para distinguir fuentes activas, propuestas y bloqueadas. La cobertura nueva comparte el límite de avisos del grupo hogar.
 
 - Revisa tecnología, muebles, electrodomésticos y decoración de Falabella/Sodimac. Por categoría consulta la primera página de resultados filtrados por 60 % y otra página que va rotando. Es una selección periódica, no una lectura completa del inventario en cada ronda.
 - Calcula el descuento con los precios de la ficha, sin redondear hacia arriba. Incluye vendedores terceros y muestra quién vende. Si el mínimo solo se alcanza con CMR, lo indica expresamente. Si también califica el precio web, prioriza esa opción.
