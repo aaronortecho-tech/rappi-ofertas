@@ -7,7 +7,7 @@ Te avisa en el celular cuando hay descuentos de **60 % o más** en Rappi Perú: 
 | Sección | Cómo | Frecuencia |
 |---|---|---|
 | Restaurantes | Un navegador oculto abre rappi.com.pe con tu ubicación, activa el filtro **Promos** y revisa el menú de los locales que anuncian tu descuento mínimo. | Cada ronda |
-| Tiendas | Lee la página de **Ofertas** de unas 380 tiendas (supermercados, farmacias, licorerías, express y Rappi Mall). | 40 tiendas por ronda; todas en unas 5 horas |
+| Tiendas | Lee la página de **Ofertas** de las tiendas del catálogo público (supermercados, farmacias, licorerías, express y Rappi Mall). | 40 tiendas por ronda; la vuelta completa depende del tamaño del catálogo |
 | Cadenas (respaldo) | Si falla la lista de restaurantes, revisa Fridays, Chili's, Bembos, Chinawok, KFC, Popeyes, Papa John's, McDonald's y Little Caesars. | Solo cuando hace falta |
 
 Cómo son los avisos:
