@@ -6,8 +6,10 @@
   "1218c6c55a0ad4d4": 1789617285,
   "1a3af6e51ff3c70d": 1789617285,
   "1ad4f4148fb333f0": 1789617285,
+  "1d9deac4e5300356": 1789619701,
   "22fc644f479bcf2b": 1789617285,
   "31b68d0f3d4e5e6d": 1789618945,
+  "35b977e6f1574a8e": 1789619701,
   "3675c605d2082f07": 1789618945,
   "3af26dc3e2f258ab": 1789617285,
   "41ec4d798e4da94e": 1789617285,
@@ -32,9 +34,11 @@
   "ce2c2a7459c1bda2": 1789617285,
   "ce72d6e8b0516193": 1789618945,
   "d08494d798f4e453": 1789617285,
+  "d9684d96d90f24d6": 1789619701,
   "d9b411144d25eabd": 1789618945,
   "dad27a396d388c4d": 1789617285,
   "e6483ef33bc9ad1b": 1789617285,
+  "e65e8e39c7231f97": 1789619701,
   "e6e8dc5f0aa22c52": 1789618945,
   "e99333a22c748c8c": 1789617285,
   "ef2fbe6d8c8a6744": 1789617285,
@@ -45,7 +49,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1789617285,
+  "fetched_at": 1789619701,
   "stores": [
    [
     326,
@@ -118,6 +122,10 @@
    [
     10278,
     "rosatel-market"
+   ],
+   [
+    10279,
+    "rosatel-home"
    ],
    [
     10939,
@@ -252,6 +260,10 @@
     "aruma-encalada"
    ],
    [
+    25321,
+    "turbo"
+   ],
+   [
     25541,
     "bike-route-rappimall"
    ],
@@ -272,20 +284,40 @@
     "sika-hogar"
    ],
    [
-    27359,
-    "turbo-express-home"
+    27032,
+    "turbo"
    ],
    [
-    27360,
-    "turbo-express-liquor"
+    27352,
+    "turbo"
    ],
    [
-    27361,
-    "turbo-licores-home"
+    27986,
+    "turbo"
+   ],
+   [
+    27987,
+    "turbo"
+   ],
+   [
+    27988,
+    "turbo"
    ],
    [
     29756,
     "floreria-bloom-floristeria"
+   ],
+   [
+    30355,
+    "turbo"
+   ],
+   [
+    30356,
+    "turbo"
+   ],
+   [
+    30358,
+    "turbo"
    ],
    [
     30427,
@@ -314,6 +346,14 @@
    [
     32979,
     "tecmotions-mt-enc"
+   ],
+   [
+    33171,
+    "turbo"
+   ],
+   [
+    33246,
+    "tailoy-express-nc"
    ],
    [
     33261,
@@ -552,6 +592,10 @@
     "dcaseperu-mt-enc"
    ],
    [
+    43179,
+    "lumpet-express-nc"
+   ],
+   [
     43237,
     "lecoreane-mt-enc"
    ],
@@ -574,10 +618,6 @@
    [
     44082,
     "dermapoint-mt-enc"
-   ],
-   [
-    44142,
-    "carniceralima-mt-nc"
    ],
    [
     44332,
@@ -808,10 +848,6 @@
     "lopezarevalohnossac-mt-enc"
    ],
    [
-    53200,
-    "healthcorp-mt-nc"
-   ],
-   [
     53301,
     "techside-mt-enc"
    ],
@@ -830,6 +866,10 @@
    [
     53690,
     "healinglab-mt-enc"
+   ],
+   [
+    53825,
+    "turbo"
    ],
    [
     53914,
@@ -956,10 +996,6 @@
     "arlechimportaciones-mt-enc"
    ],
    [
-    58129,
-    "pressstart-mt-enc"
-   ],
-   [
     58289,
     "aristore-mt-enc"
    ],
@@ -986,10 +1022,6 @@
    [
     58921,
     "terratote-mt-enc"
-   ],
-   [
-    58980,
-    "neufertcorporation-mt-enc"
    ],
    [
     59339,
@@ -1056,6 +1088,10 @@
     "perumercado-mt-enc"
    ],
    [
+    60500,
+    "pharman-farmacia-nc"
+   ],
+   [
     60541,
     "oregonfoodspe-mt-nc"
    ],
@@ -1082,6 +1118,10 @@
    [
     61115,
     "esmeyo"
+   ],
+   [
+    61284,
+    "turbo"
    ],
    [
     61297,
@@ -1114,10 +1154,6 @@
    [
     62112,
     "morangestore-mt-enc"
-   ],
-   [
-    62115,
-    "rinconadadevilla-mt-nc"
    ],
    [
     62177,
@@ -1240,36 +1276,8 @@
     "distribuidoramoraviasac-mt-nc"
    ],
    [
-    66656,
-    "turbo-carnes-nc"
-   ],
-   [
-    66683,
-    "turbo-fruver-nc"
-   ],
-   [
-    66707,
-    "turbo-licores-nc"
-   ],
-   [
     66724,
     "20612986771-mt-enc"
-   ],
-   [
-    66760,
-    "turbo-express-mascotas-nc"
-   ],
-   [
-    66786,
-    "turbo-express-licores-nc"
-   ],
-   [
-    66863,
-    "turbo-bebidas-nc"
-   ],
-   [
-    66887,
-    "turbo-market-nc"
    ],
    [
     66950,
@@ -1592,6 +1600,10 @@
     "licorama2-mt-nc"
    ],
    [
+    76991,
+    "turbo"
+   ],
+   [
     77007,
     "factordisruptivosac-mt-enc"
    ],
@@ -1672,6 +1684,10 @@
     "minoximan-mt-enc"
    ],
    [
+    80440,
+    "turbo"
+   ],
+   [
     80473,
     "dandeliongiftbox-mt-enc"
    ],
@@ -1730,6 +1746,10 @@
    [
     87304,
     "8bro-express-nc"
+   ],
+   [
+    87438,
+    "vapebubbastores-express-enc"
    ],
    [
     87453,
@@ -1956,6 +1976,10 @@
     "santashierbas-mt-enc"
    ],
    [
+    103473,
+    "turbo"
+   ],
+   [
     103493,
     "wmfotovideo-mt-enc"
    ],
@@ -2000,6 +2024,10 @@
     "casecool-mt-enc"
    ],
    [
+    106131,
+    "turbo"
+   ],
+   [
     106223,
     "sarcasticastore-mt-enc"
    ],
@@ -2030,6 +2058,10 @@
    [
     107246,
     "mundoorquidea-mt-enc"
+   ],
+   [
+    107452,
+    "turbo"
    ],
    [
     107569,
@@ -2183,7 +2215,18 @@
     112485,
     "10437786581-mt-enc"
    ]
-  ]
+  ],
+  "sources": {
+   "city": "lima",
+   "types": [
+    "market",
+    "farmacia",
+    "express-big",
+    "licores",
+    "rappimall-parent"
+   ],
+   "market": true
+  }
  },
- "saved_at": 1789618945
+ "saved_at": 1789619701
 }
