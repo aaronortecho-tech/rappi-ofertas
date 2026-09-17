@@ -1,0 +1,108 @@
+# Monitor de ofertas de Rappi
+
+Te avisa en el celular cuando hay descuentos de **60 % o más** en Rappi Perú: restaurantes, supermercados, farmacias, licorerías y tiendas. Funciona solo en GitHub cada 30 minutos, **sin usar Claude ni gastar tokens**.
+
+## Qué revisa
+
+| Sección | Cómo | Frecuencia |
+|---|---|---|
+| Restaurantes | Un navegador oculto abre rappi.com.pe con tu ubicación, activa el filtro **Promos** y revisa el menú de los locales que anuncian tu descuento mínimo. | Cada ronda |
+| Tiendas | Lee la página de **Ofertas** de unas 380 tiendas (supermercados, farmacias, licorerías, express y Rappi Mall). | 40 tiendas por ronda; todas en unas 5 horas |
+| Cadenas (respaldo) | Si falla la lista de restaurantes, revisa Fridays, Chili's, Bembos, Chinawok, KFC, Popeyes, Papa John's, McDonald's y Little Caesars. | Solo cuando hace falta |
+
+Cómo son los avisos:
+
+- Llega una notificación por local con sus mejores ofertas. Al tocarla se abre el local en Rappi.
+- Los descuentos de **80 % o más** llegan con prioridad máxima: vibración larga y aviso en pantalla.
+- No repite la misma oferta durante 7 días. Si aparece una oferta nueva en el mismo local, sí avisa.
+- Si en una ronda hay más de 8 locales, los demás llegan juntos en un resumen.
+- Si Rappi cambia su web y el monitor falla 3 rondas seguidas, te avisa como máximo una vez al día.
+
+## Instalación (una sola vez, unos 15 minutos)
+
+### 1. Instala ntfy en tu celular
+
+1. Instala **ntfy** desde Play Store o App Store. Es gratis y no pide cuenta.
+2. Inventa un nombre de tema difícil de adivinar, por ejemplo `tu-tema-con-un-sufijo-aleatorio`. Cualquiera que conozca el nombre puede ver tus avisos, así que no uses algo obvio.
+3. En la app toca **+**, escribe ese nombre y suscríbete.
+
+### 2. Copia tu ubicación
+
+En Google Maps, mantén presionado el punto donde recibes tus pedidos y copia los números que aparecen, por ejemplo `-12.0977, -77.0365`.
+
+### 3. Sube el proyecto a GitHub
+
+**Opción A: con Claude Code (recomendada).** Abre esta carpeta en Claude Code y pega:
+
+> Lee CLAUDE.md y ayúdame a instalar este monitor: crea un repositorio público llamado rappi-ofertas en mi GitHub, súbelo, configura los secretos NTFY_TOPIC y RAPPI_UBICACION (pregúntame los valores) y lanza una ejecución de prueba.
+
+**Opción B: a mano.**
+
+1. Crea un repositorio **público** en <https://github.com/new>, por ejemplo `rappi-ofertas`.
+2. Toca **uploading an existing file** y arrastra todo el contenido de esta carpeta, incluida la carpeta `.github`. Luego toca **Commit changes**.
+3. Entra a **Settings → Secrets and variables → Actions → New repository secret** y crea estos dos secretos:
+   - `NTFY_TOPIC`: el nombre de tu tema de ntfy.
+   - `RAPPI_UBICACION`: tus coordenadas, por ejemplo `-12.0977, -77.0365`.
+4. Ve a **Actions → Monitor de ofertas Rappi → Run workflow** y deja marcada la prueba. En unos minutos te llegarán **✅ Monitor de ofertas activado** y **🧪 Prueba del monitor de Rappi**.
+
+Desde ese momento el monitor corre solo cada 30 minutos.
+
+### ¿Por qué un repositorio público?
+
+- En repositorios públicos, GitHub Actions es gratis y sin límite de minutos. En privados solo hay 2 000 minutos gratis al mes, y este monitor usaría más. Si prefieres uno privado, cambia en `.github/workflows/monitor.yml` el `cron` a `"7 */2 * * *"` (cada 2 horas) y `MINUTOS_ENTRE_RONDAS` a `"120"`.
+- Tus datos no quedan a la vista. El tema y la ubicación se guardan como secretos, que GitHub oculta en los registros. La memoria del monitor (`state/state.json`) no guarda tu ubicación, y las ofertas que ya te avisó quedan como hashes SHA-256. Los hashes no son cifrado y no garantizan anonimato frente a quien ya conozca las ofertas.
+- En repositorios públicos, GitHub pausa las tareas programadas si pasan 60 días sin actividad en el repositorio. El monitor guarda su memoria cada vez que envía avisos, así que normalmente habrá movimiento. Si aun así se pausa, GitHub te avisa por correo y lo reactivas en **Actions → Enable workflow**.
+
+## Ajustes opcionales
+
+Se crean en **Settings → Secrets and variables → Actions → Variables**. Los que no crees usan el valor por defecto.
+
+| Variable | Por defecto | Para qué sirve |
+|---|---|---|
+| `DESCUENTO_MINIMO` | `60` | Descuento mínimo para avisarte. |
+| `ALARMA_DESDE` | `80` | Desde este descuento el aviso llega como alarma. |
+| `HORAS_SILENCIO` | (vacío) | Por ejemplo `23-7`: en ese horario (hora de Lima) los avisos llegan sin sonido. |
+| `RAPPI_PRO` | `no` | Pon `si` si tienes Rappi Pro para incluir sus descuentos exclusivos. |
+| `DISTANCIA_MAXIMA_KM` | (vacío) | Ignora restaurantes más lejanos que esta distancia. |
+| `REPETIR_AVISO_HORAS` | `168` | Cada cuánto puede repetirse el aviso de la misma oferta. |
+| `MAX_AVISOS_POR_RONDA` | `8` | Avisos individuales por ronda; el resto llega en un resumen. |
+| `TIPOS_TIENDA` | `market, farmacia, express-big, licores, rappimall-parent` | Tipos de tienda que se revisan. |
+| `TIENDAS_POR_RONDA` | `40` | Tiendas que se revisan en cada ronda. |
+| `CADENAS` | Fridays, Chili's, Bembos… | Cadenas de respaldo, con el formato `6419-fridays`. |
+| `REVISAR_TIENDAS` / `REVISAR_RESTAURANTES` | `si` | Permite apagar una sección. |
+| `DETALLE_EN_LOGS` | `no` | Registros más detallados. En un repositorio público cualquiera podría ver los nombres de los locales. |
+
+La ubicación va como **secreto**, no como variable.
+
+## Cómo leer los avisos
+
+- **🔥 -70% en Big Cheese Pizza**: lista los productos con su precio actual y el anterior.
+- **🚨**: el descuento es de 80 % o más.
+- **hasta -100% … no vi el producto en la web**: el local anuncia ese descuento, pero el producto no aparece en la web; suele estar solo en la app.
+- **Descuento en toda la carta**: es un porcentaje sobre todo el pedido y normalmente pide un monto mínimo.
+- **Cadena (revisa si aplica a tu zona)**: sale del respaldo por cadenas, que no sabe qué local te corresponde.
+
+## Límites
+
+- Rappi no tiene una API pública, así que el monitor lee su web. Si Rappi la cambia, puede dejar de funcionar. Cuando pase, te llegará un aviso ⚠️; abre la carpeta en Claude Code y pídele que lo revise.
+- No detecta cupones, cashback ni promociones de bancos, porque no aparecen en los precios.
+- Las tiendas se revisan para toda Lima, no para tu dirección. Confirma la cobertura en la app.
+- PedidosYa no está incluido porque bloquea los accesos automatizados.
+- Los términos de Rappi prohíben "acceder, utilizar y/o manipular los datos de Rappi". El monitor está hecho para uso personal: no inicia sesión, espacia sus consultas y no compra nada. Úsalo bajo tu responsabilidad.
+
+## Probar en tu computadora (opcional)
+
+```powershell
+pip install -r requirements.txt
+python -m playwright install chromium
+$env:RAPPI_UBICACION = "-12.0977, -77.0365"
+python -m monitor --sin-enviar --prueba
+```
+
+`--sin-enviar` muestra en pantalla los avisos que enviaría, sin mandarlos al celular.
+
+Para las pruebas automáticas: `pip install -r requirements-dev.txt` y luego `python -m pytest -q`.
+
+## Comprobación de la instalación
+
+La prueba manual termina con error si falla alguna sección o si ntfy rechaza los avisos. Un aviso aceptado por ntfy no confirma que el celular lo haya mostrado: comprueba que llegue la notificación de prueba. Ante respuestas 403 o 429 de Rappi se detiene la ronda sin intentar el respaldo. Si no se puede guardar la memoria en GitHub, la ejecución también indica el error.

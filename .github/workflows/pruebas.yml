@@ -1,0 +1,30 @@
+name: Pruebas
+
+on:
+  push:
+    paths:
+      - "monitor/**"
+      - "tests/**"
+      - "requirements*.txt"
+      - ".github/workflows/pruebas.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Instalar dependencias
+        run: |
+          python -m pip install -r requirements-dev.txt
+          python -m playwright install --with-deps --only-shell chromium
+      - name: Ejecutar pruebas
+        run: python -m pytest -q

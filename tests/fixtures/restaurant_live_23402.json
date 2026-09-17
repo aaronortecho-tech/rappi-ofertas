@@ -1,0 +1,47 @@
+{
+  "store_id": 23402,
+  "super_store_id": 6974,
+  "brand_id": 9851,
+  "brand_name": "Big Cheese Pizza",
+  "name": "Big Cheese Pizza  - Miraflores",
+  "store_type": "restaurant",
+  "status": "OPEN",
+  "is_currently_available": true,
+  "distance_v2": 2855,
+  "friendly_url": null,
+  "discount_tags": [
+    {"id": 2142130, "type": "free_shipping", "tag": "Envío Gratis: Aplican TyC", "title": "Envio gratis en tu primera orden", "value": 1, "is_prime_exclusive": false, "min_amount": null},
+    {"id": 1665858, "type": "offer_by_product", "tag": "Hasta 70% Off", "title": "Hasta 70.0401 % Off Productos seleccionados", "value": 70, "is_prime_exclusive": false, "min_amount": null}
+  ],
+  "corridors": [
+    {
+      "id": 315987, "index": 0, "name": "Lo más Pedido",
+      "products": [
+        {"corridor_id": 315987, "corridor_name": "Lo más Pedido", "discount_percentage": 62, "discounts": [{"action": "", "apply_to_user": true, "global_offer_ids": [1665858], "is_prime_exclusive": false, "is_viral_deal": false, "price": 18.9, "type": "global_offer", "value": 62}], "have_discount": false, "id": "23402_2092703294", "in_schedule": true, "is_popular": false, "name": "Flash Cheesy American", "price": 49.9, "product_id": 2092703294, "real_price": 49.9, "show_discount_tag": true, "store_id": 23402},
+        {"corridor_id": 315987, "corridor_name": "Lo más Pedido", "discount_percentage": 54, "discounts": [{"action": "", "apply_to_user": true, "global_offer_ids": [1665858], "is_prime_exclusive": false, "is_viral_deal": false, "price": 25.9, "type": "global_offer", "value": 54}], "have_discount": false, "id": "23402_2092703296", "in_schedule": true, "is_popular": false, "name": "Flash 4 en 1 + Pan Al Ajo", "price": 56.8, "product_id": 2092703296, "real_price": 56.8, "show_discount_tag": true, "store_id": 23402},
+        {"corridor_id": 315987, "corridor_name": "Lo más Pedido", "discount_percentage": 0, "discounts": [], "have_discount": false, "id": "23402_2093011969", "in_schedule": true, "is_popular": false, "name": "Flash 4en1", "price": 24.9, "product_id": 2093011969, "real_price": 24.9, "show_discount_tag": true, "store_id": 23402}
+      ]
+    },
+    {
+      "id": 316947, "index": 1, "name": "Promos que la Hacen Linda",
+      "products": [
+        {"corridor_id": 316947, "corridor_name": "Promos que la Hacen Linda", "discount_percentage": 0, "discounts": [], "have_discount": false, "id": "23402_2093011130", "in_schedule": true, "is_popular": false, "name": "Flash Dip American", "price": 27.9, "product_id": 2093011130, "real_price": 27.9, "show_discount_tag": true, "store_id": 23402},
+        {"corridor_id": 316947, "corridor_name": "Promos que la Hacen Linda", "discount_percentage": 34, "discounts": [{"action": "", "apply_to_user": true, "global_offer_ids": [2101908], "is_prime_exclusive": false, "is_viral_deal": false, "price": 39.9, "type": "global_offer", "value": 34}], "have_discount": false, "id": "23402_2093011138", "in_schedule": true, "is_popular": false, "name": "Match Perfecto Dip Hawaiana", "price": 60.7, "product_id": 2093011138, "real_price": 60.7, "show_discount_tag": true, "store_id": 23402}
+      ]
+    },
+    {
+      "id": 316948, "index": 2, "name": "Promos Grupales",
+      "products": [
+        {"corridor_id": 316948, "corridor_name": "Promos Grupales", "discount_percentage": 67, "discounts": [{"action": "", "apply_to_user": true, "global_offer_ids": [1665858], "is_prime_exclusive": false, "is_viral_deal": false, "price": 49.9, "type": "global_offer", "value": 67}], "have_discount": false, "id": "23402_2092919699", "in_schedule": true, "is_popular": false, "name": "Cheesyton 3 Pizzas Grandes", "price": 149.7, "product_id": 2092919699, "real_price": 149.7, "show_discount_tag": true, "store_id": 23402},
+        {"corridor_id": 316948, "corridor_name": "Promos Grupales", "discount_percentage": 70, "discounts": [{"action": "", "apply_to_user": true, "global_offer_ids": [1665858], "is_prime_exclusive": false, "is_viral_deal": false, "price": 29.9, "type": "global_offer", "value": 70}], "have_discount": false, "id": "23402_2092703306", "in_schedule": true, "is_popular": false, "name": "Gran Dúo Cheesy + Cheesy", "price": 99.8, "product_id": 2092703306, "real_price": 99.8, "show_discount_tag": true, "store_id": 23402},
+        {"corridor_id": 316948, "corridor_name": "Promos Grupales", "discount_percentage": 63, "discounts": [{"action": "", "apply_to_user": true, "global_offer_ids": [1665858], "is_prime_exclusive": false, "is_viral_deal": false, "price": 59.9, "type": "global_offer", "value": 63}], "have_discount": false, "id": "23402_2092993350", "in_schedule": true, "is_popular": false, "name": "Cheesyton Extremo", "price": 161.6, "product_id": 2092993350, "real_price": 161.6, "show_discount_tag": true, "store_id": 23402}
+      ]
+    },
+    {
+      "id": 315987, "index": 3, "name": "Repetido para probar deduplicación",
+      "products": [
+        {"corridor_id": 315987, "corridor_name": "Lo más Pedido", "discount_percentage": 62, "discounts": [{"action": "", "apply_to_user": true, "global_offer_ids": [1665858], "is_prime_exclusive": false, "is_viral_deal": false, "price": 18.9, "type": "global_offer", "value": 62}], "have_discount": false, "id": "23402_2092703294", "in_schedule": true, "is_popular": false, "name": "Flash Cheesy American", "price": 49.9, "product_id": 2092703294, "real_price": 49.9, "show_discount_tag": true, "store_id": 23402}
+      ]
+    }
+  ]
+}
