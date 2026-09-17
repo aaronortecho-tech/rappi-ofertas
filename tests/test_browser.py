@@ -219,6 +219,7 @@ def test_full_run_against_fake_rappi(server, tmp_path):
         "RAPPI_BASE_URL": server,
         "RAPPI_UBICACION": "-12.0977, -77.0365",
         "TIPOS_TIENDA": "market",
+        "REVISAR_RAPPI_MARKET": "no",
         "PAUSA_ENTRE_CONSULTAS": "0",
         "NTFY_TOPIC": "",
         "ARCHIVO_MEMORIA": str(tmp_path / "state.json"),

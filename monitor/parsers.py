@@ -9,6 +9,8 @@ from __future__ import annotations
 import json
 import math
 import re
+from html import unescape
+from urllib.parse import urlsplit
 from typing import Any, Iterator
 
 from .models import Candidate, Offer
@@ -138,6 +140,21 @@ def store_links(html: str | None) -> list[tuple[int, str]]:
     for store_id, slug in _STORE_LINK_RE.findall(html or ""):
         seen.setdefault(int(store_id), slug)
     return list(seen.items())
+
+
+def store_home_paths(html: str | None, store_id: int) -> list[str]:
+    """Pasillos de bazar enlazados por la propia tienda, nunca de otra tienda."""
+    paths = []
+    for href in re.findall(r"href=[\"']([^\"']+)[\"']", html or ""):
+        url = urlsplit(unescape(href))
+        if url.netloc and url.netloc != "www.rappi.com.pe":
+            continue
+        if re.fullmatch(
+            rf"/tiendas/{store_id}-[a-z0-9-]+/(hogar-y-bazar|hogar-y-vehiculos|bazar|hogar)",
+            url.path,
+        ) and url.path not in paths:
+            paths.append(url.path)
+    return paths[:2]
 
 
 # --------------------------------------------------------------------------

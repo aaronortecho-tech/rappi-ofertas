@@ -10,6 +10,8 @@ Te avisa en el celular cuando hay descuentos de **60 % o más** en Rappi Perú: 
 | Tiendas | Lee la página de **Ofertas** de las tiendas del catálogo público (supermercados, farmacias, licorerías, express y Rappi Mall). | 40 tiendas por ronda; la vuelta completa depende del tamaño del catálogo |
 | Cadenas (respaldo) | Si falla la lista de restaurantes, revisa Fridays, Chili's, Bembos, Chinawok, KFC, Popeyes, Papa John's, McDonald's y Little Caesars. | Solo cuando hace falta |
 
+**Rappi Market / Turbo:** además de las tiendas encontradas en las categorías generales, se incorporan los locales del directorio público de Turbo en Lima. Cuando toca revisar uno de estos locales, se leen sus ofertas y los pasillos **Hogar y bazar** o **Hogar y vehículos** enlazados en su página. Los productos de esos pasillos usan el mismo mínimo de descuento y la misma memoria para evitar avisos repetidos. Estos locales forman parte del grupo rotativo de 40 tiendas; no se revisan todos cada 30 minutos.
+
 Cómo son los avisos:
 
 - Llega una notificación por local con sus mejores ofertas. Al tocarla se abre el local en Rappi.
@@ -70,6 +72,7 @@ Se crean en **Settings → Secrets and variables → Actions → Variables**. Lo
 | `TIENDAS_POR_RONDA` | `40` | Tiendas que se revisan en cada ronda. |
 | `CADENAS` | Fridays, Chili's, Bembos… | Cadenas de respaldo, con el formato `6419-fridays`. |
 | `REVISAR_TIENDAS` / `REVISAR_RESTAURANTES` | `si` | Permite apagar una sección. |
+| `REVISAR_RAPPI_MARKET` | `si` | Amplía la lista con el directorio de Turbo y revisa los pasillos de hogar/bazar de Market/Turbo. Requiere `REVISAR_TIENDAS=si`. |
 | `DETALLE_EN_LOGS` | `no` | Registros más detallados. En un repositorio público cualquiera podría ver los nombres de los locales. |
 
 La ubicación va como **secreto**, no como variable.
@@ -87,6 +90,7 @@ La ubicación va como **secreto**, no como variable.
 - Rappi no tiene una API pública, así que el monitor lee su web. Si Rappi la cambia, puede dejar de funcionar. Cuando pase, te llegará un aviso ⚠️; abre la carpeta en Claude Code y pídele que lo revise.
 - No detecta cupones, cashback ni promociones de bancos, porque no aparecen en los precios.
 - Las tiendas se revisan para toda Lima, no para tu dirección. Confirma la cobertura en la app.
+- Market/Turbo se revisa con los productos presentes en sus páginas públicas. No se garantiza todo el inventario, productos cargados solo al desplazarse o descuentos exclusivos de la app. Si el pasillo está vacío o no llega al descuento mínimo, no se envía aviso.
 - PedidosYa no está incluido porque bloquea los accesos automatizados.
 - Los términos de Rappi prohíben "acceder, utilizar y/o manipular los datos de Rappi". El monitor está hecho para uso personal: no inicia sesión, espacia sus consultas y no compra nada. Úsalo bajo tu responsabilidad.
 

@@ -161,6 +161,7 @@ class Config:
     state_path: str = "state/state.json"
     check_restaurants: bool = True
     check_stores: bool = True
+    check_market: bool = True
     chains_always: bool = False
     headless: bool = True
     verbose: bool = False
@@ -213,6 +214,7 @@ class Config:
         cfg.state_path = _get(env, "ARCHIVO_MEMORIA") or cfg.state_path
         cfg.check_restaurants = _bool(env, ("REVISAR_RESTAURANTES",), True)
         cfg.check_stores = _bool(env, ("REVISAR_TIENDAS",), True)
+        cfg.check_market = _bool(env, ("REVISAR_RAPPI_MARKET",), True)
         cfg.chains_always = _bool(env, ("REVISAR_CADENAS_SIEMPRE",), False)
         cfg.headless = _bool(env, ("NAVEGADOR_OCULTO",), True)
         cfg.verbose = _bool(env, ("DETALLE_EN_LOGS",), False)

@@ -73,6 +73,7 @@ def cfg(tmp_path):
     config.request_delay = 0
     config.state_path = str(tmp_path / "state.json")
     config.store_types = ["market"]
+    config.check_market = False
     config.chains = ["6419-fridays"]
     return config
 

@@ -18,6 +18,7 @@ from .parsers import (
     parse_store_page,
     restaurant_candidates,
     store_links,
+    store_home_paths,
 )
 from .state import State
 
@@ -141,7 +142,8 @@ def _check_restaurant(cfg, browser, http, candidate, result: ScanResult, log) ->
 
 def load_store_list(cfg: Config, http, state: State, now: float, log) -> list[tuple[int, str]]:
     cached = state.cached_stores(now)
-    if cached:
+    sources = {"city": cfg.city, "types": cfg.store_types, "market": cfg.check_market}
+    if cached and state.store_list.get("sources") == sources:
         return cached
     found: dict[int, str] = {}
     for store_type in cfg.store_types:
@@ -156,9 +158,19 @@ def load_store_list(cfg: Config, http, state: State, now: float, log) -> list[tu
         log.debug("Tipo %s: %d tiendas", store_type, len(links))
         for store_id, slug in links:
             found.setdefault(store_id, slug)
+    if cfg.check_market:
+        # El directorio general omite algunos locales de Turbo/Market.
+        # La ruta por ciudad evita incorporar sucursales de otras ciudades.
+        html = http.get(f"{cfg.base_url}/{cfg.city}/tiendas/marca-turbo")
+        branches = store_links(html)
+        if not branches:
+            raise RuntimeError("no se pudo leer el directorio de Rappi Market/Turbo")
+        for store_id, slug in branches:
+            found.setdefault(store_id, slug)
     stores = sorted(found.items())
     if stores:
         state.set_stores(stores, now)
+        state.store_list["sources"] = sources
     return stores
 
 
@@ -182,7 +194,7 @@ def scan_stores(cfg: Config, http, state: State, now: float, log: logging.Logger
             raise RuntimeError("no se encontraron tiendas en rappi.com.pe/tiendas/tipo/…")
         batch, number, total = store_batch(stores, cfg.store_batch, now, cfg.run_every_minutes)
         result.notes.append(f"{len(stores)} tiendas en total; grupo {number} de {total}")
-        read_ok = attempted = 0
+        read_ok = attempted = market_checked = home_checked = home_failed = 0
         for store_id, slug in batch:
             if deadline.expired():
                 result.notes.append("se acabó el tiempo; el resto se revisa en la próxima ronda")
@@ -202,6 +214,31 @@ def scan_stores(cfg: Config, http, state: State, now: float, log: logging.Logger
             read_ok += 1
             name, offers = parse_store_page(data)
             store_name = name or slug.replace("-", " ").title()
+            is_market = any(word in f"{slug} {store_name}".lower()
+                            for word in ("turbo", "rappi-market", "rappi market"))
+            if cfg.check_market and is_market:
+                market_checked += 1
+                merged = {offer.product_id: offer for offer in offers}
+                for path in store_home_paths(html, store_id):
+                    if deadline.expired():
+                        home_failed += 1
+                        break
+                    try:
+                        extra = extract_next_data(http.get(f"{cfg.base_url}{path}"))
+                        if extra is None:
+                            home_failed += 1
+                            continue
+                        _, extra_offers = parse_store_page(extra)
+                        home_checked += 1
+                        for offer in extra_offers:
+                            previous = merged.get(offer.product_id)
+                            if previous is None or offer.pct > previous.pct:
+                                merged[offer.product_id] = offer
+                    except (Blocked, BudgetExceeded):
+                        raise
+                    except Exception:  # un pasillo fallido no descarta las demás ofertas
+                        home_failed += 1
+                offers = list(merged.values())
             result.remember_top(offers, store_name)
             best = good_offers(offers, cfg)
             if best:
@@ -209,6 +246,11 @@ def scan_stores(cfg: Config, http, state: State, now: float, log: logging.Logger
                     Alert(kind="tienda", store_id=str(store_id), store_name=store_name, url=url, offers=best)
                 )
         result.checked = read_ok
+        if cfg.check_market:
+            result.notes.append(f"Rappi Market/Turbo: {market_checked} locales y "
+                                f"{home_checked} pasillos de hogar/bazar revisados en este grupo")
+        if home_failed:
+            result.error = f"no se pudieron revisar {home_failed} pasillos de hogar/bazar"
         if attempted and read_ok == 0:
             raise RuntimeError("no se pudo leer ninguna tienda del grupo")
     except Exception as exc:  # noqa: BLE001

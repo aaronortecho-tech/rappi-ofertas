@@ -6,6 +6,7 @@ Este proyecto es un script de Python que corre en GitHub Actions cada 30 minutos
 
 - `monitor/main.py`: punto de entrada (`python -m monitor`). Coordina las secciones, filtra avisos repetidos y envía los mensajes.
 - `monitor/scan.py`: revisa restaurantes (navegador), tiendas (HTTP, por turnos) y cadenas (respaldo).
+  - Rappi Market/Turbo: añade `/lima/tiendas/marca-turbo` (usa `CIUDAD`) y lee los pasillos de hogar/bazar enlazados en cada local. `REVISAR_RAPPI_MARKET=si` por defecto. La caché de tiendas se renueva si cambian las fuentes. No amplía el límite de 40 tiendas por ronda.
 - `monitor/browser.py`: Playwright. Abre `/restaurantes` con la cookie `currentLocation`, activa `#popular_filters-Promos`, captura la consulta `restaurants-bus/stores/filters` y la repite con `filters.discounts.types = ["offer_by_product"]` y `["percentage"]`. También pide `restaurants-bus/store/id/<id>/` para cada candidato. La ubicación se fuerza en todas las consultas con `page.route`.
 - `monitor/parsers.py`: funciones puras que leen `__NEXT_DATA__` y el JSON de Rappi.
   - Tiendas: `price` y `real_price`.
