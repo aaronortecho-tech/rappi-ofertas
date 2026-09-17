@@ -27,6 +27,7 @@ jobs:
       - name: Descargar el código
         uses: actions/checkout@v7
         with:
+          ref: main
           # Necesario para guardar la memoria del monitor al final.
           persist-credentials: true
 

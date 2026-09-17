@@ -1,0 +1,67 @@
+name: Ofertas de hogar y viajes
+
+on:
+  schedule:
+    - cron: "17,47 * * * *"
+  workflow_dispatch:
+    inputs:
+      prueba:
+        description: "Enviar un aviso de prueba a cada tema nuevo"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+# Misma exclusión que Rappi para guardar memoria sin carreras de git.
+concurrency:
+  group: monitor-ofertas
+  cancel-in-progress: false
+
+jobs:
+  catalogos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Instalar dependencias
+        run: python -m pip install -r requirements.txt
+      - name: Hogar y tecnología
+        env:
+          NTFY_TOPIC_HOGAR: ${{ secrets.NTFY_TOPIC_HOGAR }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          HORAS_SILENCIO: ${{ vars.HORAS_SILENCIO }}
+          MODO_PRUEBA: ${{ github.event_name == 'workflow_dispatch' && inputs.prueba && 'si' || 'no' }}
+        run: python -m monitor.catalogs --grupo hogar
+      - name: Viajes y escapadas
+        if: ${{ !cancelled() }}
+        env:
+          NTFY_TOPIC_VIAJES: ${{ secrets.NTFY_TOPIC_VIAJES }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          HORAS_SILENCIO: ${{ vars.HORAS_SILENCIO }}
+          MODO_PRUEBA: ${{ github.event_name == 'workflow_dispatch' && inputs.prueba && 'si' || 'no' }}
+        run: python -m monitor.catalogs --grupo viajes
+      - name: Guardar memoria de los nuevos grupos
+        if: ${{ !cancelled() }}
+        run: |
+          if [ -z "$(git status --porcelain -- state/hogar.json state/viajes.json)" ]; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for archivo in state/hogar.json state/viajes.json; do
+            if [ -f "$archivo" ]; then git add "$archivo"; fi
+          done
+          git commit --quiet -m "Actualizar memoria de hogar y viajes"
+          for intento in 1 2 3; do
+            if git pull --rebase --quiet && git push --quiet; then exit 0; fi
+            sleep 5
+          done
+          echo "::error::No se pudo guardar la memoria de hogar y viajes."
+          exit 1

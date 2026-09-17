@@ -116,7 +116,7 @@ class Notifier:
             payload["tags"] = tags
         if click:
             payload["click"] = click
-            payload["actions"] = [{"action": "view", "label": "Abrir en Rappi", "url": click}]
+            payload["actions"] = [{"action": "view", "label": "Ver oferta", "url": click}]
         if self.dry_run:
             self.printed.append(payload)
             print(f"\n[{priority}] {payload['title']}\n{payload['message']}\n{click or ''}".rstrip())

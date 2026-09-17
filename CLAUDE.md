@@ -4,6 +4,9 @@ Este proyecto es un script de Python que corre en GitHub Actions cada 30 minutos
 
 ## Estructura
 
+- `monitor/catalogs.py`: grupos independientes hogar/viajes. Falabella/Sodimac usan `__NEXT_DATA__.props.pageProps.results`; se separan precios web de CMR y se calcula el porcentaje real sin redondear al alza. Diners usa tarjetas HTML `all__item` y condiciones con vigencias explícitas. Umbrales fijos: hogar 60 %, viajes 50 %. No tratar «hasta», cuotas o regalos como descuentos garantizados.
+- `.github/workflows/catalogos.yml`: cada 30 minutos, dos temas y memorias separados. Secretos `NTFY_TOPIC_HOGAR`, `NTFY_TOPIC_VIAJES`. Comparte `concurrency` con Rappi. Ripley, LATAM y Despegar están excluidos por bloqueo; no simular su cobertura ni evadir controles. El grupo viajes sigue beneficios Diners, no tarifas en vivo.
+
 - `monitor/main.py`: punto de entrada (`python -m monitor`). Coordina las secciones, filtra avisos repetidos y envía los mensajes.
 - `monitor/scan.py`: revisa restaurantes (navegador), tiendas (HTTP, por turnos) y cadenas (respaldo).
   - Rappi Market/Turbo: añade `/lima/tiendas/marca-turbo` (usa `CIUDAD`) y lee los pasillos de hogar/bazar enlazados en cada local. `REVISAR_RAPPI_MARKET=si` por defecto. La caché de tiendas se renueva si cambian las fuentes. No amplía el límite de 40 tiendas por ronda.

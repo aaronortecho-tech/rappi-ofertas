@@ -1,5 +1,44 @@
 # Monitor de ofertas de Rappi
 
+## Grupos de avisos
+
+El proyecto mantiene tres temas independientes de ntfy. Los nombres reales de los temas se guardan exclusivamente como secretos de GitHub.
+
+| Grupo | Fuentes activas | Mínimo | Secreto |
+|---|---|---|---|
+| Ofertas del día | Rappi y Rappi Market/Turbo | 60 % | `NTFY_TOPIC` |
+| Hogar y tecnología | Falabella y Sodimac, con vendedores terceros | 60 % | `NTFY_TOPIC_HOGAR` |
+| Viajes y escapadas | Beneficios públicos de Diners Club | 50 % | `NTFY_TOPIC_VIAJES` |
+
+**Estado de cobertura:** Ripley, LATAM y Despegar no están activados: las comprobaciones de acceso devolvieron bloqueos. PedidosYa tampoco está integrado. Un resultado exitoso de los grupos nuevos solo confirma las fuentes activas de la tabla.
+
+El workflow **Ofertas de hogar y viajes** corre cada 30 minutos y admite una prueba manual que envía un mensaje a cada tema nuevo. Usa memorias separadas (`state/hogar.json` y `state/viajes.json`) y comparte la exclusión de ejecución con Rappi para evitar conflictos al guardar los archivos. Solo se marcan como avisadas las ofertas cuyo envío fue aceptado por ntfy.
+
+### Hogar y tecnología
+
+- Revisa tecnología, muebles, electrodomésticos y decoración de Falabella/Sodimac. Por categoría consulta la primera página de resultados filtrados por 60 % y otra página que va rotando. Es una selección periódica, no una lectura completa del inventario en cada ronda.
+- Calcula el descuento con los precios de la ficha, sin redondear hacia arriba. Incluye vendedores terceros y muestra quién vende. Si el mínimo solo se alcanza con CMR, lo indica expresamente. Si también califica el precio web, prioriza esa opción.
+- La referencia tachada del vendedor no se presenta como precio histórico. Desde la activación guarda mínimos observados durante hasta 30 días y los muestra cuando ya existe historial. No asegura que el descuento anunciado equivalga a una rebaja frente al precio habitual.
+- Máximo 8 mensajes de hasta 3 productos por ronda; no marca como enviadas las ofertas que quedaron fuera del límite. No repite una misma ficha/precio/condición durante 7 días. Un cambio de precio puede generar un aviso nuevo.
+- Evita repetir el mismo SKU, vendedor y oferta entre Falabella y Sodimac, y alterna categorías para que decoración no desplace todos los avisos de muebles o tecnología. El historial se limita a 12 000 combinaciones recientes de producto/vendedor/condición.
+- Stock, envío y disponibilidad en tu dirección se confirman en la tienda. Las páginas se consultan sin cuenta personal.
+
+### Viajes y escapadas
+
+- Revisa el listado público de viajes de Diners: descuentos, hoteles y campañas de viajes nacionales/internacionales. Verifica las condiciones y las fechas de compra de las promociones candidatas antes de avisar.
+- Exige un descuento explícito de al menos 50 %. Excluye anuncios que solo dicen «hasta», cuotas sin intereses, regalos, campañas vencidas y campañas sin vigencia interpretable. Por eso es normal que no haya avisos aun cuando la página muestre beneficios.
+- Son **beneficios generales de Diners**, no cotizaciones de vuelos, hoteles o tours para fechas concretas. En vuelos se toma Lima como salida: se descartan otras salidas explícitas, y si la campaña es general el mensaje pide confirmar que incluya Lima.
+- No consulta tarifas en vivo de LATAM/Despegar, no reserva ni compra. Los avisos conservan condiciones y un enlace oficial. Las promociones con fechas o formatos que el lector no reconoce se omiten de forma conservadora.
+
+Pruebas locales de los nuevos grupos, sin enviar ni guardar memoria:
+
+```powershell
+python -m monitor.catalogs --grupo hogar --sin-enviar --prueba
+python -m monitor.catalogs --grupo viajes --sin-enviar --prueba
+```
+
+---
+
 Te avisa en el celular cuando hay descuentos de **60 % o más** en Rappi Perú: restaurantes, supermercados, farmacias, licorerías y tiendas. Funciona solo en GitHub cada 30 minutos, **sin usar Claude ni gastar tokens**.
 
 ## Qué revisa
