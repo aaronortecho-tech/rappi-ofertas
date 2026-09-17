@@ -9,6 +9,14 @@ on:
         description: "Enviar un aviso de prueba a cada tema nuevo"
         type: boolean
         default: true
+      grupo:
+        description: "Grupo que se revisará en esta ejecución manual"
+        type: choice
+        default: todos
+        options:
+          - todos
+          - hogar
+          - viajes
 
 permissions:
   contents: write
@@ -33,6 +41,7 @@ jobs:
       - name: Instalar dependencias
         run: python -m pip install -r requirements.txt
       - name: Hogar y tecnología
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.grupo != 'viajes' }}
         env:
           NTFY_TOPIC_HOGAR: ${{ secrets.NTFY_TOPIC_HOGAR }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
@@ -40,7 +49,7 @@ jobs:
           MODO_PRUEBA: ${{ github.event_name == 'workflow_dispatch' && inputs.prueba && 'si' || 'no' }}
         run: python -m monitor.catalogs --grupo hogar
       - name: Viajes y escapadas
-        if: ${{ !cancelled() }}
+        if: ${{ !cancelled() && (github.event_name != 'workflow_dispatch' || inputs.grupo != 'hogar') }}
         env:
           NTFY_TOPIC_VIAJES: ${{ secrets.NTFY_TOPIC_VIAJES }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}

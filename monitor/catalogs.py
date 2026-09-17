@@ -25,6 +25,7 @@ from .parsers import extract_next_data
 from .privacy import PrivateFormatter
 from .state import State, offer_key
 from .vtex import SOURCES as VTEX_SOURCES, scan_home
+from .flights import scan_trips
 
 DINERS_URL = "https://dinersclubperu.pe/establecimientos/modotravel/categoria/viajes"
 UNAVAILABLE = {"hogar": "Ripley: acceso público bloqueado (403).",
@@ -50,6 +51,8 @@ class Deal:
     condition: str = ""
     category: str = ""
     previous_min: float | None = None
+    currency: str = "PEN"
+    reference_kind: str = "published"
 
     @property
     def key(self):
@@ -66,6 +69,8 @@ class Deal:
 class CatalogState(State):
     def __init__(self, data=None, existed=False):
         data = data if isinstance(data, dict) else {}
+        self.flight_alerts = data.get("flight_alerts", {})
+        if not isinstance(self.flight_alerts, dict): self.flight_alerts = {}
         self.history = data.get("history", {})
         self.cursors = data.get("cursors", {})
         if not isinstance(self.history, dict): self.history = {}
@@ -74,14 +79,14 @@ class CatalogState(State):
 
     def _serialize(self, include_saved_at=True):
         data = super()._serialize(include_saved_at)
-        data.update(history=self.history, cursors=self.cursors)
+        data.update(history=self.history, cursors=self.cursors, flight_alerts=self.flight_alerts)
         return data
 
     def observe(self, deal, now):
         if deal.price is None: return
         day = int(now // 86400)
         rows = self.history.get(deal.history_key, [])
-        rows = [r for r in rows if isinstance(r, list) and len(r) == 2
+        rows = [r for r in rows if isinstance(r, (list, tuple)) and len(r) == 2
                 and isinstance(r[0], int) and isinstance(r[1], (int, float))
                 and day - 30 <= r[0] <= day]
         # Se consulta antes de registrar el precio actual.
@@ -92,6 +97,10 @@ class CatalogState(State):
 
     def prune(self, now, keep_hours):
         super().prune(now, keep_hours)
+        self.flight_alerts = {k: v for k, v in self.flight_alerts.items()
+                              if isinstance(v, dict) and isinstance(v.get("created"), (int, float))
+                              and now - 7 * 86400 <= v["created"] <= now}
+        self.flight_alerts = dict(sorted(self.flight_alerts.items(), key=lambda kv: kv[1]["created"])[-2000:])
         day = int(now // 86400)
         self.history = {k: [r for r in rows if r[0] >= day - 30]
                         for k, rows in self.history.items() if isinstance(rows, list)}
@@ -301,6 +310,12 @@ def scan_travel(state, now, http_factory=HttpClient):
 
 
 def deal_text(deal):
+    if deal.reference_kind == 'flight_history':
+        return (f"Caída observada: {deal.pct}% · {deal.source} · {deal.name}\n"
+                f"Ahora desde {deal.currency} {deal.price:,.2f}\n"
+                f"Mínimo previo observado (ventana de 30 días): {deal.currency} {deal.regular:,.2f}\n"
+                f"Comparación basada en al menos 3 días previos, no descuento anunciado.\n"
+                f"{deal.condition}\n{deal.url}")
     lines = [f"-{deal.pct}% · {deal.name}"]
     if deal.price is not None:
         lines.append(f"S/ {deal.price:,.2f} · referencia publicada S/ {deal.regular:,.2f}")
@@ -329,11 +344,11 @@ def deliver(deals, state, notifier, now, group, dry_run=False):
     for start in range(0, min(len(pending), size * 8), size):
         batch = pending[start:start + size]
         message = "\n\n".join(deal_text(d) for d in batch)
-        if group == 'viajes': message += "\nBeneficio general; para vuelos, confirmar aplicabilidad a salida de Lima."
+        if group == 'viajes' and batch[0].source == 'Diners': message += "\nBeneficio general; para vuelos, confirmar aplicabilidad a salida de Lima."
         # Reducir el lote si excede el límite de ntfy, sin perder ofertas en la memoria.
         while len(message.encode('utf-8')) > 3600 and len(batch) > 1:
             batch = batch[:-1]; message = "\n\n".join(deal_text(d) for d in batch)
-        title = f"{'🏠' if group == 'hogar' else '✈️'} {len(batch)} {'ofertas de hogar/tecnología' if group == 'hogar' else 'beneficio Diners de viajes'}"
+        title = f"{'🏠' if group == 'hogar' else '✈️'} {len(batch)} {'ofertas de hogar/tecnología' if group == 'hogar' else 'oferta de viajes'}"
         priority = 2 if in_quiet_hours(notifier.cfg.quiet_hours, now) else 4
         if notifier.send(title, message, priority=priority, click=batch[0].url):
             sent += len(batch)
@@ -357,7 +372,7 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
     for handler in logging.getLogger().handlers: handler.setFormatter(privacy)
     state_path = state_path or f'state/{group}.json'
     state = CatalogState.load(state_path, log)
-    scanner = scanner or (scan_home if group == 'hogar' else scan_travel)
+    scanner = scanner or (scan_home if group == 'hogar' else scan_trips)
     deals, reports = scanner(state, now)
     reports = [(name, count, privacy.redact(error) if error else None) for name, count, error in reports]
     notifier = notifier or Notifier(cfg, HttpClient(), dry_run=dry_run, log=log)
@@ -375,7 +390,7 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
         lines = [f"Mínimo: {cfg.min_discount}% · {len(deals)} ofertas válidas · {sent} enviadas."]
         lines += [f"{'⚠️' if error else '✅'} {name}: {error or str(count) + ' revisados'}" for name, count, error in reports]
         lines.append(UNAVAILABLE[group])
-        if group == 'viajes': lines.append('Beneficios Diners para viajes nacionales/internacionales; salida de Lima para vuelos. Sin tarifas en vivo. Se excluyen promociones vencidas, sin vigencia verificable y anuncios «hasta».')
+        if group == 'viajes': lines.append('Diners: descuentos explícitos de 50%. JetSMART/SKY: caídas de 50% del precio publicado desde Lima, frente al mínimo observado en al menos 3 días previos (ventana de 30 días). Al inicio solo se construye historial. No son tarifas garantizadas en vivo; revisar tasas y equipaje.')
         if not notifier.send('🧪 Prueba de ' + ('Hogar y tecnología' if group == 'hogar' else 'Viajes y escapadas'), '\n'.join(lines), priority=3): failed = True
     state.prune(now, 336)
     if not dry_run: state.save(state_path, now)

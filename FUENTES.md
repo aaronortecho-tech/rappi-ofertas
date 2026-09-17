@@ -5,7 +5,7 @@ Guía de los sitios que se pueden vigilar, ordenados en tres grupos. La lista or
 
 ## Revisión e integración · 17 de septiembre de 2026
 
-- **Activos:** Rappi/Turbo (comida, 60 %); Falabella/Sodimac y ahora Promart, Oechsle, Estilos, Casaideas y Shopstar (hogar, 60 %); beneficios Diners (viajes, 50 %). Se conservan los tres temas separados y los horarios existentes de 30 minutos. Las frecuencias de la tabla final son propuestas, no configuración aplicada.
+- **Activos:** Rappi/Turbo (comida, 60 %); Falabella/Sodimac y ahora Promart, Oechsle, Estilos, Casaideas y Shopstar (hogar, 60 %); beneficios Diners y seguimiento histórico JetSMART/SKY desde Lima (viajes, 50 %). Se conservan los tres temas separados y los horarios existentes de 30 minutos. Las frecuencias de la tabla final son propuestas, no configuración aplicada.
 - Se leyeron robots.txt y 50 productos reales de cada una de las cinco nuevas tiendas VTEX. Los catálogos respondieron y las reglas consultadas no excluyeron el endpoint. Cada ronda vuelve a verificar robots.txt; ante bloqueo se detiene esa fuente. Esto no sustituye los términos del sitio ni garantiza acceso futuro desde GitHub.
 - VTEX revisa solo los primeros 50 productos ordenados por descuento de cada tienda, no todo su inventario. Filtra categorías de muebles, tecnología, electrodomésticos y hogar. No incluye ropa, alimentos ni belleza; los supermercados adicionales y Cuponatic siguen pendientes.
 - Exige stock positivo, precio desde S/ 10, referencia mayor al precio y descuento calculado entre 60 % y menos de 95 %. Descarta referencias extremas hasta contar con verificación adicional. El precio tachado es el publicado por el vendedor, no un ahorro histórico demostrado.
@@ -70,9 +70,9 @@ https://<tienda>/api/catalog_system/pub/category/tree/2
 | Sitio | Vía | Permiso | Estado |
 |---|---|---|---|
 | Travelpayouts (datos de Aviasales) | API oficial | Programa de afiliados: registro gratuito y solicitud de acceso | Endpoints verificados en su documentación |
-| JetSmart | Navegador oculto | Permite todo menos el motor de reservas | Falta programar |
+| JetSMART | HTML y JSON de la portada `/pe/es/` | robots.txt comprobado | Activo: 12 tarifas desde Lima en la muestra; con tasas |
 | LATAM | Navegador oculto | Permite el sitio general; bloquea compra, asientos y login. Publica un `llms.txt` (índice para agentes de IA) | Falta programar |
-| SKY | Navegador oculto | No publica `robots.txt`; su web es puro JavaScript | Falta programar |
+| SKY | HTML y JSON integrado en página de ofertas | /robots.txt devuelve portada HTML, sin directivas publicadas | Activo: tarifas publicadas desde Lima; precio base + tasas |
 | Despegar | HTML | Solo sus páginas de ofertas (`/vuelos-baratos`, `/paquetes/`, `/hoteles/h-*/`); bloquea buscador y APIs | Parcial |
 | Civitatis, GetYourGuide, Viator | HTML | Páginas de tours permitidas; bloquean carrito y checkout | Falta programar |
 | Booking.com | — | No deja leer ni su `robots.txt` | No usar |
@@ -121,3 +121,11 @@ En viajes casi nunca hay un "% de descuento" publicado. Lo útil es el **precio 
 | `comida` | 30 minutos | Las ofertas relámpago duran poco |
 | `retail` | 3 horas | Los precios cambian por día, no por minuto |
 | `viajes` | 6 horas | Cuidar la cuota de la API y no saturar |
+
+## Implementación de vuelos · 17 de septiembre de 2026
+
+`monitor/flights.py` lee JetSMART en https://www.jetsmart.com/pe/es/ (`let list = JSON.parse(...)`, sin ejecutar JS) y SKY en https://www.skyairline.com/flights/es-pe/ofertas-descuentos (`__NEXT_DATA__`, Apollo StandardFareModule.fares). La página `/pe/es/minisitios/promo` de JetSMART respondió pero no incluía tarifas, por eso no se usa.
+
+Se leyeron robots.txt y cuerpos completos públicos de ambas fuentes. JetSMART publica reglas que no excluyen la portada. SKY devuelve su portada HTML en /robots.txt, sin directivas: no se presenta esto como permiso explícito; se continúa solo con su página pública de ofertas. Si aparecen directivas, se respetan; una respuesta desconocida o un bloqueo detiene la fuente. Cada ronda usa dos lecturas por aerolínea separadas por 1,5 segundos. No sigue enlaces al motor de reservas. JetSMART: `pi.pen` con tasas, comprobado contra `p.pen + i.pen`, salida `dep=LIM`, fecha/hora `date`, número `fn`, clase `c`, plazas `s>0`. SKY: `totalPrice` en su moneda, con el aviso público `+ tasas`, `originAirportCode=LIM`, solo ida y fecha futura; ignora precios vistos hace más de 24 horas. No se interpreta `totalPrice` como total final con impuestos.
+
+El usuario autorizó caídas >=50 % con historial comparable. Se compara contra el mínimo de los 30 días anteriores con al menos tres días distintos de observaciones, excluyendo el día actual (UTC). No se inventa historial inicial. La memoria viaja en state/viajes.json y los avisos al tema existente de viajes. SKY permite comparar mínimos publicados por fecha, no garantiza mismo vuelo ni equipaje. Los formatos cambiados generan error visible; cero alertas con historial insuficiente es normal.

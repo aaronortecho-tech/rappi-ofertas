@@ -8,7 +8,7 @@ El proyecto mantiene tres temas independientes de ntfy. Los nombres reales de lo
 |---|---|---|---|
 | Ofertas del día | Rappi y Rappi Market/Turbo | 60 % | `NTFY_TOPIC` |
 | Hogar y tecnología | Falabella, Sodimac, Promart, Oechsle, Estilos, Casaideas y Shopstar, con vendedores terceros | 60 % | `NTFY_TOPIC_HOGAR` |
-| Viajes y escapadas | Beneficios públicos de Diners Club | 50 % | `NTFY_TOPIC_VIAJES` |
+| Viajes y escapadas | Diners Club y tarifas publicadas de JetSMART/SKY desde Lima | 50 % | `NTFY_TOPIC_VIAJES` |
 
 **Estado de cobertura:** Ripley, LATAM y Despegar no están activados: las comprobaciones de acceso devolvieron bloqueos. PedidosYa tampoco está integrado. Un resultado exitoso de los grupos nuevos solo confirma las fuentes activas de la tabla.
 
@@ -28,9 +28,14 @@ El workflow **Ofertas de hogar y viajes** corre cada 30 minutos y admite una pru
 
 ### Viajes y escapadas
 
+- **Vuelos desde Lima:** JetSMART (portada pública, con tasas) y SKY (página pública de ofertas, precio base + tasas). Solo fechas futuras y solo ida. Se revisa robots.txt antes de cada lectura; sin consultar buscadores de reservas, iniciar sesión ni comprar.
+- **Historial:** avisa por una caída calculada de al menos 50 % frente al mínimo observado en los 30 días anteriores, con al menos tres días previos distintos. La primera lectura solo registra precios. Compara aerolínea, ruta, fecha, moneda y condiciones publicadas; JetSMART además conserva vuelo/hora/clase. SKY publica mínimos por fecha sin vuelo confirmado ni equipaje: el aviso expresa esa limitación. No es un descuento anunciado ni una tarifa final garantizada.
+- Los cambios de fecha, vuelo/clase de JetSMART o condiciones identificables crean una comparación nueva. No compara vuelos de distintas fechas ni monedas. Mantiene la referencia de una caída hasta siete días para reintentar entregas fallidas, siempre que el mismo precio vuelva a observarse; evita repetir avisos ya entregados.
+- Cobertura parcial: solo las tarifas destacadas que estas páginas muestran, no todas las combinaciones de destino y fecha. No consulta LATAM, Despegar ni Travelpayouts. No requiere un secreto nuevo.
+
 - Revisa el listado público de viajes de Diners: descuentos, hoteles y campañas de viajes nacionales/internacionales. Verifica las condiciones y las fechas de compra de las promociones candidatas antes de avisar.
 - Exige un descuento explícito de al menos 50 %. Excluye anuncios que solo dicen «hasta», cuotas sin intereses, regalos, campañas vencidas y campañas sin vigencia interpretable. Por eso es normal que no haya avisos aun cuando la página muestre beneficios.
-- Son **beneficios generales de Diners**, no cotizaciones de vuelos, hoteles o tours para fechas concretas. En vuelos se toma Lima como salida: se descartan otras salidas explícitas, y si la campaña es general el mensaje pide confirmar que incluya Lima.
+- Los avisos de Diners son **beneficios generales de Diners**, no cotizaciones de vuelos, hoteles o tours para fechas concretas. En vuelos se toma Lima como salida: se descartan otras salidas explícitas, y si la campaña es general el mensaje pide confirmar que incluya Lima.
 - No consulta tarifas en vivo de LATAM/Despegar, no reserva ni compra. Los avisos conservan condiciones y un enlace oficial. Las promociones con fechas o formatos que el lector no reconoce se omiten de forma conservadora.
 
 Pruebas locales de los nuevos grupos, sin enviar ni guardar memoria:

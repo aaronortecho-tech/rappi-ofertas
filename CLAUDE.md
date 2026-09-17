@@ -5,7 +5,7 @@ Este proyecto es un script de Python que corre en GitHub Actions cada 30 minutos
 ## Estructura
 
 - `monitor/catalogs.py`: grupos independientes hogar/viajes. Falabella/Sodimac usan `__NEXT_DATA__.props.pageProps.results`; se separan precios web de CMR y se calcula el porcentaje real sin redondear al alza. Diners usa tarjetas HTML `all__item` y condiciones con vigencias explícitas. Umbrales fijos: hogar 60 %, viajes 50 %. No tratar «hasta», cuotas o regalos como descuentos garantizados.
-- `.github/workflows/catalogos.yml`: cada 30 minutos, dos temas y memorias separados. Secretos `NTFY_TOPIC_HOGAR`, `NTFY_TOPIC_VIAJES`. Comparte `concurrency` con Rappi. Ripley, LATAM y Despegar están excluidos por bloqueo; no simular su cobertura ni evadir controles. El grupo viajes sigue beneficios Diners, no tarifas en vivo.
+- `.github/workflows/catalogos.yml`: cada 30 minutos, dos temas y memorias separados. Secretos `NTFY_TOPIC_HOGAR`, `NTFY_TOPIC_VIAJES`. Comparte `concurrency` con Rappi. Ripley, LATAM y Despegar están excluidos por bloqueo; no simular su cobertura ni evadir controles. El grupo viajes sigue beneficios Diners y precios publicados JetSMART/SKY; no tarifas garantizadas en vivo.
 
 - `monitor/main.py`: punto de entrada (`python -m monitor`). Coordina las secciones, filtra avisos repetidos y envía los mensajes.
 - `monitor/scan.py`: revisa restaurantes (navegador), tiendas (HTTP, por turnos) y cadenas (respaldo).
@@ -81,3 +81,5 @@ Lee FUENTES.md antes de ampliar. Su listado de candidatos no equivale a fuentes 
 - Se mantienen los tres temas ntfy y memorias separados existentes. No cambiar a un único tema, a una memoria compartida ni a frecuencias distintas por instrucciones de la propuesta original.
 - Productos >=60 %; viajes >=50 %. No sustituir por alertas de 25 % de caída histórica. Travelpayouts no está habilitado y requiere acceso/token; las demás fuentes propuestas necesitan verificación.
 - No publicar tópicos, ubicación, tokens ni respuestas VTEX completas (contienen campos de sesión innecesarios). Usar fixtures recortadas. Respetar bloqueos y robots.txt; no carrito, login ni compras.
+
+- `monitor/flights.py`: JetSMART/SKY desde Lima, autorizados por el usuario. Comparar caída >=50 % con mínimo de 30 días y tres días previos de historial. Mantener moneda, tasas, fecha, aerolínea y condiciones en la identidad. Nunca convertir precios base SKY en totales ni tarifas publicadas en reservas confirmadas. `Deal.reference_kind=flight_history` tiene formato y moneda propios. Referencias pendientes de envío en `flight_alerts`, limitadas a siete días; solo reintentar si se vuelve a observar el mismo precio. Pruebas con fixtures públicas recortadas, sin motor de reservas.
