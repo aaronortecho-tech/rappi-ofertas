@@ -25,9 +25,9 @@ def _short(text: str, limit: int) -> str:
 
 
 def offer_line(offer: Offer) -> str:
-    line = f"• -{offer.pct}% {_short(offer.name, 60)}: {format_price(offer.price)}"
+    line = f"🛒 {_short(offer.name, 90)}\n💰 {format_price(offer.price)}  |  -{offer.pct}%"
     if offer.regular_price:
-        line += f" (antes {format_price(offer.regular_price)})"
+        line += f"\nAntes: {format_price(offer.regular_price)}"
     if offer.pro_only:
         line += " [Rappi Pro]"
     return line
@@ -66,7 +66,7 @@ def alert_message(alert: Alert, show_distance: bool = True) -> str:
     if show_distance and alert.distance_km is not None:
         footer += f" · a {alert.distance_km:.1f} km"
     lines.append(footer)
-    return truncate_bytes("\n".join(lines))
+    return truncate_bytes("\n\n".join(lines))
 
 
 def in_quiet_hours(quiet: tuple[int, int] | None, now: float) -> bool:

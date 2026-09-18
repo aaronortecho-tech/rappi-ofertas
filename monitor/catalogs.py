@@ -27,9 +27,10 @@ from .privacy import PrivateFormatter
 from .state import State, offer_key
 from .vtex import SOURCES as VTEX_SOURCES, scan_home
 from .flights import scan_trips
+from .convenience import scan_convenience
 
 DINERS_URL = "https://dinersclubperu.pe/establecimientos/modotravel/categoria/viajes"
-UNAVAILABLE = {"hogar": "Ripley: acceso público bloqueado (403).",
+UNAVAILABLE = {"comida": "Mass y Listo: pendientes; no se verificó un catálogo con precios comparables automatizable.", "hogar": "Ripley: acceso público bloqueado (403).",
                "viajes": "LATAM y Despegar: acceso público bloqueado. No se consultan tarifas en vivo."}
 CATEGORIES = [("Tecnología", "cat40793/Tecnologia"), ("Muebles", "cat40700/Muebles"),
               ("Electrodomésticos", "cat40584/Electrohogar"), ("Hogar", "cat40474/Decoracion")]
@@ -320,12 +321,14 @@ def deal_text(deal):
                 f"Mínimo previo observado (ventana de 30 días): {deal.currency} {deal.regular:,.2f}\n"
                 f"Comparación basada en al menos 3 días previos, no descuento anunciado.\n"
                 f"{deal.condition}\n{deal.url}")
-    lines = [f"-{deal.pct}% · {deal.name}"]
+    lines = [f"🛒 {deal.name}"]
     if deal.price is not None:
-        lines.append(f"S/ {deal.price:,.2f} · referencia publicada S/ {deal.regular:,.2f}")
+        lines.append(f"💰 S/ {deal.price:,.2f}  |  -{deal.pct}%")
+        lines.append(f"Antes (publicado): S/ {deal.regular:,.2f}")
         lines.append(f"{deal.source} · vendedor: {deal.seller}")
         lines.append("Historial: primera observación." if deal.previous_min is None else
                      f"Mínimo observado previo (hasta 30 días): S/ {deal.previous_min:,.2f}")
+    if deal.price is None: lines.append(f"Descuento: {deal.pct}%")
     lines += [deal.condition, deal.url]
     return "\n".join(lines)
 
@@ -344,15 +347,15 @@ def deliver(deals, state, notifier, now, group, dry_run=False):
     sent, failed = 0, False
     # Máximo 8 mensajes: una oferta detallada por mensaje de viaje,
     # hasta 3 productos por mensaje de hogar. Nunca marcar lo que no se envió.
-    size = 3 if group == 'hogar' else 1
+    size = 1 if group == 'viajes' else 3
     for start in range(0, min(len(pending), size * 8), size):
         batch = pending[start:start + size]
-        message = "\n\n".join(deal_text(d) for d in batch)
+        message = "\n\n──────────\n\n".join(deal_text(d) for d in batch)
         if group == 'viajes' and batch[0].source == 'Diners': message += "\nBeneficio general; para vuelos, confirmar aplicabilidad a salida de Lima."
         # Reducir el lote si excede el límite de ntfy, sin perder ofertas en la memoria.
         while len(message.encode('utf-8')) > 3600 and len(batch) > 1:
-            batch = batch[:-1]; message = "\n\n".join(deal_text(d) for d in batch)
-        title = f"{'🏠' if group == 'hogar' else '✈️'} {len(batch)} {'ofertas de hogar/tecnología' if group == 'hogar' else 'oferta de viajes'}"
+            batch = batch[:-1]; message = "\n\n──────────\n\n".join(deal_text(d) for d in batch)
+        title = f"{'🏠' if group == 'hogar' else ('🛒' if group == 'comida' else '✈️')} {len(batch)} {'ofertas de hogar/tecnología' if group == 'hogar' else ('ofertas de comida/bazar' if group == 'comida' else 'oferta de viajes')}"
         priority = 2 if in_quiet_hours(notifier.cfg.quiet_hours, now) else 4
         if notifier.send(title, message, priority=priority, click=batch[0].url):
             sent += len(batch)
@@ -365,18 +368,18 @@ def deliver(deals, state, notifier, now, group, dry_run=False):
 def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notifier=None, state_path=None):
     now = time.time() if now is None else now
     cfg = Config.from_env()
-    cfg.ntfy_topic = os.environ.get('NTFY_TOPIC_HOGAR' if group == 'hogar' else 'NTFY_TOPIC_VIAJES', '').strip() or None
+    cfg.ntfy_topic = os.environ.get({'hogar':'NTFY_TOPIC_HOGAR', 'viajes':'NTFY_TOPIC_VIAJES', 'comida':'NTFY_TOPIC'}[group], '').strip() or None
     if cfg.ntfy_topic and not re.fullmatch(r'[A-Za-z0-9_-]{1,64}', cfg.ntfy_topic):
         raise ValueError('El tema de notificaciones no tiene un formato válido')
     if not cfg.ntfy_topic and not dry_run and notifier is None:
         raise ValueError('Falta el secreto del tema de notificaciones de ' + group)
-    cfg.min_discount = 60 if group == 'hogar' else 50
+    cfg.min_discount = 50 if group == 'viajes' else 60
     log = logging.getLogger('catalogs')
     privacy = PrivateFormatter(cfg)
     for handler in logging.getLogger().handlers: handler.setFormatter(privacy)
     state_path = state_path or f'state/{group}.json'
     state = CatalogState.load(state_path, log)
-    scanner = scanner or (scan_home if group == 'hogar' else scan_trips)
+    scanner = scanner or {'hogar': scan_home, 'viajes': scan_trips, 'comida': scan_convenience}[group]
     deals, reports = scanner(state, now)
     reports = [(name, count, privacy.redact(error) if error else None) for name, count, error in reports]
     notifier = notifier or Notifier(cfg, HttpClient(), dry_run=dry_run, log=log)
@@ -395,7 +398,7 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
         lines += [f"{'⚠️' if error else '✅'} {name}: {error or str(count) + ' revisados'}" for name, count, error in reports]
         lines.append(UNAVAILABLE[group])
         if group == 'viajes': lines.append('Diners: descuentos explícitos de 50%. JetSMART/SKY: caídas de 50% del precio publicado desde Lima, frente al mínimo observado en al menos 3 días previos (ventana de 30 días). Al inicio solo se construye historial. No son tarifas garantizadas en vivo; revisar tasas y equipaje.')
-        if not notifier.send('🧪 Prueba de ' + ('Hogar y tecnología' if group == 'hogar' else 'Viajes y escapadas'), '\n'.join(lines), priority=3): failed = True
+        if not notifier.send('🧪 Prueba de ' + {'hogar':'Hogar y tecnología', 'viajes':'Viajes y escapadas', 'comida':'Comida y bazar'}[group], '\n'.join(lines), priority=3): failed = True
     state.prune(now, 336)
     if not dry_run: state.save(state_path, now)
     summary = os.environ.get('GITHUB_STEP_SUMMARY')
@@ -409,7 +412,7 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--grupo', choices=['hogar', 'viajes'], required=True)
+    parser.add_argument('--grupo', choices=['hogar', 'viajes', 'comida'], required=True)
     parser.add_argument('--sin-enviar', action='store_true')
     parser.add_argument('--prueba', action='store_true')
     args = parser.parse_args()

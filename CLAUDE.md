@@ -83,3 +83,6 @@ Lee FUENTES.md antes de ampliar. Su listado de candidatos no equivale a fuentes 
 - No publicar tópicos, ubicación, tokens ni respuestas VTEX completas (contienen campos de sesión innecesarios). Usar fixtures recortadas. Respetar bloqueos y robots.txt; no carrito, login ni compras.
 
 - `monitor/flights.py`: JetSMART/SKY desde Lima, autorizados por el usuario. Comparar caída >=50 % con mínimo de 30 días y tres días previos de historial. Mantener moneda, tasas, fecha, aerolínea y condiciones en la identidad. Nunca convertir precios base SKY en totales ni tarifas publicadas en reservas confirmadas. `Deal.reference_kind=flight_history` tiene formato y moneda propios. Referencias pendientes de envío en `flight_alerts`, limitadas a siete días; solo reintentar si se vuelve a observar el mismo precio. Pruebas con fixtures públicas recortadas, sin motor de reservas.
+
+- `monitor/convenience.py`: Tambo y Makro, grupo CLI `comida`, usa `NTFY_TOPIC` y state/comida.json. Respeta robots y bloqueo por dominio, umbral >=60 y <95 %, precio por presentación. No necesita secreto nuevo. Mass/Listo no activos.
+- El usuario usa ntfy móvil y eligió claridad/separación: no insertar asteriscos Markdown ni caracteres de alfabetos alternativos para simular negrita. Mantener nombre, precio/descuento y referencia en renglones separados y condiciones visibles.

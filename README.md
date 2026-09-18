@@ -6,7 +6,7 @@ El proyecto mantiene tres temas independientes de ntfy. Los nombres reales de lo
 
 | Grupo | Fuentes activas | Mínimo | Secreto |
 |---|---|---|---|
-| Ofertas del día | Rappi y Rappi Market/Turbo | 60 % | `NTFY_TOPIC` |
+| Ofertas del día | Rappi, Rappi Market/Turbo, Tambo y Makro | 60 % | `NTFY_TOPIC` |
 | Hogar y tecnología | Falabella, Sodimac, Promart, Oechsle, Estilos, Casaideas y Shopstar, con vendedores terceros | 60 % | `NTFY_TOPIC_HOGAR` |
 | Viajes y escapadas | Diners Club y tarifas publicadas de JetSMART/SKY desde Lima | 50 % | `NTFY_TOPIC_VIAJES` |
 
@@ -157,3 +157,11 @@ Para las pruebas automáticas: `pip install -r requirements-dev.txt` y luego `py
 ## Comprobación de la instalación
 
 La prueba manual termina con error si falla alguna sección o si ntfy rechaza los avisos. Un aviso aceptado por ntfy no confirma que el celular lo haya mostrado: comprueba que llegue la notificación de prueba. Ante respuestas 403 o 429 de Rappi se detiene la ronda sin intentar el respaldo. Si no se puede guardar la memoria en GitHub, la ejecución también indica el error.
+
+## Tambo y Makro y lectura en el celular
+
+Tambo y Makro se revisan cada 30 minutos en el grupo original de comida/bazar (`NTFY_TOPIC`). Se leen sus catálogos públicos disponibles, no todo el stock por dirección; descuento mínimo 60 %, con disponibilidad y condiciones por confirmar al comprar. Los precios corresponden a la presentación o pack indicado. Memoria propia en `state/comida.json`; Mass y Listo siguen pendientes. Ver FUENTES.md.
+
+Los avisos separan nombre, precio/descuento y precio anterior en líneas distintas, con espacio entre productos. Se prioriza texto legible en la app móvil: la negrita Markdown está documentada para la web, no se garantiza en el teléfono. No se cambian umbrales ni se reenvían ofertas antiguas solo por cambiar el formato.
+
+Prueba manual de tiendas directas: `python -m monitor.catalogs --grupo comida --sin-enviar --prueba`. En GitHub Actions puede elegirse `grupo=comida` para probar solo ese tema.

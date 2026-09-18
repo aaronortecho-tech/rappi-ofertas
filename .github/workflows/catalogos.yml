@@ -17,6 +17,7 @@ on:
           - todos
           - hogar
           - viajes
+          - comida
 
 permissions:
   contents: write
@@ -41,7 +42,7 @@ jobs:
       - name: Instalar dependencias
         run: python -m pip install -r requirements.txt
       - name: Hogar y tecnología
-        if: ${{ github.event_name != 'workflow_dispatch' || inputs.grupo != 'viajes' }}
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.grupo == 'todos' || inputs.grupo == 'hogar' }}
         env:
           NTFY_TOPIC_HOGAR: ${{ secrets.NTFY_TOPIC_HOGAR }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
@@ -49,22 +50,30 @@ jobs:
           MODO_PRUEBA: ${{ github.event_name == 'workflow_dispatch' && inputs.prueba && 'si' || 'no' }}
         run: python -m monitor.catalogs --grupo hogar
       - name: Viajes y escapadas
-        if: ${{ !cancelled() && (github.event_name != 'workflow_dispatch' || inputs.grupo != 'hogar') }}
+        if: ${{ !cancelled() && (github.event_name != 'workflow_dispatch' || inputs.grupo == 'todos' || inputs.grupo == 'viajes') }}
         env:
           NTFY_TOPIC_VIAJES: ${{ secrets.NTFY_TOPIC_VIAJES }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
           HORAS_SILENCIO: ${{ vars.HORAS_SILENCIO }}
           MODO_PRUEBA: ${{ github.event_name == 'workflow_dispatch' && inputs.prueba && 'si' || 'no' }}
         run: python -m monitor.catalogs --grupo viajes
+      - name: Comida y bazar (Tambo y Makro)
+        if: ${{ !cancelled() && (github.event_name != 'workflow_dispatch' || inputs.grupo == 'todos' || inputs.grupo == 'comida') }}
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          HORAS_SILENCIO: ${{ vars.HORAS_SILENCIO }}
+          MODO_PRUEBA: ${{ github.event_name == 'workflow_dispatch' && inputs.prueba && 'si' || 'no' }}
+        run: python -m monitor.catalogs --grupo comida
       - name: Guardar memoria de los nuevos grupos
         if: ${{ !cancelled() }}
         run: |
-          if [ -z "$(git status --porcelain -- state/hogar.json state/viajes.json)" ]; then
+          if [ -z "$(git status --porcelain -- state/hogar.json state/viajes.json state/comida.json)" ]; then
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for archivo in state/hogar.json state/viajes.json; do
+          for archivo in state/hogar.json state/viajes.json state/comida.json; do
             if [ -f "$archivo" ]; then git add "$archivo"; fi
           done
           git commit --quiet -m "Actualizar memoria de hogar y viajes"
