@@ -5,7 +5,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {},
- "saved_at": 1789771763,
+ "saved_at": 1789773809,
  "history": {
   "92988d6fcf5d3d8d": [
    [
@@ -588,6 +588,12 @@
     20714,
     175.0
    ]
+  ],
+  "be28f0237fc5ebfa": [
+   [
+    20714,
+    389.52
+   ]
   ]
  },
  "cursors": {
@@ -628,6 +634,10 @@
     "a2abfdcdc5f411b6": [
      20714,
      12.413
+    ],
+    "be28f0237fc5ebfa": [
+     20714,
+     12.358
     ]
    },
    "JetSMART|PEN|nacional": {
