@@ -110,7 +110,8 @@ def scan_listings(state, now, rate, http_factory=HttpClient):
         for step in range(len(SEARCHES)):
             if read >= budget: break
             op, kind, district = SEARCHES[(cursor + step) % len(SEARCHES)]
-            page, last = 1, 1
+            page = max(1, int(data.get('pagina', 1))) if step == 0 else 1
+            last = page
             while page <= last and read < budget:
                 url = f'{BASE}/{op}/{kind}/lima/{district}/{FRESH}' + (f'/pagina{page}' if page > 1 else '')
                 if not rules.can_fetch(client.user_agent, url): raise ValueError('robots.txt ya no permite ' + url)
@@ -130,8 +131,10 @@ def scan_listings(state, now, rate, http_factory=HttpClient):
                     store[key] = dict(parsed, flags=flags, p=prices[-8:], f=old.get('f', day), r=day, dist=district)
                     fresh.append(key)
                 page += 1
+                data['pagina'] = page
             if page <= last: break  # se acabó el presupuesto a mitad de la búsqueda: se retoma la próxima vez
             data['turno'] = (cursor + step + 1) % len(SEARCHES)
+            data['pagina'] = 1
     except Exception as exc:
         error = 'acceso bloqueado; no se insiste' if isinstance(exc, Blocked) else type(exc).__name__ + ': ' + str(exc)[:140]
     for key in [k for k, v in store.items() if v.get('r', 0) < day - KEEP_DAYS]: store.pop(key)

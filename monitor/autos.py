@@ -254,7 +254,10 @@ def scan_autos(state, now, http_factory=HttpClient):
             if ad_id in ads: ads[ad_id]['x'] = day
         # Primero los avisos nuevos (los más recientes antes), después los leídos hace más tiempo.
         queue = sorted((i for i in listed if i not in ads), key=int, reverse=True)
-        queue += sorted((i for i in listed if i in ads), key=lambda i: ads[i].get('r', 0))
+        known = sorted((i for i in listed if i in ads), key=lambda i: ads[i].get('r', 0))
+        # Reservar un tercio para precios conocidos; el inventario nuevo no debe impedir releerlos.
+        rereads = min(len(known), budget // 3)
+        queue = queue[:budget - rereads] + known[:rereads] + queue[budget - rereads:] + known[rereads:]
         for ad_id in queue[:budget]:
             url = listed[ad_id]
             if '?' in url or not rules.can_fetch(client.user_agent, url): continue
@@ -284,7 +287,7 @@ def scan_autos(state, now, http_factory=HttpClient):
                      f'papeletas y siniestros antes de decidir. SUNARP: {SUNARP}')
         deals.append(Deal('Neoauto', ad_id, record['nombre'], record['u'], int(points), price=record['p'][-1][1],
                           condition='\n'.join(lines), category='Autos', currency=record['mon'], reference_kind='autos'))
-    deals = sorted(deals, key=lambda d: -d.pct)[:MAX_ALERTS]
+    deals = sorted(deals, key=lambda d: -d.pct)  # deliver limita después de deduplicar
     models = len({k[:3] for k in medians})
     logging.getLogger('catalogs').info('Neoauto: juntando datos · %d modelos-año con %d+ comparables · %d avisos en memoria',
                                        models, MIN_COMPARABLES, len(ads))

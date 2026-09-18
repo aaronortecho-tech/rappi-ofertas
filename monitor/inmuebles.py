@@ -300,4 +300,4 @@ def scan_inmuebles(state, now, http_factory=HttpClient):
     counts = [sum(v['op'] == op for v in listings.values()) for op in ('venta', 'alquiler')]
     logging.getLogger('catalogs').info('Nexo: %d proyectos · Infocasas: %d ventas y %d alquileres en memoria',
                                        len(store), *counts)
-    return sorted(deals, key=lambda d: -d.pct)[:MAX_ALERTS], reports + more
+    return sorted(deals, key=lambda d: -d.pct), reports + more  # límite después de deduplicar

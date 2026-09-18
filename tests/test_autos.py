@@ -134,3 +134,32 @@ def test_price_range_only_filters_alerts(monkeypatch):
     monkeypatch.setenv('AUTOS_PRECIO_MIN', '10,000')
     monkeypatch.setenv('AUTOS_PRECIO_MAX', 'mucho')
     assert price_range() == (10000.0, float('inf'))
+
+
+def test_scan_keeps_all_candidates_and_reserves_known_price_reads(monkeypatch):
+    import monitor.autos as module
+    from monitor.catalogs import deliver, Deal
+    from monitor.config import Config
+    monkeypatch.setenv('LECTURAS_AUTOS', '12')
+    listed = {str(i): f'https://neoauto.com/auto/usado/kia-rio-2020-{i}' for i in range(100000, 100600)}
+    monkeypatch.setattr(module, 'sitemap_ads', lambda html: listed)
+    monkeypatch.setattr(module, 'parse_ad', lambda html, url: ('ignored', car(15000) | {'precio': 15000}))
+    monkeypatch.setattr(module, 'evaluate', lambda *args: (80, ['Candidato']))
+    calls = []
+    class Client:
+        user_agent = 'test'
+        def __init__(self, **kw): pass
+        def get(self, url):
+            if '/auto/' in url: calls.append(url.rsplit('-', 1)[-1])
+            return 'User-agent: *\nDisallow:'
+    state = CatalogState()
+    state.datos['neoauto'] = {'avisos': {str(i): car(15000) for i in range(100000, 100004)}}
+    deals, reports = scan_autos(state, DAY * 86400, Client)
+    assert len(calls) == 12 and set(str(i) for i in range(100000, 100004)) <= set(calls)
+    assert len(deals) == 12
+    for deal in deals[:3]: state.mark_seen(deal.key, DAY * 86400)
+    class Sink:
+        cfg = Config()
+        def send(self, *args, **kwargs): return True
+    sent, failed = deliver(deals, state, Sink(), DAY * 86400, 'autos')
+    assert sent == 3 and not failed and len(state.seen) == 6

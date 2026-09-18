@@ -100,3 +100,26 @@ def test_rotation_resumes_unfinished_search_and_stops_on_block(monkeypatch):
     _, _, error = scan_listings(state, DAY * 86400, 3.5, Blocking)
     assert error == 'acceso bloqueado; no se insiste' and state.datos['infocasas']['turno'] == 5
     assert len(SEARCHES) == 43 * 4
+
+
+def test_resume_page_when_one_search_exceeds_round_budget(monkeypatch):
+    import json
+    monkeypatch.setenv('PAGINAS_INFOCASAS', '10')
+    calls = []
+    class Client:
+        user_agent = 'Mozilla/5.0'
+        def __init__(self, **kw): pass
+        def get(self, url):
+            if url.endswith('robots.txt'): return 'User-agent: *\nDisallow:'
+            calls.append(url)
+            return page()
+    import monitor.infocasas as module
+    monkeypatch.setattr(module, 'listing_data', lambda html: ([], 25))
+    state = CatalogState()
+    scan_listings(state, DAY * 86400, 3.5, Client)
+    assert state.datos['infocasas'].get('turno', 0) == 0
+    assert state.datos['infocasas']['pagina'] == 11
+    calls.clear()
+    scan_listings(state, DAY * 86400, 3.5, Client)
+    assert calls[0].endswith('/pagina11')
+    assert state.datos['infocasas']['pagina'] == 21
