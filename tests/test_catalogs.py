@@ -184,3 +184,14 @@ def test_dry_run_does_not_write_memory(tmp_path):
     assert run_group('hogar', dry_run=True, state_path=path,
                      scanner=lambda s,n: ([], [('Prueba', 0, None)])) == 0
     assert not path.exists()
+
+
+def test_home_message_is_short_for_the_phone():
+    base = Deal('Falabella', '1', 'Sofá 3 cuerpos', 'https://www.falabella.com.pe/x', 62, 380.0, 1000.0,
+                'Baraka Home', 'Precio web; confirmar stock y envío', 'Muebles')
+    assert deal_text(base).splitlines() == ['🛒 Sofá 3 cuerpos', '💰 S/ 380.00  |  -62%',
+                                            'Antes (publicado): S/ 1,000.00', 'https://www.falabella.com.pe/x']
+    cmr = deal_text(replace(base, condition='Requiere tarjeta CMR; confirmar condiciones y envío'))
+    assert '💳 Solo con tarjeta CMR' in cmr and 'vendedor' not in cmr
+    assert 'Ojo: estuvo a S/ 350.00' in deal_text(replace(base, previous_min=350.0))
+    assert 'Ojo' not in deal_text(replace(base, previous_min=500.0))

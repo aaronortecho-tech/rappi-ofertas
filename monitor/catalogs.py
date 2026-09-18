@@ -354,11 +354,14 @@ def deal_text(deal):
     if deal.price is not None:
         lines.append(f"💰 S/ {deal.price:,.2f}  |  -{deal.pct}%")
         lines.append(f"Antes (publicado): S/ {deal.regular:,.2f}")
-        lines.append(f"{deal.source} · vendedor: {deal.seller}")
-        lines.append("Historial: primera observación." if deal.previous_min is None else
-                     f"Mínimo observado previo (hasta 30 días): S/ {deal.previous_min:,.2f}")
+        # El usuario lee en el celular: vendedor, historial y avisos genéricos de stock se ven al abrir
+        # el enlace. Solo se muestra el historial cuando advierte que antes estuvo más barato.
+        if deal.previous_min is not None and deal.previous_min < deal.price:
+            lines.append(f"Ojo: estuvo a S/ {deal.previous_min:,.2f} en los últimos 30 días")
     if deal.price is None: lines.append(f"Descuento: {deal.pct}%")
-    lines += [deal.condition, deal.url]
+    if deal.condition.startswith("Requiere tarjeta CMR"): lines.append("💳 Solo con tarjeta CMR")
+    elif not deal.condition.startswith(("Precio web", "Precio publicado")): lines.append(deal.condition)
+    lines.append(deal.url)
     return "\n".join(lines)
 
 
