@@ -1,0 +1,3812 @@
+{
+ "version": 1,
+ "started_at": null,
+ "seen": {},
+ "failures": {},
+ "last_failure_notice": null,
+ "store_list": {},
+ "saved_at": 1789754765,
+ "history": {},
+ "cursors": {},
+ "flight_alerts": {},
+ "datos": {
+  "neoauto": {
+   "avisos": {
+    "1886766": {
+     "u": "https://neoauto.com/auto/usado/kia-picanto-2018-1886766",
+     "t": "usado",
+     "m": "kia",
+     "mo": "picanto",
+     "v": "",
+     "a": 2018,
+     "km": 37800,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Kia Picanto 2018",
+     "p": [
+      [
+       20714,
+       6500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886765": {
+     "u": "https://neoauto.com/auto/usado/hyundai-creta-2019-1886765",
+     "t": "usado",
+     "m": "hyundai",
+     "mo": "creta",
+     "v": "",
+     "a": 2019,
+     "km": 37800,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Hyundai Creta 2019",
+     "p": [
+      [
+       20714,
+       9800.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886764": {
+     "u": "https://neoauto.com/auto/usado/toyota-hilux-2025-1886764",
+     "t": "usado",
+     "m": "toyota",
+     "mo": "hilux",
+     "v": "full equipada",
+     "a": 2025,
+     "km": 25000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Toyota Hilux 2025",
+     "p": [
+      [
+       20714,
+       37990.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886763": {
+     "u": "https://neoauto.com/auto/usado/nissan-versa-2013-1886763",
+     "t": "usado",
+     "m": "nissan",
+     "mo": "versa",
+     "v": "",
+     "a": 2013,
+     "km": 197500,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Nissan Versa 2013",
+     "p": [
+      [
+       20714,
+       8300.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886762": {
+     "u": "https://neoauto.com/auto/usado/hyundai-i30-2019-1886762",
+     "t": "usado",
+     "m": "hyundai",
+     "mo": "i30",
+     "v": "",
+     "a": 2019,
+     "km": 37800,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Hyundai I30 2019",
+     "p": [
+      [
+       20714,
+       5000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886760": {
+     "u": "https://neoauto.com/auto/usado/jeep-compass-2020-1886760",
+     "t": "usado",
+     "m": "jeep",
+     "mo": "compass",
+     "v": "4x4",
+     "a": 2020,
+     "km": 100500,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "La Molina",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Jeep Compass 2020",
+     "p": [
+      [
+       20714,
+       18500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886759": {
+     "u": "https://neoauto.com/auto/usado/subaru-impreza-2019-1886759",
+     "t": "usado",
+     "m": "subaru",
+     "mo": "impreza",
+     "v": "1.6 awd",
+     "a": 2019,
+     "km": 43000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Isidro",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Subaru Impreza 2019",
+     "p": [
+      [
+       20714,
+       14500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886758": {
+     "u": "https://neoauto.com/auto/usado/great-wall-wingle-5-2025-1886758",
+     "t": "usado",
+     "m": "great wall",
+     "mo": "wingle 5",
+     "v": "luxury",
+     "a": 2025,
+     "km": 15000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Miraflores",
+     "pub": "Publicado ayer",
+     "flags": [
+      "gnv"
+     ],
+     "nombre": "Great Wall Wingle 5 2025",
+     "p": [
+      [
+       20714,
+       14200.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886757": {
+     "u": "https://neoauto.com/auto/usado/lexus-rx-350-f-sport-2018-1886757",
+     "t": "usado",
+     "m": "lexus",
+     "mo": "rx 350 f-sport",
+     "v": "",
+     "a": 2018,
+     "km": 30500,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Miraflores",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Lexus Rx 350 F-Sport 2018",
+     "p": [
+      [
+       20714,
+       31500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886755": {
+     "u": "https://neoauto.com/auto/usado/hyundai-accent-2014-1886755",
+     "t": "usado",
+     "m": "hyundai",
+     "mo": "accent",
+     "v": "",
+     "a": 2014,
+     "km": 105500,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado ayer",
+     "flags": [
+      "glp"
+     ],
+     "nombre": "Hyundai Accent 2014",
+     "p": [
+      [
+       20714,
+       10500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886753": {
+     "u": "https://neoauto.com/auto/usado/audi-s3-2014-1886753",
+     "t": "usado",
+     "m": "jac",
+     "mo": "s3",
+     "v": "2.0 tfsi stronic 300",
+     "a": 2014,
+     "km": 80000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Jac S3 2014",
+     "p": [
+      [
+       20714,
+       22500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886752": {
+     "u": "https://neoauto.com/auto/usado/volkswagen-taos-2022-1886752",
+     "t": "usado",
+     "m": "volkswagen",
+     "mo": "taos",
+     "v": "",
+     "a": 2022,
+     "km": 15300,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Isidro",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Volkswagen Taos 2022",
+     "p": [
+      [
+       20714,
+       23500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886751": {
+     "u": "https://neoauto.com/auto/usado/kia-cerato-2011-1886751",
+     "t": "usado",
+     "m": "kia",
+     "mo": "cerato",
+     "v": "",
+     "a": 2011,
+     "km": 380,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Puente Piedra",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Kia Cerato 2011",
+     "p": [
+      [
+       20714,
+       7700.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886750": {
+     "u": "https://neoauto.com/auto/usado/audi-a3-sedan-2018-1886750",
+     "t": "usado",
+     "m": "audi",
+     "mo": "a3 sedan",
+     "v": "",
+     "a": 2018,
+     "km": 46000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Borja",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Audi A3 Sedan 2018",
+     "p": [
+      [
+       20714,
+       23400.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886749": {
+     "u": "https://neoauto.com/auto/usado/toyota-rav4-2019-1886749",
+     "t": "usado",
+     "m": "toyota",
+     "mo": "rav4",
+     "v": "",
+     "a": 2019,
+     "km": 50000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Isidro",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Toyota Rav4 2019",
+     "p": [
+      [
+       20714,
+       23500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886748": {
+     "u": "https://neoauto.com/auto/usado/hyundai-elantra-2022-1886748",
+     "t": "usado",
+     "m": "hyundai",
+     "mo": "elantra",
+     "v": "new elantra gl 1.6 at full glp",
+     "a": 2022,
+     "km": 56000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Cayma",
+     "pub": "Publicado ayer",
+     "flags": [
+      "glp"
+     ],
+     "nombre": "Hyundai Elantra 2022",
+     "p": [
+      [
+       20714,
+       16500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886747": {
+     "u": "https://neoauto.com/auto/usado/ford-expedition-2009-1886747",
+     "t": "usado",
+     "m": "ford",
+     "mo": "expedition",
+     "v": "",
+     "a": 2009,
+     "km": 168000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado ayer",
+     "flags": [
+      "glp"
+     ],
+     "nombre": "Ford Expedition 2009",
+     "p": [
+      [
+       20714,
+       12500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886746": {
+     "u": "https://neoauto.com/auto/usado/honda-cr-v-2022-1886746",
+     "t": "usado",
+     "m": "honda",
+     "mo": "cr-v",
+     "v": "ex",
+     "a": 2022,
+     "km": 62000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Surquillo",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Honda Cr-V 2022",
+     "p": [
+      [
+       20714,
+       26500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886745": {
+     "u": "https://neoauto.com/auto/usado/bmw-540i-1997-1886745",
+     "t": "usado",
+     "m": "bmw",
+     "mo": "540i",
+     "v": "",
+     "a": 1997,
+     "km": 101000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Bmw 540I 1997",
+     "p": [
+      [
+       20714,
+       16500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886743": {
+     "u": "https://neoauto.com/auto/usado/citroen-grand-c4-picasso-2011-1886743",
+     "t": "usado",
+     "m": "citroen",
+     "mo": "grand c4 picasso",
+     "v": "",
+     "a": 2011,
+     "km": 141000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Miraflores",
+     "pub": "Publicado ayer",
+     "flags": [
+      "glp"
+     ],
+     "nombre": "Citroen Grand C4 Picasso 2011",
+     "p": [
+      [
+       20714,
+       7500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886741": {
+     "u": "https://neoauto.com/auto/seminuevo/bmw-520-i-2023-1886741",
+     "t": "seminuevo",
+     "m": "bmw",
+     "mo": "520-i",
+     "v": "",
+     "a": 2023,
+     "km": 38645,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Bmw 520-I 2023",
+     "p": [
+      [
+       20714,
+       50991.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886740": {
+     "u": "https://neoauto.com/auto/usado/dodge-charger-2012-1886740",
+     "t": "usado",
+     "m": "dodge",
+     "mo": "charger",
+     "v": "",
+     "a": 2012,
+     "km": 78000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "La Molina",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Dodge Charger 2012",
+     "p": [
+      [
+       20714,
+       15000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886739": {
+     "u": "https://neoauto.com/auto/usado/kia-sportage-2015-1886739",
+     "t": "usado",
+     "m": "kia",
+     "mo": "sportage",
+     "v": "2.0 at ex 4x2",
+     "a": 2015,
+     "km": 100000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Villa El Salvador",
+     "pub": "Publicado ayer",
+     "flags": [
+      "gnv"
+     ],
+     "nombre": "Kia Sportage 2015",
+     "p": [
+      [
+       20714,
+       14500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886738": {
+     "u": "https://neoauto.com/auto/usado/pontiac-g-5-2009-1886738",
+     "t": "usado",
+     "m": "pontiac",
+     "mo": "g-5",
+     "v": "gt",
+     "a": 2009,
+     "km": 100000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Magdalena del Mar",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Pontiac G-5 2009",
+     "p": [
+      [
+       20714,
+       5500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886737": {
+     "u": "https://neoauto.com/auto/usado/bmw-330-ci-2001-1886737",
+     "t": "usado",
+     "m": "bmw",
+     "mo": "330-ci",
+     "v": "330 ci",
+     "a": 2001,
+     "km": 121000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Bmw 330-Ci 2001",
+     "p": [
+      [
+       20714,
+       12990.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886735": {
+     "u": "https://neoauto.com/auto/seminuevo/volkswagen-jetta-2023-1886735",
+     "t": "seminuevo",
+     "m": "volkswagen",
+     "mo": "jetta",
+     "v": "highline 250tsi 1.4l tip",
+     "a": 2023,
+     "km": 12028,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "La Molina",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Volkswagen Jetta 2023",
+     "p": [
+      [
+       20714,
+       24900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886734": {
+     "u": "https://neoauto.com/auto/usado/volkswagen-amarok-2020-1886734",
+     "t": "usado",
+     "m": "volkswagen",
+     "mo": "amarok",
+     "v": "highline bitdi 4x4-at extreme",
+     "a": 2020,
+     "km": 88400,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Yanahuara",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Volkswagen Amarok 2020",
+     "p": [
+      [
+       20714,
+       25700.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886733": {
+     "u": "https://neoauto.com/auto/usado/nissan-x-trail-2019-1886733",
+     "t": "usado",
+     "m": "nissan",
+     "mo": "x-trail",
+     "v": "",
+     "a": 2019,
+     "km": 105000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Nissan X-Trail 2019",
+     "p": [
+      [
+       20714,
+       17900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886726": {
+     "u": "https://neoauto.com/auto/usado/audi-q7-2011-1886726",
+     "t": "usado",
+     "m": "audi",
+     "mo": "q7",
+     "v": "",
+     "a": 2011,
+     "km": 180000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Isidro",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Audi Q7 2011",
+     "p": [
+      [
+       20714,
+       18000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886725": {
+     "u": "https://neoauto.com/auto/usado/dongfeng-joyear-2020-1886725",
+     "t": "usado",
+     "m": "dongfeng",
+     "mo": "joyear",
+     "v": "",
+     "a": 2020,
+     "km": 37000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Dongfeng Joyear 2020",
+     "p": [
+      [
+       20714,
+       14000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886722": {
+     "u": "https://neoauto.com/auto/usado/mitsubishi-l200-2009-1886722",
+     "t": "usado",
+     "m": "mitsubishi",
+     "mo": "l200",
+     "v": "",
+     "a": 2009,
+     "km": 138,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Ica",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Mitsubishi L200 2009",
+     "p": [
+      [
+       20714,
+       13300.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886719": {
+     "u": "https://neoauto.com/auto/usado/toyota-yaris-2005-1886719",
+     "t": "usado",
+     "m": "toyota",
+     "mo": "yaris",
+     "v": "gl",
+     "a": 2005,
+     "km": 156000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Borja",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Toyota Yaris 2005",
+     "p": [
+      [
+       20714,
+       6500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886718": {
+     "u": "https://neoauto.com/auto/usado/mazda-cx-9-2019-1886718",
+     "t": "usado",
+     "m": "mazda",
+     "mo": "cx-9",
+     "v": "",
+     "a": 2019,
+     "km": 69000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Miguel",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Mazda Cx-9 2019",
+     "p": [
+      [
+       20714,
+       23900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886717": {
+     "u": "https://neoauto.com/auto/seminuevo/jetour-x70-2023-1886717",
+     "t": "seminuevo",
+     "m": "jetour",
+     "mo": "x70",
+     "v": "",
+     "a": 2023,
+     "km": 64330,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Surquillo",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Jetour X70 2023",
+     "p": [
+      [
+       20714,
+       15900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886715": {
+     "u": "https://neoauto.com/auto/usado/honda-pilot-2022-1886715",
+     "t": "usado",
+     "m": "honda",
+     "mo": "pilot",
+     "v": "exl",
+     "a": 2022,
+     "km": 50040,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Honda Pilot 2022",
+     "p": [
+      [
+       20714,
+       33500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886714": {
+     "u": "https://neoauto.com/auto/usado/hyundai-tucson-2025-1886714",
+     "t": "usado",
+     "m": "hyundai",
+     "mo": "tucson",
+     "v": "full",
+     "a": 2025,
+     "km": 8000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Miguel",
+     "pub": "Publicado ayer",
+     "flags": [
+      "glp"
+     ],
+     "nombre": "Hyundai Tucson 2025",
+     "p": [
+      [
+       20714,
+       26500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886713": {
+     "u": "https://neoauto.com/auto/usado/bmw-320-2016-1886713",
+     "t": "usado",
+     "m": "bmw",
+     "mo": "320",
+     "v": "berlina",
+     "a": 2016,
+     "km": 46200,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Miguel",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Bmw 320 2016",
+     "p": [
+      [
+       20714,
+       16200.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886712": {
+     "u": "https://neoauto.com/auto/usado/kia-rio-2012-1886712",
+     "t": "usado",
+     "m": "kia",
+     "mo": "rio",
+     "v": "1.4hb at",
+     "a": 2012,
+     "km": 180000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lurigancho-Chosica",
+     "pub": "Publicado ayer",
+     "flags": [
+      "glp"
+     ],
+     "nombre": "Kia Rio 2012",
+     "p": [
+      [
+       20714,
+       8000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886711": {
+     "u": "https://neoauto.com/auto/seminuevo/ford-territory-2022-1886711",
+     "t": "seminuevo",
+     "m": "ford",
+     "mo": "territory",
+     "v": "titanium",
+     "a": 2022,
+     "km": 64052,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Borja",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Ford Territory 2022",
+     "p": [
+      [
+       20714,
+       18490.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886710": {
+     "u": "https://neoauto.com/auto/usado/toyota-rav4-2015-1886710",
+     "t": "usado",
+     "m": "toyota",
+     "mo": "rav4",
+     "v": "",
+     "a": 2015,
+     "km": 70000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Miraflores",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Toyota Rav4 2015",
+     "p": [
+      [
+       20714,
+       16500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886709": {
+     "u": "https://neoauto.com/auto/usado/toyota-auris-2017-1886709",
+     "t": "usado",
+     "m": "toyota",
+     "mo": "auris",
+     "v": "1.6 cvt",
+     "a": 2017,
+     "km": 77000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "La Victoria",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Toyota Auris 2017",
+     "p": [
+      [
+       20714,
+       14500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886708": {
+     "u": "https://neoauto.com/auto/usado/bmw-218i-gran-coupe-2025-1886708",
+     "t": "usado",
+     "m": "bmw",
+     "mo": "218i gran coupe",
+     "v": "",
+     "a": 2025,
+     "km": 6800,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Magdalena del Mar",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Bmw 218I Gran Coupe 2025",
+     "p": [
+      [
+       20714,
+       33500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886707": {
+     "u": "https://neoauto.com/auto/usado/chevrolet-captiva-2022-1886707",
+     "t": "usado",
+     "m": "chevrolet",
+     "mo": "captiva",
+     "v": "",
+     "a": 2022,
+     "km": 34800,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Miraflores",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Chevrolet Captiva 2022",
+     "p": [
+      [
+       20714,
+       19900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886706": {
+     "u": "https://neoauto.com/auto/usado/jac-s3-2021-1886706",
+     "t": "usado",
+     "m": "jac",
+     "mo": "s3",
+     "v": "grand s3 1.6 at luxi",
+     "a": 2021,
+     "km": 69900,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Callao",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Jac S3 2021",
+     "p": [
+      [
+       20714,
+       10000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886705": {
+     "u": "https://neoauto.com/auto/usado/subaru-forester-2004-1886705",
+     "t": "usado",
+     "m": "subaru",
+     "mo": "forester",
+     "v": "",
+     "a": 2004,
+     "km": 167000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Barranco",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Subaru Forester 2004",
+     "p": [
+      [
+       20714,
+       6850.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886704": {
+     "u": "https://neoauto.com/auto/usado/jetour-x70-plus-2023-1886704",
+     "t": "usado",
+     "m": "jetour",
+     "mo": "x70 plus",
+     "v": "",
+     "a": 2023,
+     "km": 25600,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Jetour X70 Plus 2023",
+     "p": [
+      [
+       20714,
+       20200.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886703": {
+     "u": "https://neoauto.com/auto/usado/hyundai-elantra-2018-1886703",
+     "t": "usado",
+     "m": "hyundai",
+     "mo": "elantra",
+     "v": "",
+     "a": 2018,
+     "km": 85000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Hyundai Elantra 2018",
+     "p": [
+      [
+       20714,
+       14800.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886702": {
+     "u": "https://neoauto.com/auto/usado/mitsubishi-l200-2023-1886702",
+     "t": "usado",
+     "m": "mitsubishi",
+     "mo": "l200",
+     "v": "4x4 2.4 td hp glx mt",
+     "a": 2023,
+     "km": 7200,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Isidro",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Mitsubishi L200 2023",
+     "p": [
+      [
+       20714,
+       36900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886701": {
+     "u": "https://neoauto.com/auto/usado/toyota-hilux-2018-1886701",
+     "t": "usado",
+     "m": "toyota",
+     "mo": "hilux",
+     "v": "4x2 d/c 2gd sr",
+     "a": 2018,
+     "km": 118213,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Miraflores",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Toyota Hilux 2018",
+     "p": [
+      [
+       20714,
+       31000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886700": {
+     "u": "https://neoauto.com/auto/usado/chery-tiggo-2-pro-2023-1886700",
+     "t": "usado",
+     "m": "chery",
+     "mo": "tiggo 2 pro",
+     "v": "",
+     "a": 2023,
+     "km": 37000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Ate",
+     "pub": "Publicado ayer",
+     "flags": [
+      "glp"
+     ],
+     "nombre": "Chery Tiggo 2 Pro 2023",
+     "p": [
+      [
+       20714,
+       10500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886699": {
+     "u": "https://neoauto.com/auto/usado/volkswagen-jetta-2018-1886699",
+     "t": "usado",
+     "m": "volkswagen",
+     "mo": "jetta",
+     "v": "trendline 2.0 tip",
+     "a": 2018,
+     "km": 84782,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Miraflores",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Volkswagen Jetta 2018",
+     "p": [
+      [
+       20714,
+       12500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886698": {
+     "u": "https://neoauto.com/auto/usado/changhe-ch6391c4-2016-1886698",
+     "t": "usado",
+     "m": "changhe",
+     "mo": "ch6391c4",
+     "v": "sinversion",
+     "a": 2016,
+     "km": 95391,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Pariñas",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Changhe Ch6391C4 2016",
+     "p": [
+      [
+       20714,
+       6000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886696": {
+     "u": "https://neoauto.com/auto/seminuevo/renault-koleos-2023-1886696",
+     "t": "seminuevo",
+     "m": "renault",
+     "mo": "koleos",
+     "v": "privilege 4x4",
+     "a": 2023,
+     "km": 90641,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Martin de Porres",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Renault Koleos 2023",
+     "p": [
+      [
+       20714,
+       21490.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886695": {
+     "u": "https://neoauto.com/auto/usado/mazda-bt-50-2014-1886695",
+     "t": "usado",
+     "m": "mazda",
+     "mo": "bt-50",
+     "v": "",
+     "a": 2014,
+     "km": 118000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Mazda Bt-50 2014",
+     "p": [
+      [
+       20714,
+       15300.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886694": {
+     "u": "https://neoauto.com/auto/usado/chevrolet-suburban-2017-1886694",
+     "t": "usado",
+     "m": "chevrolet",
+     "mo": "suburban",
+     "v": "5.3 v8 lt at 4wd",
+     "a": 2017,
+     "km": 67658,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Chevrolet Suburban 2017",
+     "p": [
+      [
+       20714,
+       32500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886693": {
+     "u": "https://neoauto.com/auto/seminuevo/bmw-x5-2024-1886693",
+     "t": "seminuevo",
+     "m": "bmw",
+     "mo": "x5",
+     "v": "xdrive40i",
+     "a": 2024,
+     "km": 13700,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "La Victoria",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Bmw X5 2024",
+     "p": [
+      [
+       20714,
+       73990.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886691": {
+     "u": "https://neoauto.com/auto/seminuevo/chevrolet-tracker-2023-1886691",
+     "t": "seminuevo",
+     "m": "chevrolet",
+     "mo": "tracker",
+     "v": "turbo 1.2 ltz at iii",
+     "a": 2023,
+     "km": 20577,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Martin de Porres",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Chevrolet Tracker 2023",
+     "p": [
+      [
+       20714,
+       16490.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886690": {
+     "u": "https://neoauto.com/auto/seminuevo/citroen-c4-cactus-2023-1886690",
+     "t": "seminuevo",
+     "m": "citroen",
+     "mo": "c4 cactus",
+     "v": "shine 1.6at 4x2",
+     "a": 2023,
+     "km": 20000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Miguel",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Citroen C4 Cactus 2023",
+     "p": [
+      [
+       20714,
+       15990.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886689": {
+     "u": "https://neoauto.com/auto/seminuevo/citroen-c-3-2023-1886689",
+     "t": "seminuevo",
+     "m": "citroen",
+     "mo": "c-3",
+     "v": "amlat feel pack at",
+     "a": 2023,
+     "km": 27803,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Martin de Porres",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Citroen C-3 2023",
+     "p": [
+      [
+       20714,
+       14490.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886688": {
+     "u": "https://neoauto.com/auto/usado/mazda-cx-30-2025-1886688",
+     "t": "usado",
+     "m": "mazda",
+     "mo": "cx-30",
+     "v": "",
+     "a": 2025,
+     "km": 22000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Miguel",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Mazda Cx-30 2025",
+     "p": [
+      [
+       20714,
+       24900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886687": {
+     "u": "https://neoauto.com/auto/seminuevo/jeep-grand-cherokee-2024-1886687",
+     "t": "seminuevo",
+     "m": "jeep",
+     "mo": "grand cherokee",
+     "v": "cherokee altitude 4x4",
+     "a": 2024,
+     "km": 4000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Miguel",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Jeep Grand Cherokee 2024",
+     "p": [
+      [
+       20714,
+       62990.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886686": {
+     "u": "https://neoauto.com/auto/usado/toyota-hilux-2010-1886686",
+     "t": "usado",
+     "m": "toyota",
+     "mo": "hilux",
+     "v": "",
+     "a": 2010,
+     "km": 290000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Breña",
+     "pub": "Publicado ayer",
+     "flags": [
+      "glp"
+     ],
+     "nombre": "Toyota Hilux 2010",
+     "p": [
+      [
+       20714,
+       19500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886685": {
+     "u": "https://neoauto.com/auto/usado/swm-g01f-2025-1886685",
+     "t": "usado",
+     "m": "swm",
+     "mo": "g01f",
+     "v": "",
+     "a": 2025,
+     "km": 18000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Martin de Porres",
+     "pub": "Publicado ayer",
+     "flags": [
+      "glp"
+     ],
+     "nombre": "Swm G01F 2025",
+     "p": [
+      [
+       20714,
+       15500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886683": {
+     "u": "https://neoauto.com/auto/usado/bmw-x5-2017-1886683",
+     "t": "usado",
+     "m": "bmw",
+     "mo": "x5",
+     "v": "xdrive351",
+     "a": 2017,
+     "km": 73800,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Bmw X5 2017",
+     "p": [
+      [
+       20714,
+       35900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886682": {
+     "u": "https://neoauto.com/auto/seminuevo/jeep-compass-2026-1886682",
+     "t": "seminuevo",
+     "m": "jeep",
+     "mo": "compass",
+     "v": "longitude 4x2 1.3 a/t",
+     "a": 2026,
+     "km": 10400,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "La Victoria",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Jeep Compass 2026",
+     "p": [
+      [
+       20714,
+       27990.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886672": {
+     "u": "https://neoauto.com/auto/seminuevo/toyota-yaris-2027-1886672",
+     "t": "seminuevo",
+     "m": "toyota",
+     "mo": "yaris",
+     "v": "yaris gli 1.3 cvt",
+     "a": 2027,
+     "km": 2888,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "La Victoria",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Toyota Yaris 2027",
+     "p": [
+      [
+       20714,
+       19500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886669": {
+     "u": "https://neoauto.com/auto/seminuevo/mercedes-benz-glc-200-2021-1886669",
+     "t": "seminuevo",
+     "m": "mercedes-benz",
+     "mo": "glc 200",
+     "v": "dynamic 4x2",
+     "a": 2021,
+     "km": 33900,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "La Victoria",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Mercedes-Benz Glc 200 2021",
+     "p": [
+      [
+       20714,
+       35490.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886667": {
+     "u": "https://neoauto.com/auto/usado/toyota-corolla-2012-1886667",
+     "t": "usado",
+     "m": "toyota",
+     "mo": "corolla",
+     "v": "",
+     "a": 2012,
+     "km": 128069,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Miraflores",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Toyota Corolla 2012",
+     "p": [
+      [
+       20714,
+       12000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886666": {
+     "u": "https://neoauto.com/auto/usado/kia-sportage-2020-1886666",
+     "t": "usado",
+     "m": "kia",
+     "mo": "sportage",
+     "v": "2.0 at - lx 4x2 one",
+     "a": 2020,
+     "km": 87000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Borja",
+     "pub": "Publicado ayer",
+     "flags": [
+      "glp"
+     ],
+     "nombre": "Kia Sportage 2020",
+     "p": [
+      [
+       20714,
+       19500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886665": {
+     "u": "https://neoauto.com/auto/seminuevo/jeep-compass-2025-1886665",
+     "t": "seminuevo",
+     "m": "jeep",
+     "mo": "compass",
+     "v": "limited 4x2 1.3 a/t",
+     "a": 2025,
+     "km": 6000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Miguel",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Jeep Compass 2025",
+     "p": [
+      [
+       20714,
+       30500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886664": {
+     "u": "https://neoauto.com/auto/seminuevo/mitsubishi-asx-2025-1886664",
+     "t": "seminuevo",
+     "m": "mitsubishi",
+     "mo": "asx",
+     "v": "2wd 2.0 gls cvt",
+     "a": 2025,
+     "km": 12000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "La Victoria",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Mitsubishi Asx 2025",
+     "p": [
+      [
+       20714,
+       19490.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886660": {
+     "u": "https://neoauto.com/auto/usado/mazda-3-2018-1886660",
+     "t": "usado",
+     "m": "mazda",
+     "mo": "3",
+     "v": "mazda 3 sedan mt 1.6",
+     "a": 2018,
+     "km": 49097,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Mazda 3 2018",
+     "p": [
+      [
+       20714,
+       12400.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886659": {
+     "u": "https://neoauto.com/auto/usado/hyundai-santa-fe-2000-1886659",
+     "t": "usado",
+     "m": "hyundai",
+     "mo": "santa fe",
+     "v": "",
+     "a": 2000,
+     "km": 150000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santa Anita",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Hyundai Santa Fe 2000",
+     "p": [
+      [
+       20714,
+       7200.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886658": {
+     "u": "https://neoauto.com/auto/seminuevo/land-rover-range-rover-sport-2024-1886658",
+     "t": "seminuevo",
+     "m": "land rover",
+     "mo": "range rover sport",
+     "v": "range rover sport p400 dynamic hse 2024",
+     "a": 2024,
+     "km": 3816,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "La Victoria",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Land Rover Range Rover Sport 2024",
+     "p": [
+      [
+       20714,
+       119900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886656": {
+     "u": "https://neoauto.com/auto/seminuevo/nissan-x-trail-2023-1886656",
+     "t": "seminuevo",
+     "m": "nissan",
+     "mo": "x-trail",
+     "v": "sense cvt",
+     "a": 2023,
+     "km": 52593,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Nissan X-Trail 2023",
+     "p": [
+      [
+       20714,
+       24500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886655": {
+     "u": "https://neoauto.com/auto/usado/mazda-3-sport-2021-1886655",
+     "t": "usado",
+     "m": "mazda",
+     "mo": "3 sport",
+     "v": "mazda 3 sport at 2.0 new core",
+     "a": 2021,
+     "km": 40800,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Los Olivos",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Mazda 3 Sport 2021",
+     "p": [
+      [
+       20714,
+       16000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886654": {
+     "u": "https://neoauto.com/auto/usado/toyota-hilux-2018-1886654",
+     "t": "usado",
+     "m": "toyota",
+     "mo": "hilux",
+     "v": "4x4 c/s 2gd",
+     "a": 2018,
+     "km": 127000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lurin",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Toyota Hilux 2018",
+     "p": [
+      [
+       20714,
+       23000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886652": {
+     "u": "https://neoauto.com/auto/usado/chevrolet-n400-2022-1886652",
+     "t": "usado",
+     "m": "chevrolet",
+     "mo": "n400",
+     "v": "",
+     "a": 2022,
+     "km": 169399,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Los Olivos",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Chevrolet N400 2022",
+     "p": [
+      [
+       20714,
+       8500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886651": {
+     "u": "https://neoauto.com/auto/usado/hyundai-accent-2024-1886651",
+     "t": "usado",
+     "m": "hyundai",
+     "mo": "accent",
+     "v": "1.5 gl",
+     "a": 2024,
+     "km": 48000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Borja",
+     "pub": "Publicado ayer",
+     "flags": [
+      "gnv"
+     ],
+     "nombre": "Hyundai Accent 2024",
+     "p": [
+      [
+       20714,
+       17500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886650": {
+     "u": "https://neoauto.com/auto/usado/audi-a4-2016-1886650",
+     "t": "usado",
+     "m": "audi",
+     "mo": "a4",
+     "v": "1.4 tfsi stronic",
+     "a": 2016,
+     "km": 120000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Audi A4 2016",
+     "p": [
+      [
+       20714,
+       15900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886648": {
+     "u": "https://neoauto.com/auto/usado/mazda-cx-90-2025-1886648",
+     "t": "usado",
+     "m": "mazda",
+     "mo": "cx-90",
+     "v": "high",
+     "a": 2025,
+     "km": 8000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Cusco",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Mazda Cx-90 2025",
+     "p": [
+      [
+       20714,
+       48000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886647": {
+     "u": "https://neoauto.com/auto/usado/kia-sonet-2023-1886647",
+     "t": "usado",
+     "m": "kia",
+     "mo": "sonet",
+     "v": "lx full",
+     "a": 2023,
+     "km": 31700,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Huaraz",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Kia Sonet 2023",
+     "p": [
+      [
+       20714,
+       15900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886646": {
+     "u": "https://neoauto.com/auto/usado/ford-expedition-2022-1886646",
+     "t": "usado",
+     "m": "ford",
+     "mo": "expedition",
+     "v": "limited",
+     "a": 2022,
+     "km": 58000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Ford Expedition 2022",
+     "p": [
+      [
+       20714,
+       49000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886645": {
+     "u": "https://neoauto.com/auto/usado/toyota-avanza-2025-1886645",
+     "t": "usado",
+     "m": "toyota",
+     "mo": "avanza",
+     "v": "",
+     "a": 2025,
+     "km": 95300,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Pachacamac",
+     "pub": "Publicado hace unos días",
+     "flags": [
+      "glp"
+     ],
+     "nombre": "Toyota Avanza 2025",
+     "p": [
+      [
+       20714,
+       16000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886643": {
+     "u": "https://neoauto.com/auto/usado/audi-a4-2017-1886643",
+     "t": "usado",
+     "m": "audi",
+     "mo": "a4",
+     "v": "",
+     "a": 2017,
+     "km": 24000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Miraflores",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Audi A4 2017",
+     "p": [
+      [
+       20714,
+       23900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886640": {
+     "u": "https://neoauto.com/auto/usado/kia-sorento-2009-1886640",
+     "t": "usado",
+     "m": "kia",
+     "mo": "sorento",
+     "v": "3.3 at - 4x4",
+     "a": 2009,
+     "km": 144000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Los Olivos",
+     "pub": "Publicado hace unos días",
+     "flags": [
+      "glp"
+     ],
+     "nombre": "Kia Sorento 2009",
+     "p": [
+      [
+       20714,
+       8600.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886639": {
+     "u": "https://neoauto.com/auto/usado/volkswagen-tiguan-allspace-2020-1886639",
+     "t": "usado",
+     "m": "volkswagen",
+     "mo": "tiguan allspace",
+     "v": "",
+     "a": 2020,
+     "km": 103200,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Volkswagen Tiguan Allspace 2020",
+     "p": [
+      [
+       20714,
+       18200.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886638": {
+     "u": "https://neoauto.com/auto/usado/suzuki-grand-nomade-2016-1886638",
+     "t": "usado",
+     "m": "suzuki",
+     "mo": "grand nomade",
+     "v": "",
+     "a": 2016,
+     "km": 92000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Suzuki Grand Nomade 2016",
+     "p": [
+      [
+       20714,
+       12900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886637": {
+     "u": "https://neoauto.com/auto/seminuevo/toyota-corolla-cross-2026-1886637",
+     "t": "seminuevo",
+     "m": "toyota",
+     "mo": "corolla cross",
+     "v": "1.8 hev premium cvt",
+     "a": 2026,
+     "km": 11267,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Borja",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Toyota Corolla Cross 2026",
+     "p": [
+      [
+       20714,
+       31900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886636": {
+     "u": "https://neoauto.com/auto/seminuevo/chevrolet-tracker-2022-1886636",
+     "t": "seminuevo",
+     "m": "chevrolet",
+     "mo": "tracker",
+     "v": "turbo 1.2t ltz at iii",
+     "a": 2022,
+     "km": 24733,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Borja",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Chevrolet Tracker 2022",
+     "p": [
+      [
+       20714,
+       16900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886635": {
+     "u": "https://neoauto.com/auto/usado/subaru-forester-2019-1886635",
+     "t": "usado",
+     "m": "subaru",
+     "mo": "forester",
+     "v": "",
+     "a": 2019,
+     "km": 111900,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Miraflores",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Subaru Forester 2019",
+     "p": [
+      [
+       20714,
+       17500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886634": {
+     "u": "https://neoauto.com/auto/seminuevo/mazda-cx-30-2024-1886634",
+     "t": "seminuevo",
+     "m": "mazda",
+     "mo": "cx-30",
+     "v": "cx-30 prime 2.0 at 2wd ipm ii",
+     "a": 2024,
+     "km": 39000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Isidro",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Mazda Cx-30 2024",
+     "p": [
+      [
+       20714,
+       23900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886633": {
+     "u": "https://neoauto.com/auto/usado/mazda-cx-30-2023-1886633",
+     "t": "usado",
+     "m": "mazda",
+     "mo": "cx-30",
+     "v": "",
+     "a": 2023,
+     "km": 28700,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Pueblo Libre",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Mazda Cx-30 2023",
+     "p": [
+      [
+       20714,
+       22000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886631": {
+     "u": "https://neoauto.com/auto/usado/kia-sportage-2014-1886631",
+     "t": "usado",
+     "m": "kia",
+     "mo": "sportage",
+     "v": "2.0 at  ex  4x2",
+     "a": 2014,
+     "km": 151000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Magdalena del Mar",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Kia Sportage 2014",
+     "p": [
+      [
+       20714,
+       13700.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886630": {
+     "u": "https://neoauto.com/auto/usado/toyota-fortuner-2008-1886630",
+     "t": "usado",
+     "m": "toyota",
+     "mo": "fortuner",
+     "v": "srv",
+     "a": 2008,
+     "km": 164500,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Isidro",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Toyota Fortuner 2008",
+     "p": [
+      [
+       20714,
+       24900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886629": {
+     "u": "https://neoauto.com/auto/usado/great-wall-wingle-5-2023-1886629",
+     "t": "usado",
+     "m": "great wall",
+     "mo": "wingle 5",
+     "v": "full equipo 4x2",
+     "a": 2023,
+     "km": 48000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Borja",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Great Wall Wingle 5 2023",
+     "p": [
+      [
+       20714,
+       12850.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886628": {
+     "u": "https://neoauto.com/auto/usado/honda-pilot-2012-1886628",
+     "t": "usado",
+     "m": "honda",
+     "mo": "pilot",
+     "v": "",
+     "a": 2012,
+     "km": 98500,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Borja",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Honda Pilot 2012",
+     "p": [
+      [
+       20714,
+       14900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886627": {
+     "u": "https://neoauto.com/auto/usado/subaru-forester-2014-1886627",
+     "t": "usado",
+     "m": "subaru",
+     "mo": "forester",
+     "v": "2.01 awd cvt x",
+     "a": 2014,
+     "km": 107100,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Subaru Forester 2014",
+     "p": [
+      [
+       20714,
+       12000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886625": {
+     "u": "https://neoauto.com/auto/usado/mini-countryman-2017-1886625",
+     "t": "usado",
+     "m": "mini",
+     "mo": "countryman",
+     "v": "cooper s",
+     "a": 2017,
+     "km": 76300,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Mini Countryman 2017",
+     "p": [
+      [
+       20714,
+       18490.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886624": {
+     "u": "https://neoauto.com/auto/usado/mazda-cx-3-2020-1886624",
+     "t": "usado",
+     "m": "mazda",
+     "mo": "cx-3",
+     "v": "",
+     "a": 2020,
+     "km": 65000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Callao",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Mazda Cx-3 2020",
+     "p": [
+      [
+       20714,
+       16900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886623": {
+     "u": "https://neoauto.com/auto/usado/mercedes-benz-gls-450-2024-1886623",
+     "t": "usado",
+     "m": "mercedes-benz",
+     "mo": "gls 450",
+     "v": "",
+     "a": 2024,
+     "km": 31000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Miguel",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Mercedes-Benz Gls 450 2024",
+     "p": [
+      [
+       20714,
+       88990.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886622": {
+     "u": "https://neoauto.com/auto/usado/subaru-forester-2024-1886622",
+     "t": "usado",
+     "m": "subaru",
+     "mo": "forester",
+     "v": "",
+     "a": 2024,
+     "km": 25139,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Trujillo",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Subaru Forester 2024",
+     "p": [
+      [
+       20714,
+       28500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886620": {
+     "u": "https://neoauto.com/auto/usado/bmw-120i-2012-1886620",
+     "t": "usado",
+     "m": "bmw",
+     "mo": "120i",
+     "v": "hatchback",
+     "a": 2012,
+     "km": 120000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "La Molina",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Bmw 120I 2012",
+     "p": [
+      [
+       20714,
+       11800.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886619": {
+     "u": "https://neoauto.com/auto/seminuevo/kia-k3-2024-1886619",
+     "t": "seminuevo",
+     "m": "kia",
+     "mo": "k3",
+     "v": "1.6 at - ex / csa",
+     "a": 2024,
+     "km": 16500,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Surquillo",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Kia K3 2024",
+     "p": [
+      [
+       20714,
+       20990.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886618": {
+     "u": "https://neoauto.com/auto/seminuevo/peugeot-3008-2025-1886618",
+     "t": "seminuevo",
+     "m": "peugeot",
+     "mo": "3008",
+     "v": "allure 1.6 thp eat6 177",
+     "a": 2025,
+     "km": 2000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Surquillo",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Peugeot 3008 2025",
+     "p": [
+      [
+       20714,
+       38990.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886617": {
+     "u": "https://neoauto.com/auto/usado/toyota-corolla-2009-1886617",
+     "t": "usado",
+     "m": "toyota",
+     "mo": "corolla",
+     "v": "",
+     "a": 2009,
+     "km": 140000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Los Olivos",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Toyota Corolla 2009",
+     "p": [
+      [
+       20714,
+       6900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886616": {
+     "u": "https://neoauto.com/auto/usado/toyota-corolla-cross-2024-1886616",
+     "t": "usado",
+     "m": "toyota",
+     "mo": "corolla cross",
+     "v": "",
+     "a": 2024,
+     "km": 38000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Borja",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Toyota Corolla Cross 2024",
+     "p": [
+      [
+       20714,
+       20900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886615": {
+     "u": "https://neoauto.com/auto/usado/dfsk-glory-560-2025-1886615",
+     "t": "usado",
+     "m": "dfsk",
+     "mo": "glory 560",
+     "v": "",
+     "a": 2025,
+     "km": 2200,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Dfsk Glory 560 2025",
+     "p": [
+      [
+       20714,
+       14800.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886614": {
+     "u": "https://neoauto.com/auto/usado/dodge-durango-2016-1886614",
+     "t": "usado",
+     "m": "dodge",
+     "mo": "durango",
+     "v": "sxt",
+     "a": 2016,
+     "km": 93000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Dodge Durango 2016",
+     "p": [
+      [
+       20714,
+       21990.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886613": {
+     "u": "https://neoauto.com/auto/usado/suzuki-grand-vitara-2014-1886613",
+     "t": "usado",
+     "m": "suzuki",
+     "mo": "grand vitara",
+     "v": "",
+     "a": 2014,
+     "km": 73000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Pueblo Libre",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Suzuki Grand Vitara 2014",
+     "p": [
+      [
+       20714,
+       10000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886611": {
+     "u": "https://neoauto.com/auto/seminuevo/kia-k3-2024-1886611",
+     "t": "seminuevo",
+     "m": "kia",
+     "mo": "k3",
+     "v": "1.6 at - gt-line / csa",
+     "a": 2024,
+     "km": 22000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Surquillo",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Kia K3 2024",
+     "p": [
+      [
+       20714,
+       21490.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886610": {
+     "u": "https://neoauto.com/auto/usado/jac-refine-2021-1886610",
+     "t": "usado",
+     "m": "jac",
+     "mo": "refine",
+     "v": "",
+     "a": 2021,
+     "km": 175000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Borja",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Jac Refine 2021",
+     "p": [
+      [
+       20714,
+       14900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886609": {
+     "u": "https://neoauto.com/auto/usado/subaru-forester-2023-1886609",
+     "t": "usado",
+     "m": "subaru",
+     "mo": "forester",
+     "v": "limited",
+     "a": 2023,
+     "km": 34000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Subaru Forester 2023",
+     "p": [
+      [
+       20714,
+       34500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886608": {
+     "u": "https://neoauto.com/auto/seminuevo/bmw-x3-2024-1886608",
+     "t": "seminuevo",
+     "m": "bmw",
+     "mo": "x3",
+     "v": "",
+     "a": 2024,
+     "km": 28000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Surquillo",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Bmw X3 2024",
+     "p": [
+      [
+       20714,
+       48900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886607": {
+     "u": "https://neoauto.com/auto/usado/audi-q3-sportback-2020-1886607",
+     "t": "usado",
+     "m": "audi",
+     "mo": "q3 sportback",
+     "v": "",
+     "a": 2020,
+     "km": 84000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Borja",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Audi Q3 Sportback 2020",
+     "p": [
+      [
+       20714,
+       30500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886606": {
+     "u": "https://neoauto.com/auto/seminuevo/porsche-macan-s-2015-1886606",
+     "t": "seminuevo",
+     "m": "porsche",
+     "mo": "macan s",
+     "v": "s",
+     "a": 2015,
+     "km": 84000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Miraflores",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Porsche Macan S 2015",
+     "p": [
+      [
+       20714,
+       27900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886604": {
+     "u": "https://neoauto.com/auto/usado/nissan-frontier-2024-1886604",
+     "t": "usado",
+     "m": "nissan",
+     "mo": "frontier",
+     "v": "s 4x2 mt",
+     "a": 2024,
+     "km": 19000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Isidro",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Nissan Frontier 2024",
+     "p": [
+      [
+       20714,
+       27500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886603": {
+     "u": "https://neoauto.com/auto/usado/audi-a3-sedan-2022-1886603",
+     "t": "usado",
+     "m": "audi",
+     "mo": "a3 sedan",
+     "v": "35 tfsi",
+     "a": 2022,
+     "km": 40000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Pueblo Libre",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Audi A3 Sedan 2022",
+     "p": [
+      [
+       20714,
+       27900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886602": {
+     "u": "https://neoauto.com/auto/seminuevo/nissan-sentra-2015-1886602",
+     "t": "seminuevo",
+     "m": "nissan",
+     "mo": "sentra",
+     "v": "",
+     "a": 2015,
+     "km": 35000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Surquillo",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Nissan Sentra 2015",
+     "p": [
+      [
+       20714,
+       12900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886601": {
+     "u": "https://neoauto.com/auto/usado/toyota-corona-2014-1886601",
+     "t": "usado",
+     "m": "toyota",
+     "mo": "corona",
+     "v": "",
+     "a": 2014,
+     "km": 147000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Toyota Corona 2014",
+     "p": [
+      [
+       20714,
+       11500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886600": {
+     "u": "https://neoauto.com/auto/usado/suzuki-baleno-2023-1886600",
+     "t": "usado",
+     "m": "suzuki",
+     "mo": "baleno",
+     "v": "",
+     "a": 2023,
+     "km": 85000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Ate",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Suzuki Baleno 2023",
+     "p": [
+      [
+       20714,
+       12000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886599": {
+     "u": "https://neoauto.com/auto/seminuevo/kia-sportage-2023-1886599",
+     "t": "seminuevo",
+     "m": "kia",
+     "mo": "sportage",
+     "v": "2.0 at lx plus",
+     "a": 2023,
+     "km": 36197,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "La Victoria",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Kia Sportage 2023",
+     "p": [
+      [
+       20714,
+       25900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886598": {
+     "u": "https://neoauto.com/auto/seminuevo/hyundai-i20-2026-1886598",
+     "t": "seminuevo",
+     "m": "hyundai",
+     "mo": "i20",
+     "v": "gl",
+     "a": 2026,
+     "km": 800,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Isidro",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Hyundai I20 2026",
+     "p": [
+      [
+       20714,
+       18900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886597": {
+     "u": "https://neoauto.com/auto/usado/honda-hr-v-2016-1886597",
+     "t": "usado",
+     "m": "honda",
+     "mo": "hr-v",
+     "v": "",
+     "a": 2016,
+     "km": 91200,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Borja",
+     "pub": "Publicado hace unos días",
+     "flags": [
+      "deuda"
+     ],
+     "nombre": "Honda Hr-V 2016",
+     "p": [
+      [
+       20714,
+       16500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886596": {
+     "u": "https://neoauto.com/auto/seminuevo/bmw-x3-28i-2014-1886596",
+     "t": "seminuevo",
+     "m": "bmw",
+     "mo": "x3 28i",
+     "v": "",
+     "a": 2014,
+     "km": 116621,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Isidro",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Bmw X3 28I 2014",
+     "p": [
+      [
+       20714,
+       15900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886595": {
+     "u": "https://neoauto.com/auto/seminuevo/toyota-c-hr-2022-1886595",
+     "t": "seminuevo",
+     "m": "toyota",
+     "mo": "c-hr",
+     "v": "premiun",
+     "a": 2022,
+     "km": 44692,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Isidro",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Toyota C-Hr 2022",
+     "p": [
+      [
+       20714,
+       26000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886594": {
+     "u": "https://neoauto.com/auto/seminuevo/mazda-3-sport-2018-1886594",
+     "t": "seminuevo",
+     "m": "mazda",
+     "mo": "3 sport",
+     "v": "",
+     "a": 2018,
+     "km": 76014,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Isidro",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Mazda 3 Sport 2018",
+     "p": [
+      [
+       20714,
+       15900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886593": {
+     "u": "https://neoauto.com/auto/usado/bmw-x3-2025-1886593",
+     "t": "usado",
+     "m": "bmw",
+     "mo": "x3",
+     "v": "awd comfort",
+     "a": 2025,
+     "km": 17700,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Arequipa",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Bmw X3 2025",
+     "p": [
+      [
+       20714,
+       50990.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886592": {
+     "u": "https://neoauto.com/auto/seminuevo/cupra-cupra-leon-2026-1886592",
+     "t": "seminuevo",
+     "m": "cupra",
+     "mo": "leon",
+     "v": "1.4",
+     "a": 2026,
+     "km": 5500,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Isidro",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Cupra Leon 2026",
+     "p": [
+      [
+       20714,
+       29900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886591": {
+     "u": "https://neoauto.com/auto/usado/toyota-yaris-2017-1886591",
+     "t": "usado",
+     "m": "toyota",
+     "mo": "yaris",
+     "v": "",
+     "a": 2017,
+     "km": 57000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado hace unos días",
+     "flags": [
+      "chocado"
+     ],
+     "nombre": "Toyota Yaris 2017",
+     "p": [
+      [
+       20714,
+       31000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886590": {
+     "u": "https://neoauto.com/auto/seminuevo/bmw-x5-40i-2020-1886590",
+     "t": "seminuevo",
+     "m": "bmw",
+     "mo": "x5 40i",
+     "v": "xdrive",
+     "a": 2020,
+     "km": 67753,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Isidro",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Bmw X5 40I 2020",
+     "p": [
+      [
+       20714,
+       52900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886589": {
+     "u": "https://neoauto.com/auto/seminuevo/ram-rampage-2025-1886589",
+     "t": "seminuevo",
+     "m": "ram",
+     "mo": "rampage",
+     "v": "",
+     "a": 2025,
+     "km": 17987,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Isidro",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Ram Rampage 2025",
+     "p": [
+      [
+       20714,
+       35900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886588": {
+     "u": "https://neoauto.com/auto/usado/kia-seltos-2026-1886588",
+     "t": "usado",
+     "m": "kia",
+     "mo": "seltos",
+     "v": "",
+     "a": 2026,
+     "km": 1200,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Jesus Maria",
+     "pub": "Publicado hace unos días",
+     "flags": [
+      "glp"
+     ],
+     "nombre": "Kia Seltos 2026",
+     "p": [
+      [
+       20714,
+       20500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886587": {
+     "u": "https://neoauto.com/auto/seminuevo/mini-cooper-2014-1886587",
+     "t": "seminuevo",
+     "m": "mini",
+     "mo": "cooper",
+     "v": "",
+     "a": 2014,
+     "km": 61234,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Isidro",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Mini Cooper 2014",
+     "p": [
+      [
+       20714,
+       14800.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886586": {
+     "u": "https://neoauto.com/auto/seminuevo/peugeot-3008-2019-1886586",
+     "t": "seminuevo",
+     "m": "peugeot",
+     "mo": "3008",
+     "v": "gt-line 1.6 thp at6",
+     "a": 2019,
+     "km": 82151,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Isidro",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Peugeot 3008 2019",
+     "p": [
+      [
+       20714,
+       19600.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886585": {
+     "u": "https://neoauto.com/auto/usado/bmw-x6-2026-1886585",
+     "t": "usado",
+     "m": "bmw",
+     "mo": "x6",
+     "v": "",
+     "a": 2026,
+     "km": 9400,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Isidro",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Bmw X6 2026",
+     "p": [
+      [
+       20714,
+       104990.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886584": {
+     "u": "https://neoauto.com/auto/usado/mini-hatch-2024-1886584",
+     "t": "usado",
+     "m": "mini",
+     "mo": "hatch",
+     "v": "cooper hatch",
+     "a": 2024,
+     "km": 19500,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Miraflores",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Mini Hatch 2024",
+     "p": [
+      [
+       20714,
+       24500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886582": {
+     "u": "https://neoauto.com/auto/usado/kia-cerato-2020-1886582",
+     "t": "usado",
+     "m": "kia",
+     "mo": "cerato",
+     "v": "sport full",
+     "a": 2020,
+     "km": 45000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado hace unos días",
+     "flags": [
+      "chocado"
+     ],
+     "nombre": "Kia Cerato 2020",
+     "p": [
+      [
+       20714,
+       11300.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886581": {
+     "u": "https://neoauto.com/auto/usado/jeep-renegade-sport-2023-1886581",
+     "t": "usado",
+     "m": "jeep",
+     "mo": "renegade sport",
+     "v": "",
+     "a": 2023,
+     "km": 33300,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "La Perla",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Jeep Renegade Sport 2023",
+     "p": [
+      [
+       20714,
+       20000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886578": {
+     "u": "https://neoauto.com/auto/usado/hyundai-elantra-2017-1886578",
+     "t": "usado",
+     "m": "hyundai",
+     "mo": "elantra",
+     "v": "",
+     "a": 2017,
+     "km": 57000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado hace unos días",
+     "flags": [
+      "chocado"
+     ],
+     "nombre": "Hyundai Elantra 2017",
+     "p": [
+      [
+       20714,
+       9500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886577": {
+     "u": "https://neoauto.com/auto/seminuevo/audi-a4-2022-1886577",
+     "t": "seminuevo",
+     "m": "audi",
+     "mo": "a4",
+     "v": "progressive 35tfsi",
+     "a": 2022,
+     "km": 49000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Audi A4 2022",
+     "p": [
+      [
+       20714,
+       28900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886576": {
+     "u": "https://neoauto.com/auto/usado/hyundai-elantra-2020-1886576",
+     "t": "usado",
+     "m": "hyundai",
+     "mo": "elantra",
+     "v": "new elantra",
+     "a": 2020,
+     "km": 45000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado hace unos días",
+     "flags": [
+      "chocado"
+     ],
+     "nombre": "Hyundai Elantra 2020",
+     "p": [
+      [
+       20714,
+       11000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886575": {
+     "u": "https://neoauto.com/auto/seminuevo/subaru-forester-2020-1886575",
+     "t": "seminuevo",
+     "m": "subaru",
+     "mo": "forester",
+     "v": "2.0i awd cvt xs si drive",
+     "a": 2020,
+     "km": 65000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Surquillo",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Subaru Forester 2020",
+     "p": [
+      [
+       20714,
+       23900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886573": {
+     "u": "https://neoauto.com/auto/usado/volkswagen-passat-2010-1886573",
+     "t": "usado",
+     "m": "volkswagen",
+     "mo": "passat",
+     "v": "",
+     "a": 2010,
+     "km": 107000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Volkswagen Passat 2010",
+     "p": [
+      [
+       20714,
+       10190.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886572": {
+     "u": "https://neoauto.com/auto/usado/ford-focus-2015-1886572",
+     "t": "usado",
+     "m": "ford",
+     "mo": "focus",
+     "v": "",
+     "a": 2015,
+     "km": 50304,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Ford Focus 2015",
+     "p": [
+      [
+       20714,
+       8000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886571": {
+     "u": "https://neoauto.com/auto/seminuevo/lexus-rx-450hl-2023-1886571",
+     "t": "seminuevo",
+     "m": "lexus",
+     "mo": "rx 450hl",
+     "v": "450hl",
+     "a": 2023,
+     "km": 38845,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Lexus Rx 450Hl 2023",
+     "p": [
+      [
+       20714,
+       55000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886570": {
+     "u": "https://neoauto.com/auto/seminuevo/toyota-rav4-2024-1886570",
+     "t": "seminuevo",
+     "m": "toyota",
+     "mo": "rav4",
+     "v": "2.5 full d-lux 4x2 cvt",
+     "a": 2024,
+     "km": 18474,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Toyota Rav4 2024",
+     "p": [
+      [
+       20714,
+       36000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886569": {
+     "u": "https://neoauto.com/auto/usado/chevrolet-groove-2023-1886569",
+     "t": "usado",
+     "m": "chevrolet",
+     "mo": "groove",
+     "v": "",
+     "a": 2023,
+     "km": 86800,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Trujillo",
+     "pub": "Publicado hace unos días",
+     "flags": [
+      "glp"
+     ],
+     "nombre": "Chevrolet Groove 2023",
+     "p": [
+      [
+       20714,
+       13000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886568": {
+     "u": "https://neoauto.com/auto/seminuevo/toyota-corolla-cross-2026-1886568",
+     "t": "seminuevo",
+     "m": "toyota",
+     "mo": "corolla cross",
+     "v": "1.8 hev full d-lux cvt",
+     "a": 2026,
+     "km": 9298,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Lima",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Toyota Corolla Cross 2026",
+     "p": [
+      [
+       20714,
+       31500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    },
+    "1886567": {
+     "u": "https://neoauto.com/auto/seminuevo/toyota-hilux-2023-1886567",
+     "t": "seminuevo",
+     "m": "toyota",
+     "mo": "hilux",
+     "v": "4x4 d/c 1gd srv",
+     "a": 2023,
+     "km": 64455,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "San Martin de Porres",
+     "pub": "Publicado hace unos días",
+     "flags": [],
+     "nombre": "Toyota Hilux 2023",
+     "p": [
+      [
+       20714,
+       35500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "x": 20714
+    }
+   }
+  }
+ }
+}

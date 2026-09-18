@@ -1,0 +1,8212 @@
+{
+ "version": 1,
+ "started_at": null,
+ "seen": {},
+ "failures": {},
+ "last_failure_notice": null,
+ "store_list": {},
+ "saved_at": 1789754995,
+ "history": {},
+ "cursors": {},
+ "flight_alerts": {},
+ "datos": {
+  "nexo": {
+   "proyectos": {
+    "1415": {
+     "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/vista-brasil-magdalena-1415",
+     "tipo": "departamentos",
+     "dist": "Magdalena Del Mar",
+     "nombre": "VISTA BRASIL",
+     "marca": "GRUPO MG",
+     "lat": -12.09376,
+     "lng": -77.06952,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo A2": [
+       151.0,
+       3,
+       "PEN",
+       795000.0
+      ],
+      "Modelo A1": [
+       166.5,
+       3,
+       "PEN",
+       838000.0
+      ],
+      "Modelo B2": [
+       145.9,
+       3,
+       "PEN",
+       750000.0
+      ]
+     },
+     "primero": {
+      "Modelo A2": [
+       "PEN",
+       795000.0,
+       20714
+      ],
+      "Modelo A1": [
+       "PEN",
+       838000.0,
+       20714
+      ],
+      "Modelo B2": [
+       "PEN",
+       750000.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "1418": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/allegro-loft-1418",
+     "tipo": "departamentos",
+     "dist": "San Miguel",
+     "nombre": "Allegro Loft",
+     "marca": "URBANA PERÚ",
+     "lat": -12.08721,
+     "lng": -77.09275,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO A-X04": [
+       63.4,
+       1,
+       "PEN",
+       407700.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO A-X04": [
+       "PEN",
+       407700.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "1631": {
+     "u": "https://nexoinmobiliario.pe/departamentos/barranco/aspiria-1631",
+     "tipo": "departamentos",
+     "dist": "Barranco",
+     "nombre": "ASPIRIA",
+     "marca": "GRUPO T&C",
+     "lat": -12.13949,
+     "lng": -77.01943,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo TIPO 3": [
+       82.96,
+       3,
+       "PEN",
+       664806.0
+      ],
+      "Modelo TIPO 6": [
+       41.77,
+       1,
+       "PEN",
+       364088.0
+      ],
+      "Modelo TIPO 7": [
+       41.75,
+       1,
+       "PEN",
+       363906.0
+      ],
+      "Modelo TIPO 10": [
+       42.12,
+       1,
+       "PEN",
+       366500.0
+      ],
+      "Modelo TIPO 1": [
+       58.79,
+       2,
+       "PEN",
+       520518.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 3": [
+       "PEN",
+       664806.0,
+       20714
+      ],
+      "Modelo TIPO 6": [
+       "PEN",
+       364088.0,
+       20714
+      ],
+      "Modelo TIPO 7": [
+       "PEN",
+       363906.0,
+       20714
+      ],
+      "Modelo TIPO 10": [
+       "PEN",
+       366500.0,
+       20714
+      ],
+      "Modelo TIPO 1": [
+       "PEN",
+       520518.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "1654": {
+     "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/aliaga-garden-1654",
+     "tipo": "departamentos",
+     "dist": "Magdalena Del Mar",
+     "nombre": "ALIAGA GARDEN",
+     "marca": "EVERGRAN GRUPO INMOBILIARIO",
+     "lat": -12.09485,
+     "lng": -77.0589,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo 4A": [
+       103.21,
+       3,
+       "PEN",
+       840481.0
+      ],
+      "Modelo 6A - Piso Impar": [
+       90.65,
+       3,
+       "PEN",
+       758450.0
+      ],
+      "Modelo 9A": [
+       83.26,
+       3,
+       "PEN",
+       692000.0
+      ],
+      "Modelo 11A - Piso Par": [
+       90.65,
+       3,
+       "PEN",
+       753500.0
+      ]
+     },
+     "primero": {
+      "Modelo 4A": [
+       "PEN",
+       840481.0,
+       20714
+      ],
+      "Modelo 6A - Piso Impar": [
+       "PEN",
+       758450.0,
+       20714
+      ],
+      "Modelo 9A": [
+       "PEN",
+       692000.0,
+       20714
+      ],
+      "Modelo 11A - Piso Par": [
+       "PEN",
+       753500.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "1693": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/mar-de-plata-ii-san-miguel-1693",
+     "tipo": "departamentos",
+     "dist": "San Miguel",
+     "nombre": "MAR DE PLATA II",
+     "marca": "GRUPO MG",
+     "lat": -12.07969,
+     "lng": -77.08178,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo 4": [
+       95.2,
+       1,
+       "PEN",
+       615500.0
+      ],
+      "Modelo 6": [
+       67.2,
+       3,
+       "PEN",
+       429640.0
+      ],
+      "Modelo 7": [
+       66.6,
+       3,
+       "PEN",
+       419350.0
+      ],
+      "Modelo 8": [
+       67.5,
+       3,
+       "PEN",
+       428250.0
+      ],
+      "Modelo 1": [
+       103.9,
+       1,
+       "PEN",
+       653250.0
+      ],
+      "Modelo 3": [
+       85.4,
+       1,
+       "PEN",
+       561000.0
+      ]
+     },
+     "primero": {
+      "Modelo 4": [
+       "PEN",
+       615500.0,
+       20714
+      ],
+      "Modelo 6": [
+       "PEN",
+       429640.0,
+       20714
+      ],
+      "Modelo 7": [
+       "PEN",
+       419350.0,
+       20714
+      ],
+      "Modelo 8": [
+       "PEN",
+       428250.0,
+       20714
+      ],
+      "Modelo 1": [
+       "PEN",
+       653250.0,
+       20714
+      ],
+      "Modelo 3": [
+       "PEN",
+       561000.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "1866": {
+     "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/los-pinos-iii-santa-beatriz-1866",
+     "tipo": "departamentos",
+     "dist": "Cercado De Lima",
+     "nombre": "LOS PINOS III -SANTA BEATRIZ",
+     "marca": "GRUPO MG",
+     "lat": -12.07794,
+     "lng": -77.03147,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO 7": [
+       81.9,
+       2,
+       "PEN",
+       470000.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 7": [
+       "PEN",
+       470000.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "1867": {
+     "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/vista-verde-santa-beatriz-1867",
+     "tipo": "departamentos",
+     "dist": "Cercado De Lima",
+     "nombre": "VISTA VERDE",
+     "marca": "GRUPO MG",
+     "lat": -12.07186,
+     "lng": -77.03196,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO 9": [
+       67.4,
+       2,
+       "PEN",
+       430880.0
+      ],
+      "Modelo TIPO 8-II": [
+       89.5,
+       3,
+       "PEN",
+       558950.0
+      ],
+      "Modelo TIPO 7": [
+       73.1,
+       3,
+       "PEN",
+       458910.0
+      ],
+      "Modelo TIPO 6-II": [
+       73.1,
+       3,
+       "PEN",
+       458910.0
+      ],
+      "Modelo TIPO 6-I": [
+       71.4,
+       2,
+       "PEN",
+       448540.0
+      ],
+      "Modelo TIPO 11 D": [
+       101.0,
+       3,
+       "PEN",
+       582239.0
+      ],
+      "Modelo TIPO 10D": [
+       103.8,
+       2,
+       "PEN",
+       593182.0
+      ],
+      "Modelo TIPO 7D": [
+       102.7,
+       2,
+       "PEN",
+       541700.0
+      ],
+      "Modelo TIPO 4-I": [
+       72.0,
+       1,
+       "PEN",
+       445000.0
+      ],
+      "Modelo TIPO 5D": [
+       83.85,
+       2,
+       "PEN",
+       469485.0
+      ],
+      "Modelo TIPO 3D": [
+       95.0,
+       2,
+       "PEN",
+       543500.0
+      ],
+      "Modelo TIPO 11D-I": [
+       66.9,
+       2,
+       "PEN",
+       394720.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 9": [
+       "PEN",
+       430880.0,
+       20714
+      ],
+      "Modelo TIPO 8-II": [
+       "PEN",
+       558950.0,
+       20714
+      ],
+      "Modelo TIPO 7": [
+       "PEN",
+       458910.0,
+       20714
+      ],
+      "Modelo TIPO 6-II": [
+       "PEN",
+       458910.0,
+       20714
+      ],
+      "Modelo TIPO 6-I": [
+       "PEN",
+       448540.0,
+       20714
+      ],
+      "Modelo TIPO 11 D": [
+       "PEN",
+       582239.0,
+       20714
+      ],
+      "Modelo TIPO 10D": [
+       "PEN",
+       593182.0,
+       20714
+      ],
+      "Modelo TIPO 7D": [
+       "PEN",
+       541700.0,
+       20714
+      ],
+      "Modelo TIPO 4-I": [
+       "PEN",
+       445000.0,
+       20714
+      ],
+      "Modelo TIPO 5D": [
+       "PEN",
+       469485.0,
+       20714
+      ],
+      "Modelo TIPO 3D": [
+       "PEN",
+       543500.0,
+       20714
+      ],
+      "Modelo TIPO 11D-I": [
+       "PEN",
+       394720.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "1918": {
+     "u": "https://nexoinmobiliario.pe/departamentos/lince/muvin-1918",
+     "tipo": "departamentos",
+     "dist": "Lince",
+     "nombre": "MUVIN",
+     "marca": "COSAPI",
+     "lat": -12.08217,
+     "lng": -77.02847,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo Departamento tipo X01": [
+       68.12,
+       3,
+       "PEN",
+       588355.0
+      ],
+      "Modelo Departamento tipo 2001": [
+       118.31,
+       3,
+       "PEN",
+       755354.0
+      ],
+      "Modelo Departamento tipo 2002": [
+       119.51,
+       3,
+       "PEN",
+       745518.0
+      ]
+     },
+     "primero": {
+      "Modelo Departamento tipo X01": [
+       "PEN",
+       588355.0,
+       20714
+      ],
+      "Modelo Departamento tipo 2001": [
+       "PEN",
+       755354.0,
+       20714
+      ],
+      "Modelo Departamento tipo 2002": [
+       "PEN",
+       745518.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "1940": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/monterosso-1940",
+     "tipo": "departamentos",
+     "dist": "Jesus Maria",
+     "nombre": "MONTEROSSO",
+     "marca": "TORATTO GRUPO INMOBILIARIO",
+     "lat": -12.07639,
+     "lng": -77.04556,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO G": [
+       69.56,
+       2,
+       "PEN",
+       539006.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO G": [
+       "PEN",
+       539006.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "1974": {
+     "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/invent-chorrillos-1974",
+     "tipo": "departamentos",
+     "dist": "Chorrillos",
+     "nombre": "Invent Chorrillos",
+     "marca": "INVENT INMOBILIARIA",
+     "lat": -12.16616,
+     "lng": -77.02454,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo 15": [
+       56.34,
+       2,
+       "PEN",
+       343112.0
+      ],
+      "Modelo 8": [
+       55.0,
+       2,
+       "PEN",
+       332947.0
+      ],
+      "Modelo 4-I": [
+       135.76,
+       3,
+       "PEN",
+       694324.0
+      ],
+      "Modelo 7": [
+       37.02,
+       1,
+       "PEN",
+       229076.0
+      ],
+      "Modelo 11-I": [
+       66.46,
+       2,
+       "PEN",
+       404206.0
+      ],
+      "Modelo 4": [
+       67.25,
+       3,
+       "PEN",
+       408971.0
+      ],
+      "Modelo 1-I": [
+       51.44,
+       2,
+       "PEN",
+       311558.0
+      ]
+     },
+     "primero": {
+      "Modelo 15": [
+       "PEN",
+       343112.0,
+       20714
+      ],
+      "Modelo 8": [
+       "PEN",
+       332947.0,
+       20714
+      ],
+      "Modelo 4-I": [
+       "PEN",
+       694324.0,
+       20714
+      ],
+      "Modelo 7": [
+       "PEN",
+       229076.0,
+       20714
+      ],
+      "Modelo 11-I": [
+       "PEN",
+       404206.0,
+       20714
+      ],
+      "Modelo 4": [
+       "PEN",
+       408971.0,
+       20714
+      ],
+      "Modelo 1-I": [
+       "PEN",
+       311558.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "1976": {
+     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/simplicity-1976",
+     "tipo": "departamentos",
+     "dist": "Santiago De Surco",
+     "nombre": "Simplicity",
+     "marca": "AKAMAI",
+     "lat": -12.09036,
+     "lng": -76.97355,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo 11": [
+       70.59,
+       2,
+       "PEN",
+       631595.0
+      ],
+      "Modelo 12": [
+       68.6,
+       2,
+       "PEN",
+       613789.0
+      ]
+     },
+     "primero": {
+      "Modelo 11": [
+       "PEN",
+       631595.0,
+       20714
+      ],
+      "Modelo 12": [
+       "PEN",
+       613789.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "1988": {
+     "u": "https://nexoinmobiliario.pe/departamentos/miraflores/arequipa-1988",
+     "tipo": "departamentos",
+     "dist": "Miraflores",
+     "nombre": "Arequipa",
+     "marca": "ACTUAL",
+     "lat": -12.10971,
+     "lng": -77.03034,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO 5": [
+       94.64,
+       2,
+       "PEN",
+       881060.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 5": [
+       "PEN",
+       881060.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "1993": {
+     "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/s14-apartments-1993",
+     "tipo": "departamentos",
+     "dist": "Cercado De Lima",
+     "nombre": "S14 Apartments",
+     "marca": "URBANA PERÚ",
+     "lat": -12.07908,
+     "lng": -77.03502,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo X08": [
+       69.41,
+       3,
+       "PEN",
+       443000.0
+      ],
+      "Modelo Y06": [
+       109.15,
+       1,
+       "PEN",
+       644000.0
+      ]
+     },
+     "primero": {
+      "Modelo X08": [
+       "PEN",
+       443000.0,
+       20714
+      ],
+      "Modelo Y06": [
+       "PEN",
+       644000.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2056": {
+     "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/invent-juan-de-aliaga-2056",
+     "tipo": "departamentos",
+     "dist": "Magdalena Del Mar",
+     "nombre": "Invent Juan de Aliaga",
+     "marca": "INVENT INMOBILIARIA",
+     "lat": -12.09508,
+     "lng": -77.05972,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo 4": [
+       41.47,
+       1,
+       "PEN",
+       350024.0
+      ],
+      "Modelo 2-II": [
+       80.29,
+       3,
+       "PEN",
+       651442.0
+      ],
+      "Modelo 1-I": [
+       82.75,
+       3,
+       "PEN",
+       671242.0
+      ],
+      "Modelo 2-III": [
+       80.1,
+       3,
+       "PEN",
+       649853.0
+      ],
+      "Modelo 7-V": [
+       93.24,
+       3,
+       "PEN",
+       725665.0
+      ],
+      "Modelo 1-II": [
+       83.05,
+       3,
+       "PEN",
+       673676.0
+      ],
+      "Modelo 8-I": [
+       93.37,
+       3,
+       "PEN",
+       713806.0
+      ],
+      "Modelo 2-I": [
+       80.32,
+       3,
+       "PEN",
+       657582.0
+      ],
+      "Modelo 3": [
+       59.47,
+       2,
+       "PEN",
+       496372.0
+      ],
+      "Modelo 2-I0": [
+       43.38,
+       1,
+       "PEN",
+       364500.0
+      ]
+     },
+     "primero": {
+      "Modelo 4": [
+       "PEN",
+       350024.0,
+       20714
+      ],
+      "Modelo 2-II": [
+       "PEN",
+       651442.0,
+       20714
+      ],
+      "Modelo 1-I": [
+       "PEN",
+       671242.0,
+       20714
+      ],
+      "Modelo 2-III": [
+       "PEN",
+       649853.0,
+       20714
+      ],
+      "Modelo 7-V": [
+       "PEN",
+       725665.0,
+       20714
+      ],
+      "Modelo 1-II": [
+       "PEN",
+       673676.0,
+       20714
+      ],
+      "Modelo 8-I": [
+       "PEN",
+       713806.0,
+       20714
+      ],
+      "Modelo 2-I": [
+       "PEN",
+       657582.0,
+       20714
+      ],
+      "Modelo 3": [
+       "PEN",
+       496372.0,
+       20714
+      ],
+      "Modelo 2-I0": [
+       "PEN",
+       364500.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2064": {
+     "u": "https://nexoinmobiliario.pe/departamentos/lince/toscana-2064",
+     "tipo": "departamentos",
+     "dist": "Lince",
+     "nombre": "TOSCANA",
+     "marca": "TORATTO GRUPO INMOBILIARIO",
+     "lat": -12.09024,
+     "lng": -77.0358,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO K": [
+       113.99,
+       3,
+       "PEN",
+       1089589.0
+      ],
+      "Modelo TIPO B-1": [
+       129.26,
+       3,
+       "PEN",
+       901692.0
+      ],
+      "Modelo TIPO C-1": [
+       112.33,
+       2,
+       "PEN",
+       825469.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO K": [
+       "PEN",
+       1089589.0,
+       20714
+      ],
+      "Modelo TIPO B-1": [
+       "PEN",
+       901692.0,
+       20714
+      ],
+      "Modelo TIPO C-1": [
+       "PEN",
+       825469.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2077": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/canaval-185-2077",
+     "tipo": "departamentos",
+     "dist": "San Isidro",
+     "nombre": "CANAVAL 185",
+     "marca": "SENDA",
+     "lat": -12.09649,
+     "lng": -77.02401,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo Tipo 2": [
+       61.24,
+       2,
+       "PEN",
+       647000.0
+      ],
+      "Modelo Tipo 4": [
+       65.79,
+       2,
+       "PEN",
+       748900.0
+      ],
+      "Modelo Tipo 7": [
+       75.01,
+       2,
+       "PEN",
+       757900.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo 2": [
+       "PEN",
+       647000.0,
+       20714
+      ],
+      "Modelo Tipo 4": [
+       "PEN",
+       748900.0,
+       20714
+      ],
+      "Modelo Tipo 7": [
+       "PEN",
+       757900.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2079": {
+     "u": "https://nexoinmobiliario.pe/departamentos/brena/maz-etapa-1-2079",
+     "tipo": "departamentos",
+     "dist": "Brena",
+     "nombre": "MAZ",
+     "marca": "CONSTRUCTORA INARCO",
+     "lat": -12.06816,
+     "lng": -77.04998,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO A-X03": [
+       57.7,
+       2,
+       "PEN",
+       380000.0
+      ],
+      "Modelo TIPO A-X06": [
+       61.58,
+       2,
+       "PEN",
+       394556.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO A-X03": [
+       "PEN",
+       380000.0,
+       20714
+      ],
+      "Modelo TIPO A-X06": [
+       "PEN",
+       394556.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2115": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/alborada-san-miguel-2115",
+     "tipo": "departamentos",
+     "dist": "San Miguel",
+     "nombre": "ALBORADA",
+     "marca": "GRUPO MG",
+     "lat": -12.08513,
+     "lng": -77.0941,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo A2": [
+       76.6,
+       3,
+       "PEN",
+       478290.0
+      ],
+      "Modelo A4a": [
+       75.5,
+       3,
+       "PEN",
+       432600.0
+      ],
+      "Modelo A4": [
+       76.0,
+       3,
+       "PEN",
+       412400.0
+      ],
+      "Modelo A5a": [
+       97.0,
+       3,
+       "PEN",
+       495300.0
+      ],
+      "Modelo A7": [
+       73.5,
+       3,
+       "PEN",
+       400198.0
+      ],
+      "Modelo B3": [
+       58.0,
+       2,
+       "PEN",
+       337800.0
+      ],
+      "Modelo A1d": [
+       89.2,
+       2,
+       "PEN",
+       431400.0
+      ],
+      "Modelo A2b": [
+       87.0,
+       2,
+       "PEN",
+       425000.0
+      ],
+      "Modelo A5f": [
+       85.8,
+       2,
+       "PEN",
+       427400.0
+      ]
+     },
+     "primero": {
+      "Modelo A2": [
+       "PEN",
+       478290.0,
+       20714
+      ],
+      "Modelo A4a": [
+       "PEN",
+       432600.0,
+       20714
+      ],
+      "Modelo A4": [
+       "PEN",
+       412400.0,
+       20714
+      ],
+      "Modelo A5a": [
+       "PEN",
+       495300.0,
+       20714
+      ],
+      "Modelo A7": [
+       "PEN",
+       400198.0,
+       20714
+      ],
+      "Modelo B3": [
+       "PEN",
+       337800.0,
+       20714
+      ],
+      "Modelo A1d": [
+       "PEN",
+       431400.0,
+       20714
+      ],
+      "Modelo A2b": [
+       "PEN",
+       425000.0,
+       20714
+      ],
+      "Modelo A5f": [
+       "PEN",
+       427400.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2140": {
+     "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/venezia-2140",
+     "tipo": "departamentos",
+     "dist": "Magdalena Del Mar",
+     "nombre": "VENEZIA",
+     "marca": "GRUPO INMOBILIARIO S&M",
+     "lat": -12.09725,
+     "lng": -77.06246,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO D": [
+       79.79,
+       2,
+       "PEN",
+       680000.0
+      ],
+      "Modelo TIPO F": [
+       64.17,
+       2,
+       "PEN",
+       552500.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO D": [
+       "PEN",
+       680000.0,
+       20714
+      ],
+      "Modelo TIPO F": [
+       "PEN",
+       552500.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2150": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-borja/giardini-2150",
+     "tipo": "departamentos",
+     "dist": "San Borja",
+     "nombre": "GIARDINI",
+     "marca": "GRUPO INMOBILIARIO S&M",
+     "lat": -12.09708,
+     "lng": -76.98086,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO B": [
+       120.6,
+       3,
+       "PEN",
+       1031847.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO B": [
+       "PEN",
+       1031847.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2192": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/tree-san-isidro-2192",
+     "tipo": "departamentos",
+     "dist": "San Isidro",
+     "nombre": "Tree San Isidro",
+     "marca": "GRUPO T&C",
+     "lat": -12.09149,
+     "lng": -77.02973,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo Tipo 12": [
+       56.29,
+       1,
+       "PEN",
+       406519.0
+      ],
+      "Modelo Tipo 13": [
+       53.87,
+       1,
+       "PEN",
+       407686.0
+      ],
+      "Modelo OF. TIPO 4": [
+       46.62,
+       1,
+       "PEN",
+       439217.0
+      ],
+      "Modelo Tipo 5": [
+       47.16,
+       1,
+       "PEN",
+       368653.0
+      ],
+      "Modelo Tipo 8": [
+       81.58,
+       2,
+       "PEN",
+       669306.0
+      ],
+      "Modelo Tipo 9": [
+       53.96,
+       1,
+       "PEN",
+       345562.0
+      ],
+      "Modelo Tipo 10": [
+       39.81,
+       1,
+       "PEN",
+       360699.0
+      ],
+      "Modelo Tipo 4": [
+       46.62,
+       1,
+       "PEN",
+       439217.0
+      ],
+      "Modelo Tipo 6": [
+       45.81,
+       1,
+       "PEN",
+       426936.0
+      ],
+      "Modelo Tipo 7": [
+       60.6,
+       2,
+       "PEN",
+       539598.0
+      ],
+      "Modelo Tipo 11": [
+       43.67,
+       1,
+       "PEN",
+       367087.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo 12": [
+       "PEN",
+       406519.0,
+       20714
+      ],
+      "Modelo Tipo 13": [
+       "PEN",
+       407686.0,
+       20714
+      ],
+      "Modelo OF. TIPO 4": [
+       "PEN",
+       439217.0,
+       20714
+      ],
+      "Modelo Tipo 5": [
+       "PEN",
+       368653.0,
+       20714
+      ],
+      "Modelo Tipo 8": [
+       "PEN",
+       669306.0,
+       20714
+      ],
+      "Modelo Tipo 9": [
+       "PEN",
+       345562.0,
+       20714
+      ],
+      "Modelo Tipo 10": [
+       "PEN",
+       360699.0,
+       20714
+      ],
+      "Modelo Tipo 4": [
+       "PEN",
+       439217.0,
+       20714
+      ],
+      "Modelo Tipo 6": [
+       "PEN",
+       426936.0,
+       20714
+      ],
+      "Modelo Tipo 7": [
+       "PEN",
+       539598.0,
+       20714
+      ],
+      "Modelo Tipo 11": [
+       "PEN",
+       367087.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2194": {
+     "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/elant-fase-2-2194",
+     "tipo": "departamentos",
+     "dist": "La Victoria",
+     "nombre": "Elant | Fase 2",
+     "marca": "GRUPO LAR",
+     "lat": -12.08218,
+     "lng": -77.02582,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo Modelo 2 - Fase 2 (B-02B)": [
+       61.55,
+       2,
+       "PEN",
+       435000.0
+      ],
+      "Modelo Modelo 2 - Fase 2 (B-02)": [
+       70.01,
+       3,
+       "PEN",
+       494406.0
+      ],
+      "Modelo Modelo 4 - Fase 2 (B-04)": [
+       69.2,
+       3,
+       "PEN",
+       432931.0
+      ],
+      "Modelo Modelo 5 - Fase 2 (B-05)": [
+       68.45,
+       3,
+       "PEN",
+       490080.0
+      ]
+     },
+     "primero": {
+      "Modelo Modelo 2 - Fase 2 (B-02B)": [
+       "PEN",
+       435000.0,
+       20714
+      ],
+      "Modelo Modelo 2 - Fase 2 (B-02)": [
+       "PEN",
+       494406.0,
+       20714
+      ],
+      "Modelo Modelo 4 - Fase 2 (B-04)": [
+       "PEN",
+       432931.0,
+       20714
+      ],
+      "Modelo Modelo 5 - Fase 2 (B-05)": [
+       "PEN",
+       490080.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2198": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/amalfi-2198",
+     "tipo": "departamentos",
+     "dist": "San Miguel",
+     "nombre": "Amalfi",
+     "marca": "PAZ",
+     "lat": -12.08082,
+     "lng": -77.10703,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo 2": [
+       74.37,
+       3,
+       "PEN",
+       494000.0
+      ],
+      "Modelo 7": [
+       74.37,
+       3,
+       "PEN",
+       502000.0
+      ],
+      "Modelo 8": [
+       56.08,
+       2,
+       "PEN",
+       417000.0
+      ],
+      "Modelo 10": [
+       75.62,
+       3,
+       "PEN",
+       512000.0
+      ],
+      "Modelo 17": [
+       97.12,
+       3,
+       "PEN",
+       546000.0
+      ],
+      "Modelo 3": [
+       74.72,
+       3,
+       "PEN",
+       495000.0
+      ],
+      "Modelo 6": [
+       74.8,
+       3,
+       "PEN",
+       512000.0
+      ],
+      "Modelo 24": [
+       104.62,
+       3,
+       "PEN",
+       514000.0
+      ]
+     },
+     "primero": {
+      "Modelo 2": [
+       "PEN",
+       494000.0,
+       20714
+      ],
+      "Modelo 7": [
+       "PEN",
+       502000.0,
+       20714
+      ],
+      "Modelo 8": [
+       "PEN",
+       417000.0,
+       20714
+      ],
+      "Modelo 10": [
+       "PEN",
+       512000.0,
+       20714
+      ],
+      "Modelo 17": [
+       "PEN",
+       546000.0,
+       20714
+      ],
+      "Modelo 3": [
+       "PEN",
+       495000.0,
+       20714
+      ],
+      "Modelo 6": [
+       "PEN",
+       512000.0,
+       20714
+      ],
+      "Modelo 24": [
+       "PEN",
+       514000.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2199": {
+     "u": "https://nexoinmobiliario.pe/departamentos/lince/livorno-2199",
+     "tipo": "departamentos",
+     "dist": "Lince",
+     "nombre": "LIVORNO",
+     "marca": "TORATTO GRUPO INMOBILIARIO",
+     "lat": -12.08936,
+     "lng": -77.03618,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO G": [
+       74.28,
+       3,
+       "PEN",
+       741547.0
+      ],
+      "Modelo TIPO J": [
+       63.04,
+       2,
+       "PEN",
+       593992.0
+      ],
+      "Modelo TIPO M": [
+       76.79,
+       2,
+       "PEN",
+       657578.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO G": [
+       "PEN",
+       741547.0,
+       20714
+      ],
+      "Modelo TIPO J": [
+       "PEN",
+       593992.0,
+       20714
+      ],
+      "Modelo TIPO M": [
+       "PEN",
+       657578.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2216": {
+     "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/savia-2216",
+     "tipo": "departamentos",
+     "dist": "Pueblo Libre",
+     "nombre": "Savia",
+     "marca": "PAZ",
+     "lat": -12.07367,
+     "lng": -77.05293,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo 6": [
+       64.12,
+       2,
+       "PEN",
+       473000.0
+      ],
+      "Modelo 8": [
+       71.15,
+       2,
+       "PEN",
+       510000.0
+      ],
+      "Modelo 2": [
+       76.21,
+       2,
+       "PEN",
+       552000.0
+      ],
+      "Modelo 3": [
+       76.68,
+       2,
+       "PEN",
+       529000.0
+      ]
+     },
+     "primero": {
+      "Modelo 6": [
+       "PEN",
+       473000.0,
+       20714
+      ],
+      "Modelo 8": [
+       "PEN",
+       510000.0,
+       20714
+      ],
+      "Modelo 2": [
+       "PEN",
+       552000.0,
+       20714
+      ],
+      "Modelo 3": [
+       "PEN",
+       529000.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2264": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/all-san-isidro-2264",
+     "tipo": "departamentos",
+     "dist": "San Isidro",
+     "nombre": "All San Isidro",
+     "marca": "SENDA",
+     "lat": -12.09096,
+     "lng": -77.02738,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO 1": [
+       62.52,
+       2,
+       "PEN",
+       627100.0
+      ],
+      "Modelo TIPO 10": [
+       60.73,
+       2,
+       "PEN",
+       628500.0
+      ],
+      "Modelo TIPO 2": [
+       60.0,
+       2,
+       "PEN",
+       664700.0
+      ],
+      "Modelo TIPO 3": [
+       45.01,
+       1,
+       "PEN",
+       502300.0
+      ],
+      "Modelo TIPO 4": [
+       72.9,
+       2,
+       "PEN",
+       822100.0
+      ],
+      "Modelo TIPO 5": [
+       46.1,
+       1,
+       "PEN",
+       472500.0
+      ],
+      "Modelo TIPO 6": [
+       45.11,
+       1,
+       "PEN",
+       476400.0
+      ],
+      "Modelo TIPO 7": [
+       45.65,
+       1,
+       "PEN",
+       467900.0
+      ],
+      "Modelo TIPO 8": [
+       46.04,
+       1,
+       "PEN",
+       510900.0
+      ],
+      "Modelo TIPO 9": [
+       60.18,
+       2,
+       "PEN",
+       629000.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 1": [
+       "PEN",
+       627100.0,
+       20714
+      ],
+      "Modelo TIPO 10": [
+       "PEN",
+       628500.0,
+       20714
+      ],
+      "Modelo TIPO 2": [
+       "PEN",
+       664700.0,
+       20714
+      ],
+      "Modelo TIPO 3": [
+       "PEN",
+       502300.0,
+       20714
+      ],
+      "Modelo TIPO 4": [
+       "PEN",
+       822100.0,
+       20714
+      ],
+      "Modelo TIPO 5": [
+       "PEN",
+       472500.0,
+       20714
+      ],
+      "Modelo TIPO 6": [
+       "PEN",
+       476400.0,
+       20714
+      ],
+      "Modelo TIPO 7": [
+       "PEN",
+       467900.0,
+       20714
+      ],
+      "Modelo TIPO 8": [
+       "PEN",
+       510900.0,
+       20714
+      ],
+      "Modelo TIPO 9": [
+       "PEN",
+       629000.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2295": {
+     "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/residencial-real-2295",
+     "tipo": "departamentos",
+     "dist": "La Victoria",
+     "nombre": "Residencial Real",
+     "marca": "PAZ",
+     "lat": -12.0729,
+     "lng": -77.03024,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo 3": [
+       34.11,
+       1,
+       "PEN",
+       255000.0
+      ],
+      "Modelo 4": [
+       65.44,
+       2,
+       "PEN",
+       395000.0
+      ]
+     },
+     "primero": {
+      "Modelo 3": [
+       "PEN",
+       255000.0,
+       20714
+      ],
+      "Modelo 4": [
+       "PEN",
+       395000.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2297": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-borja/roof-garden-barrenechea-2297",
+     "tipo": "departamentos",
+     "dist": "San Borja",
+     "nombre": "Roof Garden Barrenechea",
+     "marca": "EVERGRAN GRUPO INMOBILIARIO",
+     "lat": -12.10965,
+     "lng": -77.00755,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo 11": [
+       70.26,
+       3,
+       "PEN",
+       506379.0
+      ],
+      "Modelo 12": [
+       70.33,
+       3,
+       "PEN",
+       494815.0
+      ],
+      "Modelo 13": [
+       69.1,
+       3,
+       "PEN",
+       486160.0
+      ],
+      "Modelo 14": [
+       69.32,
+       3,
+       "PEN",
+       495560.0
+      ],
+      "Modelo 15": [
+       68.63,
+       3,
+       "PEN",
+       490627.0
+      ],
+      "Modelo 16": [
+       68.16,
+       3,
+       "PEN",
+       487270.0
+      ],
+      "Modelo 17": [
+       68.92,
+       3,
+       "PEN",
+       492700.0
+      ],
+      "Modelo 18": [
+       78.87,
+       3,
+       "PEN",
+       563830.0
+      ],
+      "Modelo 22": [
+       80.93,
+       3,
+       "PEN",
+       551022.0
+      ],
+      "Modelo 1": [
+       91.16,
+       3,
+       "PEN",
+       703938.0
+      ],
+      "Modelo 4": [
+       72.85,
+       3,
+       "PEN",
+       512545.0
+      ],
+      "Modelo 7": [
+       59.28,
+       1,
+       "PEN",
+       402000.0
+      ],
+      "Modelo 10": [
+       59.66,
+       2,
+       "PEN",
+       419745.0
+      ]
+     },
+     "primero": {
+      "Modelo 11": [
+       "PEN",
+       506379.0,
+       20714
+      ],
+      "Modelo 12": [
+       "PEN",
+       494815.0,
+       20714
+      ],
+      "Modelo 13": [
+       "PEN",
+       486160.0,
+       20714
+      ],
+      "Modelo 14": [
+       "PEN",
+       495560.0,
+       20714
+      ],
+      "Modelo 15": [
+       "PEN",
+       490627.0,
+       20714
+      ],
+      "Modelo 16": [
+       "PEN",
+       487270.0,
+       20714
+      ],
+      "Modelo 17": [
+       "PEN",
+       492700.0,
+       20714
+      ],
+      "Modelo 18": [
+       "PEN",
+       563830.0,
+       20714
+      ],
+      "Modelo 22": [
+       "PEN",
+       551022.0,
+       20714
+      ],
+      "Modelo 1": [
+       "PEN",
+       703938.0,
+       20714
+      ],
+      "Modelo 4": [
+       "PEN",
+       512545.0,
+       20714
+      ],
+      "Modelo 7": [
+       "PEN",
+       402000.0,
+       20714
+      ],
+      "Modelo 10": [
+       "PEN",
+       419745.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2308": {
+     "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/smart-a-santa-beatriz-2308",
+     "tipo": "departamentos",
+     "dist": "Cercado De Lima",
+     "nombre": "SMART A",
+     "marca": "GRUPO MG",
+     "lat": -12.07512,
+     "lng": -77.03296,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO 2": [
+       83.8,
+       2,
+       "PEN",
+       512400.0
+      ],
+      "Modelo TIPO 1": [
+       83.35,
+       2,
+       "PEN",
+       492880.0
+      ],
+      "Modelo TIPO 3": [
+       83.5,
+       3,
+       "PEN",
+       466000.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 2": [
+       "PEN",
+       512400.0,
+       20714
+      ],
+      "Modelo TIPO 1": [
+       "PEN",
+       492880.0,
+       20714
+      ],
+      "Modelo TIPO 3": [
+       "PEN",
+       466000.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2313": {
+     "u": "https://nexoinmobiliario.pe/departamentos/surquillo/mate-2313",
+     "tipo": "departamentos",
+     "dist": "Surquillo",
+     "nombre": "MATE",
+     "marca": "REAL INMOBILIARIA",
+     "lat": -12.11641,
+     "lng": -77.00635,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo Tipo 2 A": [
+       78.46,
+       3,
+       "PEN",
+       637680.0
+      ],
+      "Modelo Tipo 3 A": [
+       66.18,
+       3,
+       "PEN",
+       519600.0
+      ],
+      "Modelo Tipo 2 B": [
+       78.46,
+       3,
+       "PEN",
+       637680.0
+      ],
+      "Modelo Tipo 6 B": [
+       44.92,
+       2,
+       "PEN",
+       370000.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo 2 A": [
+       "PEN",
+       637680.0,
+       20714
+      ],
+      "Modelo Tipo 3 A": [
+       "PEN",
+       519600.0,
+       20714
+      ],
+      "Modelo Tipo 2 B": [
+       "PEN",
+       637680.0,
+       20714
+      ],
+      "Modelo Tipo 6 B": [
+       "PEN",
+       370000.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2324": {
+     "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/park-living-2324",
+     "tipo": "departamentos",
+     "dist": "Cercado De Lima",
+     "nombre": "Park Living",
+     "marca": "EUREKA",
+     "lat": -12.07394,
+     "lng": -77.03477,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO 4A": [
+       45.18,
+       1,
+       "PEN",
+       350000.0
+      ],
+      "Modelo TIPO 5A": [
+       37.56,
+       1,
+       "PEN",
+       350000.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 4A": [
+       "PEN",
+       350000.0,
+       20714
+      ],
+      "Modelo TIPO 5A": [
+       "PEN",
+       350000.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2361": {
+     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/paseo-de-la-arboleda-6-2361",
+     "tipo": "departamentos",
+     "dist": "Santiago De Surco",
+     "nombre": "PASEO DE LA ARBOLEDA 6",
+     "marca": "V&V GRUPO INMOBILIARIO",
+     "lat": -12.14144,
+     "lng": -77.01075,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo H-SS02": [
+       82.0,
+       2,
+       "PEN",
+       460000.0
+      ],
+      "Modelo H-SS04": [
+       87.0,
+       2,
+       "PEN",
+       494000.0
+      ],
+      "Modelo H-Tipo 1": [
+       69.0,
+       2,
+       "PEN",
+       426000.0
+      ],
+      "Modelo H-Tipo 2": [
+       69.0,
+       2,
+       "PEN",
+       426000.0
+      ],
+      "Modelo H-Tipo 3": [
+       74.0,
+       2,
+       "PEN",
+       447000.0
+      ],
+      "Modelo H-Tipo 4": [
+       74.0,
+       2,
+       "PEN",
+       460000.0
+      ],
+      "Modelo I-SS01": [
+       82.0,
+       2,
+       "PEN",
+       460000.0
+      ],
+      "Modelo I-SS02": [
+       81.15,
+       2,
+       "PEN",
+       460000.0
+      ],
+      "Modelo I-Tipo 1": [
+       69.0,
+       2,
+       "PEN",
+       419000.0
+      ],
+      "Modelo I-Tipo 2": [
+       69.0,
+       2,
+       "PEN",
+       448000.0
+      ],
+      "Modelo I-Tipo 3": [
+       74.0,
+       2,
+       "PEN",
+       454000.0
+      ],
+      "Modelo I-Tipo 4": [
+       74.0,
+       2,
+       "PEN",
+       447000.0
+      ]
+     },
+     "primero": {
+      "Modelo H-SS02": [
+       "PEN",
+       460000.0,
+       20714
+      ],
+      "Modelo H-SS04": [
+       "PEN",
+       494000.0,
+       20714
+      ],
+      "Modelo H-Tipo 1": [
+       "PEN",
+       426000.0,
+       20714
+      ],
+      "Modelo H-Tipo 2": [
+       "PEN",
+       426000.0,
+       20714
+      ],
+      "Modelo H-Tipo 3": [
+       "PEN",
+       447000.0,
+       20714
+      ],
+      "Modelo H-Tipo 4": [
+       "PEN",
+       460000.0,
+       20714
+      ],
+      "Modelo I-SS01": [
+       "PEN",
+       460000.0,
+       20714
+      ],
+      "Modelo I-SS02": [
+       "PEN",
+       460000.0,
+       20714
+      ],
+      "Modelo I-Tipo 1": [
+       "PEN",
+       419000.0,
+       20714
+      ],
+      "Modelo I-Tipo 2": [
+       "PEN",
+       448000.0,
+       20714
+      ],
+      "Modelo I-Tipo 3": [
+       "PEN",
+       454000.0,
+       20714
+      ],
+      "Modelo I-Tipo 4": [
+       "PEN",
+       447000.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2370": {
+     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/samay-2370",
+     "tipo": "departamentos",
+     "dist": "Santiago De Surco",
+     "nombre": "Samay",
+     "marca": "PAQARI INMOBILIARIA",
+     "lat": -12.1552,
+     "lng": -77.01628,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo TIPO 1 A": [
+       137.44,
+       3,
+       "PEN",
+       696238.0
+      ],
+      "Modelo TIPO 2 A": [
+       138.7,
+       3,
+       "PEN",
+       671428.0
+      ],
+      "Modelo TIPO 3 A": [
+       71.01,
+       3,
+       "PEN",
+       427658.0
+      ],
+      "Modelo TIPO 4 A": [
+       71.22,
+       3,
+       "PEN",
+       454918.0
+      ],
+      "Modelo TIPO 1 B": [
+       144.63,
+       3,
+       "PEN",
+       701079.0
+      ],
+      "Modelo TIPO 2 B": [
+       72.59,
+       3,
+       "PEN",
+       410678.0
+      ],
+      "Modelo TIPO 3 B": [
+       52.39,
+       3,
+       "PEN",
+       344202.0
+      ],
+      "Modelo TIPO 4 B": [
+       52.42,
+       3,
+       "PEN",
+       339616.0
+      ],
+      "Modelo TIPO 5 B": [
+       38.55,
+       1,
+       "PEN",
+       260309.0
+      ],
+      "Modelo TIPO 6 B": [
+       40.91,
+       1,
+       "PEN",
+       257580.0
+      ],
+      "Modelo TIPO3 A": [
+       142.71,
+       3,
+       "PEN",
+       690553.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 1 A": [
+       "PEN",
+       696238.0,
+       20714
+      ],
+      "Modelo TIPO 2 A": [
+       "PEN",
+       671428.0,
+       20714
+      ],
+      "Modelo TIPO 3 A": [
+       "PEN",
+       427658.0,
+       20714
+      ],
+      "Modelo TIPO 4 A": [
+       "PEN",
+       454918.0,
+       20714
+      ],
+      "Modelo TIPO 1 B": [
+       "PEN",
+       701079.0,
+       20714
+      ],
+      "Modelo TIPO 2 B": [
+       "PEN",
+       410678.0,
+       20714
+      ],
+      "Modelo TIPO 3 B": [
+       "PEN",
+       344202.0,
+       20714
+      ],
+      "Modelo TIPO 4 B": [
+       "PEN",
+       339616.0,
+       20714
+      ],
+      "Modelo TIPO 5 B": [
+       "PEN",
+       260309.0,
+       20714
+      ],
+      "Modelo TIPO 6 B": [
+       "PEN",
+       257580.0,
+       20714
+      ],
+      "Modelo TIPO3 A": [
+       "PEN",
+       690553.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2378": {
+     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/balboa-2378",
+     "tipo": "departamentos",
+     "dist": "Santiago De Surco",
+     "nombre": "BALBOA",
+     "marca": "EE INMOBILIARIA",
+     "lat": -12.13949,
+     "lng": -77.007,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo Dpto 101": [
+       63.13,
+       2,
+       "PEN",
+       399000.0
+      ],
+      "Modelo Dpto 201": [
+       66.57,
+       2,
+       "PEN",
+       389000.0
+      ],
+      "Modelo Dpto 203": [
+       68.77,
+       2,
+       "PEN",
+       399000.0
+      ]
+     },
+     "primero": {
+      "Modelo Dpto 101": [
+       "PEN",
+       399000.0,
+       20714
+      ],
+      "Modelo Dpto 201": [
+       "PEN",
+       389000.0,
+       20714
+      ],
+      "Modelo Dpto 203": [
+       "PEN",
+       399000.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2387": {
+     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/bongo-condominio-2387",
+     "tipo": "departamentos",
+     "dist": "Santiago De Surco",
+     "nombre": "BONGO CONDOMINIO",
+     "marca": "AKAMAI",
+     "lat": -12.14338,
+     "lng": -77.01199,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo EDIF 6 - X03": [
+       64.56,
+       3,
+       "PEN",
+       368500.0
+      ],
+      "Modelo EDIF 7 - 904": [
+       63.18,
+       3,
+       "PEN",
+       364400.0
+      ]
+     },
+     "primero": {
+      "Modelo EDIF 6 - X03": [
+       "PEN",
+       368500.0,
+       20714
+      ],
+      "Modelo EDIF 7 - 904": [
+       "PEN",
+       364400.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2393": {
+     "u": "https://nexoinmobiliario.pe/departamentos/lince/lombardia-2393",
+     "tipo": "departamentos",
+     "dist": "Lince",
+     "nombre": "LOMBARDIA",
+     "marca": "TORATTO GRUPO INMOBILIARIO",
+     "lat": -12.0814,
+     "lng": -77.0394,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO A'": [
+       79.0,
+       3,
+       "PEN",
+       600380.0
+      ],
+      "Modelo TIPO C'": [
+       64.13,
+       2,
+       "PEN",
+       493019.0
+      ],
+      "Modelo TIPO D'": [
+       64.84,
+       2,
+       "PEN",
+       498145.0
+      ],
+      "Modelo TIPO E'": [
+       63.78,
+       2,
+       "PEN",
+       490492.0
+      ],
+      "Modelo TIPO O'": [
+       80.41,
+       2,
+       "PEN",
+       595282.0
+      ],
+      "Modelo TIPO P'": [
+       77.66,
+       3,
+       "PEN",
+       590705.0
+      ],
+      "Modelo TIPO Q'": [
+       72.63,
+       3,
+       "PEN",
+       540589.0
+      ],
+      "Modelo TIPO R'": [
+       78.98,
+       3,
+       "PEN",
+       600236.0
+      ],
+      "Modelo TIPO A8": [
+       85.85,
+       1,
+       "PEN",
+       579649.0
+      ],
+      "Modelo TIPO A1": [
+       120.55,
+       2,
+       "PEN",
+       771779.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO A'": [
+       "PEN",
+       600380.0,
+       20714
+      ],
+      "Modelo TIPO C'": [
+       "PEN",
+       493019.0,
+       20714
+      ],
+      "Modelo TIPO D'": [
+       "PEN",
+       498145.0,
+       20714
+      ],
+      "Modelo TIPO E'": [
+       "PEN",
+       490492.0,
+       20714
+      ],
+      "Modelo TIPO O'": [
+       "PEN",
+       595282.0,
+       20714
+      ],
+      "Modelo TIPO P'": [
+       "PEN",
+       590705.0,
+       20714
+      ],
+      "Modelo TIPO Q'": [
+       "PEN",
+       540589.0,
+       20714
+      ],
+      "Modelo TIPO R'": [
+       "PEN",
+       600236.0,
+       20714
+      ],
+      "Modelo TIPO A8": [
+       "PEN",
+       579649.0,
+       20714
+      ],
+      "Modelo TIPO A1": [
+       "PEN",
+       771779.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2411": {
+     "u": "https://nexoinmobiliario.pe/departamentos/bellavista/terrazas-de-bellavista-2411",
+     "tipo": "departamentos",
+     "dist": "Bellavista",
+     "nombre": "TERRAZAS DE BELLAVISTA",
+     "marca": "NADLAN",
+     "lat": -12.0626,
+     "lng": -77.1281,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo S07": [
+       73.15,
+       2,
+       "PEN",
+       351766.0
+      ],
+      "Modelo TIPO3": [
+       66.64,
+       3,
+       "PEN",
+       344500.0
+      ],
+      "Modelo TIPO7": [
+       67.1,
+       3,
+       "PEN",
+       406725.0
+      ],
+      "Modelo TIPO8": [
+       65.2,
+       3,
+       "PEN",
+       398750.0
+      ],
+      "Modelo TIPO9": [
+       46.0,
+       2,
+       "PEN",
+       245000.0
+      ],
+      "Modelo 1203": [
+       70.57,
+       2,
+       "PEN",
+       376735.0
+      ],
+      "Modelo 1204": [
+       70.69,
+       2,
+       "PEN",
+       381239.0
+      ],
+      "Modelo 1210": [
+       68.61,
+       2,
+       "PEN",
+       357739.0
+      ]
+     },
+     "primero": {
+      "Modelo S07": [
+       "PEN",
+       351766.0,
+       20714
+      ],
+      "Modelo TIPO3": [
+       "PEN",
+       344500.0,
+       20714
+      ],
+      "Modelo TIPO7": [
+       "PEN",
+       406725.0,
+       20714
+      ],
+      "Modelo TIPO8": [
+       "PEN",
+       398750.0,
+       20714
+      ],
+      "Modelo TIPO9": [
+       "PEN",
+       245000.0,
+       20714
+      ],
+      "Modelo 1203": [
+       "PEN",
+       376735.0,
+       20714
+      ],
+      "Modelo 1204": [
+       "PEN",
+       381239.0,
+       20714
+      ],
+      "Modelo 1210": [
+       "PEN",
+       357739.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2417": {
+     "u": "https://nexoinmobiliario.pe/departamentos/miraflores/piknik-park-2417",
+     "tipo": "departamentos",
+     "dist": "Miraflores",
+     "nombre": "Piknik Park",
+     "marca": "SEMBRA INMOBILIARIA",
+     "lat": -12.12017,
+     "lng": -77.02498,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo 4": [
+       74.21,
+       3,
+       "PEN",
+       639200.0
+      ],
+      "Modelo 2": [
+       67.45,
+       3,
+       "PEN",
+       603800.0
+      ]
+     },
+     "primero": {
+      "Modelo 4": [
+       "PEN",
+       639200.0,
+       20714
+      ],
+      "Modelo 2": [
+       "PEN",
+       603800.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2430": {
+     "u": "https://nexoinmobiliario.pe/departamentos/barranco/patria-2430",
+     "tipo": "departamentos",
+     "dist": "Barranco",
+     "nombre": "PATRIA",
+     "marca": "INVENT INMOBILIARIA",
+     "lat": -12.13713,
+     "lng": -77.01994,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo 3": [
+       74.3,
+       2,
+       "PEN",
+       614610.0
+      ],
+      "Modelo 2": [
+       72.83,
+       2,
+       "PEN",
+       602550.0
+      ],
+      "Modelo 6-I": [
+       95.37,
+       2,
+       "PEN",
+       728735.0
+      ]
+     },
+     "primero": {
+      "Modelo 3": [
+       "PEN",
+       614610.0,
+       20714
+      ],
+      "Modelo 2": [
+       "PEN",
+       602550.0,
+       20714
+      ],
+      "Modelo 6-I": [
+       "PEN",
+       728735.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2436": {
+     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/ativa-fase-1-2436",
+     "tipo": "departamentos",
+     "dist": "Santiago De Surco",
+     "nombre": "ATIVA FASE 1",
+     "marca": "COSAPI",
+     "lat": -12.09813,
+     "lng": -76.97172,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo Departamento tipo X01": [
+       69.66,
+       3,
+       "PEN",
+       616061.0
+      ],
+      "Modelo Departamento tipo X03": [
+       59.52,
+       2,
+       "PEN",
+       531080.0
+      ],
+      "Modelo Departamento tipo X06": [
+       53.2,
+       2,
+       "PEN",
+       483084.0
+      ],
+      "Modelo Departamento tipo X07": [
+       47.25,
+       2,
+       "PEN",
+       431140.0
+      ],
+      "Modelo Departamento tipo X08": [
+       47.94,
+       2,
+       "PEN",
+       431140.0
+      ]
+     },
+     "primero": {
+      "Modelo Departamento tipo X01": [
+       "PEN",
+       616061.0,
+       20714
+      ],
+      "Modelo Departamento tipo X03": [
+       "PEN",
+       531080.0,
+       20714
+      ],
+      "Modelo Departamento tipo X06": [
+       "PEN",
+       483084.0,
+       20714
+      ],
+      "Modelo Departamento tipo X07": [
+       "PEN",
+       431140.0,
+       20714
+      ],
+      "Modelo Departamento tipo X08": [
+       "PEN",
+       431140.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2438": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/inspiria-2438",
+     "tipo": "departamentos",
+     "dist": "San Miguel",
+     "nombre": "INSPIRIA",
+     "marca": "URBALIMA",
+     "lat": -12.07826,
+     "lng": -77.10123,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo 304": [
+       77.5,
+       3,
+       "PEN",
+       499000.0
+      ],
+      "Modelo 1703": [
+       58.25,
+       3,
+       "PEN",
+       388000.0
+      ],
+      "Modelo 2003": [
+       56.5,
+       2,
+       "PEN",
+       380000.0
+      ],
+      "Modelo 1601": [
+       49.75,
+       2,
+       "PEN",
+       325000.0
+      ]
+     },
+     "primero": {
+      "Modelo 304": [
+       "PEN",
+       499000.0,
+       20714
+      ],
+      "Modelo 1703": [
+       "PEN",
+       388000.0,
+       20714
+      ],
+      "Modelo 2003": [
+       "PEN",
+       380000.0,
+       20714
+      ],
+      "Modelo 1601": [
+       "PEN",
+       325000.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2445": {
+     "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/bolivar-1209-2445",
+     "tipo": "departamentos",
+     "dist": "Pueblo Libre",
+     "nombre": "BOLIVAR 1209",
+     "marca": "TER INMOBILIARIA",
+     "lat": -12.07257,
+     "lng": -77.06673,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo X01": [
+       45.0,
+       1,
+       "PEN",
+       323830.0
+      ],
+      "Modelo X02": [
+       73.0,
+       3,
+       "PEN",
+       487250.0
+      ],
+      "Modelo X00": [
+       55.84,
+       2,
+       "PEN",
+       392848.0
+      ]
+     },
+     "primero": {
+      "Modelo X01": [
+       "PEN",
+       323830.0,
+       20714
+      ],
+      "Modelo X02": [
+       "PEN",
+       487250.0,
+       20714
+      ],
+      "Modelo X00": [
+       "PEN",
+       392848.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2476": {
+     "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/eco-style-2476",
+     "tipo": "departamentos",
+     "dist": "Magdalena Del Mar",
+     "nombre": "Eco Style",
+     "marca": "FUNDAMENTA",
+     "lat": -12.09463,
+     "lng": -77.05597,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo 6B": [
+       70.84,
+       2,
+       "PEN",
+       631750.0
+      ],
+      "Modelo 3C": [
+       86.6,
+       3,
+       "PEN",
+       779000.0
+      ],
+      "Modelo 2": [
+       91.04,
+       3,
+       "PEN",
+       788500.0
+      ]
+     },
+     "primero": {
+      "Modelo 6B": [
+       "PEN",
+       631750.0,
+       20714
+      ],
+      "Modelo 3C": [
+       "PEN",
+       779000.0,
+       20714
+      ],
+      "Modelo 2": [
+       "PEN",
+       788500.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2487": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/libertad-2487",
+     "tipo": "departamentos",
+     "dist": "San Miguel",
+     "nombre": "LIBERTAD",
+     "marca": "MAKE INMOBILIARIA",
+     "lat": -12.07938,
+     "lng": -77.10402,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo AX101": [
+       59.75,
+       1,
+       "PEN",
+       284000.0
+      ],
+      "Modelo AX04": [
+       50.75,
+       2,
+       "PEN",
+       294000.0
+      ],
+      "Modelo AX05": [
+       71.25,
+       2,
+       "PEN",
+       400000.0
+      ],
+      "Modelo AX06": [
+       51.0,
+       2,
+       "PEN",
+       288000.0
+      ],
+      "Modelo BX01": [
+       71.5,
+       2,
+       "PEN",
+       420000.0
+      ],
+      "Modelo BX02": [
+       61.25,
+       2,
+       "PEN",
+       370000.0
+      ],
+      "Modelo BX03": [
+       66.5,
+       3,
+       "PEN",
+       376000.0
+      ]
+     },
+     "primero": {
+      "Modelo AX101": [
+       "PEN",
+       284000.0,
+       20714
+      ],
+      "Modelo AX04": [
+       "PEN",
+       294000.0,
+       20714
+      ],
+      "Modelo AX05": [
+       "PEN",
+       400000.0,
+       20714
+      ],
+      "Modelo AX06": [
+       "PEN",
+       288000.0,
+       20714
+      ],
+      "Modelo BX01": [
+       "PEN",
+       420000.0,
+       20714
+      ],
+      "Modelo BX02": [
+       "PEN",
+       370000.0,
+       20714
+      ],
+      "Modelo BX03": [
+       "PEN",
+       376000.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2490": {
+     "u": "https://nexoinmobiliario.pe/departamentos/miraflores/sonhos-2490",
+     "tipo": "departamentos",
+     "dist": "Miraflores",
+     "nombre": "SONHOS",
+     "marca": "CONSTRUCTORA INARCO",
+     "lat": -12.11394,
+     "lng": -77.02966,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO 1": [
+       60.56,
+       1,
+       "PEN",
+       588645.0
+      ],
+      "Modelo TIPO 2": [
+       74.66,
+       1,
+       "PEN",
+       650720.0
+      ],
+      "Modelo TIPO 5": [
+       76.15,
+       2,
+       "PEN",
+       777175.0
+      ],
+      "Modelo TIPO 6": [
+       78.34,
+       2,
+       "PEN",
+       686270.0
+      ],
+      "Modelo TIPO 7": [
+       73.6,
+       1,
+       "PEN",
+       651310.0
+      ],
+      "Modelo TIPO 9": [
+       62.05,
+       1,
+       "PEN",
+       655275.0
+      ],
+      "Modelo TIPO 11": [
+       78.5,
+       1,
+       "PEN",
+       695630.0
+      ],
+      "Modelo TIPO 12": [
+       73.6,
+       1,
+       "PEN",
+       669605.0
+      ],
+      "Modelo TIPO 16": [
+       77.15,
+       1,
+       "PEN",
+       741555.0
+      ],
+      "Modelo TIPO 1401": [
+       128.02,
+       2,
+       "PEN",
+       1041750.0
+      ],
+      "Modelo TIPO 1403": [
+       62.05,
+       1,
+       "PEN",
+       622595.0
+      ],
+      "Modelo TIPO 1501": [
+       76.05,
+       2,
+       "PEN",
+       800670.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 1": [
+       "PEN",
+       588645.0,
+       20714
+      ],
+      "Modelo TIPO 2": [
+       "PEN",
+       650720.0,
+       20714
+      ],
+      "Modelo TIPO 5": [
+       "PEN",
+       777175.0,
+       20714
+      ],
+      "Modelo TIPO 6": [
+       "PEN",
+       686270.0,
+       20714
+      ],
+      "Modelo TIPO 7": [
+       "PEN",
+       651310.0,
+       20714
+      ],
+      "Modelo TIPO 9": [
+       "PEN",
+       655275.0,
+       20714
+      ],
+      "Modelo TIPO 11": [
+       "PEN",
+       695630.0,
+       20714
+      ],
+      "Modelo TIPO 12": [
+       "PEN",
+       669605.0,
+       20714
+      ],
+      "Modelo TIPO 16": [
+       "PEN",
+       741555.0,
+       20714
+      ],
+      "Modelo TIPO 1401": [
+       "PEN",
+       1041750.0,
+       20714
+      ],
+      "Modelo TIPO 1403": [
+       "PEN",
+       622595.0,
+       20714
+      ],
+      "Modelo TIPO 1501": [
+       "PEN",
+       800670.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2494": {
+     "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/proyecto-vanguardia-2494",
+     "tipo": "departamentos",
+     "dist": "Magdalena Del Mar",
+     "nombre": "Proyecto Vanguardia",
+     "marca": "FAI INMOBILIARIA",
+     "lat": -12.09742,
+     "lng": -77.07077,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo X01": [
+       76.28,
+       3,
+       "PEN",
+       541207.0
+      ],
+      "Modelo X02 A": [
+       48.41,
+       1,
+       "PEN",
+       386070.0
+      ],
+      "Modelo X03": [
+       72.01,
+       3,
+       "PEN",
+       502772.0
+      ],
+      "Modelo X03 A": [
+       68.74,
+       3,
+       "PEN",
+       476368.0
+      ],
+      "Modelo 203": [
+       65.03,
+       2,
+       "PEN",
+       583925.0
+      ],
+      "Modelo X04 FLEX": [
+       67.78,
+       2,
+       "PEN",
+       510722.0
+      ],
+      "Modelo X07": [
+       67.57,
+       3,
+       "PEN",
+       479409.0
+      ],
+      "Modelo X01 B": [
+       41.05,
+       1,
+       "PEN",
+       338663.0
+      ]
+     },
+     "primero": {
+      "Modelo X01": [
+       "PEN",
+       541207.0,
+       20714
+      ],
+      "Modelo X02 A": [
+       "PEN",
+       386070.0,
+       20714
+      ],
+      "Modelo X03": [
+       "PEN",
+       502772.0,
+       20714
+      ],
+      "Modelo X03 A": [
+       "PEN",
+       476368.0,
+       20714
+      ],
+      "Modelo 203": [
+       "PEN",
+       583925.0,
+       20714
+      ],
+      "Modelo X04 FLEX": [
+       "PEN",
+       510722.0,
+       20714
+      ],
+      "Modelo X07": [
+       "PEN",
+       479409.0,
+       20714
+      ],
+      "Modelo X01 B": [
+       "PEN",
+       338663.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2506": {
+     "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/ocean-avenue-2506",
+     "tipo": "departamentos",
+     "dist": "Pueblo Libre",
+     "nombre": "OCEAN AVENUE",
+     "marca": "SERVIPRO",
+     "lat": -12.07498,
+     "lng": -77.06315,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo X01": [
+       56.72,
+       2,
+       "PEN",
+       434950.0
+      ],
+      "Modelo X02": [
+       70.52,
+       3,
+       "PEN",
+       559950.0
+      ],
+      "Modelo X04": [
+       57.32,
+       2,
+       "PEN",
+       429950.0
+      ]
+     },
+     "primero": {
+      "Modelo X01": [
+       "PEN",
+       434950.0,
+       20714
+      ],
+      "Modelo X02": [
+       "PEN",
+       559950.0,
+       20714
+      ],
+      "Modelo X04": [
+       "PEN",
+       429950.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2507": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/flamingo-2507",
+     "tipo": "departamentos",
+     "dist": "Jesus Maria",
+     "nombre": "FLAMINGO",
+     "marca": "GRUPO TyC",
+     "lat": -12.06685,
+     "lng": -77.04671,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO 1 A": [
+       79.05,
+       3,
+       "PEN",
+       661500.0
+      ],
+      "Modelo TIPO 1 B": [
+       64.0,
+       2,
+       "PEN",
+       526106.0
+      ],
+      "Modelo TIPO 2 A": [
+       79.23,
+       3,
+       "PEN",
+       627018.0
+      ],
+      "Modelo TIPO 2 B": [
+       58.3,
+       2,
+       "PEN",
+       478500.0
+      ],
+      "Modelo TIPO 3 A": [
+       60.01,
+       2,
+       "PEN",
+       496000.0
+      ],
+      "Modelo TIPO 3 B": [
+       58.0,
+       2,
+       "PEN",
+       481000.0
+      ],
+      "Modelo TIPO 4 A": [
+       40.12,
+       1,
+       "PEN",
+       335500.0
+      ],
+      "Modelo TIPO 4 B": [
+       56.36,
+       2,
+       "PEN",
+       424770.0
+      ],
+      "Modelo TIPO 5 A": [
+       60.61,
+       2,
+       "PEN",
+       510000.0
+      ],
+      "Modelo TIPO 5 B": [
+       64.86,
+       2,
+       "PEN",
+       466284.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 1 A": [
+       "PEN",
+       661500.0,
+       20714
+      ],
+      "Modelo TIPO 1 B": [
+       "PEN",
+       526106.0,
+       20714
+      ],
+      "Modelo TIPO 2 A": [
+       "PEN",
+       627018.0,
+       20714
+      ],
+      "Modelo TIPO 2 B": [
+       "PEN",
+       478500.0,
+       20714
+      ],
+      "Modelo TIPO 3 A": [
+       "PEN",
+       496000.0,
+       20714
+      ],
+      "Modelo TIPO 3 B": [
+       "PEN",
+       481000.0,
+       20714
+      ],
+      "Modelo TIPO 4 A": [
+       "PEN",
+       335500.0,
+       20714
+      ],
+      "Modelo TIPO 4 B": [
+       "PEN",
+       424770.0,
+       20714
+      ],
+      "Modelo TIPO 5 A": [
+       "PEN",
+       510000.0,
+       20714
+      ],
+      "Modelo TIPO 5 B": [
+       "PEN",
+       466284.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2509": {
+     "u": "https://nexoinmobiliario.pe/departamentos/miraflores/centrik-2509",
+     "tipo": "departamentos",
+     "dist": "Miraflores",
+     "nombre": "CENTRIK",
+     "marca": "INMOBILIARIA ARES",
+     "lat": -12.10754,
+     "lng": -77.02932,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo Tipo 2": [
+       85.51,
+       2,
+       "PEN",
+       742287.0
+      ],
+      "Modelo Tipo 4": [
+       76.74,
+       2,
+       "PEN",
+       754697.0
+      ],
+      "Modelo Tipo 7": [
+       83.13,
+       3,
+       "PEN",
+       686733.0
+      ],
+      "Modelo Tipo 5": [
+       75.65,
+       2,
+       "PEN",
+       744190.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo 2": [
+       "PEN",
+       742287.0,
+       20714
+      ],
+      "Modelo Tipo 4": [
+       "PEN",
+       754697.0,
+       20714
+      ],
+      "Modelo Tipo 7": [
+       "PEN",
+       686733.0,
+       20714
+      ],
+      "Modelo Tipo 5": [
+       "PEN",
+       744190.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2570": {
+     "u": "https://nexoinmobiliario.pe/departamentos/miraflores/henko-2570",
+     "tipo": "departamentos",
+     "dist": "Miraflores",
+     "nombre": "HENKO",
+     "marca": "CONSTRUCTORA INARCO",
+     "lat": -12.12946,
+     "lng": -77.02588,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo 101": [
+       92.94,
+       2,
+       "PEN",
+       1183600.0
+      ],
+      "Modelo 103": [
+       98.21,
+       2,
+       "PEN",
+       1216150.0
+      ],
+      "Modelo 201": [
+       72.98,
+       1,
+       "PEN",
+       890650.0
+      ],
+      "Modelo TIPO 1": [
+       83.27,
+       2,
+       "PEN",
+       1033450.0
+      ],
+      "Modelo TIPO 3": [
+       89.83,
+       2,
+       "PEN",
+       1166800.0
+      ]
+     },
+     "primero": {
+      "Modelo 101": [
+       "PEN",
+       1183600.0,
+       20714
+      ],
+      "Modelo 103": [
+       "PEN",
+       1216150.0,
+       20714
+      ],
+      "Modelo 201": [
+       "PEN",
+       890650.0,
+       20714
+      ],
+      "Modelo TIPO 1": [
+       "PEN",
+       1033450.0,
+       20714
+      ],
+      "Modelo TIPO 3": [
+       "PEN",
+       1166800.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2578": {
+     "u": "https://nexoinmobiliario.pe/departamentos/miraflores/ramon-zavala-ii-2578",
+     "tipo": "departamentos",
+     "dist": "Miraflores",
+     "nombre": "RAMON ZAVALA II",
+     "marca": "INMOBILIARIA DIEGAL",
+     "lat": -12.12128,
+     "lng": -77.03889,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo X04": [
+       87.01,
+       2,
+       "PEN",
+       839800.0
+      ],
+      "Modelo X01": [
+       87.06,
+       3,
+       "PEN",
+       902500.0
+      ],
+      "Modelo X02": [
+       78.67,
+       2,
+       "PEN",
+       776150.0
+      ],
+      "Modelo X03": [
+       83.77,
+       3,
+       "PEN",
+       844550.0
+      ],
+      "Modelo X06": [
+       144.53,
+       3,
+       "PEN",
+       1488650.0
+      ]
+     },
+     "primero": {
+      "Modelo X04": [
+       "PEN",
+       839800.0,
+       20714
+      ],
+      "Modelo X01": [
+       "PEN",
+       902500.0,
+       20714
+      ],
+      "Modelo X02": [
+       "PEN",
+       776150.0,
+       20714
+      ],
+      "Modelo X03": [
+       "PEN",
+       844550.0,
+       20714
+      ],
+      "Modelo X06": [
+       "PEN",
+       1488650.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2588": {
+     "u": "https://nexoinmobiliario.pe/departamentos/miraflores/mandra-2588",
+     "tipo": "departamentos",
+     "dist": "Miraflores",
+     "nombre": "MANDRA",
+     "marca": "GRUPO TyC",
+     "lat": -12.11101,
+     "lng": -77.0505,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo Tipo 19": [
+       75.64,
+       1,
+       "PEN",
+       534650.0
+      ],
+      "Modelo Tipo 6": [
+       83.09,
+       2,
+       "PEN",
+       722204.0
+      ],
+      "Modelo Tipo 1": [
+       100.26,
+       3,
+       "PEN",
+       813662.0
+      ],
+      "Modelo Tipo 2": [
+       103.62,
+       3,
+       "PEN",
+       877000.0
+      ],
+      "Modelo Tipo 5": [
+       84.58,
+       2,
+       "PEN",
+       718708.0
+      ],
+      "Modelo Tipo 21": [
+       76.2,
+       2,
+       "PEN",
+       582233.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo 19": [
+       "PEN",
+       534650.0,
+       20714
+      ],
+      "Modelo Tipo 6": [
+       "PEN",
+       722204.0,
+       20714
+      ],
+      "Modelo Tipo 1": [
+       "PEN",
+       813662.0,
+       20714
+      ],
+      "Modelo Tipo 2": [
+       "PEN",
+       877000.0,
+       20714
+      ],
+      "Modelo Tipo 5": [
+       "PEN",
+       718708.0,
+       20714
+      ],
+      "Modelo Tipo 21": [
+       "PEN",
+       582233.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2617": {
+     "u": "https://nexoinmobiliario.pe/departamentos/miraflores/pardo-669-2617",
+     "tipo": "departamentos",
+     "dist": "Miraflores",
+     "nombre": "PARDO 669",
+     "marca": "V&V GRUPO INMOBILIARIO",
+     "lat": -12.1193,
+     "lng": -77.03532,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo Tipo 1-A": [
+       42.01,
+       1,
+       "PEN",
+       601000.0
+      ],
+      "Modelo Tipo 2-A": [
+       59.77,
+       2,
+       "PEN",
+       825000.0
+      ],
+      "Modelo Tipo 4-A": [
+       37.48,
+       1,
+       "PEN",
+       513000.0
+      ],
+      "Modelo Tipo 6-A": [
+       38.34,
+       1,
+       "PEN",
+       507000.0
+      ],
+      "Modelo Tipo 7-B": [
+       61.34,
+       2,
+       "PEN",
+       731000.0
+      ],
+      "Modelo Tipo 13-B": [
+       78.4,
+       2,
+       "PEN",
+       952000.0
+      ],
+      "Modelo Tipo 2104-A": [
+       55.41,
+       1,
+       "PEN",
+       669000.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo 1-A": [
+       "PEN",
+       601000.0,
+       20714
+      ],
+      "Modelo Tipo 2-A": [
+       "PEN",
+       825000.0,
+       20714
+      ],
+      "Modelo Tipo 4-A": [
+       "PEN",
+       513000.0,
+       20714
+      ],
+      "Modelo Tipo 6-A": [
+       "PEN",
+       507000.0,
+       20714
+      ],
+      "Modelo Tipo 7-B": [
+       "PEN",
+       731000.0,
+       20714
+      ],
+      "Modelo Tipo 13-B": [
+       "PEN",
+       952000.0,
+       20714
+      ],
+      "Modelo Tipo 2104-A": [
+       "PEN",
+       669000.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2621": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/basadre-1310-2621",
+     "tipo": "departamentos",
+     "dist": "San Isidro",
+     "nombre": "Basadre 1310",
+     "marca": "FUNDAMENTA",
+     "lat": -12.09575,
+     "lng": -77.04504,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPOLOGIA 1": [
+       111.71,
+       1,
+       "PEN",
+       1131273.0
+      ],
+      "Modelo TIPOLOGIA 15": [
+       238.42,
+       1,
+       "PEN",
+       2161000.0
+      ],
+      "Modelo TIPOLOGIA 16": [
+       152.41,
+       1,
+       "PEN",
+       1415154.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPOLOGIA 1": [
+       "PEN",
+       1131273.0,
+       20714
+      ],
+      "Modelo TIPOLOGIA 15": [
+       "PEN",
+       2161000.0,
+       20714
+      ],
+      "Modelo TIPOLOGIA 16": [
+       "PEN",
+       1415154.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2652": {
+     "u": "https://nexoinmobiliario.pe/departamentos/miraflores/larco-791-2652",
+     "tipo": "departamentos",
+     "dist": "Miraflores",
+     "nombre": "LARCO 791",
+     "marca": "V&V GRUPO INMOBILIARIO",
+     "lat": -12.12581,
+     "lng": -77.02933,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo Tipo T2-X03": [
+       92.38,
+       3,
+       "PEN",
+       1069000.0
+      ],
+      "Modelo Tipo T2-X04": [
+       92.24,
+       3,
+       "PEN",
+       1052000.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo T2-X03": [
+       "PEN",
+       1069000.0,
+       20714
+      ],
+      "Modelo Tipo T2-X04": [
+       "PEN",
+       1052000.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2660": {
+     "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/alto-alborada-2660",
+     "tipo": "departamentos",
+     "dist": "Cercado De Lima",
+     "nombre": "Alto Alborada",
+     "marca": "IMAGINA",
+     "lat": -12.05839,
+     "lng": -77.06712,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo 3 Dormitorios + Cocina": [
+       64.21,
+       3,
+       "PEN",
+       375534.0
+      ],
+      "Modelo 3 Dormitorios + Cocina + Sala": [
+       72.48,
+       3,
+       "PEN",
+       413385.0
+      ]
+     },
+     "primero": {
+      "Modelo 3 Dormitorios + Cocina": [
+       "PEN",
+       375534.0,
+       20714
+      ],
+      "Modelo 3 Dormitorios + Cocina + Sala": [
+       "PEN",
+       413385.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    },
+    "2661": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/palm-living-2661",
+     "tipo": "departamentos",
+     "dist": "San Isidro",
+     "nombre": "PALM LIVING",
+     "marca": "GRUPO T&C",
+     "lat": -12.09271,
+     "lng": -77.03859,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo TIPO 5A": [
+       53.55,
+       1,
+       "PEN",
+       396828.0
+      ],
+      "Modelo TIPO 1A": [
+       45.67,
+       1,
+       "PEN",
+       377265.0
+      ],
+      "Modelo TIPO 2": [
+       70.8,
+       2,
+       "PEN",
+       664880.0
+      ],
+      "Modelo TIPO 4": [
+       79.99,
+       2,
+       "PEN",
+       710758.0
+      ],
+      "Modelo TIPO 10B": [
+       53.11,
+       2,
+       "PEN",
+       461577.0
+      ],
+      "Modelo TIPO 5B": [
+       53.83,
+       1,
+       "PEN",
+       400232.0
+      ],
+      "Modelo TIPO 15": [
+       56.56,
+       2,
+       "PEN",
+       494142.0
+      ],
+      "Modelo TIPO 18": [
+       57.28,
+       1,
+       "PEN",
+       419604.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 5A": [
+       "PEN",
+       396828.0,
+       20714
+      ],
+      "Modelo TIPO 1A": [
+       "PEN",
+       377265.0,
+       20714
+      ],
+      "Modelo TIPO 2": [
+       "PEN",
+       664880.0,
+       20714
+      ],
+      "Modelo TIPO 4": [
+       "PEN",
+       710758.0,
+       20714
+      ],
+      "Modelo TIPO 10B": [
+       "PEN",
+       461577.0,
+       20714
+      ],
+      "Modelo TIPO 5B": [
+       "PEN",
+       400232.0,
+       20714
+      ],
+      "Modelo TIPO 15": [
+       "PEN",
+       494142.0,
+       20714
+      ],
+      "Modelo TIPO 18": [
+       "PEN",
+       419604.0,
+       20714
+      ]
+     },
+     "r": 20714,
+     "x": 20714
+    }
+   },
+   "ultima": 1789754995
+  },
+  "scotiabank": {
+   "filas": {
+    "427": {
+     "valor": 268040.5
+    },
+    "1147": {
+     "valor": 9000.0
+    },
+    "1156": {
+     "valor": 46812.0
+    },
+    "3807": {
+     "valor": 32638.08
+    },
+    "3989": {
+     "valor": 1161015.0
+    },
+    "4780": {
+     "valor": 424700.0
+    },
+    "4785": {
+     "valor": 137527.2
+    },
+    "5255": {
+     "valor": 1134000.0
+    },
+    "5261": {
+     "valor": 33930.9
+    },
+    "5410": {
+     "valor": 621761.4
+    },
+    "5556": {
+     "valor": 4961.25
+    },
+    "5607": {
+     "valor": 136653.62
+    },
+    "5626": {
+     "valor": 6182.4
+    },
+    "5629": {
+     "valor": 4236.75
+    },
+    "5632": {
+     "valor": 13882.93
+    },
+    "5645": {
+     "valor": 23232.6
+    },
+    "5652": {
+     "valor": 36474.61
+    },
+    "5655": {
+     "valor": 36180.0
+    },
+    "5674": {
+     "valor": 28917.0
+    },
+    "5679": {
+     "valor": 438300.0
+    },
+    "5682": {
+     "valor": 1102150.0
+    },
+    "5692": {
+     "valor": 528195.3
+    },
+    "5713": {
+     "valor": 13092.19
+    },
+    "5723": {
+     "valor": 312820.13
+    },
+    "5742": {
+     "valor": 54037.97
+    },
+    "5745": {
+     "valor": 356242.71
+    },
+    "5761": {
+     "valor": 96300.0
+    },
+    "5762": {
+     "valor": 69075.0
+    },
+    "5763": {
+     "valor": 28109.66
+    },
+    "5764": {
+     "valor": 363700.0
+    },
+    "5765": {
+     "valor": 11777.63
+    },
+    "5767": {
+     "valor": 3202.5
+    },
+    "5772": {
+     "valor": 126963.0
+    },
+    "5773": {
+     "valor": 126963.0
+    },
+    "5774": {
+     "valor": 126963.0
+    },
+    "5775": {
+     "valor": 354000.0
+    },
+    "5777": {
+     "valor": 51615.57
+    },
+    "5787": {
+     "valor": 31733.36
+    },
+    "5788": {
+     "valor": 662592.0
+    },
+    "5790": {
+     "valor": 476800.0
+    },
+    "5800": {
+     "valor": 471117.6
+    },
+    "5801": {
+     "valor": 570000.0
+    },
+    "5804": {
+     "valor": 39487.5
+    },
+    "5807": {
+     "valor": 28860.0
+    },
+    "5810": {
+     "valor": 1102000.0
+    },
+    "5811": {
+     "valor": 630600.0
+    },
+    "5812": {
+     "valor": 140880.0
+    },
+    "5814": {
+     "valor": 60570.0
+    },
+    "5817": {
+     "valor": 269282.66
+    },
+    "5818": {
+     "valor": 22939.2
+    },
+    "5834": {
+     "valor": 119232.0
+    },
+    "5835": {
+     "valor": 83160.0
+    },
+    "5836": {
+     "valor": 39993.75
+    },
+    "5856": {
+     "valor": 18900.0
+    },
+    "5862": {
+     "valor": 38323.18
+    },
+    "5871": {
+     "valor": 85816.5
+    },
+    "5872": {
+     "valor": 26635.5
+    },
+    "5880": {
+     "valor": 902000.0
+    },
+    "5881": {
+     "valor": 22552.49
+    },
+    "5886": {
+     "valor": 9151.25
+    },
+    "5890": {
+     "valor": 18523.29
+    },
+    "5903": {
+     "valor": 69209.1
+    },
+    "5904": {
+     "valor": 102986.25
+    },
+    "5908": {
+     "valor": 2373700.0
+    },
+    "5910": {
+     "valor": 1018500.0
+    },
+    "5915": {
+     "valor": 47252.0
+    },
+    "5917": {
+     "valor": 14124.6
+    },
+    "5918": {
+     "valor": 90720.0
+    },
+    "5923": {
+     "valor": 71112.11
+    },
+    "5924": {
+     "valor": 12100.28
+    },
+    "5934": {
+     "valor": 51101.1
+    },
+    "5952": {
+     "valor": 20800.8
+    },
+    "5955": {
+     "valor": 36953.44
+    },
+    "5957": {
+     "valor": 19008.0
+    },
+    "5987": {
+     "valor": 40033.23
+    },
+    "5988": {
+     "valor": 29856.39
+    },
+    "5992": {
+     "valor": 80139.38
+    },
+    "5993": {
+     "valor": 50400.0
+    },
+    "6000": {
+     "valor": 58841.86
+    },
+    "6001": {
+     "valor": 31815.3
+    },
+    "6004": {
+     "valor": 12005.66
+    },
+    "6022": {
+     "valor": 22340.82
+    },
+    "6024": {
+     "valor": 42707.25
+    },
+    "6025": {
+     "valor": 117225.0
+    },
+    "6026": {
+     "valor": 769154.31
+    },
+    "6034": {
+     "valor": 45152.35
+    },
+    "6040": {
+     "valor": 16761.94
+    },
+    "6042": {
+     "valor": 46799.64
+    },
+    "6047": {
+     "valor": 38877.7
+    },
+    "6048": {
+     "valor": 57749.82
+    },
+    "6052": {
+     "valor": 465719.8
+    },
+    "6056": {
+     "valor": 32970.23
+    },
+    "6058": {
+     "valor": 60660.0
+    },
+    "6059": {
+     "valor": 763700.0
+    },
+    "6082": {
+     "valor": 36216.0
+    },
+    "6086": {
+     "valor": 61687.65
+    },
+    "6087": {
+     "valor": 21090.46
+    },
+    "6099": {
+     "valor": 34286.73
+    },
+    "6101": {
+     "valor": 103654.98
+    },
+    "6103": {
+     "valor": 24317.11
+    },
+    "6105": {
+     "valor": 42758.08
+    },
+    "6111": {
+     "valor": 84069.3
+    },
+    "6114": {
+     "valor": 43200.0
+    },
+    "6115": {
+     "valor": 68175.0
+    },
+    "6121": {
+     "valor": 56632.5
+    },
+    "6123": {
+     "valor": 65453.91
+    },
+    "6125": {
+     "valor": 59275.4
+    },
+    "6127": {
+     "valor": 65185.0
+    },
+    "6128": {
+     "valor": 89900.0
+    },
+    "6129": {
+     "valor": 598300.0
+    },
+    "6130": {
+     "valor": 114075.0
+    },
+    "6131": {
+     "valor": 1251306.63
+    },
+    "6134": {
+     "valor": 30863.42
+    },
+    "6135": {
+     "valor": 15876.0
+    },
+    "6139": {
+     "valor": 16200.0
+    },
+    "6142": {
+     "valor": 408480.0
+    },
+    "6149": {
+     "valor": 150592.77
+    },
+    "6150": {
+     "valor": 134551.13
+    },
+    "6152": {
+     "valor": 46980.0
+    },
+    "6153": {
+     "valor": 36000.0
+    },
+    "6154": {
+     "valor": 120412.95
+    },
+    "6159": {
+     "valor": 129355.33
+    },
+    "6160": {
+     "valor": 116360.1
+    },
+    "6164": {
+     "valor": 16631.69
+    },
+    "6167": {
+     "valor": 40551.15
+    },
+    "6168": {
+     "valor": 40473.0
+    },
+    "6170": {
+     "valor": 83581.2
+    },
+    "6171": {
+     "valor": 316807.2
+    },
+    "6174": {
+     "valor": 76987.71
+    },
+    "6175": {
+     "valor": 30038.49
+    },
+    "6178": {
+     "valor": 37224.0
+    },
+    "6179": {
+     "valor": 76875.0
+    },
+    "6181": {
+     "valor": 327900.0
+    },
+    "6182": {
+     "valor": 581500.0
+    },
+    "6191": {
+     "valor": 106903.13
+    },
+    "6194": {
+     "valor": 57300.0
+    },
+    "6197": {
+     "valor": 43150.8
+    },
+    "6198": {
+     "valor": 84144.0
+    },
+    "6199": {
+     "valor": 40822.0
+    },
+    "6200": {
+     "valor": 38053.0
+    },
+    "6204": {
+     "valor": 22877.0
+    },
+    "6206": {
+     "valor": 32250.0
+    },
+    "6207": {
+     "valor": 48787.17
+    },
+    "6208": {
+     "valor": 22572.11
+    },
+    "6210": {
+     "valor": 106945.78
+    },
+    "6218": {
+     "valor": 33089.98
+    },
+    "6219": {
+     "valor": 28147.0
+    },
+    "6220": {
+     "valor": 109737.0
+    },
+    "6221": {
+     "valor": 30519.53
+    },
+    "6225": {
+     "valor": 378700.0
+    },
+    "6226": {
+     "valor": 34962.4
+    },
+    "6227": {
+     "valor": 74800.0
+    },
+    "6228": {
+     "valor": 80800.0
+    },
+    "6230": {
+     "valor": 131850.0
+    },
+    "6234": {
+     "valor": 382500.0
+    },
+    "6236": {
+     "valor": 83690.0
+    },
+    "6240": {
+     "valor": 77717.76
+    },
+    "6241": {
+     "valor": 39007.36
+    },
+    "6242": {
+     "valor": 38400.0
+    },
+    "6246": {
+     "valor": 160826.96
+    },
+    "6248": {
+     "valor": 28800.0
+    },
+    "6251": {
+     "valor": 11475.0
+    },
+    "6256": {
+     "valor": 71380.8
+    },
+    "6257": {
+     "valor": 82875.0
+    },
+    "6258": {
+     "valor": 80018.4
+    },
+    "6259": {
+     "valor": 251073.0
+    },
+    "6260": {
+     "valor": 35325.0
+    },
+    "6266": {
+     "valor": 100672.0
+    },
+    "6267": {
+     "valor": 52795.57
+    },
+    "6268": {
+     "valor": 97200.0
+    },
+    "6270": {
+     "valor": 51789.1
+    },
+    "6271": {
+     "valor": 28678.72
+    },
+    "6273": {
+     "valor": 270447.9
+    },
+    "6276": {
+     "valor": 34038.11
+    },
+    "6280": {
+     "valor": 66715.51
+    },
+    "6281": {
+     "valor": 102949.04
+    },
+    "6282": {
+     "valor": 81854.3
+    },
+    "6285": {
+     "valor": 48080.0
+    },
+    "6287": {
+     "valor": 51375.0
+    },
+    "6293": {
+     "valor": 239775.0
+    },
+    "6294": {
+     "valor": 97895.43
+    },
+    "6297": {
+     "valor": 169770.6
+    },
+    "6298": {
+     "valor": 42639.43
+    },
+    "6300": {
+     "valor": 75623.63
+    },
+    "6303": {
+     "valor": 127259.79
+    },
+    "6304": {
+     "valor": 122877.67
+    },
+    "6305": {
+     "valor": 47107.68
+    },
+    "6306": {
+     "valor": 380623.0
+    },
+    "6307": {
+     "valor": 65144.82
+    },
+    "6308": {
+     "valor": 92835.47
+    },
+    "6309": {
+     "valor": 81389.55
+    },
+    "6310": {
+     "valor": 148500.0
+    },
+    "6311": {
+     "valor": 125785.0
+    },
+    "6312": {
+     "valor": 106177.5
+    },
+    "6313": {
+     "valor": 84969.79
+    },
+    "6314": {
+     "valor": 72332.7
+    },
+    "6315": {
+     "valor": 42284.48
+    },
+    "6316": {
+     "valor": 42577.92
+    },
+    "6318": {
+     "valor": 31238.28
+    },
+    "6322": {
+     "valor": 138682.5
+    },
+    "6324": {
+     "valor": 130853.07
+    },
+    "6325": {
+     "valor": 125502.39
+    },
+    "6326": {
+     "valor": 90790.84
+    },
+    "6327": {
+     "valor": 39184.2
+    },
+    "6328": {
+     "valor": 24447.5
+    },
+    "6329": {
+     "valor": 35914.35
+    },
+    "6330": {
+     "valor": 324000.0
+    },
+    "6332": {
+     "valor": 339724.65
+    },
+    "6334": {
+     "valor": 51337.03
+    },
+    "6335": {
+     "valor": 265004.03
+    },
+    "6336": {
+     "valor": 69960.0
+    },
+    "6337": {
+     "valor": 31020.0
+    },
+    "6339": {
+     "valor": 49919.56
+    },
+    "6342": {
+     "valor": 71508.75
+    },
+    "6343": {
+     "valor": 136702.5
+    },
+    "6344": {
+     "valor": 107767.66
+    },
+    "6345": {
+     "valor": 21331.85
+    },
+    "6346": {
+     "valor": 122596.85
+    },
+    "6347": {
+     "valor": 67980.0
+    },
+    "6348": {
+     "valor": 150727.5
+    },
+    "6350": {
+     "valor": 77640.11
+    },
+    "6351": {
+     "valor": 50680.27
+    },
+    "6352": {
+     "valor": 44392.96
+    },
+    "6353": {
+     "valor": 22878.21
+    },
+    "6354": {
+     "valor": 43395.0
+    },
+    "6355": {
+     "valor": 22021.52
+    },
+    "6356": {
+     "valor": 102129.9
+    },
+    "6357": {
+     "valor": 20068.58
+    },
+    "6358": {
+     "valor": 215971.97
+    },
+    "6359": {
+     "valor": 65407.3
+    },
+    "6360": {
+     "valor": 31515.0
+    },
+    "6362": {
+     "valor": 36300.0
+    },
+    "6363": {
+     "valor": 61337.13
+    },
+    "6364": {
+     "valor": 42075.0
+    },
+    "6365": {
+     "valor": 131587.5
+    },
+    "6366": {
+     "valor": 128085.65
+    },
+    "6367": {
+     "valor": 107465.17
+    },
+    "6368": {
+     "valor": 43642.5
+    },
+    "6369": {
+     "valor": 26040.29
+    },
+    "6370": {
+     "valor": 41167.5
+    },
+    "5683-A": {
+     "valor": 1218200.0
+    },
+    "5683-C": {
+     "valor": 1218200.0
+    }
+   },
+   "ultima": 1789754995
+  },
+  "infocasas": {
+   "avisos": {
+    "194256162": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 515.0,
+     "area": 32.0,
+     "lat": -12.07513,
+     "lng": -77.05416,
+     "mon": "USD",
+     "monto": 515.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Pueblo Libre",
+     "titulo": "SE ALQUILA DEPARTAMENTO DE ESTRENO CON VISTA PANORAMICA EN PUEBLO LIBRE LÍMITE C",
+     "u": "https://www.infocasas.com.pe/se-alquila-departamento-de-estreno-con-vista-panoramica-en-pueblo-libre-limite-con-jesus-maria/194256162",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       515.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "ate"
+    },
+    "194140720": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 315000.0,
+     "area": 180.0,
+     "lat": -12.08087,
+     "lng": -76.98158,
+     "mon": "USD",
+     "monto": 315000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Ate",
+     "titulo": "CASA FRENTE A PARQUE EN VENTA – SALAMANCA | CERCA AL JOCKEY PLAZA",
+     "u": "https://www.infocasas.com.pe/casa-frente-a-parque-en-venta-–-salamanca-cerca-al-jockey-plaza/194140720",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       315000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "ate"
+    },
+    "194245568": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 435000.0,
+     "area": 258.0,
+     "lat": -12.12879,
+     "lng": -77.02212,
+     "mon": "USD",
+     "monto": 435000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Barranco",
+     "titulo": "Venta Departamento dúplex en Barranco 3 habitaciones",
+     "u": "https://www.infocasas.com.pe/venta-departamento-duplex-en-barranco-3-habitaciones/194245568",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       435000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "barranco"
+    },
+    "194190451": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 485000.0,
+     "area": 154.0,
+     "lat": -12.13594,
+     "lng": -77.02157,
+     "mon": "USD",
+     "monto": 485000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Barranco",
+     "titulo": "HERMOSO DUPLEX DE 3 DORM CON TERRAZA Y PISCINA EN BARRANCO",
+     "u": "https://www.infocasas.com.pe/hermoso-duplex-de-3-dorm-con-terraza-y-piscina-en-barranco/194190451",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       485000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "barranco"
+    },
+    "194245577": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 103016.0,
+     "area": 42.0,
+     "lat": -12.15011,
+     "lng": -77.01834,
+     "mon": "PEN",
+     "monto": 347957.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Barranco",
+     "titulo": "VENTA DEPARTAMENTO EN BARRANCO - DPTO 704 AL 1104 A (609-886-13)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-barranco-dpto-704-al-1104-a-60988613/194245577",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       103016.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "barranco"
+    },
+    "194263072": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 123300.0,
+     "area": 45.0,
+     "lat": -12.13734,
+     "lng": -77.02238,
+     "mon": "USD",
+     "monto": 123300.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Barranco",
+     "titulo": "SE VENDE DEPARTAMENTO FRENTE AL ESTADIO CHIPOCO A POCAS CUADRAS DEL MALECON",
+     "u": "https://www.infocasas.com.pe/se-vende-departamento-frente-al-estadio-chipoco-a-pocas-cuadras-del-malecon/194263072",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       123300.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "barranco"
+    },
+    "194270594": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 860.0,
+     "area": 62.0,
+     "lat": -12.13727,
+     "lng": -77.02088,
+     "mon": "USD",
+     "monto": 860.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Barranco",
+     "titulo": "Alquiler dpto amoblado-2 dorm-2 baños-a 2 cuadras de Estadio Chipoco",
+     "u": "https://www.infocasas.com.pe/alquiler-dpto-amoblado2-dorm2-bañosa-2-cuadras-de-estadio-chipoco/194270594",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       860.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "barranco"
+    },
+    "194234815": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 680.0,
+     "area": 44.0,
+     "lat": -12.13968,
+     "lng": -77.0228,
+     "mon": "USD",
+     "monto": 680.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Barranco",
+     "titulo": "Alquiler Departamento en Barranco 1 habitación con piscina y gimnasio",
+     "u": "https://www.infocasas.com.pe/alquiler-departamento-en-barranco-1-habitacion-con-piscina-y-gimnasio/194234815",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       680.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "barranco"
+    },
+    "194228564": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 888.0,
+     "area": 56.0,
+     "lat": -12.14308,
+     "lng": -77.02201,
+     "mon": "PEN",
+     "monto": 3000.0,
+     "mant": 103.6,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Barranco",
+     "titulo": "Departamento Amoblado En Barranco",
+     "u": "https://www.infocasas.com.pe/departamento-amoblado-en-barranco/194228564",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       888.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "barranco"
+    },
+    "194160698": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 670.0,
+     "area": 38.0,
+     "lat": -12.13788,
+     "lng": -77.02212,
+     "mon": "USD",
+     "monto": 670.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Barranco",
+     "titulo": "SE ALQUILA DEPARTAMENTO AMOBLADO FRENTE AL ESTADIO CHIPOCO",
+     "u": "https://www.infocasas.com.pe/se-alquila-departamento-amoblado-frente-al-estadio-chipoco/194160698",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       670.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "barranco"
+    },
+    "194202751": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 597.0,
+     "area": 30.0,
+     "lat": -12.13691,
+     "lng": -77.02254,
+     "mon": "USD",
+     "monto": 597.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "Mono",
+     "zona": "Barranco",
+     "titulo": "Alquiler de Monambiente, Vista al mar, amoblado y equipado, frente al MAC de Bar",
+     "u": "https://www.infocasas.com.pe/alquiler-de-monambiente-vista-al-mar-amoblado-y-equipado-frente-al-mac-de-barranco/194202751",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       597.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "barranco"
+    },
+    "194270584": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1600.0,
+     "area": 140.0,
+     "lat": -12.13842,
+     "lng": -77.02586,
+     "mon": "USD",
+     "monto": 1600.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Barranco",
+     "titulo": "ALQUILER - DEPARTAMENTO - 3 DORMITORIOS - A MEDIA CUADRA MALECON PAUL HARRIS CON",
+     "u": "https://www.infocasas.com.pe/alquiler-departamento-3-dormitorios-a-media-cuadra-malecon-paul-harris-con-piscina-privada/194270584",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       1600.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "barranco"
+    },
+    "194240824": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 680.0,
+     "area": 40.0,
+     "lat": -12.14142,
+     "lng": -77.02387,
+     "mon": "USD",
+     "monto": 680.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Barranco",
+     "titulo": "ALQUILO DEPARTAMENTO AMOBLADO CON COCHERA A POCAS CUADRAS DEL MALECON",
+     "u": "https://www.infocasas.com.pe/alquilo-departamento-amoblado-con-cochera-a-pocas-cuadras-del-malecon/194240824",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       680.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "barranco"
+    },
+    "194197011": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 626.0,
+     "area": 75.0,
+     "lat": -12.06725,
+     "lng": -77.05283,
+     "mon": "USD",
+     "monto": 626.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Breña",
+     "titulo": "general varela 19xx- dpto 3 dorm 1 cochera, limite con pueblo libre, cerca de la",
+     "u": "https://www.infocasas.com.pe/general-varela-19xx-dpto-3-dorm-1-cochera-limite-con-pueblo-libre-cerca-de-la-rambla-av-brasil/194197011",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       626.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "brena"
+    },
+    "194190454": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 84000.0,
+     "area": 100.0,
+     "lat": -11.82587,
+     "lng": -77.04072,
+     "mon": "USD",
+     "monto": 84000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Carabayllo",
+     "titulo": "VENTA CASA CARABAYLLO VILLACLUV II BIEN CONSERVADA",
+     "u": "https://www.infocasas.com.pe/venta-casa-carabayllo-villacluv-ii-bien-conservada/194190454",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       84000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "carabayllo"
+    },
+    "194211411": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 55000.0,
+     "area": 175.0,
+     "lat": -11.84843,
+     "lng": -76.99216,
+     "mon": "USD",
+     "monto": 55000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Carabayllo",
+     "titulo": "Venta Casa 1 Piso 175.60 M2 En Carabayllo Km 23 Tupac Amaru",
+     "u": "https://www.infocasas.com.pe/venta-casa-1-piso-17560-m2-en-carabayllo-km-23-tupac-amaru/194211411",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       55000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "carabayllo"
+    },
+    "194234829": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 131641.0,
+     "area": 67.0,
+     "lat": -12.08935,
+     "lng": -77.07584,
+     "mon": "USD",
+     "monto": 131641.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Cercado De Lima",
+     "titulo": "Departamento de 2 dorm ubicado en San Miguel limite con Magdalena a 5 min del Ma",
+     "u": "https://www.infocasas.com.pe/departamento-de-2-dorm-ubicado-en-san-miguel-limite-con-magdalena-a-5-min-del-mal-bertolotto/194234829",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       131641.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194223566": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 125373.0,
+     "area": 61.0,
+     "lat": -12.07105,
+     "lng": -77.10113,
+     "mon": "USD",
+     "monto": 125373.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Cercado De Lima",
+     "titulo": "Departamento en venta de 1 dormitorio con terraza ubicado en San Miguel cerca a ",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-de-1-dormitorio-con-terraza-ubicado-en-san-miguel-cerca-a-la-av-la-marina/194223566",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       125373.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194234828": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 102985.0,
+     "area": 55.0,
+     "lat": -12.08935,
+     "lng": -77.07584,
+     "mon": "USD",
+     "monto": 102985.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "Departamento de 2 dorm ubicado en San Miguel limite con Magdalena a 5 min del Ma",
+     "u": "https://www.infocasas.com.pe/departamento-de-2-dorm-ubicado-en-san-miguel-limite-con-magdalena-a-5-min-del-mal-bertolotto/194234828",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       102985.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194147963": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 122029.0,
+     "area": 59.0,
+     "lat": -12.06427,
+     "lng": -77.04444,
+     "mon": "USD",
+     "monto": 122029.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "Flat de 2 dormitorios más estudio Límite con Jesús María",
+     "u": "https://www.infocasas.com.pe/flat-de-2-dormitorios-mas-estudio-limite-con-jesus-maria/194147963",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       122029.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194206671": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 100000.0,
+     "area": 85.0,
+     "lat": -12.06985,
+     "lng": -77.09232,
+     "mon": "USD",
+     "monto": 100000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Cercado De Lima",
+     "titulo": "Departamento en San Miguel (Lima)",
+     "u": "https://www.infocasas.com.pe/departamento-en-san-miguel-lima/194206671",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       100000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194234822": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 76417.0,
+     "area": 39.0,
+     "lat": -12.08935,
+     "lng": -77.07584,
+     "mon": "USD",
+     "monto": 76417.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Cercado De Lima",
+     "titulo": "Departamento de 1 dorm ubicado en San Miguel limite con Magdalena a 5 min del Ma",
+     "u": "https://www.infocasas.com.pe/departamento-de-1-dorm-ubicado-en-san-miguel-limite-con-magdalena-a-5-min-del-mal-bertolotto/194234822",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       76417.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194181454": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 87168.0,
+     "area": 40.0,
+     "lat": -12.0753,
+     "lng": -77.03424,
+     "mon": "USD",
+     "monto": 87168.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Cercado De Lima",
+     "titulo": "Departamento 1 Dorm excelente oportunidad | Santa Beatriz",
+     "u": "https://www.infocasas.com.pe/departamento-1-dorm-excelente-oportunidad-santa-beatriz/194181454",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       87168.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194176355": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 84084.0,
+     "area": 31.0,
+     "lat": -12.07499,
+     "lng": -77.09035,
+     "mon": "USD",
+     "monto": 84084.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Cercado De Lima",
+     "titulo": "Venta de departamento para inversión de 1D en San Miguel cerca a universidades y",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-para-inversion-de-1d-en-san-miguel-cerca-a-universidades-y-centros-comerciales/194176355",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       84084.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194197031": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 264141.0,
+     "area": 123.0,
+     "lat": -12.09409,
+     "lng": -77.07822,
+     "mon": "PEN",
+     "monto": 892185.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO EN SAN MIGUEL - DPT 1704 C (609-396-401)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-miguel-dpt-1704-c-609396401/194197031",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       264141.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194176356": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 148348.0,
+     "area": 68.0,
+     "lat": -12.07499,
+     "lng": -77.09035,
+     "mon": "USD",
+     "monto": 148348.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Cercado De Lima",
+     "titulo": "Venta de departamento para inversión de 3D en San Miguel cerca a universidades y",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-para-inversion-de-3d-en-san-miguel-cerca-a-universidades-y-centros-comerciales/194176356",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       148348.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194223558": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 128358.0,
+     "area": 59.0,
+     "lat": -12.07105,
+     "lng": -77.10113,
+     "mon": "USD",
+     "monto": 128358.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "Departamento en venta de 2 dormitorios con vista a parque en San Miguel cerca a ",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-de-2-dormitorios-con-vista-a-parque-en-san-miguel-cerca-a-la-av-la-marina-/194223558",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       128358.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194176351": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 73273.0,
+     "area": 26.0,
+     "lat": -12.09037,
+     "lng": -77.08031,
+     "mon": "USD",
+     "monto": 73273.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Cercado De Lima",
+     "titulo": "Loft de 1D ubicado en San Miguel cerca al Malecón Bertolotto y al Parque Media L",
+     "u": "https://www.infocasas.com.pe/loft-de-1d-ubicado-en-san-miguel-cerca-al-malecon-bertolotto-y-al-parque-media-luna/194176351",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       73273.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194187731": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 41075.0,
+     "area": 74.0,
+     "lat": -12.07586,
+     "lng": -77.03285,
+     "mon": "PEN",
+     "monto": 138737.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DE DEPARTAMENTO EN CERCADO DE LIMA - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-cercado-de-lima-entrega-inmediata/194187731",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       41075.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194165526": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 102944.0,
+     "area": 47.0,
+     "lat": -12.06384,
+     "lng": -77.07107,
+     "mon": "USD",
+     "monto": 102944.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Cercado De Lima",
+     "titulo": "Venta Dpto 2 dormitorios en el límite de Pueblo libre y Cercado de Lima",
+     "u": "https://www.infocasas.com.pe/venta-dpto-2-dormitorios-en-el-limite-de-pueblo-libre-y-cercado-de-lima/194165526",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       102944.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194147960": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 142237.0,
+     "area": 70.0,
+     "lat": -12.06384,
+     "lng": -77.07107,
+     "mon": "USD",
+     "monto": 142237.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Cercado De Lima",
+     "titulo": "Departamento 2 Habitaciones en el límite de Pueblo libre Cercado de Lima y San M",
+     "u": "https://www.infocasas.com.pe/departamento-2-habitaciones-en-el-limite-de-pueblo-libre-cercado-de-lima-y-san-miguel/194147960",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       142237.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194187566": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 140048.0,
+     "area": 81.0,
+     "lat": -12.07816,
+     "lng": -77.0315,
+     "mon": "USD",
+     "monto": 140048.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DE DEPARTAMENTO EN EL CERCADO DE LIMA - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-el-cercado-de-lima-entrega-inmediata/194187566",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       140048.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194176354": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 127627.0,
+     "area": 59.0,
+     "lat": -12.09037,
+     "lng": -77.08031,
+     "mon": "USD",
+     "monto": 127627.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "Departamento de 2 Dormitorios  con  balcón con vista a Parque Interno cerca al M",
+     "u": "https://www.infocasas.com.pe/departamento-de-2-dormitorios-con-balcon-con-vista-a-parque-interno-cerca-al-malecon-bertolotto/194176354",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       127627.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194153298": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 86516.0,
+     "area": 33.0,
+     "lat": -12.07548,
+     "lng": -77.03677,
+     "mon": "USD",
+     "monto": 86516.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DE DEPARTAMENTO EN EL CERCADO DE LIMA - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-el-cercado-de-lima-entrega-inmediata/194153298",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       86516.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194190457": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 260000.0,
+     "area": 198.0,
+     "lat": -12.07957,
+     "lng": -77.10149,
+     "mon": "USD",
+     "monto": 260000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Cercado De Lima",
+     "titulo": "Venta Dúplex tipo casa, 7 dormitorios, terraza y 2 cocheras en San Miguel",
+     "u": "https://www.infocasas.com.pe/venta-duplex-tipo-casa-7-dormitorios-terraza-y-2-cocheras-en-san-miguel/194190457",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       260000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194213181": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 83489.0,
+     "area": 46.0,
+     "lat": -12.07602,
+     "lng": -77.09824,
+     "mon": "PEN",
+     "monto": 282000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Cercado De Lima",
+     "titulo": "Departamentos de inversión con doble renta",
+     "u": "https://www.infocasas.com.pe/departamentos-de-inversion-con-doble-renta/194213181",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       83489.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194132412": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 600.0,
+     "area": 120.0,
+     "lat": -12.05172,
+     "lng": -77.06046,
+     "mon": "USD",
+     "monto": 600.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Cercado De Lima",
+     "titulo": "ALQUILER DE DEPARTAMENTO DE 2 HABITACIONES PUERTA A CALLE AV. NACIONES UNIDAS CE",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-de-2-habitaciones-puerta-a-calle-av-naciones-unidas-cerca-tottus/194132412",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       600.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194263064": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 794.0,
+     "area": 58.0,
+     "lat": -12.08957,
+     "lng": -77.0832,
+     "mon": "USD",
+     "monto": 794.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "Alquiler departamento duplex 2 dorm en San Miguel cerca a Bertolotto",
+     "u": "https://www.infocasas.com.pe/alquiler-departamento-duplex-2-dorm-en-san-miguel-cerca-a-bertolotto/194263064",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       794.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194137518": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 567.0,
+     "area": 100.0,
+     "lat": -12.06534,
+     "lng": -77.10433,
+     "mon": "USD",
+     "monto": 567.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Cercado De Lima",
+     "titulo": "Departamento en alquiler La Perla limite San Miguel, Avenida Los Insurgentes",
+     "u": "https://www.infocasas.com.pe/departamento-en-alquiler-la-perla-limite-san-miguel-avenida-los-insurgentes/194137518",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       567.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194208226": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 300000.0,
+     "area": 160.0,
+     "lat": -12.04938,
+     "lng": -77.04242,
+     "mon": "USD",
+     "monto": 300000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Cercado De Lima",
+     "titulo": "Propiedad comercial en Cercado de Lima",
+     "u": "https://www.infocasas.com.pe/propiedad-comercial-en-cercado-de-lima/194208226",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       300000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194150132": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 279000.0,
+     "area": 246.0,
+     "lat": -12.04999,
+     "lng": -77.06425,
+     "mon": "USD",
+     "monto": 279000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Cercado De Lima",
+     "titulo": "Vendo Casa Independiente de 2 pisos y azotea frente al Parque Madrid-San Rafael ",
+     "u": "https://www.infocasas.com.pe/vendo-casa-independiente-de-2-pisos-y-azotea-frente-al-parque-madridsan-rafael-cercado-lima/194150132",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       279000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cercado-de-lima"
+    },
+    "194213150": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 92000.0,
+     "area": 63.0,
+     "lat": -12.17752,
+     "lng": -77.00386,
+     "mon": "USD",
+     "monto": 92000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Chorrillos",
+     "titulo": "Departamento en LA CAMPIÑA",
+     "u": "https://www.infocasas.com.pe/departamento-en-la-campiña/194213150",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       92000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "chorrillos"
+    },
+    "194215381": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 70000.0,
+     "area": 45.0,
+     "lat": -12.17623,
+     "lng": -76.99599,
+     "mon": "USD",
+     "monto": 70000.0,
+     "mant": 70000.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Chorrillos",
+     "titulo": "Departamento En Venta 45 M² – 2 Dorm – 1er Piso – Chorrillos",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-45-m²-–-2-dorm-–-1er-piso-–-chorrillos/194215381",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       70000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "chorrillos"
+    },
+    "194170961": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 110000.0,
+     "area": 90.0,
+     "lat": -12.17821,
+     "lng": -77.00854,
+     "mon": "USD",
+     "monto": 110000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Chorrillos",
+     "titulo": "Departamento VENTA en MATELLINI DE 3 HABITACIONES, SALA DE ESTAR Y COCHERA",
+     "u": "https://www.infocasas.com.pe/departamento-venta-en-matellini-de-3-habitaciones-sala-de-estar-y-cochera/194170961",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       110000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "chorrillos"
+    },
+    "194152713": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 227625.0,
+     "area": 106.0,
+     "lat": -12.15722,
+     "lng": -77.02373,
+     "mon": "USD",
+     "monto": 227625.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Chorrillos",
+     "titulo": "VENTA DE DEPARTAMENTO EN CHORRILLOS - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-chorrillos-entrega-inmediata/194152713",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       227625.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "chorrillos"
+    },
+    "194176388": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 100957.0,
+     "area": 70.0,
+     "lat": -12.20272,
+     "lng": -77.00881,
+     "mon": "PEN",
+     "monto": 341000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Chorrillos",
+     "titulo": "DEPARTAMENTO EN VENTA EN LOS CEDROS DE VILLA – CHORRILLOS",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-los-cedros-de-villa-–-chorrillos/194176388",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       100957.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "chorrillos"
+    },
+    "194176387": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 100000.0,
+     "area": 70.0,
+     "lat": -12.20272,
+     "lng": -77.00881,
+     "mon": "USD",
+     "monto": 100000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Chorrillos",
+     "titulo": "DEPARTAMENTO EN VENTA EN LOS CEDROS DE VILLA – CHORRILLOS",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-los-cedros-de-villa-–-chorrillos/194176387",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       100000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "chorrillos"
+    },
+    "194132411": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 82950.0,
+     "area": 64.0,
+     "lat": -12.18014,
+     "lng": -77.00566,
+     "mon": "USD",
+     "monto": 82950.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Chorrillos",
+     "titulo": "SE VENDE DEPARTAMENTO 3 DORMITORIOS",
+     "u": "https://www.infocasas.com.pe/se-vende-departamento-3-dormitorios/194132411",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       82950.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "chorrillos"
+    },
+    "194190455": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 163398.0,
+     "area": 100.0,
+     "lat": -12.17674,
+     "lng": -77.02017,
+     "mon": "USD",
+     "monto": 163398.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Chorrillos",
+     "titulo": "Departamento en CHORRILLOS",
+     "u": "https://www.infocasas.com.pe/departamento-en-chorrillos/194190455",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       163398.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "chorrillos"
+    },
+    "194204668": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 444.0,
+     "area": 47.0,
+     "lat": -12.17383,
+     "lng": -77.00117,
+     "mon": "PEN",
+     "monto": 1500.0,
+     "mant": 59.2,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Chorrillos",
+     "titulo": "ALQUILA DPTO. DE ESTRENO EN PISO BAJO LISTO PARA MUDARTE EN CHORRILLOS",
+     "u": "https://www.infocasas.com.pe/alquila-dpto-de-estreno-en-piso-bajo-listo-para-mudarte-en-chorrillos/194204668",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       444.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "chorrillos"
+    },
+    "194211831": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 296.0,
+     "area": 40.0,
+     "lat": -12.20221,
+     "lng": -77.009,
+     "mon": "PEN",
+     "monto": 1000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Chorrillos",
+     "titulo": "S/.1000 Soles Alquilo Departamento Chorrillos Los Cedros De Villa.",
+     "u": "https://www.infocasas.com.pe/s1000-soles-alquilo-departamento-chorrillos-los-cedros-de-villa/194211831",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       296.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "chorrillos"
+    },
+    "194269448": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 310000.0,
+     "area": 294.0,
+     "lat": -12.18174,
+     "lng": -77.01043,
+     "mon": "USD",
+     "monto": 310000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Chorrillos",
+     "titulo": "Hermosa Casa De 3 Pisos En Venta Cerca A Parque - Urb. Santa Leonor, Chorrillos",
+     "u": "https://www.infocasas.com.pe/hermosa-casa-de-3-pisos-en-venta-cerca-a-parque-urb-santa-leonor-chorrillos/194269448",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       310000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "chorrillos"
+    },
+    "194167045": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 169000.0,
+     "area": 216.0,
+     "lat": -12.10571,
+     "lng": -76.83065,
+     "mon": "USD",
+     "monto": 169000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Cieneguilla",
+     "titulo": "Vive rodeado de naturaleza en Cieneguilla",
+     "u": "https://www.infocasas.com.pe/vive-rodeado-de-naturaleza-en-cieneguilla-/194167045",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       169000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cieneguilla"
+    },
+    "194234830": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 960000.0,
+     "area": 700.0,
+     "lat": -12.09482,
+     "lng": -76.75674,
+     "mon": "USD",
+     "monto": 960000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Cieneguilla",
+     "titulo": "Casa de Campo en Venta",
+     "u": "https://www.infocasas.com.pe/casa-de-campo-en-venta/194234830",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       960000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "cieneguilla"
+    },
+    "194175034": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 355.0,
+     "area": 72.0,
+     "lat": -11.92714,
+     "lng": -77.06091,
+     "mon": "PEN",
+     "monto": 1200.0,
+     "mant": 41.42,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Comas",
+     "titulo": "Tv/ Depa En Piso 5, Con Balcón, 3 Dorm + 2 Baños, En Condominio C/ Tiendas",
+     "u": "https://www.infocasas.com.pe/tv-depa-en-piso-5-con-balcon-3-dorm-2-baños-en-condominio-c-tiendas/194175034",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       355.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "comas"
+    },
+    "194221455": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 279000.0,
+     "area": 420.0,
+     "lat": -11.93806,
+     "lng": -77.06005,
+     "mon": "USD",
+     "monto": 279000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Comas",
+     "titulo": "Venta de casa frente a parque en Comas, 420 mts2 construidos, 10 dormitorios",
+     "u": "https://www.infocasas.com.pe/venta-de-casa-frente-a-parque-en-comas-420-mts2-construidos-10-dormitorios/194221455",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       279000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "comas"
+    },
+    "194221475": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 279000.0,
+     "area": 420.0,
+     "lat": -11.92374,
+     "lng": -77.05429,
+     "mon": "USD",
+     "monto": 279000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Comas",
+     "titulo": "Venta de casa frente a parque en Comas, 420 mts2 construidos, 10 dormitorios",
+     "u": "https://www.infocasas.com.pe/venta-de-casa-frente-a-parque-en-comas-420-mts2-construidos-10-dormitorios/194221475",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       279000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "comas"
+    },
+    "194221474": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 279000.0,
+     "area": 420.0,
+     "lat": -11.92374,
+     "lng": -77.05429,
+     "mon": "USD",
+     "monto": 279000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Comas",
+     "titulo": "Venta de casa frente a parque en Comas, 420 mts2 construidos, 10 dormitorios",
+     "u": "https://www.infocasas.com.pe/venta-de-casa-frente-a-parque-en-comas-420-mts2-construidos-10-dormitorios/194221474",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       279000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "comas"
+    },
+    "194254452": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 167903.0,
+     "area": 73.0,
+     "lat": -12.07496,
+     "lng": -77.04104,
+     "mon": "USD",
+     "monto": 167903.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DE DEPARTAMENTO EN JESUS MARIA - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-jesus-maria-entrega-inmediata/194254452",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       167903.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194278340": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 293273.0,
+     "area": 204.0,
+     "lat": -12.08116,
+     "lng": -77.04774,
+     "mon": "PEN",
+     "monto": 990000.0,
+     "mant": 148.12,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DE DEPARTAMENTO DÚPLEX EN JESÚS MARÍA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-duplex-en-jesus-maria/194278340",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       293273.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194176370": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 105453.0,
+     "area": 44.0,
+     "lat": -12.08373,
+     "lng": -77.05191,
+     "mon": "PEN",
+     "monto": 356189.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DEPARTAMENTO EN JESUS MARIA - DPTO 202 AL 802 (609-751-329)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-jesus-maria-dpto-202-al-802-609751329/194176370",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       105453.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194224997": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 158956.0,
+     "area": 73.0,
+     "lat": -12.07496,
+     "lng": -77.04104,
+     "mon": "USD",
+     "monto": 158956.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DE DEPARTAMENTO EN JESUS MARIA - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-jesus-maria-entrega-inmediata/194224997",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       158956.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194227796": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 177636.0,
+     "area": 75.0,
+     "lat": -12.08249,
+     "lng": -77.05061,
+     "mon": "PEN",
+     "monto": 600000.0,
+     "mant": 97.76,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "Exclusivo Departamento en Venta – Jesús María cerca de El Olivar (Ref. 837)",
+     "u": "https://www.infocasas.com.pe/exclusivo-departamento-en-venta-–-jesus-maria-cerca-de-el-olivar-ref-837-/194227796",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       177636.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194147982": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 159705.0,
+     "area": 66.0,
+     "lat": -12.06994,
+     "lng": -77.03988,
+     "mon": "USD",
+     "monto": 159705.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "Venta de Departamento de 3 dormitorios con balcón en Av. Salaverry cerca al Camp",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-de-3-dormitorios-con-balcon-en-av-salaverry-cerca-al-campo-de-marte/194147982",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       159705.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194258861": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 177636.0,
+     "area": 75.0,
+     "lat": -12.08249,
+     "lng": -77.05061,
+     "mon": "PEN",
+     "monto": 600000.0,
+     "mant": 97.76,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "Exclusivo Departamento en Venta – Jesús María cerca de El Olivar (Ref. 837)",
+     "u": "https://www.infocasas.com.pe/exclusivo-departamento-en-venta-–-jesus-maria-cerca-de-el-olivar-ref-837-/194258861",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       177636.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194256159": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 113500.0,
+     "area": 40.0,
+     "lat": -12.07039,
+     "lng": -77.04015,
+     "mon": "USD",
+     "monto": 113500.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Jesus Maria",
+     "titulo": "Departamento en venta, frente al campo de marte de estreno, 1 dormitorio, 40m2",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-frente-al-campo-de-marte-de-estreno-1-dormitorio-40m2/194256159",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       113500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194254308": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 154257.0,
+     "area": 57.0,
+     "lat": -12.07288,
+     "lng": -77.04321,
+     "mon": "USD",
+     "monto": 154257.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DE DEPARTAMENTO EN JESUS MARIA - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-jesus-maria-entrega-inmediata/194254308",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       154257.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194240826": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 265000.0,
+     "area": 96.0,
+     "lat": -12.08334,
+     "lng": -77.05952,
+     "mon": "USD",
+     "monto": 265000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "Venta Departamento Jesús María primer piso - Diego de Almagro -Totalmente Remode",
+     "u": "https://www.infocasas.com.pe/venta-departamento-jesus-maria-primer-piso-diego-de-almagro-totalmente-remodelado-3-dormitorios/194240826",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       265000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194176369": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 101692.0,
+     "area": 42.0,
+     "lat": -12.08373,
+     "lng": -77.05191,
+     "mon": "PEN",
+     "monto": 343484.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DEPARTAMENTO EN JESUS MARIA - DPTO 206 AL 1106 (609-751-328)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-jesus-maria-dpto-206-al-1106-609751328/194176369",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       101692.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194176372": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 120852.0,
+     "area": 40.0,
+     "lat": -12.08373,
+     "lng": -77.05191,
+     "mon": "PEN",
+     "monto": 408200.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DEPARTAMENTO EN JESUS MARIA - DPTO 102 (609-751-337)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-jesus-maria-dpto-102-609751337/194176372",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       120852.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194176366": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 94351.0,
+     "area": 39.0,
+     "lat": -12.08373,
+     "lng": -77.05191,
+     "mon": "PEN",
+     "monto": 318690.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DEPARTAMENTO EN JESUS MARIA - DPTO 201 AL 1101 (609-751-327)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-jesus-maria-dpto-201-al-1101-609751327/194176366",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       94351.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194176368": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 92797.0,
+     "area": 42.0,
+     "lat": -12.08373,
+     "lng": -77.05191,
+     "mon": "PEN",
+     "monto": 313440.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DEPARTAMENTO EN JESUS MARIA - DPTO 1205 AL 1505 (609-751-335)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-jesus-maria-dpto-1205-al-1505-609751335/194176368",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       92797.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194153022": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 171539.0,
+     "area": 69.0,
+     "lat": -12.07496,
+     "lng": -77.04104,
+     "mon": "USD",
+     "monto": 171539.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DE DEPARTAMENTO EN JESUS MARIA - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-jesus-maria-entrega-inmediata/194153022",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       171539.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194132419": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 169405.0,
+     "area": 71.0,
+     "lat": -12.08249,
+     "lng": -77.05061,
+     "mon": "USD",
+     "monto": 169405.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "Venta Departamento de 3 Dormitorios a una cuadra del Hospital Rebagliati en Jesú",
+     "u": "https://www.infocasas.com.pe/venta-departamento-de-3-dormitorios-a-una-cuadra-del-hospital-rebagliati-en-jesus-maria/194132419",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       169405.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194227764": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 322706.0,
+     "area": 142.0,
+     "lat": -12.08249,
+     "lng": -77.05061,
+     "mon": "PEN",
+     "monto": 1090000.0,
+     "mant": 88.82,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "DÚPLEX DE ESTRENO EN VENTA – ENTREGA INMEDIATA – JESÚS MARÍA(Ref: 863)",
+     "u": "https://www.infocasas.com.pe/duplex-de-estreno-en-venta-–-entrega-inmediata-–-jesus-mariaref-863-/194227764",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       322706.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194176371": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 106802.0,
+     "area": 37.0,
+     "lat": -12.08373,
+     "lng": -77.05191,
+     "mon": "PEN",
+     "monto": 360745.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DEPARTAMENTO EN JESUS MARIA - DPTO 101 (609-751-336)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-jesus-maria-dpto-101-609751336/194176371",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       106802.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194139915": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 322706.0,
+     "area": 142.0,
+     "lat": -12.07608,
+     "lng": -77.17671,
+     "mon": "PEN",
+     "monto": 1090000.0,
+     "mant": 88.87,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "DÚPLEX DE ESTRENO EN VENTA – ENTREGA INMEDIATA – JESÚS MARÍA(Ref: 863)",
+     "u": "https://www.infocasas.com.pe/duplex-de-estreno-en-venta-–-entrega-inmediata-–-jesus-mariaref-863-/194139915",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       322706.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194147961": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 173764.0,
+     "area": 63.0,
+     "lat": -12.08213,
+     "lng": -77.0461,
+     "mon": "USD",
+     "monto": 173764.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Jesus Maria",
+     "titulo": "Departamento  de 2 dormitorios cerca de la Universidad del Pacifico",
+     "u": "https://www.infocasas.com.pe/departamento-de-2-dormitorios-cerca-de-la-universidad-del-pacifico/194147961",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       173764.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194274761": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 154211.0,
+     "area": 56.0,
+     "lat": -12.07288,
+     "lng": -77.04321,
+     "mon": "USD",
+     "monto": 154211.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DE DEPARTAMENTO EN JESUS MARIA - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-jesus-maria-entrega-inmediata/194274761",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       154211.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194176376": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 161338.0,
+     "area": 64.0,
+     "lat": -12.08373,
+     "lng": -77.05191,
+     "mon": "PEN",
+     "monto": 544950.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DEPARTAMENTO EN JESUS MARIA - DPTO 303 AL 803 (609-751-333)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-jesus-maria-dpto-303-al-803-609751333/194176376",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       161338.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194173128": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 322706.0,
+     "area": 142.0,
+     "lat": -12.09019,
+     "lng": -77.25663,
+     "mon": "PEN",
+     "monto": 1090000.0,
+     "mant": 88.82,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "DÚPLEX DE ESTRENO EN VENTA – ENTREGA INMEDIATA – JESÚS MARÍA(Ref: 863)",
+     "u": "https://www.infocasas.com.pe/duplex-de-estreno-en-venta-–-entrega-inmediata-–-jesus-mariaref-863/194173128",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       322706.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194164619": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 322706.0,
+     "area": 142.0,
+     "lat": -12.09863,
+     "lng": -77.14819,
+     "mon": "PEN",
+     "monto": 1090000.0,
+     "mant": 88.82,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "DÚPLEX DE ESTRENO EN VENTA – ENTREGA INMEDIATA – JESÚS MARÍA(Ref: 863)",
+     "u": "https://www.infocasas.com.pe/duplex-de-estreno-en-venta-–-entrega-inmediata-–-jesus-mariaref-863-/194164619",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       322706.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194176367": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 92797.0,
+     "area": 42.0,
+     "lat": -12.08373,
+     "lng": -77.05191,
+     "mon": "PEN",
+     "monto": 313440.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DEPARTAMENTO EN JESUS MARIA - DPTO 1404 AL 1604 (609-751-334)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-jesus-maria-dpto-1404-al-1604-609751334/194176367",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       92797.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194176373": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 138636.0,
+     "area": 51.0,
+     "lat": -12.08373,
+     "lng": -77.05191,
+     "mon": "PEN",
+     "monto": 468271.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DEPARTAMENTO EN JESUS MARIA - DPTO 204 AL 704 (609-751-330)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-jesus-maria-dpto-204-al-704-609751330/194176373",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       138636.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194176374": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 131060.0,
+     "area": 52.0,
+     "lat": -12.08373,
+     "lng": -77.05191,
+     "mon": "PEN",
+     "monto": 442680.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DEPARTAMENTO EN JESUS MARIA - DPTO 207 AL 707 (609-751-332)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-jesus-maria-dpto-207-al-707-609751332/194176374",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       131060.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194204688": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 990000.0,
+     "area": 204.0,
+     "lat": -12.08116,
+     "lng": -77.04774,
+     "mon": "USD",
+     "monto": 990000.0,
+     "mant": 148.03,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Jesus Maria",
+     "titulo": "Venta de Departamento en Jesus María, Lima, Lima",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-jesus-maria-lima-lima/194204688",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       990000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194147975": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 168157.0,
+     "area": 58.0,
+     "lat": -12.08294,
+     "lng": -77.05448,
+     "mon": "USD",
+     "monto": 168157.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Jesus Maria",
+     "titulo": "Venta Departamento de 2 Dormitorios con vista a parque en Av. San Felipe",
+     "u": "https://www.infocasas.com.pe/venta-departamento-de-2-dormitorios-con-vista-a-parque-en-av-san-felipe/194147975",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       168157.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194204771": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 322706.0,
+     "area": 142.0,
+     "lat": -12.08249,
+     "lng": -77.05061,
+     "mon": "PEN",
+     "monto": 1090000.0,
+     "mant": 88.82,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "DÚPLEX DE ESTRENO EN VENTA – ENTREGA INMEDIATA – JESÚS MARÍA(Ref: 863)",
+     "u": "https://www.infocasas.com.pe/duplex-de-estreno-en-venta-–-entrega-inmediata-–-jesus-mariaref-863-/194204771",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       322706.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194272062": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 250000.0,
+     "area": 905.0,
+     "lat": -12.07785,
+     "lng": -77.05039,
+     "mon": "USD",
+     "monto": 250000.0,
+     "mant": 133.23,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "DEPA DE REESTRENO DE 3 DORM., 2 BALCONES, ESTC. Y DEPÓSITO – JESÚS MARÍA",
+     "u": "https://www.infocasas.com.pe/depa-de-reestreno-de-3-dorm-2-balcones-estc-y-deposito-–-jesus-maria/194272062",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       250000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194208235": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 192439.0,
+     "area": 80.0,
+     "lat": -12.0788,
+     "lng": -77.05117,
+     "mon": "PEN",
+     "monto": 650000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DEPA EN JESUS MARIA - DPT 4XX (609-1159-1)",
+     "u": "https://www.infocasas.com.pe/venta-depa-en-jesus-maria-dpt-4xx-60911591/194208235",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       192439.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194147973": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 212335.0,
+     "area": 61.0,
+     "lat": -12.0795,
+     "lng": -77.04999,
+     "mon": "USD",
+     "monto": 212335.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "Flat en venta de 2 dormitorios cerca al Circulo Militar en Jesús María",
+     "u": "https://www.infocasas.com.pe/flat-en-venta-de-2-dormitorios-cerca-al-circulo-militar-en-jesus-maria/194147973",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       212335.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194147981": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 133530.0,
+     "area": 53.0,
+     "lat": -12.06994,
+     "lng": -77.03988,
+     "mon": "USD",
+     "monto": 133530.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Jesus Maria",
+     "titulo": "Venta de departamento funcional de 2 Dormitorios en Av. Salaverry cerca al Campo",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-funcional-de-2-dormitorios-en-av-salaverry-cerca-al-campo-de-marte/194147981",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       133530.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194176375": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 140285.0,
+     "area": 56.0,
+     "lat": -12.08373,
+     "lng": -77.05191,
+     "mon": "PEN",
+     "monto": 473840.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DEPARTAMENTO EN JESUS MARIA - DPTO 205 AL 705 (609-751-331)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-jesus-maria-dpto-205-al-705-609751331/194176375",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       140285.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194166568": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 162388.0,
+     "area": 66.0,
+     "lat": -12.07288,
+     "lng": -77.04321,
+     "mon": "USD",
+     "monto": 162388.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DE DEPARTAMENTO EN JESUS MARIA - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-jesus-maria-entrega-inmediata/194166568",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       162388.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194147969": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 110590.0,
+     "area": 40.0,
+     "lat": -12.06994,
+     "lng": -77.03988,
+     "mon": "USD",
+     "monto": 110590.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "Mono",
+     "zona": "Jesus Maria",
+     "titulo": "Vta de departamento funcional de 1 Dormitorio en Av. Salaverry, Jesús María cerc",
+     "u": "https://www.infocasas.com.pe/vta-de-departamento-funcional-de-1-dormitorio-en-av-salaverry-jesus-maria-cerca-al-campo-de-marte/194147969",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       110590.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194172386": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 187164.0,
+     "area": 73.0,
+     "lat": -12.07977,
+     "lng": -77.04923,
+     "mon": "USD",
+     "monto": 187164.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DE DEPARTAMENTO EN SESUS MARIA - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-sesus-maria-entrega-inmediata/194172386",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       187164.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194206774": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 903.0,
+     "area": 69.0,
+     "lat": -12.07728,
+     "lng": -77.038,
+     "mon": "PEN",
+     "monto": 3050.0,
+     "mant": 59.21,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "Alquiler de Departamento en Jesus María, Lima, Lima",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-en-jesus-maria-lima-lima/194206774",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       903.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194211966": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 770.0,
+     "area": 75.0,
+     "lat": -12.08249,
+     "lng": -77.05061,
+     "mon": "PEN",
+     "monto": 2600.0,
+     "mant": 97.7,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "Departamento en Alquiler sin Muebles – Jesús María (Ref. 24020)",
+     "u": "https://www.infocasas.com.pe/departamento-en-alquiler-sin-muebles-–-jesus-maria-ref-24020-/194211966",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       770.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194278446": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 904.0,
+     "area": 69.0,
+     "lat": -12.07728,
+     "lng": -77.038,
+     "mon": "PEN",
+     "monto": 3050.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "ALQUILER DEPARTAMENTO EN JESÚS MARÍA",
+     "u": "https://www.infocasas.com.pe/alquiler-departamento-en-jesus-maria/194278446",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       904.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194254246": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 711.0,
+     "area": 66.0,
+     "lat": -12.08182,
+     "lng": -77.04837,
+     "mon": "PEN",
+     "monto": 2400.0,
+     "mant": 85.86,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Jesus Maria",
+     "titulo": "Alquilo departamento 2 dormitorios amoblado frente a canal 2",
+     "u": "https://www.infocasas.com.pe/alquilo-departamento-2-dormitorios-amoblado-frente-a-canal-2/194254246",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       711.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194221835": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 770.0,
+     "area": 75.0,
+     "lat": -12.08249,
+     "lng": -77.05061,
+     "mon": "PEN",
+     "monto": 2600.0,
+     "mant": 97.7,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "Departamento en Alquiler sin Muebles – Jesús María (Ref. 24020)",
+     "u": "https://www.infocasas.com.pe/departamento-en-alquiler-sin-muebles-–-jesus-maria-ref-24020-/194221835",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       770.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194190067": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 740.0,
+     "area": 72.0,
+     "lat": -12.07512,
+     "lng": -77.04716,
+     "mon": "PEN",
+     "monto": 2500.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Jesus Maria",
+     "titulo": "Alquilo Moderno Departamento  Zona Centrica Jesus Maria",
+     "u": "https://www.infocasas.com.pe/alquilo-moderno-departamento-zona-centrica-jesus-maria/194190067",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       740.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194249806": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1197.0,
+     "area": 102.0,
+     "lat": -12.08001,
+     "lng": -77.05061,
+     "mon": "PEN",
+     "monto": 4044.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Jesus Maria",
+     "titulo": "ALQUILER DEPA AMOBLADO EN JESUS MARIA - DPT 1702 (609-1161-1)",
+     "u": "https://www.infocasas.com.pe/alquiler-depa-amoblado-en-jesus-maria-dpt-1702-60911611/194249806",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       1197.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194254769": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 563.0,
+     "area": 40.0,
+     "lat": -12.07495,
+     "lng": -77.04648,
+     "mon": "PEN",
+     "monto": 1900.0,
+     "mant": 38.49,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Jesus Maria",
+     "titulo": "SE ALQUILA DEPARTAMENTO DE ESTRENO - VISTA EXTERIOR EN JESUS MARIA",
+     "u": "https://www.infocasas.com.pe/se-alquila-departamento-de-estreno-vista-exterior-en-jesus-maria/194254769",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       563.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194249805": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1200.0,
+     "area": 102.0,
+     "lat": -12.08001,
+     "lng": -77.05061,
+     "mon": "USD",
+     "monto": 1200.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Jesus Maria",
+     "titulo": "ALQUILER DEPA AMOBLADO EN JESUS MARIA - DPT 1702 (609-1161-1)",
+     "u": "https://www.infocasas.com.pe/alquiler-depa-amoblado-en-jesus-maria-dpt-1702-60911611/194249805",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       1200.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194179231": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 770.0,
+     "area": 75.0,
+     "lat": -12.08249,
+     "lng": -77.05061,
+     "mon": "PEN",
+     "monto": 2600.0,
+     "mant": 97.7,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "Departamento en Alquiler sin Muebles – Jesús María (Ref. 24020)",
+     "u": "https://www.infocasas.com.pe/departamento-en-alquiler-sin-muebles-–-jesus-maria-ref-24020/194179231",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       770.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194147614": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 770.0,
+     "area": 75.0,
+     "lat": -12.16923,
+     "lng": -77.06953,
+     "mon": "PEN",
+     "monto": 2600.0,
+     "mant": 97.7,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "Departamento en Alquiler sin Muebles – Jesús María (Ref. 24020)",
+     "u": "https://www.infocasas.com.pe/departamento-en-alquiler-sin-muebles-–-jesus-maria-ref-24020-/194147614",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       770.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194237281": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 681.0,
+     "area": 58.0,
+     "lat": -12.08315,
+     "lng": -77.05225,
+     "mon": "PEN",
+     "monto": 2300.0,
+     "mant": 74.02,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Jesus Maria",
+     "titulo": "ALQUILER DE DEPARTAMENTO DE 1 DORMITORIO – JESÚS MARÍA",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-de-1-dormitorio-–-jesus-maria/194237281",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       681.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194250439": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 947.0,
+     "area": 110.0,
+     "lat": -12.08348,
+     "lng": -77.05303,
+     "mon": "PEN",
+     "monto": 3200.0,
+     "mant": 97.7,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "Alquilo Departamento 100m2 Jesus Maria Cerca Del CC Real Plaza Salaverry",
+     "u": "https://www.infocasas.com.pe/alquilo-departamento-100m2-jesus-maria-cerca-del-cc-real-plaza-salaverry/194250439",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       947.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194164444": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 533.0,
+     "area": 45.0,
+     "lat": -12.0843,
+     "lng": -77.05215,
+     "mon": "PEN",
+     "monto": 1800.0,
+     "mant": 65.13,
+     "anio": "",
+     "dorm": "Mono",
+     "zona": "Jesus Maria",
+     "titulo": "Alquiler de Departamento en Jesús Maria",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-en-jesus-maria/194164444",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       533.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194266167": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 740.0,
+     "area": 75.0,
+     "lat": -12.08249,
+     "lng": -77.05061,
+     "mon": "PEN",
+     "monto": 2500.0,
+     "mant": 74.02,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "Departamento en Alquiler sin Muebles – Jesús María (Ref. 24020)",
+     "u": "https://www.infocasas.com.pe/departamento-en-alquiler-sin-muebles-–-jesus-maria-ref-24020-/194266167",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       740.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194254227": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 770.0,
+     "area": 75.0,
+     "lat": -12.10236,
+     "lng": -77.16996,
+     "mon": "PEN",
+     "monto": 2600.0,
+     "mant": 97.7,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "Departamento en Alquiler sin Muebles – Jesús María (Ref. 24020)",
+     "u": "https://www.infocasas.com.pe/departamento-en-alquiler-sin-muebles-–-jesus-maria-ref-24020/194254227",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       770.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194246601": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 740.0,
+     "area": 72.0,
+     "lat": -12.07487,
+     "lng": -77.047,
+     "mon": "PEN",
+     "monto": 2500.0,
+     "mant": 88.82,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Jesus Maria",
+     "titulo": "Tv/ Lindo Depa Con Balcón, De 2 Dorm, en Av. Cuba, cerca a la Parroquia San José",
+     "u": "https://www.infocasas.com.pe/tv-lindo-depa-con-balcon-de-2-dorm-en-av-cuba-cerca-a-la-parroquia-san-jose/194246601",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       740.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "jesus-maria"
+    },
+    "194202631": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 105000.0,
+     "area": 75.0,
+     "lat": -12.10179,
+     "lng": -76.9425,
+     "mon": "USD",
+     "monto": 105000.0,
+     "mant": 29.61,
+     "anio": "",
+     "dorm": "3",
+     "zona": "La Molina",
+     "titulo": "Venta Dpto 4º Piso Fresnos La Molina",
+     "u": "https://www.infocasas.com.pe/venta-dpto-4º-piso-fresnos-la-molina/194202631",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       105000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "la-molina"
+    },
+    "194254007": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 592.0,
+     "area": 45.0,
+     "lat": -12.08325,
+     "lng": -77.02944,
+     "mon": "PEN",
+     "monto": 1999.0,
+     "mant": 44.42,
+     "anio": "",
+     "dorm": "Mono",
+     "zona": "La Molina",
+     "titulo": "Alquilo departamento 1 dormitorio cerca a Wong Camacho",
+     "u": "https://www.infocasas.com.pe/alquilo-departamento-1-dormitorio-cerca-a-wong-camacho/194254007",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       592.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "la-molina"
+    },
+    "194256153": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 1150000.0,
+     "area": 554.0,
+     "lat": -12.08282,
+     "lng": -76.91507,
+     "mon": "USD",
+     "monto": 1150000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "La Molina",
+     "titulo": "Casa en La Molina",
+     "u": "https://www.infocasas.com.pe/casa-en-la-molina/194256153",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       1150000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "la-molina"
+    },
+    "194145100": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 659000.0,
+     "area": 291.0,
+     "lat": -12.08306,
+     "lng": -76.90816,
+     "mon": "USD",
+     "monto": 659000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "La Molina",
+     "titulo": "VENTA CASA EN EL SOL DE LA MOLINA PRIMERA ETAPA",
+     "u": "https://www.infocasas.com.pe/venta-casa-en-el-sol-de-la-molina-primera-etapa/194145100",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       659000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "la-molina"
+    },
+    "194213149": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 1550000.0,
+     "area": 535.0,
+     "lat": -12.07594,
+     "lng": -76.9636,
+     "mon": "USD",
+     "monto": 1550000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "La Molina",
+     "titulo": "Casa en venta en La Molina",
+     "u": "https://www.infocasas.com.pe/casa-en-venta-en-la-molina/194213149",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       1550000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "la-molina"
+    },
+    "194190461": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 855614.0,
+     "area": 324.0,
+     "lat": -12.07712,
+     "lng": -76.93848,
+     "mon": "PEN",
+     "monto": 2890000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "La Molina",
+     "titulo": "Casa Exclusiva en Portada de Haras - La Molina",
+     "u": "https://www.infocasas.com.pe/casa-exclusiva-en-portada-de-haras-la-molina-/194190461",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       855614.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "la-molina"
+    },
+    "194204609": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 1073000.0,
+     "area": 337.0,
+     "lat": -12.0761,
+     "lng": -76.92849,
+     "mon": "USD",
+     "monto": 1073000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "La Molina",
+     "titulo": "Venta de Casa en La Molina, Lima, Lima",
+     "u": "https://www.infocasas.com.pe/venta-de-casa-en-la-molina-lima-lima/194204609",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       1073000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "la-molina"
+    },
+    "194190462": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 550000.0,
+     "area": 348.0,
+     "lat": -12.10192,
+     "lng": -76.9495,
+     "mon": "USD",
+     "monto": 550000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "La Molina",
+     "titulo": "VENTA DE CASA EN ALAMEDA DEL CORREGIDOR",
+     "u": "https://www.infocasas.com.pe/venta-de-casa-en-alameda-del-corregidor-/194190462",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       550000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "la-molina"
+    },
+    "194190463": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 553633.0,
+     "area": 348.0,
+     "lat": -12.10192,
+     "lng": -76.9495,
+     "mon": "PEN",
+     "monto": 1870000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "La Molina",
+     "titulo": "VENTA DE CASA EN ALAMEDA DEL CORREGIDOR",
+     "u": "https://www.infocasas.com.pe/venta-de-casa-en-alameda-del-corregidor-/194190463",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       553633.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "la-molina"
+    },
+    "194278541": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 1073000.0,
+     "area": 337.0,
+     "lat": -12.0761,
+     "lng": -76.92849,
+     "mon": "USD",
+     "monto": 1073000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "La Molina",
+     "titulo": "VENTA CASA EN LA RINCONADA ALTA DE  LA MOLINA",
+     "u": "https://www.infocasas.com.pe/venta-casa-en-la-rinconada-alta-de-la-molina/194278541",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       1073000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "la-molina"
+    },
+    "194190460": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 850000.0,
+     "area": 324.0,
+     "lat": -12.07712,
+     "lng": -76.93848,
+     "mon": "USD",
+     "monto": 850000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "La Molina",
+     "titulo": "Casa Exclusiva en Portada de Haras - La Molina",
+     "u": "https://www.infocasas.com.pe/casa-exclusiva-en-portada-de-haras-la-molina-/194190460",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       850000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "la-molina"
+    },
+    "194202759": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 77347.0,
+     "area": 33.0,
+     "lat": -12.08689,
+     "lng": -77.02291,
+     "mon": "USD",
+     "monto": 77347.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "La Victoria",
+     "titulo": "Departamento en SANTA CATALINA",
+     "u": "https://www.infocasas.com.pe/departamento-en-santa-catalina/194202759",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       77347.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "la-victoria"
+    },
+    "194197016": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 82961.0,
+     "area": 40.0,
+     "lat": -12.08217,
+     "lng": -77.01647,
+     "mon": "USD",
+     "monto": 82961.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "La Victoria",
+     "titulo": "Departamento en SANTA CATALINA",
+     "u": "https://www.infocasas.com.pe/departamento-en-santa-catalina/194197016",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       82961.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "la-victoria"
+    },
+    "194188871": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 563.0,
+     "area": 42.0,
+     "lat": -12.08321,
+     "lng": -77.02578,
+     "mon": "PEN",
+     "monto": 1900.0,
+     "mant": 59.26,
+     "anio": "",
+     "dorm": "Mono",
+     "zona": "La Victoria",
+     "titulo": "Alquiler De Departamento En La Victoria - Edificio Tempo",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-en-la-victoria-edificio-tempo/194188871",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       563.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "la-victoria"
+    },
+    "194137519": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 852.0,
+     "area": 81.0,
+     "lat": -12.09008,
+     "lng": -77.0201,
+     "mon": "USD",
+     "monto": 852.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "La Victoria",
+     "titulo": "ALQUILER DE MODERNO DEPARTAMENTO DE 2D - 2B  EN SANTA CATALINA A PASOS DEL CENTR",
+     "u": "https://www.infocasas.com.pe/alquiler-de-moderno-departamento-de-2d-2b-en-santa-catalina-a-pasos-del-centro-empresarial/194137519",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       852.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "la-victoria"
+    },
+    "194234826": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 349900.0,
+     "area": 201.0,
+     "lat": -12.08592,
+     "lng": -77.0123,
+     "mon": "USD",
+     "monto": 349900.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "La Victoria",
+     "titulo": "Venta de casa para remodelar frente a parque cerrado por Estacion La Cultura",
+     "u": "https://www.infocasas.com.pe/venta-de-casa-para-remodelar-frente-a-parque-cerrado-por-estacion-la-cultura/194234826",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       349900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "la-victoria"
+    }
+   },
+   "tc": 3.374777975133215,
+   "turno": 59
+  }
+ }
+}
