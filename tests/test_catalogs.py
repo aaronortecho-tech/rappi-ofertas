@@ -171,7 +171,7 @@ def test_same_seller_sku_is_not_repeated_across_platforms():
 
 
 def test_categories_get_space_even_if_decor_has_higher_discounts():
-    deals = [Deal('Falabella', str(i), 'Decoración', 'https://example.org', 90, 10, 100,
+    deals = [Deal('Falabella', str(i), f'Decoración {i}', 'https://example.org', 90, 10, 100,
                   'Vendedor', 'web', 'Hogar') for i in range(30)]
     deals.append(Deal('Falabella','tech','Laptop','https://example.org',60,40,100,'Vendedor','web','Tecnología'))
     cfg=Config(ntfy_topic='test-hogar'); http=FakeHttp()

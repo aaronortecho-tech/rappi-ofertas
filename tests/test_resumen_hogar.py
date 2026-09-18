@@ -92,3 +92,53 @@ def test_failed_summary_is_retried_next_round_and_says_when_it_was_seen(tmp_path
     run(path, NOW + 1800, [item(2)], phone)
     run(path, NOW + 1800 + 3 * 3600 + 60, [], phone)
     assert any('Visto hace 3 h' in m for m in phone.messages)
+
+
+def test_quality_filter_and_ranking():
+    from monitor.catalogs import hold_home, quality
+    state = CatalogState()
+    day = int(NOW // 86400)
+    # Descuento permanente: el mismo precio siete días seguidos.
+    fixed = item(1, pct=70, price=100.0)
+    state.history[fixed.history_key] = [[day - d, 100.0] for d in range(7, 0, -1)]
+    assert quality(state, fixed, NOW)[2] == 'descuento permanente'
+    # Con menos de siete días todavía no se concluye nada.
+    state.history[fixed.history_key] = [[day - d, 100.0] for d in range(3, 0, -1)]
+    assert quality(state, fixed, NOW)[2] is None
+    # Ahorro menor a S/ 20: un cojín de S/ 30 a S/ 12 no entra.
+    cushion = Deal('Falabella', 'c', 'Cojín', 'https://x/c', 60, 12.0, 30.0, 'T', 'Precio web; confirmar stock y envío', 'Hogar')
+    assert quality(state, cushion, NOW)[2] == 'ahorro bajo'
+    # Nuevo mínimo: bajó frente a lo observado antes; sube en el orden y lo dice.
+    low = item(2, pct=60, price=150.0)
+    state.history[low.history_key] = [[day - 2, 200.0], [day - 1, 190.0]]
+    rank_low, note, reason = quality(state, low, NOW)
+    assert reason is None and 'Precio más bajo visto en 2 días (antes S/ 190.00)' in note
+    # A igual porcentaje, manda el ahorro en soles.
+    sofa = Deal('Falabella', 's', 'Sofá', 'https://x/s', 60, 800.0, 2000.0, 'T', 'Precio web; confirmar stock y envío', 'Muebles')
+    lamp = Deal('Falabella', 'l', 'Lámpara', 'https://x/l', 62, 20.0, 60.0, 'T', 'Precio web; confirmar stock y envío', 'Hogar')
+    assert quality(state, sofa, NOW)[0] > quality(state, lamp, NOW)[0]
+    due, digest, stats = hold_home(state, [fixed, cushion, low, sofa, lamp], NOW)
+    assert digest and [d.name for d in sorted(due, key=lambda d: -d.rank)][0] == 'Producto 2'
+    assert stats['ahorro bajo'] == 1 and len(state.datos['cola_hogar']) == 4
+
+
+def test_permanent_discount_leaves_the_queue_and_is_never_urgent(tmp_path, monkeypatch):
+    monkeypatch.setenv('NTFY_TOPIC_HOGAR', 'tema-de-prueba')
+    path = str(tmp_path / 'hogar.json')
+    state = CatalogState()
+    deal = item(5, pct=85, price=100.0)
+    day = int(NOW // 86400)
+    state.history[deal.history_key] = [[day - d, 100.0] for d in range(7, 0, -1)]
+    state.save(path, NOW - 60)
+    phone = Phone()
+    run(path, NOW, [deal], phone)
+    assert not any('Producto 5' in m for m in phone.messages)
+
+
+def test_same_product_same_price_from_two_sellers_goes_once():
+    from monitor.catalogs import deliver
+    a = item(1)
+    b = Deal('Sodimac', 'otro-sku', 'Producto  1', 'https://www.sodimac.com.pe/1', 65, 100.0, 400.0, 'Otra', 'Precio web; confirmar stock y envío', 'Muebles')
+    phone = Phone()
+    deliver([a, b], CatalogState(), phone, NOW, 'hogar')
+    assert '\n'.join(phone.messages).count('🛒') == 1

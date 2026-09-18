@@ -69,6 +69,7 @@ class Deal:
     currency: str = "PEN"
     reference_kind: str = "published"
     note: str = ""          # solo se muestra; no entra en la clave (p. ej. «visto hace 5 h»)
+    rank: float = 0.0       # orden dentro del resumen de hogar; tampoco entra en la clave
 
     @property
     def key(self):
@@ -371,6 +372,34 @@ URGENT_HOME_PCT = 80      # estas no esperan al resumen: son las que más rápid
 QUEUE_HOURS = 24          # una oferta que no se vuelve a ver en un día sale de la cola
 
 
+PERMANENT_DAYS = 7        # días con el mismo precio para concluir que el «antes» es decorativo
+
+
+def min_savings():
+    try: return max(0.0, float(os.environ.get('AHORRO_MINIMO_HOGAR', '') or 20))
+    except ValueError: return 20.0
+
+
+def quality(state, deal, now):
+    """Qué tan real es la oferta, con el historial de precios que el propio monitor guarda.
+
+    Devuelve (puntaje, nota, motivo_de_descarte). El precio tachado lo pone el vendedor; lo que
+    sí se puede comprobar es si el precio bajó frente a lo observado y cuánto se ahorra en soles."""
+    today = int(now // 86400)
+    before = {d: p for d, p in state.history.get(deal.history_key, []) if d < today}
+    savings = (deal.regular or 0) - (deal.price or 0)
+    if deal.price is None or savings < min_savings(): return 0, '', 'ahorro bajo'
+    rank = deal.pct + 12 * math.log10(max(savings, 1))
+    if len(before) >= PERMANENT_DAYS and all(abs(p - deal.price) <= deal.price * 0.02 for p in before.values()):
+        # Mismo precio una semana entera: el descuento es permanente, el «antes» no es real.
+        return rank, '', 'descuento permanente'
+    note = ''
+    if before and deal.price < min(before.values()) * 0.97:
+        rank += 25
+        note = f'📉 Precio más bajo visto en {len(before)} días (antes S/ {min(before.values()):,.2f})'
+    return rank, note, None
+
+
 def summary_every():
     try: return max(0.5, float(os.environ.get('HORAS_RESUMEN_HOGAR', '') or 3)) * 3600
     except ValueError: return 3 * 3600
@@ -386,18 +415,23 @@ def hold_home(state, deals, now):
     supera por otra observación o pasan 24 horas sin volver a verla.
     Devuelve (ofertas que tocan ahora, si incluye el resumen, métricas)."""
     queue = state.datos.setdefault('cola_hogar', {})
-    stats = {'entradas': 0, 'caducadas': 0}
+    stats = {'entradas': 0, 'caducadas': 0, 'ahorro bajo': 0, 'descuento permanente': 0}
     for deal in deals:
         key = deal.history_key
         if not state.is_new(deal.key, now, 168):
             queue.pop(key, None)  # ese mismo precio ya se avisó: cualquier versión anterior queda superada
             continue
+        deal.rank, deal.note, reason = quality(state, deal, now)
+        if reason:
+            queue.pop(key, None); stats[reason] += 1
+            continue
         if key not in queue: stats['entradas'] += 1
         queue[key] = {'oferta': asdict(deal), 'visto': int(now)}
     for key, item in list(queue.items()):
+        deal = Deal(**item['oferta'])
         if item['visto'] < now - QUEUE_HOURS * 3600:
             queue.pop(key); stats['caducadas'] += 1
-        elif not state.is_new(Deal(**item['oferta']).key, now, 168):
+        elif not state.is_new(deal.key, now, 168) or quality(state, deal, now)[2]:
             queue.pop(key)
     digest = now - state.datos.get('ultimo_resumen_hogar', 0) >= summary_every()
     due = []
@@ -405,7 +439,7 @@ def hold_home(state, deals, now):
         deal = Deal(**item['oferta'])
         if deal.pct < URGENT_HOME_PCT and not digest: continue
         hours = (now - item['visto']) / 3600
-        if hours >= 1: deal.note = f'Visto hace {hours:.0f} h: confirmar que siga vigente'
+        if hours >= 1: deal.note = '\n'.join(filter(None, [deal.note, f'Visto hace {hours:.0f} h: confirmar que siga vigente']))
         due.append(deal)
     oldest = max(((now - v['visto']) / 3600 for v in queue.values()), default=0)
     stats.update(pendientes=len(queue), mas_antigua_h=round(oldest, 1))
@@ -416,6 +450,13 @@ def deliver(deals, state, notifier, now, group, dry_run=False):
     pending = [d for d in deals if state.is_new(d.key, now, 1440 if group in SLOW_GROUPS else 168)]
     pending.sort(key=lambda d: (-d.pct, d.source, d.name))
     if group == 'hogar':
+        pending.sort(key=lambda d: (-d.rank, -d.pct, d.source, d.name))
+        # El mismo producto al mismo precio publicado por dos vendedores o tiendas sale una sola vez.
+        unique, shown = [], set()
+        for deal in pending:
+            same = (' '.join(deal.name.lower().split()), deal.price)
+            if same not in shown: shown.add(same); unique.append(deal)
+        pending = unique
         # Primero las de 80 % o más; el resto alterna las cuatro categorías para que decoración
         # no desplace a muebles o tecnología.
         def alternate(deals):
@@ -486,9 +527,10 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
         for key in [k for k, v in queue.items() if not state.is_new(Deal(**v['oferta']).key, now, 168)]: queue.pop(key)
         # Solo un resumen entregado sin fallas mueve el reloj; si ntfy falló, se reintenta en la próxima ronda.
         if digest and not failed and not dry_run: state.datos['ultimo_resumen_hogar'] = int(now)
-        log.info('hogar: %d candidatas vistas · %d entraron a la cola · %d caducaron sin volver a verse · '
-                 '%d pendientes (la más antigua, %.1f h)%s', found, stats.get('entradas', 0),
-                 stats.get('caducadas', 0), len(queue), stats.get('mas_antigua_h', 0),
+        log.info('hogar: %d candidatas vistas · %d entraron a la cola · %d descartadas por ahorro menor a S/ %.0f · '
+                 '%d por descuento permanente · %d caducaron sin volver a verse · %d pendientes (la más antigua, %.1f h)%s',
+                 found, stats.get('entradas', 0), stats.get('ahorro bajo', 0), min_savings(),
+                 stats.get('descuento permanente', 0), stats.get('caducadas', 0), len(queue), stats.get('mas_antigua_h', 0),
                  ' · resumen enviado' if digest and not failed else '')
     for name, count, error in reports:
         log.info('%s: %d revisados · %s', name, count, error or 'OK')

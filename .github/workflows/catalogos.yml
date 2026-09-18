@@ -46,6 +46,7 @@ jobs:
         env:
           NTFY_TOPIC_HOGAR: ${{ secrets.NTFY_TOPIC_HOGAR }}
           HORAS_RESUMEN_HOGAR: ${{ vars.HORAS_RESUMEN_HOGAR }}
+          AHORRO_MINIMO_HOGAR: ${{ vars.AHORRO_MINIMO_HOGAR }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
           HORAS_SILENCIO: ${{ vars.HORAS_SILENCIO }}
           MODO_PRUEBA: ${{ github.event_name == 'workflow_dispatch' && inputs.prueba && 'si' || 'no' }}
