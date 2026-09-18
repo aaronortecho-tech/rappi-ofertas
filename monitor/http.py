@@ -61,8 +61,17 @@ class HttpClient:
                 self._sleep(remaining)
         self._last_request = self._clock()
 
-    def get(self, url: str) -> str | None:
+    def get(self, url: str, headers: dict | None = None) -> str | None:
         """Devuelve el HTML de la página, o None si no existe (404)."""
+        result = self._fetch(url, headers)
+        return None if result is None else result[0].decode(result[1], errors="replace")
+
+    def get_bytes(self, url: str, headers: dict | None = None) -> bytes | None:
+        """Igual que get, pero sin decodificar (documentos PDF)."""
+        result = self._fetch(url, headers)
+        return None if result is None else result[0]
+
+    def _fetch(self, url: str, headers: dict | None = None) -> tuple[bytes, str] | None:
         if self._blocked_reason:
             raise Blocked(self._blocked_reason)
         last_error: Exception | None = None
@@ -78,6 +87,7 @@ class HttpClient:
                     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                     "Accept-Language": "es-PE,es;q=0.9",
                     "Accept-Encoding": "gzip, deflate",
+                    **(headers or {}),
                 },
             )
             try:
@@ -89,7 +99,7 @@ class HttpClient:
                     body = gzip.decompress(body)
                 elif encoding == "deflate":
                     body = zlib.decompress(body)
-                return body.decode(charset, errors="replace")
+                return body, charset
             except urllib.error.HTTPError as exc:
                 if exc.code in (404, 410):
                     return None

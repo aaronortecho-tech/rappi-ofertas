@@ -2,15 +2,17 @@
 
 ## Grupos de avisos
 
-El proyecto mantiene tres temas independientes de ntfy. Los nombres reales de los temas se guardan exclusivamente como secretos de GitHub.
+El proyecto mantiene cinco temas independientes de ntfy. Los nombres reales de los temas se guardan exclusivamente como secretos de GitHub.
 
 | Grupo | Fuentes activas | Mínimo | Secreto |
 |---|---|---|---|
 | Ofertas del día | Rappi, Rappi Market/Turbo, Tambo y Makro | 60 % | `NTFY_TOPIC` |
 | Hogar y tecnología | Falabella, Sodimac, Promart, Oechsle, Estilos, Casaideas y Shopstar, con vendedores terceros | 60 % | `NTFY_TOPIC_HOGAR` |
-| Viajes y escapadas | Diners Club y tarifas publicadas de JetSMART/SKY desde Lima | 50 % | `NTFY_TOPIC_VIAJES` |
+| Viajes y escapadas | Diners Club, tarifas publicadas de JetSMART/SKY desde Lima y, con token, Travelpayouts | 50 % | `NTFY_TOPIC_VIAJES` |
+| Autos | Neoauto: nuevos, seminuevos y usados | Año gratis o bajada de 10 % | `NTFY_TOPIC_AUTOS` |
+| Inmuebles | Preventa de Nexo Inmobiliario y adjudicados de Scotiabank | 23 % bajo su zona o bajada de 10 % | `NTFY_TOPIC_INMUEBLES` |
 
-**Estado de cobertura:** Ripley, LATAM y Despegar no están activados: las comprobaciones de acceso devolvieron bloqueos. PedidosYa tampoco está integrado. Un resultado exitoso de los grupos nuevos solo confirma las fuentes activas de la tabla.
+**Estado de cobertura:** Ripley, LATAM, Despegar, Urbania y Adondevivir no están activados: las comprobaciones de acceso devolvieron bloqueos. PedidosYa tampoco está integrado. Un resultado exitoso de los grupos nuevos solo confirma las fuentes activas de la tabla.
 
 El workflow **Ofertas de hogar y viajes** corre cada 30 minutos y admite una prueba manual que envía un mensaje a cada tema nuevo. Usa memorias separadas (`state/hogar.json` y `state/viajes.json`) y comparte la exclusión de ejecución con Rappi para evitar conflictos al guardar los archivos. Solo se marcan como avisadas las ofertas cuyo envío fue aceptado por ntfy.
 
@@ -120,6 +122,9 @@ Se crean en **Settings → Secrets and variables → Actions → Variables**. Lo
 | `CADENAS` | Fridays, Chili's, Bembos… | Cadenas de respaldo, con el formato `6419-fridays`. |
 | `REVISAR_TIENDAS` / `REVISAR_RESTAURANTES` | `si` | Permite apagar una sección. |
 | `REVISAR_RAPPI_MARKET` | `si` | Amplía la lista con el directorio de Turbo y revisa los pasillos de hogar/bazar de Market/Turbo. Requiere `REVISAR_TIENDAS=si`. |
+| `TIPO_CAMBIO` | `3.5` | Soles por dólar para comparar autos e inmuebles publicados en monedas distintas. |
+| `AUTOS_PRECIO_MIN` / `AUTOS_PRECIO_MAX` | sin límite | Rango en dólares de los autos que te interesan. Solo filtra los avisos: los demás se siguen usando como comparables. |
+| `INMUEBLES_DISTRITOS` | todos | Distritos separados por comas (por ejemplo `Miraflores, San Isidro, Surco`). Solo filtra los avisos. |
 | `DETALLE_EN_LOGS` | `no` | Registros más detallados. En un repositorio público cualquiera podría ver los nombres de los locales. |
 
 La ubicación va como **secreto**, no como variable.
@@ -131,6 +136,48 @@ La ubicación va como **secreto**, no como variable.
 - **hasta -100% … no vi el producto en la web**: el local anuncia ese descuento, pero el producto no aparece en la web; suele estar solo en la app.
 - **Descuento en toda la carta**: es un porcentaje sobre todo el pedido y normalmente pide un monto mínimo.
 - **Cadena (revisa si aplica a tu zona)**: sale del respaldo por cadenas, que no sabe qué local te corresponde.
+
+## Autos, inmuebles y vuelos: cómo se detecta una ganga
+
+Estos grupos no leen un "% de descuento": lo calculan comparando contra los propios anuncios. Por eso **las primeras semanas no avisan nada**: están juntando comparables (se necesitan al menos 8 autos del mismo modelo y año, u 8 proyectos cercanos). No es una falla. Autos e inmuebles envían como máximo 3 avisos por ronda y no repiten el mismo en 60 días. Mientras no crees sus temas de ntfy, igual corren y guardan lo que aprenden, pero no envían nada.
+
+### Cómo se detecta una ganga de auto
+
+Con los autos no hay un "80 % de descuento" que leer: nadie publica el precio normal de un auto usado. Hay que calcularlo, y ahí aparece una trampa que conviene tener clara: **mientras más barato está un auto respecto del mercado, más probable es que sea por un defecto y no por una oportunidad.** Quedarse con "el que esté 50 % más abajo" es quedarse con los autos chocados y las estafas.
+
+Por eso el criterio principal es otro, y se explica en una frase: **que pagues el precio del año anterior.** Si los Toyota RAV4 2022 están en US$ 20.000 y los 2021 en US$ 17.000, un 2022 a US$ 17.200 te está regalando un año de depreciación. No hay porcentaje que calibrar, funciona igual en un auto de US$ 8.000 y en uno de US$ 45.000, y cuando el precio baja más de lo que corresponde a dos años, eso ya no es una ganga: es un aviso de que hay algo escondido.
+
+A eso se le suman tres comprobaciones que el monitor puede hacer solo:
+
+- que el auto sea **normal en todo lo demás**, porque una ganga de verdad es aburrida salvo en el precio, mientras que las trampas son raras en varias cosas a la vez;
+- que el **aviso lleve semanas publicado** y haya bajado de precio, ya que las estafas son recientes y desaparecen rápido;
+- que **los otros autos de ese mismo vendedor estén a precio de mercado**. Neoauto publica el inventario completo de sus 58 concesionarios, así que se puede comprobar: si todos sus autos están "baratos", no es un descuento.
+
+Lo que ningún cálculo va a saber es el estado mecánico ni si el auto estuvo chocado, así que el aviso te dice "buen candidato", nunca "buen auto". Los detalles, el peso de cada señal y los filtros anti-estafa están en FUENTES.md.
+
+### Cómo se detecta una ganga de inmueble
+
+Un departamento no se parece a otro como sí se parecen dos autos del mismo modelo: el piso, la vista, la antigüedad del edificio y media cuadra de diferencia cambian el precio. Así que comparar precios por m² entre "departamentos de Surco" no dice mucho.
+
+El diseño original usaba la rentabilidad por alquiler (cuánto rentaría comparado con sus vecinos), pero los dos portales que publican ventas y alquileres, Urbania y Adondevivir, bloquean la lectura automática con un desafío antibots, y eso no se evade. Así que hoy el monitor compara cada proyecto en preventa de **Nexo Inmobiliario** contra los proyectos que tiene **a menos de 1,5 km**, nunca contra todo el distrito: si su precio por m² queda 23 % o más por debajo, te avisa (🚨 desde 33 %). Más de 50 % por debajo no es ganga: casi siempre es un área mal escrita.
+
+Queda pendiente un canal donde el descuento **lo fija la ley**: los remates judiciales. La base de un remate es dos tercios de la tasación oficial, y baja 15 % en cada convocatoria en que nadie se presenta. En la cuarta vuelta, la base está 59 % debajo de la tasación. Eso sí es un descuento auditable. El detalle contraintuitivo: conviene mirar los de primera y segunda convocatoria, no los de la quinta, porque un inmueble que nadie quiso cuatro veces casi siempre está ocupado o tiene un problema legal.
+
+Lo que sí está activo, además de Nexo, son los inmuebles adjudicados de Scotiabank: su listado trae unos 242, con distrito, área, valor y estado registral. Una vez por semana el monitor lo compara con el anterior y te avisa lo nuevo y lo que bajó 10 % o más, solo en Lima y Callao y con partida inscrita.
+
+Dos advertencias que quedaron por escrito en la guía: los distritos de Lima son demasiado desiguales para promediarlos, así que se compara por cercanía y no por distrito; y hay frases que hacen que algo parezca 60 % más barato sin serlo, como "derechos y acciones" (se compra una fracción, no el inmueble) u "ocupado" (se hereda un juicio de desalojo). Y la revisión de la partida registral en SUNARP no la hace ningún programa: esa es tuya.
+
+### Cómo se detecta una ganga de vuelo
+
+Para un viaje que ya tienes decidido, no vale la pena programar nada: Google Flights ya te avisa por correo cuando baja el precio de una ruta, gratis, con datos en vivo e incluso con la opción "cualquier fecha". Úsalo y listo.
+
+Donde este monitor sí aporta algo es en el caso contrario: **no tengo destino ni fecha, avísame cuando salir de Lima esté excepcionalmente barato.** Para eso la pregunta se da vuelta: en vez de "¿cuánto cuesta Lima–Miami?", el monitor pregunta "¿a dónde se puede ir barato desde Lima?", que se responde en una sola consulta con muchos destinos a la vez.
+
+Y la medida no es el precio, es **cuánto cuesta cada kilómetro**. US$ 380 a Madrid y US$ 380 a Bogotá parecen lo mismo y no lo son: el primero es una ganga y el segundo es caro. Dividir el precio entre la distancia pone todos los destinos en una sola escala, y tiene una ventaja práctica grande: funciona desde el primer día, sin esperar semanas a juntar historia.
+
+Esto ya funciona con las tarifas de JetSMART y SKY que el monitor lee cada 30 minutos: junta al menos 20 tarifas de cada tramo de distancia (nacional, regional, medio y largo) y te avisa cuando una cuesta por kilómetro la mitad o menos de lo normal para su tramo. Para "cualquier destino desde Lima" hace falta la API de Travelpayouts, que pide registrarse gratis y un token (se guarda como secreto `TRAVELPAYOUTS_TOKEN`). Ojo con una limitación real: los precios de esa API son búsquedas de otros usuarios guardadas hasta 7 días, así que sirven para descubrir la oportunidad, no para reservar. El aviso te llega con el enlace para que confirmes el precio en vivo.
+
+Todos los avisos de autos e inmuebles llevan el recordatorio de revisar SUNARP antes de decidir: esa consulta no la automatiza el monitor.
 
 ## Límites
 

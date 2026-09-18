@@ -164,3 +164,63 @@ def test_existing_state_saves_history_even_without_notifications(tmp_path):
     assert not loaded.changed()
     loaded.cursors['test'] = 3
     assert loaded.changed()
+
+
+from monitor.flights import observe_distance, distance_km, travelpayouts_directions, scan_travelpayouts, BAND_MIN
+
+
+def test_distance_band_needs_its_own_history_then_flags_half_price_per_km():
+    state = CatalogState()
+    km = distance_km('LIM', 'CUZ')
+    for i in range(BAND_MIN):
+        other = replace(fare(), identity=f'ruta-{i}', price=200 + i)
+        assert observe_distance(state, other, NOW, 'JetSMART|PEN', km) is None
+    cheap = observe_distance(state, replace(fare(), price=95), NOW, 'JetSMART|PEN', km)
+    assert cheap and cheap.reference_kind == 'flight_distance' and cheap.pct >= 50
+    assert 'centavos/km' in cheap.condition and 'tramo nacional' in cheap.condition
+    text = deal_text(cheap)
+    assert 'bajo lo normal para esa distancia' in text and 'no descuento anunciado' in text
+    # Una quinta parte de lo normal no es ganga: es un error de datos.
+    assert observe_distance(state, replace(fare(), identity='raro', price=20), NOW, 'JetSMART|PEN', km) is None
+
+
+def test_distance_alert_key_ignores_moving_median():
+    state = CatalogState()
+    km = distance_km('LIM', 'CUZ')
+    for i in range(BAND_MIN):
+        observe_distance(state, replace(fare(), identity=f'r{i}', price=200 + i), NOW, 'b', km)
+    first = observe_distance(state, replace(fare(), price=95), NOW, 'b', km)
+    for i in range(15): observe_distance(state, replace(fare(), identity=f'extra{i}', price=400), NOW, 'b', km)
+    second = observe_distance(state, replace(fare(), price=95), NOW, 'b', km)
+    assert first.pct != second.pct and first.key == second.key
+
+
+TP = {'success': True, 'currency': 'usd', 'error': None, 'data': {
+    'MAD': {'origin': 'LIM', 'destination': 'MAD', 'price': 690, 'transfers': 1, 'airline': 'IB', 'flight_number': 6650,
+            'departure_at': '2026-11-10T20:00:00Z', 'return_at': '2026-11-24T10:00:00Z', 'expires_at': '2026-09-20T00:00:00Z'},
+    'OLD': {'origin': 'LIM', 'destination': 'BOG', 'price': 150, 'transfers': 0, 'airline': 'AV', 'flight_number': 1,
+            'departure_at': '2026-09-01T10:00:00Z', 'return_at': '', 'expires_at': '2026-09-20T00:00:00Z'}}}
+
+
+def test_travelpayouts_reads_round_trips_and_skips_past_or_expired():
+    fares = travelpayouts_directions(TP, date(2026, 9, 17), NOW)
+    assert len(fares) == 1 and fares[0].currency == 'USD' and 'Ida y vuelta' in fares[0].condition
+    assert 'Madrid (MAD)' in fares[0].name and fares[0].url.endswith('LIM1011MAD24111')
+    assert 'no tarifa en vivo' in fares[0].condition
+    with pytest.raises(ValueError): travelpayouts_directions(dict(TP, currency='rub'), date(2026, 9, 17), NOW)
+
+
+def test_travelpayouts_needs_token_and_runs_every_six_hours():
+    calls = []
+    class Client:
+        user_agent = 'Mozilla/5.0'
+        def __init__(self, **kw): pass
+        def get(self, url, headers=None):
+            calls.append((url, headers))
+            return json.dumps(TP)
+    state = CatalogState()
+    assert scan_travelpayouts(state, NOW, token='', http_factory=Client) == ([], [])
+    _, reports = scan_travelpayouts(state, NOW, token='secreto', http_factory=Client)
+    assert reports == [('Travelpayouts/destinos desde Lima', 1, None)]
+    assert all('secreto' not in url and headers == {'X-Access-Token': 'secreto'} for url, headers in calls)
+    assert scan_travelpayouts(state, NOW + 3600, token='secreto', http_factory=Client) == ([], [])

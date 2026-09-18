@@ -1,0 +1,85 @@
+name: Autos e inmuebles
+
+on:
+  schedule:
+    # Cada 6 horas. Inmuebles se regula solo: Nexo cada 12 horas y el PDF de Scotiabank cada semana.
+    - cron: "27 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      prueba:
+        description: "Enviar un aviso de prueba a cada tema"
+        type: boolean
+        default: true
+      grupo:
+        description: "Grupo que se revisará en esta ejecución manual"
+        type: choice
+        default: todos
+        options:
+          - todos
+          - autos
+          - inmuebles
+
+permissions:
+  contents: write
+
+# Grupo propio: una ronda de autos tarda varios minutos y no debe retrasar a Rappi ni al
+# resto. Cada grupo guarda un archivo distinto, así que los push no chocan entre sí.
+concurrency:
+  group: monitor-autos-inmuebles
+  cancel-in-progress: false
+
+jobs:
+  autos-inmuebles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Instalar dependencias
+        run: python -m pip install -r requirements.txt
+      - name: Autos (Neoauto)
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.grupo == 'todos' || inputs.grupo == 'autos' }}
+        env:
+          NTFY_TOPIC_AUTOS: ${{ secrets.NTFY_TOPIC_AUTOS }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          HORAS_SILENCIO: ${{ vars.HORAS_SILENCIO }}
+          TIPO_CAMBIO: ${{ vars.TIPO_CAMBIO }}
+          LECTURAS_AUTOS: ${{ vars.LECTURAS_AUTOS }}
+          AUTOS_PRECIO_MIN: ${{ vars.AUTOS_PRECIO_MIN }}
+          AUTOS_PRECIO_MAX: ${{ vars.AUTOS_PRECIO_MAX }}
+          MODO_PRUEBA: ${{ github.event_name == 'workflow_dispatch' && inputs.prueba && 'si' || 'no' }}
+        run: python -m monitor.catalogs --grupo autos
+      - name: Inmuebles (Nexo y adjudicados)
+        if: ${{ !cancelled() && (github.event_name != 'workflow_dispatch' || inputs.grupo == 'todos' || inputs.grupo == 'inmuebles') }}
+        env:
+          NTFY_TOPIC_INMUEBLES: ${{ secrets.NTFY_TOPIC_INMUEBLES }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          HORAS_SILENCIO: ${{ vars.HORAS_SILENCIO }}
+          TIPO_CAMBIO: ${{ vars.TIPO_CAMBIO }}
+          LECTURAS_INMUEBLES: ${{ vars.LECTURAS_INMUEBLES }}
+          INMUEBLES_DISTRITOS: ${{ vars.INMUEBLES_DISTRITOS }}
+          MODO_PRUEBA: ${{ github.event_name == 'workflow_dispatch' && inputs.prueba && 'si' || 'no' }}
+        run: python -m monitor.catalogs --grupo inmuebles
+      - name: Guardar memoria de autos e inmuebles
+        if: ${{ !cancelled() }}
+        run: |
+          if [ -z "$(git status --porcelain -- state/autos.json state/inmuebles.json)" ]; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for archivo in state/autos.json state/inmuebles.json; do
+            if [ -f "$archivo" ]; then git add "$archivo"; fi
+          done
+          git commit --quiet -m "Actualizar memoria de autos e inmuebles"
+          for intento in 1 2 3 4 5; do
+            if git pull --rebase --quiet && git push --quiet; then exit 0; fi
+            sleep 10
+          done
+          echo "::error::No se pudo guardar la memoria de autos e inmuebles."
+          exit 1

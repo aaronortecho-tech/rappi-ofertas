@@ -28,16 +28,29 @@ from .state import State, offer_key
 from .vtex import SOURCES as VTEX_SOURCES, scan_home
 from .flights import scan_trips
 from .convenience import scan_convenience
+from .autos import scan_autos
+from .inmuebles import scan_inmuebles
 
 DINERS_URL = "https://dinersclubperu.pe/establecimientos/modotravel/categoria/viajes"
 UNAVAILABLE = {"comida": "Mass y Listo: pendientes; no se verificó un catálogo con precios comparables automatizable.", "hogar": "Ripley: acceso público bloqueado (403).",
-               "viajes": "LATAM y Despegar: acceso público bloqueado. No se consultan tarifas en vivo."}
+               "viajes": "LATAM y Despegar: acceso público bloqueado. No se consultan tarifas en vivo. Travelpayouts solo con el secreto TRAVELPAYOUTS_TOKEN.",
+               "autos": "Derco, retención relativa y resumen semanal: pendientes. Mercado Libre y Autocosmos no se usan (robots/pausas).",
+               "inmuebles": "Urbania y Adondevivir: bloqueo antibots de Cloudflare. Remates judiciales, otros bancos y rentabilidad por alquiler: pendientes."}
+TOPICS = {'hogar': 'NTFY_TOPIC_HOGAR', 'viajes': 'NTFY_TOPIC_VIAJES', 'comida': 'NTFY_TOPIC',
+          'autos': 'NTFY_TOPIC_AUTOS', 'inmuebles': 'NTFY_TOPIC_INMUEBLES'}
+TITLES = {'hogar': 'Hogar y tecnología', 'viajes': 'Viajes y escapadas', 'comida': 'Comida y bazar',
+          'autos': 'Autos', 'inmuebles': 'Inmuebles'}
+# Grupos lentos: pocas y buenas. Como mucho 3 avisos por ronda y sin repetir en 60 días.
+SLOW_GROUPS = {'autos', 'inmuebles'}
 CATEGORIES = [("Tecnología", "cat40793/Tecnologia"), ("Muebles", "cat40700/Muebles"),
               ("Electrodomésticos", "cat40584/Electrohogar"), ("Hogar", "cat40474/Decoracion")]
 RETAIL_SOURCES = [(shop, category, base + path)
                   for shop, base in [("Falabella", "https://www.falabella.com.pe/falabella-pe/category/"),
                                      ("Sodimac", "https://www.sodimac.com.pe/sodimac-pe/lista/")]
                   for category, path in CATEGORIES]
+
+
+STABLE_KINDS = {"flight_distance", "autos", "inmuebles"}
 
 
 @dataclass
@@ -58,6 +71,10 @@ class Deal:
 
     @property
     def key(self):
+        if self.reference_kind in STABLE_KINDS:
+            # El porcentaje de estas señales se recalcula con medianas que cambian cada ronda:
+            # no debe volver a avisar el mismo precio solo porque varió la referencia.
+            return offer_key(self.reference_kind, self.source, self.identity, self.price)
         scope = "retail" if self.source in ("Falabella", "Sodimac") else ("vtex" if self.source in {name for name, _ in VTEX_SOURCES} else self.source)
         return offer_key("catalog", scope, self.identity, self.seller.lower(),
                          self.price, self.pct, self.condition)
@@ -74,6 +91,9 @@ class CatalogState(State):
         self.flight_alerts = data.get("flight_alerts", {})
         if not isinstance(self.flight_alerts, dict): self.flight_alerts = {}
         self.history = data.get("history", {})
+        # Memoria propia de cada grupo nuevo (autos, inmuebles, bandas de vuelos).
+        self.datos = data.get("datos", {})
+        if not isinstance(self.datos, dict): self.datos = {}
         self.cursors = data.get("cursors", {})
         if not isinstance(self.history, dict): self.history = {}
         if not isinstance(self.cursors, dict): self.cursors = {}
@@ -84,7 +104,7 @@ class CatalogState(State):
         # State conserva esta instantánea para detectar cambios. No compartir los
         # diccionarios mutables o una ronda sin avisos perdería su historial nuevo.
         data.update(history=deepcopy(self.history), cursors=deepcopy(self.cursors),
-                    flight_alerts=deepcopy(self.flight_alerts))
+                    flight_alerts=deepcopy(self.flight_alerts), datos=deepcopy(self.datos))
         return data
 
     def observe(self, deal, now):
@@ -321,6 +341,15 @@ def deal_text(deal):
                 f"Mínimo previo observado (ventana de 30 días): {deal.currency} {deal.regular:,.2f}\n"
                 f"Comparación basada en al menos 3 días previos, no descuento anunciado.\n"
                 f"{deal.condition}\n{deal.url}")
+    if deal.reference_kind == 'flight_distance':
+        return (f"✈️ {deal.name}\n"
+                f"💰 Desde {deal.currency} {deal.price:,.2f}  |  {deal.pct}% bajo lo normal para esa distancia\n"
+                f"Lo habitual en ese tramo: ~{deal.currency} {deal.regular:,.2f}\n"
+                f"{deal.source} · medida en centavos por km, no descuento anunciado\n"
+                f"{deal.condition}\n{deal.url}")
+    if deal.reference_kind in ('autos', 'inmuebles'):
+        # El texto lo arma el propio grupo: cada uno explica su criterio.
+        return deal.condition + "\n" + deal.url
     lines = [f"🛒 {deal.name}"]
     if deal.price is not None:
         lines.append(f"💰 S/ {deal.price:,.2f}  |  -{deal.pct}%")
@@ -334,7 +363,7 @@ def deal_text(deal):
 
 
 def deliver(deals, state, notifier, now, group, dry_run=False):
-    pending = [d for d in deals if state.is_new(d.key, now, 168)]
+    pending = [d for d in deals if state.is_new(d.key, now, 1440 if group in SLOW_GROUPS else 168)]
     pending.sort(key=lambda d: (-d.pct, d.source, d.name))
     if group == 'hogar':
         # Dar espacio a las cuatro categorías, aunque decoración tenga más rebajas.
@@ -347,15 +376,17 @@ def deliver(deals, state, notifier, now, group, dry_run=False):
     sent, failed = 0, False
     # Máximo 8 mensajes: una oferta detallada por mensaje de viaje,
     # hasta 3 productos por mensaje de hogar. Nunca marcar lo que no se envió.
-    size = 1 if group == 'viajes' else 3
-    for start in range(0, min(len(pending), size * 8), size):
+    size = 1 if group in ('viajes', *SLOW_GROUPS) else 3
+    for start in range(0, min(len(pending), 3 if group in SLOW_GROUPS else size * 8), size):
         batch = pending[start:start + size]
         message = "\n\n──────────\n\n".join(deal_text(d) for d in batch)
         if group == 'viajes' and batch[0].source == 'Diners': message += "\nBeneficio general; para vuelos, confirmar aplicabilidad a salida de Lima."
         # Reducir el lote si excede el límite de ntfy, sin perder ofertas en la memoria.
         while len(message.encode('utf-8')) > 3600 and len(batch) > 1:
             batch = batch[:-1]; message = "\n\n──────────\n\n".join(deal_text(d) for d in batch)
-        title = f"{'🏠' if group == 'hogar' else ('🛒' if group == 'comida' else '✈️')} {len(batch)} {'ofertas de hogar/tecnología' if group == 'hogar' else ('ofertas de comida/bazar' if group == 'comida' else 'oferta de viajes')}"
+        title = {'hogar': f"🏠 {len(batch)} ofertas de hogar/tecnología", 'comida': f"🛒 {len(batch)} ofertas de comida/bazar",
+                 'viajes': "✈️ 1 oferta de viajes", 'autos': "🚗 Oportunidad en autos",
+                 'inmuebles': "🏢 Oportunidad en inmuebles"}[group]
         priority = 2 if in_quiet_hours(notifier.cfg.quiet_hours, now) else 4
         if notifier.send(title, message, priority=priority, click=batch[0].url):
             sent += len(batch)
@@ -368,10 +399,13 @@ def deliver(deals, state, notifier, now, group, dry_run=False):
 def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notifier=None, state_path=None):
     now = time.time() if now is None else now
     cfg = Config.from_env()
-    cfg.ntfy_topic = os.environ.get({'hogar':'NTFY_TOPIC_HOGAR', 'viajes':'NTFY_TOPIC_VIAJES', 'comida':'NTFY_TOPIC'}[group], '').strip() or None
+    cfg.ntfy_topic = os.environ.get(TOPICS[group], '').strip() or None
     if cfg.ntfy_topic and not re.fullmatch(r'[A-Za-z0-9_-]{1,64}', cfg.ntfy_topic):
         raise ValueError('El tema de notificaciones no tiene un formato válido')
-    if not cfg.ntfy_topic and not dry_run and notifier is None:
+    # Autos e inmuebles pasan semanas juntando comparables antes de avisar: sin tema todavía,
+    # la ronda igual lee y guarda la memoria, pero no envía nada.
+    collect_only = not cfg.ntfy_topic and not dry_run and notifier is None and group in SLOW_GROUPS
+    if not cfg.ntfy_topic and not dry_run and notifier is None and not collect_only:
         raise ValueError('Falta el secreto del tema de notificaciones de ' + group)
     cfg.min_discount = 50 if group == 'viajes' else 60
     log = logging.getLogger('catalogs')
@@ -379,27 +413,30 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
     for handler in logging.getLogger().handlers: handler.setFormatter(privacy)
     state_path = state_path or f'state/{group}.json'
     state = CatalogState.load(state_path, log)
-    scanner = scanner or {'hogar': scan_home, 'viajes': scan_trips, 'comida': scan_convenience}[group]
+    scanner = scanner or {'hogar': scan_home, 'viajes': scan_trips, 'comida': scan_convenience,
+                          'autos': scan_autos, 'inmuebles': scan_inmuebles}[group]
     deals, reports = scanner(state, now)
     reports = [(name, count, privacy.redact(error) if error else None) for name, count, error in reports]
-    notifier = notifier or Notifier(cfg, HttpClient(), dry_run=dry_run, log=log)
-    sent, failed = deliver(deals, state, notifier, now, group, dry_run)
+    if collect_only: log.info('%s: sin tema de ntfy configurado; solo se junta información', group)
+    notifier = notifier or Notifier(cfg, HttpClient(), dry_run=dry_run or collect_only, log=log)
+    sent, failed = deliver(deals, state, notifier, now, group, dry_run or collect_only)
     for name, count, error in reports:
         log.info('%s: %d revisados · %s', name, count, error or 'OK')
     log.info('%s: %d ofertas cumplen el mínimo; %d enviadas', group, len(deals), sent)
     problems = [name for name, count, error in reports if state.record_result(name, not error) >= 3]
-    if problems and state.can_notify_failure(now) and not dry_run:
+    if problems and state.can_notify_failure(now) and not dry_run and not collect_only:
         if notifier.send('⚠️ Monitor de ' + group + ': revisión incompleta',
                          'No se pudo revisar: ' + ', '.join(problems) + '. Consulta GitHub Actions.', priority=3):
             state.last_failure_notice = int(now)
         else: failed = True
     if test:
-        lines = [f"Mínimo: {cfg.min_discount}% · {len(deals)} ofertas válidas · {sent} enviadas."]
+        lines = ([f"{len(deals)} oportunidades · {sent} enviadas. Las primeras semanas solo junta comparables."]
+                 if group in SLOW_GROUPS else [f"Mínimo: {cfg.min_discount}% · {len(deals)} ofertas válidas · {sent} enviadas."])
         lines += [f"{'⚠️' if error else '✅'} {name}: {error or str(count) + ' revisados'}" for name, count, error in reports]
         lines.append(UNAVAILABLE[group])
-        if group == 'viajes': lines.append('Diners: descuentos explícitos de 50%. JetSMART/SKY: caídas de 50% del precio publicado desde Lima, frente al mínimo observado en al menos 3 días previos (ventana de 30 días). Al inicio solo se construye historial. No son tarifas garantizadas en vivo; revisar tasas y equipaje.')
-        if not notifier.send('🧪 Prueba de ' + {'hogar':'Hogar y tecnología', 'viajes':'Viajes y escapadas', 'comida':'Comida y bazar'}[group], '\n'.join(lines), priority=3): failed = True
-    state.prune(now, 336)
+        if group == 'viajes': lines.append('Diners: descuentos explícitos de 50%. JetSMART/SKY: caídas de 50% del precio publicado desde Lima, frente al mínimo observado en al menos 3 días previos (ventana de 30 días), o 50% bajo lo normal por kilómetro en su tramo de distancia (con al menos 20 tarifas del tramo). Al inicio solo se construye historial. No son tarifas garantizadas en vivo; revisar tasas y equipaje.')
+        if not notifier.send('🧪 Prueba de ' + TITLES[group], '\n'.join(lines), priority=3): failed = True
+    state.prune(now, 24 * 60 if group in SLOW_GROUPS else 336)
     if not dry_run: state.save(state_path, now)
     summary = os.environ.get('GITHUB_STEP_SUMMARY')
     if summary:
@@ -412,7 +449,7 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--grupo', choices=['hogar', 'viajes', 'comida'], required=True)
+    parser.add_argument('--grupo', choices=list(TOPICS), required=True)
     parser.add_argument('--sin-enviar', action='store_true')
     parser.add_argument('--prueba', action='store_true')
     args = parser.parse_args()

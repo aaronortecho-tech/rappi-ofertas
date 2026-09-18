@@ -53,6 +53,7 @@ jobs:
         if: ${{ !cancelled() && (github.event_name != 'workflow_dispatch' || inputs.grupo == 'todos' || inputs.grupo == 'viajes') }}
         env:
           NTFY_TOPIC_VIAJES: ${{ secrets.NTFY_TOPIC_VIAJES }}
+          TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
           HORAS_SILENCIO: ${{ vars.HORAS_SILENCIO }}
           MODO_PRUEBA: ${{ github.event_name == 'workflow_dispatch' && inputs.prueba && 'si' || 'no' }}
