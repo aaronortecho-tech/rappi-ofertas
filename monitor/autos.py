@@ -205,10 +205,9 @@ def evaluate(ads, ad_id, medians, new_medians, rate, day, today_year):
                                   f"Mediana de {reference[1]} avisos del mismo modelo, versión y año: {money(reference[0])}", facts,
                                   'Confirmar si el precio exige financiar con un banco.']
     if problems: return None
-    # Misma granularidad en toda la escalera: si hay medianas de la versión para este año y el
-    # anterior, todo se compara por versión; si no, todo por modelo. Nunca versión contra modelo.
-    version = (record.get('v'),) if record.get('v') and all(
-        medians.get((record['m'], record['mo'], record['a'] - n, record['v'])) for n in (0, 1)) else ()
+    # Un aviso con versión declarada solo se compara con esa versión (en su año y en los anteriores).
+    # Sin versión declarada se usa el modelo completo, y el aviso lo dice. Nunca versión contra modelo.
+    version = (record['v'],) if record.get('v') else ()
     same = medians.get((record['m'], record['mo'], record['a'], *version))
     if same and price < 0.55 * same[0]: return None  # sospechoso: estafa, siniestro o precio gancho
 
@@ -238,7 +237,9 @@ def evaluate(ads, ad_id, medians, new_medians, rate, day, today_year):
                    f"{price_line}  |  año gratis: cuesta como uno {record['a'] - free_years}" + (' 🚨' if free_years == 2 else ''),
                    f"Mediana {record['a']}: {money(same[0])} ({same[1]} avisos) · {record['a'] - 1}: {money(ladder[0][0])}"
                    + (f" · {record['a'] - 2}: {money(ladder[1][0])}" if ladder[1] else ''),
-                   f"Puntaje {score}/100 · {below:.0%} bajo sus comparables" + (f" · {dealer_note}" if dealer_note else ''), facts]
+                   f"Puntaje {score}/100 · {below:.0%} bajo sus comparables" + (f" · {dealer_note}" if dealer_note else ''),
+                   f"Comparado con la versión {record['v'].upper()}" if version else
+                   'El aviso no dice su versión: comparado con todas las versiones del modelo', facts]
 
 
 def scan_autos(state, now, http_factory=HttpClient):

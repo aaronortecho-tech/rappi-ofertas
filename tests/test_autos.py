@@ -175,5 +175,11 @@ def test_medians_skip_damaged_cars_and_never_mix_version_with_model():
     # A US$ 16.900 un GT 2022 está muy por debajo del GT 2021 (26.000): más barato que tres años atrás
     # por versión no existe, pero bajo el 55 % de su propia mediana sí: sospechoso, no ganga.
     assert judge(ads, 'x') is None
-    # Sin medianas de la versión el aviso usa el modelo completo (como antes).
-    assert judge(fleet(x=car(14800, version='raro', pub='Publicado hace más de un mes')), 'x')
+    # Con versión declarada pero sin comparables de esa versión: no hay «año gratis» (segunda evaluación).
+    assert judge(fleet(x=car(14800, version='raro', pub='Publicado hace más de un mes')), 'x') is None
+    # Sin versión declarada se compara con el modelo completo y el aviso lo aclara.
+    score, lines = judge(fleet(x=car(14800, pub='Publicado hace más de un mes')), 'x')
+    assert 'comparado con todas las versiones del modelo' in lines[-2]
+    # La bajada de precio del propio aviso sigue funcionando aunque su versión no tenga comparables.
+    drop = judge({'x': car(18000, version='raro', prices=[20000, 18000], pub='Publicado hace más de un mes')}, 'x')
+    assert drop and 'bajó 10%' in drop[1][1]

@@ -210,7 +210,10 @@ def scan_stores(cfg: Config, http, state: State, now: float, log: logging.Logger
         batch = store_window(stores, cfg.store_batch, start)
         result.notes.append(f"{len(stores)} tiendas en total; desde la posición {start + 1}")
         read_ok = attempted = market_checked = home_checked = home_failed = 0
-        for store_id, slug in batch:
+        for position, (store_id, slug) in enumerate(batch):
+            # Avance confirmado tienda por tienda: si más adelante llega un bloqueo (403/429),
+            # lo ya revisado no se repite y la tienda bloqueada queda para la próxima ronda.
+            state.store_list["next_start"] = (start + position) % len(stores)
             if deadline.expired():
                 result.notes.append("se acabó el tiempo; el resto se revisa en la próxima ronda")
                 break

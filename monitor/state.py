@@ -145,7 +145,14 @@ class State:
         return result or None
 
     def set_stores(self, stores: list[tuple[int, str]], now: float) -> None:
+        old = self.store_list.get("stores") or []
+        cursor = self.store_list.get("next_start")
         self.store_list = {"fetched_at": int(now), "stores": [[sid, slug] for sid, slug in stores]}
+        # Al renovar la lista (cada 24 h) el cursor sigue a la misma tienda, no a la misma posición:
+        # la lista está ordenada por id, así que se retoma en la primera tienda con id igual o mayor.
+        if isinstance(cursor, int) and old and stores:
+            anchor = old[cursor % len(old)][0]
+            self.store_list["next_start"] = next((i for i, (sid, _) in enumerate(stores) if sid >= anchor), 0)
 
 
 def _int_or_none(value: Any) -> int | None:

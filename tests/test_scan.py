@@ -205,3 +205,27 @@ def test_scan_stores_saves_cursor_and_next_round_continues(cfg, store_pages):
     scan_stores(cfg, http, state, NOW, LOG)
     again = [c for c in http.calls if c.endswith("/ofertas")]
     assert len(stores) > 1 and read != again and state.store_list["next_start"] == (first + 1) % len(stores)
+
+
+def test_cursor_survives_a_block_mid_batch_and_the_daily_list_refresh(cfg):
+    cfg.check_market = False
+    cfg.store_batch = 3
+    state = State()
+    state.set_stores([(1, "a"), (2, "b"), (3, "c")], NOW)
+    state.store_list.update(next_start=0, sources={"city": cfg.city, "types": cfg.store_types, "market": False})
+
+    class Http:
+        calls = []
+        def get(self, url):
+            Http.calls.append(url)
+            if len(Http.calls) == 2: raise Blocked("403")
+            return '<script id="__NEXT_DATA__" type="application/json">{}</script>'
+
+    result = scan_stores(cfg, Http(), state, NOW, LOG)
+    assert result.blocked and len(Http.calls) == 2
+    assert state.store_list["next_start"] == 1  # la tienda bloqueada se revisa la próxima vez
+    # Renovación diaria: el cursor sigue a la tienda (id 2) aunque cambie su posición.
+    state.set_stores([(0, "nueva"), (1, "a"), (2, "b"), (3, "c")], NOW + 86400)
+    assert state.store_list["next_start"] == 2
+    state.set_stores([(1, "a"), (3, "c")], NOW + 2 * 86400)  # si la tienda desapareció, sigue con la siguiente
+    assert state.store_list["next_start"] == 1

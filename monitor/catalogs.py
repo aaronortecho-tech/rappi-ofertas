@@ -6,7 +6,7 @@ from __future__ import annotations
 
 import argparse
 from copy import deepcopy
-from dataclasses import dataclass, replace
+from dataclasses import asdict, dataclass, replace
 from datetime import datetime, date
 from decimal import Decimal, InvalidOperation, ROUND_FLOOR
 from html.parser import HTMLParser
@@ -26,7 +26,7 @@ from .parsers import extract_next_data
 from .privacy import PrivateFormatter
 from .state import State, offer_key
 from .vtex import SOURCES as VTEX_SOURCES, scan_home
-from .flights import scan_trips
+from .flights import scan_trips, INCOMPLETE
 from .convenience import scan_convenience
 from .autos import scan_autos
 from .inmuebles import scan_inmuebles
@@ -365,6 +365,34 @@ def deal_text(deal):
     return "\n".join(lines)
 
 
+URGENT_HOME_PCT = 80      # estas no esperan al resumen: son las que más rápido se agotan
+QUEUE_HOURS = 24          # una oferta que no se vuelve a ver en un día sale de la cola
+
+
+def hold_home(state, deals, now, dry_run=False):
+    """Hogar se revisa cada 30 minutos pero avisa en un resumen cada HORAS_RESUMEN_HOGAR (3 h).
+
+    Las candidatas esperan en una cola guardada en la memoria, así ninguna se pierde entre
+    resúmenes ni por el límite de mensajes; si un producto reaparece con otro precio, queda el
+    último. Las de 80 % o más se envían en la misma ronda."""
+    try: every = max(0.5, float(os.environ.get('HORAS_RESUMEN_HOGAR', '') or 3)) * 3600
+    except ValueError: every = 3 * 3600
+    queue = state.datos.setdefault('cola_hogar', {})
+    urgent = []
+    for deal in deals:
+        if not state.is_new(deal.key, now, 168): continue
+        if deal.pct >= URGENT_HOME_PCT: urgent.append(deal)
+        else: queue[deal.history_key] = {'oferta': asdict(deal), 'visto': int(now)}
+    for key, item in list(queue.items()):
+        deal = Deal(**item['oferta'])
+        if item['visto'] < now - QUEUE_HOURS * 3600 or not state.is_new(deal.key, now, 168): queue.pop(key)
+    due = []
+    if now - state.datos.get('ultimo_resumen_hogar', 0) >= every and queue:
+        due = [Deal(**item['oferta']) for item in queue.values()]
+        if not dry_run: state.datos['ultimo_resumen_hogar'] = int(now)
+    return urgent + due
+
+
 def deliver(deals, state, notifier, now, group, dry_run=False):
     pending = [d for d in deals if state.is_new(d.key, now, 1440 if group in SLOW_GROUPS else 168)]
     pending.sort(key=lambda d: (-d.pct, d.source, d.name))
@@ -419,13 +447,19 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
     scanner = scanner or {'hogar': scan_home, 'viajes': scan_trips, 'comida': scan_convenience,
                           'autos': scan_autos, 'inmuebles': scan_inmuebles}[group]
     deals, reports = scanner(state, now)
+    found = len(deals)
+    if group == 'hogar': deals = hold_home(state, deals, now, dry_run or collect_only)
     reports = [(name, count, privacy.redact(error) if error else None) for name, count, error in reports]
     if collect_only: log.info('%s: sin tema de ntfy configurado; solo se junta información', group)
     notifier = notifier or Notifier(cfg, HttpClient(), dry_run=dry_run or collect_only, log=log)
     sent, failed = deliver(deals, state, notifier, now, group, dry_run or collect_only)
+    if group == 'hogar':
+        queue = state.datos.get('cola_hogar', {})
+        for key in [k for k, v in queue.items() if not state.is_new(Deal(**v['oferta']).key, now, 168)]: queue.pop(key)
+        log.info('hogar: %d candidatas nuevas en la ronda · %d esperan el próximo resumen', found, len(queue))
     for name, count, error in reports:
         log.info('%s: %d revisados · %s', name, count, error or 'OK')
-    log.info('%s: %d ofertas cumplen el mínimo; %d enviadas', group, len(deals), sent)
+    log.info("%s: %d ofertas cumplen el mínimo; %d enviadas", group, found, sent)
     problems = [name for name, count, error in reports if state.record_result(name, not error) >= 3]
     if problems and state.can_notify_failure(now) and not dry_run and not collect_only:
         if notifier.send('⚠️ Monitor de ' + group + ': revisión incompleta',
@@ -434,7 +468,7 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
         else: failed = True
     if test:
         lines = ([f"{len(deals)} oportunidades · {sent} enviadas. Las primeras semanas solo junta comparables."]
-                 if group in SLOW_GROUPS else [f"Mínimo: {cfg.min_discount}% · {len(deals)} ofertas válidas · {sent} enviadas."])
+                 if group in SLOW_GROUPS else [f"Mínimo: {cfg.min_discount}% · {found} ofertas válidas · {sent} enviadas" + (" ahora (el resto va en el resumen cada 3 horas)." if group == "hogar" else ".")])
         lines += [f"{'⚠️' if error else '✅'} {name}: {error or str(count) + ' revisados'}" for name, count, error in reports]
         lines.append(UNAVAILABLE[group])
         if group == 'viajes': lines.append('Diners: descuentos explícitos de 50%. JetSMART/SKY: caídas de 50% del precio publicado desde Lima, frente al mínimo observado en al menos 3 días previos (ventana de 30 días), o 50% bajo lo normal por kilómetro en su tramo de distancia (con al menos 20 tarifas del tramo). Al inicio solo se construye historial. No son tarifas garantizadas en vivo; revisar tasas y equipaje.')
@@ -444,10 +478,11 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
     summary = os.environ.get('GITHUB_STEP_SUMMARY')
     if summary:
         with open(summary, 'a', encoding='utf-8') as f:
-            f.write(f"### {group}\n\nUmbral: {cfg.min_discount}% · Ofertas: {len(deals)} · Enviadas: {sent}\n\n")
+            f.write(f"### {group}\n\nUmbral: {cfg.min_discount}% · Ofertas: {found} · Enviadas: {sent}\n\n")
             for name, count, error in reports: f.write(f"- {name}: {count} revisados; {error or 'OK'}\n")
             f.write('\nFuentes no activadas: ' + UNAVAILABLE[group] + '\n\n')
-    return 1 if failed or any(error for _, _, error in reports) else 0
+    # Una revisión incompleta cuenta para el aviso al celular (3 seguidas), pero no vuelve roja la ronda.
+    return 1 if failed or any(error and not error.startswith(INCOMPLETE) for _, _, error in reports) else 0
 
 
 def main():

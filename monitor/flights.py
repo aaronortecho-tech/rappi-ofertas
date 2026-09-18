@@ -17,6 +17,8 @@ from .parsers import extract_next_data
 from .state import offer_key
 from .notify import LIMA
 
+# Prefijo de los reportes que no son falla técnica pero tampoco lectura completa.
+INCOMPLETE = 'revisión incompleta'
 JET_URL = 'https://www.jetsmart.com/pe/es/'
 SKY_URL = 'https://www.skyairline.com/flights/es-pe/ofertas-descuentos'
 
@@ -244,7 +246,10 @@ def scan_flights(state, now, http_factory=HttpClient, sources=None):
                     if name != 'JetSMART' or 'JetSMART' not in (html or '') or misses >= 3: raise
                     observations = None
             if observations is None:
+                # No es una lectura exitosa: se informa como revisión incompleta (visible en registros,
+                # prueba y resumen de GitHub), pero no pone la ronda en rojo mientras no se repita 3 veces.
                 observations = []
+                error = INCOMPLETE + ': ' + name + ' mostró dos veces su portada sin tarifas'
             else:
                 state.cursors.pop(misses_key, None)
             count = len(observations)

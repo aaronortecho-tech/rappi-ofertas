@@ -149,7 +149,7 @@ class Notifier:
     def send_overflow(self, alerts: list[Alert], now: float) -> bool:
         lines = [f"• -{a.best_pct}% {_short(a.store_name, 50)}" for a in alerts[:OVERFLOW_SHOWN]]
         if len(alerts) > OVERFLOW_SHOWN:
-            lines.append(f"…y {len(alerts) - OVERFLOW_SHOWN} locales más (llegarán en las próximas rondas)")
+            lines.append(f"…y {len(alerts) - OVERFLOW_SHOWN} locales más (si siguen vigentes, salen en la próxima ronda)")
         quiet = in_quiet_hours(self.cfg.quiet_hours, now)
         return self.send(
             f"🔥 {len(alerts)} locales más con descuentos altos",

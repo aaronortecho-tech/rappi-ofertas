@@ -118,7 +118,7 @@ def test_scan_persists_initial_history_without_false_discount():
 
 @pytest.mark.parametrize('pages, count, failed', [
     (['<title>JetSMART</title>', jet()], 2, False),
-    (['<title>JetSMART</title>', '<title>JetSMART</title>', jet()], 0, False),
+    (['<title>JetSMART</title>', '<title>JetSMART</title>', jet()], 0, True),
 ])
 def test_light_jetsmart_page_is_read_once_more_then_reported(pages, count, failed):
     calls = []
@@ -235,13 +235,30 @@ def test_light_page_three_rounds_in_a_row_becomes_an_error_and_success_resets():
             return 'User-agent: *\nDisallow: /booking' if url.endswith('robots.txt') else Client.pages.pop(0)
     state = CatalogState()
     sources = [('JetSMART', JET_URL, jetsmart_fares)]
-    for expected in (False, False, True):
+    for hard in (False, False, True):
         Client.pages = ['<title>JetSMART</title>'] * 2
         _, reports = scan_flights(state, NOW, Client, sources)
-        assert bool(reports[0][2]) == expected
+        # Las dos primeras rondas: «revisión incompleta» (visible, no roja). La tercera: error real.
+        assert reports[0][2] and reports[0][2].startswith('revisión incompleta') != hard
     Client.pages = [jet()]
     _, reports = scan_flights(state, NOW, Client, sources)
     assert reports[0][1] == 2 and not reports[0][2] and 'JetSMART/portada-sin-tarifas' not in state.cursors
     Client.pages = ['<html>otra cosa</html>'] * 2   # si no es la portada de JetSMART, falla de inmediato
     _, reports = scan_flights(state, NOW, Client, sources)
     assert reports[0][2]
+
+
+def test_incomplete_review_is_visible_counts_for_the_phone_but_is_not_red(tmp_path, monkeypatch):
+    from monitor.catalogs import run_group
+    monkeypatch.setenv('NTFY_TOPIC_VIAJES', 'tema-de-prueba')
+    sent = []
+    class Sink:
+        cfg = Config()
+        def send(self, title, message, **kw): sent.append(title); return True
+    report = [('JetSMART/tarifas desde Lima', 0, 'revisión incompleta: JetSMART mostró dos veces su portada sin tarifas')]
+    path = str(tmp_path / 'viajes.json')
+    codes = [run_group('viajes', now=NOW + i * 1800, scanner=lambda s, n: ([], report), notifier=Sink(), state_path=path)
+             for i in range(3)]
+    assert codes == [0, 0, 0] and any('revisión incompleta' in t for t in sent)
+    hard = [('JetSMART/tarifas desde Lima', 0, 'ValueError: No se encontró el catálogo público JetSMART')]
+    assert run_group('viajes', now=NOW, scanner=lambda s, n: ([], hard), notifier=Sink(), state_path=path) == 1

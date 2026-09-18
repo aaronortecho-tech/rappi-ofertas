@@ -18,7 +18,7 @@ Las tablas de cada grupo, más abajo, son la investigación de Cowork del 17 y 1
 | Grupo | Tema ntfy | Activo | Frecuencia real |
 |---|---|---|---|
 | `comida` | `NTFY_TOPIC` | Rappi y Rappi Market/Turbo, Tambo, Makro | 30 min |
-| `hogar` (el `retail` de las tablas) | `NTFY_TOPIC_HOGAR` | Falabella, Sodimac, Promart, Oechsle, Estilos, Casaideas, Shopstar | 30 min |
+| `hogar` (el `retail` de las tablas) | `NTFY_TOPIC_HOGAR` | Falabella, Sodimac, Promart, Oechsle, Estilos, Casaideas, Shopstar | Revisa cada 30 min; resumen cada 3 h (80 % o más, al momento) |
 | `viajes` | `NTFY_TOPIC_VIAJES` | Diners, JetSMART y SKY (caída histórica y centavos por km); Travelpayouts solo con `TRAVELPAYOUTS_TOKEN` | 30 min; Travelpayouts cada 6 h |
 | `autos` | `NTFY_TOPIC_AUTOS` | Neoauto (nuevos, seminuevos y usados) | 6 h |
 | `inmuebles` | `NTFY_TOPIC_INMUEBLES` | Infocasas (ventas y alquileres: rentabilidad), Nexo Inmobiliario (preventa) y adjudicados de Scotiabank | 6 h; Nexo cada 12 h, Scotiabank cada semana |
