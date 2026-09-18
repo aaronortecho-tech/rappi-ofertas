@@ -370,6 +370,7 @@ def deal_text(deal):
 
 URGENT_HOME_PCT = 80      # estas no esperan al resumen: son las que más rápido se agotan
 QUEUE_HOURS = 24          # una oferta que no se vuelve a ver en un día sale de la cola
+QUEUE_MAX = 300           # unos 190 avisos caben al día (8 resúmenes de 24): el resto nunca saldría
 
 
 PERMANENT_DAYS = 7        # días con el mismo precio para concluir que el «antes» es decorativo
@@ -433,6 +434,12 @@ def hold_home(state, deals, now):
             queue.pop(key); stats['caducadas'] += 1
         elif not state.is_new(deal.key, now, 168) or quality(state, deal, now)[2]:
             queue.pop(key)
+    if len(queue) > QUEUE_MAX:
+        # Se queda con las mejores por puntaje; las urgentes nunca se recortan.
+        ranked = sorted(queue, key=lambda k: (queue[k]['oferta']['pct'] >= URGENT_HOME_PCT,
+                                              queue[k]['oferta'].get('rank', 0)), reverse=True)
+        for key in ranked[QUEUE_MAX:]: queue.pop(key)
+        stats['recortadas'] = len(ranked) - QUEUE_MAX
     digest = now - state.datos.get('ultimo_resumen_hogar', 0) >= summary_every()
     due = []
     for item in queue.values():
@@ -528,9 +535,11 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
         # Solo un resumen entregado sin fallas mueve el reloj; si ntfy falló, se reintenta en la próxima ronda.
         if digest and not failed and not dry_run: state.datos['ultimo_resumen_hogar'] = int(now)
         log.info('hogar: %d candidatas vistas · %d entraron a la cola · %d descartadas por ahorro menor a S/ %.0f · '
-                 '%d por descuento permanente · %d caducaron sin volver a verse · %d pendientes (la más antigua, %.1f h)%s',
+                 '%d por descuento permanente · %d caducaron sin volver a verse · %d recortadas por puntaje bajo · '
+                 '%d pendientes (la más antigua, %.1f h)%s',
                  found, stats.get('entradas', 0), stats.get('ahorro bajo', 0), min_savings(),
-                 stats.get('descuento permanente', 0), stats.get('caducadas', 0), len(queue), stats.get('mas_antigua_h', 0),
+                 stats.get('descuento permanente', 0), stats.get('caducadas', 0), stats.get('recortadas', 0), len(queue),
+                 stats.get('mas_antigua_h', 0),
                  ' · resumen enviado' if digest and not failed else '')
     for name, count, error in reports:
         log.info('%s: %d revisados · %s', name, count, error or 'OK')

@@ -142,3 +142,16 @@ def test_same_product_same_price_from_two_sellers_goes_once():
     phone = Phone()
     deliver([a, b], CatalogState(), phone, NOW, 'hogar')
     assert '\n'.join(phone.messages).count('🛒') == 1
+
+
+def test_queue_keeps_only_the_best_300_and_never_drops_urgent(monkeypatch):
+    import monitor.catalogs as catalogs
+    from monitor.catalogs import hold_home
+    monkeypatch.setattr(catalogs, 'QUEUE_MAX', 5)
+    state = CatalogState()
+    state.datos['ultimo_resumen_hogar'] = NOW
+    deals = [item(n, pct=60, price=100.0 - n) for n in range(8)] + [item(99, pct=85, price=100.0)]
+    deals.append(Deal('Falabella', 'big', 'Televisor', 'https://x/tv', 60, 1000.0, 2500.0, 'T', 'Precio web; confirmar stock y envío', 'Tecnología'))
+    _, _, stats = hold_home(state, deals, NOW + 60)
+    names = {v['oferta']['name'] for v in state.datos['cola_hogar'].values()}
+    assert len(names) == 5 and 'Producto 99' in names and 'Televisor' in names and stats['recortadas'] == 5
