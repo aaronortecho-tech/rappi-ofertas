@@ -96,7 +96,7 @@ def test_price_history_is_observed_not_claimed_original_price(tmp_path):
     cheap = replace(deal, price=30)
     state.observe(cheap, NOW + 86400)
     assert cheap.previous_min == 40
-    assert 'referencia publicada' in deal_text(cheap)
+    assert 'Antes (publicado): S/ 100.00' in deal_text(cheap)
     assert 'Mesa' not in path.read_text()
 
 

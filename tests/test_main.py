@@ -58,7 +58,7 @@ def test_new_offer_in_same_store_is_sent_alone(cfg, store_pages):
     ]
     code, http, _ = make_run(cfg, store_pages, browser=browser, now=NOON + 600)
     assert titles(http) == ["🚨 -80% en Big Cheese Pizza - Miraflores"]
-    assert http.posts[0][1]["message"].startswith("• -80% Flash 4en1")
+    assert http.posts[0][1]["message"].startswith("🛒 Flash 4en1\n💰 S/ 4.98  |  -80%")
     assert http.posts[0][1]["priority"] == 5
 
 
