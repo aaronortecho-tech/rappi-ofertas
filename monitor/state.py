@@ -8,6 +8,7 @@ pero no es cifrado ni garantiza anonimato frente a ofertas conocidas.
 from __future__ import annotations
 
 import hashlib
+from copy import deepcopy
 import json
 import logging
 import os
@@ -67,7 +68,9 @@ class State:
             "seen": dict(sorted(self.seen.items())),
             "failures": dict(sorted((k, v) for k, v in self.failures.items() if v)),
             "last_failure_notice": self.last_failure_notice,
-            "store_list": self.store_list,
+            # Copia: si la instantánea compartiera el diccionario, cambiar el cursor de tiendas
+            # también cambiaría la instantánea y la memoria nunca se guardaría.
+            "store_list": deepcopy(self.store_list),
         }
         if include_saved_at:
             data["saved_at"] = self.saved_at

@@ -71,3 +71,13 @@ def test_cached_store_list():
     assert state.cached_stores(NOW + 25 * 3600) is None
     state.store_list = {"fetched_at": NOW, "stores": [["x", "bad"]]}
     assert state.cached_stores(NOW) is None
+
+
+def test_store_cursor_change_is_saved(tmp_path):
+    from monitor.state import State
+    path = tmp_path / "state.json"
+    state = State({"store_list": {"stores": [[1, "a"]], "fetched_at": 1}}, existed=True)
+    assert not state.changed()
+    state.store_list["next_start"] = 40
+    assert state.changed() and state.save(path, 100)
+    assert '"next_start": 40' in path.read_text(encoding="utf-8")
