@@ -1,11 +1,15 @@
 {
  "version": 1,
  "started_at": null,
- "seen": {},
+ "seen": {
+  "983b8fb47c6c3fe4": 1789756695,
+  "b7f0d67d5c55dcd5": 1789756695,
+  "c6c3a599fee042c4": 1789756695
+ },
  "failures": {},
  "last_failure_notice": null,
  "store_list": {},
- "saved_at": 1789754995,
+ "saved_at": 1789756695,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -4874,7 +4878,7 @@
      ],
      "f": 20714,
      "r": 20714,
-     "dist": "ate"
+     "dist": "pueblo-libre"
     },
     "194140720": {
      "op": "venta",
@@ -8203,10 +8207,5940 @@
      "f": 20714,
      "r": 20714,
      "dist": "la-victoria"
+    },
+    "194204484": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 145000.0,
+     "area": 93.0,
+     "lat": -12.08847,
+     "lng": -77.04121,
+     "mon": "USD",
+     "monto": 145000.0,
+     "mant": 88.82,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Lince",
+     "titulo": "Venta de Departamento en Lince, Lima, Lima",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-lince-lima-lima/194204484",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       145000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194183998": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 62000.0,
+     "area": 48.0,
+     "lat": -12.08201,
+     "lng": -77.03931,
+     "mon": "USD",
+     "monto": 62000.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Lince",
+     "titulo": "VENDO DEPARTAMENTO U OFICINA EN 1.er PISO – LINCE",
+     "u": "https://www.infocasas.com.pe/vendo-departamento-u-oficina-en-1er-piso-–-lince/194183998",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       62000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194162042": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 180274.0,
+     "area": 80.0,
+     "lat": -12.08335,
+     "lng": -77.04446,
+     "mon": "USD",
+     "monto": 180274.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Lince",
+     "titulo": "VENTA DE DEPARTAMENTO EN LINCE - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-lince-entrega-inmediata/194162042",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       180274.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194170962": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 229000.0,
+     "area": 104.0,
+     "lat": -12.0889,
+     "lng": -77.0363,
+     "mon": "USD",
+     "monto": 229000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Lince",
+     "titulo": "VENTA DE DEPARTAMENTO EN LINSIDRO, 3 DORMITORIOS, 2 DEPOSITOS Y 1 COCHERA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-linsidro-3-dormitorios-2-depositos-y-1-cochera/194170962",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       229000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194170974": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 157504.0,
+     "area": 64.0,
+     "lat": -12.0882,
+     "lng": -77.02814,
+     "mon": "PEN",
+     "monto": 532000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Lince",
+     "titulo": "VENTA DEPARTAMENTO LINCE - DPTO 702 (609-1025-20)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-lince-dpto-702-609102520/194170974",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       157504.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194191347": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 311850.0,
+     "area": 151.0,
+     "lat": -12.08948,
+     "lng": -77.02468,
+     "mon": "USD",
+     "monto": 311850.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Lince",
+     "titulo": "VENTA DE DEPARTAMENTO EN LINCE - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-lince-entrega-inmediata/194191347",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       311850.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194225240": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 219454.0,
+     "area": 112.0,
+     "lat": -12.08335,
+     "lng": -77.04446,
+     "mon": "USD",
+     "monto": 219454.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Lince",
+     "titulo": "VENTA DE DEPARTAMENTO EN LINCE - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-lince-entrega-inmediata/194225240",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       219454.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194147978": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 113432.0,
+     "area": 31.0,
+     "lat": -12.09089,
+     "lng": -77.02611,
+     "mon": "USD",
+     "monto": 113432.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Lince",
+     "titulo": "Departamento de 1 dormitorio cerca al centro financiero - NO PAGA ALCABALA",
+     "u": "https://www.infocasas.com.pe/departamento-de-1-dormitorio-cerca-al-centro-financiero-no-paga-alcabala/194147978",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       113432.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194147984": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 114580.0,
+     "area": 45.0,
+     "lat": -12.08859,
+     "lng": -77.02899,
+     "mon": "USD",
+     "monto": 114580.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Lince",
+     "titulo": "INVERSION LISTA PARA RENTAR, 1 DORMITORIO 45 M2 + COCHERA, LIMITE CON SAN ISIDRO",
+     "u": "https://www.infocasas.com.pe/inversion-lista-para-rentar-1-dormitorio-45-m2-cochera-limite-con-san-isidro/194147984",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       114580.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194181457": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 95000.0,
+     "area": 40.0,
+     "lat": -12.08963,
+     "lng": -77.0326,
+     "mon": "USD",
+     "monto": 95000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Lince",
+     "titulo": "DEPARTAMENTO EN VENTA (LOFT) DE 1 DORMITORIO EN LINCE LIMITE CON SAN ISIDRO - AR",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-loft-de-1-dormitorio-en-lince-limite-con-san-isidro-areas-comunes/194181457",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       95000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194193298": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 219780.0,
+     "area": 112.0,
+     "lat": -12.08335,
+     "lng": -77.04446,
+     "mon": "USD",
+     "monto": 219780.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Lince",
+     "titulo": "VENTA DE DEPARTAMENTO EN LINCE - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-lince-entrega-inmediata/194193298",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       219780.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194147974": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 217910.0,
+     "area": 55.0,
+     "lat": -12.09089,
+     "lng": -77.02611,
+     "mon": "USD",
+     "monto": 217910.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Lince",
+     "titulo": "Departamento de 2 dormitorios cerca al centro financiero - NO PAGA ALCABALA",
+     "u": "https://www.infocasas.com.pe/departamento-de-2-dormitorios-cerca-al-centro-financiero-no-paga-alcabala/194147974",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       217910.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194147976": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 166567.0,
+     "area": 40.0,
+     "lat": -12.09089,
+     "lng": -77.02611,
+     "mon": "USD",
+     "monto": 166567.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Lince",
+     "titulo": "Departamento de 1 dormitorio cerca al centro financiero - NO PAGA ALCABALA",
+     "u": "https://www.infocasas.com.pe/departamento-de-1-dormitorio-cerca-al-centro-financiero-no-paga-alcabala/194147976",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       166567.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194165154": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 740.0,
+     "area": 64.0,
+     "lat": -12.08102,
+     "lng": -77.03913,
+     "mon": "PEN",
+     "monto": 2500.0,
+     "mant": 47.36,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Lince",
+     "titulo": "ALQUILA MODERNO DPTO DE ESTRENO EN LINCE CON 01 COCHERA",
+     "u": "https://www.infocasas.com.pe/alquila-moderno-dpto-de-estreno-en-lince-con-01-cochera/194165154",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       740.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194190452": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 750.0,
+     "area": 55.0,
+     "lat": -12.09051,
+     "lng": -77.03381,
+     "mon": "USD",
+     "monto": 750.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Lince",
+     "titulo": "Departamento de 2 Habitaciones en  Av. Arequipa Limite con San Isidro",
+     "u": "https://www.infocasas.com.pe/departamento-de-2-habitaciones-en-av-arequipa-limite-con-san-isidro/194190452",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       750.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194179345": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 563.0,
+     "area": 49.0,
+     "lat": -12.08481,
+     "lng": -77.03556,
+     "mon": "PEN",
+     "monto": 1900.0,
+     "mant": 72.52,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Lince",
+     "titulo": "Alquiler De Moderno Minidpto De 2 Dormitorios En Lince",
+     "u": "https://www.infocasas.com.pe/alquiler-de-moderno-minidpto-de-2-dormitorios-en-lince/194179345",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       563.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194147989": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1100.0,
+     "area": 83.0,
+     "lat": -12.08975,
+     "lng": -77.04332,
+     "mon": "USD",
+     "monto": 1100.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Lince",
+     "titulo": "ALQUILER DE DEPARTAMENTO AMOBLADO- LINCE",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-amoblado-lince/194147989",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       1100.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194147990": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1107.0,
+     "area": 83.0,
+     "lat": -12.08975,
+     "lng": -77.04332,
+     "mon": "PEN",
+     "monto": 3740.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Lince",
+     "titulo": "ALQUILER DE DEPARTAMENTO AMOBLADO- LINCE",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-amoblado-lince/194147990",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       1107.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194137515": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 680.0,
+     "area": 47.0,
+     "lat": -12.08335,
+     "lng": -77.04446,
+     "mon": "USD",
+     "monto": 680.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Lince",
+     "titulo": "Alquiler de Departamento moderno de 1 dormitorio en Lince – Cerca de Salaverry",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-moderno-de-1-dormitorio-en-lince-–-cerca-de-salaverry/194137515",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       680.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194223564": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 650000.0,
+     "area": 342.0,
+     "lat": -12.08998,
+     "lng": -77.02549,
+     "mon": "USD",
+     "monto": 650000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Lince",
+     "titulo": "Casa en venta en Lince límite con San Isidro",
+     "u": "https://www.infocasas.com.pe/casa-en-venta-en-lince-limite-con-san-isidro/194223564",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       650000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194216388": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 650000.0,
+     "area": 342.0,
+     "lat": -12.05263,
+     "lng": -76.97679,
+     "mon": "USD",
+     "monto": 650000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Lince",
+     "titulo": "Casa en Lince",
+     "u": "https://www.infocasas.com.pe/casa-en-lince/194216388",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       650000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lince"
+    },
+    "194246529": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 125000.0,
+     "area": 100.0,
+     "lat": -12.31193,
+     "lng": -76.84209,
+     "mon": "USD",
+     "monto": 125000.0,
+     "mant": 44.4,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Lurin",
+     "titulo": "Se Vende Vende Departamento De Playa En Primer Piso En Jahuay Lurin",
+     "u": "https://www.infocasas.com.pe/se-vende-vende-departamento-de-playa-en-primer-piso-en-jahuay-lurin/194246529",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       125000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lurin"
+    },
+    "194149567": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 330000.0,
+     "area": 380.0,
+     "lat": -12.3106,
+     "lng": -76.84274,
+     "mon": "USD",
+     "monto": 330000.0,
+     "mant": 44.4,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Lurin",
+     "titulo": "Venta de ocasion edificio multifamiliar en el sur de lima.",
+     "u": "https://www.infocasas.com.pe/venta-de-ocasion-edificio-multifamiliar-en-el-sur-de-lima/194149567",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       330000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "lurin"
+    },
+    "194204038": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 180000.0,
+     "area": 78.0,
+     "lat": -12.09119,
+     "lng": -77.05957,
+     "mon": "USD",
+     "monto": 180000.0,
+     "mant": 112.5,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Magdalena Del Mar",
+     "titulo": "Venta de Departamento en Magdalena del Mar, Lima, Lima",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-magdalena-del-mar-lima-lima/194204038",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       180000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194132426": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 148206.0,
+     "area": 52.0,
+     "lat": -12.09275,
+     "lng": -77.06066,
+     "mon": "PEN",
+     "monto": 500593.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DEPARTAMENTO EN MAGDALENA - DPTO 721 AL 921 (609-452-470)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-magdalena-dpto-721-al-921-609452470/194132426",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       148206.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194208225": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 210000.0,
+     "area": 77.0,
+     "lat": -12.09755,
+     "lng": -77.07203,
+     "mon": "USD",
+     "monto": 210000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Magdalena Del Mar",
+     "titulo": "Departamento en Magdalena del Mar",
+     "u": "https://www.infocasas.com.pe/departamento-en-magdalena-del-mar/194208225",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       210000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194197032": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 197000.0,
+     "area": 90.0,
+     "lat": -12.1003,
+     "lng": -77.06035,
+     "mon": "USD",
+     "monto": 197000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DEPA EN MAGDALENA - DPT 1104 (609-1158-1)",
+     "u": "https://www.infocasas.com.pe/venta-depa-en-magdalena-dpt-1104-60911581/194197032",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       197000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194232483": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 148512.0,
+     "area": 81.0,
+     "lat": -12.09361,
+     "lng": -77.06947,
+     "mon": "USD",
+     "monto": 148512.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DE DEPARTAMENTO EN MAGDALENA DEL MAR - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-magdalena-del-mar-entrega-inmediata/194232483",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       148512.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194132422": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 119919.0,
+     "area": 41.0,
+     "lat": -12.09275,
+     "lng": -77.06066,
+     "mon": "PEN",
+     "monto": 405048.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DEPARTAMENTO EN MAGDALENA - DPTO 917 (609-452-465)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-magdalena-dpto-917-609452465/194132422",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       119919.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194132429": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 149319.0,
+     "area": 52.0,
+     "lat": -12.09275,
+     "lng": -77.06066,
+     "mon": "PEN",
+     "monto": 504353.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DEPARTAMENTO EN MAGDALENA - DPTO 619 AL 919 (609-452-472)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-magdalena-dpto-619-al-919-609452472/194132429",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       149319.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194132435": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 179724.0,
+     "area": 65.0,
+     "lat": -12.09275,
+     "lng": -77.06066,
+     "mon": "PEN",
+     "monto": 607052.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DEPARTAMENTO EN MAGDALENA - DPTO 303 AL 1503 (609-452-478)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-magdalena-dpto-303-al-1503-609452478/194132435",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       179724.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194132434": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 183425.0,
+     "area": 63.0,
+     "lat": -12.09275,
+     "lng": -77.06066,
+     "mon": "PEN",
+     "monto": 619552.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DEPARTAMENTO EN MAGDALENA - DPTO 607 AL 1507 (609-452-477)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-magdalena-dpto-607-al-1507-609452477/194132434",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       183425.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194213162": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 254225.0,
+     "area": 110.0,
+     "lat": -12.09511,
+     "lng": -77.0605,
+     "mon": "USD",
+     "monto": 254225.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Magdalena Del Mar",
+     "titulo": "DEPARTAMENTO DE ESTRENO EN MAGDALENA | 4 dormitorios | 2 cocheras",
+     "u": "https://www.infocasas.com.pe/departamento-de-estreno-en-magdalena-4-dormitorios-2-cocheras/194213162",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       254225.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194240823": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 124000.0,
+     "area": 41.0,
+     "lat": -12.09941,
+     "lng": -77.06283,
+     "mon": "USD",
+     "monto": 124000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Magdalena Del Mar",
+     "titulo": "Departamento en venta/ Amoblado y Equipado/ a 1 cuadra del Lima Cricket con vist",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-amoblado-y-equipado-a-1-cuadra-del-lima-cricket-con-vista-al-mar/194240823",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       124000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194185062": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 245000.0,
+     "area": 123.0,
+     "lat": -12.09848,
+     "lng": -77.06009,
+     "mon": "USD",
+     "monto": 245000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Magdalena Del Mar",
+     "titulo": "Venta o Alquiler de exclusivo departamento con 2 dormitorios con baño incorporad",
+     "u": "https://www.infocasas.com.pe/venta-o-alquiler-de-exclusivo-departamento-con-2-dormitorios-con-baño-incorporado-y-3-terrazas/194185062",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       245000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194132428": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 150954.0,
+     "area": 52.0,
+     "lat": -12.09275,
+     "lng": -77.06066,
+     "mon": "PEN",
+     "monto": 509876.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DEPARTAMENTO EN MAGDALENA - DPTO 616 AL 1516 (609-452-469)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-magdalena-dpto-616-al-1516-609452469/194132428",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       150954.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194278211": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 200000.0,
+     "area": 146.0,
+     "lat": -12.096,
+     "lng": -77.05971,
+     "mon": "USD",
+     "monto": 200000.0,
+     "mant": 59.21,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DEPARTAMENTO EN MAGDALENA DEL MAR",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-magdalena-del-mar/194278211",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       200000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194270613": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 123900.0,
+     "area": 45.0,
+     "lat": -12.09143,
+     "lng": -77.05802,
+     "mon": "USD",
+     "monto": 123900.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Magdalena Del Mar",
+     "titulo": "DEPARTAMENTO EN VENTA EN MAGDALENA DEL MAR – LÍMITE CON SAN ISIDRO",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-magdalena-del-mar-–-limite-con-san-isidro/194270613",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       123900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194270614": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 124718.0,
+     "area": 45.0,
+     "lat": -12.09143,
+     "lng": -77.05802,
+     "mon": "PEN",
+     "monto": 421260.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Magdalena Del Mar",
+     "titulo": "DEPARTAMENTO EN VENTA EN MAGDALENA DEL MAR – LÍMITE CON SAN ISIDRO",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-magdalena-del-mar-–-limite-con-san-isidro/194270614",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       124718.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194197034": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 195968.0,
+     "area": 90.0,
+     "lat": -12.1003,
+     "lng": -77.06035,
+     "mon": "PEN",
+     "monto": 661920.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DEPA EN MAGDALENA - DPT 1104 (609-1158-1)",
+     "u": "https://www.infocasas.com.pe/venta-depa-en-magdalena-dpt-1104-60911581/194197034",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       195968.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194260251": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 95000.0,
+     "area": 47.0,
+     "lat": -12.09718,
+     "lng": -77.03258,
+     "mon": "USD",
+     "monto": 95000.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "Mono",
+     "zona": "Magdalena Del Mar",
+     "titulo": "OCASIÓN: VENTA DE DEPARTAMENTO CON ACCESO A AIRES – MAGDALENA",
+     "u": "https://www.infocasas.com.pe/ocasion-venta-de-departamento-con-acceso-a-aires-–-magdalena/194260251",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       95000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194132433": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 177285.0,
+     "area": 63.0,
+     "lat": -12.09275,
+     "lng": -77.06066,
+     "mon": "PEN",
+     "monto": 598813.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DEPARTAMENTO EN MAGDALENA - DPTO 306 AL 1406 (609-452-476)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-magdalena-dpto-306-al-1406-609452476/194132433",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       177285.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194132423": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 149936.0,
+     "area": 50.0,
+     "lat": -12.09275,
+     "lng": -77.06066,
+     "mon": "PEN",
+     "monto": 506436.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DEPARTAMENTO EN MAGDALENA - DPTO 604 AL 1404 (609-452-466)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-magdalena-dpto-604-al-1404-609452466/194132423",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       149936.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194132425": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 141848.0,
+     "area": 51.0,
+     "lat": -12.09275,
+     "lng": -77.06066,
+     "mon": "PEN",
+     "monto": 479119.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DEPARTAMENTO EN MAGDALENA - DPTO 301 AL 1501 (609-452-468)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-magdalena-dpto-301-al-1501-609452468/194132425",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       141848.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194132431": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 162328.0,
+     "area": 56.0,
+     "lat": -12.09275,
+     "lng": -77.06066,
+     "mon": "PEN",
+     "monto": 548295.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DEPARTAMENTO EN MAGDALENA - DPTO 305 AL 1505 (609-452-474)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-magdalena-dpto-305-al-1505-609452474/194132431",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       162328.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194132432": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 154259.0,
+     "area": 56.0,
+     "lat": -12.09275,
+     "lng": -77.06066,
+     "mon": "PEN",
+     "monto": 521039.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DEPARTAMENTO EN MAGDALENA - DPTO 918 (609-452-475)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-magdalena-dpto-918-609452475/194132432",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       154259.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194213141": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 123500.0,
+     "area": 66.0,
+     "lat": -12.08673,
+     "lng": -77.07413,
+     "mon": "USD",
+     "monto": 123500.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Magdalena Del Mar",
+     "titulo": "Departamento en venta Magdalena, 2 dormitorios, balcón,cochera, Piso 12 con asce",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-magdalena-2-dormitorios-balconcochera-piso-12-con-ascensor-vista-exterior/194213141",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       123500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194138837": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 148468.0,
+     "area": 81.0,
+     "lat": -12.09361,
+     "lng": -77.06947,
+     "mon": "USD",
+     "monto": 148468.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DE DEPARTAMENTO EN MAGDALENA DEL MAR - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-magdalena-del-mar-entrega-inmediata/194138837",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       148468.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194132427": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 146873.0,
+     "area": 52.0,
+     "lat": -12.09275,
+     "lng": -77.06066,
+     "mon": "PEN",
+     "monto": 496091.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DEPARTAMENTO EN MAGDALENA - DPTO 322 AL 922 (609-452-471)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-magdalena-dpto-322-al-922-609452471/194132427",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       146873.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194132436": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 189368.0,
+     "area": 68.0,
+     "lat": -12.09275,
+     "lng": -77.06066,
+     "mon": "PEN",
+     "monto": 639627.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DEPARTAMENTO EN MAGDALENA - DPTO 713, 913 (609-452-479)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-magdalena-dpto-713-913-609452479/194132436",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       189368.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194197010": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 268823.0,
+     "area": 84.0,
+     "lat": -12.095,
+     "lng": -77.05602,
+     "mon": "USD",
+     "monto": 268823.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Magdalena Del Mar",
+     "titulo": "San Isidro | 3 Dormitorios | cochera",
+     "u": "https://www.infocasas.com.pe/san-isidro-3-dormitorios-cochera/194197010",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       268823.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194132424": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 139552.0,
+     "area": 51.0,
+     "lat": -12.09275,
+     "lng": -77.06066,
+     "mon": "PEN",
+     "monto": 471363.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DEPARTAMENTO EN MAGDALENA - DPTO302 AL 1502 (609-452-467)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-magdalena-dpto302-al-1502-609452467/194132424",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       139552.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194132430": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 145981.0,
+     "area": 54.0,
+     "lat": -12.09275,
+     "lng": -77.06066,
+     "mon": "PEN",
+     "monto": 493079.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DEPARTAMENTO EN MAGDALENA - DPTO 614 AL 914 (609-452-473)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-magdalena-dpto-614-al-914-609452473/194132430",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       145981.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194263068": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 805.0,
+     "area": 49.0,
+     "lat": -12.09521,
+     "lng": -77.05936,
+     "mon": "USD",
+     "monto": 805.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Magdalena Del Mar",
+     "titulo": "SE VENDE O ALQUILA DUPLEX ESTRENO 1 DORMITORIO 1 BAÑO COMPLETO  JUAN DE ALIAGA 4",
+     "u": "https://www.infocasas.com.pe/se-vende-o-alquila-duplex-estreno-1-dormitorio-1-baño-completo-juan-de-aliaga-444-magdalena-del-mar/194263068",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       805.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194213157": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 622.0,
+     "area": 50.0,
+     "lat": -12.09219,
+     "lng": -77.06942,
+     "mon": "PEN",
+     "monto": 2100.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Magdalena Del Mar",
+     "titulo": "Departamento 1 Dormitorio con Cochera en Magdalena",
+     "u": "https://www.infocasas.com.pe/departamento-1-dormitorio-con-cochera-en-magdalena/194213157",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       622.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194212937": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 681.0,
+     "area": 86.0,
+     "lat": -12.09385,
+     "lng": -77.06891,
+     "mon": "PEN",
+     "monto": 2300.0,
+     "mant": 44.43,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Magdalena Del Mar",
+     "titulo": "Alquila Dpto. 86m2 En 3er Piso Magdalena",
+     "u": "https://www.infocasas.com.pe/alquila-dpto-86m2-en-3er-piso-magdalena-/194212937",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       681.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "magdalena-del-mar"
+    },
+    "194234821": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 206610.0,
+     "area": 71.0,
+     "lat": -12.1249,
+     "lng": -77.02829,
+     "mon": "USD",
+     "monto": 206610.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "Venta de Departamento de 3 dormitorios en el corazón de Miraflores - Av. Benavid",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-de-3-dormitorios-en-el-corazon-de-miraflores-av-benavides/194234821",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       206610.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194234835": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 244000.0,
+     "area": 82.0,
+     "lat": -12.12562,
+     "lng": -77.02706,
+     "mon": "USD",
+     "monto": 244000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "VENTA - DEPARTAMENTO - CENTRO DE MIRAFLORES - 2 DORM. - 2 COCHERAS - CERCA A LAR",
+     "u": "https://www.infocasas.com.pe/venta-departamento-centro-de-miraflores-2-dorm-2-cocheras-cerca-a-larco/194234835",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       244000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194208927": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 125000.0,
+     "area": 80.0,
+     "lat": -12.12801,
+     "lng": -77.00343,
+     "mon": "USD",
+     "monto": 125000.0,
+     "mant": 2.96,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "Venta Mini Departamento, Miraflores(cerca Ovalo Higuereta)",
+     "u": "https://www.infocasas.com.pe/venta-mini-departamento-miraflorescerca-ovalo-higuereta/194208927",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       125000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194240833": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 309000.0,
+     "area": 89.0,
+     "lat": -12.11098,
+     "lng": -77.04054,
+     "mon": "USD",
+     "monto": 309000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO EN MIRAFLORES - DPT SS01 (609-614-86)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-miraflores-dpt-ss01-60961486/194240833",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       309000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194137512": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 327941.0,
+     "area": 125.0,
+     "lat": -12.10672,
+     "lng": -77.0325,
+     "mon": "USD",
+     "monto": 327941.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "3 Dorm. | Cocina Cerrada | cochera | Solo 20 Departamentos",
+     "u": "https://www.infocasas.com.pe/3-dorm-cocina-cerrada-cochera-solo-20-departamentos/194137512",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       327941.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194256160": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 950000.0,
+     "area": 235.0,
+     "lat": -12.1126,
+     "lng": -77.04979,
+     "mon": "USD",
+     "monto": 950000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Venta de Dúplex de lujo con vista al mar",
+     "u": "https://www.infocasas.com.pe/venta-de-duplex-de-lujo-con-vista-al-mar/194256160",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       950000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194132407": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 299000.0,
+     "area": 119.0,
+     "lat": -12.11921,
+     "lng": -77.00734,
+     "mon": "USD",
+     "monto": 299000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "OFICINA/DPTO EN VENTA en 1er piso con INGRESO INDEPENDIENTE, 2 COCHERAS PARALELA",
+     "u": "https://www.infocasas.com.pe/oficinadpto-en-venta-en-1er-piso-con-ingreso-independiente-2-cocheras-paralelas-y-gran-terraza/194132407",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       299000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194213147": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 233000.0,
+     "area": 72.0,
+     "lat": -12.12004,
+     "lng": -77.03928,
+     "mon": "USD",
+     "monto": 233000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "Departamento de 72 m² con amplio balcón  –muy cerca a Malecón Cisneros",
+     "u": "https://www.infocasas.com.pe/departamento-de-72-m²-con-amplio-balcon-–muy-cerca-a-malecon-cisneros/194213147",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       233000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194234845": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 527224.0,
+     "area": 183.0,
+     "lat": -12.12295,
+     "lng": -77.04008,
+     "mon": "PEN",
+     "monto": 1780800.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPA FRENTE AL MAR EN MIRAFLORES - DPTO 801 (609-147-6)",
+     "u": "https://www.infocasas.com.pe/venta-depa-frente-al-mar-en-miraflores-dpto-801-6091476/194234845",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       527224.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194202755": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 433000.0,
+     "area": 136.0,
+     "lat": -12.11982,
+     "lng": -77.03891,
+     "mon": "USD",
+     "monto": 433000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Departamento en Miraflores",
+     "u": "https://www.infocasas.com.pe/departamento-en-miraflores/194202755",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       433000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194234819": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 258160.0,
+     "area": 96.0,
+     "lat": -12.11942,
+     "lng": -77.0334,
+     "mon": "USD",
+     "monto": 258160.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Departamento 3 dormitorios zona valorizada de Miraflores",
+     "u": "https://www.infocasas.com.pe/departamento-3-dormitorios-zona-valorizada-de-miraflores/194234819",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       258160.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194234825": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 845000.0,
+     "area": 137.0,
+     "lat": -12.12644,
+     "lng": -77.03632,
+     "mon": "USD",
+     "monto": 845000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Vive frente al Pacífico | Miraflores | 3 dormitorios | 137 m²",
+     "u": "https://www.infocasas.com.pe/vive-frente-al-pacifico-miraflores-3-dormitorios-137-m²/194234825",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       845000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194181458": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 339000.0,
+     "area": 116.0,
+     "lat": -12.12096,
+     "lng": -77.04219,
+     "mon": "USD",
+     "monto": 339000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Venta exclusivo Flat, Miraflores, a una cuadra de Malecón Cisneros, con estacion",
+     "u": "https://www.infocasas.com.pe/venta-exclusivo-flat-miraflores-a-una-cuadra-de-malecon-cisneros-con-estacionamiento-y-deposito/194181458",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       339000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194169550": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 194900.0,
+     "area": 79.0,
+     "lat": -12.12635,
+     "lng": -77.00372,
+     "mon": "USD",
+     "monto": 194900.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "SE VENDE DEPARTAMENTO MODERNO CERCA COLEGIO HUMBOLDT 2 DORMITORIOS Y TERRAZA 1 C",
+     "u": "https://www.infocasas.com.pe/se-vende-departamento-moderno-cerca-colegio-humboldt-2-dormitorios-y-terraza-1-cochera-1-deposito/194169550",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       194900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194223569": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 244117.0,
+     "area": 94.0,
+     "lat": -12.10672,
+     "lng": -77.0325,
+     "mon": "USD",
+     "monto": 244117.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "3 Dorm. | 2 estacionamientos | Edificio de Solo 20 Departamentos",
+     "u": "https://www.infocasas.com.pe/3-dorm-2-estacionamientos-edificio-de-solo-20-departamentos/194223569",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       244117.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194202757": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 270512.0,
+     "area": 93.0,
+     "lat": -12.12136,
+     "lng": -77.02633,
+     "mon": "USD",
+     "monto": 270512.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "Flat de 2 dormitorios en el corazón de Miraflores, a pasos del parque Kennedy",
+     "u": "https://www.infocasas.com.pe/flat-de-2-dormitorios-en-el-corazon-de-miraflores-a-pasos-del-parque-kennedy/194202757",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       270512.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194182308": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 209595.0,
+     "area": 82.0,
+     "lat": -12.11134,
+     "lng": -77.05086,
+     "mon": "USD",
+     "monto": 209595.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "VENTA DE DEPARTAMENTO EN MIRAFLORES - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-miraflores-entrega-inmediata/194182308",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       209595.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194240832": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 767000.0,
+     "area": 191.0,
+     "lat": -12.11098,
+     "lng": -77.04054,
+     "mon": "USD",
+     "monto": 767000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO EN MIRAFLORES - DPT 803 (609-614-89)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-miraflores-dpt-803-60961489/194240832",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       767000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194213153": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 450000.0,
+     "area": 148.0,
+     "lat": -12.11745,
+     "lng": -77.0105,
+     "mon": "USD",
+     "monto": 450000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "Mono",
+     "zona": "Miraflores",
+     "titulo": "Venta de Departamento Duplex en La Aurora , frente a Parque en Miraflores",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-duplex-en-la-aurora-frente-a-parque-en-miraflores/194213153",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       450000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194277931": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 130000.0,
+     "area": 75.0,
+     "lat": -12.11484,
+     "lng": -77.03685,
+     "mon": "USD",
+     "monto": 130000.0,
+     "mant": 97.7,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "Ocasión En Miraflores – Departamento Ideal Para Inversión",
+     "u": "https://www.infocasas.com.pe/ocasion-en-miraflores-–-departamento-ideal-para-inversion/194277931",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       130000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194274599": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 208600.0,
+     "area": 82.0,
+     "lat": -12.11134,
+     "lng": -77.05086,
+     "mon": "USD",
+     "monto": 208600.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "VENTA DE DEPARTAMENTO EN MIRAFLORES - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-miraflores-entrega-inmediata/194274599",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       208600.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194191214": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 309000.0,
+     "area": 125.0,
+     "lat": -12.12399,
+     "lng": -77.00902,
+     "mon": "USD",
+     "monto": 309000.0,
+     "mant": 148.03,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "EXCLUSIVO DEPARTAMENTO EN VENTA – MIRAFLORES | 125.96 M² | 3 D | 2 COCHERAS",
+     "u": "https://www.infocasas.com.pe/exclusivo-departamento-en-venta-–-miraflores-12596-m²-3-d-2-cocheras/194191214",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       309000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194173193": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 185000.0,
+     "area": 94.0,
+     "lat": -12.12637,
+     "lng": -77.03075,
+     "mon": "USD",
+     "monto": 185000.0,
+     "mant": 44.41,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "SE VENDE DEPARTAMENTO EN MIRAFLORES – 94 M²",
+     "u": "https://www.infocasas.com.pe/se-vende-departamento-en-miraflores-–-94-m²/194173193",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       185000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194170966": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 208000.0,
+     "area": 65.0,
+     "lat": -12.12137,
+     "lng": -77.04332,
+     "mon": "USD",
+     "monto": 208000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "DEPARTAMENTO en VENTA AMOBLADO con ESTACIONAMIENTO Y DEPOSITO",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-amoblado-con-estacionamiento-y-deposito/194170966",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       208000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194132408": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 350000.0,
+     "area": 86.0,
+     "lat": -12.12249,
+     "lng": -77.03135,
+     "mon": "USD",
+     "monto": 350000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "Alquilo/Vendo Lindo Departamento AMOBLADO de estreno en Calle San Martín con est",
+     "u": "https://www.infocasas.com.pe/alquilovendo-lindo-departamento-amoblado-de-estreno-en-calle-san-martin-con-estacionamiento/194132408",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       350000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194234811": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 184277.0,
+     "area": 60.0,
+     "lat": -12.1249,
+     "lng": -77.02829,
+     "mon": "USD",
+     "monto": 184277.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "Venta de Departamento de 2 dormitorios en el corazón de Miraflores - Av. Benavid",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-de-2-dormitorios-en-el-corazon-de-miraflores-av-benavides/194234811",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       184277.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194270599": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 90000.0,
+     "area": 86.0,
+     "lat": -12.11462,
+     "lng": -77.0444,
+     "mon": "USD",
+     "monto": 90000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "EN VENTA DPTO. 3 DORMS EXCELENTE OPORTUNIDAD DE INVERSIÓN EN ZONA COMERCIAL AV. ",
+     "u": "https://www.infocasas.com.pe/en-venta-dpto-3-dorms-excelente-oportunidad-de-inversion-en-zona-comercial-av-la-mar/194270599",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       90000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194203657": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 209345.0,
+     "area": 82.0,
+     "lat": -12.11134,
+     "lng": -77.05086,
+     "mon": "USD",
+     "monto": 209345.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "VENTA DE DEPARTAMENTO EN MIRAFLORES - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-miraflores-entrega-inmediata/194203657",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       209345.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194202758": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 305544.0,
+     "area": 106.0,
+     "lat": -12.12136,
+     "lng": -77.02633,
+     "mon": "USD",
+     "monto": 305544.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Flat de 3 dormitorios en el corazón de Miraflores, a pasos del parque Kennedy",
+     "u": "https://www.infocasas.com.pe/flat-de-3-dormitorios-en-el-corazon-de-miraflores-a-pasos-del-parque-kennedy/194202758",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       305544.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194132417": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 310000.0,
+     "area": 107.0,
+     "lat": -12.12762,
+     "lng": -77.02737,
+     "mon": "USD",
+     "monto": 310000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "Duplex estreno 2 dormitorios con 1 estacionamiento/deposito - Corazón de Miraflo",
+     "u": "https://www.infocasas.com.pe/duplex-estreno-2-dormitorios-con-1-estacionamientodeposito-corazon-de-miraflores-areas-comunes/194132417",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       310000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194234823": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 536000.0,
+     "area": 78.0,
+     "lat": -12.12644,
+     "lng": -77.03632,
+     "mon": "USD",
+     "monto": 536000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "Vive frente al Pacífico | Miraflores | 2 dormitorios | 78.71 m²",
+     "u": "https://www.infocasas.com.pe/vive-frente-al-pacifico-miraflores-2-dormitorios-7871-m²/194234823",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       536000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194181456": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 129000.0,
+     "area": 61.0,
+     "lat": -12.13257,
+     "lng": -77.01763,
+     "mon": "USD",
+     "monto": 129000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "VENTA DPTO MIRAFLORES DIEZ CANSECO CON LARCO",
+     "u": "https://www.infocasas.com.pe/venta-dpto-miraflores-diez-canseco-con-larco/194181456",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       129000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194208229": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 284000.0,
+     "area": 102.0,
+     "lat": -12.13211,
+     "lng": -77.02747,
+     "mon": "USD",
+     "monto": 284000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "DEPARTAMENTO CERCA A LARCOMAR DE 2 DORMITORIOS 1 COCHERA VISTA A LA CALLE BALCON",
+     "u": "https://www.infocasas.com.pe/departamento-cerca-a-larcomar-de-2-dormitorios-1-cochera-vista-a-la-calle-balcon/194208229",
+     "flags": [
+      "embargo"
+     ],
+     "p": [
+      [
+       20714,
+       284000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194240830": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 290500.0,
+     "area": 80.0,
+     "lat": -12.11098,
+     "lng": -77.04054,
+     "mon": "USD",
+     "monto": 290500.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO EN MIRAFLORES - DPT 202 (609-614-83)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-miraflores-dpt-202-60961483/194240830",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       290500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194223560": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 639000.0,
+     "area": 104.0,
+     "lat": -12.12644,
+     "lng": -77.03632,
+     "mon": "USD",
+     "monto": 639000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "Vive frente al Pacífico | Miraflores | 2 dormitorios | 104.56 m²",
+     "u": "https://www.infocasas.com.pe/vive-frente-al-pacifico-miraflores-2-dormitorios-10456-m²/194223560",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       639000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194176364": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 359000.0,
+     "area": 115.0,
+     "lat": -12.14462,
+     "lng": -77.0216,
+     "mon": "USD",
+     "monto": 359000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Duplex en venta, Av. Miguel Grau, Miraflores, con estacionamiento y deposito.",
+     "u": "https://www.infocasas.com.pe/duplex-en-venta-av-miguel-grau-miraflores-con-estacionamiento-y-deposito/194176364",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       359000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194213146": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 230000.0,
+     "area": 82.0,
+     "lat": -12.11982,
+     "lng": -77.03891,
+     "mon": "USD",
+     "monto": 230000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "Departamento 2 Dormitorios zona mas exclusiva de Miraflores cerca a Pardo",
+     "u": "https://www.infocasas.com.pe/departamento-2-dormitorios-zona-mas-exclusiva-de-miraflores-cerca-a-pardo/194213146",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       230000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194240831": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 392000.0,
+     "area": 132.0,
+     "lat": -12.11098,
+     "lng": -77.04054,
+     "mon": "USD",
+     "monto": 392000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO EN MIRAFLORES - DPT 203 AL 603 (609-614-84)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-miraflores-dpt-203-al-603-60961484/194240831",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       392000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194172777": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 330000.0,
+     "area": 200.0,
+     "lat": -12.11897,
+     "lng": -77.03799,
+     "mon": "USD",
+     "monto": 330000.0,
+     "mant": 201.32,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Miraflores",
+     "titulo": "Departamento En Venta 200m2 – Av. Pardo, Miraflores",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-200m2-–-av-pardo-miraflores/194172777",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       330000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194223568": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 198529.0,
+     "area": 69.0,
+     "lat": -12.10672,
+     "lng": -77.0325,
+     "mon": "USD",
+     "monto": 198529.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "2 Dorm. | 2 estacionamientos | Edificio de Solo 20 Departamentos",
+     "u": "https://www.infocasas.com.pe/2-dorm-2-estacionamientos-edificio-de-solo-20-departamentos/194223568",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       198529.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194240829": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 526000.0,
+     "area": 144.0,
+     "lat": -12.11098,
+     "lng": -77.04054,
+     "mon": "USD",
+     "monto": 526000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO EN MIRAFLORES - DPT 201 AL 601 (609-614-85)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-miraflores-dpt-201-al-601-60961485/194240829",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       526000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194234844": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 480000.0,
+     "area": 183.0,
+     "lat": -12.12295,
+     "lng": -77.04008,
+     "mon": "USD",
+     "monto": 480000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPA FRENTE AL MAR EN MIRAFLORES - DPTO 801 (609-147-6)",
+     "u": "https://www.infocasas.com.pe/venta-depa-frente-al-mar-en-miraflores-dpto-801-6091476/194234844",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       480000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194215355": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 187000.0,
+     "area": 88.0,
+     "lat": -12.12074,
+     "lng": -77.02685,
+     "mon": "USD",
+     "monto": 187000.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "DEPARTAMENTO EN VENTA 88.56 m² – 3 DORMITORIOS – COCHERA – MIRAFLORES",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-8856-m²-–-3-dormitorios-–-cochera-–-miraflores/194215355",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       187000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194278283": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 185000.0,
+     "area": 116.0,
+     "lat": -12.12652,
+     "lng": -77.01698,
+     "mon": "USD",
+     "monto": 185000.0,
+     "mant": 88.82,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "EXCLUSIVO DÚPLEX TIPO CASITA EN MIRAFLORES – AV. BENAVIDES CDRA. 4",
+     "u": "https://www.infocasas.com.pe/exclusivo-duplex-tipo-casita-en-miraflores-–-av-benavides-cdra-4/194278283",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       185000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263096": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 423534.0,
+     "area": 122.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "PEN",
+     "monto": 1430565.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 1102 (609-937-52)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-1102-60993752/194263096",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       423534.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263079": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 266500.0,
+     "area": 87.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "USD",
+     "monto": 266500.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 304 AL 404 (609-937-45)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-304-al-404-60993745/194263079",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       266500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263101": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 433000.0,
+     "area": 138.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "USD",
+     "monto": 433000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 1104 (609-937-54)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-1104-60993754/194263101",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       433000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263083": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 341000.0,
+     "area": 102.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "USD",
+     "monto": 341000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 502 AL 802 (609-937-49)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-502-al-802-60993749/194263083",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       341000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263087": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 306500.0,
+     "area": 80.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "USD",
+     "monto": 306500.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 203 (609-937-57)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-203-60993757/194263087",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       306500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263091": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 328000.0,
+     "area": 87.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "USD",
+     "monto": 328000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 204 (609-937-58)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-204-60993758/194263091",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       328000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263092": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 327253.0,
+     "area": 87.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "PEN",
+     "monto": 1105360.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 204 (609-937-58)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-204-60993758/194263092",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       327253.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263095": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 424500.0,
+     "area": 122.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "USD",
+     "monto": 424500.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 1102 (609-937-52)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-1102-60993752/194263095",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       424500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263099": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 442000.0,
+     "area": 125.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "USD",
+     "monto": 442000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 1101 (609-937-51)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-1101-60993751/194263099",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       442000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263084": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 340224.0,
+     "area": 102.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "PEN",
+     "monto": 1149170.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 502 AL 802 (609-937-49)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-502-al-802-60993749/194263084",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       340224.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263100": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 440994.0,
+     "area": 125.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "PEN",
+     "monto": 1489540.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 1101 (609-937-51)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-1101-60993751/194263100",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       440994.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263078": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 256415.0,
+     "area": 84.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "PEN",
+     "monto": 866090.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 504, 704 (609-937-47)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-504-704-60993747/194263078",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       256415.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263089": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 336000.0,
+     "area": 113.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "USD",
+     "monto": 336000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 501 AL 801 (609-937-48)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-501-al-801-60993748/194263089",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       336000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263093": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 385500.0,
+     "area": 87.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "USD",
+     "monto": 385500.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 901 AL 1001 (609-937-55)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-901-al-1001-60993755/194263093",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       385500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263102": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 432014.0,
+     "area": 138.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "PEN",
+     "monto": 1459210.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 1104 (609-937-54)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-1104-60993754/194263102",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       432014.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263075": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 262500.0,
+     "area": 84.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "USD",
+     "monto": 262500.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 503 AL 803 (609-937-46)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-503-al-803-60993746/194263075",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       262500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263080": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 265893.0,
+     "area": 87.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "PEN",
+     "monto": 898105.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 304 AL 404 (609-937-45)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-304-al-404-60993745/194263080",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       265893.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263076": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 261902.0,
+     "area": 84.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "PEN",
+     "monto": 884625.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 503 AL 803 (609-937-46)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-503-al-803-60993746/194263076",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       261902.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263077": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 257000.0,
+     "area": 84.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "USD",
+     "monto": 257000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 504, 704 (609-937-47)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-504-704-60993747/194263077",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       257000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263082": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 261404.0,
+     "area": 92.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "PEN",
+     "monto": 882940.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 401 (609-937-50)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-401-60993750/194263082",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       261404.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263086": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 367162.0,
+     "area": 108.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "PEN",
+     "monto": 1240160.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 902 AL 1002 (609-937-56)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-902-al-1002-60993756/194263086",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       367162.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263073": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 246500.0,
+     "area": 80.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "USD",
+     "monto": 246500.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 303 AL 403 (609-937-44)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-303-al-403-60993744/194263073",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       246500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263074": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 245939.0,
+     "area": 80.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "PEN",
+     "monto": 830705.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 303 AL 403 (609-937-44)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-303-al-403-60993744/194263074",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       245939.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263085": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 368000.0,
+     "area": 108.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "USD",
+     "monto": 368000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 902 AL 1002 (609-937-56)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-902-al-1002-60993756/194263085",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       368000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263094": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 384622.0,
+     "area": 87.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "PEN",
+     "monto": 1299135.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 901 AL 1001 (609-937-55)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-901-al-1001-60993755/194263094",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       384622.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263097": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 387500.0,
+     "area": 120.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "USD",
+     "monto": 387500.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 1103 (609-937-53)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-1103-60993753/194263097",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       387500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263098": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 386618.0,
+     "area": 120.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "PEN",
+     "monto": 1305875.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 1103 (609-937-53)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-1103-60993753/194263098",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       386618.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263081": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 262000.0,
+     "area": 92.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "USD",
+     "monto": 262000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 401 (609-937-50)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-401-60993750/194263081",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       262000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263088": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 305802.0,
+     "area": 80.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "PEN",
+     "monto": 1032905.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 203 (609-937-57)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-203-60993757/194263088",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       305802.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263090": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 335235.0,
+     "area": 113.0,
+     "lat": -12.1271,
+     "lng": -77.02552,
+     "mon": "PEN",
+     "monto": 1132320.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO MIRAFLORES - DPTO 501 AL 801 (609-937-48)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-501-al-801-60993748/194263090",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       335235.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194269363": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 265000.0,
+     "area": 130.0,
+     "lat": -12.12805,
+     "lng": -77.02091,
+     "mon": "USD",
+     "monto": 265000.0,
+     "mant": 162.83,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Departamento 3 dormitorios, San antonio, Miraflores",
+     "u": "https://www.infocasas.com.pe/departamento-3-dormitorios-san-antonio-miraflores/194269363",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       265000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194269362": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 265000.0,
+     "area": 130.0,
+     "lat": -12.12805,
+     "lng": -77.02091,
+     "mon": "USD",
+     "monto": 265000.0,
+     "mant": 162.83,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Departamento 3 dormitorios, San antonio, Miraflores",
+     "u": "https://www.infocasas.com.pe/departamento-3-dormitorios-san-antonio-miraflores/194269362",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       265000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194269315": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 265000.0,
+     "area": 130.0,
+     "lat": -12.12805,
+     "lng": -77.02091,
+     "mon": "USD",
+     "monto": 265000.0,
+     "mant": 148.03,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Departamento 3 dormitorios San antonio Miraflores",
+     "u": "https://www.infocasas.com.pe/departamento-3-dormitorios-san-antonio-miraflores/194269315",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       265000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194269311": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 265000.0,
+     "area": 130.0,
+     "lat": -12.12805,
+     "lng": -77.02091,
+     "mon": "USD",
+     "monto": 265000.0,
+     "mant": 148.03,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Departamento 3 dormitorios San antonio Miraflores",
+     "u": "https://www.infocasas.com.pe/departamento-3-dormitorios-san-antonio-miraflores/194269311",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       265000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194269314": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 265000.0,
+     "area": 130.0,
+     "lat": -12.12805,
+     "lng": -77.02091,
+     "mon": "USD",
+     "monto": 265000.0,
+     "mant": 148.03,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Departamento 3 dormitorios San antonio Miraflores",
+     "u": "https://www.infocasas.com.pe/departamento-3-dormitorios-san-antonio-miraflores/194269314",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       265000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194269361": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 265000.0,
+     "area": 130.0,
+     "lat": -12.12805,
+     "lng": -77.02091,
+     "mon": "USD",
+     "monto": 265000.0,
+     "mant": 162.83,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Departamento 3 dormitorios, San antonio, Miraflores",
+     "u": "https://www.infocasas.com.pe/departamento-3-dormitorios-san-antonio-miraflores/194269361",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       265000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194269313": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 265000.0,
+     "area": 130.0,
+     "lat": -12.12805,
+     "lng": -77.02091,
+     "mon": "USD",
+     "monto": 265000.0,
+     "mant": 148.03,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Departamento 3 dormitorios San antonio Miraflores",
+     "u": "https://www.infocasas.com.pe/departamento-3-dormitorios-san-antonio-miraflores/194269313",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       265000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194269312": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 265000.0,
+     "area": 130.0,
+     "lat": -12.12805,
+     "lng": -77.02091,
+     "mon": "USD",
+     "monto": 265000.0,
+     "mant": 148.03,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Departamento 3 dormitorios San antonio Miraflores",
+     "u": "https://www.infocasas.com.pe/departamento-3-dormitorios-san-antonio-miraflores/194269312",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       265000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194230724": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 600.0,
+     "area": 55.0,
+     "lat": -12.12249,
+     "lng": -77.03135,
+     "mon": "USD",
+     "monto": 600.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "Alquilo Departamento 1 Dorm. mas Estudio Amoblado Miraflores (Ref: 22002)",
+     "u": "https://www.infocasas.com.pe/alquilo-departamento-1-dorm-mas-estudio-amoblado-miraflores-ref-22002-/194230724",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       600.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194221889": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 2500.0,
+     "area": 540.0,
+     "lat": -12.12249,
+     "lng": -77.03135,
+     "mon": "USD",
+     "monto": 2500.0,
+     "mant": 449.47,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Departamento en Miraflores 540 m2 Cerca Vivanda  (Ref 2535)",
+     "u": "https://www.infocasas.com.pe/departamento-en-miraflores-540-m2-cerca-vivanda-ref-2535/194221889",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       2500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194197012": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 880.0,
+     "area": 68.0,
+     "lat": -12.11355,
+     "lng": -77.04738,
+     "mon": "USD",
+     "monto": 880.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "Departamento en Miraflores 2 habitaciones de estreno",
+     "u": "https://www.infocasas.com.pe/departamento-en-miraflores-2-habitaciones-de-estreno/194197012",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       880.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194245581": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1365.0,
+     "area": 125.0,
+     "lat": -12.12142,
+     "lng": -77.02552,
+     "mon": "PEN",
+     "monto": 4610.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO EN PASEO DE LA REPÚBLICA  CUADRA 56 Miraflores",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-paseo-de-la-republica-cuadra-56-miraflores/194245581",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       1365.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194267535": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 600.0,
+     "area": 55.0,
+     "lat": -12.12249,
+     "lng": -77.03135,
+     "mon": "USD",
+     "monto": 600.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "Alquilo Departamento 1 Dorm. mas Estudio Amoblado Miraflores (Ref: 22002)",
+     "u": "https://www.infocasas.com.pe/alquilo-departamento-1-dorm-mas-estudio-amoblado-miraflores-ref-22002/194267535",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       600.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194219857": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 600.0,
+     "area": 55.0,
+     "lat": -12.12249,
+     "lng": -77.03135,
+     "mon": "USD",
+     "monto": 600.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "Alquilo Departamento 1 Dorm. mas Estudio Amoblado Miraflores (Ref: 22002)",
+     "u": "https://www.infocasas.com.pe/alquilo-departamento-1-dorm-mas-estudio-amoblado-miraflores-ref-22002-/194219857",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       600.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194249804": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1066.0,
+     "area": 70.0,
+     "lat": -12.1152,
+     "lng": -77.0433,
+     "mon": "PEN",
+     "monto": 3600.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "ALQUILER DEPA EN MIRAFLORES - DPT 802 (609-1160-1)",
+     "u": "https://www.infocasas.com.pe/alquiler-depa-en-miraflores-dpt-802-60911601/194249804",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       1066.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194250526": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 900.0,
+     "area": 70.0,
+     "lat": -12.11295,
+     "lng": -77.04742,
+     "mon": "USD",
+     "monto": 900.0,
+     "mant": 148.05,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "Moderno y lindo Dpto Mendiburu Miraflores",
+     "u": "https://www.infocasas.com.pe/moderno-y-lindo-dpto-mendiburu-miraflores/194250526",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       900.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194183964": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 888.0,
+     "area": 70.0,
+     "lat": -12.11405,
+     "lng": -77.03801,
+     "mon": "PEN",
+     "monto": 3000.0,
+     "mant": 103.63,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "ALQUILER DE DEPARTAMENTO AMOBLADO DE 2 DORMITORIOS – MIRAFLORES",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-amoblado-de-2-dormitorios-–-miraflores/194183964",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       888.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194201710": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 2500.0,
+     "area": 540.0,
+     "lat": -12.12249,
+     "lng": -77.03135,
+     "mon": "USD",
+     "monto": 2500.0,
+     "mant": 449.47,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Departamento en Miraflores 540 m2 Cerca Vivanda  (Ref 2535)",
+     "u": "https://www.infocasas.com.pe/departamento-en-miraflores-540-m2-cerca-vivanda-ref-2535-/194201710",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       2500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194211979": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 2500.0,
+     "area": 540.0,
+     "lat": -12.14753,
+     "lng": -77.05862,
+     "mon": "USD",
+     "monto": 2500.0,
+     "mant": 449.47,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Departamento en Miraflores 540 m2 Cerca Vivanda  (Ref 2535)",
+     "u": "https://www.infocasas.com.pe/departamento-en-miraflores-540-m2-cerca-vivanda-ref-2535-/194211979",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       2500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194210031": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 600.0,
+     "area": 55.0,
+     "lat": -12.12249,
+     "lng": -77.03135,
+     "mon": "USD",
+     "monto": 600.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "Alquilo Departamento 1 Dorm. mas Estudio Amoblado Miraflores (Ref: 22002)",
+     "u": "https://www.infocasas.com.pe/alquilo-departamento-1-dorm-mas-estudio-amoblado-miraflores-ref-22002-/194210031",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       600.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194205294": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1200.0,
+     "area": 69.0,
+     "lat": -12.12738,
+     "lng": -77.02602,
+     "mon": "USD",
+     "monto": 1200.0,
+     "mant": 118.44,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "Alquilo dpto. Grimaldo del Solar, Miraflores 2 dorm.",
+     "u": "https://www.infocasas.com.pe/alquilo-dpto-grimaldo-del-solar-miraflores-2-dorm/194205294",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       1200.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194187659": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 592.0,
+     "area": 35.0,
+     "lat": -12.12249,
+     "lng": -77.03135,
+     "mon": "PEN",
+     "monto": 2000.0,
+     "mant": 29.61,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "ALQUILER DE MINIDPTO. AMOBLADO – 1D – LA AURORA MIRAFLORES",
+     "u": "https://www.infocasas.com.pe/alquiler-de-minidpto-amoblado-–-1d-–-la-aurora-miraflores/194187659",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       592.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194144724": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 600.0,
+     "area": 55.0,
+     "lat": -12.13391,
+     "lng": -77.0672,
+     "mon": "USD",
+     "monto": 600.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "Alquilo Departamento 1 Dorm. mas Estudio Amoblado Miraflores (Ref: 22002)",
+     "u": "https://www.infocasas.com.pe/alquilo-departamento-1-dorm-mas-estudio-amoblado-miraflores-ref-22002/194144724",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       600.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194199172": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 600.0,
+     "area": 55.0,
+     "lat": -12.12249,
+     "lng": -77.03135,
+     "mon": "USD",
+     "monto": 600.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "Alquilo Departamento 1 Dorm. mas Estudio Amoblado Miraflores (Ref: 22002)",
+     "u": "https://www.infocasas.com.pe/alquilo-departamento-1-dorm-mas-estudio-amoblado-miraflores-ref-22002-/194199172",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       600.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194263067": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1100.0,
+     "area": 67.0,
+     "lat": -12.12679,
+     "lng": -77.02884,
+     "mon": "USD",
+     "monto": 1100.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "Alquiler Departamento de Estreno Amoblado dos dormitorios en Av. 28 de Julio - M",
+     "u": "https://www.infocasas.com.pe/alquiler-departamento-de-estreno-amoblado-dos-dormitorios-en-av-28-de-julio-muy-cerca-a-larcomar/194263067",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       1100.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194154562": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1200.0,
+     "area": 69.0,
+     "lat": -12.12738,
+     "lng": -77.02602,
+     "mon": "USD",
+     "monto": 1200.0,
+     "mant": 118.44,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "Alquiler Departamento Amoblado – Miraflores",
+     "u": "https://www.infocasas.com.pe/alquiler-departamento-amoblado-–-miraflores/194154562",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       1200.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194242776": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 600.0,
+     "area": 55.0,
+     "lat": -12.12249,
+     "lng": -77.03135,
+     "mon": "USD",
+     "monto": 600.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "Alquilo Departamento 1 Dorm. mas Estudio Amoblado Miraflores (Ref: 22002)",
+     "u": "https://www.infocasas.com.pe/alquilo-departamento-1-dorm-mas-estudio-amoblado-miraflores-ref-22002-/194242776",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       600.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194181450": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1250.0,
+     "area": 76.0,
+     "lat": -12.12567,
+     "lng": -77.02856,
+     "mon": "USD",
+     "monto": 1250.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "ALQUILER DEPARTAMENTO AMOBLADO DE 2 DORMITORIOS - 1 COCHERA - AREAS COMUNES",
+     "u": "https://www.infocasas.com.pe/alquiler-departamento-amoblado-de-2-dormitorios-1-cochera-areas-comunes/194181450",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       1250.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194164401": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 2500.0,
+     "area": 540.0,
+     "lat": -12.1324,
+     "lng": -77.066,
+     "mon": "USD",
+     "monto": 2500.0,
+     "mant": 449.44,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Departamento en Miraflores 540 m2 Cerca Vivanda  (Ref 2535)",
+     "u": "https://www.infocasas.com.pe/departamento-en-miraflores-540-m2-cerca-vivanda-ref-2535-/194164401",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       2500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194245580": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1350.0,
+     "area": 125.0,
+     "lat": -12.12142,
+     "lng": -77.02552,
+     "mon": "USD",
+     "monto": 1350.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "VENTA DEPARTAMENTO EN PASEO DE LA REPÚBLICA  CUADRA 56 Miraflores",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-paseo-de-la-republica-cuadra-56-miraflores/194245580",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       1350.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194174849": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 600.0,
+     "area": 55.0,
+     "lat": -12.12249,
+     "lng": -77.03135,
+     "mon": "USD",
+     "monto": 600.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "Alquilo Departamento 1 Dorm. mas Estudio Amoblado Miraflores (Ref: 22002)",
+     "u": "https://www.infocasas.com.pe/alquilo-departamento-1-dorm-mas-estudio-amoblado-miraflores-ref-22002-/194174849",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       600.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194220376": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 829.0,
+     "area": 68.0,
+     "lat": -12.11373,
+     "lng": -77.04747,
+     "mon": "PEN",
+     "monto": 2800.0,
+     "mant": 103.62,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "ALQUILA DPTO. DE ESTRENO CON COCHERA  A UNA CUADRA DEL MALECÓN EN MIRAFLORES",
+     "u": "https://www.infocasas.com.pe/alquila-dpto-de-estreno-con-cochera-a-una-cuadra-del-malecon-en-miraflores/194220376",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       829.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194147638": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 2500.0,
+     "area": 540.0,
+     "lat": -12.13741,
+     "lng": -77.05467,
+     "mon": "USD",
+     "monto": 2500.0,
+     "mant": 449.44,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Departamento en Miraflores 540 m2 Cerca Vivanda  (Ref 2535)",
+     "u": "https://www.infocasas.com.pe/departamento-en-miraflores-540-m2-cerca-vivanda-ref-2535-/194147638",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       2500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194137514": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1299.0,
+     "area": 80.0,
+     "lat": -12.12288,
+     "lng": -77.03793,
+     "mon": "USD",
+     "monto": 1299.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "Se Alquila Departamento 2 dormitorios + Cochera y Vista al Mar",
+     "u": "https://www.infocasas.com.pe/se-alquila-departamento-2-dormitorios-cochera-y-vista-al-mar/194137514",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       1299.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "miraflores"
+    },
+    "194160692": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 480000.0,
+     "area": 671.0,
+     "lat": -12.22685,
+     "lng": -76.8454,
+     "mon": "USD",
+     "monto": 480000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Pachacamac",
+     "titulo": "Casa en Pachacamac",
+     "u": "https://www.infocasas.com.pe/casa-en-pachacamac/194160692",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       480000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "pachacamac"
+    },
+    "194202754": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 125970.0,
+     "area": 60.0,
+     "lat": -12.07702,
+     "lng": -77.05665,
+     "mon": "USD",
+     "monto": 125970.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Pueblo Libre",
+     "titulo": "Venta de departamento de 2 dormitorios en Pueblo Libre - INMEDIATA ! NO PAGA ALC",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-de-2-dormitorios-en-pueblo-libre-inmediata-no-paga-alcabala/194202754",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       125970.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "pueblo-libre"
+    },
+    "194193457": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 123790.0,
+     "area": 67.0,
+     "lat": -12.08421,
+     "lng": -77.06754,
+     "mon": "USD",
+     "monto": 123790.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Pueblo Libre",
+     "titulo": "VENTA DE DEPARTAMENTO EN PUEBLO LIBRE - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-pueblo-libre-entrega-inmediata/194193457",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       123790.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "pueblo-libre"
+    },
+    "194137517": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 116296.0,
+     "area": 53.0,
+     "lat": -12.08366,
+     "lng": -77.06864,
+     "mon": "USD",
+     "monto": 116296.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Pueblo Libre",
+     "titulo": "Venta Departamento estreno cerca a la Av. Sucre en Pueblo Libre",
+     "u": "https://www.infocasas.com.pe/venta-departamento-estreno-cerca-a-la-av-sucre-en-pueblo-libre/194137517",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       116296.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "pueblo-libre"
+    },
+    "194254551": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 179175.0,
+     "area": 92.0,
+     "lat": -12.0719,
+     "lng": -77.0623,
+     "mon": "USD",
+     "monto": 179175.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Pueblo Libre",
+     "titulo": "VENTA DE DEPARTAMENTO EN PUEBLO LIBRE - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-pueblo-libre-entrega-inmediata/194254551",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       179175.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "pueblo-libre"
+    },
+    "194225664": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 179122.0,
+     "area": 92.0,
+     "lat": -12.0719,
+     "lng": -77.0623,
+     "mon": "USD",
+     "monto": 179122.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Pueblo Libre",
+     "titulo": "VENTA DE DEPARTAMENTO EN PUEBLO LIBRE - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-pueblo-libre-entrega-inmediata/194225664",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       179122.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "pueblo-libre"
+    },
+    "194139023": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 179708.0,
+     "area": 92.0,
+     "lat": -12.0719,
+     "lng": -77.0623,
+     "mon": "USD",
+     "monto": 179708.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Pueblo Libre",
+     "titulo": "VENTA DE DEPARTAMENTO EN PUEBLO LIBRE - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-pueblo-libre-entrega-inmediata/194139023",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       179708.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "pueblo-libre"
+    },
+    "194274917": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 179122.0,
+     "area": 92.0,
+     "lat": -12.0719,
+     "lng": -77.0623,
+     "mon": "USD",
+     "monto": 179122.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Pueblo Libre",
+     "titulo": "VENTA DE DEPARTAMENTO EN PUEBLO LIBRE - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-pueblo-libre-entrega-inmediata/194274917",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       179122.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "pueblo-libre"
+    },
+    "194176344": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 510.0,
+     "area": 50.0,
+     "lat": -12.06747,
+     "lng": -77.06627,
+     "mon": "USD",
+     "monto": 510.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Pueblo Libre",
+     "titulo": "ALQUILER 2 DORM SEMI AMOBLADO | COCHERA | PARRILLA | GIMNASIO",
+     "u": "https://www.infocasas.com.pe/alquiler-2-dorm-semi-amoblado-cochera-parrilla-gimnasio/194176344",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       510.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "pueblo-libre"
+    },
+    "194208232": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 676.0,
+     "area": 65.0,
+     "lat": -12.08515,
+     "lng": -77.06243,
+     "mon": "USD",
+     "monto": 676.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Pueblo Libre",
+     "titulo": "Departamento en Pueblo Libre - Linda Terraza",
+     "u": "https://www.infocasas.com.pe/departamento-en-pueblo-libre-linda-terraza/194208232",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       676.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "pueblo-libre"
+    },
+    "194271849": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 330000.0,
+     "area": 290.0,
+     "lat": -12.07952,
+     "lng": -77.07374,
+     "mon": "USD",
+     "monto": 330000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Pueblo Libre",
+     "titulo": "Casa Pueblo Libre 9 Dormmitorios 7 Baños AC:290 m2 US$ 330,000.-",
+     "u": "https://www.infocasas.com.pe/casa-pueblo-libre-9-dormmitorios-7-baños-ac290-m2-us-330000/194271849",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       330000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "pueblo-libre"
+    },
+    "194270604": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 169000.0,
+     "area": 61.0,
+     "lat": -12.33911,
+     "lng": -76.82505,
+     "mon": "USD",
+     "monto": 169000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Punta Hermosa",
+     "titulo": "Venta de flat estreno 62m2 a pasos del malecón central de Punta Hermosa 2 dormit",
+     "u": "https://www.infocasas.com.pe/venta-de-flat-estreno-62m2-a-pasos-del-malecon-central-de-punta-hermosa-2-dormitorios/194270604",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       169000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "punta-hermosa"
+    },
+    "194170971": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 592241.0,
+     "area": 209.0,
+     "lat": -12.32774,
+     "lng": -76.83382,
+     "mon": "USD",
+     "monto": 592241.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Punta Hermosa",
+     "titulo": "PENT HOUSE ESTRENO PUNTA HERMOSA 4 DORMITORIOS 4 BAÑOS 2 COCHERAS OCEAN VIEW PLA",
+     "u": "https://www.infocasas.com.pe/pent-house-estreno-punta-hermosa-4-dormitorios-4-baños-2-cocheras-ocean-view-playa-señoritas-km-22/194170971",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       592241.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "punta-hermosa"
+    },
+    "194223557": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 239000.0,
+     "area": 96.0,
+     "lat": -12.33829,
+     "lng": -76.82401,
+     "mon": "USD",
+     "monto": 239000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Punta Hermosa",
+     "titulo": "Venta departamento 1 año antiguedad 3 dormitorios 2 estacionamientos playa centr",
+     "u": "https://www.infocasas.com.pe/venta-departamento-1-año-antiguedad-3-dormitorios-2-estacionamientos-playa-central-punta-hermosa/194223557",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       239000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "punta-hermosa"
+    },
+    "194270605": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 139000.0,
+     "area": 51.0,
+     "lat": -12.33912,
+     "lng": -76.82507,
+     "mon": "USD",
+     "monto": 139000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Punta Hermosa",
+     "titulo": "Venta de departamento estreno 52m2 playa central punta hermosa 2 dormitorios",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-estreno-52m2-playa-central-punta-hermosa-2-dormitorios/194270605",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       139000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "punta-hermosa"
+    },
+    "194270603": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 149000.0,
+     "area": 55.0,
+     "lat": -12.33915,
+     "lng": -76.82507,
+     "mon": "USD",
+     "monto": 149000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Punta Hermosa",
+     "titulo": "Oportunidad venta departamento 55,53m2 2 dormitorios a una cuadra del malecón ce",
+     "u": "https://www.infocasas.com.pe/oportunidad-venta-departamento-5553m2-2-dormitorios-a-una-cuadra-del-malecon-central-punta-hermosa/194270603",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       149000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "punta-hermosa"
+    },
+    "194216392": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 2500.0,
+     "area": 297.0,
+     "lat": -12.032,
+     "lng": -76.93564,
+     "mon": "USD",
+     "monto": 2500.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Punta Hermosa",
+     "titulo": "Duplex de estreno con vista al mar en alquiler 4 dorm c/ baño propio 2 cocheras",
+     "u": "https://www.infocasas.com.pe/duplex-de-estreno-con-vista-al-mar-en-alquiler-4-dorm-c-baño-propio-2-cocheras/194216392",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       2500.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "punta-hermosa"
+    },
+    "194164662": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1984.0,
+     "area": 245.0,
+     "lat": -12.33816,
+     "lng": -76.82752,
+     "mon": "PEN",
+     "monto": 6700.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Punta Hermosa",
+     "titulo": "ALQUILER FULL AMOBLADO A 1CDRA DEL MALECON DE PUNTA HERMOSA",
+     "u": "https://www.infocasas.com.pe/alquiler-full-amoblado-a-1cdra-del-malecon-de-punta-hermosa/194164662",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       1984.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "punta-hermosa"
+    },
+    "194256165": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 340000.0,
+     "area": 410.0,
+     "lat": -12.09796,
+     "lng": -76.96206,
+     "mon": "USD",
+     "monto": 340000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Punta Hermosa",
+     "titulo": "Venta de casa 410m2 construidos con potencial de inversión vista al mar Playa El",
+     "u": "https://www.infocasas.com.pe/venta-de-casa-410m2-construidos-con-potencial-de-inversion-vista-al-mar-playa-el-silencio/194256165",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       340000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "punta-hermosa"
+    },
+    "194190453": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 170000.0,
+     "area": 110.0,
+     "lat": -12.35824,
+     "lng": -76.79915,
+     "mon": "USD",
+     "monto": 170000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Punta Negra",
+     "titulo": "SE VENDE CASA/TERRENO 225M2, PUERTA CALLE, IDEAL PARA NEGOCIO SOBRE PANAMERIC AN",
+     "u": "https://www.infocasas.com.pe/se-vende-casaterreno-225m2-puerta-calle-ideal-para-negocio-sobre-panameric-antigua-en-punta-negra/194190453",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       170000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "punta-negra"
+    },
+    "194269432": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 720000.0,
+     "area": 527.0,
+     "lat": -12.34957,
+     "lng": -76.81644,
+     "mon": "USD",
+     "monto": 720000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Punta Negra",
+     "titulo": "VENDO CASA PLAYA ESCONDIDA PUNTA NEGRA",
+     "u": "https://www.infocasas.com.pe/vendo-casa-playa-escondida-punta-negra/194269432",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       720000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "punta-negra"
+    },
+    "194277391": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 285000.0,
+     "area": 250.0,
+     "lat": -12.37596,
+     "lng": -76.78811,
+     "mon": "USD",
+     "monto": 285000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Punta Negra",
+     "titulo": "Amplia Casa De Playa Con Piscina Y 4 Dormitorios – Punta Negra",
+     "u": "https://www.infocasas.com.pe/amplia-casa-de-playa-con-piscina-y-4-dormitorios-–-punta-negra/194277391",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       285000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "punta-negra"
+    },
+    "194268509": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 45000.0,
+     "area": 53.0,
+     "lat": -12.02901,
+     "lng": -77.03742,
+     "mon": "USD",
+     "monto": 45000.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Rimac",
+     "titulo": "Venta Minidepartamento En Rimac - 53.58 M2 Av. Guardia Republicana",
+     "u": "https://www.infocasas.com.pe/venta-minidepartamento-en-rimac-5358-m2-av-guardia-republicana/194268509",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       45000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "rimac"
+    },
+    "194135834": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 240000.0,
+     "area": 175.0,
+     "lat": -12.38341,
+     "lng": -76.78449,
+     "mon": "USD",
+     "monto": 240000.0,
+     "mant": 207.24,
+     "anio": "",
+     "dorm": "4",
+     "zona": "San Bartolo",
+     "titulo": "Dpto. En Playa En Venta En San Bartolo",
+     "u": "https://www.infocasas.com.pe/dpto-en-playa-en-venta-en-san-bartolo/194135834",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       240000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194176363": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 141960.0,
+     "area": 83.0,
+     "lat": -12.38742,
+     "lng": -76.78131,
+     "mon": "USD",
+     "monto": 141960.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Bartolo",
+     "titulo": "Departamento de 3 dormitorios a 300 metros de Playa Norte – San Bartolo",
+     "u": "https://www.infocasas.com.pe/departamento-de-3-dormitorios-a-300-metros-de-playa-norte-–-san-bartolo/194176363",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       141960.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181467": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 104450.0,
+     "area": 61.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "PEN",
+     "monto": 352800.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 103 (609-922-55)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-103-60992255/194181467",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       104450.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181475": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 179057.0,
+     "area": 96.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "PEN",
+     "monto": 604800.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 202 AL 402 (609-922-58)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-202-al-402-60992258/194181475",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       179057.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181477": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 149214.0,
+     "area": 102.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "PEN",
+     "monto": 504000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 505 (609-922-51)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-505-60992251/194181477",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       149214.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181471": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 134293.0,
+     "area": 77.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "PEN",
+     "monto": 453600.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 102 (609-922-54)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-102-60992254/194181471",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       134293.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181479": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 198953.0,
+     "area": 105.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "PEN",
+     "monto": 672000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 201, 401 (609-922-57)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-201-401-60992257/194181479",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       198953.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194209606": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 123945.0,
+     "area": 64.0,
+     "lat": -12.38393,
+     "lng": -76.78675,
+     "mon": "PEN",
+     "monto": 418649.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "DEPARTAMENTO en VENTA en SAN BARTOLO",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-san-bartolo/194209606",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       123945.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194234836": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 180000.0,
+     "area": 92.0,
+     "lat": -12.38296,
+     "lng": -76.78421,
+     "mon": "USD",
+     "monto": 180000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Bartolo",
+     "titulo": "Dpto en Venta Condominio Ocean Reef - San Bartolo",
+     "u": "https://www.infocasas.com.pe/dpto-en-venta-condominio-ocean-reef-san-bartolo/194234836",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       180000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181484": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 320000.0,
+     "area": 212.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "USD",
+     "monto": 320000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 501 (609-922-48)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-501-60992248/194181484",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       320000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181485": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 318324.0,
+     "area": 212.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "PEN",
+     "monto": 1075200.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 501 (609-922-48)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-501-60992248/194181485",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       318324.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194209381": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 113678.0,
+     "area": 58.0,
+     "lat": -12.38383,
+     "lng": -76.78667,
+     "mon": "PEN",
+     "monto": 383969.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "DEPARTAMENTO en VENTA en SAN BARTOLO",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-san-bartolo/194209381",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       113678.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194209219": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 117855.0,
+     "area": 60.0,
+     "lat": -12.38385,
+     "lng": -76.7868,
+     "mon": "PEN",
+     "monto": 398076.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "DEPARTAMENTO en VENTA en SAN BARTOLO",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-san-bartolo/194209219",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       117855.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181468": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 130000.0,
+     "area": 72.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "USD",
+     "monto": 130000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 101 (609-922-53)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-101-60992253/194181468",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       130000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181469": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 129319.0,
+     "area": 72.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "PEN",
+     "monto": 436800.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 101 (609-922-53)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-101-60992253/194181469",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       129319.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181478": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 200000.0,
+     "area": 105.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "USD",
+     "monto": 200000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 201, 401 (609-922-57)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-201-401-60992257/194181478",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       200000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181480": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 195000.0,
+     "area": 108.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "USD",
+     "monto": 195000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 502 (609-922-49)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-502-60992249/194181480",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       195000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194176362": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 84851.0,
+     "area": 44.0,
+     "lat": -12.38742,
+     "lng": -76.78131,
+     "mon": "USD",
+     "monto": 84851.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "San Bartolo",
+     "titulo": "Departamento de 1 dormitorio a 300 metros de Playa Norte – San Bartolo",
+     "u": "https://www.infocasas.com.pe/departamento-de-1-dormitorio-a-300-metros-de-playa-norte-–-san-bartolo/194176362",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       84851.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194176346": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 115000.0,
+     "area": 89.0,
+     "lat": -12.08102,
+     "lng": -76.97032,
+     "mon": "USD",
+     "monto": 115000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Bartolo",
+     "titulo": "Venta San Bartolo | Dpto. de 3 dorms., 89.60 m², calle cerrada con vigilancia",
+     "u": "https://www.infocasas.com.pe/venta-san-bartolo-dpto-de-3-dorms-8960-m²-calle-cerrada-con-vigilancia/194176346",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       115000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181470": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 135000.0,
+     "area": 77.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "USD",
+     "monto": 135000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 102 (609-922-54)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-102-60992254/194181470",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       135000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194209503": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 117564.0,
+     "area": 60.0,
+     "lat": -12.38396,
+     "lng": -76.78679,
+     "mon": "PEN",
+     "monto": 397096.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "DEPARTAMENTO en VENTA en SAN BARTOLO",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-san-bartolo/194209503",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       117564.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181461": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 89529.0,
+     "area": 53.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "PEN",
+     "monto": 302400.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 204 AL 404 (609-922-60)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-204-al-404-60992260/194181461",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       89529.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181462": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 100000.0,
+     "area": 60.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "USD",
+     "monto": 100000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 104 (609-922-56)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-104-60992256/194181462",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       100000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181476": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 150000.0,
+     "area": 102.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "USD",
+     "monto": 150000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 505 (609-922-51)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-505-60992251/194181476",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       150000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194209129": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 105024.0,
+     "area": 54.0,
+     "lat": -12.38378,
+     "lng": -76.7868,
+     "mon": "PEN",
+     "monto": 354737.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "San Bartolo",
+     "titulo": "DEPARTAMENTO en VENTA en SAN BARTOLO",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-san-bartolo/194209129",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       105024.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181463": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 99476.0,
+     "area": 60.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "PEN",
+     "monto": 336000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 104 (609-922-56)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-104-60992256/194181463",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       99476.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181481": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 193979.0,
+     "area": 108.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "PEN",
+     "monto": 655200.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 502 (609-922-49)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-502-60992249/194181481",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       193979.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181483": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 184031.0,
+     "area": 124.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "PEN",
+     "monto": 621600.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 504 (609-922-52)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-504-60992252/194181483",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       184031.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194170972": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 200000.0,
+     "area": 130.0,
+     "lat": -12.38519,
+     "lng": -76.78677,
+     "mon": "USD",
+     "monto": 200000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO SAN BARTOLO- DPT 201 (609-922-18)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-san-bartolo-dpt-201-60992218/194170972",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       200000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194176379": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 203926.0,
+     "area": 132.0,
+     "lat": -12.38519,
+     "lng": -76.78677,
+     "mon": "PEN",
+     "monto": 688800.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO SAN BARTOLO- DPT 202 (609-922-19)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-san-bartolo-dpt-202-60992219/194176379",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       203926.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194176380": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 205000.0,
+     "area": 132.0,
+     "lat": -12.38519,
+     "lng": -76.78677,
+     "mon": "USD",
+     "monto": 205000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO SAN BARTOLO- DPT 202 (609-922-19)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-san-bartolo-dpt-202-60992219/194176380",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       205000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194209336": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 76728.0,
+     "area": 40.0,
+     "lat": -12.38341,
+     "lng": -76.78449,
+     "mon": "PEN",
+     "monto": 259165.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "San Bartolo",
+     "titulo": "DEPARTAMENTO en VENTA en SAN BARTOLO",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-san-bartolo/194209336",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       76728.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194209755": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 106787.0,
+     "area": 55.0,
+     "lat": -12.38378,
+     "lng": -76.78674,
+     "mon": "PEN",
+     "monto": 360692.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "San Bartolo",
+     "titulo": "DEPARTAMENTO en VENTA en SAN BARTOLO",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-san-bartolo/194209755",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       106787.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181464": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 105000.0,
+     "area": 60.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "USD",
+     "monto": 105000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 203 AL 403 (609-922-59)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-203-al-403-60992259/194181464",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       105000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181472": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 170000.0,
+     "area": 88.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "USD",
+     "monto": 170000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 503 (609-922-50)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-503-60992250/194181472",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       170000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181473": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 169110.0,
+     "area": 88.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "PEN",
+     "monto": 571200.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 503 (609-922-50)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-503-60992250/194181473",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       169110.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181460": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 90000.0,
+     "area": 53.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "USD",
+     "monto": 90000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 204 AL 404 (609-922-60)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-204-al-404-60992260/194181460",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       90000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181482": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 185000.0,
+     "area": 124.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "USD",
+     "monto": 185000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 504 (609-922-52)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-504-60992252/194181482",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       185000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181466": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 105000.0,
+     "area": 61.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "USD",
+     "monto": 105000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 103 (609-922-55)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-103-60992255/194181466",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       105000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181465": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 104450.0,
+     "area": 60.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "PEN",
+     "monto": 352800.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 203 AL 403 (609-922-59)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-203-al-403-60992259/194181465",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       104450.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
+    },
+    "194181474": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 180000.0,
+     "area": 96.0,
+     "lat": -12.39228,
+     "lng": -76.77733,
+     "mon": "USD",
+     "monto": 180000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 202 AL 402 (609-922-58)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-202-al-402-60992258/194181474",
+     "flags": [],
+     "p": [
+      [
+       20714,
+       180000.0
+      ]
+     ],
+     "f": 20714,
+     "r": 20714,
+     "dist": "san-bartolo"
     }
    },
-   "tc": 3.374777975133215,
-   "turno": 59
+   "tc": 3.3776765070535806,
+   "turno": 113
   }
  }
 }
