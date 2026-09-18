@@ -35,7 +35,7 @@ DINERS_URL = "https://dinersclubperu.pe/establecimientos/modotravel/categoria/vi
 UNAVAILABLE = {"comida": "Mass y Listo: pendientes; no se verificó un catálogo con precios comparables automatizable.", "hogar": "Ripley: acceso público bloqueado (403).",
                "viajes": "LATAM y Despegar: acceso público bloqueado. No se consultan tarifas en vivo. Travelpayouts solo con el secreto TRAVELPAYOUTS_TOKEN.",
                "autos": "Derco, retención relativa y resumen semanal: pendientes. Mercado Libre y Autocosmos no se usan (robots/pausas).",
-               "inmuebles": "Urbania y Adondevivir: bloqueo antibots de Cloudflare. Remates judiciales, otros bancos y rentabilidad por alquiler: pendientes."}
+               "inmuebles": "Urbania, Adondevivir y RE/MAX: bloqueo antibots de Cloudflare. Century 21, remates judiciales y otros bancos: pendientes."}
 TOPICS = {'hogar': 'NTFY_TOPIC_HOGAR', 'viajes': 'NTFY_TOPIC_VIAJES', 'comida': 'NTFY_TOPIC',
           'autos': 'NTFY_TOPIC_AUTOS', 'inmuebles': 'NTFY_TOPIC_INMUEBLES'}
 TITLES = {'hogar': 'Hogar y tecnología', 'viajes': 'Viajes y escapadas', 'comida': 'Comida y bazar',

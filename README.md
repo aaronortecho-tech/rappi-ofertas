@@ -10,7 +10,7 @@ El proyecto mantiene cinco temas independientes de ntfy. Los nombres reales de l
 | Hogar y tecnología | Falabella, Sodimac, Promart, Oechsle, Estilos, Casaideas y Shopstar, con vendedores terceros | 60 % | `NTFY_TOPIC_HOGAR` |
 | Viajes y escapadas | Diners Club, tarifas publicadas de JetSMART/SKY desde Lima y, con token, Travelpayouts | 50 % | `NTFY_TOPIC_VIAJES` |
 | Autos | Neoauto: nuevos, seminuevos y usados | Año gratis o bajada de 10 % | `NTFY_TOPIC_AUTOS` |
-| Inmuebles | Preventa de Nexo Inmobiliario y adjudicados de Scotiabank | 23 % bajo su zona o bajada de 10 % | `NTFY_TOPIC_INMUEBLES` |
+| Inmuebles | Infocasas (ventas y alquileres), preventa de Nexo Inmobiliario y adjudicados de Scotiabank | Rentabilidad 1,3 veces la de su zona, 23 % bajo su zona o bajada de 10 % | `NTFY_TOPIC_INMUEBLES` |
 
 **Estado de cobertura:** Ripley, LATAM, Despegar, Urbania y Adondevivir no están activados: las comprobaciones de acceso devolvieron bloqueos. PedidosYa tampoco está integrado. Un resultado exitoso de los grupos nuevos solo confirma las fuentes activas de la tabla.
 
@@ -159,7 +159,9 @@ Lo que ningún cálculo va a saber es el estado mecánico ni si el auto estuvo c
 
 Un departamento no se parece a otro como sí se parecen dos autos del mismo modelo: el piso, la vista, la antigüedad del edificio y media cuadra de diferencia cambian el precio. Así que comparar precios por m² entre "departamentos de Surco" no dice mucho.
 
-El diseño original usaba la rentabilidad por alquiler (cuánto rentaría comparado con sus vecinos), pero los dos portales que publican ventas y alquileres, Urbania y Adondevivir, bloquean la lectura automática con un desafío antibots, y eso no se evade. Así que hoy el monitor compara cada proyecto en preventa de **Nexo Inmobiliario** contra los proyectos que tiene **a menos de 1,5 km**, nunca contra todo el distrito: si su precio por m² queda 23 % o más por debajo, te avisa (🚨 desde 33 %). Más de 50 % por debajo no es ganga: casi siempre es un área mal escrita.
+Por eso el criterio principal es la **rentabilidad**: con los alquileres de departamentos parecidos a menos de 1,5 km se estima cuánto rentaría, se resta el mantenimiento, y se compara con lo que rinde su zona. En Lima suele salir entre 4 % y 7 % al año; si un aviso implica 1,3 veces la de su zona te llega (🚨 desde 1,5), y más de 2 veces se descarta porque casi siempre esconde un problema. Estos datos salen de **Infocasas**, que permite la lectura; Urbania, Adondevivir y RE/MAX la bloquean con un desafío antibots y no se usan.
+
+Además, el monitor compara cada proyecto en preventa de **Nexo Inmobiliario** contra los proyectos que tiene **a menos de 1,5 km**, nunca contra todo el distrito: si su precio por m² queda 23 % o más por debajo, te avisa (🚨 desde 33 %). Más de 50 % por debajo no es ganga: casi siempre es un área mal escrita.
 
 Queda pendiente un canal donde el descuento **lo fija la ley**: los remates judiciales. La base de un remate es dos tercios de la tasación oficial, y baja 15 % en cada convocatoria en que nadie se presenta. En la cuarta vuelta, la base está 59 % debajo de la tasación. Eso sí es un descuento auditable. El detalle contraintuitivo: conviene mirar los de primera y segunda convocatoria, no los de la quinta, porque un inmueble que nadie quiso cuatro veces casi siempre está ocupado o tiene un problema legal.
 

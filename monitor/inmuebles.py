@@ -15,6 +15,7 @@ import statistics
 from urllib.robotparser import RobotFileParser
 
 from .http import HttpClient, Blocked
+from . import infocasas
 
 NEXO = 'https://nexoinmobiliario.pe'
 PROJECT_URL = re.compile(r'^https://nexoinmobiliario\.pe/(departamentos|casas)/([a-z0-9-]+)/[a-z0-9-]+-(\d+)$')
@@ -269,8 +270,22 @@ def scan_inmuebles(state, now, http_factory=HttpClient):
     rate, budget = settings()
     projects, reports = scan_nexo(state, now, rate, budget, http_factory)
     banks, more = scan_scotia(state, now, http_factory)
+    fresh, pages, error = infocasas.scan_listings(state, now, rate, http_factory)
+    reports.append(('Infocasas/avisos recientes', pages, error))
     deals = []
     districts = wanted_districts()
+    listings = state.datos.setdefault('infocasas', {}).setdefault('avisos', {})
+    site_rate = state.datos['infocasas'].get('tc') or rate
+    day = int(now // 86400)
+    for key in fresh:
+        listing = listings.get(key)
+        if not listing or not in_districts(listing['zona'] + ' ' + listing['dist'].replace('-', ' '), districts): continue
+        result = infocasas.evaluate_listing(listings, key, day, site_rate)
+        if not result: continue
+        points, lines = result
+        lines.append(f'Antes de decidir: partida registral en SUNARP ({SUNARP}), cargas, mantenimiento real y estado del edificio.')
+        deals.append(Deal('Infocasas', key, listing['titulo'], listing['u'], int(points), price=listing['usd'], currency='USD',
+                          condition='\n'.join(lines), category='Inmuebles', reference_kind='inmuebles'))
     for key, points, lines in projects:
         project = state.datos['nexo']['proyectos'][key]
         if not in_districts(project['dist'], districts): continue
@@ -282,5 +297,7 @@ def scan_inmuebles(state, now, http_factory=HttpClient):
         deals.append(Deal('Scotiabank', exp, 'Adjudicado ' + exp, SCOTIA_PDF, int(points), price=value, currency='USD',
                           condition='\n'.join(lines), category='Inmuebles', reference_kind='inmuebles'))
     store = state.datos.get('nexo', {}).get('proyectos', {})
-    logging.getLogger('catalogs').info('Nexo: %d proyectos en memoria', len(store))
+    counts = [sum(v['op'] == op for v in listings.values()) for op in ('venta', 'alquiler')]
+    logging.getLogger('catalogs').info('Nexo: %d proyectos · Infocasas: %d ventas y %d alquileres en memoria',
+                                       len(store), *counts)
     return sorted(deals, key=lambda d: -d.pct)[:MAX_ALERTS], reports + more

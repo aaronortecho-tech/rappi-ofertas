@@ -6,7 +6,7 @@ Este proyecto es un script de Python que corre en GitHub Actions cada 30 minutos
 
 - `monitor/catalogs.py`: grupos independientes hogar/viajes. Falabella/Sodimac usan `__NEXT_DATA__.props.pageProps.results`; se separan precios web de CMR y se calcula el porcentaje real sin redondear al alza. Diners usa tarjetas HTML `all__item` y condiciones con vigencias explícitas. Umbrales fijos: hogar 60 %, viajes 50 %. No tratar «hasta», cuotas o regalos como descuentos garantizados.
 - `monitor/autos.py`: Neoauto por mapas del sitio y páginas de aviso (sin `?`). Memoria de precios por aviso en `state/autos.json`; año gratis, bajadas de precio y filtros de FUENTES.md.
-- `monitor/inmuebles.py`: Nexo Inmobiliario (micro-zona de 1,5 km) y el PDF de adjudicados de Scotiabank (`pypdf`). Memoria en `state/inmuebles.json`.
+- `monitor/inmuebles.py`: Nexo Inmobiliario (micro-zona de 1,5 km) y el PDF de adjudicados de Scotiabank (`pypdf`). `monitor/infocasas.py`: ventas y alquileres de los últimos 30 días para la rentabilidad por micro-zona. Memoria en `state/inmuebles.json`.
 - `monitor/datos/aeropuertos.csv`: coordenadas públicas para medir vuelos en centavos por km.
 - `.github/workflows/autos-inmuebles.yml`: cada 6 horas, grupo de `concurrency` propio. Secretos `NTFY_TOPIC_AUTOS` y `NTFY_TOPIC_INMUEBLES`; sin ellos solo junta datos.
 - `FUENTES.md`: sitios por grupo, permisos, endpoints y trampas. Su sección "Estado real" manda sobre las tablas de investigación.
@@ -109,7 +109,7 @@ Es el grupo más distinto de todos: nadie publica un precio de lista de un auto 
 
 ### Grupo `inmuebles`: la rentabilidad manda, no el precio por m²
 
-El detalle verificado está en FUENTES.md, sección "Grupo 5 · Inmuebles". **Ojo:** Urbania y Adondevivir quedaron fuera por el bloqueo de Cloudflare, así que hoy no hay alquileres y la rentabilidad no se calcula. Lo activo es Nexo (precio por m² contra proyectos a 1,5 km) y el PDF de Scotiabank. Los puntos de abajo siguen valiendo si aparece una fuente de alquileres que permita la lectura:
+El detalle verificado está en FUENTES.md, sección "Grupo 5 · Inmuebles". **Ojo:** Urbania, Adondevivir y RE/MAX quedaron fuera por el bloqueo de Cloudflare. Ventas y alquileres salen de Infocasas (`monitor/infocasas.py`, ruta `publicado-ultimos-30-dias`); además Nexo (preventa) y el PDF de Scotiabank. Donde abajo dice Urbania, léase Infocasas:
 
 - **No uses las APIs internas.** Urbania y Adondevivir prohíben expresamente `/avisos-api/`, `/users-api/` y `/leads-api/` en su robots.txt. Devuelven JSON limpio y son la tentación obvia: no se tocan. Solo HTML y mapas del sitio.
 - **Sí puedes pedir el orden por precio más bajo**, que ellos permiten a propósito: `?sort=low_price` en Urbania y `/*-ordenado-por-precio-ascendente*` en Adondevivir, hasta la página 5 (de la 6 en adelante está prohibido). Es el mismo truco del grupo `retail`: una consulta por distrito, tipo y operación trae primero lo más barato.

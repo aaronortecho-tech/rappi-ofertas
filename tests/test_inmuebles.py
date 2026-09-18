@@ -73,6 +73,7 @@ def test_scotia_first_read_only_stores_then_reports_new_and_drops(monkeypatch):
     lists = [scotia_text_rows(SCOTIA, minimum=1)]
     monkeypatch.setattr(inmuebles, 'scotia_rows', lambda raw: lists[-1])
     monkeypatch.setattr(inmuebles, 'scan_nexo', lambda *a, **k: ([], []))
+    monkeypatch.setattr(inmuebles.infocasas, 'scan_listings', lambda *a, **k: ([], 0, None))
 
     class Client:
         def __init__(self, **kw): pass
@@ -80,7 +81,7 @@ def test_scotia_first_read_only_stores_then_reports_new_and_drops(monkeypatch):
 
     state = CatalogState()
     deals, reports = scan_inmuebles(state, DAY * 86400, Client)
-    assert not deals and reports == [('Scotiabank/adjudicados', 4, None)]
+    assert not deals and reports == [('Infocasas/avisos recientes', 0, None), ('Scotiabank/adjudicados', 4, None)]
     later = scotia_text_rows(SCOTIA.replace('438,300.00', '380,000.00'), minimum=1)
     later['9999'] = dict(later['5679'], valor=90000.0)
     lists.append(later)

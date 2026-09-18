@@ -63,6 +63,7 @@ jobs:
           TIPO_CAMBIO: ${{ vars.TIPO_CAMBIO }}
           LECTURAS_INMUEBLES: ${{ vars.LECTURAS_INMUEBLES }}
           INMUEBLES_DISTRITOS: ${{ vars.INMUEBLES_DISTRITOS }}
+          PAGINAS_INFOCASAS: ${{ vars.PAGINAS_INFOCASAS }}
           MODO_PRUEBA: ${{ github.event_name == 'workflow_dispatch' && inputs.prueba && 'si' || 'no' }}
         run: python -m monitor.catalogs --grupo inmuebles
       - name: Guardar memoria de autos e inmuebles
