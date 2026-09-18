@@ -5,6 +5,7 @@ Solo datos públicos: no compra, no inicia sesión y no evade bloqueos.
 from __future__ import annotations
 
 import argparse
+from copy import deepcopy
 from dataclasses import dataclass, replace
 from datetime import datetime, date
 from decimal import Decimal, InvalidOperation, ROUND_FLOOR
@@ -79,7 +80,10 @@ class CatalogState(State):
 
     def _serialize(self, include_saved_at=True):
         data = super()._serialize(include_saved_at)
-        data.update(history=self.history, cursors=self.cursors, flight_alerts=self.flight_alerts)
+        # State conserva esta instantánea para detectar cambios. No compartir los
+        # diccionarios mutables o una ronda sin avisos perdería su historial nuevo.
+        data.update(history=deepcopy(self.history), cursors=deepcopy(self.cursors),
+                    flight_alerts=deepcopy(self.flight_alerts))
         return data
 
     def observe(self, deal, now):

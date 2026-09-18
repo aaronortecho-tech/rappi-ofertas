@@ -135,3 +135,16 @@ def test_currency_class_and_date_change_comparison_identity():
                     sky().replace('"economy"', '"business"'),
                     sky().replace('2026-12-07', '2026-12-08')]:
         assert sky_fares(changed, date(2026,9,17))[0].history_key != original.history_key
+
+def test_existing_state_saves_history_even_without_notifications(tmp_path):
+    path = tmp_path / 'viajes.json'
+    state = CatalogState(); state.save(path, NOW - 86400)
+    loaded = CatalogState.load(path)
+    assert not loaded.changed()
+    assert observe_flight(loaded, fare(), NOW) is None
+    loaded.prune(NOW, 336)
+    assert loaded.changed() and loaded.save(path, NOW)
+    assert len(CatalogState.load(path).history) == 1
+    assert not loaded.changed()
+    loaded.cursors['test'] = 3
+    assert loaded.changed()
