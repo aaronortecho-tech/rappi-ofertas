@@ -116,6 +116,22 @@ def test_scan_persists_initial_history_without_false_discount():
     assert not deals and reports == [('JetSMART/tarifas desde Lima', 2, None)]
     assert len(state.history) == 2
 
+@pytest.mark.parametrize('pages, count, failed', [
+    (['<title>JetSMART</title>', jet()], 2, False),
+    (['<title>JetSMART</title>', '<title>JetSMART</title>', jet()], 0, True),
+])
+def test_light_jetsmart_page_is_read_once_more_then_reported(pages, count, failed):
+    calls = []
+    class Client:
+        user_agent = 'Mozilla/5.0'
+        def __init__(self, **kw): pass
+        def get(self, url):
+            if url.endswith('robots.txt'): return 'User-agent: *\nDisallow: /booking'
+            calls.append(url)
+            return pages[len(calls) - 1]
+    _, reports = scan_flights(CatalogState(), NOW, Client, [('JetSMART', JET_URL, jetsmart_fares)])
+    assert len(calls) == 2 and reports[0][1] == count and bool(reports[0][2]) == failed
+
 def test_sky_spa_robots_is_absence_of_rules_but_explicit_disallow_wins():
     class Client:
         user_agent = 'Mozilla/5.0'

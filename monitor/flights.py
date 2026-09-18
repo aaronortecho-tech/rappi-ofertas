@@ -147,7 +147,12 @@ def scan_flights(state, now, http_factory=HttpClient, sources=None):
                 if not rules.can_fetch(client.user_agent, url): raise ValueError('robots.txt no permite leer esta página')
             elif not sky_shell:
                 raise ValueError('No se pudo verificar robots.txt')
-            observations = parser(client.get(url), today)
+            try: observations = parser(client.get(url), today)
+            except ValueError:
+                # JetSMART alterna al azar entre su portada completa y otra ligera sin el carrusel
+                # de tarifas (misma página, sin bloqueo). Una sola relectura, con la pausa normal,
+                # separa eso de un cambio real de formato, que sigue marcándose como error.
+                observations = parser(client.get(url), today)
             count = len(observations)
             for deal in observations:
                 alert = observe_flight(state, deal, now)
