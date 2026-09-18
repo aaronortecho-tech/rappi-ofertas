@@ -348,6 +348,7 @@
   "3fb8c0fa0630fe5e": 1789753687,
   "3fc12032fb2b4d6b": 1789681692,
   "3fe35c175632c113": 1789701824,
+  "4065a16ac5cdea93": 1789771724,
   "409dd67cf9e22ef2": 1789753687,
   "40aef7158d544cfc": 1789766556,
   "40c1199a48fc893e": 1789730575,
@@ -1398,7 +1399,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {},
- "saved_at": 1789770156,
+ "saved_at": 1789771724,
  "history": {
   "a5fb4080713373ee": [
    [
@@ -2156,12 +2157,6 @@
     29.9
    ]
   ],
-  "1050f49772184a60": [
-   [
-    20713,
-    49.0
-   ]
-  ],
   "4e6eaf8353665f31": [
    [
     20713,
@@ -2658,12 +2653,6 @@
    [
     20713,
     369.0
-   ]
-  ],
-  "c7445604c141b8b9": [
-   [
-    20713,
-    39.0
    ]
   ],
   "e893e011b5e1c338": [
@@ -3938,12 +3927,6 @@
     41.9
    ]
   ],
-  "24c2b41e736de0ac": [
-   [
-    20713,
-    21.0
-   ]
-  ],
   "4d1a1bbf8bb46289": [
    [
     20713,
@@ -4472,12 +4455,6 @@
     999.0
    ]
   ],
-  "8d3b3dc4ab5571bd": [
-   [
-    20713,
-    119.0
-   ]
-  ],
   "8b8ce7ad7663b4b4": [
    [
     20713,
@@ -4686,12 +4663,6 @@
    [
     20713,
     64.9
-   ]
-  ],
-  "72593973fe14333d": [
-   [
-    20713,
-    35.9
    ]
   ],
   "1917dce8a0b5d545": [
@@ -5016,12 +4987,6 @@
    [
     20713,
     38.0
-   ]
-  ],
-  "0495c8c76a402e14": [
-   [
-    20713,
-    98.9
    ]
   ],
   "f4e9ff411b48f19d": [
@@ -5352,12 +5317,6 @@
    [
     20713,
     39.0
-   ]
-  ],
-  "5a385b0c063f28ee": [
-   [
-    20713,
-    166.5
    ]
   ],
   "6d77586b3219bca9": [
@@ -5738,12 +5697,6 @@
     1098.9
    ]
   ],
-  "ae87c95833aa4263": [
-   [
-    20713,
-    139.0
-   ]
-  ],
   "c1c58949ac2e9331": [
    [
     20713,
@@ -5916,12 +5869,6 @@
    [
     20713,
     39.9
-   ]
-  ],
-  "63d7c58c5b56409a": [
-   [
-    20713,
-    149.0
    ]
   ],
   "b2f6e049bf68d133": [
@@ -6690,6 +6637,96 @@
    [
     20713,
     77.0
+   ]
+  ],
+  "1050f49772184a60": [
+   [
+    20713,
+    49.0
+   ],
+   [
+    20714,
+    49.0
+   ]
+  ],
+  "c7445604c141b8b9": [
+   [
+    20713,
+    39.0
+   ],
+   [
+    20714,
+    39.0
+   ]
+  ],
+  "24c2b41e736de0ac": [
+   [
+    20713,
+    21.0
+   ],
+   [
+    20714,
+    21.0
+   ]
+  ],
+  "8d3b3dc4ab5571bd": [
+   [
+    20713,
+    119.0
+   ],
+   [
+    20714,
+    119.0
+   ]
+  ],
+  "72593973fe14333d": [
+   [
+    20713,
+    35.9
+   ],
+   [
+    20714,
+    35.9
+   ]
+  ],
+  "0495c8c76a402e14": [
+   [
+    20713,
+    98.9
+   ],
+   [
+    20714,
+    98.9
+   ]
+  ],
+  "5a385b0c063f28ee": [
+   [
+    20713,
+    166.5
+   ],
+   [
+    20714,
+    166.5
+   ]
+  ],
+  "ae87c95833aa4263": [
+   [
+    20713,
+    139.0
+   ],
+   [
+    20714,
+    139.0
+   ]
+  ],
+  "63d7c58c5b56409a": [
+   [
+    20713,
+    149.0
+   ],
+   [
+    20714,
+    149.0
    ]
   ],
   "270d67daddda40dc": [
@@ -57469,17 +57506,293 @@
     20714,
     109.0
    ]
+  ],
+  "193fb5df87f8b994": [
+   [
+    20714,
+    44.99
+   ]
+  ],
+  "fe433b1296615ac6": [
+   [
+    20714,
+    41.9
+   ]
+  ],
+  "58f409c62e04163a": [
+   [
+    20714,
+    44.99
+   ]
+  ],
+  "5467103c3563230f": [
+   [
+    20714,
+    41.9
+   ]
+  ],
+  "a1cf455299ece12d": [
+   [
+    20714,
+    31.8
+   ]
+  ],
+  "67aa1583038859e6": [
+   [
+    20714,
+    64.9
+   ]
+  ],
+  "bb3fb8e01a46b5f4": [
+   [
+    20714,
+    44.99
+   ]
+  ],
+  "d336b7f727b779f0": [
+   [
+    20714,
+    41.9
+   ]
+  ],
+  "141d5287a9b87d8a": [
+   [
+    20714,
+    44.99
+   ]
+  ],
+  "deb9096b7276798d": [
+   [
+    20714,
+    41.9
+   ]
+  ],
+  "1f2dd8efcc781d30": [
+   [
+    20714,
+    44.99
+   ]
+  ],
+  "8c72255a4aafe916": [
+   [
+    20714,
+    41.9
+   ]
+  ],
+  "00cd14bc22d4d795": [
+   [
+    20714,
+    44.99
+   ]
+  ],
+  "bd0690447985761b": [
+   [
+    20714,
+    41.9
+   ]
+  ],
+  "34a32e781d5d8e4b": [
+   [
+    20714,
+    44.99
+   ]
+  ],
+  "6d1f8f4fbfbc4b02": [
+   [
+    20714,
+    41.9
+   ]
+  ],
+  "ae87f946fbb74fa1": [
+   [
+    20714,
+    24.9
+   ]
+  ],
+  "82a49d76fc50de70": [
+   [
+    20714,
+    199.0
+   ]
+  ],
+  "7c755ee2c3ae8f47": [
+   [
+    20714,
+    49.9
+   ]
+  ],
+  "1e0272dcb7426c14": [
+   [
+    20714,
+    29.9
+   ]
+  ],
+  "5e54e992f724151c": [
+   [
+    20714,
+    34.9
+   ]
+  ],
+  "a1b6b269f8f47ad8": [
+   [
+    20714,
+    30.0
+   ]
+  ],
+  "6fa2f0f5ce69cce7": [
+   [
+    20714,
+    159.0
+   ]
+  ],
+  "ff4ed7c064edd638": [
+   [
+    20714,
+    129.0
+   ]
+  ],
+  "f6c422cec8ef678a": [
+   [
+    20714,
+    49.9
+   ]
+  ],
+  "b3b80d9700d43c78": [
+   [
+    20714,
+    739.0
+   ]
+  ],
+  "e09136248beef01a": [
+   [
+    20714,
+    3499.0
+   ]
+  ],
+  "546060f8a9925b86": [
+   [
+    20714,
+    100.0
+   ]
+  ],
+  "329fddfa6cbbe787": [
+   [
+    20714,
+    3169.0
+   ]
+  ],
+  "3df5d399957e4ceb": [
+   [
+    20714,
+    21.8
+   ]
+  ],
+  "ab5ad2834d2b2407": [
+   [
+    20714,
+    185.0
+   ]
+  ],
+  "5ce913cffb3ac1db": [
+   [
+    20714,
+    348.0
+   ]
+  ],
+  "254ae2f20cf33179": [
+   [
+    20714,
+    19.9
+   ]
+  ],
+  "3d6295e78a28f71c": [
+   [
+    20714,
+    359.0
+   ]
+  ],
+  "66837416d1b8f799": [
+   [
+    20714,
+    35.0
+   ]
+  ],
+  "44850dffa44eceb7": [
+   [
+    20714,
+    22.0
+   ]
+  ],
+  "ed97c147109c15a2": [
+   [
+    20714,
+    799.0
+   ]
+  ],
+  "46ac4781eae6d5b7": [
+   [
+    20714,
+    19.9
+   ]
+  ],
+  "c033388b50e172fa": [
+   [
+    20714,
+    449.0
+   ]
+  ],
+  "52370dbb649c62dd": [
+   [
+    20714,
+    449.0
+   ]
+  ],
+  "af5f7733eb3bb114": [
+   [
+    20714,
+    1019.0
+   ]
+  ],
+  "1ac374efbf8b5fc8": [
+   [
+    20714,
+    22.0
+   ]
+  ],
+  "fc13ca1c2778f2c4": [
+   [
+    20714,
+    289.0
+   ]
+  ],
+  "c0550ca3d69cf37a": [
+   [
+    20714,
+    273.9
+   ]
+  ],
+  "dcd4e2c277c7d850": [
+   [
+    20714,
+    25.0
+   ]
+  ],
+  "9fc12884c9a8304d": [
+   [
+    20714,
+    239.0
+   ]
   ]
  },
  "cursors": {
-  "9bfa2407f381d8dd": 62,
-  "69fd2cd5b66e7251": 6,
-  "44f1f210a5a2a098": 5,
-  "fc706267fa6ddabf": 8,
-  "e9462275ce0bce31": 61,
-  "8fa59250c23fe33c": 10,
-  "4e224dd456e94aad": 10,
-  "143e94a648fe8233": 2
+  "9bfa2407f381d8dd": 63,
+  "69fd2cd5b66e7251": 7,
+  "44f1f210a5a2a098": 6,
+  "fc706267fa6ddabf": 9,
+  "e9462275ce0bce31": 62,
+  "8fa59250c23fe33c": 11,
+  "4e224dd456e94aad": 11,
+  "143e94a648fe8233": 3
  },
  "flight_alerts": {},
  "datos": {
@@ -57501,7 +57814,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "739b47feaaf1bac1": {
     "oferta": {
@@ -57520,7 +57833,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "d9b516d5c56c1a4b": {
     "oferta": {
@@ -57539,7 +57852,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "e038f52981e25b21": {
     "oferta": {
@@ -57558,7 +57871,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "b3c36af80398223a": {
     "oferta": {
@@ -57577,7 +57890,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "5eda93696560bd6e": {
     "oferta": {
@@ -57596,7 +57909,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "68e7f9263fde09cb": {
     "oferta": {
@@ -57615,7 +57928,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "6220840ec278dbbb": {
     "oferta": {
@@ -57634,7 +57947,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "f686ecce62d0015e": {
     "oferta": {
@@ -57653,7 +57966,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "be45c992d7d69c7e": {
     "oferta": {
@@ -57672,7 +57985,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "b8bcbe46c81c4add": {
     "oferta": {
@@ -57691,7 +58004,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "918c612b8ba1b984": {
     "oferta": {
@@ -57710,7 +58023,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "7ed424051c4240cf": {
     "oferta": {
@@ -57729,7 +58042,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "d7c434ab1830873f": {
     "oferta": {
@@ -57748,7 +58061,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "6402bdf2c1ca5a8f": {
     "oferta": {
@@ -57767,7 +58080,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "30827f5edab18fde": {
     "oferta": {
@@ -57786,7 +58099,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "a355e3c6500078c1": {
     "oferta": {
@@ -57805,7 +58118,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "16d5fd4c3caa3ba8": {
     "oferta": {
@@ -57824,7 +58137,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "82d1ce6f7db037fb": {
     "oferta": {
@@ -57843,7 +58156,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "dbb9612f393b28a2": {
     "oferta": {
@@ -57862,7 +58175,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "0b61e0ada8f30a6b": {
     "oferta": {
@@ -57881,7 +58194,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "7d462c5bd8063982": {
     "oferta": {
@@ -57900,7 +58213,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "cc03f84c4268a935": {
     "oferta": {
@@ -57938,7 +58251,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "a70ba58c2b3560ae": {
     "oferta": {
@@ -57957,7 +58270,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "ddc2237ccad6cf2a": {
     "oferta": {
@@ -58012,7 +58325,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789768096
+    "visto": 1789771724
    },
    "efdbd12e1701aae2": {
     "oferta": {
@@ -58031,7 +58344,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "f8db0528c2ef0b5f": {
     "oferta": {
@@ -58050,7 +58363,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "0ed906f1c2f398e5": {
     "oferta": {
@@ -58069,7 +58382,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "624b1a987c59c444": {
     "oferta": {
@@ -58088,7 +58401,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "f74d2a70322afadd": {
     "oferta": {
@@ -58107,7 +58420,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "8b928e185d716ace": {
     "oferta": {
@@ -58126,7 +58439,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "b547609ac71bd319": {
     "oferta": {
@@ -58145,7 +58458,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "96be2fb7ff60f628": {
     "oferta": {
@@ -58164,7 +58477,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "7628f2e2325cd746": {
     "oferta": {
@@ -58183,7 +58496,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "102d4e72ce13e82b": {
     "oferta": {
@@ -58202,14 +58515,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "5d86d2733b8f3f6c": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "123890398",
      "name": "Rack Movil para TV 32 a 55 Pulgadas Giratorio Ajustable",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/123890396/Rack-Movil-para-TV-32-a-55-Pulgadas-Giratorio-Ajustable?exp=so_com",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/123890396/Rack-Movil-para-TV-32-a-55-Pulgadas-Giratorio-Ajustable",
      "pct": 66,
      "price": 22.9,
      "regular": 69.0,
@@ -58221,7 +58534,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "e60ac16a0ea35bf8": {
     "oferta": {
@@ -58240,7 +58553,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "c34294eb534426cb": {
     "oferta": {
@@ -58259,7 +58572,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "f4148722e4d1540d": {
     "oferta": {
@@ -58278,7 +58591,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "ae71231e1df176b0": {
     "oferta": {
@@ -58297,7 +58610,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "efc5aa79407f82eb": {
     "oferta": {
@@ -58316,7 +58629,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "322c7b7c8b310c62": {
     "oferta": {
@@ -58335,7 +58648,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "94a7db6c322dd56a": {
     "oferta": {
@@ -58354,7 +58667,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "4139b3c6ab59c7e2": {
     "oferta": {
@@ -59203,7 +59516,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "257fc85c2ea9e8ac": {
     "oferta": {
@@ -59222,7 +59535,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "e38dcf938bc15465": {
     "oferta": {
@@ -59279,7 +59592,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "c60d3672303b8aae": {
     "oferta": {
@@ -59298,7 +59611,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "6e67282176a77a0f": {
     "oferta": {
@@ -59317,7 +59630,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "dd4a4217179d8d93": {
     "oferta": {
@@ -59336,7 +59649,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "79979c1c3c5bca76": {
     "oferta": {
@@ -59355,7 +59668,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "e11eafff6da08422": {
     "oferta": {
@@ -59447,7 +59760,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "68aba2920cceb5d4": {
     "oferta": {
@@ -59703,7 +60016,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "f70cf8cc22ccb33c": {
     "oferta": {
@@ -59794,7 +60107,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "4f717c2077d7458e": {
     "oferta": {
@@ -59832,7 +60145,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "50cc63849064fb28": {
     "oferta": {
@@ -59851,7 +60164,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "b413faa35581d649": {
     "oferta": {
@@ -59870,7 +60183,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "18edda1b7a7dbc6d": {
     "oferta": {
@@ -59889,7 +60202,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "aaf43821f68c0f49": {
     "oferta": {
@@ -59908,7 +60221,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "485004daaf8f7a02": {
     "oferta": {
@@ -59927,7 +60240,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "3574b69be5e17484": {
     "oferta": {
@@ -59946,7 +60259,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "3db5b7e68ee6e20a": {
     "oferta": {
@@ -59965,7 +60278,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "cdd80a4fb326daba": {
     "oferta": {
@@ -59984,7 +60297,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "3dc72f63e8da538e": {
     "oferta": {
@@ -60003,7 +60316,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "3425915bfad3d9fe": {
     "oferta": {
@@ -60022,7 +60335,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "fdcb8a9f8de28ecd": {
     "oferta": {
@@ -60041,7 +60354,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "311110594879065a": {
     "oferta": {
@@ -60060,7 +60373,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "b1ab9ddab89f43e1": {
     "oferta": {
@@ -60079,7 +60392,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "1cedd76119bbf46b": {
     "oferta": {
@@ -60098,7 +60411,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "fe1df1575c70fede": {
     "oferta": {
@@ -60117,7 +60430,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "176db33df67f780c": {
     "oferta": {
@@ -60136,7 +60449,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "9cb27553e4979e33": {
     "oferta": {
@@ -60155,14 +60468,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "b36d4257450d4cf3": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "132929045",
      "name": "Aspiradora Anti-Ácaros con Luz UV - Inalámbrico - RECARGABLE",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/132929044/Aspiradora-Anti-Acaros-con-Luz-UV-Inalambrico-RECARGABLE?exp=so_com",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/132929044/Aspiradora-Anti-Acaros-con-Luz-UV-Inalambrico-RECARGABLE",
      "pct": 60,
      "price": 59.9,
      "regular": 150.0,
@@ -60174,14 +60487,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "704b1f41e684e140": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "125783470",
      "name": "Maquina RAF para hacer 16 DONUTS exclusivo",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/125783464/Maquina-RAF-para-hacer-16-DONUTS-exclusivo?exp=so_com",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/125783464/Maquina-RAF-para-hacer-16-DONUTS-exclusivo",
      "pct": 60,
      "price": 159.9,
      "regular": 400.0,
@@ -60193,14 +60506,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "1450740958c88a09": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "114211330",
      "name": "Base grueso a Rueda regulable para Lavadora 200kg",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/114211329/base-grueso-a-rueda-regulable-para-lavadora-200kg?exp=so_com",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/114211329/base-grueso-a-rueda-regulable-para-lavadora-200kg",
      "pct": 60,
      "price": 85.99,
      "regular": 220.0,
@@ -60212,14 +60525,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "db1f3bb4959f7228": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "115955350",
      "name": "Base grueso Con Ruedas Para Cocina refri 200kg",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/115955348/base-grueso-con-ruedas-para-cocina-refri-200kg?exp=so_com",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/115955348/base-grueso-con-ruedas-para-cocina-refri-200kg",
      "pct": 60,
      "price": 85.99,
      "regular": 220.0,
@@ -60231,14 +60544,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "76f36721ef1ae07a": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "116655810",
      "name": "Funda de Lavadora 10-15 Kg Aleatorio Impermeable",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/116655809/Funda-de-Lavadora-10-15-Kg-Aleatorio-Impermeable?exp=so_com",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/116655809/Funda-de-Lavadora-10-15-Kg-Aleatorio-Impermeable",
      "pct": 64,
      "price": 35.0,
      "regular": 99.0,
@@ -60250,14 +60563,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "e1dc5daa62f543c2": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "125931833",
      "name": "COCINA ELECTRICA 2HORNILLAS BLANCO",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/125931832/COCINA-ELECTRICA-2HORNILLAS-BLANCO?exp=so_com",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/125931832/COCINA-ELECTRICA-2HORNILLAS-BLANCO",
      "pct": 64,
      "price": 49.9,
      "regular": 141.0,
@@ -60269,7 +60582,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "9ba9b7e5047d0ec9": {
     "oferta": {
@@ -60285,9 +60598,10 @@
      "category": "Electrodomésticos",
      "previous_min": 169.0,
      "currency": "PEN",
-     "reference_kind": "published"
+     "reference_kind": "published",
+     "note": ""
     },
-    "visto": 1789766556
+    "visto": 1789771724
    },
    "7d2742825b0255b0": {
     "oferta": {
@@ -60303,9 +60617,10 @@
      "category": "Electrodomésticos",
      "previous_min": 35.0,
      "currency": "PEN",
-     "reference_kind": "published"
+     "reference_kind": "published",
+     "note": ""
     },
-    "visto": 1789766556
+    "visto": 1789771724
    },
    "bc6f4c7aa95403d0": {
     "oferta": {
@@ -60321,9 +60636,10 @@
      "category": "Electrodomésticos",
      "previous_min": 217.9,
      "currency": "PEN",
-     "reference_kind": "published"
+     "reference_kind": "published",
+     "note": ""
     },
-    "visto": 1789766556
+    "visto": 1789771724
    },
    "8784c53013c8cafe": {
     "oferta": {
@@ -60576,7 +60892,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "1a36bdbc5cd35149": {
     "oferta": {
@@ -60856,7 +61172,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "e93ee1b3a5d81c60": {
     "oferta": {
@@ -60894,7 +61210,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "eff66833de204c56": {
     "oferta": {
@@ -60913,7 +61229,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "2dcd5cf74df823ee": {
     "oferta": {
@@ -60932,7 +61248,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "8f3f436be925f511": {
     "oferta": {
@@ -60951,7 +61267,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "335910b8f19cc168": {
     "oferta": {
@@ -60970,7 +61286,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "1be341d9b27a703b": {
     "oferta": {
@@ -60989,7 +61305,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "dd73110032c8e3ab": {
     "oferta": {
@@ -61008,7 +61324,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "99389a1a84a9629b": {
     "oferta": {
@@ -61027,7 +61343,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "6ca2e4e966214717": {
     "oferta": {
@@ -61046,7 +61362,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "b0ea97f6cdcb6449": {
     "oferta": {
@@ -61065,7 +61381,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "b1634a3e1d2a8b8b": {
     "oferta": {
@@ -61084,7 +61400,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "92c55babddbfa211": {
     "oferta": {
@@ -61103,7 +61419,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "08f01c225822f6c4": {
     "oferta": {
@@ -61122,7 +61438,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "7655c39a136318e1": {
     "oferta": {
@@ -61141,7 +61457,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "066fa0278227c5e5": {
     "oferta": {
@@ -61160,7 +61476,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "838aee28b2cad85b": {
     "oferta": {
@@ -61179,7 +61495,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "9433feb167eef278": {
     "oferta": {
@@ -61198,7 +61514,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "d0b885a0fef99e94": {
     "oferta": {
@@ -61217,7 +61533,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "dd55ab137a5b2f43": {
     "oferta": {
@@ -61236,7 +61552,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "b663a932f9354c40": {
     "oferta": {
@@ -61255,7 +61571,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "0ce7506118391d14": {
     "oferta": {
@@ -61274,7 +61590,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "c588bcc9f5d6259c": {
     "oferta": {
@@ -61293,7 +61609,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "ce22b37825d88141": {
     "oferta": {
@@ -61312,7 +61628,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "915c1f22e035e002": {
     "oferta": {
@@ -61331,7 +61647,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "8cb0a27475c4c081": {
     "oferta": {
@@ -61350,7 +61666,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "6f293836d6f7873a": {
     "oferta": {
@@ -61369,7 +61685,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "1549cd1732c801dc": {
     "oferta": {
@@ -61388,7 +61704,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "dbc99059ae51e453": {
     "oferta": {
@@ -61407,7 +61723,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "f7f2076ad2034a53": {
     "oferta": {
@@ -61444,7 +61760,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "7584522dd59a9c80": {
     "oferta": {
@@ -61463,7 +61779,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "82268a1a69c50cd1": {
     "oferta": {
@@ -61715,9 +62031,10 @@
      "category": "Hogar",
      "previous_min": 59.0,
      "currency": "PEN",
-     "reference_kind": "published"
+     "reference_kind": "published",
+     "note": ""
     },
-    "visto": 1789766556
+    "visto": 1789771724
    },
    "2a581abdf6657840": {
     "oferta": {
@@ -61739,10 +62056,10 @@
    },
    "f340d3f2f1ad8f9b": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "138696404",
      "name": "Set de 12 Mini Velas decorativas Navideñas",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/138696403/Set-de-12-Mini-Velas-decorativas-Navidenas",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/138696403/Set-de-12-Mini-Velas-decorativas-Navidenas?exp=so_com",
      "pct": 60,
      "price": 36.0,
      "regular": 90.0,
@@ -61751,9 +62068,10 @@
      "category": "Hogar",
      "previous_min": 36.0,
      "currency": "PEN",
-     "reference_kind": "published"
+     "reference_kind": "published",
+     "note": ""
     },
-    "visto": 1789766556
+    "visto": 1789771724
    },
    "023383c96c76f273": {
     "oferta": {
@@ -61866,10 +62184,10 @@
    },
    "4f43e34540e0cf70": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "133878677",
      "name": "Florero Decorativo Modelo Axis Lineal Mediano Azul Nórdico",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/133878676/Florero-Decorativo-Modelo-Axis-Lineal-Mediano-Azul-Nordico",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/133878676/Florero-Decorativo-Modelo-Axis-Lineal-Mediano-Azul-Nordico?exp=so_com",
      "pct": 62,
      "price": 16.9,
      "regular": 44.9,
@@ -61878,9 +62196,10 @@
      "category": "Hogar",
      "previous_min": 16.9,
      "currency": "PEN",
-     "reference_kind": "published"
+     "reference_kind": "published",
+     "note": ""
     },
-    "visto": 1789766556
+    "visto": 1789771724
    },
    "e02d4d0d90c9fbd4": {
     "oferta": {
@@ -62120,7 +62439,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "a54ccaa0e65f3860": {
     "oferta": {
@@ -62139,7 +62458,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "de64ff082ad084f4": {
     "oferta": {
@@ -62158,7 +62477,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "abd29322ecba0804": {
     "oferta": {
@@ -62177,7 +62496,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "7494c0d6b65d5b78": {
     "oferta": {
@@ -62196,7 +62515,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "909dacb0dcd9481d": {
     "oferta": {
@@ -62215,7 +62534,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "e35d72301afadf93": {
     "oferta": {
@@ -62234,7 +62553,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "079c6d1a648d8afb": {
     "oferta": {
@@ -62253,7 +62572,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "1a7d7fda691c2f73": {
     "oferta": {
@@ -62272,7 +62591,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "24a889c90ffa5cb5": {
     "oferta": {
@@ -62291,7 +62610,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "b7cdd3466334b2ad": {
     "oferta": {
@@ -62310,7 +62629,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "37ad9e405af6a551": {
     "oferta": {
@@ -62329,7 +62648,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "e77cc9492a98bd4d": {
     "oferta": {
@@ -62348,7 +62667,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "65a7b8c345accb7b": {
     "oferta": {
@@ -62367,7 +62686,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "273373bb7c5471c2": {
     "oferta": {
@@ -62386,7 +62705,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "23071dde41e95cf2": {
     "oferta": {
@@ -62405,7 +62724,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "8205292db04e9b32": {
     "oferta": {
@@ -62424,7 +62743,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "37061cdcf491e595": {
     "oferta": {
@@ -62443,7 +62762,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "b0182bfafd372b85": {
     "oferta": {
@@ -62462,7 +62781,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "e713834465303b6e": {
     "oferta": {
@@ -62499,7 +62818,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "190a8e91e054a4ae": {
     "oferta": {
@@ -62585,11 +62904,12 @@
      "seller": "South Mountain Import",
      "condition": "Precio web; confirmar stock y envío",
      "category": "Tecnología",
-     "previous_min": null,
+     "previous_min": 30.9,
      "currency": "PEN",
-     "reference_kind": "published"
+     "reference_kind": "published",
+     "note": ""
     },
-    "visto": 1789766556
+    "visto": 1789771724
    },
    "9a31370043edd2f2": {
     "oferta": {
@@ -62928,11 +63248,12 @@
      "seller": "Odemis Sac",
      "condition": "Precio web; confirmar stock y envío",
      "category": "Tecnología",
-     "previous_min": 509.0,
+     "previous_min": 495.0,
      "currency": "PEN",
-     "reference_kind": "published"
+     "reference_kind": "published",
+     "note": ""
     },
-    "visto": 1789766556
+    "visto": 1789771724
    },
    "804ac34f0eb65ef6": {
     "oferta": {
@@ -62964,11 +63285,12 @@
      "seller": "Cubox",
      "condition": "Precio web; confirmar stock y envío",
      "category": "Tecnología",
-     "previous_min": null,
+     "previous_min": 166.3,
      "currency": "PEN",
-     "reference_kind": "published"
+     "reference_kind": "published",
+     "note": ""
     },
-    "visto": 1789766556
+    "visto": 1789771724
    },
    "320aa7f514f89bb6": {
     "oferta": {
@@ -63000,11 +63322,12 @@
      "seller": "Todoperu",
      "condition": "Precio web; confirmar stock y envío",
      "category": "Tecnología",
-     "previous_min": null,
+     "previous_min": 345.0,
      "currency": "PEN",
-     "reference_kind": "published"
+     "reference_kind": "published",
+     "note": ""
     },
-    "visto": 1789766556
+    "visto": 1789771724
    },
    "0db4527a68e6ca84": {
     "oferta": {
@@ -63056,9 +63379,10 @@
      "category": "Tecnología",
      "previous_min": 99.9,
      "currency": "PEN",
-     "reference_kind": "published"
+     "reference_kind": "published",
+     "note": ""
     },
-    "visto": 1789766556
+    "visto": 1789771724
    },
    "348ae0fc13647692": {
     "oferta": {
@@ -63162,11 +63486,12 @@
      "seller": "Santofa Electronics",
      "condition": "Precio web; confirmar stock y envío",
      "category": "Tecnología",
-     "previous_min": null,
+     "previous_min": 59.99,
      "currency": "PEN",
-     "reference_kind": "published"
+     "reference_kind": "published",
+     "note": ""
     },
-    "visto": 1789766556
+    "visto": 1789771724
    },
    "6541fe20cc5495ac": {
     "oferta": {
@@ -63224,10 +63549,10 @@
    },
    "b8f1b2257fe94d83": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "140865844",
      "name": "Mesas Candy Bar Decoracion 4 Pzs Estructura Metalicas Fiesta",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/140865843/Mesas-Candy-Bar-Decoracion-4-Pzs-Estructura-Metalicas-Fiesta?exp=so_com",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/140865843/Mesas-Candy-Bar-Decoracion-4-Pzs-Estructura-Metalicas-Fiesta",
      "pct": 60,
      "price": 119.0,
      "regular": 299.0,
@@ -63239,7 +63564,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "e4be48fc9ae9efc9": {
     "oferta": {
@@ -63258,7 +63583,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "af15bdb65e6183b5": {
     "oferta": {
@@ -63313,7 +63638,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "c3691c46ab65971a": {
     "oferta": {
@@ -63640,7 +63965,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "0892c23ec76af26e": {
     "oferta": {
@@ -63716,10 +64041,10 @@
    },
    "260a18f3c7aaebe0": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "135616251",
-     "name": "Campana de Pared 60 cm 3 Velocidades Inox CM6018PIY0",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/135616250/Campana-de-Pared-60-cm-3-Velocidades-Inox-Mabe-CM6018PIY0",
+     "name": "Campana de Pared 60 cm 3 Velocidades Inox Mabe CM6018PIY0",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/135616250/Campana-de-Pared-60-cm-3-Velocidades-Inox-Mabe-CM6018PIY0?exp=so_com",
      "pct": 60,
      "price": 498.9,
      "regular": 1249.0,
@@ -63731,14 +64056,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "5a7c466c32d57c48": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "118932985",
-     "name": "Accesorio tapa licuadora clásica 4903",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/118932984/Accesorio-tapa-licuadora-clasica-Oster-4903",
+     "name": "Accesorio tapa licuadora clásica Oster 4903",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/118932984/Accesorio-tapa-licuadora-clasica-Oster-4903?exp=so_com",
      "pct": 60,
      "price": 20.0,
      "regular": 50.0,
@@ -63750,7 +64075,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789768096
+    "visto": 1789771724
    },
    "5bc1430e2e39bb08": {
     "oferta": {
@@ -63784,9 +64109,10 @@
      "category": "Electrodomésticos",
      "previous_min": 118.9,
      "currency": "PEN",
-     "reference_kind": "published"
+     "reference_kind": "published",
+     "note": ""
     },
-    "visto": 1789766556
+    "visto": 1789771724
    },
    "21e61e7f66bbb9bc": {
     "oferta": {
@@ -63827,10 +64153,10 @@
    },
    "8ef637c8a62dd59d": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "148873999",
-     "name": "OLLA ARROCERA ANTIADHERENTE CKSTRC1700W",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/148873998/OLLA-ARROCERA-OSTER-ANTIADHERENTE-CKSTRC1700W",
+     "name": "OLLA ARROCERA OSTER ANTIADHERENTE CKSTRC1700W",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/148873998/OLLA-ARROCERA-OSTER-ANTIADHERENTE-CKSTRC1700W?exp=so_com",
      "pct": 62,
      "price": 186.0,
      "regular": 499.0,
@@ -63842,7 +64168,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "339128c5313ab776": {
     "oferta": {
@@ -63864,10 +64190,10 @@
    },
    "d2feb903470a884a": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "114310570",
-     "name": "Hervidor Eléctrico Oster Automático - 1.7 Litros - Rojo",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/114310568/Hervidor-Electrico-Oster-Automatico-1.7-Litros-Rojo?exp=so_com",
+     "name": "Hervidor Eléctrico Automático - 1.7 Litros - Rojo",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/114310568/Hervidor-Electrico-Oster-Automatico-1.7-Litros-Rojo",
      "pct": 60,
      "price": 119.0,
      "regular": 299.0,
@@ -63876,16 +64202,17 @@
      "category": "Electrodomésticos",
      "previous_min": 119.0,
      "currency": "PEN",
-     "reference_kind": "published"
+     "reference_kind": "published",
+     "note": ""
     },
-    "visto": 1789766556
+    "visto": 1789771724
    },
    "0a13aa3e2199f3c0": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "151040268",
-     "name": "PLANCHA A VAPOR IMACO BLANCA - ETA10",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/151040267/plancha-a-vapor-imaco-blanca-eta10?exp=so_com",
+     "name": "PLANCHA A VAPOR BLANCA - ETA10",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/151040267/plancha-a-vapor-imaco-blanca-eta10",
      "pct": 60,
      "price": 59.0,
      "regular": 149.0,
@@ -63894,9 +64221,10 @@
      "category": "Electrodomésticos",
      "previous_min": 59.0,
      "currency": "PEN",
-     "reference_kind": "published"
+     "reference_kind": "published",
+     "note": ""
     },
-    "visto": 1789766556
+    "visto": 1789771724
    },
    "5985b43b334bbaf4": {
     "oferta": {
@@ -63919,10 +64247,10 @@
    },
    "01423114bd61dc75": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "151040611",
-     "name": "PLANCHA A VAPOR IMACO BLANCA - ETA10",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/151040610/plancha-a-vapor-imaco-blanca-eta10?exp=so_com",
+     "name": "PLANCHA A VAPOR BLANCA - ETA10",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/151040610/plancha-a-vapor-imaco-blanca-eta10",
      "pct": 60,
      "price": 59.0,
      "regular": 149.0,
@@ -63931,16 +64259,17 @@
      "category": "Electrodomésticos",
      "previous_min": 59.0,
      "currency": "PEN",
-     "reference_kind": "published"
+     "reference_kind": "published",
+     "note": ""
     },
-    "visto": 1789766556
+    "visto": 1789771724
    },
    "803015c29c28e167": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "154076615",
      "name": "Batidora Planetaria de 3000W D´Nationalstar Roja",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/154076614/batidora-planetaria-de-3000w-dnationalstar-roja?exp=so_com",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/154076614/batidora-planetaria-de-3000w-dnationalstar-roja",
      "pct": 64,
      "price": 285.0,
      "regular": 799.0,
@@ -63949,9 +64278,10 @@
      "category": "Electrodomésticos",
      "previous_min": 285.0,
      "currency": "PEN",
-     "reference_kind": "published"
+     "reference_kind": "published",
+     "note": ""
     },
-    "visto": 1789766556
+    "visto": 1789771724
    },
    "ba02fec94edcb24f": {
     "oferta": {
@@ -64177,10 +64507,10 @@
    },
    "49d734765adfcbd4": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "120872383",
      "name": "Batidora de mano eléctrica, batidora eléctrica de 7 velocidades",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/120872382/Batidora-de-mano-electrica,-batidora-electrica-de-7-velocidades",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/120872382/Batidora-de-mano-electrica,-batidora-electrica-de-7-velocidades?exp=so_com",
      "pct": 62,
      "price": 29.99,
      "regular": 79.0,
@@ -64192,7 +64522,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "515fafefcdfd544d": {
     "oferta": {
@@ -64317,9 +64647,10 @@
      "category": "Electrodomésticos",
      "previous_min": 37.9,
      "currency": "PEN",
-     "reference_kind": "published"
+     "reference_kind": "published",
+     "note": ""
     },
-    "visto": 1789766556
+    "visto": 1789771724
    },
    "2d51d6b1cd0dfab0": {
     "oferta": {
@@ -64338,7 +64669,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "3160b3c9eed965ec": {
     "oferta": {
@@ -64357,7 +64688,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "668e0c21f09826db": {
     "oferta": {
@@ -64376,7 +64707,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "c95cf2656aa942e8": {
     "oferta": {
@@ -64395,7 +64726,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "f9620eb9e4f8aba2": {
     "oferta": {
@@ -65008,7 +65339,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "643257ec89ba8ca8": {
     "oferta": {
@@ -65027,7 +65358,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "43a5b1f9d935ec6b": {
     "oferta": {
@@ -65046,7 +65377,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "9512bcf9cac4138e": {
     "oferta": {
@@ -65065,7 +65396,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "0336f04f25eacf8c": {
     "oferta": {
@@ -65084,7 +65415,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "5800a7fb731d8361": {
     "oferta": {
@@ -65103,7 +65434,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "27994046ec5f48d8": {
     "oferta": {
@@ -65122,7 +65453,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "26b06f96c88e8962": {
     "oferta": {
@@ -65141,7 +65472,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "960062961c4f8f44": {
     "oferta": {
@@ -65160,7 +65491,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "4c2e69450a2eebe2": {
     "oferta": {
@@ -65179,7 +65510,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "ce4e2b5958644fc6": {
     "oferta": {
@@ -65198,7 +65529,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "f4476fb301011d1f": {
     "oferta": {
@@ -65217,7 +65548,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "399ccb00cc5e2845": {
     "oferta": {
@@ -65236,7 +65567,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "65ff885a8894c5df": {
     "oferta": {
@@ -65255,7 +65586,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "46d41447f5595d15": {
     "oferta": {
@@ -65274,7 +65605,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "9a0f59122926c160": {
     "oferta": {
@@ -65293,7 +65624,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "46246ff7c5ee5c56": {
     "oferta": {
@@ -65312,7 +65643,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "e4ac107f4de4facb": {
     "oferta": {
@@ -65331,7 +65662,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "78315f83f43648c8": {
     "oferta": {
@@ -65350,7 +65681,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "3478ee37448b0ba4": {
     "oferta": {
@@ -65369,7 +65700,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "8842d8c42c05ed16": {
     "oferta": {
@@ -65388,7 +65719,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "68d301fbb25f4cb2": {
     "oferta": {
@@ -65407,7 +65738,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "c9886d3b0de87ce0": {
     "oferta": {
@@ -65426,7 +65757,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "32ece5bf80df3003": {
     "oferta": {
@@ -65445,7 +65776,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "d9e330ec33a655fa": {
     "oferta": {
@@ -65464,7 +65795,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "113db5d5a0c425cf": {
     "oferta": {
@@ -65483,14 +65814,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "e0cbc9f23e572a30": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "145710279",
      "name": "Televisor 75\" QD MiniLed 4k Google TV LT-75KM958",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/145710278/televisor-qled-75-4k-ultra-hd-google-tv-lt-75km958",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/145710278/televisor-qled-75-4k-ultra-hd-google-tv-lt-75km958?exp=so_com",
      "pct": 62,
      "price": 1899.9,
      "regular": 4999.9,
@@ -65502,7 +65833,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "38d63e156ef3722b": {
     "oferta": {
@@ -66338,7 +66669,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "5522ad16add52133": {
     "oferta": {
@@ -66357,7 +66688,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "8fd2fc592b1dafc4": {
     "oferta": {
@@ -66642,7 +66973,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "60d31c7ab51b76e2": {
     "oferta": {
@@ -66684,10 +67015,10 @@
    },
    "b96c83f64c1a8856": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "144333480",
      "name": "Hervidor eléctrico 2.0 litros",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/144333479/Hervidor-electrico-2.0-litros",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/144333479/Hervidor-electrico-2.0-litros?exp=so_com",
      "pct": 62,
      "price": 18.9,
      "regular": 50.0,
@@ -66699,14 +67030,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "814dac9970904963": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "117636322",
      "name": "Cocedor Eléctrico de Huevos 7 Unidades 350W Diseño Gallina 16 x 16 cm Color Aleatorio",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/117636321/Hervidor-electrico-de-huevos-gallina-de-1-a-7-huevos-color-aleatorio",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/117636321/Hervidor-electrico-de-huevos-gallina-de-1-a-7-huevos-color-aleatorio?exp=so_com",
      "pct": 63,
      "price": 17.99,
      "regular": 49.0,
@@ -66718,7 +67049,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "971e69fa9dbab4bc": {
     "oferta": {
@@ -67231,7 +67562,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "3eb54a2a90b7f1ad": {
     "oferta": {
@@ -67250,7 +67581,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "b17c360c47bdb447": {
     "oferta": {
@@ -67269,7 +67600,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "4ed530564170232f": {
     "oferta": {
@@ -67877,7 +68208,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "1fadc5bf3e3fc565": {
     "oferta": {
@@ -68694,14 +69025,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "c0fe912a3eb34c4e": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "149914533",
      "name": "Silla de Escritorio Lux Negro",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/149914532/silla-de-escritorio-lux-negro",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/149914532/silla-de-escritorio-lux-negro?exp=so_com",
      "pct": 60,
      "price": 159.0,
      "regular": 399.9,
@@ -68713,7 +69044,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "bc61b8fe431f2478": {
     "oferta": {
@@ -68770,7 +69101,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "4b1fab76bddda177": {
     "oferta": {
@@ -68789,7 +69120,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "9fc96fe4eaec3b8b": {
     "oferta": {
@@ -68903,7 +69234,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789768096
+    "visto": 1789771724
    },
    "20b6e841d1480c88": {
     "oferta": {
@@ -68922,7 +69253,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789768096
+    "visto": 1789771724
    },
    "8d528472023be995": {
     "oferta": {
@@ -68941,14 +69272,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789768096
+    "visto": 1789771724
    },
    "e63638634ca50b81": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "148029650",
      "name": "Mesa de TV 60 Lockhart Espresso Coricha Home",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/148029649/Mesa-de-TV-60-Lockhart-Espresso-Coricha-Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/148029649/Mesa-de-TV-60-Lockhart-Espresso-Coricha-Home?exp=so_com",
      "pct": 60,
      "price": 809.0,
      "regular": 2030.0,
@@ -68960,14 +69291,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "f36feb23ce0d820b": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "156232215",
      "name": "Silla de Oficina Viggo con Cabecera Regulable Negro",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/156232214/silla-de-oficina-viggo-con-cabecera-regulable-negro?exp=so_com",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/156232214/silla-de-oficina-viggo-con-cabecera-regulable-negro",
      "pct": 60,
      "price": 138.9,
      "regular": 349.0,
@@ -68979,7 +69310,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789768096
+    "visto": 1789771724
    },
    "4a32e4a727a435d9": {
     "oferta": {
@@ -69002,10 +69333,10 @@
    },
    "a7d86f6036537300": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "128520435",
-     "name": "Mesa de Centro Zoe Acero Inoxidable Alto Hogar",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/128520434/Mesa-de-Centro-Zoe-Acero-Inoxidable-Alto-Hogar?exp=so_com",
+     "name": "Mesa de Centro Zoe Acero Inoxidable",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/128520434/Mesa-de-Centro-Zoe-Acero-Inoxidable-Alto-Hogar",
      "pct": 60,
      "price": 1199.0,
      "regular": 2999.0,
@@ -69017,14 +69348,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "adc79d913598cdfa": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "128520441",
-     "name": "Mesa de Centro Alessandra Acero Inoxidable Alto Hogar",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/128520440/Mesa-de-Centro-Alessandra-Acero-Inoxidable-Alto-Hogar?exp=so_com",
+     "name": "Mesa de Centro Alessandra Acero Inoxidable",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/128520440/Mesa-de-Centro-Alessandra-Acero-Inoxidable-Alto-Hogar",
      "pct": 60,
      "price": 1199.0,
      "regular": 2999.0,
@@ -69036,14 +69367,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789768096
+    "visto": 1789771724
    },
    "e007a87846f5e7b1": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "128520461",
-     "name": "Mesa de Centro Waleska Acero Inoxidable Alto Hogar",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/128520460/Mesa-de-Centro-Waleska-Acero-Inoxidable-Alto-Hogar?exp=so_com",
+     "name": "Mesa de Centro Waleska Acero Inoxidable",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/128520460/Mesa-de-Centro-Waleska-Acero-Inoxidable-Alto-Hogar",
      "pct": 60,
      "price": 1199.0,
      "regular": 2999.0,
@@ -69055,7 +69386,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789768096
+    "visto": 1789771724
    },
    "721f0771c6778032": {
     "oferta": {
@@ -69074,7 +69405,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "8b91367acf0c1f6f": {
     "oferta": {
@@ -69093,7 +69424,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "139ecbdd49460646": {
     "oferta": {
@@ -69112,7 +69443,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "0a3d5080d1715f3f": {
     "oferta": {
@@ -69663,7 +69994,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "7a5d1b7073137ceb": {
     "oferta": {
@@ -69701,7 +70032,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789768096
+    "visto": 1789771724
    },
    "b199aa3c7737da55": {
     "oferta": {
@@ -69720,7 +70051,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789768096
+    "visto": 1789771724
    },
    "9600b85fd1d6e126": {
     "oferta": {
@@ -69739,7 +70070,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789768096
+    "visto": 1789771724
    },
    "d795d3ced9bae923": {
     "oferta": {
@@ -69777,7 +70108,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789768096
+    "visto": 1789771724
    },
    "51dc0fcdde336e37": {
     "oferta": {
@@ -69948,7 +70279,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789768096
+    "visto": 1789771724
    },
    "34026f691f99fc8c": {
     "oferta": {
@@ -70461,7 +70792,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789768096
+    "visto": 1789771724
    },
    "ab2f11ea5fb21e5b": {
     "oferta": {
@@ -70480,7 +70811,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "5eeeb2dfe7c8e238": {
     "oferta": {
@@ -70518,7 +70849,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "89fb6e75b29bf31d": {
     "oferta": {
@@ -70651,7 +70982,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "198296b6cda54d81": {
     "oferta": {
@@ -70684,12 +71015,12 @@
      "seller": "Igame Store",
      "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
      "category": "Tecnología",
-     "previous_min": null,
+     "previous_min": 41.9,
      "currency": "PEN",
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "044352e13bacda89": {
     "oferta": {
@@ -70936,7 +71267,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "c0b5ced1218e9a29": {
     "oferta": {
@@ -70974,7 +71305,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "c3d582640111b0b9": {
     "oferta": {
@@ -71221,7 +71552,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "a6bba954d5fc03d8": {
     "oferta": {
@@ -71605,10 +71936,10 @@
    },
    "69b6ad3d5b657232": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "147895860",
      "name": "Mesa de TV 60 Everdeen Espresso Coricha Home",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/147895859/Mesa-de-TV-60-Everdeen-Espresso-Coricha-Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/147895859/Mesa-de-TV-60-Everdeen-Espresso-Coricha-Home?exp=so_com",
      "pct": 60,
      "price": 869.0,
      "regular": 2180.0,
@@ -71620,7 +71951,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "89162f4ed94072e4": {
     "oferta": {
@@ -72023,10 +72354,10 @@
    },
    "9553169f5776e89b": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "136311638",
-     "name": "Freidora de Aire Digital 4 Litros Recubrimento Diamondforce",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/136311635/Freidora-de-Aire-Digital-Oster-4-Litros-Recubrimento-Diamondforce",
+     "name": "Freidora de Aire Digital Oster 4 Litros Recubrimento Diamondforce",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/136311635/Freidora-de-Aire-Digital-Oster-4-Litros-Recubrimento-Diamondforce?exp=so_com",
      "pct": 66,
      "price": 335.0,
      "regular": 999.0,
@@ -72038,7 +72369,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "f4054f6d8ff28c5d": {
     "oferta": {
@@ -72057,14 +72388,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "ba6e7c214ea90a3b": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "153266771",
-     "name": "Olla Arrocera CKSTRC15DFBLK 28L con Vaporera y Función Sofrito - Negra",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/153266769/olla-arrocera-oster-ckstrc15dfblk-28l-con-vaporera-y-funcion-sofrito-negra",
+     "name": "Olla Arrocera Oster CKSTRC15DFBLK 28L con Vaporera y Función Sofrito - Negra",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/153266769/olla-arrocera-oster-ckstrc15dfblk-28l-con-vaporera-y-funcion-sofrito-negra?exp=so_com",
      "pct": 60,
      "price": 298.0,
      "regular": 749.0,
@@ -72076,7 +72407,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "afae05e04860984f": {
     "oferta": {
@@ -72099,10 +72430,10 @@
    },
    "0d8e5f033343ed0b": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "142730170",
      "name": "MINI MAQUINA PARA MINI DONUTS",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/142730169/MINI-MAQUINA-PARA-MINI-DONUTS",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/142730169/MINI-MAQUINA-PARA-MINI-DONUTS?exp=so_com",
      "pct": 62,
      "price": 36.9,
      "regular": 99.0,
@@ -72114,7 +72445,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "1980d341870c4028": {
     "oferta": {
@@ -72194,10 +72525,10 @@
    },
    "c5e525c1df36de9c": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "151039261",
-     "name": "PLANCHA A VAPOR BLANCA - ETA10",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/151039260/plancha-a-vapor-imaco-blanca-eta10",
+     "name": "PLANCHA A VAPOR IMACO BLANCA - ETA10",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/151039260/plancha-a-vapor-imaco-blanca-eta10?exp=so_com",
      "pct": 60,
      "price": 59.0,
      "regular": 149.0,
@@ -72209,7 +72540,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "0b5c5b36101bf51a": {
     "oferta": {
@@ -72270,10 +72601,10 @@
    },
    "9d6b1d629862ee02": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "148296219",
      "name": "Batidora Planetaria de 3000W D´Nationalstar",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/148296218/Batidora-Planetaria-de-3000W-Morley",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/148296218/Batidora-Planetaria-de-3000W-Morley?exp=so_com",
      "pct": 62,
      "price": 299.0,
      "regular": 799.0,
@@ -72285,14 +72616,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "1f1b7fe0c92801e3": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "147255293",
-     "name": "Olla Arrocera de 10 tazas DiamondForce - CKSTRCB10DFBLK 053",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/147255292/Olla-Arrocera-Oster-de-10-tazas-DiamondForce-CKSTRCB10DFBLK-053",
+     "name": "Olla Arrocera Oster de 10 tazas DiamondForce - CKSTRCB10DFBLK 053",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/147255292/Olla-Arrocera-Oster-de-10-tazas-DiamondForce-CKSTRCB10DFBLK-053?exp=so_com",
      "pct": 60,
      "price": 159.0,
      "regular": 399.0,
@@ -72304,7 +72635,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "e5ff83a415ab3c72": {
     "oferta": {
@@ -72475,7 +72806,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "d5de7f5267ec0a8b": {
     "oferta": {
@@ -72494,7 +72825,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "ce38c0fe7a772b63": {
     "oferta": {
@@ -72513,7 +72844,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "6fd8336c21efd674": {
     "oferta": {
@@ -72532,7 +72863,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "bff0d040b5a6e0c7": {
     "oferta": {
@@ -72669,10 +73000,10 @@
    },
    "2db19c33638171e6": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "147930813",
      "name": "Cuadro Decorativo Resplandor Abstracto 64x137 mt",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/147930812/Cuadro-Decorativo-Resplandor-Abstracto-64x137-mt",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/147930812/Cuadro-Decorativo-Resplandor-Abstracto-64x137-mt?exp=so_com",
      "pct": 60,
      "price": 799.0,
      "regular": 1999.0,
@@ -72684,14 +73015,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "084cee004175ac0e": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "127019104",
      "name": "Alfombra circular 1,50 de diametro color rojo",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/127019103/alfombra-circular-1,50-de-diametro-color-rojo",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/127019103/alfombra-circular-1,50-de-diametro-color-rojo?exp=so_com",
      "pct": 62,
      "price": 179.9,
      "regular": 480.0,
@@ -72703,7 +73034,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "46884d815650f0ca": {
     "oferta": {
@@ -72722,7 +73053,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "442c55216d5228e7": {
     "oferta": {
@@ -72741,7 +73072,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "e4b8f7334325d390": {
     "oferta": {
@@ -72760,7 +73091,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "ae288baf644d0a6a": {
     "oferta": {
@@ -72779,7 +73110,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "99a71359c8803158": {
     "oferta": {
@@ -72817,7 +73148,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "62247a84ef84ca84": {
     "oferta": {
@@ -72893,7 +73224,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "8d235db490ce1799": {
     "oferta": {
@@ -72912,7 +73243,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "7b1766b36a96369e": {
     "oferta": {
@@ -73862,7 +74193,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "a791438628e16524": {
     "oferta": {
@@ -73881,7 +74212,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "967095a4f5e5c2df": {
     "oferta": {
@@ -73900,7 +74231,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "df4cdb64bf59fdff": {
     "oferta": {
@@ -73980,10 +74311,10 @@
    },
    "c9a1518f8f95ce88": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "154987811",
      "name": "Silla de Escritorio Ergonómica Adara Negro",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/154987810/silla-de-escritorio-ergonomica-adara-negro?exp=so_com",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/154987810/silla-de-escritorio-ergonomica-adara-negro",
      "pct": 60,
      "price": 199.0,
      "regular": 499.0,
@@ -73995,14 +74326,14 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "014ad0a84af83938": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "139807238",
      "name": "Panel Para Tv De Hasta 65 Cadiz - Cedro Cedro",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/139807237/Panel-de-TV-para-65-Pulgadas-Cadiz-Cedro?exp=so_com",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/139807237/Panel-de-TV-para-65-Pulgadas-Cadiz-Cedro",
      "pct": 60,
      "price": 579.0,
      "regular": 1449.0,
@@ -74014,7 +74345,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "926cd2a5f35d6905": {
     "oferta": {
@@ -74641,7 +74972,7 @@
      "reference_kind": "published",
      "note": ""
     },
-    "visto": 1789770156
+    "visto": 1789771724
    },
    "c95b3a3eace37c5b": {
     "oferta": {
@@ -74870,6 +75201,3654 @@
      "note": ""
     },
     "visto": 1789770156
+   },
+   "fe433b1296615ac6": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152307030",
+     "name": "CASE GIRATORIO TABLET LENOVO M9 AZUL",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152307029/case-giratorio-tablet-lenovo-m9-azul",
+     "pct": 61,
+     "price": 41.9,
+     "regular": 110.0,
+     "seller": "Igame Store",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "5467103c3563230f": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152307024",
+     "name": "CASE GIRATORIO TABLET LENOVO M8 NEGRO",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152307023/case-giratorio-tablet-lenovo-m8-negro",
+     "pct": 61,
+     "price": 41.9,
+     "regular": 110.0,
+     "seller": "Igame Store",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "907a3b9438efddcb": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152307040",
+     "name": "CASE GIRATORIO TABLET LENOVO M9 ROSA",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152307039/case-giratorio-tablet-lenovo-m9-rosa",
+     "pct": 61,
+     "price": 41.9,
+     "regular": 110.0,
+     "seller": "Igame Store",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": 41.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "a871de8a0900aa1b": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "155903769",
+     "name": "Como Teclado y Mouse MK250 Bluetooth",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/155903768/como-teclado-y-mouse-logitech-mk250-bluetooth",
+     "pct": 61,
+     "price": 97.5,
+     "regular": 250.0,
+     "seller": "Esys Latin",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 97.5,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "2aa3a96c6628a03d": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "122572152",
+     "name": "Audífono bluetooth PL-V9 Inalámbrico Cancelación De Ruido",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/122572150/Audifono-bluetooth-PL-V8-Inalambrico-Cancelacion-De-Ruido",
+     "pct": 66,
+     "price": 39.0,
+     "regular": 115.0,
+     "seller": "Grupo Puntotec",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 39.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "dcce192280351d74": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152306639",
+     "name": "CASE GIRATORIO TABLET HUAWEI T10 - T10S AZUL",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152306638/case-giratorio-tablet-huawei-t10-t10s-azul",
+     "pct": 61,
+     "price": 41.9,
+     "regular": 110.0,
+     "seller": "Igame Store",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": 41.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "c47ec9d812a02de0": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152306623",
+     "name": "CASE GIRATORIO TABLET HUAWEI MATEPAD 11.5 DORADO",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152306622/case-giratorio-tablet-huawei-matepad-11-5-dorado",
+     "pct": 61,
+     "price": 41.9,
+     "regular": 110.0,
+     "seller": "Igame Store",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": 41.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "ddaa20678ca09e35": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152306647",
+     "name": "CASE GIRATORIO TABLET HUAWEI T10 - T10S MORADO",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152306646/case-giratorio-tablet-huawei-t10-t10s-morado",
+     "pct": 61,
+     "price": 41.9,
+     "regular": 110.0,
+     "seller": "Igame Store",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": 41.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "a1cf455299ece12d": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "147025425",
+     "name": "Puntero Laser Usb Tipo C Diapositivas Inalámbrico Presentado",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/147025424/puntero-laser-usb-tipo-c-diapositivas-inalambrico-presentado",
+     "pct": 60,
+     "price": 31.8,
+     "regular": 80.0,
+     "seller": "Innovatechman22",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "a6e878c6a039964b": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152648276",
+     "name": "Funda Acolchada para Laptop Portátil de 13 pulgadas tipo Bolso - Crema",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152648275/funda-acolchada-para-laptop-portatil-de-14-pulgadas-tipo-bolso-crema",
+     "pct": 67,
+     "price": 32.9,
+     "regular": 100.0,
+     "seller": "Dilitec",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 32.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "67aa1583038859e6": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152737508",
+     "name": "Soporte Para Celular Con Sensor De Seguimiento",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152737507/soporte-para-celular-con-sensor-de-seguimiento",
+     "pct": 60,
+     "price": 64.9,
+     "regular": 166.41,
+     "seller": "Spark Plaza",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "916ee8fc1a6fd0b0": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "139237995",
+     "name": "Correa Para Applewatch Y Watch Acero Bambù 42-44-45-49mm Gold",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/139237994/Correa-Para-Applewatch-Y-Watch-Acero-Bambu-42-44-45-49mm-Gold",
+     "pct": 60,
+     "price": 39.0,
+     "regular": 99.0,
+     "seller": "Dupa Store",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 39.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "bea9530632341fd1": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152306856",
+     "name": "CASE GIRATORIO TABLET LENOVO P11 NEGRO",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152306855/case-giratorio-tablet-lenovo-p11-negro",
+     "pct": 61,
+     "price": 41.9,
+     "regular": 110.0,
+     "seller": "Igame Store",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": 41.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "101f55ec82727ff7": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152306858",
+     "name": "CASE GIRATORIO TABLET LENOVO P11 ROSA",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152306857/case-giratorio-tablet-lenovo-p11-rosa",
+     "pct": 61,
+     "price": 41.9,
+     "regular": 110.0,
+     "seller": "Igame Store",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": 41.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "820ac9153c5d0281": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152306932",
+     "name": "CASE GIRATORIO TABLET LENOVO M10 HD 605 NEGRO",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152306931/case-giratorio-tablet-lenovo-m10-hd-605-negro",
+     "pct": 61,
+     "price": 41.9,
+     "regular": 110.0,
+     "seller": "Igame Store",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": 41.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "fd27b4a420dc30d6": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152306938",
+     "name": "CASE GIRATORIO TABLET LENOVO M10 HD 505 AZUL",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152306937/case-giratorio-tablet-lenovo-m10-hd-505-azul",
+     "pct": 61,
+     "price": 41.9,
+     "regular": 110.0,
+     "seller": "Igame Store",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": 41.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "d336b7f727b779f0": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152306936",
+     "name": "CASE GIRATORIO TABLET LENOVO M10 HD 605 ROJO",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152306935/case-giratorio-tablet-lenovo-m10-hd-605-rojo",
+     "pct": 61,
+     "price": 41.9,
+     "regular": 110.0,
+     "seller": "Igame Store",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "0b7d468e849d7f6d": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152306944",
+     "name": "CASE GIRATORIO TABLET LENOVO M10 HD 505 MORADO",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152306943/case-giratorio-tablet-lenovo-m10-hd-505-morado",
+     "pct": 61,
+     "price": 41.9,
+     "regular": 110.0,
+     "seller": "Igame Store",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": 41.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "7f3880bc6ac1b994": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "139248529",
+     "name": "Correa Para Applewatch Y Watch Eslabon Magnética 42-44-45-49mm Negro",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/139248528/Correa-Para-Applewatch-Y-Watch-Eslabon-Magnetica-42-44-45-49mm-Negro",
+     "pct": 60,
+     "price": 39.0,
+     "regular": 99.0,
+     "seller": "Dupa Store",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 39.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "c14016d58d303737": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152306728",
+     "name": "CASE GIRATORIO TABLET IPAD A16 ROJO",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152306727/case-giratorio-tablet-ipad-a16-rojo",
+     "pct": 61,
+     "price": 41.9,
+     "regular": 110.0,
+     "seller": "Igame Store",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": 41.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "deb9096b7276798d": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152306730",
+     "name": "CASE GIRATORIO TABLET IPAD 10TH AZUL",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152306729/case-giratorio-tablet-ipad-10th-azul",
+     "pct": 61,
+     "price": 41.9,
+     "regular": 110.0,
+     "seller": "Igame Store",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "8c72255a4aafe916": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152306744",
+     "name": "CASE GIRATORIO TABLET IPAD 10TH ROJO",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152306743/case-giratorio-tablet-ipad-10th-rojo",
+     "pct": 61,
+     "price": 41.9,
+     "regular": 110.0,
+     "seller": "Igame Store",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "bd0690447985761b": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152306752",
+     "name": "CASE GIRATORIO TABLET IPAD 12.9 MORADO",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152306751/case-giratorio-tablet-ipad-12-9-morado",
+     "pct": 61,
+     "price": 41.9,
+     "regular": 110.0,
+     "seller": "Igame Store",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "6d1f8f4fbfbc4b02": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152306738",
+     "name": "CASE GIRATORIO TABLET IPAD 10TH MORADO",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152306737/case-giratorio-tablet-ipad-10th-morado",
+     "pct": 61,
+     "price": 41.9,
+     "regular": 110.0,
+     "seller": "Igame Store",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "78e1ed55586a2b6a": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152306800",
+     "name": "CASE GIRATORIO TABLET IPAD PRO 11 2024 NEGRO",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152306799/case-giratorio-tablet-ipad-pro-11-2024-negro",
+     "pct": 61,
+     "price": 41.9,
+     "regular": 110.0,
+     "seller": "Igame Store",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": 41.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "0f6fe92ea8cee2a7": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "150622985",
+     "name": "Case PREMIUM para iPad Pro 11\" M4 2024 - ROSADO",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/150622984/case-premium-para-ipad-pro-11-m4-2024-rosado",
+     "pct": 60,
+     "price": 89.9,
+     "regular": 229.0,
+     "seller": "Zegatech",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 89.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "ec6d160715c21c4e": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "132671110",
+     "name": "Toner TN-3609 DCP-L5660DN 3000 Paginas",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/132671109/Toner-Brother-TN-3609-DCP-L5660DN-3000-Paginas",
+     "pct": 60,
+     "price": 399.0,
+     "regular": 999.0,
+     "seller": "Suministros Benefit",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 399.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "ae87f946fbb74fa1": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "120047321",
+     "name": "Usb rj45 adaptador de extensión",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/120047320/Usb-rj45-adaptador-de-extension",
+     "pct": 68,
+     "price": 24.9,
+     "regular": 79.0,
+     "seller": "Inspira",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "354f0af52b40cee1": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152019330",
+     "name": "MOUSE INALAMBRICO MS61WB 3200 DPI",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152019328/mouse-inalambrico-havit-ms61wb-3200-dpi",
+     "pct": 64,
+     "price": 45.9,
+     "regular": 129.0,
+     "seller": "Import Caso E.i.r.l.",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 45.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "82a49d76fc50de70": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "156628561",
+     "name": "Soporte Giratorio SGM-32_55 para TV 32\" a 55\"",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/156628560/soporte-giratorio-miray-sgm-3255-para-tv-32-a-55",
+     "pct": 60,
+     "price": 199.0,
+     "regular": 499.0,
+     "seller": "Mega Importaciones",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "7c755ee2c3ae8f47": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "116063895",
+     "name": "Anillo Softbox de Flash Difusor Plegable 45cm p cámaras PU5145",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/116063894/Anillo-Softbox-de-Flash-Difusor-Plegable-45cm-p-camaras-PULUZ-PU5145",
+     "pct": 64,
+     "price": 49.9,
+     "regular": 140.0,
+     "seller": "Neo Digital",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "1e0272dcb7426c14": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152019201",
+     "name": "MOUSE INALAMBRICO MS54GT 1600 DPI",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152019200/mouse-inalambrico-havit-ms54gt-1600-dpi",
+     "pct": 62,
+     "price": 29.9,
+     "regular": 79.0,
+     "seller": "Import Caso E.i.r.l.",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "5e54e992f724151c": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152019496",
+     "name": "MOUSE INALAMBRICO MS78GT 3200 DPI",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152019495/mouse-inalambrico-havit-ms78gt-3200-dpi",
+     "pct": 64,
+     "price": 34.9,
+     "regular": 99.0,
+     "seller": "Import Caso E.i.r.l.",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "a1b6b269f8f47ad8": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "148575525",
+     "name": "Funda Protector para OPPO A5X - Transparente Anti Impacto",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/148575522/Funda-Protector-para-OPPO-A5X-Transparente-Anti-Impacto",
+     "pct": 62,
+     "price": 30.0,
+     "regular": 80.0,
+     "seller": "Cellbytez Store",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "6fa2f0f5ce69cce7": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152466973",
+     "name": "Teclado Mecánico TKL MK840L White & Gray Red Switch",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152466972/teclado-mecanico-tkl-antryx-mk840l-white-gray-red-switch",
+     "pct": 61,
+     "price": 159.0,
+     "regular": 409.0,
+     "seller": "Pcya Sac Store",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "c623c28591684204": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "126663126",
+     "name": "Funda case space collection iphone 12 pro anticaida transparente",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/126663125/Funda-case-space-collection-iphone-12-pro-anticaida-transparente",
+     "pct": 66,
+     "price": 20.0,
+     "regular": 59.0,
+     "seller": "Nabys Shop Perú.",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 20.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "5c88e41f093c525a": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "149247407",
+     "name": "Dron Profesional E88 4K ORIGINAL Dual Cámara WiFi HD RC Video Plegable",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/149247406/Dron-Profesional-E88-4K-ORIGINAL-Dual-Camara-WiFi-HD-RC-Video-Plegable",
+     "pct": 61,
+     "price": 273.9,
+     "regular": 719.0,
+     "seller": "Genieka",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": 273.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "ff4ed7c064edd638": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "146764344",
+     "name": "MOCHILA NEWPORT 16 para Laptop",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/146764343/MOCHILA-TARGUS-NEWPORT-16-para-Laptop",
+     "pct": 67,
+     "price": 129.0,
+     "regular": 399.0,
+     "seller": "Pratech Sac",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "f6c422cec8ef678a": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "151943916",
+     "name": "Audífonos Inalámbricos Diseño Moderno Tipo Vincha Color Azul",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/151943915/audifonos-inalambricos-diseno-moderno-tipo-vincha-color-azul",
+     "pct": 62,
+     "price": 49.9,
+     "regular": 134.86,
+     "seller": "Spark Plaza",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "e07b87c568a03a8c": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "154305013",
+     "name": "PARLANTE EWTTO ET-P1822B Doble bocina con Bluetooth, RGB y diseño portátil",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/154305012/parlante-ewtto-et-p1822b-doble-bocina-con-bluetooth-rgb-y-diseno-portatil",
+     "pct": 63,
+     "price": 109.0,
+     "regular": 299.0,
+     "seller": "Inverisiones Electrohogar S.a.c",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 109.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "7e18c0597749e1d0": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "114139289",
+     "name": "TONER DE 2.000 PÁG 48A / 48X CF248X  -ALTO RENDIMIENTO- M15,M15W , M16, MFP M28,MFP M29",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/114139288/TONER-DE-2.000-PAG-PRINSTYLE-48A-48X-CF248X-ALTO-RENDIMIENTO-",
+     "pct": 62,
+     "price": 122.99,
+     "regular": 330.0,
+     "seller": "Printer Suministros Del Perú",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 122.99,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "b3b80d9700d43c78": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "148250125",
+     "name": "Powerbeats Fit auriculares inalámbricos - Spark Orange",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/148250124/Beats-Powerbeats-Fit-auriculares-inalambricos-Spark-Orange",
+     "pct": 64,
+     "price": 739.0,
+     "regular": 2098.0,
+     "seller": "4p Store Pe",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "b303a4d671d4b76e": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "882519369",
+     "name": "Sofá Reclinable Robbie 3 Cuerpos Cuero Reconstituido",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/prod17390181/sofa-reclinable-robbie-3-cuerpos-cuero-reconstituido",
+     "pct": 60,
+     "price": 1399.0,
+     "regular": 3499.0,
+     "seller": "Falabella",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 1399.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "4588ab7a197446d1": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "128520455",
+     "name": "Consola Recibidor Isabelle Acero Inoxidable",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/128520454/Consola-Recibidor-Isabelle-Acero-Inoxidable-Alto-Hogar",
+     "pct": 60,
+     "price": 1199.0,
+     "regular": 2999.0,
+     "seller": "Alto Hogar",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 1199.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "e09136248beef01a": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "153562820",
+     "name": "SOFÁ SECCIONAL BAYERN",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/153562818/sofa-seccional-bayern",
+     "pct": 62,
+     "price": 3499.0,
+     "regular": 9299.0,
+     "seller": "Kasamia",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "546060f8a9925b86": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "121406761",
+     "name": "Estante de secado de platos de acero inoxidable rack 85 cm",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/121406758/Estante-de-secado-de-platos-de-acero-inoxidable-rack-85-cm",
+     "pct": 61,
+     "price": 100.0,
+     "regular": 260.0,
+     "seller": "Precio",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "f3b7b0ac0c149f04": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "144646214",
+     "name": "Sofá Indaga 3 Cuerpos Crema",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/144646213/Sofa-Indaga-3-Cuerpos-Crema",
+     "pct": 61,
+     "price": 1929.0,
+     "regular": 4999.0,
+     "seller": "Alto Hogar",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 1929.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "07bd34f2014effcd": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "138976692",
+     "name": "Silla de Oficina Rigs Negro",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/138976691/silla-de-oficina-rigs-negro",
+     "pct": 61,
+     "price": 269.0,
+     "regular": 699.9,
+     "seller": "Sodimac",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 269.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "329fddfa6cbbe787": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "157791620",
+     "name": "Juego Sala Ancona 3 cuerpos + 2 Butaca Kasie",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/157791617/juego-sala-ancona-3-cuerpos-2-butaca-kasie",
+     "pct": 63,
+     "price": 3169.0,
+     "regular": 8639.0,
+     "seller": "Baraka Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "ec6efd6fa6d15e5e": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "157144739",
+     "name": "Mesa Auxiliar Portátil",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/154071116/mesa-auxiliar-portatil",
+     "pct": 60,
+     "price": 39.0,
+     "regular": 99.0,
+     "seller": "Wr China Import",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 39.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "7e7ad760978f895b": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "119038684",
+     "name": "Estante organizador multifuncional para ducha baño de calidad",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/119038683/Estante-organizador-multifuncional-para-ducha-bano-de-calidad",
+     "pct": 60,
+     "price": 78.99,
+     "regular": 199.0,
+     "seller": "Vainibell",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 78.99,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "8733eea52e2e2d5c": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "136658676",
+     "name": "Set x 3 Mesas Auxiliares Moderna Robert Marrón R&R MUEBLES",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/136658675/Set-x-3-Mesas-Auxiliares-Moderna-Robert-Marron-R-R-MUEBLES",
+     "pct": 62,
+     "price": 379.0,
+     "regular": 1000.0,
+     "seller": "R & R Muebles.",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 379.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "39840818ac7d71d9": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "151459161",
+     "name": "Carrito Organizador con ruedas de 3 niveles con cestas",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/151459160/carrito-organizador-con-ruedas-de-3-niveles-con-cestas",
+     "pct": 61,
+     "price": 39.0,
+     "regular": 100.0,
+     "seller": "Dilitecperu",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 39.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "099383aab1085384": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "136537078",
+     "name": "Plancha a Vapor ETA2288 2400 watts",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/136537077/Plancha-a-Vapor-ETA2288-2400-watts",
+     "pct": 60,
+     "price": 79.0,
+     "regular": 199.0,
+     "seller": "Gromex Eirl",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 79.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "24c2b41e736de0ac": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "155970748",
+     "name": "Repuesto de Cafetera Italiana 12tz",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/155970747/repuesto-de-cafetera-italiana-12tz",
+     "pct": 65,
+     "price": 21.0,
+     "regular": 60.0,
+     "seller": "Cafeclub",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 21.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "ae269dd8b306e2f3": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "157082189",
+     "name": "Plancha PCM-68 Azul",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/157082188/plancha-miray-pcm-68-azul",
+     "pct": 62,
+     "price": 59.0,
+     "regular": 159.0,
+     "seller": "Ofertec Peru",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 59.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "19735300f8ff81b0": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "156579175",
+     "name": "Olla Arrocera de 10 Tazas DiamondForce CKSTRC10DFGRN",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/156579174/olla-arrocera-de-10-tazas-diamondforce-oster-ckstrc10dfgrn",
+     "pct": 64,
+     "price": 193.9,
+     "regular": 550.0,
+     "seller": "Tiendas Cia",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 193.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "72593973fe14333d": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "153159722",
+     "name": "Plancha de Viaje Portátil verde Vaporizador Rápido para Ropa Delicada",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/153159721/plancha-de-viaje-portatil-rosa-vaporizador-rapido-para-ropa-delicada",
+     "pct": 60,
+     "price": 35.9,
+     "regular": 90.0,
+     "seller": "Wasi Peru",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 35.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "a379b6dce2bcdf8e": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "154076994",
+     "name": "Batidora Planetaria de 3000W D´Nationalstar Negro",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/154076992/batidora-planetaria-de-3000w-dnationalstar-negro",
+     "pct": 64,
+     "price": 285.0,
+     "regular": 799.0,
+     "seller": "Inversiones Karelys E.i.r.l",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 285.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "7923bf5ad89e7dee": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "155020786",
+     "name": "Maquina para Donas RAF Redonda Roja 500W R.2504",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/155020784/maquina-para-donas-raf-redonda-roja-500w-r-2504",
+     "pct": 60,
+     "price": 45.9,
+     "regular": 115.0,
+     "seller": "Waymaster",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 45.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "1c06ce4d9036dd41": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "153796953",
+     "name": "Hervidor Eléctrico 1.7L BVSTKT4177R",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/153796952/hervidor-electrico-oster-1-7l-bvstkt4177r",
+     "pct": 60,
+     "price": 119.0,
+     "regular": 299.0,
+     "seller": "Importaciones Becky",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 119.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "b9a41934b2f7539d": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "155032318",
+     "name": "Batidora de Mano Bapi 1500 Luxe Full Set + Grill Asteria II + Freidora de Aire Double Air Fryer 11 L.",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/155032316/batidora-de-mano-taurus-bapi-1500-luxe-full-set-grill-taurus-asteria-ii-freidora-de-aire-taurus-double-air-fryer-11-l",
+     "pct": 63,
+     "price": 479.0,
+     "regular": 1299.0,
+     "seller": "Taurus & Practika Tienda Oficial",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 479.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "aa472db458ede0c8": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "155128105",
+     "name": "Exprimidor de Citricos 40W 1.5lt TH-1215",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/155128104/exprimidor-de-citricos-40w-1-5lt-th-1215",
+     "pct": 60,
+     "price": 119.0,
+     "regular": 299.0,
+     "seller": "Hogartc",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 119.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "36756d392e0d813c": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "146134309",
+     "name": "Secador de Ropa Eléctrico Portátil Plegable Multifuncional de 600W",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/146134308/Secador-de-Ropa-Electrico-Portatil-Plegable-Multifuncional-de-600W",
+     "pct": 65,
+     "price": 58.9,
+     "regular": 170.0,
+     "seller": "Ez Tech",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 58.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "958bcbf25fa57d15": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "115276701",
+     "name": "EXPRIMIDOR CITRICOS DE ACERO CP-3534",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/115276700/EXPRIMIDOR-CITRICOS-DE-ACERO-SEVERIN-CP-3534",
+     "pct": 61,
+     "price": 99.9,
+     "regular": 259.0,
+     "seller": "Jtr Inversiones Generales Sac",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 99.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "97edd65a82fb613f": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "132189981",
+     "name": "Licuadora 2 V.BLSTKAG-RPB con Pulsador - Rojo",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/132189974/Licuadora-Oster-2-V.BLSTKAG-RPB-con-Pulsador-Rojo",
+     "pct": 63,
+     "price": 219.0,
+     "regular": 599.0,
+     "seller": "Importaciones Huankita",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 219.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "9d07e8502e791458": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "153081227",
+     "name": "Plancha De Vapor Para Ropa Con Base De Planchado Vertical e Horizontal",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/153081226/plancha-de-vapor-para-ropa-con-base-de-planchado-vertical-e-horizontal",
+     "pct": 61,
+     "price": 151.0,
+     "regular": 390.0,
+     "seller": "Desqbre Novedades Store",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 151.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "59a75235bffeccef": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "153081272",
+     "name": "Plancha De Vapor Para Ropa Con Base De Planchado Vertical e Horizontal",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/153081271/plancha-de-vapor-para-ropa-con-base-de-planchado-vertical-e-horizontal",
+     "pct": 61,
+     "price": 151.0,
+     "regular": 390.0,
+     "seller": "Desqbre Novedades Store",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 151.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "8917e3b42479bae2": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "153081286",
+     "name": "Plancha De Vapor Para Ropa Con Base De Planchado Vertical e Horizontal",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/153081285/plancha-de-vapor-para-ropa-con-base-de-planchado-vertical-e-horizontal",
+     "pct": 61,
+     "price": 152.0,
+     "regular": 390.0,
+     "seller": "Desqbre Novedades Store",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 152.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "2583b02df983c1e4": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "133100354",
+     "name": "Batidor de huevos eléctrico para masa de pasteles -Blanco",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/133100353/Batidor-de-huevos-electrico-para-masa-de-pasteles-Blanco",
+     "pct": 60,
+     "price": 60.0,
+     "regular": 150.0,
+     "seller": "Foremanshop",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 60.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "b838038a25507df2": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "155151761",
+     "name": "Hervidor de Vidrio Templado 1.8lt TH-6070VI",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/155151760/hervidor-de-vidrio-templado-thomas-1-8lt-th-6070vi",
+     "pct": 60,
+     "price": 239.0,
+     "regular": 599.0,
+     "seller": "Hogartc",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 239.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "42e437a633b59e4f": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "148672733",
+     "name": "PROCESADOR DE ALIMENTO BLANCO - BLSTFP-W00",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/148672731/PROCESADOR-DE-ALIMENTO-OSTER-BLANCO-BLSTFP-W00",
+     "pct": 63,
+     "price": 129.0,
+     "regular": 349.0,
+     "seller": "Electrostyle Lym",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 129.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "4f4ed670b3d4dd5e": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "155151495",
+     "name": "Hervidor eléctrico 2lt TH-4800",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/155151493/hervidor-electrico-thomas-2lt-th-4800",
+     "pct": 63,
+     "price": 219.0,
+     "regular": 599.0,
+     "seller": "Hogartc",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 219.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "cbb756f9a9e5b1ff": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "146326997",
+     "name": "Mini Calefactor portátil Handy Heater 800 watts",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/146326996/Mini-Calefactor-portatil-Handy-Heater-800-watts",
+     "pct": 64,
+     "price": 35.9,
+     "regular": 100.0,
+     "seller": "Aliexpres Ofertas",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 35.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "b49d7ab0a8b45bb0": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "123385525",
+     "name": "Funda Para Silla De Papá Noel Con Luces Led",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/123385523/Funda-Para-Silla-De-Papa-Noel-Con-Luces-Led",
+     "pct": 63,
+     "price": 40.0,
+     "regular": 109.0,
+     "seller": "Delbueno Importaciones S.a.c.",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 40.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "48011a0ca1ddb188": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "127153190",
+     "name": "Set de Cortinas JACQUARD Blackout BICOLOR BRILLO 140x230cm",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/127153186/Set-de-Cortinas-JACQUARD-Blackout-BICOLOR-BRILLO-140x230cm",
+     "pct": 63,
+     "price": 123.9,
+     "regular": 339.9,
+     "seller": "Corporacion Wana",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 123.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "6d6f5dfef5a9dbff": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "152470643",
+     "name": "Espejo De Maquillaje Tocador Con Luces Led",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152470642/espejo-de-maquillaje-con-luces-led",
+     "pct": 65,
+     "price": 33.9,
+     "regular": 96.86,
+     "seller": "Pungzz",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 33.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "4a2fd7b3b0c8c220": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "127017919",
+     "name": "Alfombra circular 1,50 de diametro color vino",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/127017918/alfombra-circular-1,50-de-diametro-color-vino",
+     "pct": 62,
+     "price": 179.9,
+     "regular": 480.0,
+     "seller": "Mi Principito",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 179.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "cf2993721216bcf8": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "119105647",
+     "name": "Papel tapiz autoadhesivo 3d ladrillo decorativo 10 pcs de calidad",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/119105646/Papel-tapiz-autoadhesivo-3d-ladrillo-decorativo-10-pcs-de-calidad",
+     "pct": 60,
+     "price": 99.0,
+     "regular": 250.0,
+     "seller": "Vainibell",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 99.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "2ff9d5cba422faa2": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "151345963",
+     "name": "Adorno Decorativo Para El Hogar Paisaje De Arena 3D Verde",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/151345960/adorno-decorativo-para-el-hogar-paisaje-de-arena-3d-verde",
+     "pct": 60,
+     "price": 29.9,
+     "regular": 74.75,
+     "seller": "Spark Plaza",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 29.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "a928b9f3b77b6d29": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "153096964",
+     "name": "Jarrón con ángulos rectos beige - 34 cm. - Hogflaska",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/153096963/jarron-con-angulos-rectos-beige-34-cm-hogflaska",
+     "pct": 60,
+     "price": 59.0,
+     "regular": 150.0,
+     "seller": "Lar Danielsen",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 59.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "e115c492a43bfdbb": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "137185623",
+     "name": "Cascanueces de madera 31cm figuras Navidad dorado-rojo",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/137185622/Cascanueces-de-madera-31cm-figuras-Navidad-dorado-rojo",
+     "pct": 60,
+     "price": 79.9,
+     "regular": 200.0,
+     "seller": "Sebaskid",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 79.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "a46ba307880567be": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "126714612",
+     "name": "Reloj de Pared 3D de Reno con Relieve Modelo 2023 Sala Hogar Oficina",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/126714611/Reloj-de-Pared-3D-de-Reno-con-Relieve-Modelo-2023-Sala-Hogar-Oficina",
+     "pct": 61,
+     "price": 29.9,
+     "regular": 78.0,
+     "seller": "Yayi Importaciones",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 29.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "8a313e80557e5769": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "137692860",
+     "name": "Lampara Luna 3D Lámpara Modelo Luna Grande Esfera de 8cm",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/137692859/Lampara-Luna-3D-Lampara-Modelo-Luna-Grande-Esfera-de-8cm",
+     "pct": 60,
+     "price": 39.0,
+     "regular": 99.0,
+     "seller": "Feryutec",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 39.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "f10ecda2a183dfc6": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "138341378",
+     "name": "Funda de Cojín Decorativo Evoque 45x45 cm",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/138341377/Funda-de-Cojin-Decorativo-Evoque-45x45-cm",
+     "pct": 62,
+     "price": 55.9,
+     "regular": 149.0,
+     "seller": "Dekko D' Interiors",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Hogar",
+     "previous_min": 55.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "dbaf90d105fe4f53": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "136659324",
+     "name": "Cojín Decorativo Zenith Verde Oscuro",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/136659323/Cojin-Decorativo-Zenith-Verde-Oscuro",
+     "pct": 62,
+     "price": 74.9,
+     "regular": 199.0,
+     "seller": "Dekko D' Interiors",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Hogar",
+     "previous_min": 74.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "196283a8ce5b19e4": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "141463643",
+     "name": "Balanza Digital Prolink",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/141463641/balanza-digital-prolink",
+     "pct": 64,
+     "price": 34.9,
+     "regular": 99.0,
+     "seller": "Ytuloquieres",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 34.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "45635ef1bb8a2328": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "147231890",
+     "name": "Alfombra Decoghar IC 12325 Kellim Multi 120 x 180 cm",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/147231889/Alfombra-Decoghar-IC-12325-Kellim-Multi-120-x-180-cm",
+     "pct": 64,
+     "price": 249.0,
+     "regular": 696.0,
+     "seller": "Decoghar.",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 249.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "7d61cc181b03a830": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "148212599",
+     "name": "PAPA NOEL MUSICAL CON MOVIMIENTO ESCALADOR SOGA",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/148212598/PAPA-NOEL-MUSICAL-CON-MOVIMIENTO-ESCALADOR-SOGA",
+     "pct": 62,
+     "price": 36.9,
+     "regular": 99.0,
+     "seller": "Importaciones Valeraff",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Hogar",
+     "previous_min": 36.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "7a194d6c708a8562": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "149688832",
+     "name": "Funda para Cojínes Navideños Piel de Durazno",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/149688831/Funda-para-Cojines-Navidenos-Piel-de-Durazno",
+     "pct": 60,
+     "price": 19.9,
+     "regular": 49.9,
+     "seller": "Ofertas",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 19.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "ae28390ba2b4ae3f": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "138696402",
+     "name": "Set de 12 Mini Velas decorativas Navideñas",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/138696401/Set-de-12-Mini-Velas-decorativas-Navidenas",
+     "pct": 60,
+     "price": 36.0,
+     "regular": 90.0,
+     "seller": "Jatgi´s Store",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 36.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "3df5d399957e4ceb": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "151742829",
+     "name": "Micrófono Inalámbrico Recargable K8 Solapero Doble Micrófono Entrada Tipo C",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/151742828/microfono-inalambrico-recargable-k8-solapero-doble-microfono-entrada-tipo-c?exp=so_com",
+     "pct": 63,
+     "price": 21.8,
+     "regular": 60.0,
+     "seller": "Ez Tech",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "5a385b0c063f28ee": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "149080536",
+     "name": "Cámara de Seguridad Solar 4MP con WiFi y Giro 360°",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/149080535/Camara-de-Seguridad-Solar-4MP-con-WiFi-y-Giro-360%C2%B0?exp=so_com",
+     "pct": 66,
+     "price": 166.5,
+     "regular": 500.0,
+     "seller": "Cubox Technology",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 166.5,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "63d7c58c5b56409a": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "149133105",
+     "name": "Audífonos Inalámbricos Gamer Qcy Heroad V200 Triple Conexión Blanco",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/149133104/Audifonos-Inalambricos-Gamer-Qcy-Heroad-V200-Triple-Conexion-Blanco?exp=so_com",
+     "pct": 62,
+     "price": 149.0,
+     "regular": 399.0,
+     "seller": "Bg Smart Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 149.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "ab5ad2834d2b2407": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "140897594",
+     "name": "Toner HP Compatible 414X Cian W2021X",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/140897593/Toner-HP-Compatible-414X-Cian-W2021X?exp=so_com",
+     "pct": 73,
+     "price": 185.0,
+     "regular": 700.0,
+     "seller": "Importaciones Raely Sac",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "0495c8c76a402e14": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "128381852",
+     "name": "Base PS4 Slim / Pro 4 en 1 Stand, Cargador Mandos, Cooler, Portajuegos",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/128381851/Base-PS4-Slim-Pro-4-en-1-Stand,-Cargador-Mandos,-Cooler,-Portajuegos?exp=so_com",
+     "pct": 60,
+     "price": 98.9,
+     "regular": 249.9,
+     "seller": "Boomers",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 98.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "254ae2f20cf33179": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "123538023",
+     "name": "Trípode Universal para Camara y Celular 15 cm ZX-322",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/123538022/Tripode-Universal-para-Camara-y-Celular-15-cm-ZX-322?exp=so_com",
+     "pct": 60,
+     "price": 19.9,
+     "regular": 49.9,
+     "seller": "Grupo Orange",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "1320d03e856a4f5e": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "145107181",
+     "name": "Control Magic Remote LG 2023 MR23GN CON BOTON PUNTERO",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/145107180/control-magic-remote-lg-2023-mr23gn-con-boton-puntero?exp=so_com",
+     "pct": 60,
+     "price": 99.0,
+     "regular": 249.0,
+     "seller": "Inverisiones Electrohogar S.a.c",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 99.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "f58aaa0925d26d2c": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "155091672",
+     "name": "Luz Tacho Par Led 36 X 3w Uv Evento Fiesta Neon",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/155091669/luz-tacho-par-led-36-x-3w-uv-evento-fiesta-neon?exp=so_com",
+     "pct": 62,
+     "price": 75.0,
+     "regular": 200.0,
+     "seller": "Innova Leds",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 75.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "4bcde8ad34ec757b": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "148333711",
+     "name": "TÓNER COMPATIBLE SAMSUNG MLT-D103L",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/148333710/TONER-COMPATIBLE-SAMSUNG-MLT-D103L?exp=so_com",
+     "pct": 62,
+     "price": 136.0,
+     "regular": 359.0,
+     "seller": "Clicdata S.a.c.",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 136.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "5bb87d160e95d0c4": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "155374500",
+     "name": "PARLANTE PORTATIL BLUETOOTH BOMBOX 4MINI CAMUFLADO",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/155374499/parlante-portatil-bluetooth-bombox-4mini-camuflado?exp=so_com",
+     "pct": 60,
+     "price": 99.0,
+     "regular": 249.0,
+     "seller": "G & P Tiendas Peru",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 99.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "3d6295e78a28f71c": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "150887493",
+     "name": "Smartwatch Galaxy Watch4 Silver 44mm REACONDICIONADO",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/150887492/smartwatch-galaxy-watch4-silver-44mm-reacondicionado?exp=so_com",
+     "pct": 67,
+     "price": 359.0,
+     "regular": 1099.0,
+     "seller": "Want",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "90908ddcaefd2f5d": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "153925922",
+     "name": "Power Bank 15000mAh Super Carga Rápida 25W",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/153925921/power-bank-15000mah-super-carga-rapida-25w?exp=so_com",
+     "pct": 60,
+     "price": 79.9,
+     "regular": 199.75,
+     "seller": "Pungzz",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 79.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "54b9a6e9af83883e": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "146313051",
+     "name": "Control Magic LG MR25GA AI 2025",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/146313050/Control-Magic-LG-MR25GA-AI-2025?exp=so_com",
+     "pct": 69,
+     "price": 99.0,
+     "regular": 329.0,
+     "seller": "Ivance Electronic Online",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 99.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "66837416d1b8f799": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "151002961",
+     "name": "KIT TECLADO + MOUSE TEROS TE-4062N NEGRO",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/151002960/kit-teclado-mouse-teros-te-4062n-negro?exp=so_com",
+     "pct": 64,
+     "price": 35.0,
+     "regular": 99.0,
+     "seller": "Cubatec Sac",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "44850dffa44eceb7": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "146566416",
+     "name": "Parlante Inteligente Bluetooh rojo",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/146566415/Parlante-Inteligente-Bluetooh-rojo?exp=so_com",
+     "pct": 72,
+     "price": 22.0,
+     "regular": 80.0,
+     "seller": "Mi Principito",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "f3836df768079724": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "156676652",
+     "name": "Audífonos Inalámbricos Open-Ear Portátil Deportivo",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/156676651/audifonos-inalambricos-open-ear-portatil-deportivo?exp=so_com",
+     "pct": 60,
+     "price": 53.9,
+     "regular": 134.75,
+     "seller": "Pungzz",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 53.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "cd3843f824bc1dd3": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "154314624",
+     "name": "Monitor 24 Tcl 24G54 Fhd Miniled 100Hz White",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/154314623/monitor-24-tcl-24g54-fhd-miniled-100hz-white?exp=so_com",
+     "pct": 61,
+     "price": 369.0,
+     "regular": 959.0,
+     "seller": "Clicdata S.a.c.",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 369.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "d33d6c58bb333080": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "146963924",
+     "name": "Televisor Samsung 55\" Pulg.  QLED Smart UHD 4K Vision Ai QN55Q7FAAGX- Negro",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/146963923/Televisor-Samsung-55-Pulg.-QLED-Smart-UHD-4K-Vision-Ai-QN55Q7FAAGX-Negro?exp=so_com",
+     "pct": 65,
+     "price": 1398.0,
+     "regular": 3999.0,
+     "seller": "Victoria Ilimitada",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 1398.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "5b4b059778be8cf6": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "148277314",
+     "name": "Mini parlante CAFINI MD CN-S6004",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/148277313/Mini-parlante-CAFINI-MD-CN-S6004?exp=so_com",
+     "pct": 61,
+     "price": 155.0,
+     "regular": 399.0,
+     "seller": "J & Aelectrofertas",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 155.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "5d9c19064c896524": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "147704042",
+     "name": "Control Magic Remote LG 2024 MR24GN",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/147704041/Control-Magic-Remote-LG-2024-MR24GN?exp=so_com",
+     "pct": 60,
+     "price": 78.0,
+     "regular": 199.0,
+     "seller": "Corporacion M & P",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 78.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "afa466e11c09c4db": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "117013289",
+     "name": "Mica Protector De Pantalla Vidrio Templado Para NINTENDO SWITCH OLED",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/117013288/Mica-Protector-De-Pantalla-Vidrio-Templado-Para-NINTENDO-SWITCH-OLED?exp=so_com",
+     "pct": 60,
+     "price": 15.9,
+     "regular": 40.0,
+     "seller": "Mobile Connect Peru",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 15.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "ed97c147109c15a2": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "155537153",
+     "name": "Amazon Echo Show 8 4ta Generación Alexa con Pantalla HD 8\" Negro",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/155537152/amazon-echo-show-8-4ta-generacion-alexa-con-pantalla-hd-8-negro?exp=so_com",
+     "pct": 68,
+     "price": 799.0,
+     "regular": 2499.0,
+     "seller": "Techpro Store",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "46ac4781eae6d5b7": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "143258984",
+     "name": "Organizador para Sofá Cama con Múltiples Compartimientos HYC280034 Marrón",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/143258983/Organizador-para-Sofa-Cama-con-Multiples-Compartimientos-HYC280034-Marron?exp=so_com",
+     "pct": 66,
+     "price": 19.9,
+     "regular": 60.0,
+     "seller": "Locomproyaa",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "a9e761ba3c95355e": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "151892330",
+     "name": "Parlante Bluetooth Portátil EBS-309 con Montaje Magnético para Carrito de Golf - IPX5 Negro",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/151892329/parlante-bluetooth-portatil-ebs-309-con-montaje-magnetico-para-carrito-de-golf-ipx5-negro?exp=so_com",
+     "pct": 64,
+     "price": 69.9,
+     "regular": 199.0,
+     "seller": "Arias & Co",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 69.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "ef2530e76c747f9c": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "151891150",
+     "name": "Parlante Bluetooth LG XBOOM Bounce 40W Certificación Militar Ip67 - Negro",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/151891149/parlante-bluetooth-lg-xboom-bounce-40w-certificion-militar-ip67-negro?exp=so_com",
+     "pct": 71,
+     "price": 459.0,
+     "regular": 1599.0,
+     "seller": "Corporacion M & P",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 459.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "c033388b50e172fa": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "151891178",
+     "name": "Parlante Bluetooth LG XBOOM Bounce 40W Certificación Militar Ip67 - Negro",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/151891176/parlante-bluetooth-lg-xboom-bounce-40w-certificion-militar-ip67-negro?exp=so_com",
+     "pct": 71,
+     "price": 449.0,
+     "regular": 1599.0,
+     "seller": "Corporacion M & P",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "52370dbb649c62dd": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "151891224",
+     "name": "Parlante Bluetooth LG XBOOM Bounce 40W Certificación Militar Ip67 - Negro",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/151891223/parlante-bluetooth-lg-xboom-bounce-40w-certificion-militar-ip67-negro?exp=so_com",
+     "pct": 71,
+     "price": 449.0,
+     "regular": 1599.0,
+     "seller": "Corporacion M & P",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "e7efe5add647b6b1": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "152809636",
+     "name": "Audífono Xiaomi Redmi Buds 8 Active con 5 modos de Ecualización",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/152809635/audifono-xiaomi-redmi-buds-8-active-con-5-modos-de-ecualizacion?exp=so_com",
+     "pct": 62,
+     "price": 125.0,
+     "regular": 329.0,
+     "seller": "Importaciones Coelva",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 125.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "af5f7733eb3bb114": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "150420402",
+     "name": "Televisor LG 43 Full HD LED Smart TV WebOS 43LR6000 + control magic",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/150420401/televisor-lg-43-full-hd-led-smart-tv-webos-43lr6000-control-magic?exp=so_com",
+     "pct": 77,
+     "price": 1019.0,
+     "regular": 4599.0,
+     "seller": "Corporacion M & P",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "74ec0ba9333a5461": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "114158269",
+     "name": "TONER PRINSTYLE  CF413X MAGENTA 5.000 PÁG.ISO DE RENDIMIENTO 19752",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/114158268/TONER-PRINSTYLE-CF413X-MAGENTA-5.000-PAG.ISO-DE-RENDIMIENTO-19752?exp=so_com",
+     "pct": 65,
+     "price": 205.99,
+     "regular": 600.0,
+     "seller": "Printer Suministros Del Perú",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 205.99,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "6654a34e4e486627": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "155374172",
+     "name": "PARLANTE PORTATIL BLUETOOTH BOMBOX 4MINI NEGRO",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/155374171/parlante-portatil-bluetooth-bombox-4mini-negro?exp=so_com",
+     "pct": 60,
+     "price": 99.0,
+     "regular": 249.0,
+     "seller": "G & P Tiendas Peru",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 99.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "f5b3131f4ceaf809": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "154282248",
+     "name": "Televisor JVC 43 QLED FHD Google TV LT-43KB758 Modelo Nuevo",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/154282247/televisor-jvc-43-qled-fhd-google-tv-lt-43kb758-modelo-nuevo?exp=so_com",
+     "pct": 63,
+     "price": 729.0,
+     "regular": 1999.0,
+     "seller": "Corporacion M & P",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 729.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "62b4c742aaf71761": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "154282250",
+     "name": "SOUNDBAR TCL 2.0 NEGRO 100W - S45H",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/154282249/soundbar-tcl-2-0-negro-100w-s45h?exp=so_com",
+     "pct": 64,
+     "price": 249.0,
+     "regular": 699.0,
+     "seller": "Electrohogar Lys S.a.c",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 249.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "0a8fa0f61e1603ad": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "153925484",
+     "name": "Parlante Bluetooth Inteligente Alexe Pro Max",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/153925481/parlante-bluetooth-inteligente-alexe-pro-max?exp=so_com",
+     "pct": 60,
+     "price": 74.9,
+     "regular": 187.25,
+     "seller": "Pungzz",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 74.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "1ac374efbf8b5fc8": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "146570005",
+     "name": "Parlante Inteligente Bluetooh negro",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/146570004/Parlante-Inteligente-Bluetooh-negro?exp=so_com",
+     "pct": 72,
+     "price": 22.0,
+     "regular": 80.0,
+     "seller": "Mi Principito",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "c0550ca3d69cf37a": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "149247659",
+     "name": "Dron Profesional E88 4K ORIGINAL Dual Cámara WiFi HD RC Video Plegable",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/149247658/Dron-Profesional-E88-4K-ORIGINAL-Dual-Camara-WiFi-HD-RC-Video-Plegable?exp=so_com",
+     "pct": 61,
+     "price": 273.9,
+     "regular": 719.0,
+     "seller": "Genieka",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "93f68e6fba4c8b12": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "150694839",
+     "name": "Televisor Samsung QLED 55\" 4K Ultra HD Tizen QN55Q7FAAG - Modelo 2025",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/150694837/televisor-samsung-qled-55-4k-ultra-hd-tizen-qn55q7faag-modelo-2025?exp=so_com",
+     "pct": 65,
+     "price": 1398.0,
+     "regular": 3999.0,
+     "seller": "Victoria Ilimitada",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 1398.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "dcd4e2c277c7d850": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "155434321",
+     "name": "Chip DE Caja DE Mantenimiento Epson F170 CHIP F170 solucion al error de mantenimiento S210125",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/155434320/chip-de-caja-de-mantenimiento-epson-f170-chip-f170-solucion-al-error-de-mantenimiento-s210125?exp=so_com",
+     "pct": 74,
+     "price": 25.0,
+     "regular": 99.0,
+     "seller": "Gaming Power Peru",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "677ea738baf4b95f": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "126216415",
+     "name": "Control Remoto para Haier Smartv",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/126216414/Control-Remoto-para-Haier-Smartv?exp=so_com",
+     "pct": 66,
+     "price": 19.9,
+     "regular": 59.9,
+     "seller": "Ottoware",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": 19.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "9fc12884c9a8304d": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "140810803",
+     "name": "Trípode Monopode Profesional Q999 Nikon Canon Sony +envío",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/140810801/Tripode-Monopode-Profesional-Q999-Nikon-Canon-Sony-+envio?exp=so_com",
+     "pct": 60,
+     "price": 239.0,
+     "regular": 599.0,
+     "seller": "Hiedra",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Tecnología",
+     "previous_min": null,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "d01b53df3bf96297": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "155777072",
+     "name": "Consola Recibidor Windsor Negro Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/155777071/consola-recibidor-windsor-negro-coricha-home?exp=so_com",
+     "pct": 60,
+     "price": 629.0,
+     "regular": 1580.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 629.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "571d3a6ed13527af": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "144903859",
+     "name": "Escritorio Moderno Starhome Velez Duna y Blanco",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/144903858/Escritorio-Moderno-Starhome-Velez-Duna-y-Blanco?exp=so_com",
+     "pct": 60,
+     "price": 899.0,
+     "regular": 2300.0,
+     "seller": "Muebles Starhome.",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 899.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "466b870ab4bf2d28": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "129145398",
+     "name": "Escritorio Archivador Gamer Battle Caramelo Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/129145397/Escritorio-Archivador-Gamer-Battle-Caramelo-Coricha-Home?exp=so_com",
+     "pct": 60,
+     "price": 869.0,
+     "regular": 2180.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 869.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "c01afd5a531340b3": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "155916916",
+     "name": "Consola Recibidor Agatha Blanco Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/155916915/consola-recibidor-agatha-blanco-coricha-home?exp=so_com",
+     "pct": 60,
+     "price": 659.0,
+     "regular": 1650.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 659.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "6dc724bd6b52137c": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "139754680",
+     "name": "Mesa de Centro Industrial Cassetti Gales Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/139754679/Mesa-de-Centro-Industrial-Cassetti-Gales-Coricha-Home?exp=so_com",
+     "pct": 60,
+     "price": 629.0,
+     "regular": 1580.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 629.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "da508188d286c481": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "139747655",
+     "name": "Mesa Auxiliar Cosmo Cemento Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/139747654/Mesa-Auxiliar-Cosmo-Cemento-Coricha-Home?exp=so_com",
+     "pct": 60,
+     "price": 229.0,
+     "regular": 580.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 229.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "65c3343a39cf9f71": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "155909331",
+     "name": "Consola Recibidor Kube Duna Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/155909330/consola-recibidor-kube-duna-coricha-home?exp=so_com",
+     "pct": 60,
+     "price": 829.0,
+     "regular": 2080.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 829.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "c28ed2b264b1333a": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "155739617",
+     "name": "Consola Recibidor Lucci Caramelo Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/155739616/consola-recibidor-lucci-caramelo-coricha-home?exp=so_com",
+     "pct": 60,
+     "price": 379.0,
+     "regular": 950.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 379.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "46480e6f0b11cc96": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "141174718",
+     "name": "Escritorio Industrial Autumn Gales Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/141174717/Escritorio-Industrial-Autumn-Gales-Coricha-Home?exp=so_com",
+     "pct": 60,
+     "price": 269.0,
+     "regular": 680.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 269.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "89741ce60b8032bf": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "142104124",
+     "name": "Combo Summer Escritorio Blanco + Cajonera Blanca Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/142104123/Combo-Summer-Escritorio-Blanco-+-Cajonera-Blanca-Coricha-Home?exp=so_com",
+     "pct": 60,
+     "price": 689.0,
+     "regular": 1730.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 689.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "83921c69b261cb0c": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "139754243",
+     "name": "Mesa de Centro Industrial Casiopea Duna Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/139754242/Mesa-de-Centro-Industrial-Casiopea-Duna-Coricha-Home?exp=so_com",
+     "pct": 60,
+     "price": 419.0,
+     "regular": 1050.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 419.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "22e75d783524abd1": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "147928858",
+     "name": "Mesa de TV 60 Rosmery Blanco Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/147928857/Mesa-de-TV-60-Rosmery-Blanco-Coricha-Home?exp=so_com",
+     "pct": 60,
+     "price": 809.0,
+     "regular": 2030.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 809.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "8f16a291b74d3737": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "151992696",
+     "name": "Escritorio Estante Seraphina Duna Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/151992695/escritorio-estante-seraphina-duna-coricha-home?exp=so_com",
+     "pct": 60,
+     "price": 389.0,
+     "regular": 980.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 389.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "20cd7ca57665067f": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "155755627",
+     "name": "Consola Recibidor Aurelia Negro Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/155755626/consola-recibidor-aurelia-negro-coricha-home?exp=so_com",
+     "pct": 60,
+     "price": 649.0,
+     "regular": 1630.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 649.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "cd7885c809935593": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "155986549",
+     "name": "Banqueta Matrimonial Sybil Gris Plata Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/155986548/banqueta-matrimonial-sybil-coricha-home?exp=so_com",
+     "pct": 60,
+     "price": 1169.0,
+     "regular": 2930.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 1169.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "e52783e140b9762c": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "137351898",
+     "name": "Sofá Vintage Louth 3 cuerpos - Beige claro",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/137351897/Sofa-Vintage-Louth-3-cuerpos-Beige-claro?exp=so_com",
+     "pct": 60,
+     "price": 1334.0,
+     "regular": 3419.0,
+     "seller": "Baraka Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 1334.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "b7beee92f87d07de": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "155794213",
+     "name": "Consola Recibidor Hadley Gales Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/155794212/consola-recibidor-hadley-gales-coricha-home?exp=so_com",
+     "pct": 60,
+     "price": 1019.0,
+     "regular": 2550.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 1019.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "e645f9f44770d75a": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "129322896",
+     "name": "Estante Organizador Librero Industrial Atenea Duna Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/129322895/Estante-Organizador-Librero-Industrial-Atenea-Duna-Coricha-Home?exp=so_com",
+     "pct": 60,
+     "price": 1099.0,
+     "regular": 2750.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 1099.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "fd0b11d30e82dfe3": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "156013286",
+     "name": "Banqueta King Aurelia Gris Plata Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/156013285/banqueta-king-aurelia-gris-plata-coricha-home?exp=so_com",
+     "pct": 60,
+     "price": 1399.0,
+     "regular": 3500.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 1399.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "77babfa6dee946fc": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "155754423",
+     "name": "Consola Recibidor Nox Duna Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/155754420/consola-recibidor-nox-duna-coricha-home?exp=so_com",
+     "pct": 60,
+     "price": 469.0,
+     "regular": 1180.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 469.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "ae3db153b6308aee": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "155755599",
+     "name": "Consola Recibidor Aurelia Blanco Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/155755598/consola-recibidor-aurelia-blanco-coricha-home?exp=so_com",
+     "pct": 60,
+     "price": 649.0,
+     "regular": 1630.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 649.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "6bfa194668ccd2f6": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "145108283",
+     "name": "Sofá Minimalista Ancona 2 Cuerpos - Beige Claro",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/145108282/Sofa-Minimalista-Ancona-2-Cuerpos-Beige-Claro?exp=so_com",
+     "pct": 61,
+     "price": 2160.0,
+     "regular": 5599.0,
+     "seller": "Baraka Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 2160.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "cf8bfa87e46dfaab": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "141175334",
+     "name": "Escritorio Industrial Nox Duna Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/141175333/Escritorio-Industrial-Nox-Duna-Coricha-Home?exp=so_com",
+     "pct": 60,
+     "price": 309.0,
+     "regular": 780.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 309.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "623c0f21062dff87": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "147892378",
+     "name": "Mesa de TV 75 Everdeen Espresso Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/147892377/Mesa-de-TV-75-Everdeen-Espresso-Coricha-Home?exp=so_com",
+     "pct": 60,
+     "price": 949.0,
+     "regular": 2380.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 949.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "d4205775a3a22010": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "144926768",
+     "name": "Butaca Giratoria Blossom - Beige Claro",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/144926767/Butaca-Giratoria-Blossom-Beige-Claro?exp=so_com",
+     "pct": 60,
+     "price": 1359.0,
+     "regular": 3409.0,
+     "seller": "Baraka Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 1359.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "330d7aecd14200ec": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "156002839",
+     "name": "Banqueta Matrimonial Sybil Sand Coricha Home",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/156002838/banqueta-matrimonial-sybil-sand-coricha-home?exp=so_com",
+     "pct": 60,
+     "price": 1169.0,
+     "regular": 2930.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 1169.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "a5f53b6e0081e185": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "146850701",
+     "name": "AIRE ACONDICIONADO AIR ULTRA 2X",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/146850700/AIRE-ACONDICIONADO-AIR-ULTRA-2X?exp=so_com",
+     "pct": 60,
+     "price": 39.9,
+     "regular": 99.9,
+     "seller": "El Cartel",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 39.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "f3bff4ce00dc70b3": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "153669897",
+     "name": "LICUADORA 1.5L 2 EN 1 CON TRITURADORA DE VEGETALES 350w",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/153669896/licuadora-1-5l-2-en-1-con-trituradora-de-vegetales-350w?exp=so_com",
+     "pct": 60,
+     "price": 79.9,
+     "regular": 199.9,
+     "seller": "Todotecperu",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 79.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "cc4151a99e5cfd20": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "142111143",
+     "name": "Licuadora Oster® Xpert Series™ vaso Boroclass® BLST3A-CPG",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/142111142/licuadora-oster-xpert-series-vaso-boroclass-blst3a-cpg?exp=so_com",
+     "pct": 60,
+     "price": 790.0,
+     "regular": 1999.0,
+     "seller": "Consorcio Alfer S.a.c.",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 790.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "9ea429f36381fec3": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "128715204",
+     "name": "Hervidor Eléctrico Oster BVSTKT3101 1.7 litros",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/128715203/Hervidor-Electrico-Oster-BVSTKT3101-1.7-litros?exp=so_com",
+     "pct": 62,
+     "price": 74.0,
+     "regular": 199.0,
+     "seller": "Dcuros",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 74.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "b0e12a47a45e54ef": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "153267192",
+     "name": "MINI ASPIRADORA PORTÁTIL PARA LIMPIEZA RECARGABLE",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/153267191/mini-aspiradora-portatil-para-limpieza-recargable?exp=so_com",
+     "pct": 67,
+     "price": 28.9,
+     "regular": 89.0,
+     "seller": "Grupo Linea Hogar",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 28.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "ebd21f48944ed4dd": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "152166957",
+     "name": "COCINA ELECTRICA DE ACERO INOXIDABLE 2 HORNILLAS NATIONALIZER",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/152166956/cocina-electrica-de-acero-inoxidable-2-hornillas-nationalizer?exp=so_com",
+     "pct": 60,
+     "price": 159.0,
+     "regular": 399.0,
+     "seller": "Inversiones Karelys E.i.r.l",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 159.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "c7445604c141b8b9": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "144585665",
+     "name": "Mini Licuadora Portátil para Batidos Recargable",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/144585664/Mini-Licuadora-Portatil-para-Batidos-Recargable?exp=so_com",
+     "pct": 60,
+     "price": 39.0,
+     "regular": 99.0,
+     "seller": "T.e.r. Peru",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 39.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "d64d7f5f3062a8cd": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "146122146",
+     "name": "Record Combo X4 Caja Mágica",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/146122145/Record-Combo-X4-Caja-Magica?exp=so_com",
+     "pct": 61,
+     "price": 309.0,
+     "regular": 799.0,
+     "seller": "Importaciones Electro Hogar",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 309.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "8d3b3dc4ab5571bd": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "140157001",
+     "name": "Hervidor eléctrico Oster® azul 1.7 L BVSTKT4177V",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/140157000/Hervidor-electrico-Oster%C2%AE-azul-1.7-L-BVSTKT4177V?exp=so_com",
+     "pct": 64,
+     "price": 119.0,
+     "regular": 339.0,
+     "seller": "Roysha S.a.c.",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 119.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "ae87c95833aa4263": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "155508643",
+     "name": "Nueva Olla Arrocera Antiadherente 1,8 Litros CKSTRCB10DFSKE",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/155508642/nueva-olla-arrocera-antiadherente-1-8-litros-ckstrcb10dfske?exp=so_com",
+     "pct": 65,
+     "price": 139.0,
+     "regular": 399.0,
+     "seller": "Linea Ccenter E.i.r.l",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 139.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "52c1b7e5b86e00f5": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "143213203",
+     "name": "Exprimidor de Cítricos Thomas TH-1215",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/143213200/Exprimidor-de-Citricos-Thomas-TH-1215?exp=so_com",
+     "pct": 63,
+     "price": 109.0,
+     "regular": 299.0,
+     "seller": "Marketplace",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 109.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "91dc8b84fdf61907": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "138146526",
+     "name": "Aspiradora Electrolux de Polvo y Agua GT20N",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/138146525/Aspiradora-Electrolux-de-Polvo-y-Agua-GT20N?exp=so_com",
+     "pct": 60,
+     "price": 399.0,
+     "regular": 999.0,
+     "seller": "Importaciones Electro Hogar",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 399.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "6fe02ac8f4c63964": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "143491147",
+     "name": "Set de Utensilios Facusa X 04PZS BBQ-MPC - 10254009",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/143491146/Set-de-Utensilios-Facusa-X-04PZS-BBQ-MPC-10254009?exp=so_com",
+     "pct": 60,
+     "price": 129.0,
+     "regular": 329.0,
+     "seller": "Importaciones Electro Hogar",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 129.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "354c04fcdf83dbcc": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "138303855",
+     "name": "Cafetera 12L Philips HD746220 Negro.",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/138303854/Cafetera-12L-Philips-HD746220-Negro.?exp=so_com",
+     "pct": 63,
+     "price": 209.0,
+     "regular": 569.0,
+     "seller": "Importaciones Electro Hogar",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 209.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "ef849cbb946ba9aa": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "151040526",
+     "name": "PLANCHA A VAPOR IMACO BLANCA - ETA10",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/151040525/plancha-a-vapor-imaco-blanca-eta10?exp=so_com",
+     "pct": 60,
+     "price": 59.0,
+     "regular": 149.0,
+     "seller": "Import Caso E.i.r.l.",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 59.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "d3f56706a91725b7": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "151687498",
+     "name": "Velas Tallarin Doradas Premium para Cumpleaños Pack de 18 unidades",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/151687497/velas-tallarin-doradas-premium-para-cumpleanos-pack-de-18-unidades?exp=so_com",
+     "pct": 60,
+     "price": 24.0,
+     "regular": 60.0,
+     "seller": "Alessa Reposteria",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 24.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "f0d9c0fe7234f915": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "151698302",
+     "name": "Velas Tallarin Plateadas Premium para Cumpleaños Pack de 18 unidades",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/151698301/velas-tallarin-plateadas-premium-para-cumpleanos-pack-de-18-unidades?exp=so_com",
+     "pct": 60,
+     "price": 24.0,
+     "regular": 60.0,
+     "seller": "Alessa Reposteria",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 24.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "12c67e9339956cee": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "126381983",
+     "name": "Tira de 100 Luces LED Navideñas Luces Blancas",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/126381980/Tira-de-100-Luces-LED-Navidenas-Luces-Blancas?exp=so_com",
+     "pct": 60,
+     "price": 11.9,
+     "regular": 30.0,
+     "seller": "Inspira Market",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 11.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "3012f0d87ddeee73": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "147928398",
+     "name": "Cuadro Decorativo Belleza eterna 64x137 mt",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/147928397/Cuadro-Decorativo-Belleza-eterna-64x137-mt?exp=so_com",
+     "pct": 61,
+     "price": 699.0,
+     "regular": 1800.0,
+     "seller": "Dekko D' Interiors",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 699.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "7830faf9fbf8791b": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "155906280",
+     "name": "Funda elástica para silla de comedor rombo Bie",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/155906279/funda-elastica-para-silla-de-comedor-rombo-bie?exp=so_com",
+     "pct": 60,
+     "price": 20.0,
+     "regular": 50.0,
+     "seller": "Dilitec",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 20.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "b3d226ae3f7ed410": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "154848152",
+     "name": "Escultura en Polímero de Pareja Minimalista con Corazón Dorado",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/154848151/escultura-en-polimero-de-pareja-minimalista-con-corazon-dorado?exp=so_com",
+     "pct": 62,
+     "price": 59.9,
+     "regular": 159.9,
+     "seller": "Urge",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 59.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "48b424cd909f298c": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "136900908",
+     "name": "Set de 12 Bolas de Navidad Brillante, Escarchada, Mate de 6cm plateado",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/136900907/Set-de-12-Bolas-de-Navidad-Brillante,-Escarchada,-Mate-de-6cm-plateado?exp=so_com",
+     "pct": 60,
+     "price": 12.0,
+     "regular": 30.0,
+     "seller": "Mi Principito",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 12.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "06993aee04011b44": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "138096294",
+     "name": "Trio de Peras Plateadas",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/138096293/Trio-de-Peras-Plateadas?exp=so_com",
+     "pct": 61,
+     "price": 152.9,
+     "regular": 399.0,
+     "seller": "Dekko D' Interiors",
+     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
+     "category": "Hogar",
+     "previous_min": 152.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "d12ccb994d55955e": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "155695997",
+     "name": "RELOJ DIGITAL LED 3D - BLANCO",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/155695996/reloj-digital-led-3d-blanco?exp=so_com",
+     "pct": 62,
+     "price": 39.5,
+     "regular": 105.0,
+     "seller": "Aqualine",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 39.5,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "de23612b3dbfe67a": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "148774904",
+     "name": "Corona Navideña Guirnalda Decoracion De Navidad 30cm",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/148774903/Corona-Navidena-Guirnalda-Decoracion-De-Navidad-30cm?exp=so_com",
+     "pct": 63,
+     "price": 29.0,
+     "regular": 79.0,
+     "seller": "Goodsphere",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 29.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "7b0d1acc2e99cc65": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "138783613",
+     "name": "Espejo de maquillaje redondo con orejas de gato blanco",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/138783612/Espejo-de-maquillaje-redondo-con-orejas-de-gato-blanco?exp=so_com",
+     "pct": 60,
+     "price": 12.0,
+     "regular": 30.0,
+     "seller": "Importgema",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 12.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "82faecaea0e7ed8a": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "145789066",
+     "name": "Cascanueces navideño movimiento luces Sonidos con corriente",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/145789065/Cascanueces-navideno-movimiento-luces-Sonidos-con-corriente?exp=so_com",
+     "pct": 63,
+     "price": 399.0,
+     "regular": 1100.0,
+     "seller": "Sebaskid",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 399.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "c6075bcf6311f93e": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "148494111",
+     "name": "Adorno Casa Madera LED Muñeco Nieve y Árbol",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/148494109/Adorno-Casa-Madera-LED-Muneco-Nieve-y-Arbol?exp=so_com",
+     "pct": 62,
+     "price": 29.9,
+     "regular": 79.9,
+     "seller": "Urge",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 29.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "d94927a51dc26e9e": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "146970528",
+     "name": "Funda de Puerta de Navidad Muñeco de Nieve",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/146970527/Funda-de-Puerta-de-Navidad-Muneco-de-Nieve?exp=so_com",
+     "pct": 61,
+     "price": 25.0,
+     "regular": 65.0,
+     "seller": "Thadi Mania",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 25.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "b5032091697842db": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "152157440",
+     "name": "Alfombra Decoghar BZ-6  Peru Kilam Multi 120 x 180 cm",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/152157439/alfombra-decoghar-bz-6-peru-kilam-multi-120-x-180-cm?exp=so_com",
+     "pct": 65,
+     "price": 199.0,
+     "regular": 572.0,
+     "seller": "Decoghar.",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 199.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "96058425861e1bb4": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "152157257",
+     "name": "Alfombra Decoghar BZ-3  Peru Kilam Multi 120 x 180 cm",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/152157256/alfombra-decoghar-bz-3-peru-kilam-multi-120-x-180-cm?exp=so_com",
+     "pct": 65,
+     "price": 199.0,
+     "regular": 572.0,
+     "seller": "Decoghar.",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 199.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "a2bac3d76a932125": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "148219679",
+     "name": "Set Completo de Cojines en Tonos Beiges 6 Unidades  Estilo Nórdico",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/148219678/Set-Completo-de-Cojines-en-Tonos-Beiges-6-Unidades-Estilo-Nordico?exp=so_com",
+     "pct": 60,
+     "price": 629.9,
+     "regular": 1599.9,
+     "seller": "Zara Almohadaspe",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 629.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "97832637073cfb7c": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "136608307",
+     "name": "Árbol Navideño Pomposo 210 mt",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/136608306/Arbol-Navideno-Pomposo-210-mt?exp=so_com",
+     "pct": 65,
+     "price": 449.99,
+     "regular": 1299.0,
+     "seller": "Dekko D' Interiors",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 449.99,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "9bb3d5860c3f1efc": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "138655268",
+     "name": "Set de 12 Mini Velas decorativas Navideñas",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/138655267/Set-de-12-Mini-Velas-decorativas-Navidenas?exp=so_com",
+     "pct": 60,
+     "price": 36.0,
+     "regular": 90.0,
+     "seller": "La Tienda D Todo",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 36.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
+   },
+   "7a7a00508dfa3c27": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "156070421",
+     "name": "Forro elegante   Para Puerta tendencia navidad 2025",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/156070420/forro-elegante-para-puerta-tendencia-navidad-2025?exp=so_com",
+     "pct": 61,
+     "price": 50.0,
+     "regular": 130.0,
+     "seller": "Sayumikid",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 50.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": ""
+    },
+    "visto": 1789771724
    }
   },
   "ultimo_resumen_hogar": 1789766556
