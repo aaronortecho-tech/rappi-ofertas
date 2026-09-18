@@ -46,8 +46,10 @@ def test_title_and_message():
     assert alert_title(sample_alert(pct=85)).startswith("🚨 -85%")
     message = alert_message(alert)
     lines = message.splitlines()
-    assert lines[0] == "• -70% Gran Dúo Cheesy + Cheesy: S/ 29.90 (antes S/ 99.80)"
-    assert lines[1].startswith("• -67% Cheesyton")
+    assert lines[0] == "🛒 Gran Dúo Cheesy + Cheesy"
+    assert lines[1] == "💰 S/ 29.90  |  -70%"
+    assert lines[2] == "Antes: S/ 99.80"
+    assert "\n\n🛒 Cheesyton" in message
     assert lines[-1] == "Restaurante · a 2.9 km"
     assert "km" not in alert_message(alert, show_distance=False)
 
