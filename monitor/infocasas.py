@@ -154,10 +154,18 @@ def comparables(store, listing, op, day):
     from .inmuebles import distance_km
     low, high = AREA_BAND
     here = (listing['lat'], listing['lng'])
-    values = [v['usd'] / v['area'] for v in store.values()
-              if v is not listing and v['op'] == op and v['tipo'] == listing['tipo'] and not v.get('flags')
-              and v.get('r', 0) >= day - KEEP_DAYS and low * listing['area'] <= v['area'] <= high * listing['area']
-              and distance_km(here, (v['lat'], v['lng'])) <= RADIUS_KM]
+    same_home = (round(listing['lat'], 4), round(listing['lng'], 4), round(listing['area']))
+    unique = {}
+    for v in store.values():
+        if v is listing or v['op'] != op or v['tipo'] != listing['tipo'] or v.get('flags'): continue
+        if v.get('r', 0) < day - KEEP_DAYS or not low * listing['area'] <= v['area'] <= high * listing['area']: continue
+        if distance_km(here, (v['lat'], v['lng'])) > RADIUS_KM: continue
+        # Un mismo inmueble republicado con otro id (o por dos corredores) cuenta una sola vez:
+        # misma ubicación a ~10 m y misma área. Se queda la observación más reciente.
+        home = (round(v['lat'], 4), round(v['lng'], 4), round(v['area']))
+        if home == same_home: continue
+        if home not in unique or v.get('r', 0) > unique[home].get('r', 0): unique[home] = v
+    values = [v['usd'] / v['area'] for v in unique.values()]
     return statistics.median(values) if len(values) >= MIN_COMPARABLES else None, len(values)
 
 

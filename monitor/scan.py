@@ -184,6 +184,14 @@ def store_batch(stores: list, size: int, now: float, every_minutes: int) -> tupl
     return stores[start : start + size], index + 1, total_batches
 
 
+def store_window(stores: list, size: int, start: int) -> list:
+    """Tiendas desde la posición guardada, dando la vuelta al final de la lista."""
+    if not stores:
+        return []
+    start %= len(stores)
+    return (stores[start:] + stores[:start])[:size]
+
+
 def scan_stores(cfg: Config, http, state: State, now: float, log: logging.Logger,
                 deadline: Deadline | None = None) -> ScanResult:
     result = ScanResult("tiendas")
@@ -192,8 +200,15 @@ def scan_stores(cfg: Config, http, state: State, now: float, log: logging.Logger
         stores = load_store_list(cfg, http, state, now, log)
         if not stores:
             raise RuntimeError("no se encontraron tiendas en rappi.com.pe/tiendas/tipo/…")
-        batch, number, total = store_batch(stores, cfg.store_batch, now, cfg.run_every_minutes)
-        result.notes.append(f"{len(stores)} tiendas en total; grupo {number} de {total}")
+        # Cursor guardado en la memoria: con los retrasos de GitHub (22 a 43 minutos entre rondas)
+        # la rotación por reloj repetía o saltaba grupos. Se retoma justo donde quedó la ronda anterior.
+        start = state.store_list.get("next_start")
+        if not isinstance(start, int):
+            _, number, _ = store_batch(stores, cfg.store_batch, now, cfg.run_every_minutes)
+            start = (number - 1) * cfg.store_batch
+        start %= len(stores)
+        batch = store_window(stores, cfg.store_batch, start)
+        result.notes.append(f"{len(stores)} tiendas en total; desde la posición {start + 1}")
         read_ok = attempted = market_checked = home_checked = home_failed = 0
         for store_id, slug in batch:
             if deadline.expired():
@@ -246,6 +261,8 @@ def scan_stores(cfg: Config, http, state: State, now: float, log: logging.Logger
                     Alert(kind="tienda", store_id=str(store_id), store_name=store_name, url=url, offers=best)
                 )
         result.checked = read_ok
+        # Avanza solo lo intentado: si se acabó el tiempo, la próxima ronda sigue desde ahí.
+        state.store_list["next_start"] = (start + attempted) % len(stores)
         if cfg.check_market:
             result.notes.append(f"Rappi Market/Turbo: {market_checked} locales y "
                                 f"{home_checked} pasillos de hogar/bazar revisados en este grupo")

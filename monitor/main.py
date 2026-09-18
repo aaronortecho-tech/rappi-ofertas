@@ -14,7 +14,7 @@ from .browser import RappiBrowser
 from .config import Config, ConfigError
 from .http import HttpClient
 from .models import Alert, ScanResult
-from .notify import Notifier
+from .notify import Notifier, OVERFLOW_SHOWN
 from .scan import scan_chains, scan_restaurants, scan_stores
 from .state import State, offer_key
 from .privacy import PrivateFormatter
@@ -196,9 +196,11 @@ def run(cfg: Config, args: argparse.Namespace, log: logging.Logger, now: float |
         else:
             delivery_failed = True
     if overflow and notifier.send_overflow([alert for alert, _ in overflow], now):
-        overflow_sent = len(overflow)
+        # Solo los locales que el resumen alcanzó a mostrar; el resto vuelve a salir en la ronda siguiente.
+        shown = overflow[:OVERFLOW_SHOWN]
+        overflow_sent = len(shown)
         if not args.sin_enviar:
-            for _, keys in overflow:
+            for _, keys in shown:
                 for key in keys:
                     state.mark_seen(key, now)
     if overflow and not overflow_sent:

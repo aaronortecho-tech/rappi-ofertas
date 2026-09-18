@@ -229,12 +229,24 @@ def scan_flights(state, now, http_factory=HttpClient, sources=None):
                 if not rules.can_fetch(client.user_agent, url): raise ValueError('robots.txt no permite leer esta página')
             elif not sky_shell:
                 raise ValueError('No se pudo verificar robots.txt')
+            misses_key = name + '/portada-sin-tarifas'
             try: observations = parser(client.get(url), today)
             except ValueError:
                 # JetSMART alterna al azar entre su portada completa y otra ligera sin el carrusel
-                # de tarifas (misma página, sin bloqueo). Una sola relectura, con la pausa normal,
-                # separa eso de un cambio real de formato, que sigue marcándose como error.
-                observations = parser(client.get(url), today)
+                # de tarifas (misma página, sin bloqueo). Se relee una vez; si vuelve la ligera, esa
+                # ronda queda sin tarifas pero no en rojo. Tres rondas seguidas así sí es un error:
+                # probablemente cambió el formato.
+                html = client.get(url)
+                try: observations = parser(html, today)
+                except ValueError:
+                    misses = state.cursors.get(misses_key, 0) + 1
+                    state.cursors[misses_key] = misses
+                    if name != 'JetSMART' or 'JetSMART' not in (html or '') or misses >= 3: raise
+                    observations = None
+            if observations is None:
+                observations = []
+            else:
+                state.cursors.pop(misses_key, None)
             count = len(observations)
             for deal in observations:
                 plain = replace(deal)
@@ -329,7 +341,7 @@ def scan_travelpayouts(state, now, token=None, http_factory=HttpClient):
             query = urlencode({'origin': 'LIM', 'destination': destination_code(deal), 'currency': 'usd',
                                'month': match.group(1) + '-01', 'show_to_affiliates': 'true'})
             days = travelpayouts_month(json.loads(client.get(f'{TP_API}/v2/prices/month-matrix?{query}', headers=headers) or 'null'), deal)
-            if len(days) > 1: deal.condition += ' Otras salidas del mes con precio parecido: ' + ', '.join(d[8:] for d in days[:12]) + '.'
+            if len(days) > 1: deal.condition += (' Otras salidas del mes con precio parecido: ' + ', '.join(d[8:] for d in days[:12]) + ' (la duración del viaje y las condiciones pueden ser otras).')
         state.cursors['travelpayouts'] = int(now)
     except Exception as exc:
         # El token no aparece en los mensajes: HttpClient solo incluye tipo y texto del error.

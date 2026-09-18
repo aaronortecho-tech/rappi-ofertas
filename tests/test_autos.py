@@ -163,3 +163,17 @@ def test_scan_keeps_all_candidates_and_reserves_known_price_reads(monkeypatch):
         def send(self, *args, **kwargs): return True
     sent, failed = deliver(deals, state, Sink(), DAY * 86400, 'autos')
     assert sent == 3 and not failed and len(state.seen) == 6
+
+
+def test_medians_skip_damaged_cars_and_never_mix_version_with_model():
+    # Ocho chocados baratos no deben bajar la mediana del modelo.
+    ads = fleet(**{f'ch{i}': car(9000, flags=['chocado']) for i in range(8)})
+    assert market(ads, RATE, DAY, 2026)[('kia', 'sorento', 2022)][1] == 8
+    # Versión con medianas propias en 2022 y 2021: se compara todo por versión.
+    top = {f'gt{y}{i}': car(p + i, year=y, version='gt') for y, p in ((2022, 30000), (2021, 26000)) for i in range(8)}
+    ads = fleet(x=car(16900, version='gt', pub='Publicado hace más de un mes'), **top)
+    # A US$ 16.900 un GT 2022 está muy por debajo del GT 2021 (26.000): más barato que tres años atrás
+    # por versión no existe, pero bajo el 55 % de su propia mediana sí: sospechoso, no ganga.
+    assert judge(ads, 'x') is None
+    # Sin medianas de la versión el aviso usa el modelo completo (como antes).
+    assert judge(fleet(x=car(14800, version='raro', pub='Publicado hace más de un mes')), 'x')

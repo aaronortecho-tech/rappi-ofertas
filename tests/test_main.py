@@ -182,3 +182,16 @@ def test_browser_block_stops_all_rappi_sections(cfg, store_pages):
     assert code == 1
     assert http.calls == []
     assert "🧪 Prueba del monitor de Rappi" in titles(http)
+
+
+def test_overflow_only_marks_the_venues_it_showed(cfg, store_pages, monkeypatch):
+    import monitor.main as main_module
+    import monitor.notify as notify_module
+    monkeypatch.setattr(main_module, "OVERFLOW_SHOWN", 1)
+    monkeypatch.setattr(notify_module, "OVERFLOW_SHOWN", 1)
+    cfg.max_alerts_per_run = 2
+    cfg.store_batch = 10
+    code, http, _ = make_run(cfg, store_pages)
+    assert "…y 1 locales más" in http.posts[2][1]["message"]
+    code, http, _ = make_run(cfg, store_pages, now=NOON + 60)
+    assert len(http.posts) == 1  # el local que no cupo en el resumen vuelve a salir

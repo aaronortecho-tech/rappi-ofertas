@@ -118,7 +118,7 @@ def test_scan_persists_initial_history_without_false_discount():
 
 @pytest.mark.parametrize('pages, count, failed', [
     (['<title>JetSMART</title>', jet()], 2, False),
-    (['<title>JetSMART</title>', '<title>JetSMART</title>', jet()], 0, True),
+    (['<title>JetSMART</title>', '<title>JetSMART</title>', jet()], 0, False),
 ])
 def test_light_jetsmart_page_is_read_once_more_then_reported(pages, count, failed):
     calls = []
@@ -224,3 +224,24 @@ def test_travelpayouts_needs_token_and_runs_every_six_hours():
     assert reports == [('Travelpayouts/destinos desde Lima', 1, None)]
     assert all('secreto' not in url and headers == {'X-Access-Token': 'secreto'} for url, headers in calls)
     assert scan_travelpayouts(state, NOW + 3600, token='secreto', http_factory=Client) == ([], [])
+
+
+def test_light_page_three_rounds_in_a_row_becomes_an_error_and_success_resets():
+    class Client:
+        user_agent = 'Mozilla/5.0'
+        pages = []
+        def __init__(self, **kw): pass
+        def get(self, url):
+            return 'User-agent: *\nDisallow: /booking' if url.endswith('robots.txt') else Client.pages.pop(0)
+    state = CatalogState()
+    sources = [('JetSMART', JET_URL, jetsmart_fares)]
+    for expected in (False, False, True):
+        Client.pages = ['<title>JetSMART</title>'] * 2
+        _, reports = scan_flights(state, NOW, Client, sources)
+        assert bool(reports[0][2]) == expected
+    Client.pages = [jet()]
+    _, reports = scan_flights(state, NOW, Client, sources)
+    assert reports[0][1] == 2 and not reports[0][2] and 'JetSMART/portada-sin-tarifas' not in state.cursors
+    Client.pages = ['<html>otra cosa</html>'] * 2   # si no es la portada de JetSMART, falla de inmediato
+    _, reports = scan_flights(state, NOW, Client, sources)
+    assert reports[0][2]

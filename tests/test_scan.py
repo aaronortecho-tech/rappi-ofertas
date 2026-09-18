@@ -182,3 +182,26 @@ def test_blocked_menu_does_not_try_public_page(cfg):
     result = scan_restaurants(cfg, BlockedBrowser, http, LOG)
     assert result.blocked and result.error
     assert http.calls == []
+
+
+def test_store_cursor_continues_where_the_last_round_stopped():
+    from monitor.scan import store_window
+    stores = [(i, f"t{i}") for i in range(10)]
+    assert store_window(stores, 4, 8) == [(8, "t8"), (9, "t9"), (0, "t0"), (1, "t1")]
+    assert store_window(stores, 20, 3)[0] == (3, "t3") and len(store_window(stores, 20, 3)) == 10
+    assert store_window([], 4, 0) == []
+
+
+def test_scan_stores_saves_cursor_and_next_round_continues(cfg, store_pages):
+    cfg.store_batch = 1
+    state = State()
+    http = FakeHttp(store_pages)
+    scan_stores(cfg, http, state, NOW, LOG)
+    first = state.store_list["next_start"]
+    stores = state.store_list["stores"]
+    read = [c for c in http.calls if c.endswith("/ofertas")]
+    http.calls.clear()
+    # Aunque la ronda siguiente llegue al mismo «horario», no repite: sigue desde el cursor.
+    scan_stores(cfg, http, state, NOW, LOG)
+    again = [c for c in http.calls if c.endswith("/ofertas")]
+    assert len(stores) > 1 and read != again and state.store_list["next_start"] == (first + 1) % len(stores)

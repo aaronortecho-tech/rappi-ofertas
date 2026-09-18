@@ -19,6 +19,9 @@ def format_price(value: float | None) -> str:
     return "?" if value is None else f"S/ {value:,.2f}"
 
 
+# Locales que caben en el resumen de excedentes. Solo esos se marcan como avisados.
+OVERFLOW_SHOWN = 15
+
 def _short(text: str, limit: int) -> str:
     text = " ".join(text.split())
     return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
@@ -144,9 +147,9 @@ class Notifier:
         )
 
     def send_overflow(self, alerts: list[Alert], now: float) -> bool:
-        lines = [f"• -{a.best_pct}% {_short(a.store_name, 50)}" for a in alerts[:15]]
-        if len(alerts) > 15:
-            lines.append(f"…y {len(alerts) - 15} locales más")
+        lines = [f"• -{a.best_pct}% {_short(a.store_name, 50)}" for a in alerts[:OVERFLOW_SHOWN]]
+        if len(alerts) > OVERFLOW_SHOWN:
+            lines.append(f"…y {len(alerts) - OVERFLOW_SHOWN} locales más (llegarán en las próximas rondas)")
         quiet = in_quiet_hours(self.cfg.quiet_hours, now)
         return self.send(
             f"🔥 {len(alerts)} locales más con descuentos altos",

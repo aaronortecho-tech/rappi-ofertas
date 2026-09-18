@@ -143,11 +143,16 @@ def anomalies(record, today_year):
     return found
 
 
-def market(ads, rate, day):
-    """Medianas en dólares por (marca, modelo, año) y por versión, solo con precios recientes."""
+def market(ads, rate, day, today_year=None):
+    """Medianas en dólares por (marca, modelo, año) y por versión, solo con precios recientes.
+
+    Los avisos con palabras de alerta o kilometraje raro no entran: un chocado barato bajaría
+    la mediana y haría parecer caro a un auto normal."""
+    today_year = today_year or datetime.fromtimestamp(day * 86400, LIMA).year
     groups = {}
     for record in ads.values():
         if record.get('x', 0) < day - 2 or record.get('r', 0) < day - FRESH_DAYS or record['t'] == 'nuevo': continue
+        if anomalies(record, today_year): continue
         value = usd(record, rate)
         groups.setdefault((record['m'], record['mo'], record['a']), []).append(value)
         if record.get('v'): groups.setdefault((record['m'], record['mo'], record['a'], record['v']), []).append(value)
@@ -200,8 +205,11 @@ def evaluate(ads, ad_id, medians, new_medians, rate, day, today_year):
                                   f"Mediana de {reference[1]} avisos del mismo modelo, versión y año: {money(reference[0])}", facts,
                                   'Confirmar si el precio exige financiar con un banco.']
     if problems: return None
-    same = medians.get((record['m'], record['mo'], record['a'], record.get('v'))) if record.get('v') else None
-    same = same or medians.get((record['m'], record['mo'], record['a']))
+    # Misma granularidad en toda la escalera: si hay medianas de la versión para este año y el
+    # anterior, todo se compara por versión; si no, todo por modelo. Nunca versión contra modelo.
+    version = (record.get('v'),) if record.get('v') and all(
+        medians.get((record['m'], record['mo'], record['a'] - n, record['v'])) for n in (0, 1)) else ()
+    same = medians.get((record['m'], record['mo'], record['a'], *version))
     if same and price < 0.55 * same[0]: return None  # sospechoso: estafa, siniestro o precio gancho
 
     # 1) Bajada de precio: no necesita comparables y es la señal más útil para quien no tiene apuro.
@@ -213,7 +221,7 @@ def evaluate(ads, ad_id, medians, new_medians, rate, day, today_year):
 
     # 2) Año gratis + puntaje. Sin comparables suficientes no se opina.
     if not same: return None
-    ladder = [medians.get((record['m'], record['mo'], record['a'] - n)) for n in (1, 2, 3)]
+    ladder = [medians.get((record['m'], record['mo'], record['a'] - n, *version)) for n in (1, 2, 3)]
     if ladder[0] is None: return None
     if ladder[2] and price < ladder[2][0]: return None  # más barato que tres años antes: hay una razón oculta
     free_years = 2 if ladder[1] and price <= ladder[1][0] else (1 if price <= ladder[0][0] else 0)
@@ -275,7 +283,7 @@ def scan_autos(state, now, http_factory=HttpClient):
         error = 'acceso bloqueado; no se insiste' if isinstance(exc, Blocked) else type(exc).__name__ + ': ' + str(exc)[:140]
     for ad_id in [i for i, r in ads.items() if r.get('x', 0) < day - KEEP_DAYS]: ads.pop(ad_id)
 
-    medians, new_medians = market(ads, rate, day), new_car_market(ads, rate, day)
+    medians, new_medians = market(ads, rate, day, today_year), new_car_market(ads, rate, day)
     low, high = price_range()
     for ad_id in fresh:
         if not low <= usd(ads[ad_id], rate) <= high: continue

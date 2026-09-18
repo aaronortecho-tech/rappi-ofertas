@@ -49,3 +49,24 @@ Además de ejecutar sin errores, comprobar durante varias semanas: cobertura rea
 - Hogar, viajes y comida: https://github.com/aaronortecho-tech/rappi-ofertas/actions/runs/35380090805
 - Fallo de JetSMART: https://github.com/aaronortecho-tech/rappi-ofertas/actions/runs/35373797316
 - Autos e inmuebles: https://github.com/aaronortecho-tech/rappi-ofertas/actions/runs/35378171836
+
+## Respuesta y cambios aplicados (Claude Code, 18 de septiembre de 2026)
+
+Las tres correcciones de la revisión se verificaron y se conservan: el límite de tres avisos se aplica después de deduplicar, Infocasas retoma la página y autos reserva un tercio de lecturas para precios conocidos (la primera exploración completa pasa de ~7 a ~10 días).
+
+Aplicado a partir de las mejoras pendientes:
+
+- **Rappi, resumen de excedentes.** Confirmado: se marcaban como avisados todos los locales aunque el mensaje mostrara 15. Ahora solo se marcan los mostrados; el resto vuelve a salir en la ronda siguiente.
+- **Rappi, rotación por reloj.** Confirmado: con intervalos reales de 22 a 43 minutos se repetían o saltaban grupos. Ahora hay un cursor en `state.json` (`store_list.next_start`) que avanza solo lo que se alcanzó a revisar; si se acaba el tiempo o hay bloqueo, la ronda siguiente continúa desde ahí.
+- **JetSMART en rojo.** 3 de 29 rondas fallaron porque la portada ligera llegó dos veces seguidas. Ahora una ronda así queda sin tarifas pero verde; tres rondas seguidas sí es error (cambio de formato probable). Una página que no sea la portada de JetSMART sigue fallando de inmediato.
+- **Autos, medianas.** Los avisos con palabras de alerta o kilometraje raro ya no entran en las medianas. La escalera del año gratis usa una sola granularidad: todo por versión si hay medianas de la versión para ese año y el anterior; si no, todo por modelo. Se mantiene el respaldo por modelo porque muchos avisos de Neoauto no traen versión: exigir versión dejaría el grupo casi sin señales.
+- **Inmuebles, republicaciones.** Los comparables se deduplican por ubicación (~10 m), área y operación; un inmueble publicado a la vez en venta y en alquiler en el mismo punto no se usa como comparable de sí mismo. Se mantiene la ventana de 120 días para alquileres: la ruta de 30 días de Infocasas ya filtra lo viejo y sin esa ventana no se llega a 8 comparables.
+- **Vuelos.** El coste por km ya tenía un formato propio ("medida en centavos por km, no descuento anunciado"). Las otras fechas de `month-matrix` ahora advierten que la duración y las condiciones pueden ser otras.
+- Documentación: Travelpayouts figura como probado en vivo.
+
+No aplicado, a propósito:
+
+- **Frecuencia y volumen de hogar** (24 productos en una ronda). Es una preferencia del usuario; se le consulta antes de cambiarla.
+- **Orden de hogar por historial y ahorro absoluto.** El historial tiene uno o dos días; conviene esperar unas semanas de datos antes de cambiar el orden.
+- **Cola persistente de candidatos y métricas por ronda** (únicos, pendientes, aplazados). Útil pero es un cambio mayor; con los arreglos de arriba ya no se pierden candidatos por el resumen de Rappi ni por el límite de autos e inmuebles. Queda como siguiente paso si el usuario quiere medir cobertura.
+

@@ -13,7 +13,7 @@ def page():
     return (FIX / 'infocasas_venta.html').read_text(encoding='utf-8')
 
 
-def home(op, usd, area=80.0, lat=-12.1200, mant=0.0, flags=(), prices=None):
+def home(op, usd, area=80.0, lat=-12.1203, mant=0.0, flags=(), prices=None):
     return {'op': op, 'tipo': 'departamentos', 'usd': usd, 'area': area, 'lat': lat, 'lng': -77.0300, 'mon': 'USD',
             'monto': usd, 'mant': mant, 'anio': '', 'dorm': '2', 'zona': 'Miraflores', 'titulo': 'Depa',
             'u': 'https://www.infocasas.com.pe/x/1', 'flags': list(flags), 'p': [[DAY, p] for p in (prices or [usd])],
@@ -123,3 +123,13 @@ def test_resume_page_when_one_search_exceeds_round_budget(monkeypatch):
     scan_listings(state, DAY * 86400, 3.5, Client)
     assert calls[0].endswith('/pagina11')
     assert state.datos['infocasas']['pagina'] == 21
+
+
+def test_republished_listing_counts_once():
+    from monitor.infocasas import comparables
+    store = zone(x=home('venta', 130000))
+    # El mismo alquiler publicado otra vez con otro id no suma un comparable.
+    store['copia'] = dict(store['a3'])
+    assert comparables(store, store['x'], 'alquiler', DAY)[1] == 8
+    store['otro'] = home('alquiler', 820, lat=-12.1188)
+    assert comparables(store, store['x'], 'alquiler', DAY)[1] == 9
