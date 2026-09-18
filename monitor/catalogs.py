@@ -68,6 +68,7 @@ class Deal:
     previous_min: float | None = None
     currency: str = "PEN"
     reference_kind: str = "published"
+    note: str = ""          # solo se muestra; no entra en la clave (p. ej. «visto hace 5 h»)
 
     @property
     def key(self):
@@ -359,6 +360,7 @@ def deal_text(deal):
         if deal.previous_min is not None and deal.previous_min < deal.price:
             lines.append(f"Ojo: estuvo a S/ {deal.previous_min:,.2f} en los últimos 30 días")
     if deal.price is None: lines.append(f"Descuento: {deal.pct}%")
+    if deal.note: lines.append(deal.note)
     if deal.condition.startswith("Requiere tarjeta CMR"): lines.append("💳 Solo con tarjeta CMR")
     elif not deal.condition.startswith(("Precio web", "Precio publicado")): lines.append(deal.condition)
     lines.append(deal.url)
@@ -369,41 +371,66 @@ URGENT_HOME_PCT = 80      # estas no esperan al resumen: son las que más rápid
 QUEUE_HOURS = 24          # una oferta que no se vuelve a ver en un día sale de la cola
 
 
-def hold_home(state, deals, now, dry_run=False):
+def summary_every():
+    try: return max(0.5, float(os.environ.get('HORAS_RESUMEN_HOGAR', '') or 3)) * 3600
+    except ValueError: return 3 * 3600
+
+
+def hold_home(state, deals, now):
     """Hogar se revisa cada 30 minutos pero avisa en un resumen cada HORAS_RESUMEN_HOGAR (3 h).
 
-    Las candidatas esperan en una cola guardada en la memoria, así ninguna se pierde entre
-    resúmenes ni por el límite de mensajes; si un producto reaparece con otro precio, queda el
-    último. Las de 80 % o más se envían en la misma ronda."""
-    try: every = max(0.5, float(os.environ.get('HORAS_RESUMEN_HOGAR', '') or 3)) * 3600
-    except ValueError: every = 3 * 3600
+    Todas las candidatas, urgentes incluidas, pasan por una cola guardada en la memoria con una
+    sola entrada por producto (vendedor y condición): la última observación reemplaza a la
+    anterior, así nunca salen dos precios del mismo producto. Las de 80 % o más salen en cada
+    ronda y las demás cuando toca el resumen. Nada sale de la cola hasta que se envía, se
+    supera por otra observación o pasan 24 horas sin volver a verla.
+    Devuelve (ofertas que tocan ahora, si incluye el resumen, métricas)."""
     queue = state.datos.setdefault('cola_hogar', {})
-    urgent = []
+    stats = {'entradas': 0, 'caducadas': 0}
     for deal in deals:
-        if not state.is_new(deal.key, now, 168): continue
-        if deal.pct >= URGENT_HOME_PCT: urgent.append(deal)
-        else: queue[deal.history_key] = {'oferta': asdict(deal), 'visto': int(now)}
+        key = deal.history_key
+        if not state.is_new(deal.key, now, 168):
+            queue.pop(key, None)  # ese mismo precio ya se avisó: cualquier versión anterior queda superada
+            continue
+        if key not in queue: stats['entradas'] += 1
+        queue[key] = {'oferta': asdict(deal), 'visto': int(now)}
     for key, item in list(queue.items()):
-        deal = Deal(**item['oferta'])
-        if item['visto'] < now - QUEUE_HOURS * 3600 or not state.is_new(deal.key, now, 168): queue.pop(key)
+        if item['visto'] < now - QUEUE_HOURS * 3600:
+            queue.pop(key); stats['caducadas'] += 1
+        elif not state.is_new(Deal(**item['oferta']).key, now, 168):
+            queue.pop(key)
+    digest = now - state.datos.get('ultimo_resumen_hogar', 0) >= summary_every()
     due = []
-    if now - state.datos.get('ultimo_resumen_hogar', 0) >= every and queue:
-        due = [Deal(**item['oferta']) for item in queue.values()]
-        if not dry_run: state.datos['ultimo_resumen_hogar'] = int(now)
-    return urgent + due
+    for item in queue.values():
+        deal = Deal(**item['oferta'])
+        if deal.pct < URGENT_HOME_PCT and not digest: continue
+        hours = (now - item['visto']) / 3600
+        if hours >= 1: deal.note = f'Visto hace {hours:.0f} h: confirmar que siga vigente'
+        due.append(deal)
+    oldest = max(((now - v['visto']) / 3600 for v in queue.values()), default=0)
+    stats.update(pendientes=len(queue), mas_antigua_h=round(oldest, 1))
+    return due, digest and any(d.pct < URGENT_HOME_PCT for d in due), stats
 
 
 def deliver(deals, state, notifier, now, group, dry_run=False):
     pending = [d for d in deals if state.is_new(d.key, now, 1440 if group in SLOW_GROUPS else 168)]
     pending.sort(key=lambda d: (-d.pct, d.source, d.name))
     if group == 'hogar':
-        # Dar espacio a las cuatro categorías, aunque decoración tenga más rebajas.
-        buckets = {}
-        for deal in pending: buckets.setdefault(deal.category, []).append(deal)
-        pending = []
-        while any(buckets.values()):
-            for category in sorted(buckets):
-                if buckets[category]: pending.append(buckets[category].pop(0))
+        # Primero las de 80 % o más; el resto alterna las cuatro categorías para que decoración
+        # no desplace a muebles o tecnología.
+        def alternate(deals):
+            buckets, ordered = {}, []
+            for deal in deals: buckets.setdefault(deal.category, []).append(deal)
+            while any(buckets.values()):
+                for category in sorted(buckets):
+                    if buckets[category]: ordered.append(buckets[category].pop(0))
+            return ordered
+        urgent = alternate([d for d in pending if d.pct >= URGENT_HOME_PCT])
+        rest = alternate([d for d in pending if d.pct < URGENT_HOME_PCT])
+        # Las urgentes van primero pero ocupan como mucho 16 de los 24 cupos si hay otras
+        # pendientes: las que no caben siguen en la cola y salen en la ronda siguiente.
+        room = 16 if rest else len(urgent)
+        pending = urgent[:room] + rest + urgent[room:]
     sent, failed = 0, False
     # Máximo 8 mensajes: una oferta detallada por mensaje de viaje,
     # hasta 3 productos por mensaje de hogar. Nunca marcar lo que no se envió.
@@ -448,7 +475,8 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
                           'autos': scan_autos, 'inmuebles': scan_inmuebles}[group]
     deals, reports = scanner(state, now)
     found = len(deals)
-    if group == 'hogar': deals = hold_home(state, deals, now, dry_run or collect_only)
+    digest, stats = False, {}
+    if group == 'hogar': deals, digest, stats = hold_home(state, deals, now)
     reports = [(name, count, privacy.redact(error) if error else None) for name, count, error in reports]
     if collect_only: log.info('%s: sin tema de ntfy configurado; solo se junta información', group)
     notifier = notifier or Notifier(cfg, HttpClient(), dry_run=dry_run or collect_only, log=log)
@@ -456,7 +484,12 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
     if group == 'hogar':
         queue = state.datos.get('cola_hogar', {})
         for key in [k for k, v in queue.items() if not state.is_new(Deal(**v['oferta']).key, now, 168)]: queue.pop(key)
-        log.info('hogar: %d candidatas nuevas en la ronda · %d esperan el próximo resumen', found, len(queue))
+        # Solo un resumen entregado sin fallas mueve el reloj; si ntfy falló, se reintenta en la próxima ronda.
+        if digest and not failed and not dry_run: state.datos['ultimo_resumen_hogar'] = int(now)
+        log.info('hogar: %d candidatas vistas · %d entraron a la cola · %d caducaron sin volver a verse · '
+                 '%d pendientes (la más antigua, %.1f h)%s', found, stats.get('entradas', 0),
+                 stats.get('caducadas', 0), len(queue), stats.get('mas_antigua_h', 0),
+                 ' · resumen enviado' if digest and not failed else '')
     for name, count, error in reports:
         log.info('%s: %d revisados · %s', name, count, error or 'OK')
     log.info("%s: %d ofertas cumplen el mínimo; %d enviadas", group, found, sent)

@@ -51,3 +51,44 @@ def test_what_does_not_fit_waits_for_the_next_summary(tmp_path, monkeypatch):
     phone.messages.clear()
     run(path, NOW + 3 * 3600 + 60, many, phone)
     assert sum(m.count('🛒') for m in phone.messages) == 6
+
+
+def test_same_product_turning_urgent_keeps_only_the_latest_price(tmp_path, monkeypatch):
+    monkeypatch.setenv('NTFY_TOPIC_HOGAR', 'tema-de-prueba')
+    path = str(tmp_path / 'hogar.json')
+    phone = Phone()
+    run(path, NOW, [item(9)], phone)                         # primer resumen (vacía la cola inicial)
+    phone.messages.clear()
+    run(path, NOW + 1800, [item(1, pct=65, price=100.0)], phone)
+    run(path, NOW + 3600, [item(1, pct=85, price=60.0)], phone)   # pasa a urgente: sale al momento
+    run(path, NOW + 4 * 3600, [], phone)                     # resumen siguiente: el precio viejo no sale
+    text = '\n'.join(phone.messages)
+    assert text.count('Producto 1') == 1 and 'S/ 60.00' in text and 'S/ 100.00' not in text
+
+
+def test_urgent_overflow_is_kept_and_sent_next_round(tmp_path, monkeypatch):
+    monkeypatch.setenv('NTFY_TOPIC_HOGAR', 'tema-de-prueba')
+    path = str(tmp_path / 'hogar.json')
+    phone = Phone()
+    run(path, NOW, [item(n, pct=85) for n in range(30)], phone)
+    assert sum(m.count('🛒') for m in phone.messages) == 24
+    phone.messages.clear()
+    run(path, NOW + 1800, [], phone)                         # no reaparecen, igual salen: estaban guardadas
+    assert sum(m.count('🛒') for m in phone.messages) == 6
+
+
+def test_failed_summary_is_retried_next_round_and_says_when_it_was_seen(tmp_path, monkeypatch):
+    monkeypatch.setenv('NTFY_TOPIC_HOGAR', 'tema-de-prueba')
+    path = str(tmp_path / 'hogar.json')
+
+    class Down(Phone):
+        def send(self, *a, **k): return False
+
+    assert run(path, NOW, [item(1)], Down()) == 1
+    phone = Phone()
+    run(path, NOW + 1800, [], phone)                         # el reloj no avanzó: reintenta ya
+    assert any('Producto 1' in m for m in phone.messages)
+    phone = Phone()
+    run(path, NOW + 1800, [item(2)], phone)
+    run(path, NOW + 1800 + 3 * 3600 + 60, [], phone)
+    assert any('Visto hace 3 h' in m for m in phone.messages)

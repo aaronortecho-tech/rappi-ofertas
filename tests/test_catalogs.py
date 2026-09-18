@@ -176,7 +176,9 @@ def test_categories_get_space_even_if_decor_has_higher_discounts():
     deals.append(Deal('Falabella','tech','Laptop','https://example.org',60,40,100,'Vendedor','web','Tecnología'))
     cfg=Config(ntfy_topic='test-hogar'); http=FakeHttp()
     deliver(deals,CatalogState(),Notifier(cfg,http),NOW,'hogar')
-    assert 'Laptop' in http.posts[0][1]['message']
+    # Las de 80 % o más van primero, pero no ocupan todo el resumen: la laptop entra igual.
+    assert any('Laptop' in post[1]['message'] for post in http.posts)
+    assert 'Laptop' not in http.posts[0][1]['message']
 
 
 def test_dry_run_does_not_write_memory(tmp_path):
