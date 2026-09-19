@@ -151,6 +151,11 @@ def retail_products(html, source, category):
     data = extract_next_data(html)
     pp = (data or {}).get("props", {}).get("pageProps", {})
     products = pp.get("results")
+    # La última página puede desaparecer mientras el contador de la primera sigue atrasado.
+    # Solo reconocer el estado explícito de la tienda; no convertir HTML desconocido en éxito.
+    app_url = (data or {}).get('props', {}).get('appCtx', {}).get('url', '')
+    if products is None and urlsplit(app_url).path == '/noResult' and 'searchTerm' in pp:
+        return [], 0, {'count': 0}
     if not isinstance(products, list):
         raise ValueError("catálogo sin datos de productos (la página cambió o falló)")
     pagination = pp.get("pagination") or {}
@@ -194,6 +199,7 @@ def scan_retail(state, now, http_factory=HttpClient, sources=None):
         if client.blocked:
             reports.append((source + "/" + category, 0, "omitida tras bloqueo del sitio")); continue
         checked, error = 0, None
+        products = []
         cursor_key = offer_key(source, category)
         try:
             query = {"f.range.derived.variant.discount": "60% dcto y más"}
@@ -209,13 +215,13 @@ def scan_retail(state, now, http_factory=HttpClient, sources=None):
                 more, count, _ = retail_products(client.get(base + "?" + urlencode(query)), source, category)
                 for deal in more: deal.check_url = base + "?" + urlencode(query)
                 products += more; checked += count
-                state.cursors[cursor_key] = page + 1 if page < pages else 2
-            for deal in products:
-                old = deals.get(deal.history_key)
-                if old is None or deal.price < old.price:
-                    deals[deal.history_key] = deal
+                state.cursors[cursor_key] = page + 1 if count and page < pages else 2
         except Exception as exc:
             error = "acceso bloqueado; no se insiste" if isinstance(exc, Blocked) else type(exc).__name__ + ": " + str(exc)[:140]
+        # Un error de la página rotativa no descarta lo comprobado en la primera.
+        for deal in products:
+            old = deals.get(deal.history_key)
+            if old is None or deal.price < old.price: deals[deal.history_key] = deal
         reports.append((source + "/" + category, checked, error))
     # Si tanto CMR como web superan el umbral se envía una sola ficha,
     # priorizando la opción que no requiere tarjeta.

@@ -199,3 +199,31 @@ def test_home_message_is_short_for_the_phone():
     assert '💳 Solo con tarjeta CMR' in cmr and 'vendedor' not in cmr
     assert 'Ojo: estuvo a S/ 350.00' in deal_text(replace(base, previous_min=350.0))
     assert 'Ojo' not in deal_text(replace(base, previous_min=500.0))
+
+
+def test_empty_tail_page_resets_rotation_without_losing_first_page():
+    from monitor.state import offer_key
+    class Tail(RetailHttp):
+        def get(self, url):
+            self.calls.append(url)
+            return fixture_text('retail_no_result.html') if 'page=' in url else html_products([product()], count=3186)
+    state=CatalogState(); key=offer_key('Falabella','Muebles');state.cursors[key]=67
+    http=Tail()
+    deals,reports=scan_retail(state,NOW,http_factory=lambda **kw:http,
+                             sources=[('Falabella','Muebles','https://www.falabella.com.pe/muebles')])
+    assert len(deals)==1 and reports==[('Falabella/Muebles',1,None)] and state.cursors[key]==2
+    http.calls.clear()
+    scan_retail(state,NOW+1800,http_factory=lambda **kw:http,
+                sources=[('Falabella','Muebles','https://www.falabella.com.pe/muebles')])
+    assert 'page=2' in http.calls[1]
+
+
+def test_unknown_tail_stays_error_but_preserves_first_page():
+    class Broken(RetailHttp):
+        def get(self,url):
+            self.calls.append(url)
+            return '<html>no catalog</html>' if 'page=' in url else html_products([product()],count=100)
+    deals,reports=scan_retail(CatalogState(),NOW,http_factory=lambda **kw:Broken(),
+                             sources=[('Falabella','Muebles','https://www.falabella.com.pe/muebles')])
+    assert len(deals)==1 and reports[0][2]
+    with pytest.raises(ValueError): retail_products('<script id="__NEXT_DATA__">{"props":{"pageProps":{"searchTerm":""}}}</script>','Falabella','Muebles')
