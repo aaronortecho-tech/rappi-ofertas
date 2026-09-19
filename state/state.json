@@ -102,6 +102,7 @@
   "963781d4c7379ce2": 1789618945,
   "969f5f9181aeae14": 1789617285,
   "975dd9cf07dc20a7": 1789618945,
+  "991db5d3d3f62093": 1789807589,
   "9ac7d420a1a7aa78": 1789617285,
   "9df899bc21836b3f": 1789658525,
   "9f6f42518e024ca6": 1789806106,
@@ -166,9 +167,7 @@
   "ffa915af26d3d3ff": 1789618945,
   "ffb761108f502988": 1789655046
  },
- "failures": {
-  "restaurantes": 1
- },
+ "failures": {},
  "last_failure_notice": null,
  "store_list": {
   "fetched_at": 1789795166,
@@ -2222,7 +2221,7 @@
     "10437786581-mt-enc"
    ]
   ],
-  "next_start": 92,
+  "next_start": 132,
   "sources": {
    "city": "lima",
    "types": [
@@ -2235,5 +2234,5 @@
    "market": true
   }
  },
- "saved_at": 1789806106
+ "saved_at": 1789807589
 }
