@@ -138,7 +138,7 @@ def test_permanent_discount_leaves_the_queue_and_is_never_urgent(tmp_path, monke
 def test_same_product_same_price_from_two_sellers_goes_once():
     from monitor.catalogs import deliver
     a = item(1)
-    b = Deal('Sodimac', 'otro-sku', 'Producto  1', 'https://www.sodimac.com.pe/1', 65, 100.0, 400.0, 'Otra', 'Precio web; confirmar stock y envío', 'Muebles')
+    b = Deal('Sodimac', 'sku1', 'Producto  1', 'https://www.sodimac.com.pe/1', 65, 100.0, 400.0, 'Otra', 'Precio web; confirmar stock y envío', 'Muebles')
     phone = Phone()
     deliver([a, b], CatalogState(), phone, NOW, 'hogar')
     assert '\n'.join(phone.messages).count('🛒') == 1
@@ -170,7 +170,7 @@ def test_more_urgent_than_the_cap_are_all_kept(monkeypatch):
 def test_seller_twin_is_not_sent_in_the_next_summary():
     from monitor.catalogs import deliver
     a = item(1)
-    b = Deal('Sodimac', 'otro-sku', 'Producto  1', 'https://www.sodimac.com.pe/1', 65, 100.0, 400.0, 'Otra',
+    b = Deal('Sodimac', 'sku1', 'Producto  1', 'https://www.sodimac.com.pe/1', 65, 100.0, 400.0, 'Otra',
              'Precio web; confirmar stock y envío', 'Muebles')
     state = CatalogState()
     assert deliver([a, b], state, Phone(), NOW, 'hogar') == (1, False)

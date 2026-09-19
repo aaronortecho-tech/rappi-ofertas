@@ -406,6 +406,30 @@ def summary_every():
     except ValueError: return 3 * 3600
 
 
+def home_notice_key(deal):
+    """Identidad persistente y conservadora entre vendedores, sin perder restricciones.
+
+    El SKU es compartido por Falabella/Sodimac. Entre otros SKU solo se admite el título
+    completo con un código de modelo alfanumérico; los nombres genéricos no se fusionan.
+    No es una validación de catálogo universal: diferencias de título se conservan.
+    """
+    normalized = lambda value: ' '.join(value.casefold().split())
+    name = normalized(deal.name)
+    model = re.search(r'\b[a-z][a-z0-9-]{3,}\d[a-z0-9-]*\b', name)
+    if len(name.split()) >= 3 and model:
+        product = ('model-title', name)
+    elif deal.source in ('Falabella', 'Sodimac') and deal.identity:
+        product = ('retail-sku', deal.identity)
+    else:
+        product = ('source-item', deal.source, deal.identity, normalized(deal.seller), name)
+    return offer_key('home-notice-v1', *product, deal.price, deal.currency.upper(),
+                     normalized(deal.category), normalized(deal.condition))
+
+
+def home_is_new(state, deal, now):
+    return state.is_new(deal.key, now, 168) and state.is_new(home_notice_key(deal), now, 168)
+
+
 def hold_home(state, deals, now):
     """Hogar se revisa cada 30 minutos pero avisa en un resumen cada HORAS_RESUMEN_HOGAR (3 h).
 
@@ -419,7 +443,7 @@ def hold_home(state, deals, now):
     stats = {'entradas': 0, 'caducadas': 0, 'ahorro bajo': 0, 'descuento permanente': 0}
     for deal in deals:
         key = deal.history_key
-        if not state.is_new(deal.key, now, 168):
+        if not home_is_new(state, deal, now):
             queue.pop(key, None)  # ese mismo precio ya se avisó: cualquier versión anterior queda superada
             continue
         deal.rank, deal.note, reason = quality(state, deal, now)
@@ -432,7 +456,7 @@ def hold_home(state, deals, now):
         deal = Deal(**item['oferta'])
         if item['visto'] < now - QUEUE_HOURS * 3600:
             queue.pop(key); stats['caducadas'] += 1
-        elif not state.is_new(deal.key, now, 168) or quality(state, deal, now)[2]:
+        elif not home_is_new(state, deal, now) or quality(state, deal, now)[2]:
             queue.pop(key)
     # Límite solo para las no urgentes: las de 80 % o más nunca se recortan (salen en cada ronda).
     normal = sorted((k for k in queue if queue[k]['oferta']['pct'] < URGENT_HOME_PCT),
@@ -454,14 +478,15 @@ def hold_home(state, deals, now):
 
 def deliver(deals, state, notifier, now, group, dry_run=False):
     pending = [d for d in deals if state.is_new(d.key, now, 1440 if group in SLOW_GROUPS else 168)]
+    if group == 'hogar': pending = [d for d in pending if home_is_new(state, d, now)]
     pending.sort(key=lambda d: (-d.pct, d.source, d.name))
     if group == 'hogar':
         pending.sort(key=lambda d: (-d.rank, -d.pct, d.source, d.name))
         # El mismo producto al mismo precio publicado por dos vendedores o tiendas sale una sola vez.
-        # Se exige también la misma categoría para no fundir productos distintos de nombre parecido.
+        # Misma referencia persistente, moneda y condiciones; nombres genéricos quedan separados.
         unique, twins = [], {}
         for deal in pending:
-            same = (' '.join(deal.name.lower().split()), deal.price, deal.category)
+            same = home_notice_key(deal)
             if same in twins: twins[same].append(deal)
             else: twins[same] = [deal]; unique.append(deal)
         pending = unique
@@ -503,7 +528,8 @@ def deliver(deals, state, notifier, now, group, dry_run=False):
                     # Las copias del mismo producto y precio de otros vendedores quedan avisadas con él:
                     # si no, saldrían en el resumen siguiente.
                     if group == 'hogar':
-                        for twin in twins.get((' '.join(deal.name.lower().split()), deal.price, deal.category), [])[1:]:
+                        state.mark_seen(home_notice_key(deal), now)
+                        for twin in twins.get(home_notice_key(deal), [])[1:]:
                             state.mark_seen(twin.key, now)
         else: failed = True
     return sent, failed
@@ -538,7 +564,7 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
     sent, failed = deliver(deals, state, notifier, now, group, dry_run or collect_only)
     if group == 'hogar':
         queue = state.datos.get('cola_hogar', {})
-        for key in [k for k, v in queue.items() if not state.is_new(Deal(**v['oferta']).key, now, 168)]: queue.pop(key)
+        for key in [k for k, v in queue.items() if not home_is_new(state, Deal(**v['oferta']), now)]: queue.pop(key)
         # Solo un resumen entregado sin fallas mueve el reloj; si ntfy falló, se reintenta en la próxima ronda.
         if digest and not failed and not dry_run: state.datos['ultimo_resumen_hogar'] = int(now)
         log.info('hogar: %d candidatas vistas · %d entraron a la cola · %d descartadas por ahorro menor a S/ %.0f · '

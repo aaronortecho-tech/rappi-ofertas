@@ -160,7 +160,9 @@ def test_notification_limit_does_not_mark_undelivered_items():
     deals = [Deal('Falabella', str(i), f'Mesa {i}', 'https://example.org', 60, 40, 100, 'Tercero', 'web') for i in range(30)]
     state = CatalogState()
     sent, failed = deliver(deals, state, notifier, NOW, 'hogar')
-    assert sent == 24 and len(state.seen) == 24 and len(http.posts) == 8 and not failed
+    assert sent == 24 and len(http.posts) == 8 and not failed
+    assert sum(not state.is_new(d.key, NOW, 168) for d in deals) == 24
+    assert sum(state.is_new(d.key, NOW, 168) for d in deals) == 6
 
 
 def test_same_seller_sku_is_not_repeated_across_platforms():
