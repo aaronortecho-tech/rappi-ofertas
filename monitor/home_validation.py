@@ -51,6 +51,9 @@ def validate(selected, state, now, observations, reports, http_factory=HttpClien
     for old in selected:
         if len(accepted) >= MAX_CONFIRMED: break
         stats['consideradas'] += 1
+        if home_notice_key(old) in accepted_keys:
+            stats['equivalentes_omitidas'] += 1
+            continue  # conservar alternativas hasta confirmar una; después no gastar red
         fresh = current.get(old.history_key)
         from_round = fresh is not None
         if fresh is None and allowed_url(old) and old.source not in unavailable:

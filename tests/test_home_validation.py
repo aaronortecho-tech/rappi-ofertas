@@ -203,3 +203,15 @@ def test_backfill_keeps_category_rotation():
     good,stats=validate(home_order(bad+fresh),memory(bad),NOW,fresh,[],Client)
     assert len(good)==24 and sum(d.category=='Muebles' for d in good)==12
     assert sum(d.category=='Tecnología' for d in good)==12 and stats['no_confirmadas']>0
+
+
+def test_equivalent_alternative_is_revalidated_after_first_fails():
+    from monitor.catalogs import home_order, home_notice_key
+    fresh = sample()
+    old = replace(fresh, seller='First seller', check_url='', rank=999)
+    assert old.history_key != fresh.history_key
+    assert home_notice_key(old) == home_notice_key(fresh)
+    candidates = home_order([old, fresh], keep_alternatives=True)
+    good, stats = validate(candidates, memory(candidates), NOW, [], [], Client)
+    assert len(good) == 1 and good[0].seller == fresh.seller
+    assert stats['no_confirmadas'] == 1 and stats['revalidadas'] == 1

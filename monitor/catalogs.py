@@ -428,14 +428,22 @@ def balanced(deals):
     return ordered
 
 
-def home_order(deals):
-    unique = {}
+def home_order(deals, *, keep_alternatives=False, observations=()):
+    alternatives = {}
     for deal in sorted(deals, key=lambda d: (-d.rank, -d.pct, d.source, d.name)):
-        unique.setdefault(home_notice_key(deal), deal)
+        alternatives.setdefault(home_notice_key(deal), []).append(deal)
+    current = {d.history_key for d in observations}
+    if keep_alternatives:
+        for choices in alternatives.values():
+            choices.sort(key=lambda d: d.history_key not in current)
+    unique = {key: choices[0] for key, choices in alternatives.items()}
     urgent = balanced([d for d in unique.values() if home_urgent(d)])
     rest = balanced([d for d in unique.values() if not home_urgent(d)])
     room = 16 if rest else len(urgent)
-    return urgent[:room] + rest + urgent[room:]
+    ordered = urgent[:room] + rest + urgent[room:]
+    if keep_alternatives:
+        return [choice for deal in ordered for choice in alternatives[home_notice_key(deal)]]
+    return ordered
 
 
 def summary_every():
@@ -525,13 +533,16 @@ def deliver(deals, state, notifier, now, group, dry_run=False):
     # Máximo 8 mensajes: una oferta detallada por mensaje de viaje,
     # hasta 3 productos por mensaje de hogar. Nunca marcar lo que no se envió.
     size = 1 if group in ('viajes', *SLOW_GROUPS) else 3
-    for start in range(0, min(len(pending), 3 if group in SLOW_GROUPS else size * 8), size):
+    start = 0
+    for _ in range(3 if group in SLOW_GROUPS else 8):
+        if start >= len(pending): break
         batch = pending[start:start + size]
         message = "\n\n──────────\n\n".join(deal_text(d) for d in batch)
         if group == 'viajes' and batch[0].source == 'Diners': message += "\nBeneficio general; para vuelos, confirmar aplicabilidad a salida de Lima."
         # Reducir el lote si excede el límite de ntfy, sin perder ofertas en la memoria.
         while len(message.encode('utf-8')) > 3600 and len(batch) > 1:
             batch = batch[:-1]; message = "\n\n──────────\n\n".join(deal_text(d) for d in batch)
+        start += len(batch)  # las retiradas por longitud inician el siguiente mensaje
         title = {'hogar': f"🏠 {len(batch)} ofertas de hogar/tecnología", 'comida': f"🛒 {len(batch)} ofertas de comida/bazar",
                  'viajes': "✈️ 1 oferta de viajes", 'autos': "🚗 Oportunidad en autos",
                  'inmuebles': "🏢 Oportunidad en inmuebles"}[group]
@@ -572,7 +583,7 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
         from .home_validation import validate, record_metrics
         observations = deals
         deals, digest, stats = hold_home(state, deals, now)
-        selected = home_order(deals)  # el cupo se aplica a confirmadas, no a intentos
+        selected = home_order(deals, keep_alternatives=True, observations=observations)
         deals, checks = (validator or validate)(selected, state, now, observations, reports)
         stats.update(checks)
         stats['candidatas_disponibles'] = len(selected)
