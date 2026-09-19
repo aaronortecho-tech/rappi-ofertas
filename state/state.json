@@ -155,7 +155,9 @@
   "ffa915af26d3d3ff": 1789618945,
   "ffb761108f502988": 1789655046
  },
- "failures": {},
+ "failures": {
+  "tiendas": 1
+ },
  "last_failure_notice": null,
  "store_list": {
   "fetched_at": 1789706843,
@@ -2320,7 +2322,7 @@
    ],
    "market": true
   },
-  "next_start": 480
+  "next_start": 515
  },
- "saved_at": 1789775039
+ "saved_at": 1789777642
 }
