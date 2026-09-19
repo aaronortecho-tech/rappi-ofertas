@@ -355,6 +355,7 @@
   "3eda665d47616fb3": 1789741448,
   "3ee25318c201aaaf": 1789688929,
   "3f3580d489f54b53": 1789716252,
+  "3f35eca10e1e2982": 1789800715,
   "3f5ffdbfdd7e24c5": 1789681692,
   "3fb8c0fa0630fe5e": 1789753687,
   "3fc12032fb2b4d6b": 1789681692,
@@ -1174,6 +1175,7 @@
   "d164d1e29907e756": 1789674510,
   "d1f2b684507b6561": 1789717800,
   "d22037bb1afd146e": 1789717800,
+  "d279db1001ea00eb": 1789800715,
   "d29501ec3723249b": 1789716252,
   "d2ba5a8e4f4c19db": 1789685282,
   "d2e43b6e2fae3940": 1789727049,
@@ -1204,6 +1206,7 @@
   "d6ab2b3f94863837": 1789730575,
   "d6ba0bcd52bde0db": 1789752075,
   "d6e5a230c32bb894": 1789683732,
+  "d701ed33f341a5ec": 1789800715,
   "d760d27e810d86a3": 1789674510,
   "d77fd9aca41536ea": 1789721457,
   "d782638cce9f49f6": 1789678125,
@@ -1447,14 +1450,15 @@
   "ff79d3f81e26483f": 1789736031,
   "ff7e916f5ec23578": 1789736031,
   "ff9b8af983952cbc": 1789712935,
-  "ffb63e6711859c26": 1789737795
+  "ffb63e6711859c26": 1789737795,
+  "ffdb1b7f914b296f": 1789800715
  },
  "failures": {
-  "Sodimac/Tecnología": 11
+  "Sodimac/Tecnología": 12
  },
  "last_failure_notice": 1789784584,
  "store_list": {},
- "saved_at": 1789799258,
+ "saved_at": 1789800715,
  "history": {
   "a5fb4080713373ee": [
    [
@@ -3632,12 +3636,6 @@
    [
     20713,
     79.0
-   ]
-  ],
-  "fe157d0625c7d2d8": [
-   [
-    20713,
-    88.9
    ]
   ],
   "5f8c7d174a1a543d": [
@@ -6644,16 +6642,6 @@
     399.0
    ]
   ],
-  "7158ba40bdb60abc": [
-   [
-    20713,
-    28.0
-   ],
-   [
-    20714,
-    28.0
-   ]
-  ],
   "3d75a9f1e2e4871f": [
    [
     20713,
@@ -7154,16 +7142,6 @@
     12.0
    ]
   ],
-  "c354e47424ede12f": [
-   [
-    20713,
-    33.0
-   ],
-   [
-    20714,
-    33.0
-   ]
-  ],
   "98e04a74d690f8bd": [
    [
     20713,
@@ -7384,16 +7362,6 @@
     199.9
    ]
   ],
-  "70c9a5adfeb59753": [
-   [
-    20713,
-    1699.0
-   ],
-   [
-    20714,
-    1699.0
-   ]
-  ],
   "b58a8249ebe491a8": [
    [
     20713,
@@ -7464,16 +7432,6 @@
     109.0
    ]
   ],
-  "e81cc65f82d5c2e3": [
-   [
-    20713,
-    45.8
-   ],
-   [
-    20714,
-    45.8
-   ]
-  ],
   "86bb9a9e1664ce55": [
    [
     20713,
@@ -7522,16 +7480,6 @@
    [
     20714,
     18.0
-   ]
-  ],
-  "bf0cf695e5a9cc7a": [
-   [
-    20713,
-    59.0
-   ],
-   [
-    20714,
-    59.0
    ]
   ],
   "ca4ac2287e989f71": [
@@ -7754,16 +7702,6 @@
     269.0
    ]
   ],
-  "5df867b0da9a0462": [
-   [
-    20713,
-    79.0
-   ],
-   [
-    20714,
-    79.0
-   ]
-  ],
   "2b58c7cb89af0cd2": [
    [
     20713,
@@ -7952,16 +7890,6 @@
    [
     20714,
     219.99
-   ]
-  ],
-  "44cf681e1881b570": [
-   [
-    20713,
-    21.9
-   ],
-   [
-    20714,
-    21.9
    ]
   ],
   "2abd3e18253f3b52": [
@@ -8684,16 +8612,6 @@
     35.99
    ]
   ],
-  "11e40d24e0334ef2": [
-   [
-    20713,
-    39.0
-   ],
-   [
-    20714,
-    39.0
-   ]
-  ],
   "626461f1109eaea3": [
    [
     20713,
@@ -8822,16 +8740,6 @@
    [
     20714,
     226.9
-   ]
-  ],
-  "914f0d78f5cb4481": [
-   [
-    20713,
-    99.0
-   ],
-   [
-    20714,
-    99.0
    ]
   ],
   "11e7dc9293d2785c": [
@@ -9132,16 +9040,6 @@
    [
     20714,
     742.0
-   ]
-  ],
-  "f45246fc1a8b8824": [
-   [
-    20713,
-    24.9
-   ],
-   [
-    20714,
-    24.9
    ]
   ],
   "73375f4c3d18a644": [
@@ -10154,16 +10052,6 @@
     34.9
    ]
   ],
-  "261d36a3b3c13543": [
-   [
-    20713,
-    701.1
-   ],
-   [
-    20714,
-    701.1
-   ]
-  ],
   "624214c1367a69e4": [
    [
     20713,
@@ -10172,16 +10060,6 @@
    [
     20714,
     12.0
-   ]
-  ],
-  "e6827f8bfb8cb558": [
-   [
-    20713,
-    19.0
-   ],
-   [
-    20714,
-    19.0
    ]
   ],
   "c958dc6925b60fa7": [
@@ -10472,16 +10350,6 @@
    [
     20714,
     2799.0
-   ]
-  ],
-  "4153be8e62cc505a": [
-   [
-    20713,
-    79.0
-   ],
-   [
-    20714,
-    79.0
    ]
   ],
   "34b295ca63cee88d": [
@@ -10964,16 +10832,6 @@
     109.0
    ]
   ],
-  "e003b90ccdb0b9ee": [
-   [
-    20713,
-    349.0
-   ],
-   [
-    20714,
-    349.0
-   ]
-  ],
   "c9304f8d8cb2bbe0": [
    [
     20713,
@@ -11114,16 +10972,6 @@
     179.9
    ]
   ],
-  "9a9f7350a938814f": [
-   [
-    20713,
-    29.49
-   ],
-   [
-    20714,
-    29.49
-   ]
-  ],
   "631aad09b301f152": [
    [
     20713,
@@ -11132,26 +10980,6 @@
    [
     20714,
     29.8
-   ]
-  ],
-  "0e82a4cb75fd693b": [
-   [
-    20713,
-    399.9
-   ],
-   [
-    20714,
-    399.9
-   ]
-  ],
-  "2a06d17bdf68a9b7": [
-   [
-    20713,
-    339.9
-   ],
-   [
-    20714,
-    339.9
    ]
   ],
   "0d8e5f033343ed0b": [
@@ -11172,16 +11000,6 @@
    [
     20714,
     34.9
-   ]
-  ],
-  "e6766addfca92a52": [
-   [
-    20713,
-    35.0
-   ],
-   [
-    20714,
-    35.0
    ]
   ],
   "515accc9a0fae947": [
@@ -11294,16 +11112,6 @@
     9.9
    ]
   ],
-  "0a837f3d71dfd59e": [
-   [
-    20713,
-    19.9
-   ],
-   [
-    20714,
-    19.9
-   ]
-  ],
   "266fc6e18e4ab178": [
    [
     20713,
@@ -11342,16 +11150,6 @@
    [
     20714,
     129.0
-   ]
-  ],
-  "e6ec2b06e3ff4210": [
-   [
-    20713,
-    1529.0
-   ],
-   [
-    20714,
-    1529.0
    ]
   ],
   "45635ef1bb8a2328": [
@@ -11564,16 +11362,6 @@
     91.9
    ]
   ],
-  "cd2a00b4b7db2754": [
-   [
-    20713,
-    309.0
-   ],
-   [
-    20714,
-    309.0
-   ]
-  ],
   "ff8cddb9e6607271": [
    [
     20713,
@@ -11724,16 +11512,6 @@
     199.0
    ]
   ],
-  "53cb508a7735585d": [
-   [
-    20713,
-    39.9
-   ],
-   [
-    20714,
-    39.9
-   ]
-  ],
   "c2fc257c28ffc093": [
    [
     20713,
@@ -11754,16 +11532,6 @@
     385.0
    ]
   ],
-  "6b4bee7cab0118e8": [
-   [
-    20713,
-    589.0
-   ],
-   [
-    20714,
-    589.0
-   ]
-  ],
   "8d235db490ce1799": [
    [
     20713,
@@ -11782,16 +11550,6 @@
    [
     20714,
     189.0
-   ]
-  ],
-  "258b744ef4a76711": [
-   [
-    20713,
-    499.0
-   ],
-   [
-    20714,
-    499.0
    ]
   ],
   "8ea56e6ad78ca409": [
@@ -12102,16 +11860,6 @@
    [
     20714,
     37.99
-   ]
-  ],
-  "2267653a64293304": [
-   [
-    20713,
-    899.0
-   ],
-   [
-    20714,
-    899.0
    ]
   ],
   "73864b36517fb49f": [
@@ -12464,16 +12212,6 @@
     269.0
    ]
   ],
-  "049ac6e6ac8a7b02": [
-   [
-    20713,
-    1569.9
-   ],
-   [
-    20714,
-    1569.9
-   ]
-  ],
   "59b0363eb70236df": [
    [
     20713,
@@ -12502,26 +12240,6 @@
    [
     20714,
     22.9
-   ]
-  ],
-  "560d753b4580731c": [
-   [
-    20713,
-    28.0
-   ],
-   [
-    20714,
-    28.0
-   ]
-  ],
-  "c1e837c87bd34933": [
-   [
-    20713,
-    59.9
-   ],
-   [
-    20714,
-    59.9
    ]
   ],
   "51e705854ed91e8b": [
@@ -12612,16 +12330,6 @@
    [
     20714,
     159.0
-   ]
-  ],
-  "485a176e9b6b3827": [
-   [
-    20713,
-    79.99
-   ],
-   [
-    20714,
-    79.99
    ]
   ],
   "18beeb2d12a5d81a": [
@@ -12982,16 +12690,6 @@
    [
     20714,
     159.9
-   ]
-  ],
-  "495347a49a7f2c8c": [
-   [
-    20713,
-    1747.0
-   ],
-   [
-    20714,
-    1747.0
    ]
   ],
   "4c21f035ba918159": [
@@ -13774,16 +13472,6 @@
     379.0
    ]
   ],
-  "35a94c7959cd7227": [
-   [
-    20713,
-    589.0
-   ],
-   [
-    20714,
-    589.0
-   ]
-  ],
   "0e37e176e09635de": [
    [
     20713,
@@ -14074,16 +13762,6 @@
     28.9
    ]
   ],
-  "3e5f8558d67927b2": [
-   [
-    20713,
-    329.9
-   ],
-   [
-    20714,
-    329.9
-   ]
-  ],
   "3ae7702795184cc5": [
    [
     20713,
@@ -14284,16 +13962,6 @@
     49.8
    ]
   ],
-  "00fff08907a449ac": [
-   [
-    20713,
-    106.9
-   ],
-   [
-    20714,
-    106.9
-   ]
-  ],
   "5cab9eca4d2c1274": [
    [
     20713,
@@ -14492,12 +14160,6 @@
     1199.0
    ]
   ],
-  "bd1b95059539e961": [
-   [
-    20714,
-    39.0
-   ]
-  ],
   "4e83558d54584d44": [
    [
     20714,
@@ -14616,12 +14278,6 @@
    [
     20714,
     3499.0
-   ]
-  ],
-  "ea4891bcbb306d76": [
-   [
-    20714,
-    28.0
    ]
   ],
   "0c54d392bb9246b4": [
@@ -15098,28 +14754,10 @@
     74.0
    ]
   ],
-  "1416f406d63bd768": [
-   [
-    20714,
-    119.0
-   ]
-  ],
   "218f266ef96b2e20": [
    [
     20714,
     159.0
-   ]
-  ],
-  "fee83dca7fd22988": [
-   [
-    20714,
-    189.0
-   ]
-  ],
-  "76600b07646fa13d": [
-   [
-    20714,
-    129.0
    ]
   ],
   "466769d38b6e5f77": [
@@ -15788,12 +15426,6 @@
     45.0
    ]
   ],
-  "c059f18fe86df3e6": [
-   [
-    20714,
-    34.5
-   ]
-  ],
   "70ecd6bc7bfc5518": [
    [
     20714,
@@ -16028,12 +15660,6 @@
     79.9
    ]
   ],
-  "d589ce4a97cbae1a": [
-   [
-    20714,
-    39.9
-   ]
-  ],
   "13c20f0eef6dc44e": [
    [
     20714,
@@ -16050,12 +15676,6 @@
    [
     20714,
     169.9
-   ]
-  ],
-  "f805f39e0c25f4de": [
-   [
-    20714,
-    118.9
    ]
   ],
   "d1cd1e6d00b681cb": [
@@ -16268,12 +15888,6 @@
     130.0
    ]
   ],
-  "2131e9d0d7b89756": [
-   [
-    20714,
-    39.0
-   ]
-  ],
   "c9bff287a4b8b84b": [
    [
     20714,
@@ -16284,18 +15898,6 @@
    [
     20714,
     119.0
-   ]
-  ],
-  "9894891a4447ef92": [
-   [
-    20714,
-    19.0
-   ]
-  ],
-  "3ad695e8416f5ff7": [
-   [
-    20714,
-    99.0
    ]
   ],
   "d41acea35d390f33": [
@@ -16320,12 +15922,6 @@
    [
     20714,
     119.0
-   ]
-  ],
-  "9c02da7c4cf164e7": [
-   [
-    20714,
-    135.0
    ]
   ],
   "ea085f8f81f410d8": [
@@ -16502,34 +16098,10 @@
     79.0
    ]
   ],
-  "70d7cca3b6421199": [
-   [
-    20714,
-    30.0
-   ]
-  ],
-  "6810d122bea52fd6": [
-   [
-    20714,
-    139.0
-   ]
-  ],
-  "8fb78d3506bcd32f": [
-   [
-    20714,
-    109.0
-   ]
-  ],
   "f28824e635a7c10b": [
    [
     20714,
     99.9
-   ]
-  ],
-  "194eb8e1ae7af083": [
-   [
-    20714,
-    49.0
    ]
   ],
   "18c43acd35d84149": [
@@ -16742,18 +16314,6 @@
     1180.0
    ]
   ],
-  "fde35bedfce7ffc0": [
-   [
-    20714,
-    599.9
-   ]
-  ],
-  "111d4a7b8ff7c654": [
-   [
-    20714,
-    579.9
-   ]
-  ],
   "52c1b7e5b86e00f5": [
    [
     20714,
@@ -16778,22 +16338,10 @@
     77.0
    ]
   ],
-  "bdfe44cadec6cbae": [
-   [
-    20714,
-    26.9
-   ]
-  ],
   "b8d160d7d6002fa0": [
    [
     20714,
     69.0
-   ]
-  ],
-  "7eaea2e876b98b69": [
-   [
-    20714,
-    36.9
    ]
   ],
   "afccc76b0220fd7b": [
@@ -17028,12 +16576,6 @@
    [
     20714,
     3899.0
-   ]
-  ],
-  "b1404b1294c30824": [
-   [
-    20714,
-    79.0
    ]
   ],
   "da251ad6eca1b435": [
@@ -17420,12 +16962,6 @@
     35.0
    ]
   ],
-  "41d20185577d0784": [
-   [
-    20714,
-    79.0
-   ]
-  ],
   "01423114bd61dc75": [
    [
     20714,
@@ -17646,12 +17182,6 @@
    [
     20714,
     76.0
-   ]
-  ],
-  "44cf288bab7eecac": [
-   [
-    20714,
-    36.0
    ]
   ],
   "68bf0456b5748c80": [
@@ -18548,12 +18078,6 @@
     99.0
    ]
   ],
-  "45d8bee9ec9978fb": [
-   [
-    20714,
-    79.0
-   ]
-  ],
   "bbf4e66905945489": [
    [
     20714,
@@ -19286,18 +18810,6 @@
     79.0
    ]
   ],
-  "fac12a655e9a0f0f": [
-   [
-    20714,
-    69.99
-   ]
-  ],
-  "639402670a0d64c4": [
-   [
-    20714,
-    24.0
-   ]
-  ],
   "a79b28966bd8628d": [
    [
     20714,
@@ -19614,12 +19126,6 @@
    [
     20714,
     78.5
-   ]
-  ],
-  "ea4ad2dc500257a3": [
-   [
-    20714,
-    29.9
    ]
   ],
   "a76995c4980d63e9": [
@@ -20450,12 +19956,6 @@
     3599.0
    ]
   ],
-  "2a5be6b28976bbb1": [
-   [
-    20714,
-    23.0
-   ]
-  ],
   "78ffc8afe68a1f95": [
    [
     20714,
@@ -20798,12 +20298,6 @@
     7.0
    ]
   ],
-  "b0ebf54927027f21": [
-   [
-    20714,
-    49.0
-   ]
-  ],
   "e81f95eb265cc312": [
    [
     20714,
@@ -21084,12 +20578,6 @@
    [
     20714,
     30.99
-   ]
-  ],
-  "96de329d370fec59": [
-   [
-    20714,
-    19.8
    ]
   ],
   "42bbbb1f322ea52b": [
@@ -21432,12 +20920,6 @@
    [
     20714,
     41.9
-   ]
-  ],
-  "3b0745a5314d0bc0": [
-   [
-    20714,
-    29.9
    ]
   ],
   "801d382c9bdf7f97": [
@@ -22694,12 +22176,6 @@
     45.0
    ]
   ],
-  "74269342f30b79d2": [
-   [
-    20714,
-    26.9
-   ]
-  ],
   "90908ddcaefd2f5d": [
    [
     20714,
@@ -23040,12 +22516,6 @@
    [
     20714,
     79.0
-   ]
-  ],
-  "944899927d05cd33": [
-   [
-    20714,
-    24.9
    ]
   ],
   "a69726d823f96b12": [
@@ -23672,12 +23142,6 @@
     93.9
    ]
   ],
-  "9efc25566fcc1e62": [
-   [
-    20714,
-    79.0
-   ]
-  ],
   "92136a4faa4b094e": [
    [
     20714,
@@ -24140,12 +23604,6 @@
     89.0
    ]
   ],
-  "d3cc6ccb334ed36a": [
-   [
-    20714,
-    17.0
-   ]
-  ],
   "dd7eb45b37041bed": [
    [
     20714,
@@ -24380,12 +23838,6 @@
     30.9
    ]
   ],
-  "53d8a458d91180ba": [
-   [
-    20714,
-    24.9
-   ]
-  ],
   "5da842fdc7fc5997": [
    [
     20714,
@@ -24600,12 +24052,6 @@
    [
     20714,
     18.0
-   ]
-  ],
-  "cd8ccd340daa1a2a": [
-   [
-    20714,
-    19.9
    ]
   ],
   "c53f09c65ae3fecf": [
@@ -25616,18 +25062,6 @@
     32.9
    ]
   ],
-  "23045b3526f7767e": [
-   [
-    20714,
-    11.0
-   ]
-  ],
-  "2528505a6ed3868b": [
-   [
-    20714,
-    179.0
-   ]
-  ],
   "119660ec974a2f90": [
    [
     20714,
@@ -25794,12 +25228,6 @@
    [
     20714,
     126.0
-   ]
-  ],
-  "5a8921900dfc7e39": [
-   [
-    20714,
-    19.0
    ]
   ],
   "bb64b56668be240d": [
@@ -26648,12 +26076,6 @@
     679.9
    ]
   ],
-  "f3312eff5eecbe0c": [
-   [
-    20714,
-    39.0
-   ]
-  ],
   "61f21ad9f3a88032": [
    [
     20714,
@@ -27392,12 +26814,6 @@
     29.9
    ]
   ],
-  "e196d4261b3d5dfe": [
-   [
-    20714,
-    99.0
-   ]
-  ],
   "4bb903d58f28c036": [
    [
     20714,
@@ -27806,12 +27222,6 @@
     45.0
    ]
   ],
-  "86e2004fc880125c": [
-   [
-    20714,
-    40.0
-   ]
-  ],
   "3caa1519a769b7b8": [
    [
     20714,
@@ -28128,12 +27538,6 @@
    [
     20714,
     57.9
-   ]
-  ],
-  "9ea1c10dc7d37dc4": [
-   [
-    20714,
-    26.0
    ]
   ],
   "ea5c61bf452e2ec9": [
@@ -28850,12 +28254,6 @@
     25.0
    ]
   ],
-  "233b3c828f3b052c": [
-   [
-    20714,
-    48.9
-   ]
-  ],
   "eca7f4bc81a22ea3": [
    [
     20714,
@@ -29468,12 +28866,6 @@
     265.0
    ]
   ],
-  "05e807488c59f036": [
-   [
-    20714,
-    39.9
-   ]
-  ],
   "2c4da9590d77a70d": [
    [
     20714,
@@ -29646,12 +29038,6 @@
    [
     20714,
     79.9
-   ]
-  ],
-  "b8680163c4ab285d": [
-   [
-    20714,
-    217.9
    ]
   ],
   "70e5901059a8a155": [
@@ -31088,12 +30474,6 @@
     36.9
    ]
   ],
-  "fecb8efea9b1021e": [
-   [
-    20714,
-    9.9
-   ]
-  ],
   "8bd6d750812598f1": [
    [
     20714,
@@ -31164,6 +30544,958 @@
    [
     20714,
     2148.0
+   ]
+  ],
+  "fe157d0625c7d2d8": [
+   [
+    20713,
+    88.9
+   ],
+   [
+    20715,
+    88.9
+   ]
+  ],
+  "7158ba40bdb60abc": [
+   [
+    20713,
+    28.0
+   ],
+   [
+    20714,
+    28.0
+   ],
+   [
+    20715,
+    28.0
+   ]
+  ],
+  "c354e47424ede12f": [
+   [
+    20713,
+    33.0
+   ],
+   [
+    20714,
+    33.0
+   ],
+   [
+    20715,
+    33.0
+   ]
+  ],
+  "70c9a5adfeb59753": [
+   [
+    20713,
+    1699.0
+   ],
+   [
+    20714,
+    1699.0
+   ],
+   [
+    20715,
+    1699.0
+   ]
+  ],
+  "e81cc65f82d5c2e3": [
+   [
+    20713,
+    45.8
+   ],
+   [
+    20714,
+    45.8
+   ],
+   [
+    20715,
+    45.8
+   ]
+  ],
+  "bf0cf695e5a9cc7a": [
+   [
+    20713,
+    59.0
+   ],
+   [
+    20714,
+    59.0
+   ],
+   [
+    20715,
+    59.0
+   ]
+  ],
+  "5df867b0da9a0462": [
+   [
+    20713,
+    79.0
+   ],
+   [
+    20714,
+    79.0
+   ],
+   [
+    20715,
+    79.0
+   ]
+  ],
+  "44cf681e1881b570": [
+   [
+    20713,
+    21.9
+   ],
+   [
+    20714,
+    21.9
+   ],
+   [
+    20715,
+    21.9
+   ]
+  ],
+  "11e40d24e0334ef2": [
+   [
+    20713,
+    39.0
+   ],
+   [
+    20714,
+    39.0
+   ],
+   [
+    20715,
+    39.0
+   ]
+  ],
+  "914f0d78f5cb4481": [
+   [
+    20713,
+    99.0
+   ],
+   [
+    20714,
+    99.0
+   ],
+   [
+    20715,
+    99.0
+   ]
+  ],
+  "f45246fc1a8b8824": [
+   [
+    20713,
+    24.9
+   ],
+   [
+    20714,
+    24.9
+   ],
+   [
+    20715,
+    24.9
+   ]
+  ],
+  "261d36a3b3c13543": [
+   [
+    20713,
+    701.1
+   ],
+   [
+    20714,
+    701.1
+   ],
+   [
+    20715,
+    701.1
+   ]
+  ],
+  "e6827f8bfb8cb558": [
+   [
+    20713,
+    19.0
+   ],
+   [
+    20714,
+    19.0
+   ],
+   [
+    20715,
+    19.0
+   ]
+  ],
+  "4153be8e62cc505a": [
+   [
+    20713,
+    79.0
+   ],
+   [
+    20714,
+    79.0
+   ],
+   [
+    20715,
+    79.0
+   ]
+  ],
+  "e003b90ccdb0b9ee": [
+   [
+    20713,
+    349.0
+   ],
+   [
+    20714,
+    349.0
+   ],
+   [
+    20715,
+    349.0
+   ]
+  ],
+  "9a9f7350a938814f": [
+   [
+    20713,
+    29.49
+   ],
+   [
+    20714,
+    29.49
+   ],
+   [
+    20715,
+    29.49
+   ]
+  ],
+  "0e82a4cb75fd693b": [
+   [
+    20713,
+    399.9
+   ],
+   [
+    20714,
+    399.9
+   ],
+   [
+    20715,
+    399.9
+   ]
+  ],
+  "2a06d17bdf68a9b7": [
+   [
+    20713,
+    339.9
+   ],
+   [
+    20714,
+    339.9
+   ],
+   [
+    20715,
+    339.9
+   ]
+  ],
+  "e6766addfca92a52": [
+   [
+    20713,
+    35.0
+   ],
+   [
+    20714,
+    35.0
+   ],
+   [
+    20715,
+    35.0
+   ]
+  ],
+  "0a837f3d71dfd59e": [
+   [
+    20713,
+    19.9
+   ],
+   [
+    20714,
+    19.9
+   ],
+   [
+    20715,
+    19.9
+   ]
+  ],
+  "e6ec2b06e3ff4210": [
+   [
+    20713,
+    1529.0
+   ],
+   [
+    20714,
+    1529.0
+   ],
+   [
+    20715,
+    1529.0
+   ]
+  ],
+  "cd2a00b4b7db2754": [
+   [
+    20713,
+    309.0
+   ],
+   [
+    20714,
+    309.0
+   ],
+   [
+    20715,
+    309.0
+   ]
+  ],
+  "53cb508a7735585d": [
+   [
+    20713,
+    39.9
+   ],
+   [
+    20714,
+    39.9
+   ],
+   [
+    20715,
+    39.9
+   ]
+  ],
+  "6b4bee7cab0118e8": [
+   [
+    20713,
+    589.0
+   ],
+   [
+    20714,
+    589.0
+   ],
+   [
+    20715,
+    589.0
+   ]
+  ],
+  "258b744ef4a76711": [
+   [
+    20713,
+    499.0
+   ],
+   [
+    20714,
+    499.0
+   ],
+   [
+    20715,
+    499.0
+   ]
+  ],
+  "2267653a64293304": [
+   [
+    20713,
+    899.0
+   ],
+   [
+    20714,
+    899.0
+   ],
+   [
+    20715,
+    899.0
+   ]
+  ],
+  "049ac6e6ac8a7b02": [
+   [
+    20713,
+    1569.9
+   ],
+   [
+    20714,
+    1569.9
+   ],
+   [
+    20715,
+    1569.9
+   ]
+  ],
+  "560d753b4580731c": [
+   [
+    20713,
+    28.0
+   ],
+   [
+    20714,
+    28.0
+   ],
+   [
+    20715,
+    28.0
+   ]
+  ],
+  "c1e837c87bd34933": [
+   [
+    20713,
+    59.9
+   ],
+   [
+    20714,
+    59.9
+   ],
+   [
+    20715,
+    59.9
+   ]
+  ],
+  "485a176e9b6b3827": [
+   [
+    20713,
+    79.99
+   ],
+   [
+    20714,
+    79.99
+   ],
+   [
+    20715,
+    79.99
+   ]
+  ],
+  "495347a49a7f2c8c": [
+   [
+    20713,
+    1747.0
+   ],
+   [
+    20714,
+    1747.0
+   ],
+   [
+    20715,
+    1747.0
+   ]
+  ],
+  "35a94c7959cd7227": [
+   [
+    20713,
+    589.0
+   ],
+   [
+    20714,
+    589.0
+   ],
+   [
+    20715,
+    589.0
+   ]
+  ],
+  "3e5f8558d67927b2": [
+   [
+    20713,
+    329.9
+   ],
+   [
+    20714,
+    329.9
+   ],
+   [
+    20715,
+    329.9
+   ]
+  ],
+  "00fff08907a449ac": [
+   [
+    20713,
+    106.9
+   ],
+   [
+    20714,
+    106.9
+   ],
+   [
+    20715,
+    106.9
+   ]
+  ],
+  "bd1b95059539e961": [
+   [
+    20714,
+    39.0
+   ],
+   [
+    20715,
+    39.0
+   ]
+  ],
+  "ea4891bcbb306d76": [
+   [
+    20714,
+    28.0
+   ],
+   [
+    20715,
+    28.0
+   ]
+  ],
+  "1416f406d63bd768": [
+   [
+    20714,
+    119.0
+   ],
+   [
+    20715,
+    119.0
+   ]
+  ],
+  "fee83dca7fd22988": [
+   [
+    20714,
+    189.0
+   ],
+   [
+    20715,
+    189.0
+   ]
+  ],
+  "76600b07646fa13d": [
+   [
+    20714,
+    129.0
+   ],
+   [
+    20715,
+    129.0
+   ]
+  ],
+  "c059f18fe86df3e6": [
+   [
+    20714,
+    34.5
+   ],
+   [
+    20715,
+    34.5
+   ]
+  ],
+  "d589ce4a97cbae1a": [
+   [
+    20714,
+    39.9
+   ],
+   [
+    20715,
+    39.9
+   ]
+  ],
+  "f805f39e0c25f4de": [
+   [
+    20714,
+    118.9
+   ],
+   [
+    20715,
+    118.9
+   ]
+  ],
+  "2131e9d0d7b89756": [
+   [
+    20714,
+    39.0
+   ],
+   [
+    20715,
+    39.0
+   ]
+  ],
+  "9894891a4447ef92": [
+   [
+    20714,
+    19.0
+   ],
+   [
+    20715,
+    19.0
+   ]
+  ],
+  "3ad695e8416f5ff7": [
+   [
+    20714,
+    99.0
+   ],
+   [
+    20715,
+    99.0
+   ]
+  ],
+  "9c02da7c4cf164e7": [
+   [
+    20714,
+    135.0
+   ],
+   [
+    20715,
+    135.0
+   ]
+  ],
+  "70d7cca3b6421199": [
+   [
+    20714,
+    30.0
+   ],
+   [
+    20715,
+    30.0
+   ]
+  ],
+  "6810d122bea52fd6": [
+   [
+    20714,
+    139.0
+   ],
+   [
+    20715,
+    139.0
+   ]
+  ],
+  "8fb78d3506bcd32f": [
+   [
+    20714,
+    109.0
+   ],
+   [
+    20715,
+    109.0
+   ]
+  ],
+  "194eb8e1ae7af083": [
+   [
+    20714,
+    49.0
+   ],
+   [
+    20715,
+    49.0
+   ]
+  ],
+  "fde35bedfce7ffc0": [
+   [
+    20714,
+    599.9
+   ],
+   [
+    20715,
+    599.9
+   ]
+  ],
+  "111d4a7b8ff7c654": [
+   [
+    20714,
+    579.9
+   ],
+   [
+    20715,
+    579.9
+   ]
+  ],
+  "bdfe44cadec6cbae": [
+   [
+    20714,
+    26.9
+   ],
+   [
+    20715,
+    26.9
+   ]
+  ],
+  "7eaea2e876b98b69": [
+   [
+    20714,
+    36.9
+   ],
+   [
+    20715,
+    36.9
+   ]
+  ],
+  "b1404b1294c30824": [
+   [
+    20714,
+    79.0
+   ],
+   [
+    20715,
+    79.0
+   ]
+  ],
+  "41d20185577d0784": [
+   [
+    20714,
+    79.0
+   ],
+   [
+    20715,
+    79.0
+   ]
+  ],
+  "44cf288bab7eecac": [
+   [
+    20714,
+    36.0
+   ],
+   [
+    20715,
+    36.0
+   ]
+  ],
+  "45d8bee9ec9978fb": [
+   [
+    20714,
+    79.0
+   ],
+   [
+    20715,
+    79.0
+   ]
+  ],
+  "fac12a655e9a0f0f": [
+   [
+    20714,
+    69.99
+   ],
+   [
+    20715,
+    69.99
+   ]
+  ],
+  "639402670a0d64c4": [
+   [
+    20714,
+    24.0
+   ],
+   [
+    20715,
+    24.0
+   ]
+  ],
+  "ea4ad2dc500257a3": [
+   [
+    20714,
+    29.9
+   ],
+   [
+    20715,
+    29.9
+   ]
+  ],
+  "2a5be6b28976bbb1": [
+   [
+    20714,
+    23.0
+   ],
+   [
+    20715,
+    23.0
+   ]
+  ],
+  "b0ebf54927027f21": [
+   [
+    20714,
+    49.0
+   ],
+   [
+    20715,
+    49.0
+   ]
+  ],
+  "96de329d370fec59": [
+   [
+    20714,
+    19.8
+   ],
+   [
+    20715,
+    19.8
+   ]
+  ],
+  "3b0745a5314d0bc0": [
+   [
+    20714,
+    29.9
+   ],
+   [
+    20715,
+    29.9
+   ]
+  ],
+  "74269342f30b79d2": [
+   [
+    20714,
+    26.9
+   ],
+   [
+    20715,
+    26.9
+   ]
+  ],
+  "944899927d05cd33": [
+   [
+    20714,
+    24.9
+   ],
+   [
+    20715,
+    24.9
+   ]
+  ],
+  "9efc25566fcc1e62": [
+   [
+    20714,
+    79.0
+   ],
+   [
+    20715,
+    79.0
+   ]
+  ],
+  "d3cc6ccb334ed36a": [
+   [
+    20714,
+    17.0
+   ],
+   [
+    20715,
+    17.0
+   ]
+  ],
+  "53d8a458d91180ba": [
+   [
+    20714,
+    24.9
+   ],
+   [
+    20715,
+    24.9
+   ]
+  ],
+  "cd8ccd340daa1a2a": [
+   [
+    20714,
+    19.9
+   ],
+   [
+    20715,
+    19.9
+   ]
+  ],
+  "23045b3526f7767e": [
+   [
+    20714,
+    11.0
+   ],
+   [
+    20715,
+    11.0
+   ]
+  ],
+  "2528505a6ed3868b": [
+   [
+    20714,
+    179.0
+   ],
+   [
+    20715,
+    179.0
+   ]
+  ],
+  "5a8921900dfc7e39": [
+   [
+    20714,
+    19.0
+   ],
+   [
+    20715,
+    19.0
+   ]
+  ],
+  "f3312eff5eecbe0c": [
+   [
+    20714,
+    39.0
+   ],
+   [
+    20715,
+    39.0
+   ]
+  ],
+  "e196d4261b3d5dfe": [
+   [
+    20714,
+    99.0
+   ],
+   [
+    20715,
+    99.0
+   ]
+  ],
+  "86e2004fc880125c": [
+   [
+    20714,
+    40.0
+   ],
+   [
+    20715,
+    40.0
+   ]
+  ],
+  "9ea1c10dc7d37dc4": [
+   [
+    20714,
+    26.0
+   ],
+   [
+    20715,
+    26.0
+   ]
+  ],
+  "233b3c828f3b052c": [
+   [
+    20714,
+    48.9
+   ],
+   [
+    20715,
+    48.9
+   ]
+  ],
+  "05e807488c59f036": [
+   [
+    20714,
+    39.9
+   ],
+   [
+    20715,
+    39.9
+   ]
+  ],
+  "b8680163c4ab285d": [
+   [
+    20714,
+    217.9
+   ],
+   [
+    20715,
+    217.9
+   ]
+  ],
+  "fecb8efea9b1021e": [
+   [
+    20714,
+    9.9
+   ],
+   [
+    20715,
+    9.9
    ]
   ],
   "08a983c46f55c8c2": [
@@ -73801,17 +74133,191 @@
     20715,
     99.0
    ]
+  ],
+  "95d744e7b0dfbf10": [
+   [
+    20715,
+    239.0
+   ]
+  ],
+  "4e9d3db0804175a2": [
+   [
+    20715,
+    129.0
+   ]
+  ],
+  "73094034371185cc": [
+   [
+    20715,
+    79.0
+   ]
+  ],
+  "cc33ddb7fa7fbdc7": [
+   [
+    20715,
+    40.0
+   ]
+  ],
+  "533227cefb7e98bc": [
+   [
+    20715,
+    19.9
+   ]
+  ],
+  "ff28c5819b42c6d1": [
+   [
+    20715,
+    1899.0
+   ]
+  ],
+  "99a96539914496a8": [
+   [
+    20715,
+    1799.0
+   ]
+  ],
+  "21c1cabd273e92c6": [
+   [
+    20715,
+    44.99
+   ]
+  ],
+  "f2bfb9227fbd27f7": [
+   [
+    20715,
+    24.9
+   ]
+  ],
+  "f3ec71b0ff39c76f": [
+   [
+    20715,
+    8.0
+   ]
+  ],
+  "1c52805d55517447": [
+   [
+    20715,
+    8.0
+   ]
+  ],
+  "79b3343bb3d5bd3c": [
+   [
+    20715,
+    44.8
+   ]
+  ],
+  "92fff06ae9be2220": [
+   [
+    20715,
+    21.0
+   ]
+  ],
+  "d280325e7f8c73ad": [
+   [
+    20715,
+    24.0
+   ]
+  ],
+  "355808a78716a2de": [
+   [
+    20715,
+    7.0
+   ]
+  ],
+  "c7e0d4a68888bbc2": [
+   [
+    20715,
+    83.0
+   ]
+  ],
+  "08b8e57acdda9488": [
+   [
+    20715,
+    8.0
+   ]
+  ],
+  "3f6084f156788f14": [
+   [
+    20715,
+    14.9
+   ]
+  ],
+  "988dc43a6cb78459": [
+   [
+    20715,
+    14.0
+   ]
+  ],
+  "91a6f4d8c1805440": [
+   [
+    20715,
+    29.0
+   ]
+  ],
+  "51450876df6c05fc": [
+   [
+    20715,
+    8.0
+   ]
+  ],
+  "d455bbd2905a40be": [
+   [
+    20715,
+    20.0
+   ]
+  ],
+  "0721dd79b4a6071f": [
+   [
+    20715,
+    18.8
+   ]
+  ],
+  "178bac5ccc92db2d": [
+   [
+    20715,
+    199.0
+   ]
+  ],
+  "5405f92b9ed410f0": [
+   [
+    20715,
+    188.9
+   ]
+  ],
+  "3b3af87665f71b55": [
+   [
+    20715,
+    29.9
+   ]
+  ],
+  "fab618626fa27c29": [
+   [
+    20715,
+    44.9
+   ]
+  ],
+  "63c8b8646ad023b2": [
+   [
+    20715,
+    16.0
+   ]
+  ],
+  "c87572335d32c4d7": [
+   [
+    20715,
+    39.9
+   ]
   ]
  },
  "cursors": {
-  "9bfa2407f381d8dd": 79,
-  "69fd2cd5b66e7251": 9,
-  "44f1f210a5a2a098": 22,
-  "fc706267fa6ddabf": 7,
+  "9bfa2407f381d8dd": 80,
+  "69fd2cd5b66e7251": 10,
+  "44f1f210a5a2a098": 23,
+  "fc706267fa6ddabf": 8,
   "e9462275ce0bce31": 67,
-  "8fa59250c23fe33c": 13,
-  "4e224dd456e94aad": 27,
-  "143e94a648fe8233": 4
+  "8fa59250c23fe33c": 14,
+  "4e224dd456e94aad": 28,
+  "143e94a648fe8233": 5
  },
  "flight_alerts": {},
  "datos": {
@@ -73836,7 +74342,7 @@
      "confidence": "published",
      "rank": 36.25
     },
-    "visto": 1789799258
+    "visto": 1789800715
    },
    "ddc2237ccad6cf2a": {
     "oferta": {
@@ -73924,29 +74430,7 @@
      "confidence": "published",
      "rank": 35.0
     },
-    "visto": 1789799258
-   },
-   "8784c53013c8cafe": {
-    "oferta": {
-     "source": "Sodimac",
-     "identity": "148292800",
-     "name": "ASPIRADORA SAMSUNG DE ARRASTRE SC4190 2000W",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/148292799/ASPIRADORA-SAMSUNG-DE-ARRASTRE-SC4190-2000W?exp=so_com",
-     "pct": 63,
-     "price": 255.0,
-     "regular": 699.0,
-     "seller": "Electro Innova",
-     "condition": "Precio web; confirmar stock y envío",
-     "category": "Electrodomésticos",
-     "previous_min": 255.0,
-     "currency": "PEN",
-     "reference_kind": "published",
-     "note": "Descuento publicado · historial insuficiente",
-     "check_url": "",
-     "confidence": "published",
-     "rank": 34.04422284649872
-    },
-    "visto": 1789777795
+    "visto": 1789800715
    },
    "ce22b37825d88141": {
     "oferta": {
@@ -73968,7 +74452,7 @@
      "confidence": "published",
      "rank": 34.31437969724496
     },
-    "visto": 1789799258
+    "visto": 1789800715
    },
    "24a889c90ffa5cb5": {
     "oferta": {
@@ -74038,10 +74522,10 @@
    },
    "287f9d9a204fd3b2": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "123879193",
      "name": "Puff Roma Living Furniture Negro",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/123879192/Puff-Roma-Living-Furniture-Negro",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/123879192/Puff-Roma-Living-Furniture-Negro?exp=so_com",
      "pct": 61,
      "price": 1339.0,
      "regular": 3500.0,
@@ -74052,11 +74536,11 @@
      "currency": "PEN",
      "reference_kind": "published",
      "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=8",
+     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=13",
      "confidence": "published",
      "rank": 35.25
     },
-    "visto": 1789799258
+    "visto": 1789800715
    },
    "260a18f3c7aaebe0": {
     "oferta": {
@@ -74074,11 +74558,11 @@
      "currency": "PEN",
      "reference_kind": "published",
      "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40584/Electrohogar?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s",
+     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40584/Electrohogar?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=27",
      "confidence": "published",
      "rank": 34.8646163960759
     },
-    "visto": 1789784584
+    "visto": 1789800715
    },
    "83537e61161e9a1a": {
     "oferta": {
@@ -74280,10 +74764,10 @@
    },
    "b5032091697842db": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "152157440",
-     "name": "Alfombra Decoghar BZ-6  Peru Kilam Multi 120 x 180 cm",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/152157439/alfombra-decoghar-bz-6-peru-kilam-multi-120-x-180-cm?exp=so_com",
+     "name": "Alfombra Decoghar BZ-6 Peru Kilam Multi 120 x 180 cm",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152157439/alfombra-decoghar-bz-6-peru-kilam-multi-120-x-180-cm",
      "pct": 65,
      "price": 199.0,
      "regular": 572.0,
@@ -74294,18 +74778,18 @@
      "currency": "PEN",
      "reference_kind": "published",
      "note": "Descuento publicado · historial insuficiente",
-     "check_url": "",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40474/Decoracion?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=7",
      "confidence": "published",
      "rank": 34.022767392243594
     },
-    "visto": 1789777795
+    "visto": 1789800715
    },
    "96058425861e1bb4": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "152157257",
-     "name": "Alfombra Decoghar BZ-3  Peru Kilam Multi 120 x 180 cm",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/152157256/alfombra-decoghar-bz-3-peru-kilam-multi-120-x-180-cm?exp=so_com",
+     "name": "Alfombra Decoghar BZ-3 Peru Kilam Multi 120 x 180 cm",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/152157256/alfombra-decoghar-bz-3-peru-kilam-multi-120-x-180-cm",
      "pct": 65,
      "price": 199.0,
      "regular": 572.0,
@@ -74316,11 +74800,11 @@
      "currency": "PEN",
      "reference_kind": "published",
      "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40474/Decoracion?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=7",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40474/Decoracion?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=7",
      "confidence": "published",
      "rank": 34.022767392243594
     },
-    "visto": 1789779094
+    "visto": 1789800715
    },
    "a2bac3d76a932125": {
     "oferta": {
@@ -74456,10 +74940,10 @@
    },
    "5c9e00ea93d1db57": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "150774964",
      "name": "Ropero Max 2 Puertas Corredizas 2 Cajones",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/150774963/ropero-max-2-puertas-corredizas-2-cajones-marron",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/150774963/ropero-max-2-puertas-corredizas-2-cajones-marron?exp=so_com",
      "pct": 61,
      "price": 699.0,
      "regular": 1799.0,
@@ -74470,11 +74954,11 @@
      "currency": "PEN",
      "reference_kind": "published",
      "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=8",
+     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=13",
      "confidence": "published",
      "rank": 35.25
     },
-    "visto": 1789799258
+    "visto": 1789800715
    },
    "855377a9681dc372": {
     "oferta": {
@@ -74522,10 +75006,10 @@
    },
    "49e794dc010f60ca": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "126124433",
-     "name": "COMBO Oster Licuadora 2 Velocidades + Exprimidor de Cítrico 1 Lt",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/126124432/COMBO-Oster-Licuadora-2-Velocidades-+-Exprimidor-de-Citrico-1-Lt?exp=so_com",
+     "name": "COMBO Licuadora 2 Velocidades + Exprimidor de Cítrico 1 Lt",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/126124432/COMBO-Oster-Licuadora-2-Velocidades-+-Exprimidor-de-Citrico-1-Lt",
      "pct": 63,
      "price": 295.0,
      "regular": 799.0,
@@ -74536,33 +75020,11 @@
      "currency": "PEN",
      "reference_kind": "published",
      "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40584/Electrohogar?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=20",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40584/Electrohogar?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=22",
      "confidence": "published",
      "rank": 34.42367528782608
     },
-    "visto": 1789788192
-   },
-   "e82710c458cdda3b": {
-    "oferta": {
-     "source": "Sodimac",
-     "identity": "154036708",
-     "name": "ASPIRADORA SAMSUNG DE ARRASTRE SC4190 2000W",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/154036707/aspiradora-samsung-de-arrastre-sc4190-2000w?exp=so_com",
-     "pct": 63,
-     "price": 254.0,
-     "regular": 699.0,
-     "seller": "Electro Innova",
-     "condition": "Precio web; confirmar stock y envío",
-     "category": "Electrodomésticos",
-     "previous_min": 254.0,
-     "currency": "PEN",
-     "reference_kind": "published",
-     "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40584/Electrohogar?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=15",
-     "confidence": "published",
-     "rank": 34.050956856060196
-    },
-    "visto": 1789779094
+    "visto": 1789800715
    },
    "0d7543dc99ffb101": {
     "oferta": {
@@ -74712,11 +75174,11 @@
      "currency": "PEN",
      "reference_kind": "published",
      "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=11",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=9",
      "confidence": "published",
      "rank": 35.25
     },
-    "visto": 1789779094
+    "visto": 1789800715
    },
    "05f678862dd6c1f1": {
     "oferta": {
@@ -74896,10 +75358,10 @@
    },
    "cc532589bcc9abc3": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "147231994",
      "name": "Alfombra Decoghar RAC-01 Jacquard 120 x 180 cm",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/147231993/Alfombra-Decoghar-RAC-01-Jacquard-120-x-180-cm",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/147231993/Alfombra-Decoghar-RAC-01-Jacquard-120-x-180-cm?exp=so_com",
      "pct": 64,
      "price": 249.0,
      "regular": 696.0,
@@ -74910,11 +75372,11 @@
      "currency": "PEN",
      "reference_kind": "published",
      "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40474/Decoracion?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=5",
+     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40474/Decoracion?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=4",
      "confidence": "published",
      "rank": 34.31437969724496
     },
-    "visto": 1789796898
+    "visto": 1789800715
    },
    "e9beeaaf41829bdf": {
     "oferta": {
@@ -75196,11 +75658,11 @@
      "currency": "PEN",
      "reference_kind": "published",
      "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=6",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=9",
      "confidence": "published",
      "rank": 35.0
     },
-    "visto": 1789795336
+    "visto": 1789800715
    },
    "24dd87947290529e": {
     "oferta": {
@@ -75306,11 +75768,11 @@
      "currency": "PEN",
      "reference_kind": "published",
      "note": "Descuento publicado · historial insuficiente",
-     "check_url": "",
+     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40474/Decoracion?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=4",
      "confidence": "published",
      "rank": 34.06498231528758
     },
-    "visto": 1789777795
+    "visto": 1789800715
    },
    "3012f0d87ddeee73": {
     "oferta": {
@@ -75486,7 +75948,7 @@
      "confidence": "published",
      "rank": 35.0
     },
-    "visto": 1789799258
+    "visto": 1789800715
    },
    "9f08690dd4b953a3": {
     "oferta": {
@@ -75508,7 +75970,7 @@
      "confidence": "published",
      "rank": 34.98916271656809
     },
-    "visto": 1789799258
+    "visto": 1789800715
    },
    "eff66833de204c56": {
     "oferta": {
@@ -75530,7 +75992,7 @@
      "confidence": "published",
      "rank": 35.75
     },
-    "visto": 1789799258
+    "visto": 1789800715
    },
    "3eb54a2a90b7f1ad": {
     "oferta": {
@@ -75552,7 +76014,7 @@
      "confidence": "published",
      "rank": 35.75
     },
-    "visto": 1789799258
+    "visto": 1789800715
    },
    "b17c360c47bdb447": {
     "oferta": {
@@ -75574,7 +76036,7 @@
      "confidence": "published",
      "rank": 35.75
     },
-    "visto": 1789799258
+    "visto": 1789800715
    },
    "67a641199ce0e20f": {
     "oferta": {
@@ -75926,7 +76388,7 @@
      "confidence": "published",
      "rank": 34.19578480360562
     },
-    "visto": 1789799258
+    "visto": 1789800715
    },
    "139ecbdd49460646": {
     "oferta": {
@@ -75948,7 +76410,7 @@
      "confidence": "published",
      "rank": 34.14981830325459
     },
-    "visto": 1789799258
+    "visto": 1789800715
    },
    "994c9c2d2408399b": {
     "oferta": {
@@ -76037,28 +76499,6 @@
      "rank": 34.79216762896803
     },
     "visto": 1789779094
-   },
-   "72ce05a0a6587a9c": {
-    "oferta": {
-     "source": "Sodimac",
-     "identity": "127082988",
-     "name": "Alfombra circular 1,50 de diametro color azul",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/127082987/alfombra-circular-1,50-de-diametro-color-azul?exp=so_com",
-     "pct": 62,
-     "price": 179.9,
-     "regular": 480.0,
-     "seller": "Mi Principito",
-     "condition": "Precio web; confirmar stock y envío",
-     "category": "Hogar",
-     "previous_min": 179.9,
-     "currency": "PEN",
-     "reference_kind": "published",
-     "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40474/Decoracion?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=3",
-     "confidence": "published",
-     "rank": 32.62232730646306
-    },
-    "visto": 1789799258
    },
    "190a8e91e054a4ae": {
     "oferta": {
@@ -77028,28 +77468,6 @@
     },
     "visto": 1789791817
    },
-   "4b6946ea8228c620": {
-    "oferta": {
-     "source": "Sodimac",
-     "identity": "127018320",
-     "name": "Alfombra circular 1,50 de diametro color beige",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/127018319/alfombra-circular-1,50-de-diametro-color-beige?exp=so_com",
-     "pct": 62,
-     "price": 179.9,
-     "regular": 480.0,
-     "seller": "Mi Principito",
-     "condition": "Precio web; confirmar stock y envío",
-     "category": "Hogar",
-     "previous_min": 179.9,
-     "currency": "PEN",
-     "reference_kind": "published",
-     "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40474/Decoracion?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=8",
-     "confidence": "published",
-     "rank": 32.62232730646306
-    },
-    "visto": 1789780999
-   },
    "21daa59a9ac0f946": {
     "oferta": {
      "source": "Sodimac",
@@ -77864,28 +78282,6 @@
     },
     "visto": 1789784584
    },
-   "66aea40eaf12c2e9": {
-    "oferta": {
-     "source": "Sodimac",
-     "identity": "127599571",
-     "name": "Licuadora OSTER Activesens BLSTTDGRBG",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/127599570/Licuadora-OSTER-Activesens-BLSTTDGRBG?exp=so_com",
-     "pct": 64,
-     "price": 1050.0,
-     "regular": 2999.0,
-     "seller": "Importaciones Y Distribuidora  A Y F",
-     "condition": "Precio web; confirmar stock y envío",
-     "category": "Electrodomésticos",
-     "previous_min": 1050.0,
-     "currency": "PEN",
-     "reference_kind": "published",
-     "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40584/Electrohogar?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=18",
-     "confidence": "published",
-     "rank": 36.0
-    },
-    "visto": 1789784584
-   },
    "deee1e96d927664e": {
     "oferta": {
      "source": "Sodimac",
@@ -78694,18 +79090,18 @@
      "currency": "PEN",
      "reference_kind": "published",
      "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=11",
+     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=13",
      "confidence": "published",
      "rank": 35.078047729502146
     },
-    "visto": 1789796898
+    "visto": 1789800715
    },
    "b6a3e4634ca8bbab": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "150774974",
-     "name": "Ropero Max 2 Puertas Corredizas 2 Cajones Marrón",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/150774973/ropero-max-madesa-2-puertas-corredizas-2-cajones-marron",
+     "name": "Ropero Max Madesa 2 Puertas Corredizas 2 Cajones Marrón",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/150774973/ropero-max-madesa-2-puertas-corredizas-2-cajones-marron?exp=so_com",
      "pct": 61,
      "price": 699.0,
      "regular": 1799.0,
@@ -78716,11 +79112,11 @@
      "currency": "PEN",
      "reference_kind": "published",
      "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=8",
+     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=13",
      "confidence": "published",
      "rank": 35.25
     },
-    "visto": 1789799258
+    "visto": 1789800715
    },
    "12a35086ab33155e": {
     "oferta": {
@@ -78834,10 +79230,10 @@
    },
    "28b6e51edfb95208": {
     "oferta": {
-     "source": "Falabella",
+     "source": "Sodimac",
      "identity": "126886249",
-     "name": "Olla Arrocera 15L con Vaporera RC 15VEN Negro",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/126886248/Olla-Arrocera-15L-con-Vaporera-Imaco-RC-15VEN-Negro",
+     "name": "Olla Arrocera 15L con Vaporera Imaco RC 15VEN  Negro",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/126886248/Olla-Arrocera-15L-con-Vaporera-Imaco-RC-15VEN-Negro?exp=so_com",
      "pct": 64,
      "price": 240.9,
      "regular": 672.75,
@@ -78848,11 +79244,11 @@
      "currency": "PEN",
      "reference_kind": "published",
      "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40584/Electrohogar?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=17",
+     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40584/Electrohogar?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=27",
      "confidence": "published",
      "rank": 34.21117374298535
     },
-    "visto": 1789791817
+    "visto": 1789800715
    },
    "e687a1d1069c4741": {
     "oferta": {
@@ -79134,11 +79530,11 @@
      "currency": "PEN",
      "reference_kind": "published",
      "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=6",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=9",
      "confidence": "published",
      "rank": 35.0
     },
-    "visto": 1789795336
+    "visto": 1789800715
    },
    "eff1a9a4bccee550": {
     "oferta": {
@@ -79156,11 +79552,11 @@
      "currency": "PEN",
      "reference_kind": "published",
      "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=6",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=9",
      "confidence": "published",
      "rank": 35.0
     },
-    "visto": 1789795336
+    "visto": 1789800715
    },
    "22e53bbefcc427c8": {
     "oferta": {
@@ -79536,28 +79932,6 @@
     },
     "visto": 1789795336
    },
-   "fcce98be73d863ae": {
-    "oferta": {
-     "source": "Falabella",
-     "identity": "155811983",
-     "name": "Kit de Toner Brother TN 219 Negro y colores HL-L3280CDW Compatible",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/155811982/kit-de-toner-brother-tn-219-negro-y-colores-hl-l3280cdw-compatible",
-     "pct": 78,
-     "price": 349.0,
-     "regular": 1599.0,
-     "seller": "Odemis Sac",
-     "condition": "Precio web; confirmar stock y envío",
-     "category": "Tecnología",
-     "previous_min": null,
-     "currency": "PEN",
-     "reference_kind": "published",
-     "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40793/Tecnologia?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=77",
-     "confidence": "published",
-     "rank": 39.5
-    },
-    "visto": 1789796898
-   },
    "7068223aed2f7d87": {
     "oferta": {
      "source": "Falabella",
@@ -79910,28 +80284,6 @@
     },
     "visto": 1789796898
    },
-   "2bb820466c7a72e9": {
-    "oferta": {
-     "source": "Sodimac",
-     "identity": "139465795",
-     "name": "Aparador Vintage Valery Rovere Coricha Home",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/139465794/Aparador-Vintage-Valery-Rovere-Coricha-Home?exp=so_com",
-     "pct": 60,
-     "price": 1399.0,
-     "regular": 3500.0,
-     "seller": "Coricha Home",
-     "condition": "Precio web; confirmar stock y envío",
-     "category": "Muebles",
-     "previous_min": 1399.0,
-     "currency": "PEN",
-     "reference_kind": "published",
-     "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=12",
-     "confidence": "published",
-     "rank": 35.0
-    },
-    "visto": 1789799258
-   },
    "ba1d75919a2624d6": {
     "oferta": {
      "source": "Sodimac",
@@ -79948,11 +80300,11 @@
      "currency": "PEN",
      "reference_kind": "published",
      "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40474/Decoracion?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=3",
+     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40474/Decoracion?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=4",
      "confidence": "published",
      "rank": 34.64374468513185
     },
-    "visto": 1789799258
+    "visto": 1789800715
    },
    "0a2bc3f04adc9349": {
     "oferta": {
@@ -80130,188 +80482,12 @@
     },
     "visto": 1789799258
    },
-   "41d68506d1bdad68": {
-    "oferta": {
-     "source": "Falabella",
-     "identity": "882519348",
-     "name": "Sofá Reclinable Robbie 3 Cuerpos Cuero Reconstituido",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/prod17390181/sofa-reclinable-robbie-3-cuerpos-cuero-reconstituido",
-     "pct": 60,
-     "price": 1399.0,
-     "regular": 3499.0,
-     "seller": "Falabella",
-     "condition": "Precio web; confirmar stock y envío",
-     "category": "Muebles",
-     "previous_min": 1399.0,
-     "currency": "PEN",
-     "reference_kind": "published",
-     "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s",
-     "confidence": "published",
-     "rank": 35.0
-    },
-    "visto": 1789799258
-   },
-   "fe8cfa1f9b3fbcd8": {
-    "oferta": {
-     "source": "Falabella",
-     "identity": "883672099",
-     "name": "Sofá Stuart 3 Cuerpos",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/883672174/sofa-stuart-3-cuerpos",
-     "pct": 60,
-     "price": 999.0,
-     "regular": 2499.0,
-     "seller": "Falabella",
-     "condition": "Precio web; confirmar stock y envío",
-     "category": "Muebles",
-     "previous_min": 999.0,
-     "currency": "PEN",
-     "reference_kind": "published",
-     "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s",
-     "confidence": "published",
-     "rank": 35.0
-    },
-    "visto": 1789799258
-   },
-   "5522ad16add52133": {
-    "oferta": {
-     "source": "Falabella",
-     "identity": "883529920",
-     "name": "Juego de Comedor Harmony 8 Sillas",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/883529920/juego-de-comedor-harmony-8-sillas",
-     "pct": 60,
-     "price": 2799.0,
-     "regular": 6999.0,
-     "seller": "Falabella",
-     "condition": "Precio web; confirmar stock y envío",
-     "category": "Muebles",
-     "previous_min": 2799.0,
-     "currency": "PEN",
-     "reference_kind": "published",
-     "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s",
-     "confidence": "published",
-     "rank": 35.0
-    },
-    "visto": 1789799258
-   },
-   "cee31b8e01b5ec16": {
-    "oferta": {
-     "source": "Falabella",
-     "identity": "139807236",
-     "name": "Panel Para Tv De Hasta 60'' Suiza - Cedro/negro Cedro/negro",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/139807235/Panel-de-TV-para-60-Pulgadas-Suiza-Cedro-Negro",
-     "pct": 60,
-     "price": 539.0,
-     "regular": 1369.0,
-     "seller": "2020 Home",
-     "condition": "Precio web; confirmar stock y envío",
-     "category": "Muebles",
-     "previous_min": 539.0,
-     "currency": "PEN",
-     "reference_kind": "published",
-     "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=8",
-     "confidence": "published",
-     "rank": 35.0
-    },
-    "visto": 1789799258
-   },
-   "7bf4dca585fc2545": {
-    "oferta": {
-     "source": "Falabella",
-     "identity": "144613658",
-     "name": "Juego de Sala 3 2 1 Zeika Gris Oscuro",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/144613657/Juego-de-Sala-3-2-1-Zeika-Alto-Hogar-Gris-Oscuro",
-     "pct": 60,
-     "price": 1929.0,
-     "regular": 4850.0,
-     "seller": "Alto Hogar",
-     "condition": "Precio web; confirmar stock y envío",
-     "category": "Muebles",
-     "previous_min": 1929.0,
-     "currency": "PEN",
-     "reference_kind": "published",
-     "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=8",
-     "confidence": "published",
-     "rank": 35.0
-    },
-    "visto": 1789799258
-   },
-   "4763af1fd8704721": {
-    "oferta": {
-     "source": "Falabella",
-     "identity": "128520443",
-     "name": "Mesa de Centro Lovera Acero Inoxidable",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/128520442/Mesa-de-Centro-Lovera-Acero-Inoxidable-Alto-Hogar",
-     "pct": 60,
-     "price": 1199.0,
-     "regular": 2999.0,
-     "seller": "Alto Hogar",
-     "condition": "Precio web; confirmar stock y envío",
-     "category": "Muebles",
-     "previous_min": 1199.0,
-     "currency": "PEN",
-     "reference_kind": "published",
-     "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=8",
-     "confidence": "published",
-     "rank": 35.0
-    },
-    "visto": 1789799258
-   },
-   "57400c8506cd812a": {
-    "oferta": {
-     "source": "Falabella",
-     "identity": "147977221",
-     "name": "Juego de Comedor 6 Sillas Corina Crema Madera Tornillo",
-     "url": "https://www.falabella.com.pe/falabella-pe/product/147977220/Juego-de-Comedor-6-Sillas-Corina-Crema-Madera-Tornillo",
-     "pct": 60,
-     "price": 1993.9,
-     "regular": 4999.0,
-     "seller": "Alto Hogar.",
-     "condition": "Requiere tarjeta CMR; confirmar condiciones y envío",
-     "category": "Muebles",
-     "previous_min": 1993.9,
-     "currency": "PEN",
-     "reference_kind": "published",
-     "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=8",
-     "confidence": "published",
-     "rank": 35.0
-    },
-    "visto": 1789799258
-   },
-   "476cbd6a2c793d46": {
-    "oferta": {
-     "source": "Sodimac",
-     "identity": "156013902",
-     "name": "Banqueta Queen Aurelia Beige Coricha Home",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/156013901/banqueta-queen-aurelia-beige-coricha-home?exp=so_com",
-     "pct": 60,
-     "price": 1189.0,
-     "regular": 2980.0,
-     "seller": "Coricha Home",
-     "condition": "Precio web; confirmar stock y envío",
-     "category": "Muebles",
-     "previous_min": 1189.0,
-     "currency": "PEN",
-     "reference_kind": "published",
-     "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=12",
-     "confidence": "published",
-     "rank": 35.0
-    },
-    "visto": 1789799258
-   },
    "330d7aecd14200ec": {
     "oferta": {
-     "source": "Sodimac",
+     "source": "Falabella",
      "identity": "156002839",
      "name": "Banqueta Matrimonial Sybil Sand Coricha Home",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/156002838/banqueta-matrimonial-sybil-sand-coricha-home?exp=so_com",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/156002838/banqueta-matrimonial-sybil-sand-coricha-home",
      "pct": 60,
      "price": 1169.0,
      "regular": 2930.0,
@@ -80322,33 +80498,11 @@
      "currency": "PEN",
      "reference_kind": "published",
      "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=12",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=9",
      "confidence": "published",
      "rank": 35.0
     },
-    "visto": 1789799258
-   },
-   "8a12205e7e5cd579": {
-    "oferta": {
-     "source": "Sodimac",
-     "identity": "156012607",
-     "name": "Banqueta Queen Aurelia Gris Plata Coricha Home",
-     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/156012606/banqueta-queen-aurelia-gris-plata-coricha-home?exp=so_com",
-     "pct": 60,
-     "price": 1189.0,
-     "regular": 2980.0,
-     "seller": "Coricha Home",
-     "condition": "Precio web; confirmar stock y envío",
-     "category": "Muebles",
-     "previous_min": 1189.0,
-     "currency": "PEN",
-     "reference_kind": "published",
-     "note": "Descuento publicado · historial insuficiente",
-     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=12",
-     "confidence": "published",
-     "rank": 35.0
-    },
-    "visto": 1789799258
+    "visto": 1789800715
    },
    "4b1c2a34655a8d57": {
     "oferta": {
@@ -80415,57 +80569,365 @@
      "rank": 33.371330794246624
     },
     "visto": 1789799258
+   },
+   "2c28fe4f7fb39c23": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "155910072",
+     "name": "Consola Recibidor Dalton Duna Coricha Home",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/155910071/consola-recibidor-dalton-duna-coricha-home",
+     "pct": 60,
+     "price": 659.0,
+     "regular": 1650.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 659.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": "Descuento publicado · historial insuficiente",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=9",
+     "confidence": "published",
+     "rank": 35.0
+    },
+    "visto": 1789800715
+   },
+   "35a94c7959cd7227": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "155914878",
+     "name": "Consola Recibidor Sienna Blanco Coricha Home",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/155914877/consola-recibidor-sienna-blanco-coricha-home",
+     "pct": 60,
+     "price": 589.0,
+     "regular": 1480.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 589.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": "Descuento publicado · historial insuficiente",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=9",
+     "confidence": "published",
+     "rank": 35.0
+    },
+    "visto": 1789800715
+   },
+   "974c2b7d7a128179": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "156047865",
+     "name": "Estante Industrial Leandro Blanco Coricha Home",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/156047864/estante-industrial-leandro-blanco-gales-coricha-home",
+     "pct": 60,
+     "price": 869.0,
+     "regular": 2180.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 869.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": "Descuento publicado · historial insuficiente",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=9",
+     "confidence": "published",
+     "rank": 35.0
+    },
+    "visto": 1789800715
+   },
+   "9fc96fe4eaec3b8b": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "139137916",
+     "name": "Consola Recibidor Lucas Gales Coricha Home",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/139137915/Consola-Recibidor-Lucas-Gales-Coricha-Home",
+     "pct": 60,
+     "price": 649.0,
+     "regular": 1630.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 649.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": "Descuento publicado · historial insuficiente",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=9",
+     "confidence": "published",
+     "rank": 35.0
+    },
+    "visto": 1789800715
+   },
+   "6b4bee7cab0118e8": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "155753636",
+     "name": "Consola Recibidor Ivonne Negro Coricha Home",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/155753635/consola-recibidor-ivonne-negro-coricha-home",
+     "pct": 60,
+     "price": 589.0,
+     "regular": 1480.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 589.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": "Descuento publicado · historial insuficiente",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=9",
+     "confidence": "published",
+     "rank": 35.0
+    },
+    "visto": 1789800715
+   },
+   "cab8997ee6dac278": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "155791539",
+     "name": "Consola Recibidor Kensington Caramelo Coricha Home",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/155791538/consola-recibidor-kensington-caramelo-coricha-home",
+     "pct": 60,
+     "price": 859.0,
+     "regular": 2150.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 859.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": "Descuento publicado · historial insuficiente",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=9",
+     "confidence": "published",
+     "rank": 35.0
+    },
+    "visto": 1789800715
+   },
+   "c6c1bbdf77e81c81": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "132639978",
+     "name": "Consola Recibidor Épica",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/132639977/Consola-Recibidor-Epica",
+     "pct": 60,
+     "price": 1100.0,
+     "regular": 2800.0,
+     "seller": "Dekko D' Interiors",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 1100.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": "Descuento publicado · historial insuficiente",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=9",
+     "confidence": "published",
+     "rank": 35.0
+    },
+    "visto": 1789800715
+   },
+   "20b6e841d1480c88": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "142891316",
+     "name": "Escritorio Organizador Industrial Nilo Gales Coricha Home",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/142891315/Escritorio-Organizador-Industrial-Nilo-Gales-Coricha-Home",
+     "pct": 60,
+     "price": 619.0,
+     "regular": 1550.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 619.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": "Descuento publicado · historial insuficiente",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=9",
+     "confidence": "published",
+     "rank": 35.0
+    },
+    "visto": 1789800715
+   },
+   "b7beee92f87d07de": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "155794213",
+     "name": "Consola Recibidor Hadley Gales Coricha Home",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/155794212/consola-recibidor-hadley-gales-coricha-home",
+     "pct": 60,
+     "price": 1019.0,
+     "regular": 2550.0,
+     "seller": "Coricha Home",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 1019.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": "Descuento publicado · historial insuficiente",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=9",
+     "confidence": "published",
+     "rank": 35.0
+    },
+    "visto": 1789800715
+   },
+   "4a2fd7b3b0c8c220": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "127017919",
+     "name": "Alfombra circular 1,50 de diametro color vino",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/127017918/alfombra-circular-1,50-de-diametro-color-vino",
+     "pct": 62,
+     "price": 179.9,
+     "regular": 480.0,
+     "seller": "Mi Principito",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 179.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": "Descuento publicado · historial insuficiente",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40474/Decoracion?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=7",
+     "confidence": "published",
+     "rank": 32.62232730646306
+    },
+    "visto": 1789800715
+   },
+   "261d36a3b3c13543": {
+    "oferta": {
+     "source": "Falabella",
+     "identity": "144311421",
+     "name": "Cuadro Decorativo Flowers 115x115 mt",
+     "url": "https://www.falabella.com.pe/falabella-pe/product/144311420/Cuadro-Decorativo-Flowers-115x115-mt",
+     "pct": 63,
+     "price": 701.1,
+     "regular": 1899.0,
+     "seller": "Dekko D' Interiors",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Hogar",
+     "previous_min": 701.1,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": "Descuento publicado · historial insuficiente",
+     "check_url": "https://www.falabella.com.pe/falabella-pe/category/cat40474/Decoracion?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=7",
+     "confidence": "published",
+     "rank": 35.75
+    },
+    "visto": 1789800715
+   },
+   "e6ec2b06e3ff4210": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "119662105",
+     "name": "Juego de Sala 3 1 1 Kayruth Rojo",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/119662104/Juego-de-Sala-3-1-1-Kayruth-Rojo?exp=so_com",
+     "pct": 61,
+     "price": 1529.0,
+     "regular": 3999.0,
+     "seller": "Alto Hogar",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Muebles",
+     "previous_min": 1529.0,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": "Descuento publicado · historial insuficiente",
+     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40700/Muebles?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=13",
+     "confidence": "published",
+     "rank": 35.25
+    },
+    "visto": 1789800715
+   },
+   "3e5f8558d67927b2": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "142328643",
+     "name": "Aspiradora Inalámbrica Makita LXT 18V / 650ml / 5.3 DCL181FZW",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/142328642/Aspiradora-Inalambrica-Makita-LXT-18V-650ml-5.3-DCL181FZW?exp=so_com",
+     "pct": 62,
+     "price": 329.9,
+     "regular": 879.9,
+     "seller": "Grupo Prodimac",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 329.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": "Descuento publicado · historial insuficiente",
+     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40584/Electrohogar?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=27",
+     "confidence": "published",
+     "rank": 34.43520442745874
+    },
+    "visto": 1789800715
+   },
+   "0e82a4cb75fd693b": {
+    "oferta": {
+     "source": "Sodimac",
+     "identity": "113097307",
+     "name": "Estufa a Gas Wurden 4200W 20m2 RF-5700CL",
+     "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/113097306/Estufa-a-Gas-Wurden-4200W-20m2-RF-5700CL?exp=so_com",
+     "pct": 60,
+     "price": 399.9,
+     "regular": 999.9,
+     "seller": "Sodimac",
+     "condition": "Precio web; confirmar stock y envío",
+     "category": "Electrodomésticos",
+     "previous_min": 399.9,
+     "currency": "PEN",
+     "reference_kind": "published",
+     "note": "Descuento publicado · historial insuficiente",
+     "check_url": "https://www.sodimac.com.pe/sodimac-pe/lista/cat40584/Electrohogar?f.range.derived.variant.discount=60%25+dcto+y+m%C3%A1s&page=27",
+     "confidence": "published",
+     "rank": 34.19578480360562
+    },
+    "visto": 1789800715
    }
   },
-  "ultimo_resumen_hogar": 1789789767,
+  "ultimo_resumen_hogar": 1789800715,
   "metricas_hogar": {
    "20715": {
-    "entradas": 4040,
+    "entradas": 4369,
     "caducadas": 0,
-    "ahorro bajo": 102,
+    "ahorro bajo": 115,
     "historial_estable": 0,
-    "recortadas": 4039,
-    "confirmadas_ronda": 1,
-    "revalidadas": 0,
+    "recortadas": 4368,
+    "confirmadas_ronda": 2,
+    "revalidadas": 1,
     "cambiadas": 0,
-    "no_confirmadas": 23,
+    "no_confirmadas": 45,
     "errores_fuente": 0,
-    "paginas_releidas": 8,
-    "consultas_extra": 9,
-    "seleccionadas": 24,
-    "unicas_vistas": 7907,
-    "enviadas": 1,
-    "rondas": 12,
+    "paginas_releidas": 16,
+    "consultas_extra": 18,
+    "seleccionadas": 48,
+    "unicas_vistas": 8551,
+    "enviadas": 3,
+    "rondas": 13,
     "rondas_con_fallo_envio": 0,
-    "pendientes_final": 300,
-    "edad_maxima_h": 6.64
+    "pendientes_final": 298,
+    "edad_maxima_h": 7.05
    }
   },
   "ultima_ronda_hogar": {
-   "entradas": 343,
+   "entradas": 329,
    "caducadas": 0,
-   "ahorro bajo": 14,
+   "ahorro bajo": 13,
    "historial_estable": 0,
-   "recortadas": 343,
+   "recortadas": 329,
    "pendientes": 300,
-   "mas_antigua_h": 6.6,
-   "confirmadas_ronda": 0,
-   "revalidadas": 0,
+   "mas_antigua_h": 7.0,
+   "confirmadas_ronda": 1,
+   "revalidadas": 1,
    "cambiadas": 0,
-   "no_confirmadas": 0,
+   "no_confirmadas": 22,
    "errores_fuente": 0,
-   "paginas_releidas": 0,
-   "consultas_extra": 0,
+   "paginas_releidas": 8,
+   "consultas_extra": 9,
    "fuentes_sin_relectura": [
     "Sodimac"
    ],
-   "seleccionadas": 0,
-   "unicas_vistas": 661,
+   "seleccionadas": 24,
+   "unicas_vistas": 644,
    "pendientes_por_categoria": {
-    "Tecnología": 75,
+    "Tecnología": 74,
     "Muebles": 75,
-    "Electrodomésticos": 75,
-    "Hogar": 75
+    "Hogar": 75,
+    "Electrodomésticos": 74
    },
    "fuentes_revisadas": {
     "Falabella/Tecnología": {
@@ -80521,11 +80983,11 @@
      "incompleta": false
     }
    },
-   "enviadas": 0,
+   "enviadas": 2,
    "rondas": 1,
    "rondas_con_fallo_envio": 0,
-   "pendientes_final": 300,
-   "momento": 1789799258
+   "pendientes_final": 298,
+   "momento": 1789800715
   }
  }
 }
