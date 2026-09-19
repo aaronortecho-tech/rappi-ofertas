@@ -434,12 +434,11 @@ def hold_home(state, deals, now):
             queue.pop(key); stats['caducadas'] += 1
         elif not state.is_new(deal.key, now, 168) or quality(state, deal, now)[2]:
             queue.pop(key)
-    if len(queue) > QUEUE_MAX:
-        # Se queda con las mejores por puntaje; las urgentes nunca se recortan.
-        ranked = sorted(queue, key=lambda k: (queue[k]['oferta']['pct'] >= URGENT_HOME_PCT,
-                                              queue[k]['oferta'].get('rank', 0)), reverse=True)
-        for key in ranked[QUEUE_MAX:]: queue.pop(key)
-        stats['recortadas'] = len(ranked) - QUEUE_MAX
+    # Límite solo para las no urgentes: las de 80 % o más nunca se recortan (salen en cada ronda).
+    normal = sorted((k for k in queue if queue[k]['oferta']['pct'] < URGENT_HOME_PCT),
+                    key=lambda k: queue[k]['oferta'].get('rank', 0), reverse=True)
+    for key in normal[QUEUE_MAX:]: queue.pop(key)
+    stats['recortadas'] = max(0, len(normal) - QUEUE_MAX)
     digest = now - state.datos.get('ultimo_resumen_hogar', 0) >= summary_every()
     due = []
     for item in queue.values():
@@ -459,10 +458,12 @@ def deliver(deals, state, notifier, now, group, dry_run=False):
     if group == 'hogar':
         pending.sort(key=lambda d: (-d.rank, -d.pct, d.source, d.name))
         # El mismo producto al mismo precio publicado por dos vendedores o tiendas sale una sola vez.
-        unique, shown = [], set()
+        # Se exige también la misma categoría para no fundir productos distintos de nombre parecido.
+        unique, twins = [], {}
         for deal in pending:
-            same = (' '.join(deal.name.lower().split()), deal.price)
-            if same not in shown: shown.add(same); unique.append(deal)
+            same = (' '.join(deal.name.lower().split()), deal.price, deal.category)
+            if same in twins: twins[same].append(deal)
+            else: twins[same] = [deal]; unique.append(deal)
         pending = unique
         # Primero las de 80 % o más; el resto alterna las cuatro categorías para que decoración
         # no desplace a muebles o tecnología.
@@ -497,7 +498,13 @@ def deliver(deals, state, notifier, now, group, dry_run=False):
         if notifier.send(title, message, priority=priority, click=batch[0].url):
             sent += len(batch)
             if not dry_run:
-                for deal in batch: state.mark_seen(deal.key, now)
+                for deal in batch:
+                    state.mark_seen(deal.key, now)
+                    # Las copias del mismo producto y precio de otros vendedores quedan avisadas con él:
+                    # si no, saldrían en el resumen siguiente.
+                    if group == 'hogar':
+                        for twin in twins.get((' '.join(deal.name.lower().split()), deal.price, deal.category), [])[1:]:
+                            state.mark_seen(twin.key, now)
         else: failed = True
     return sent, failed
 

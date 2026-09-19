@@ -154,4 +154,27 @@ def test_queue_keeps_only_the_best_300_and_never_drops_urgent(monkeypatch):
     deals.append(Deal('Falabella', 'big', 'Televisor', 'https://x/tv', 60, 1000.0, 2500.0, 'T', 'Precio web; confirmar stock y envío', 'Tecnología'))
     _, _, stats = hold_home(state, deals, NOW + 60)
     names = {v['oferta']['name'] for v in state.datos['cola_hogar'].values()}
-    assert len(names) == 5 and 'Producto 99' in names and 'Televisor' in names and stats['recortadas'] == 5
+    # Cinco no urgentes (las mejores por puntaje) más la urgente, que queda fuera del límite.
+    assert len(names) == 6 and 'Producto 99' in names and 'Televisor' in names and stats['recortadas'] == 4
+
+
+def test_more_urgent_than_the_cap_are_all_kept(monkeypatch):
+    import monitor.catalogs as catalogs
+    from monitor.catalogs import hold_home
+    monkeypatch.setattr(catalogs, 'QUEUE_MAX', 5)
+    state = CatalogState()
+    due, _, stats = hold_home(state, [item(n, pct=85) for n in range(8)], NOW)
+    assert len(due) == 8 and stats['recortadas'] == 0
+
+
+def test_seller_twin_is_not_sent_in_the_next_summary():
+    from monitor.catalogs import deliver
+    a = item(1)
+    b = Deal('Sodimac', 'otro-sku', 'Producto  1', 'https://www.sodimac.com.pe/1', 65, 100.0, 400.0, 'Otra',
+             'Precio web; confirmar stock y envío', 'Muebles')
+    state = CatalogState()
+    assert deliver([a, b], state, Phone(), NOW, 'hogar') == (1, False)
+    assert deliver([a, b], state, Phone(), NOW + 3 * 3600, 'hogar') == (0, False)
+    # Otra categoría no se funde: puede ser un producto distinto con el mismo nombre.
+    c = Deal('Sodimac', 'c', 'Producto 1', 'https://x/c', 65, 100.0, 400.0, 'Otra', 'Precio web; confirmar stock y envío', 'Hogar')
+    assert deliver([c], state, Phone(), NOW + 6 * 3600, 'hogar') == (1, False)
