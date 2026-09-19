@@ -475,6 +475,27 @@ def home_is_new(state, deal, now):
     return state.is_new(deal.key, now, 168) and state.is_new(home_notice_key(deal), now, 168)
 
 
+def home_queue_selection(normal, current, limit):
+    """Mantiene cupos por categoría y reserva un tercio para observaciones de la ronda.
+
+    Las bajadas históricas tienen precedencia sobre la reserva; los cupos que no
+    se usan vuelven al orden por puntaje. No cambia el límite total de la cola.
+    """
+    quotas = {}
+    for deal in normal[:limit]:
+        quotas[deal.category] = quotas.get(deal.category, 0) + 1
+    kept = []
+    for category, quota in quotas.items():
+        candidates = [d for d in normal if d.category == category]
+        historical = [d for d in candidates if d.confidence == 'historical'][:quota]
+        recent = [d for d in candidates if d.history_key in current and d.confidence != 'historical']
+        chosen = historical + recent[:min(max(1, quota // 3), quota - len(historical))]
+        keys = {d.history_key for d in chosen}
+        chosen += [d for d in candidates if d.history_key not in keys][:quota - len(chosen)]
+        kept.extend(chosen)
+    return kept
+
+
 def hold_home(state, deals, now):
     """Hogar se revisa cada 30 minutos pero avisa en un resumen cada HORAS_RESUMEN_HOGAR (3 h).
 
@@ -484,6 +505,7 @@ def hold_home(state, deals, now):
     Las demás esperan el resumen. Se retiran al enviar, superar, caducar o recortar por cupos.
     Devuelve (ofertas que tocan ahora, si incluye el resumen, métricas)."""
     queue = state.datos.setdefault('cola_hogar', {})
+    current = {d.history_key for d in deals}
     stats = {'entradas': 0, 'caducadas': 0, 'ahorro bajo': 0, 'historial_estable': 0}
     for deal in deals:
         key = deal.history_key
@@ -509,8 +531,13 @@ def hold_home(state, deals, now):
         deal.rank, deal.note, _ = quality(state, deal, now)
         entry['oferta'] = asdict(deal)
     normal = balanced([Deal(**v['oferta']) for v in queue.values() if not home_urgent(Deal(**v['oferta']))])
-    for deal in normal[QUEUE_MAX:]: queue.pop(deal.history_key)
+    baseline = {d.history_key for d in normal[:QUEUE_MAX]}
+    kept = {d.history_key for d in home_queue_selection(normal, current, QUEUE_MAX)}
+    for deal in normal:
+        if deal.history_key not in kept: queue.pop(deal.history_key)
     stats['recortadas'] = max(0, len(normal) - QUEUE_MAX)
+    stats['recientes_conservadas'] = len(kept & current)
+    stats['recientes_rescatadas'] = len((kept - baseline) & current)
     digest = now - state.datos.get('ultimo_resumen_hogar', 0) >= summary_every()
     due = []
     for item in queue.values():
@@ -524,7 +551,7 @@ def hold_home(state, deals, now):
     return due, digest and any(not home_urgent(d) for d in due), stats
 
 
-def deliver(deals, state, notifier, now, group, dry_run=False):
+def deliver(deals, state, notifier, now, group, dry_run=False, *, delivered=None):
     pending = [d for d in deals if state.is_new(d.key, now, 1440 if group in SLOW_GROUPS else 168)]
     if group == 'hogar': pending = [d for d in pending if home_is_new(state, d, now)]
     pending.sort(key=lambda d: (-d.pct, d.source, d.name))
@@ -550,6 +577,7 @@ def deliver(deals, state, notifier, now, group, dry_run=False):
         if notifier.send(title, message, priority=priority, click=batch[0].url):
             sent += len(batch)
             if not dry_run:
+                if delivered is not None: delivered.extend(batch)
                 for deal in batch:
                     state.mark_seen(deal.key, now)
                     if group == 'hogar': state.mark_seen(home_notice_key(deal), now)
@@ -593,19 +621,25 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
     reports = [(name, count, privacy.redact(error) if error else None) for name, count, error in reports]
     if collect_only: log.info('%s: sin tema de ntfy configurado; solo se junta información', group)
     notifier = notifier or Notifier(cfg, HttpClient(), dry_run=dry_run or collect_only, log=log)
-    sent, failed = deliver(deals, state, notifier, now, group, dry_run or collect_only)
+    delivered = []
+    sent, failed = deliver(deals, state, notifier, now, group, dry_run or collect_only, delivered=delivered)
     if group == 'hogar':
         queue = state.datos.get('cola_hogar', {})
         for key in [k for k, v in queue.items() if not home_is_new(state, Deal(**v['oferta']), now)]: queue.pop(key)
-        # Solo un resumen entregado sin fallas mueve el reloj; si ntfy falló, se reintenta en la próxima ronda.
-        if digest and sent and not failed and not dry_run: state.datos['ultimo_resumen_hogar'] = int(now)
+        stats['normales_enviadas'] = sum(not home_urgent(d) for d in delivered)
+        stats['urgentes_enviadas'] = sum(home_urgent(d) for d in delivered)
+        current_keys = {o.history_key for o in observations}
+        stats['observadas_ronda_enviadas'] = sum(d.history_key in current_keys for d in delivered)
+        summary_sent = digest and stats['normales_enviadas'] > 0 and not failed and not dry_run
+        # Una entrega exclusivamente urgente no pospone el resumen normal pendiente.
+        if summary_sent: state.datos['ultimo_resumen_hogar'] = int(now)
         log.info('hogar: %d candidatas vistas · %d entraron a la cola · %d descartadas por ahorro menor a S/ %.0f · '
                  '%d precios estables con menor prioridad · %d caducaron sin volver a verse · %d recortadas por puntaje bajo · '
                  '%d pendientes (la más antigua, %.1f h)%s',
                  found, stats.get('entradas', 0), stats.get('ahorro bajo', 0), min_savings(),
                  stats.get('historial_estable', 0), stats.get('caducadas', 0), stats.get('recortadas', 0), len(queue),
                  stats.get('mas_antigua_h', 0),
-                 ' · resumen enviado' if digest and sent and not failed and not dry_run else '')
+                 ' · resumen enviado' if summary_sent else '')
     if group == 'hogar':
         stats['pendientes_por_categoria'] = {}
         for entry in queue.values():
