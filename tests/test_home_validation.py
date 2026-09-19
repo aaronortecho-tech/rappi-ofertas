@@ -138,3 +138,68 @@ def test_page_budget_is_bounded():
     base=sample(); deals=[replace(base,identity=str(i),check_url=URL+f'&page={i+1}') for i in range(24)]
     good,stats=validate(deals,memory(deals),NOW,[],[],Client)
     assert stats['paginas_releidas']==8 and len(Client.calls)==9 and not good
+
+def test_progressive_selection_fills_after_24_unverifiable_candidates(tmp_path):
+    from monitor.catalogs import home_is_new
+    old = [replace(sample(), identity=f'old{i}', name=f'Antigua {i}', pct=90, check_url='') for i in range(24)]
+    fresh = replace(sample(), identity='fresh', name='Oferta nueva', pct=60)
+    state = memory(old)
+    path = tmp_path/'home.json'; state.save(path,NOW-60)
+    class Phone:
+        cfg=Config()
+        def __init__(self): self.messages=[]
+        def send(self,title,message,**kw): self.messages.append(message); return True
+    phone=Phone()
+    assert run_group('hogar',now=NOW,scanner=lambda s,n:([fresh],[]),notifier=phone,state_path=path)==0
+    assert len(phone.messages)==1 and 'Oferta nueva' in phone.messages[0]
+    saved=CatalogState.load(path); stats=saved.datos['ultima_ronda_hogar']
+    assert stats['consideradas']==25 and stats['no_confirmadas']==24 and stats['enviadas']==1
+    assert stats['listas_para_enviar']==1 and stats['candidatas_disponibles']==25
+    assert len(saved.datos['cola_hogar'])==24 and all(home_is_new(saved,d,NOW) for d in old)
+
+
+def test_validation_stops_at_24_confirmed_without_extra_requests():
+    deals=[replace(sample(),identity=str(i),name=f'Producto {i}') for i in range(100)]
+    good,stats=validate(deals,memory(deals),NOW,deals,[],Client)
+    assert len(good)==24 and stats['consideradas']==24 and stats['cupo_completo']
+    assert not Client.calls
+
+
+def test_budget_exhaustion_does_not_hide_fresh_candidate_later():
+    old=[replace(sample(),identity=f'old{i}',name=f'Antigua {i}',check_url=URL+f'&page={i+1}') for i in range(40)]
+    fresh=replace(sample(),identity='fresh',name='Oferta nueva')
+    good,stats=validate(old+[fresh],memory(old),NOW,[fresh],[],Client)
+    assert [d.identity for d in good]==['fresh']
+    assert stats['consideradas']==41 and stats['paginas_releidas']==8 and len(Client.calls)==9
+
+
+def test_block_does_not_hide_fresh_candidate_or_trigger_retries():
+    old=[replace(sample(),identity=f'old{i}',check_url=URL+f'&page={i+1}') for i in range(30)]
+    fresh=replace(sample(),identity='fresh',name='Oferta nueva')
+    Client.block=True
+    good,stats=validate(old+[fresh],memory(old),NOW,[fresh],[],Client)
+    assert [d.identity for d in good]==['fresh'] and len(Client.calls)==2
+    assert stats['errores_fuente']==1 and stats['consideradas']==31
+
+
+def test_retry_requests_share_global_budget_before_backfill():
+    from monitor.http import BudgetExceeded
+    class RetryClient(Client):
+        def get(self,url):
+            remaining=self.max_requests-self.requests_made
+            self.requests_made+=min(3,remaining)
+            if remaining<3: raise BudgetExceeded('limit')
+            return 'User-agent: *\nDisallow:' if url.endswith('robots.txt') else RAW
+    old=[replace(sample(),identity=f'old{i}',check_url=URL+f'&page={i+1}') for i in range(30)]
+    fresh=replace(sample(),identity='fresh',name='Oferta nueva')
+    good,stats=validate(old+[fresh],memory(old),NOW,[fresh],[],RetryClient)
+    assert stats['consultas_extra']==16 and [d.identity for d in good]==['fresh']
+
+
+def test_backfill_keeps_category_rotation():
+    from monitor.catalogs import home_order
+    bad=[replace(sample(),identity=f'old{i}',name=f'Antigua {i}',category='Hogar',rank=100,check_url='') for i in range(24)]
+    fresh=[replace(sample(),identity=f'new{i}',name=f'Nueva {i}',category=('Muebles' if i%2 else 'Tecnología')) for i in range(40)]
+    good,stats=validate(home_order(bad+fresh),memory(bad),NOW,fresh,[],Client)
+    assert len(good)==24 and sum(d.category=='Muebles' for d in good)==12
+    assert sum(d.category=='Tecnología' for d in good)==12 and stats['no_confirmadas']>0

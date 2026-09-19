@@ -6,6 +6,7 @@ from .http import HttpClient
 
 MAX_PAGES = 8
 MAX_REQUESTS = 16
+MAX_CONFIRMED = 24
 
 
 def allowed_url(deal):
@@ -29,15 +30,15 @@ def allowed_url(deal):
 
 
 def validate(selected, state, now, observations, reports, http_factory=HttpClient):
-    from .catalogs import retail_products, quality
+    from .catalogs import retail_products, quality, home_notice_key
     from .vtex import parse_products
     queue = state.datos.setdefault('cola_hogar', {})
     current = {d.history_key: d for d in observations}
     clients, rules, cache = {}, {}, {}
     unavailable = {name.split('/')[0] for name, _, error in reports if error}
     stats = dict(confirmadas_ronda=0, revalidadas=0, cambiadas=0, no_confirmadas=0,
-                 errores_fuente=0, paginas_releidas=0, consultas_extra=0)
-    accepted = []
+                 errores_fuente=0, paginas_releidas=0, consultas_extra=0, consideradas=0, equivalentes_omitidas=0)
+    accepted, accepted_keys = [], set()
 
     def fetch(client, url):
         # Incluye los reintentos internos del cliente en el presupuesto global.
@@ -48,6 +49,8 @@ def validate(selected, state, now, observations, reports, http_factory=HttpClien
         return client.get(url)
 
     for old in selected:
+        if len(accepted) >= MAX_CONFIRMED: break
+        stats['consideradas'] += 1
         fresh = current.get(old.history_key)
         from_round = fresh is not None
         if fresh is None and allowed_url(old) and old.source not in unavailable:
@@ -93,10 +96,16 @@ def validate(selected, state, now, observations, reports, http_factory=HttpClien
             continue  # reevaluar el precio nuevo en la próxima ronda, nunca enviar el anterior
         queue[fresh.history_key] = {'oferta': asdict(fresh), 'visto': int(now)}
         fresh.note = '\n'.join(filter(None, [fresh.note, 'Precio observado en esta ronda; disponibilidad final en la tienda']))
+        identity = home_notice_key(fresh)
+        if identity in accepted_keys:
+            stats['equivalentes_omitidas'] += 1
+            continue
+        accepted_keys.add(identity)
         accepted.append(fresh)
         stats['confirmadas_ronda' if from_round else 'revalidadas'] += 1
     stats['consultas_extra'] = max(stats['consultas_extra'], sum(getattr(c, 'requests_made', 0) for c in clients.values()))
     stats['fuentes_sin_relectura'] = sorted(unavailable)
+    stats['cupo_completo'] = len(accepted) >= MAX_CONFIRMED
     return accepted, stats
 
 

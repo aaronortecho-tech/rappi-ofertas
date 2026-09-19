@@ -572,10 +572,12 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
         from .home_validation import validate, record_metrics
         observations = deals
         deals, digest, stats = hold_home(state, deals, now)
-        selected = home_order(deals)[:24]
+        selected = home_order(deals)  # el cupo se aplica a confirmadas, no a intentos
         deals, checks = (validator or validate)(selected, state, now, observations, reports)
         stats.update(checks)
-        stats['seleccionadas'] = len(selected)
+        stats['candidatas_disponibles'] = len(selected)
+        stats['seleccionadas'] = checks.get('consideradas', len(selected))
+        stats['listas_para_enviar'] = len(deals)
         stats['unicas_vistas'] = len({home_notice_key(d) for d in observations})
     reports = [(name, count, privacy.redact(error) if error else None) for name, count, error in reports]
     if collect_only: log.info('%s: sin tema de ntfy configurado; solo se junta información', group)
