@@ -9,7 +9,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {},
- "saved_at": 1789756695,
+ "saved_at": 1789778515,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -14137,10 +14137,5269 @@
      "f": 20714,
      "r": 20714,
      "dist": "san-bartolo"
+    },
+    "194262558": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1000.0,
+     "area": 140.0,
+     "lat": -12.38433,
+     "lng": -76.78674,
+     "mon": "USD",
+     "monto": 1000.0,
+     "mant": 88.82,
+     "anio": "",
+     "dorm": "4",
+     "zona": "San Bartolo",
+     "titulo": "Dpto. En Playa En Alquiler En San Bartolo",
+     "u": "https://www.infocasas.com.pe/dpto-en-playa-en-alquiler-en-san-bartolo/194262558",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       1000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-bartolo"
+    },
+    "194143591": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 850.0,
+     "area": 90.0,
+     "lat": -12.38341,
+     "lng": -76.78449,
+     "mon": "USD",
+     "monto": 850.0,
+     "mant": 133.23,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "Dpto. En Playa En Alquiler En San Bartolo",
+     "u": "https://www.infocasas.com.pe/dpto-en-playa-en-alquiler-en-san-bartolo/194143591",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       850.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-bartolo"
+    },
+    "194149677": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 275000.0,
+     "area": 128.0,
+     "lat": -12.09697,
+     "lng": -77.00892,
+     "mon": "USD",
+     "monto": 275000.0,
+     "mant": 88.82,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "Vendo Departamento 1er Piso,3 Dorm, 1 Estac. Corpac",
+     "u": "https://www.infocasas.com.pe/vendo-departamento-1er-piso3-dorm-1-estac-corpac/194149677",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       275000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-borja"
+    },
+    "194245566": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 575000.0,
+     "area": 217.0,
+     "lat": -12.10877,
+     "lng": -76.98995,
+     "mon": "USD",
+     "monto": 575000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "Departamento de 3 dorm c baños | doble terraza| primer piso elevado",
+     "u": "https://www.infocasas.com.pe/departamento-de-3-dorm-c-baños-doble-terraza-primer-piso-elevado/194245566",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       575000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-borja"
+    },
+    "194270596": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 250000.0,
+     "area": 115.0,
+     "lat": -12.10721,
+     "lng": -76.98367,
+     "mon": "USD",
+     "monto": 250000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "Departamento de 3 Dormitorios  2do Piso  2 Estacionamientos  1 Deposito Grande",
+     "u": "https://www.infocasas.com.pe/departamento-de-3-dormitorios-2do-piso-2-estacionamientos-1-deposito-grande/194270596",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       250000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-borja"
+    },
+    "194203427": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 192461.0,
+     "area": 72.0,
+     "lat": -12.10127,
+     "lng": -77.00943,
+     "mon": "USD",
+     "monto": 192461.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Borja",
+     "titulo": "VENTA DE DEPARTAMENTO EN SAN BORJA - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-borja-entrega-inmediata/194203427",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       192461.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-borja"
+    },
+    "194170964": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 222970.0,
+     "area": 88.0,
+     "lat": -12.10127,
+     "lng": -77.00951,
+     "mon": "USD",
+     "monto": 222970.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "Departamento 3 dormitorios en San Borja - No paga alcabala",
+     "u": "https://www.infocasas.com.pe/departamento-3-dormitorios-en-san-borja-no-paga-alcabala/194170964",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       222970.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-borja"
+    },
+    "194263103": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 330492.0,
+     "area": 120.0,
+     "lat": -12.10626,
+     "lng": -76.98972,
+     "mon": "PEN",
+     "monto": 1116300.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BORJA - DPTO 201 AL 501 (609-1067-67)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-borja-dpto-201-al-501-609106767/194263103",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       330492.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-borja"
+    },
+    "194256155": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 280000.0,
+     "area": 105.0,
+     "lat": -12.08175,
+     "lng": -76.9945,
+     "mon": "USD",
+     "monto": 280000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "Departamento en San Borja",
+     "u": "https://www.infocasas.com.pe/departamento-en-san-borja/194256155",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       280000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-borja"
+    },
+    "194182203": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 221366.0,
+     "area": 84.0,
+     "lat": -12.10127,
+     "lng": -77.00943,
+     "mon": "USD",
+     "monto": 221366.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "VENTA DE DEPARTAMENTO EN SAN BORJA - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-borja-entrega-inmediata/194182203",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       221366.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-borja"
+    },
+    "194249803": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 376900.0,
+     "area": 193.0,
+     "lat": -12.09579,
+     "lng": -77.00991,
+     "mon": "USD",
+     "monto": 376900.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "Se vende duplex en CORPAC San Borja, 2 cocheras paralelas y gran terraza",
+     "u": "https://www.infocasas.com.pe/se-vende-duplex-en-corpac-san-borja-2-cocheras-paralelas-y-gran-terraza/194249803",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       376900.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-borja"
+    },
+    "194270606": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1200.0,
+     "area": 106.0,
+     "lat": -12.09419,
+     "lng": -76.9985,
+     "mon": "USD",
+     "monto": 1200.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "ALQUILER  departamento de estreno  en San Borja Norte con terraza",
+     "u": "https://www.infocasas.com.pe/alquiler-departamento-de-estreno-en-san-borja-norte-con-terraza/194270606",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       1200.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-borja"
+    },
+    "194234837": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1900.0,
+     "area": 200.0,
+     "lat": -12.09605,
+     "lng": -77.01214,
+     "mon": "USD",
+     "monto": 1900.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "ALQUILER DE Dpto especial de 200m2 en alquiler de 3 dormitorios muy amplio EN CO",
+     "u": "https://www.infocasas.com.pe/alquiler-de-dpto-especial-de-200m2-en-alquiler-de-3-dormitorios-muy-amplio-en-corpac/194234837",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       1900.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-borja"
+    },
+    "194190445": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 795000.0,
+     "area": 300.0,
+     "lat": -12.09365,
+     "lng": -76.98154,
+     "mon": "USD",
+     "monto": 795000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "San Borja",
+     "titulo": "Casa en San Borja",
+     "u": "https://www.infocasas.com.pe/casa-en-san-borja/194190445",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       795000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-borja"
+    },
+    "194193339": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 220000.0,
+     "area": 160.0,
+     "lat": -12.09704,
+     "lng": -77.03394,
+     "mon": "USD",
+     "monto": 220000.0,
+     "mant": 97.11,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "DEPARTAMENTO EN VENTA EN SAN ISIDRO – ZONA CORPAC Ref 859",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-san-isidro-–-zona-corpac-ref-859-/194193339",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       220000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194176353": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 192198.0,
+     "area": 77.0,
+     "lat": -12.10559,
+     "lng": -77.05619,
+     "mon": "USD",
+     "monto": 192198.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "Departamento de 3 dormitorios a pocas cuadras del Parque de la Pera",
+     "u": "https://www.infocasas.com.pe/departamento-de-3-dormitorios-a-pocas-cuadras-del-parque-de-la-pera/194176353",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       192198.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194168877": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 390000.0,
+     "area": 165.0,
+     "lat": -12.10007,
+     "lng": -77.04098,
+     "mon": "USD",
+     "monto": 390000.0,
+     "mant": 266.45,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Isidro",
+     "titulo": "Venta de Exclusivo Departamento con Vista Panorámica Al Golf",
+     "u": "https://www.infocasas.com.pe/venta-de-exclusivo-departamento-con-vista-panoramica-al-golf/194168877",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       390000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194147966": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 576000.0,
+     "area": 151.0,
+     "lat": -12.10253,
+     "lng": -77.05182,
+     "mon": "USD",
+     "monto": 576000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "Departamento Frente al Golf de tres dormitorios en San Isidro vista al mar - Av.",
+     "u": "https://www.infocasas.com.pe/departamento-frente-al-golf-de-tres-dormitorios-en-san-isidro-vista-al-mar-av-pezet/194147966",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       576000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194202756": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 1246000.0,
+     "area": 302.0,
+     "lat": -12.10253,
+     "lng": -77.05182,
+     "mon": "USD",
+     "monto": 1246000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "San Isidro",
+     "titulo": "Departamento Frente al Golf de cuatro dormitorios en San Isidro vista al mar - A",
+     "u": "https://www.infocasas.com.pe/departamento-frente-al-golf-de-cuatro-dormitorios-en-san-isidro-vista-al-mar-av-pezet/194202756",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       1246000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194270602": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 640000.0,
+     "area": 212.0,
+     "lat": -12.09511,
+     "lng": -77.04098,
+     "mon": "USD",
+     "monto": 640000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "Venta Departamento exclusivo en 1er piso, a minutos del Centro Financiero en San",
+     "u": "https://www.infocasas.com.pe/venta-departamento-exclusivo-en-1er-piso-a-minutos-del-centro-financiero-en-san-isidro/194270602",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       640000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194245570": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 128656.0,
+     "area": 56.0,
+     "lat": -12.10241,
+     "lng": -77.02474,
+     "mon": "USD",
+     "monto": 128656.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Isidro",
+     "titulo": "Moderno departamento de 2 dorm en venta ubicado en San Isidro a minutos del Cent",
+     "u": "https://www.infocasas.com.pe/moderno-departamento-de-2-dorm-en-venta-ubicado-en-san-isidro-a-minutos-del-centro-financiero/194245570",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       128656.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194166243": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 152507.0,
+     "area": 46.0,
+     "lat": -12.09133,
+     "lng": -77.02725,
+     "mon": "USD",
+     "monto": 152507.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "San Isidro",
+     "titulo": "VENTA DE DEPARTAMENTO EN SAN ISIDRO - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-isidro-entrega-inmediata/194166243",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       152507.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194206786": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 220000.0,
+     "area": 160.0,
+     "lat": -12.09704,
+     "lng": -77.03394,
+     "mon": "USD",
+     "monto": 220000.0,
+     "mant": 97.11,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "DEPARTAMENTO EN VENTA EN SAN ISIDRO – ZONA CORPAC Ref 859",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-san-isidro-–-zona-corpac-ref-859/194206786",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       220000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194170978": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 450000.0,
+     "area": 195.0,
+     "lat": -12.0988,
+     "lng": -77.05053,
+     "mon": "USD",
+     "monto": 450000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "DEPARTAMENTO  EN VENTA - SAN ISIDRO",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-san-isidro/194170978",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       450000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194147968": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 229705.0,
+     "area": 81.0,
+     "lat": -12.09009,
+     "lng": -77.05259,
+     "mon": "USD",
+     "monto": 229705.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Isidro",
+     "titulo": "Venta de Departamento en San Isidro de 1 dormitorio cerca a Real Plaza Salaverry",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-isidro-de-1-dormitorio-cerca-a-real-plaza-salaverry/194147968",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       229705.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194176352": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 137630.0,
+     "area": 54.0,
+     "lat": -12.10559,
+     "lng": -77.05619,
+     "mon": "USD",
+     "monto": 137630.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Isidro",
+     "titulo": "Departamento de 2 dormitorios a pocas cuadras del Parque de la Pera",
+     "u": "https://www.infocasas.com.pe/departamento-de-2-dormitorios-a-pocas-cuadras-del-parque-de-la-pera/194176352",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       137630.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194208241": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 294118.0,
+     "area": 136.0,
+     "lat": -12.09363,
+     "lng": -77.05973,
+     "mon": "USD",
+     "monto": 294118.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "Departamentos disponibles desde 3° al 13 piso - San Isidro",
+     "u": "https://www.infocasas.com.pe/departamentos-disponibles-desde-3°-al-13-piso-san-isidro-/194208241",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       294118.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194182388": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 225834.0,
+     "area": 75.0,
+     "lat": -12.09663,
+     "lng": -77.02391,
+     "mon": "USD",
+     "monto": 225834.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Isidro",
+     "titulo": "VENTA DE DEPARTAMENTO EN SAN ISIDRO - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-isidro-entrega-inmediata/194182388",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       225834.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194202752": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 564888.0,
+     "area": 146.0,
+     "lat": -12.09297,
+     "lng": -77.04025,
+     "mon": "USD",
+     "monto": 564888.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "San Isidro",
+     "titulo": "Exclusivo DUPLEX de 4 dormitorios con doble vista externa en San Isidro",
+     "u": "https://www.infocasas.com.pe/exclusivo-duplex-de-4-dormitorios-con-doble-vista-externa-en-san-isidro/194202752",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       564888.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194208240": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 296060.0,
+     "area": 136.0,
+     "lat": -12.09363,
+     "lng": -77.05973,
+     "mon": "PEN",
+     "monto": 999999.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "Departamentos disponibles desde 3° al 13 piso - San Isidro",
+     "u": "https://www.infocasas.com.pe/departamentos-disponibles-desde-3°-al-13-piso-san-isidro-/194208240",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       296060.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194166388": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 226239.0,
+     "area": 75.0,
+     "lat": -12.09681,
+     "lng": -77.02391,
+     "mon": "USD",
+     "monto": 226239.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Isidro",
+     "titulo": "VENTA DE DEPARTAMENTO EN SAN ISIDRO - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-isidro-entrega-inmediata/194166388",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       226239.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194170970": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 138528.0,
+     "area": 53.0,
+     "lat": -12.09269,
+     "lng": -77.03854,
+     "mon": "USD",
+     "monto": 138528.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Isidro",
+     "titulo": "Flat de 2 dormitorios en moderno edificio de San Isidro",
+     "u": "https://www.infocasas.com.pe/flat-de-2-dormitorios-en-moderno-edificio-de-san-isidro/194170970",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       138528.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194141714": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 220000.0,
+     "area": 160.0,
+     "lat": -12.15344,
+     "lng": -77.10491,
+     "mon": "USD",
+     "monto": 220000.0,
+     "mant": 97.11,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "DEPARTAMENTO EN VENTA EN SAN ISIDRO – ZONA CORPAC Ref 859",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-san-isidro-–-zona-corpac-ref-859-/194141714",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       220000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194234834": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 297918.0,
+     "area": 115.0,
+     "lat": -12.09297,
+     "lng": -77.04025,
+     "mon": "USD",
+     "monto": 297918.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "Departamento de 3 dormitorios en exclusivo edificio con ascensor directo",
+     "u": "https://www.infocasas.com.pe/departamento-de-3-dormitorios-en-exclusivo-edificio-con-ascensor-directo/194234834",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       297918.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194245578": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 546000.0,
+     "area": 200.0,
+     "lat": -12.09483,
+     "lng": -77.04712,
+     "mon": "USD",
+     "monto": 546000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "VENTA DEPARTAMENTO EN SAN ISIDRO - DPTO 205 AL 805 (609-931-23)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-isidro-dpto-205-al-805-60993123/194245578",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       546000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194170979": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 452972.0,
+     "area": 195.0,
+     "lat": -12.0988,
+     "lng": -77.05053,
+     "mon": "PEN",
+     "monto": 1530000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "DEPARTAMENTO  EN VENTA - SAN ISIDRO",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-san-isidro/194170979",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       452972.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194256163": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 234900.0,
+     "area": 115.0,
+     "lat": -12.09459,
+     "lng": -77.04825,
+     "mon": "USD",
+     "monto": 234900.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "EXCLUSIVO DPTO EN AV. JAVIER PRADO OESTE CON EUCALIPTOS, SAN ISIDRO, 115 M2, 3 D",
+     "u": "https://www.infocasas.com.pe/exclusivo-dpto-en-av-javier-prado-oeste-con-eucaliptos-san-isidro-115-m2-3-dormitorios/194256163",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       234900.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194245569": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1200.0,
+     "area": 84.0,
+     "lat": -12.09343,
+     "lng": -77.0433,
+     "mon": "USD",
+     "monto": 1200.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "San Isidro",
+     "titulo": "Alquiler de Espectacular Flat Amoblado - 1Dorm, Terraza, Estacionamiento",
+     "u": "https://www.infocasas.com.pe/alquiler-de-espectacular-flat-amoblado-1dorm-terraza-estacionamiento/194245569",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       1200.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194165524": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1750.0,
+     "area": 182.0,
+     "lat": -12.09988,
+     "lng": -77.04096,
+     "mon": "USD",
+     "monto": 1750.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Isidro",
+     "titulo": "Alquiler Flat de 2 dormitorios SIN AMOBLAR con vista al Golf - Incluye 2 cochera",
+     "u": "https://www.infocasas.com.pe/alquiler-flat-de-2-dormitorios-sin-amoblar-con-vista-al-golf-incluye-2-cocheras/194165524",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       1750.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194249802": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 2500.0,
+     "area": 175.0,
+     "lat": -12.09504,
+     "lng": -77.05081,
+     "mon": "USD",
+     "monto": 2500.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "Se alquila departamento Amoblado y Equipado en Condominio Los Castaños San isidr",
+     "u": "https://www.infocasas.com.pe/se-alquila-departamento-amoblado-y-equipado-en-condominio-los-castaños-san-isidro/194249802",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       2500.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194213165": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 840.0,
+     "area": 119.0,
+     "lat": -12.09313,
+     "lng": -77.02978,
+     "mon": "USD",
+     "monto": 840.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Isidro",
+     "titulo": "ALQUILER DEPARTAMENTO 119m2 San Isidro | Con Terraza",
+     "u": "https://www.infocasas.com.pe/alquiler-departamento-119m2-san-isidro-con-terraza/194213165",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       840.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194160693": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 1200000.0,
+     "area": 418.0,
+     "lat": -12.09986,
+     "lng": -77.02058,
+     "mon": "USD",
+     "monto": 1200000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "Mono",
+     "zona": "San Isidro",
+     "titulo": "Casa en San Isidro",
+     "u": "https://www.infocasas.com.pe/casa-en-san-isidro/194160693",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       1200000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194238703": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 1900000.0,
+     "area": 800.0,
+     "lat": -12.10398,
+     "lng": -77.05448,
+     "mon": "USD",
+     "monto": 1900000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "Vendo Casa En San Isidro",
+     "u": "https://www.infocasas.com.pe/vendo-casa-en-san-isidro/194238703",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       1900000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-isidro"
+    },
+    "194151374": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 32000.0,
+     "area": 116.0,
+     "lat": -12.1634,
+     "lng": -76.97311,
+     "mon": "USD",
+     "monto": 32000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "San Juan De Miraflores",
+     "titulo": "SE VENDE AZOTEA EN QUINTO PISO EN SAN JUAN DE MIRAFLORES",
+     "u": "https://www.infocasas.com.pe/se-vende-azotea-en-quinto-piso-en-san-juan-de-miraflores/194151374",
+     "flags": [
+      "acciones y derechos"
+     ],
+     "p": [
+      [
+       20715,
+       32000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-juan-de-miraflores"
+    },
+    "194137423": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 266.0,
+     "area": 80.0,
+     "lat": -11.95918,
+     "lng": -77.09023,
+     "mon": "PEN",
+     "monto": 900.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Martin De Porres",
+     "titulo": "ALQUILER LINDO DEPARTAMENTO 80m2 SAN MARTIN DE PORRES",
+     "u": "https://www.infocasas.com.pe/alquiler-lindo-departamento-80m2-san-martin-de-porres-/194137423",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       266.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-martin-de-porres"
+    },
+    "194160696": {
+     "op": "alquiler",
+     "tipo": "casas",
+     "usd": 2200.0,
+     "area": 330.0,
+     "lat": -11.99347,
+     "lng": -77.09137,
+     "mon": "USD",
+     "monto": 2200.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "San Martin De Porres",
+     "titulo": "ALQUILER DE CASA COMERCIAL EN SMP",
+     "u": "https://www.infocasas.com.pe/alquiler-de-casa-comercial-en-smp/194160696",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       2200.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-martin-de-porres"
+    },
+    "194139280": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 88634.0,
+     "area": 51.0,
+     "lat": -12.08571,
+     "lng": -77.09335,
+     "mon": "USD",
+     "monto": 88634.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Miguel",
+     "titulo": "VENTA DE DEPARTAMENTO EN SAN MIGUEL - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-miguel-entrega-inmediata/194139280",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       88634.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-miguel"
+    },
+    "194226162": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 155000.0,
+     "area": 118.0,
+     "lat": -12.08021,
+     "lng": -77.08536,
+     "mon": "USD",
+     "monto": 155000.0,
+     "mant": 74.02,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Miguel",
+     "titulo": "VENDO DEPARTAMENTO CON VISTA AL PARQUE DE 118 M2 EN SAN MIGUEL",
+     "u": "https://www.infocasas.com.pe/vendo-departamento-con-vista-al-parque-de-118-m2-en-san-miguel/194226162",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       155000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-miguel"
+    },
+    "194203564": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 100298.0,
+     "area": 62.0,
+     "lat": -12.08571,
+     "lng": -77.09335,
+     "mon": "USD",
+     "monto": 100298.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Miguel",
+     "titulo": "VENTA DE DEPARTAMENTO EN SAN MIGUEL - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-miguel-entrega-inmediata/194203564",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       100298.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-miguel"
+    },
+    "194160690": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 145000.0,
+     "area": 94.0,
+     "lat": -12.08746,
+     "lng": -77.07515,
+     "mon": "USD",
+     "monto": 145000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Miguel",
+     "titulo": "Departamento en SAN MIGUEL",
+     "u": "https://www.infocasas.com.pe/departamento-en-san-miguel/194160690",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       145000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-miguel"
+    },
+    "194232377": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 127455.0,
+     "area": 67.0,
+     "lat": -12.07969,
+     "lng": -77.08178,
+     "mon": "USD",
+     "monto": 127455.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Miguel",
+     "titulo": "VENTA DE DEPARTAMENTO EN SAN MIGUEL - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-miguel-entrega-inmediata/194232377",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       127455.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-miguel"
+    },
+    "194138828": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 70000.0,
+     "area": 45.0,
+     "lat": -12.08487,
+     "lng": -77.09813,
+     "mon": "USD",
+     "monto": 70000.0,
+     "mant": 47.37,
+     "anio": "",
+     "dorm": "1",
+     "zona": "San Miguel",
+     "titulo": "Vendo Dpto 01 D Vista Lateral Al Mar – Panoramic, San Miguel",
+     "u": "https://www.infocasas.com.pe/vendo-dpto-01-d-vista-lateral-al-mar-–-panoramic-san-miguel/194138828",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       70000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-miguel"
+    },
+    "194172635": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 98209.0,
+     "area": 48.0,
+     "lat": -12.08808,
+     "lng": -77.08452,
+     "mon": "USD",
+     "monto": 98209.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Miguel",
+     "titulo": "Venta De Departamento En  Por Entregar El 30 de setiembre",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-por-entregar-el-30-de-setiembre/194172635",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       98209.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-miguel"
+    },
+    "194145352": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 681.0,
+     "area": 70.0,
+     "lat": -12.09743,
+     "lng": -77.13518,
+     "mon": "PEN",
+     "monto": 2300.0,
+     "mant": 53.3,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Miguel",
+     "titulo": "ALQUILER DE DEPARTAMENTO 2 DORMITORIOS  SAN MIGUEL – 70 m² CON COCHERA",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-2-dormitorios-san-miguel-–-70-m²-con-cochera-/194145352",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       681.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-miguel"
+    },
+    "194160697": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 715.0,
+     "area": 84.0,
+     "lat": -12.07974,
+     "lng": -77.1062,
+     "mon": "USD",
+     "monto": 715.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Miguel",
+     "titulo": "Se Alquila Departamento de Estreno con vista al mar en San Miguel",
+     "u": "https://www.infocasas.com.pe/se-alquila-departamento-de-estreno-con-vista-al-mar-en-san-miguel/194160697",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       715.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-miguel"
+    },
+    "194220012": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 681.0,
+     "area": 70.0,
+     "lat": -12.07743,
+     "lng": -77.09341,
+     "mon": "PEN",
+     "monto": 2300.0,
+     "mant": 53.3,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Miguel",
+     "titulo": "ALQUILER DE DEPARTAMENTO 2 DORMITORIOS  SAN MIGUEL – 70 m² CON COCHERA 26021",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-2-dormitorios-san-miguel-–-70-m²-con-cochera-26021-/194220012",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       681.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-miguel"
+    },
+    "194188001": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 681.0,
+     "area": 70.0,
+     "lat": -12.07743,
+     "lng": -77.09341,
+     "mon": "PEN",
+     "monto": 2300.0,
+     "mant": 53.3,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Miguel",
+     "titulo": "ALQUILER DE DEPARTAMENTO 2 DORMITORIOS  SAN MIGUEL – 70 m² CON COCHERA",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-2-dormitorios-san-miguel-–-70-m²-con-cochera-/194188001",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       681.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-miguel"
+    },
+    "194230936": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 681.0,
+     "area": 70.0,
+     "lat": -12.07743,
+     "lng": -77.09341,
+     "mon": "PEN",
+     "monto": 2300.0,
+     "mant": 53.3,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Miguel",
+     "titulo": "ALQUILER DE DEPARTAMENTO 2 DORMITORIOS  SAN MIGUEL – 70 m² CON COCHERA",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-2-dormitorios-san-miguel-–-70-m²-con-cochera-/194230936",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       681.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-miguel"
+    },
+    "194242838": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 681.0,
+     "area": 70.0,
+     "lat": -12.07743,
+     "lng": -77.09341,
+     "mon": "PEN",
+     "monto": 2300.0,
+     "mant": 53.3,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Miguel",
+     "titulo": "ALQUILER DE DEPARTAMENTO 2 DORMITORIOS  SAN MIGUEL – 70 m² CON COCHERA",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-2-dormitorios-san-miguel-–-70-m²-con-cochera-/194242838",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       681.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-miguel"
+    },
+    "194267289": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 622.0,
+     "area": 70.0,
+     "lat": -12.07485,
+     "lng": -77.10025,
+     "mon": "PEN",
+     "monto": 2100.0,
+     "mant": 53.3,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Miguel",
+     "titulo": "ALQUILER DE DEPARTAMENTO 2 DORMITORIOS  SAN MIGUEL – 70 m² CON COCHERA",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-2-dormitorios-san-miguel-–-70-m²-con-cochera-/194267289",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       622.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-miguel"
+    },
+    "194201607": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 681.0,
+     "area": 70.0,
+     "lat": -12.07743,
+     "lng": -77.09341,
+     "mon": "PEN",
+     "monto": 2300.0,
+     "mant": 53.3,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Miguel",
+     "titulo": "ALQUILER DE DEPARTAMENTO 2 DORMITORIOS  SAN MIGUEL – 70 m² CON COCHERA Ref 26021",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-2-dormitorios-san-miguel-–-70-m²-con-cochera-ref-26021/194201607",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       681.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-miguel"
+    },
+    "194174873": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 681.0,
+     "area": 70.0,
+     "lat": -12.07743,
+     "lng": -77.09341,
+     "mon": "PEN",
+     "monto": 2300.0,
+     "mant": 53.3,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Miguel",
+     "titulo": "ALQUILER DE DEPARTAMENTO 2 DORMITORIOS  SAN MIGUEL – 70 m² CON COCHERA Ref 26021",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-2-dormitorios-san-miguel-–-70-m²-con-cochera-ref-26021/194174873",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       681.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "san-miguel"
+    },
+    "194223546": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 158000.0,
+     "area": 120.0,
+     "lat": -12.04973,
+     "lng": -76.96225,
+     "mon": "USD",
+     "monto": 158000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santa Anita",
+     "titulo": "Departamento en Santa Anita",
+     "u": "https://www.infocasas.com.pe/departamento-en-santa-anita/194223546",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       158000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santa-anita"
+    },
+    "194208223": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 950000.0,
+     "area": 400.0,
+     "lat": -12.40987,
+     "lng": -76.77619,
+     "mon": "USD",
+     "monto": 950000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Santa Maria Del Mar",
+     "titulo": "Casa en Santa Maria Del Mar",
+     "u": "https://www.infocasas.com.pe/casa-en-santa-maria-del-mar/194208223",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       950000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santa-maria-del-mar"
+    },
+    "194277936": {
+     "op": "alquiler",
+     "tipo": "casas",
+     "usd": 1481.0,
+     "area": 200.0,
+     "lat": -11.81751,
+     "lng": -77.15843,
+     "mon": "PEN",
+     "monto": 5000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Santa Rosa",
+     "titulo": "ALQUILER DE EDIFICIO COMERCIAL SANTA ROSA",
+     "u": "https://www.infocasas.com.pe/alquiler-de-edificio-comercial-santa-rosa/194277936",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       1481.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santa-rosa"
+    },
+    "194147927": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 149900.0,
+     "area": 61.0,
+     "lat": -12.10821,
+     "lng": -76.97755,
+     "mon": "USD",
+     "monto": 149900.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento en venta - Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-surco/194147927",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       149900.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194180552": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 230000.0,
+     "area": 124.0,
+     "lat": -12.09933,
+     "lng": -76.9674,
+     "mon": "USD",
+     "monto": 230000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Venta Exclusivo Flat 124m²  con Cochera Doble Condominio en Urb El Polo Surco",
+     "u": "https://www.infocasas.com.pe/venta-exclusivo-flat-124m²-con-cochera-doble-condominio-en-urb-el-polo-surco/194180552",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       230000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194194199": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 314491.0,
+     "area": 113.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 1061624.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194194199",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       314491.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194221003": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 179815.0,
+     "area": 69.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 607000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194221003",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       179815.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194234841": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 167000.0,
+     "area": 91.0,
+     "lat": -12.16747,
+     "lng": -76.99562,
+     "mon": "USD",
+     "monto": 167000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "???? Departamento a US$1,200/m²   91.6 m² de Aires Frente a Parque",
+     "u": "https://www.infocasas.com.pe/-departamento-a-us1200m²-916-m²-de-aires-frente-a-parque/194234841",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       167000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194182133": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 203725.0,
+     "area": 102.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 688121.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194182133",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       203725.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194197027": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 597900.0,
+     "area": 265.0,
+     "lat": -12.1122,
+     "lng": -76.98997,
+     "mon": "USD",
+     "monto": 597900.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DEPARTAMENTO EN SURCO - DPT 902 (609-755-13)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-surco-dpt-902-60975513/194197027",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       597900.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194220803": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 111977.0,
+     "area": 41.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 378000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220803",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       111977.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194223561": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 230000.0,
+     "area": 116.0,
+     "lat": -12.11567,
+     "lng": -76.97892,
+     "mon": "USD",
+     "monto": 230000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento flat en Chacarilla, 2 dormitorios cerca a parques, calle tranquila",
+     "u": "https://www.infocasas.com.pe/departamento-flat-en-chacarilla-2-dormitorios-cerca-a-parques-calle-tranquila/194223561",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       230000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194197018": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 235200.0,
+     "area": 90.0,
+     "lat": -12.1122,
+     "lng": -76.98997,
+     "mon": "USD",
+     "monto": 235200.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DEPARTAMENTO EN SURCO - DPT 101 (609-755-29)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-surco-dpt-101-60975529/194197018",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       235200.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194187634": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 174900.0,
+     "area": 72.0,
+     "lat": -12.13238,
+     "lng": -77.00103,
+     "mon": "USD",
+     "monto": 174900.0,
+     "mant": 118.49,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "DEPARTAMENTO EN VENTA FRENTE A PARQUE – SURCO | 2D + ESTUDIO + COCHERA",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-frente-a-parque-–-surco-2d-estudio-cochera/194187634",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       174900.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194263070": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 242000.0,
+     "area": 99.0,
+     "lat": -12.13091,
+     "lng": -76.99783,
+     "mon": "USD",
+     "monto": 242000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento en construcción en Surco cerca a parques, comercio y más",
+     "u": "https://www.infocasas.com.pe/departamento-en-construccion-en-surco-cerca-a-parques-comercio-y-mas/194263070",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       242000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194193168": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 185728.0,
+     "area": 93.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 626959.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194193168",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       185728.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194220929": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 193146.0,
+     "area": 74.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 652000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220929",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       193146.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194192415": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 203846.0,
+     "area": 102.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 688121.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194192415",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       203846.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194220157": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 151673.0,
+     "area": 55.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 512000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220157",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       151673.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194223553": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 201500.0,
+     "area": 83.0,
+     "lat": -12.13364,
+     "lng": -77.00958,
+     "mon": "USD",
+     "monto": 201500.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "Exclusivo departamento ubicado en Surco limite con Miraflores de 2 dorm rodeado ",
+     "u": "https://www.infocasas.com.pe/exclusivo-departamento-ubicado-en-surco-limite-con-miraflores-de-2-dorm-rodeado-de-parques/194223553",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       201500.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194204483": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 222045.0,
+     "area": 100.0,
+     "lat": -12.12298,
+     "lng": -76.98567,
+     "mon": "PEN",
+     "monto": 750000.0,
+     "mant": 118.49,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "Venta Lindo Departamento Flat – SURCO Límite con Miraflores | Urb. Aurora",
+     "u": "https://www.infocasas.com.pe/venta-lindo-departamento-flat-–-surco-limite-con-miraflores-urb-aurora-/194204483",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       222045.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194176365": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 141765.0,
+     "area": 58.0,
+     "lat": -12.11477,
+     "lng": -76.99493,
+     "mon": "USD",
+     "monto": 141765.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "Venta de departamento de 2 dormitorios de estreno cerca al centro comercial Cami",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-de-2-dormitorios-de-estreno-cerca-al-centro-comercial-caminos-del-inca/194176365",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       141765.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194176349": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 680000.0,
+     "area": 370.0,
+     "lat": -12.09071,
+     "lng": -76.96566,
+     "mon": "USD",
+     "monto": 680000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DEPARTAMENTO con 3 dormitorios con terraza, ascensor directo y áreas comun",
+     "u": "https://www.infocasas.com.pe/venta-departamento-con-3-dormitorios-con-terraza-ascensor-directo-y-areas-comunes/194176349",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       680000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194209175": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 194991.0,
+     "area": 82.0,
+     "lat": -12.12072,
+     "lng": -76.99109,
+     "mon": "USD",
+     "monto": 194991.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "Venta De Departamento En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-santiago-de-surco/194209175",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       194991.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194220029": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 109903.0,
+     "area": 40.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 371000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220029",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       109903.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194215084": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 129159.0,
+     "area": 40.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 436000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194215084",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       129159.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194193446": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 315056.0,
+     "area": 112.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 1063533.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194193446",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       315056.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194192342": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 193586.0,
+     "area": 97.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 653487.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194192342",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       193586.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194192064": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 194331.0,
+     "area": 96.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 656002.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194192064",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       194331.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194223552": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 381135.0,
+     "area": 141.0,
+     "lat": -12.13364,
+     "lng": -77.00958,
+     "mon": "USD",
+     "monto": 381135.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Exclusivo departamento DÚPLEX ubicado en Surco limite con Miraflores de 3 dorm r",
+     "u": "https://www.infocasas.com.pe/exclusivo-departamento-duplex-ubicado-en-surco-limite-con-miraflores-de-3-dorm-rodeado-de-parques/194223552",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       381135.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194147928": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 151778.0,
+     "area": 61.0,
+     "lat": -12.10821,
+     "lng": -76.97755,
+     "mon": "PEN",
+     "monto": 512658.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento en venta - Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-surco/194147928",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       151778.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194270608": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 247761.0,
+     "area": 120.0,
+     "lat": -12.13091,
+     "lng": -76.99783,
+     "mon": "USD",
+     "monto": 247761.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento de 3 dormitorios ubicado en Surco cerca a parques y limite con Mira",
+     "u": "https://www.infocasas.com.pe/departamento-de-3-dormitorios-ubicado-en-surco-cerca-a-parques-y-limite-con-miraflores/194270608",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       247761.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194200568": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 199461.0,
+     "area": 82.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 673718.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194200568",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       199461.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194200752": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 264900.0,
+     "area": 101.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 894751.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194200752",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       264900.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194208239": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 241585.0,
+     "area": 133.0,
+     "lat": -12.13716,
+     "lng": -77.0054,
+     "mon": "PEN",
+     "monto": 816000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento con Cochera y Deposito - Paseo la Castellana- Santiago de Surco",
+     "u": "https://www.infocasas.com.pe/departamento-con-cochera-y-deposito-paseo-la-castellana-santiago-de-surco/194208239",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       241585.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194197026": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 621528.0,
+     "area": 275.0,
+     "lat": -12.1122,
+     "lng": -76.98997,
+     "mon": "PEN",
+     "monto": 2099328.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DEPARTAMENTO EN SURCO - DPT 802, 803 (609-755-35)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-surco-dpt-802-803-60975535/194197026",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       621528.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194197030": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 390444.0,
+     "area": 172.0,
+     "lat": -12.1122,
+     "lng": -76.98997,
+     "mon": "PEN",
+     "monto": 1318800.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DEPARTAMENTO EN SURCO - DPT 906 (609-755-16)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-surco-dpt-906-60975516/194197030",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       390444.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194199554": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 175931.0,
+     "area": 70.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 594240.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194199554",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       175931.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194240825": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 276119.0,
+     "area": 112.0,
+     "lat": -12.11819,
+     "lng": -76.97624,
+     "mon": "USD",
+     "monto": 276119.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento DÚPLEX en Surco de 3 Dormitorios, a pocas cuadras del colegio Casua",
+     "u": "https://www.infocasas.com.pe/departamento-duplex-en-surco-de-3-dormitorios-a-pocas-cuadras-del-colegio-casuarinas/194240825",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       276119.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194192234": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 185728.0,
+     "area": 93.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 626959.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194192234",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       185728.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194220112": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 181296.0,
+     "area": 68.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 612000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220112",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       181296.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194221067": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 198182.0,
+     "area": 76.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 669000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194221067",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       198182.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194197020": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 233600.0,
+     "area": 104.0,
+     "lat": -12.1122,
+     "lng": -76.98997,
+     "mon": "USD",
+     "monto": 233600.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DEPARTAMENTO EN SURCO - DPT 301 AL 701 (609-755-33)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-surco-dpt-301-al-701-60975533/194197020",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       233600.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194261552": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 280000.0,
+     "area": 118.0,
+     "lat": -12.02426,
+     "lng": -77.03191,
+     "mon": "USD",
+     "monto": 280000.0,
+     "mant": 88.87,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento ocasion cerca Simon Salguero  altura 21 de BenavidesSurco",
+     "u": "https://www.infocasas.com.pe/departamento-ocasion-cerca-simon-salguero-altura-21-de-benavidessurco/194261552",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       280000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194202761": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 134800.0,
+     "area": 58.0,
+     "lat": -12.11102,
+     "lng": -76.97864,
+     "mon": "USD",
+     "monto": 134800.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "DEPARTAMENTO EN VENTA – 2 DORMITORIOS CON VISTA PANORÁMICA EN SURCO",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-–-2-dormitorios-con-vista-panoramica-en-surco/194202761",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       134800.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194219810": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 214178.0,
+     "area": 70.0,
+     "lat": -12.09615,
+     "lng": -76.97235,
+     "mon": "PEN",
+     "monto": 723000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194219810",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       214178.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194192189": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 201604.0,
+     "area": 101.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 680551.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194192189",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       201604.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194249807": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 127709.0,
+     "area": 77.0,
+     "lat": -12.1446,
+     "lng": -77.01843,
+     "mon": "PEN",
+     "monto": 431360.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DEPA FRENTE PARQUE EN SURCO - DPT 502 (609-1162-1)",
+     "u": "https://www.infocasas.com.pe/venta-depa-frente-parque-en-surco-dpt-502-60911621/194249807",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       127709.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194187555": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 194216.0,
+     "area": 96.0,
+     "lat": -12.09556,
+     "lng": -76.96858,
+     "mon": "PEN",
+     "monto": 656002.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194187555",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       194216.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194270586": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 446601.0,
+     "area": 140.0,
+     "lat": -12.10186,
+     "lng": -76.97446,
+     "mon": "USD",
+     "monto": 446601.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Exclusivo departamento ubicado en Surco a minutos del Hipódromo de Monterrico",
+     "u": "https://www.infocasas.com.pe/exclusivo-departamento-ubicado-en-surco-a-minutos-del-hipodromo-de-monterrico/194270586",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       446601.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194219997": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 135972.0,
+     "area": 44.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 459000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194219997",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       135972.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194221168": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 161448.0,
+     "area": 66.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 545000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194221168",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       161448.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194234801": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 292000.0,
+     "area": 161.0,
+     "lat": -12.12533,
+     "lng": -76.97848,
+     "mon": "USD",
+     "monto": 292000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento dúplex en Santiago de Surco",
+     "u": "https://www.infocasas.com.pe/departamento-duplex-en-santiago-de-surco/194234801",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       292000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194220064": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 168262.0,
+     "area": 66.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 568000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220064",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       168262.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194219874": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 185147.0,
+     "area": 62.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 625000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194219874",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       185147.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194219943": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 194923.0,
+     "area": 65.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 658000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194219943",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       194923.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194270587": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 502740.0,
+     "area": 169.0,
+     "lat": -12.10186,
+     "lng": -76.97446,
+     "mon": "USD",
+     "monto": 502740.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Exclusivo PENT HOUSE ubicado en Surco a minutos del Hipódromo de Monterrico",
+     "u": "https://www.infocasas.com.pe/exclusivo-pent-house-ubicado-en-surco-a-minutos-del-hipodromo-de-monterrico/194270587",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       502740.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194222054": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 222045.0,
+     "area": 100.0,
+     "lat": -12.12298,
+     "lng": -76.98567,
+     "mon": "PEN",
+     "monto": 750000.0,
+     "mant": 118.49,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "Venta Lindo Departamento Flat – SURCO Límite con Miraflores | Urb. Aurora",
+     "u": "https://www.infocasas.com.pe/venta-lindo-departamento-flat-–-surco-limite-con-miraflores-urb-aurora/194222054",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       222045.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194213142": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 195000.0,
+     "area": 84.0,
+     "lat": -12.13195,
+     "lng": -76.99169,
+     "mon": "USD",
+     "monto": 195000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento en Venta en Vista Alegre Santiago de Surco – 84 m²",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-vista-alegre-santiago-de-surco-–-84-m²/194213142",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       195000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194197021": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 232377.0,
+     "area": 104.0,
+     "lat": -12.1122,
+     "lng": -76.98997,
+     "mon": "PEN",
+     "monto": 784896.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DEPARTAMENTO EN SURCO - DPT 301 AL 701 (609-755-33)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-surco-dpt-301-al-701-60975533/194197021",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       232377.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194197029": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 392500.0,
+     "area": 172.0,
+     "lat": -12.1122,
+     "lng": -76.98997,
+     "mon": "USD",
+     "monto": 392500.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DEPARTAMENTO EN SURCO - DPT 906 (609-755-16)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-surco-dpt-906-60975516/194197029",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       392500.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194139851": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 100000.0,
+     "area": 45.0,
+     "lat": -12.1402,
+     "lng": -76.9847,
+     "mon": "USD",
+     "monto": 100000.0,
+     "mant": 26.66,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Santiago De Surco",
+     "titulo": "Vendo Dpto.  45m2 - Surco",
+     "u": "https://www.infocasas.com.pe/vendo-dpto-45m2-surco/194139851",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       100000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194263063": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 335000.0,
+     "area": 141.0,
+     "lat": -12.12871,
+     "lng": -77.00808,
+     "mon": "USD",
+     "monto": 335000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "DUPLEX DE ESTRENO (NO PAGA ALBACALA) 222m² 3D 3B 1C GRAN TERRAZA ASCENSOR DIRECT",
+     "u": "https://www.infocasas.com.pe/duplex-de-estreno-no-paga-albacala-222m²-3d-3b-1c-gran-terraza-ascensor-directo/194263063",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       335000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194220261": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 202033.0,
+     "area": 77.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 682000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220261",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       202033.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194192740": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 201604.0,
+     "area": 101.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 680551.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194192740",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       201604.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194176359": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 295000.0,
+     "area": 162.0,
+     "lat": -12.13358,
+     "lng": -77.01672,
+     "mon": "USD",
+     "monto": 295000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Santiago De Surco",
+     "titulo": "Venta de DUPLEX, PISO 5 y 6, 4 DORMITORIOS, TERRAZA, 1 ESTACIONAMIENTO",
+     "u": "https://www.infocasas.com.pe/venta-de-duplex-piso-5-y-6-4-dormitorios-terraza-1-estacionamiento/194176359",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       295000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194147952": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 239000.0,
+     "area": 132.0,
+     "lat": -12.13354,
+     "lng": -77.01716,
+     "mon": "USD",
+     "monto": 239000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Dpto en Jr. Gamero de Planas, duplex, cerca a Miraflores y Barranco, 3 dormitori",
+     "u": "https://www.infocasas.com.pe/dpto-en-jr-gamero-de-planas-duplex-cerca-a-miraflores-y-barranco-3-dormitorios-1-estac/194147952",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       239000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194215111": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 194331.0,
+     "area": 60.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 656000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194215111",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       194331.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194220235": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 114347.0,
+     "area": 41.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 386000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220235",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       114347.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194200610": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 220970.0,
+     "area": 98.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 746369.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194200610",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       220970.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194197019": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 233968.0,
+     "area": 90.0,
+     "lat": -12.1122,
+     "lng": -76.98997,
+     "mon": "PEN",
+     "monto": 790272.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DEPARTAMENTO EN SURCO - DPT 101 (609-755-29)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-surco-dpt-101-60975529/194197019",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       233968.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194197024": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 310764.0,
+     "area": 140.0,
+     "lat": -12.1122,
+     "lng": -76.98997,
+     "mon": "PEN",
+     "monto": 1049664.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DEPARTAMENTO EN SURCO - DPT 302 AL 402 (609-755-30)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-surco-dpt-302-al-402-60975530/194197024",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       310764.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194270601": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 420000.0,
+     "area": 225.0,
+     "lat": -12.11637,
+     "lng": -76.98047,
+     "mon": "USD",
+     "monto": 420000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA  Departamento FLAT DE 3 DORMITORIOS en CHACARILLA Av.PRECURSORES",
+     "u": "https://www.infocasas.com.pe/venta-departamento-flat-de-3-dormitorios-en-chacarilla-avprecursores/194270601",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       420000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194208238": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 240000.0,
+     "area": 133.0,
+     "lat": -12.13716,
+     "lng": -77.0054,
+     "mon": "USD",
+     "monto": 240000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento con Cochera y Deposito - Paseo la Castellana- Santiago de Surco",
+     "u": "https://www.infocasas.com.pe/departamento-con-cochera-y-deposito-paseo-la-castellana-santiago-de-surco/194208238",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       240000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194262210": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 205000.0,
+     "area": 113.0,
+     "lat": -12.13243,
+     "lng": -76.98616,
+     "mon": "USD",
+     "monto": 205000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento en Venta en Prolongación Benavides piso 3 con ascensor",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-prolongacion-benavides-piso-3-con-ascensor/194262210",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       205000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194221512": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 280239.0,
+     "area": 88.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 946000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194221512",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       280239.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194194381": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 275565.0,
+     "area": 107.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 930223.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194194381",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       275565.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194220825": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 171224.0,
+     "area": 61.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 578000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220825",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       171224.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194270615": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 255000.0,
+     "area": 195.0,
+     "lat": -12.1158,
+     "lng": -76.99127,
+     "mon": "USD",
+     "monto": 255000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DE DUPLEX A 3 CUADRAS DEL CENTRO COMERCIAL DE CHACARILLA",
+     "u": "https://www.infocasas.com.pe/venta-de-duplex-a-3-cuadras-del-centro-comercial-de-chacarilla/194270615",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       255000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194270616": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 257439.0,
+     "area": 195.0,
+     "lat": -12.1158,
+     "lng": -76.99127,
+     "mon": "PEN",
+     "monto": 869550.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DE DUPLEX A 3 CUADRAS DEL CENTRO COMERCIAL DE CHACARILLA",
+     "u": "https://www.infocasas.com.pe/venta-de-duplex-a-3-cuadras-del-centro-comercial-de-chacarilla/194270616",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       257439.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194197028": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 594769.0,
+     "area": 265.0,
+     "lat": -12.1122,
+     "lng": -76.98997,
+     "mon": "PEN",
+     "monto": 2008944.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DEPARTAMENTO EN SURCO - DPT 902 (609-755-13)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-surco-dpt-902-60975513/194197028",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       594769.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194192532": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 194331.0,
+     "area": 96.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 656002.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194192532",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       194331.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194188374": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 193586.0,
+     "area": 97.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 653487.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194188374",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       193586.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194188452": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 203846.0,
+     "area": 102.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 688121.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194188452",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       203846.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194197023": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 312400.0,
+     "area": 140.0,
+     "lat": -12.1122,
+     "lng": -76.98997,
+     "mon": "USD",
+     "monto": 312400.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DEPARTAMENTO EN SURCO - DPT 302 AL 402 (609-755-30)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-surco-dpt-302-al-402-60975530/194197023",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       312400.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194181452": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 360000.0,
+     "area": 210.0,
+     "lat": -12.11672,
+     "lng": -76.99137,
+     "mon": "USD",
+     "monto": 360000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento Dúplex | 3 dorm c baños | doble terraza | 2 cocheras",
+     "u": "https://www.infocasas.com.pe/departamento-duplex-3-dorm-c-baños-doble-terraza-2-cocheras/194181452",
+     "flags": [
+      "independización"
+     ],
+     "p": [
+      [
+       20715,
+       360000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194170968": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 369088.0,
+     "area": 155.0,
+     "lat": -12.12072,
+     "lng": -76.99109,
+     "mon": "USD",
+     "monto": 369088.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Exclusivo Duplex en Edificio Boutique a pasos de Caminos del Inca",
+     "u": "https://www.infocasas.com.pe/exclusivo-duplex-en-edificio-boutique-a-pasos-de-caminos-del-inca/194170968",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       369088.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194223567": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 500000.0,
+     "area": 282.0,
+     "lat": -12.09014,
+     "lng": -76.96915,
+     "mon": "USD",
+     "monto": 500000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Duplex en Surco, amplia terraza 3 salas, edificio pequeño impecable cerca a Jock",
+     "u": "https://www.infocasas.com.pe/duplex-en-surco-amplia-terraza-3-salas-edificio-pequeño-impecable-cerca-a-jockey-plaza/194223567",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       500000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194209285": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 205160.0,
+     "area": 89.0,
+     "lat": -12.08889,
+     "lng": -76.96701,
+     "mon": "USD",
+     "monto": 205160.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Venta de Departamento en Santiago de Surco",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-santiago-de-surco/194209285",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       205160.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194270607": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 185074.0,
+     "area": 80.0,
+     "lat": -12.13091,
+     "lng": -76.99783,
+     "mon": "USD",
+     "monto": 185074.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento de 3 dormitorios ubicado en Surco cerca a parques y limite con Mira",
+     "u": "https://www.infocasas.com.pe/departamento-de-3-dormitorios-ubicado-en-surco-cerca-a-parques-y-limite-con-miraflores/194270607",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       185074.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194194313": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 272747.0,
+     "area": 104.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 920710.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194194313",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       272747.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194188299": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 185728.0,
+     "area": 93.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 626959.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194188299",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       185728.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194221128": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 117902.0,
+     "area": 43.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 398000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194221128",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       117902.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194211040": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 124123.0,
+     "area": 40.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 419000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194211040",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       124123.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194197025": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 624800.0,
+     "area": 275.0,
+     "lat": -12.1122,
+     "lng": -76.98997,
+     "mon": "USD",
+     "monto": 624800.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DEPARTAMENTO EN SURCO - DPT 802, 803 (609-755-35)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-surco-dpt-802-803-60975535/194197025",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       624800.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194249808": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 128000.0,
+     "area": 77.0,
+     "lat": -12.1446,
+     "lng": -77.01843,
+     "mon": "USD",
+     "monto": 128000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DEPA FRENTE PARQUE EN SURCO - DPT 502 (609-1162-1)",
+     "u": "https://www.infocasas.com.pe/venta-depa-frente-parque-en-surco-dpt-502-60911621/194249808",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       128000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194270585": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 282663.0,
+     "area": 98.0,
+     "lat": -12.10186,
+     "lng": -76.97446,
+     "mon": "USD",
+     "monto": 282663.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "Exclusivo departamento ubicado en Surco a minutos del Hipódromo de Monterrico",
+     "u": "https://www.infocasas.com.pe/exclusivo-departamento-ubicado-en-surco-a-minutos-del-hipodromo-de-monterrico/194270585",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       282663.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194170969": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 220559.0,
+     "area": 88.0,
+     "lat": -12.12072,
+     "lng": -76.99109,
+     "mon": "USD",
+     "monto": 220559.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento de 3 dorm en Edificio Boutique a pasos de Caminos del Inca",
+     "u": "https://www.infocasas.com.pe/departamento-de-3-dorm-en-edificio-boutique-a-pasos-de-caminos-del-inca/194170969",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       220559.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194187767": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 214820.0,
+     "area": 101.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 725166.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194187767",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       214820.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194221470": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 168854.0,
+     "area": 49.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 570000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194221470",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       168854.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194193296": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 193586.0,
+     "area": 97.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 653487.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194193296",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       193586.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194219733": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 198774.0,
+     "area": 66.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 671000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194219733",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       198774.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194211139": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 237581.0,
+     "area": 106.0,
+     "lat": -12.09617,
+     "lng": -76.97232,
+     "mon": "PEN",
+     "monto": 802000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194211139",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       237581.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194256166": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 240000.0,
+     "area": 127.0,
+     "lat": -12.11517,
+     "lng": -76.9756,
+     "mon": "USD",
+     "monto": 240000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento con vista a parque en Valle Hermoso - Surco 127m2",
+     "u": "https://www.infocasas.com.pe/departamento-con-vista-a-parque-en-valle-hermoso-surco-127m2/194256166",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       240000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194270592": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 225373.0,
+     "area": 83.0,
+     "lat": -12.13091,
+     "lng": -76.99783,
+     "mon": "USD",
+     "monto": 225373.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento DÚPLEX de 3 dormitorios ubicado en Surco cerca a parques y limite c",
+     "u": "https://www.infocasas.com.pe/departamento-duplex-de-3-dormitorios-ubicado-en-surco-cerca-a-parques-y-limite-con-miraflores/194270592",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       225373.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194193658": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 269021.0,
+     "area": 106.0,
+     "lat": -12.09323,
+     "lng": -76.96845,
+     "mon": "PEN",
+     "monto": 908133.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Departamento En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194193658",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       269021.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194239099": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 138000.0,
+     "area": 76.0,
+     "lat": -12.1442,
+     "lng": -77.01005,
+     "mon": "USD",
+     "monto": 138000.0,
+     "mant": 68.13,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Dpto 76m² Surco (Piso 9) - Balcón, Cochera Segura y Áreas Comunes Completas",
+     "u": "https://www.infocasas.com.pe/dpto-76m²-surco-piso-9-balcon-cochera-segura-y-areas-comunes-completas/194239099",
+     "flags": [
+      "traspaso"
+     ],
+     "p": [
+      [
+       20715,
+       138000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194270617": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1184.0,
+     "area": 195.0,
+     "lat": -12.1158,
+     "lng": -76.99127,
+     "mon": "PEN",
+     "monto": 4000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DE DUPLEX A 3 CUADRAS DEL CENTRO COMERCIAL DE CHACARILLA",
+     "u": "https://www.infocasas.com.pe/venta-de-duplex-a-3-cuadras-del-centro-comercial-de-chacarilla/194270617",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       1184.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194234813": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 900.0,
+     "area": 60.0,
+     "lat": -12.10625,
+     "lng": -76.96684,
+     "mon": "USD",
+     "monto": 900.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "Mono",
+     "zona": "Santiago De Surco",
+     "titulo": "DEPARTAMENTO EN ALQUILER EN PRIMAVERA DE 2 DORM - 1 COCHERA - AREAS COMUNES",
+     "u": "https://www.infocasas.com.pe/departamento-en-alquiler-en-primavera-de-2-dorm-1-cochera-areas-comunes/194234813",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       900.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194223021": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 400.0,
+     "area": 35.0,
+     "lat": -12.13499,
+     "lng": -77.00688,
+     "mon": "PEN",
+     "monto": 1350.0,
+     "mant": 29.6,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Santiago De Surco",
+     "titulo": "Alquiler de Mini Departamento a la altura de la cdra 10 de Ramon Castilla",
+     "u": "https://www.infocasas.com.pe/alquiler-de-mini-departamento-a-la-altura-de-la-cdra-10-de-ramon-castilla/194223021",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       400.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194223556": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 3500.0,
+     "area": 306.0,
+     "lat": -12.11941,
+     "lng": -76.98584,
+     "mon": "USD",
+     "monto": 3500.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "ALQUILER DE DUPLEX EN CHACARILLA",
+     "u": "https://www.infocasas.com.pe/alquiler-de-duplex-en-chacarilla/194223556",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       3500.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194230177": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 622.0,
+     "area": 74.0,
+     "lat": -12.14412,
+     "lng": -77.01249,
+     "mon": "PEN",
+     "monto": 2100.0,
+     "mant": 53.28,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "ALQUILA DPTO. DE ESTRENO CON 03 DORMITORIOS EN SURCO",
+     "u": "https://www.infocasas.com.pe/alquila-dpto-de-estreno-con-03-dormitorios-en-surco/194230177",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       622.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194270618": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 1175.0,
+     "area": 195.0,
+     "lat": -12.1158,
+     "lng": -76.99127,
+     "mon": "USD",
+     "monto": 1175.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA DE DUPLEX A 3 CUADRAS DEL CENTRO COMERCIAL DE CHACARILLA",
+     "u": "https://www.infocasas.com.pe/venta-de-duplex-a-3-cuadras-del-centro-comercial-de-chacarilla/194270618",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       1175.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194212839": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 533.0,
+     "area": 80.0,
+     "lat": -12.16034,
+     "lng": -76.98729,
+     "mon": "PEN",
+     "monto": 1800.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "TV/ Depa en Estreno, Piso 3, 3 Dorm + 2 Baños. A 4 Cdras. de Tottus de Próceres",
+     "u": "https://www.infocasas.com.pe/tv-depa-en-estreno-piso-3-3-dorm-2-baños-a-4-cdras-de-tottus-de-proceres/194212839",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       533.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194226960": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 770.0,
+     "area": 112.0,
+     "lat": -12.09718,
+     "lng": -77.03258,
+     "mon": "PEN",
+     "monto": 2600.0,
+     "mant": 74.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "ALQUILA DPTO. SIN AMOBLAR, AMPLIO DE 112M²  EN 2DO PISO SURCO – INCLUYE COCHERA",
+     "u": "https://www.infocasas.com.pe/alquila-dpto-sin-amoblar-amplio-de-112m²-en-2do-piso-surco-–-incluye-cochera/194226960",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       770.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194279137": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 3500.0,
+     "area": 411.0,
+     "lat": -12.08145,
+     "lng": -76.96675,
+     "mon": "USD",
+     "monto": 3500.0,
+     "mant": 473.6,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Santiago De Surco",
+     "titulo": "TV/ Lujoso Depa de 411m², vista hacia Los Cerros de Camacho, 4 Dorm + 3 Cocheras",
+     "u": "https://www.infocasas.com.pe/tv-lujoso-depa-de-411m²-vista-hacia-los-cerros-de-camacho-4-dorm-3-cocheras/194279137",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       3500.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194223003": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 563.0,
+     "area": 60.0,
+     "lat": -12.13525,
+     "lng": -77.00655,
+     "mon": "PEN",
+     "monto": 1900.0,
+     "mant": 74.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "ALQUILER DE DEPARTAMENTO PARA VIVIENDA U OFICINA",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-para-vivienda-u-oficina/194223003",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       563.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194249809": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 888.0,
+     "area": 102.0,
+     "lat": -12.14141,
+     "lng": -76.99383,
+     "mon": "PEN",
+     "monto": 3000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "ALQUILER DE HERMOSO DEPARTAMENTO EN SURCO",
+     "u": "https://www.infocasas.com.pe/alquiler-de-hermoso-departamento-en-surco/194249809",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       888.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194241757": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 711.0,
+     "area": 95.0,
+     "lat": -12.14687,
+     "lng": -76.98442,
+     "mon": "PEN",
+     "monto": 2400.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "Dep. Reformado 1ª Planta + Parking + 2 Dorm. + Estudio + Cocina + Patio",
+     "u": "https://www.infocasas.com.pe/dep-reformado-1ª-planta-parking-2-dorm-estudio-cocina-patio/194241757",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       711.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194204195": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 625000.0,
+     "area": 300.0,
+     "lat": -12.13336,
+     "lng": -77.01434,
+     "mon": "USD",
+     "monto": 625000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Santiago De Surco",
+     "titulo": "Venta de Casa en Santiago de Surco, Lima, Lima",
+     "u": "https://www.infocasas.com.pe/venta-de-casa-en-santiago-de-surco-lima-lima-/194204195",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       625000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194213166": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 215000.0,
+     "area": 126.0,
+     "lat": -12.15863,
+     "lng": -76.98669,
+     "mon": "USD",
+     "monto": 215000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Santiago De Surco",
+     "titulo": "¡Tu Nuevo Hogar en Surco! Casa de 3 Pisos con Terraza y Zona de Parrilla",
+     "u": "https://www.infocasas.com.pe/¡tu-nuevo-hogar-en-surco-casa-de-3-pisos-con-terraza-y-zona-de-parrilla/194213166",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       215000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194216391": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 4300000.0,
+     "area": 920.0,
+     "lat": -12.1152,
+     "lng": -76.96483,
+     "mon": "USD",
+     "monto": 4300000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Santiago De Surco",
+     "titulo": "Venta Majestuosa Mansión en Casuarinas: Confort de Clase Mundial y Piscina Priva",
+     "u": "https://www.infocasas.com.pe/venta-majestuosa-mansion-en-casuarinas-confort-de-clase-mundial-y-piscina-privada/194216391",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       4300000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194147970": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 269000.0,
+     "area": 170.0,
+     "lat": -12.1616,
+     "lng": -76.9926,
+     "mon": "USD",
+     "monto": 269000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Santiago De Surco",
+     "titulo": "VENTA CASA REMODELADA URB SANTA MARÍA SURCO ALT CDRA 9 AV PROCERES",
+     "u": "https://www.infocasas.com.pe/venta-casa-remodelada-urb-santa-maria-surco-alt-cdra-9-av-proceres/194147970",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       269000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194179590": {
+     "op": "venta",
+     "tipo": "casas",
+     "usd": 4500000.0,
+     "area": 1000.0,
+     "lat": -12.11519,
+     "lng": -76.96484,
+     "mon": "USD",
+     "monto": 4500000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Santiago De Surco",
+     "titulo": "Venta  | Residencia De Lujo Y Exclusividad En Casuarinas",
+     "u": "https://www.infocasas.com.pe/venta-residencia-de-lujo-y-exclusividad-en-casuarinas-/194179590",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       4500000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "santiago-de-surco"
+    },
+    "194160700": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 110746.0,
+     "area": 40.0,
+     "lat": -12.10224,
+     "lng": -77.02113,
+     "mon": "USD",
+     "monto": 110746.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "Mono",
+     "zona": "Surquillo",
+     "titulo": "Departamento de 1 dormitorio - cerca a parque Bustamante",
+     "u": "https://www.infocasas.com.pe/departamento-de-1-dormitorio-cerca-a-parque-bustamante/194160700",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       110746.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "surquillo"
+    },
+    "194176345": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 127897.0,
+     "area": 55.0,
+     "lat": -12.11883,
+     "lng": -77.01666,
+     "mon": "USD",
+     "monto": 127897.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Surquillo",
+     "titulo": "Exclusivo departamento de 2 dorm ubicado en Surquillo en Barrio Médico",
+     "u": "https://www.infocasas.com.pe/exclusivo-departamento-de-2-dorm-ubicado-en-surquillo-en-barrio-medico/194176345",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       127897.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "surquillo"
+    },
+    "194176357": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 81381.0,
+     "area": 34.0,
+     "lat": -12.08542,
+     "lng": -77.03405,
+     "mon": "USD",
+     "monto": 81381.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Surquillo",
+     "titulo": "Exclusivo departamento ubicado en Surquillo de 1 dorm a 1 cuadra de Av Villaran ",
+     "u": "https://www.infocasas.com.pe/exclusivo-departamento-ubicado-en-surquillo-de-1-dorm-a-1-cuadra-de-av-villaran-y-ovalo-higuereta/194176357",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       81381.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "surquillo"
+    },
+    "194172878": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 152477.0,
+     "area": 68.0,
+     "lat": -12.1041,
+     "lng": -77.01848,
+     "mon": "USD",
+     "monto": 152477.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Surquillo",
+     "titulo": "VENTA DE DEPARTAMENTO EN SURQUILLO - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-surquillo-entrega-inmediata/194172878",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       152477.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "surquillo"
+    },
+    "194160705": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 141441.0,
+     "area": 57.0,
+     "lat": -12.1233,
+     "lng": -77.00459,
+     "mon": "USD",
+     "monto": 141441.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Surquillo",
+     "titulo": "Exclusivo departamento ubicado en Surquillo de 2 dorm a 1 cuadra de Av Villaran ",
+     "u": "https://www.infocasas.com.pe/exclusivo-departamento-ubicado-en-surquillo-de-2-dorm-a-1-cuadra-de-av-villaran-y-ovalo-higuereta/194160705",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       141441.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "surquillo"
+    },
+    "194176347": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 164864.0,
+     "area": 70.0,
+     "lat": -12.1233,
+     "lng": -77.00459,
+     "mon": "USD",
+     "monto": 164864.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Surquillo",
+     "titulo": "Exclusivo departamento ubicado en Surquillo de 3 dorm a 1 cuadra de Av Villaran ",
+     "u": "https://www.infocasas.com.pe/exclusivo-departamento-ubicado-en-surquillo-de-3-dorm-a-1-cuadra-de-av-villaran-y-ovalo-higuereta/194176347",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       164864.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "surquillo"
+    },
+    "194176361": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 136117.0,
+     "area": 58.0,
+     "lat": -12.11661,
+     "lng": -77.00239,
+     "mon": "USD",
+     "monto": 136117.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Surquillo",
+     "titulo": "Departamento de estreno con balcón de 2 dormitorios en Surquillo – 59 m²",
+     "u": "https://www.infocasas.com.pe/departamento-de-estreno-con-balcon-de-2-dormitorios-en-surquillo-–-59-m²/194176361",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       136117.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "surquillo"
+    },
+    "194176358": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 140900.0,
+     "area": 65.0,
+     "lat": -12.11883,
+     "lng": -77.01666,
+     "mon": "USD",
+     "monto": 140900.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Surquillo",
+     "titulo": "Exclusivo departamento de 3 dorm ubicado en Surquillo en Barrio Médico",
+     "u": "https://www.infocasas.com.pe/exclusivo-departamento-de-3-dorm-ubicado-en-surquillo-en-barrio-medico/194176358",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       140900.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "surquillo"
+    },
+    "194176360": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 278008.0,
+     "area": 121.0,
+     "lat": -12.11661,
+     "lng": -77.00239,
+     "mon": "USD",
+     "monto": 278008.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Surquillo",
+     "titulo": "Dúplex de estreno con terraza y Piscina en Surquillo – 121 m²",
+     "u": "https://www.infocasas.com.pe/duplex-de-estreno-con-terraza-y-piscina-en-surquillo-–-121-m²/194176360",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       278008.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "surquillo"
+    },
+    "194167295": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 145000.0,
+     "area": 92.0,
+     "lat": -12.12639,
+     "lng": -77.01756,
+     "mon": "USD",
+     "monto": 145000.0,
+     "mant": 103.62,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Surquillo",
+     "titulo": "BARRIO MEDICO / SERGIO BERNALES /SURQUILLO/ 3 DORM/ COCHERA Y DEPOSITO",
+     "u": "https://www.infocasas.com.pe/barrio-medico-sergio-bernales-surquillo-3-dorm-cochera-y-deposito/194167295",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       145000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "surquillo"
+    },
+    "194232100": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 131146.0,
+     "area": 52.0,
+     "lat": -12.1041,
+     "lng": -77.01848,
+     "mon": "USD",
+     "monto": 131146.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Surquillo",
+     "titulo": "VENTA DE DEPARTAMENTO EN SURQUILLO - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-surquillo-entrega-inmediata/194232100",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       131146.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "surquillo"
+    },
+    "194176350": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 97447.0,
+     "area": 39.0,
+     "lat": -12.11883,
+     "lng": -77.01666,
+     "mon": "USD",
+     "monto": 97447.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Surquillo",
+     "titulo": "Exclusivo departamento de 1 dorm ubicado en Surquillo en Barrio Médico",
+     "u": "https://www.infocasas.com.pe/exclusivo-departamento-de-1-dorm-ubicado-en-surquillo-en-barrio-medico/194176350",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       97447.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "surquillo"
+    },
+    "194165527": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 222409.0,
+     "area": 100.0,
+     "lat": -12.1125,
+     "lng": -77.00104,
+     "mon": "PEN",
+     "monto": 751228.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Surquillo",
+     "titulo": "VENTA DUPLEX SURQUILLO - DPTO 803 (609-764-28)",
+     "u": "https://www.infocasas.com.pe/venta-duplex-surquillo-dpto-803-60976428/194165527",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       222409.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "surquillo"
+    },
+    "194269506": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 829.0,
+     "area": 59.0,
+     "lat": -12.11843,
+     "lng": -77.0157,
+     "mon": "PEN",
+     "monto": 2800.0,
+     "mant": 59.21,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Surquillo",
+     "titulo": "DEPARTAMETO BARRIO MEDICO 2 DORM. AMOBLADO",
+     "u": "https://www.infocasas.com.pe/departameto-barrio-medico-2-dorm-amoblado/194269506",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       829.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "surquillo"
+    },
+    "194167465": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "usd": 488.0,
+     "area": 45.0,
+     "lat": -12.11522,
+     "lng": -77.0029,
+     "mon": "PEN",
+     "monto": 1650.0,
+     "mant": 74.02,
+     "anio": "",
+     "dorm": "Mono",
+     "zona": "Surquillo",
+     "titulo": "CALLE FISHER/ LA CALERA/ 1 DORM/ 2DO PISO/ASCENSOR/",
+     "u": "https://www.infocasas.com.pe/calle-fisher-la-calera-1-dorm-2do-pisoascensor-/194167465",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       488.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "surquillo"
+    },
+    "194149312": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "usd": 89000.0,
+     "area": 114.0,
+     "lat": -12.20841,
+     "lng": -76.94833,
+     "mon": "USD",
+     "monto": 89000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Villa El Salvador",
+     "titulo": "Departamento En Venta En Villa El Salvador",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-villa-el-salvador/194149312",
+     "flags": [],
+     "p": [
+      [
+       20715,
+       89000.0
+      ]
+     ],
+     "f": 20715,
+     "r": 20715,
+     "dist": "villa-el-salvador"
     }
    },
-   "tc": 3.3776765070535806,
-   "turno": 113
+   "tc": 3.3775633293124248,
+   "turno": 168,
+   "pagina": 1
   }
  }
 }
