@@ -80,6 +80,7 @@ def scan_vtex(state, now, http_factory=HttpClient, sources=None):
                 raise ValueError('robots.txt no permite consultar el catálogo')
             found, count = parse_products(client.get(base + PATH), source, domain)
             for deal in found:
+                deal.check_url = base + PATH
                 # Un marketplace compartido no genera avisos repetidos por tienda.
                 if deal.key not in deals:
                     state.observe(deal, now)

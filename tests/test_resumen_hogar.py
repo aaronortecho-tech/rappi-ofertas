@@ -17,7 +17,17 @@ class Phone:
 
 
 def run(path, when, deals, phone):
-    return run_group('hogar', now=when, scanner=lambda s, n: (list(deals), []), notifier=phone, state_path=path)
+    # Estas pruebas aíslan el programador; la revalidación real se prueba en test_home_validation.
+    return run_group('hogar', now=when, scanner=lambda s, n: (list(deals), []), notifier=phone, state_path=path,
+                     validator=lambda selected, *args: (selected, {}))
+
+
+def seed_history(path, deals):
+    state = CatalogState.load(path)
+    day = int(NOW // 86400)
+    for deal in deals:
+        state.history[deal.history_key] = [[day - d, 200.] for d in (3, 2, 1)]
+    state.save(path, NOW - 60)
 
 
 def test_summary_every_three_hours_urgent_now_and_nothing_lost(tmp_path, monkeypatch):
@@ -27,6 +37,7 @@ def test_summary_every_three_hours_urgent_now_and_nothing_lost(tmp_path, monkeyp
     run(path, NOW, [item(1)], phone)                       # primer resumen: sale de inmediato
     assert sum('Producto 1' in m for m in phone.messages) == 1
     phone.messages.clear()
+    seed_history(path, [item(3, pct=85)])
     run(path, NOW + 1800, [item(1), item(2), item(3, pct=85)], phone)
     text = '\n'.join(phone.messages)
     assert 'Producto 3' in text and 'Producto 2' not in text and 'Producto 1' not in text   # solo la urgente
@@ -60,6 +71,7 @@ def test_same_product_turning_urgent_keeps_only_the_latest_price(tmp_path, monke
     run(path, NOW, [item(9)], phone)                         # primer resumen (vacía la cola inicial)
     phone.messages.clear()
     run(path, NOW + 1800, [item(1, pct=65, price=100.0)], phone)
+    seed_history(path, [item(1)])
     run(path, NOW + 3600, [item(1, pct=85, price=60.0)], phone)   # pasa a urgente: sale al momento
     run(path, NOW + 4 * 3600, [], phone)                     # resumen siguiente: el precio viejo no sale
     text = '\n'.join(phone.messages)
@@ -70,6 +82,7 @@ def test_urgent_overflow_is_kept_and_sent_next_round(tmp_path, monkeypatch):
     monkeypatch.setenv('NTFY_TOPIC_HOGAR', 'tema-de-prueba')
     path = str(tmp_path / 'hogar.json')
     phone = Phone()
+    seed_history(path, [item(n, pct=85) for n in range(30)])
     run(path, NOW, [item(n, pct=85) for n in range(30)], phone)
     assert sum(m.count('🛒') for m in phone.messages) == 24
     phone.messages.clear()
@@ -101,7 +114,8 @@ def test_quality_filter_and_ranking():
     # Descuento permanente: el mismo precio siete días seguidos.
     fixed = item(1, pct=70, price=100.0)
     state.history[fixed.history_key] = [[day - d, 100.0] for d in range(7, 0, -1)]
-    assert quality(state, fixed, NOW)[2] == 'descuento permanente'
+    assert quality(state, fixed, NOW)[2] is None
+    assert 'Precio estable' in quality(state, fixed, NOW)[1]
     # Con menos de siete días todavía no se concluye nada.
     state.history[fixed.history_key] = [[day - d, 100.0] for d in range(3, 0, -1)]
     assert quality(state, fixed, NOW)[2] is None
@@ -110,9 +124,9 @@ def test_quality_filter_and_ranking():
     assert quality(state, cushion, NOW)[2] == 'ahorro bajo'
     # Nuevo mínimo: bajó frente a lo observado antes; sube en el orden y lo dice.
     low = item(2, pct=60, price=150.0)
-    state.history[low.history_key] = [[day - 2, 200.0], [day - 1, 190.0]]
+    state.history[low.history_key] = [[day - 3, 210.0], [day - 2, 200.0], [day - 1, 190.0]]
     rank_low, note, reason = quality(state, low, NOW)
-    assert reason is None and 'Precio más bajo visto en 2 días (antes S/ 190.00)' in note
+    assert reason is None and 'Bajada respaldada por 3 días: mínimo previo S/ 190.00' in note
     # A igual porcentaje, manda el ahorro en soles.
     sofa = Deal('Falabella', 's', 'Sofá', 'https://x/s', 60, 800.0, 2000.0, 'T', 'Precio web; confirmar stock y envío', 'Muebles')
     lamp = Deal('Falabella', 'l', 'Lámpara', 'https://x/l', 62, 20.0, 60.0, 'T', 'Precio web; confirmar stock y envío', 'Hogar')
@@ -122,13 +136,14 @@ def test_quality_filter_and_ranking():
     assert stats['ahorro bajo'] == 1 and len(state.datos['cola_hogar']) == 4
 
 
-def test_permanent_discount_leaves_the_queue_and_is_never_urgent(tmp_path, monkeypatch):
+def test_stable_price_remains_for_digest_but_is_not_urgent(tmp_path, monkeypatch):
     monkeypatch.setenv('NTFY_TOPIC_HOGAR', 'tema-de-prueba')
     path = str(tmp_path / 'hogar.json')
     state = CatalogState()
     deal = item(5, pct=85, price=100.0)
     day = int(NOW // 86400)
     state.history[deal.history_key] = [[day - d, 100.0] for d in range(7, 0, -1)]
+    state.datos['ultimo_resumen_hogar'] = NOW
     state.save(path, NOW - 60)
     phone = Phone()
     run(path, NOW, [deal], phone)
@@ -152,6 +167,8 @@ def test_queue_keeps_only_the_best_300_and_never_drops_urgent(monkeypatch):
     state.datos['ultimo_resumen_hogar'] = NOW
     deals = [item(n, pct=60, price=100.0 - n) for n in range(8)] + [item(99, pct=85, price=100.0)]
     deals.append(Deal('Falabella', 'big', 'Televisor', 'https://x/tv', 60, 1000.0, 2500.0, 'T', 'Precio web; confirmar stock y envío', 'Tecnología'))
+    day = int(NOW // 86400)
+    state.history[item(99).history_key] = [[day-d, 200.] for d in (3,2,1)]
     _, _, stats = hold_home(state, deals, NOW + 60)
     names = {v['oferta']['name'] for v in state.datos['cola_hogar'].values()}
     # Cinco no urgentes (las mejores por puntaje) más la urgente, que queda fuera del límite.
@@ -163,6 +180,8 @@ def test_more_urgent_than_the_cap_are_all_kept(monkeypatch):
     from monitor.catalogs import hold_home
     monkeypatch.setattr(catalogs, 'QUEUE_MAX', 5)
     state = CatalogState()
+    day = int(NOW // 86400)
+    for n in range(8): state.history[item(n).history_key] = [[day-d, 200.] for d in (3,2,1)]
     due, _, stats = hold_home(state, [item(n, pct=85) for n in range(8)], NOW)
     assert len(due) == 8 and stats['recortadas'] == 0
 

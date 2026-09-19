@@ -167,3 +167,9 @@ Lee FUENTES.md antes de ampliar. Su listado de candidatos no equivale a fuentes 
 - Calidad en hogar (`quality` en `catalogs.py`): puntaje = porcentaje + 12·log10(ahorro en S/) + 25 si es un nuevo mínimo frente al historial propio. Se descarta ahorro < `AHORRO_MINIMO_HOGAR` (20) y, con 7 días de historial al mismo precio (±2 %), el «descuento permanente». `Deal.rank` no entra en la clave.
 
 - Deduplicación de hogar: `home_notice_key` se guarda en `State.seen` solo tras envío exitoso (7 días), además de las claves originales. `home_is_new` se usa en entrega y limpieza de cola. Un SKU compartido o un título completo con código de modelo permite unir vendedores; moneda, precio, categoría y condiciones deben coincidir. Nunca fusionar CMR con precio libre ni nombres genéricos con SKU distintos.
+
+## Selección y vigencia de hogar (actualización vigente)
+
+Esta sección reemplaza las reglas anteriores de urgencia por porcentaje y descarte automático por precio estable. Umbral publicado >=60%; >=80% solo es urgente con mínimo tres días previos comparables y caída >3% contra el mínimo de 30 días. `quality` etiqueta evidencia histórica, pesa más que la referencia tachada y baja prioridad de precios estables sin declararlos falsos. `balanced` reparte cupos por categoría antes de recortar 300 no urgentes.
+
+`monitor/home_validation.py` confirma hasta 24 candidatas: observación de la ronda o relectura del catálogo de `Deal.check_url` (campo fuera de claves). Máximo 8 páginas/16 solicitudes extra, incluidas robots/reintentos; ninguna consulta tras bloqueo de la fuente. Cambios de precio se guardan para reevaluar, ausencia/error conserva pendiente sin avisar. No introducir consultas a producto o APIs nuevas sin validar fuentes. Las entradas viejas sin check_url esperan ser observadas otra vez. Métricas por ronda y totales diarios 28 días, sin confundir observaciones con productos únicos diarios.

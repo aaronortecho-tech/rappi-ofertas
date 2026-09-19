@@ -548,3 +548,10 @@ Cómo se usa: 172 búsquedas (43 distritos de Lima Metropolitana, sin el Callao 
 Nota honesta: como el alquiler se estima con la mediana por m² de la zona, la comparación de rentabilidades equivale en buena parte a comparar precio por m², corregido por el mantenimiento. Lo que agrega es la cifra de rentabilidad bruta, útil para decidir. Solo mejoraría con el alquiler real de ese mismo inmueble, que no existe.
 
 Sin el secreto del tema, `autos` e `inmuebles` igual corren y guardan memoria (las primeras semanas solo juntan comparables), pero no envían nada ni marcan error. Pendiente: remates judiciales (REMAJU/SUNAT), Pichincha y GNB, e Infocasas (zona gris).
+
+
+## Mejora de eficacia de hogar — 18/09/2026
+
+Se mantienen las fuentes y umbrales existentes. Antes de avisar se confirma una observación de la misma ronda o se relee la misma página pública de catálogo (no se incorporan endpoints nuevos). Se conserva URL de origen fuera de claves y se valida contra las fuentes conocidas. Relectura acotada a 8 páginas/16 solicitudes por ronda; bloqueos paran la fuente. Un producto ausente de una página no se declara agotado: queda sin confirmar. La disponibilidad final depende de la tienda y dirección del comprador.
+
+El precio tachado aporta una señal secundaria; al menos tres días previos y una bajada >3% contra su mínimo de 30 días dan confianza histórica. No confundir esa bajada adicional con los umbrales publicados 60%/80%. La estabilidad siete días solo baja prioridad. Selección y recorte alternan categorías, métricas persistidas permiten medir descartes, vigencia, cola y entrega durante 28 días. El historial empieza parcial y no equivale a seguimiento de todo el mercado.

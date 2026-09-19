@@ -69,6 +69,8 @@ class Deal:
     currency: str = "PEN"
     reference_kind: str = "published"
     note: str = ""          # solo se muestra; no entra en la clave (p. ej. «visto hace 5 h»)
+    check_url: str = ""     # catálogo público donde se observó; no entra en claves
+    confidence: str = "published"
     rank: float = 0.0       # orden dentro del resumen de hogar; tampoco entra en la clave
 
     @property
@@ -197,6 +199,7 @@ def scan_retail(state, now, http_factory=HttpClient, sources=None):
             query = {"f.range.derived.variant.discount": "60% dcto y más"}
             html = client.get(base + "?" + urlencode(query))
             products, count, pagination = retail_products(html, source, category)
+            for deal in products: deal.check_url = base + "?" + urlencode(query)
             checked += count
             pages = max(1, math.ceil(pagination.get("count", 0) / max(1, pagination.get("perPage", 48))))
             page = state.cursors.get(cursor_key, 2)
@@ -204,6 +207,7 @@ def scan_retail(state, now, http_factory=HttpClient, sources=None):
             if pages >= 2:
                 query["page"] = page
                 more, count, _ = retail_products(client.get(base + "?" + urlencode(query)), source, category)
+                for deal in more: deal.check_url = base + "?" + urlencode(query)
                 products += more; checked += count
                 state.cursors[cursor_key] = page + 1 if page < pages else 2
             for deal in products:
@@ -368,12 +372,12 @@ def deal_text(deal):
     return "\n".join(lines)
 
 
-URGENT_HOME_PCT = 80      # estas no esperan al resumen: son las que más rápido se agotan
+URGENT_HOME_PCT = 80      # inmediato solo con bajada respaldada y precio confirmado
 QUEUE_HOURS = 24          # una oferta que no se vuelve a ver en un día sale de la cola
 QUEUE_MAX = 300           # unos 190 avisos caben al día (8 resúmenes de 24): el resto nunca saldría
 
 
-PERMANENT_DAYS = 7        # días con el mismo precio para concluir que el «antes» es decorativo
+PERMANENT_DAYS = 7        # estabilidad observada: baja prioridad, no prueba de precio ficticio
 
 
 def min_savings():
@@ -382,23 +386,50 @@ def min_savings():
 
 
 def quality(state, deal, now):
-    """Qué tan real es la oferta, con el historial de precios que el propio monitor guarda.
-
-    Devuelve (puntaje, nota, motivo_de_descarte). El precio tachado lo pone el vendedor; lo que
-    sí se puede comprobar es si el precio bajó frente a lo observado y cuánto se ahorra en soles."""
+    """Prioriza evidencia propia; el precio tachado aporta solo una señal secundaria."""
     today = int(now // 86400)
-    before = {d: p for d, p in state.history.get(deal.history_key, []) if d < today}
+    before = {d: p for d, p in state.history.get(deal.history_key, []) if today - 30 <= d < today}
     savings = (deal.regular or 0) - (deal.price or 0)
+    deal.confidence = 'published'
     if deal.price is None or savings < min_savings(): return 0, '', 'ahorro bajo'
-    rank = deal.pct + 12 * math.log10(max(savings, 1))
-    if len(before) >= PERMANENT_DAYS and all(abs(p - deal.price) <= deal.price * 0.02 for p in before.values()):
-        # Mismo precio una semana entera: el descuento es permanente, el «antes» no es real.
-        return rank, '', 'descuento permanente'
-    note = ''
-    if before and deal.price < min(before.values()) * 0.97:
-        rank += 25
-        note = f'📉 Precio más bajo visto en {len(before)} días (antes S/ {min(before.values()):,.2f})'
+    rank = min(deal.pct, 90) * 0.25 + min(3 * math.log1p(max(savings, 0)), 20)
+    note = 'Descuento publicado · historial insuficiente'
+    if len(before) >= 3:
+        note = 'Descuento publicado · sin nueva bajada observada'
+        if deal.price < min(before.values()) * 0.97:
+            deal.confidence = 'historical'
+            rank += 100 + min(50, (1 - deal.price / min(before.values())) * 100)
+            note = f'📉 Bajada respaldada por {len(before)} días: mínimo previo S/ {min(before.values()):,.2f}'
+        elif len(before) >= PERMANENT_DAYS and all(abs(p-deal.price) <= deal.price*0.02 for p in before.values()):
+            rank -= 15
+            note = 'Precio estable en el historial: descuento publicado, sin nueva bajada'
     return rank, note, None
+
+
+def home_urgent(deal):
+    return deal.pct >= URGENT_HOME_PCT and deal.confidence == 'historical'
+
+
+def balanced(deals):
+    """Alterna categorías, con mejores puntajes primero dentro de cada una."""
+    buckets = {}
+    for deal in sorted(deals, key=lambda d: (-d.rank, -d.pct, d.source, d.name)):
+        buckets.setdefault(deal.category, []).append(deal)
+    ordered = []
+    while any(buckets.values()):
+        for category in sorted(buckets):
+            if buckets[category]: ordered.append(buckets[category].pop(0))
+    return ordered
+
+
+def home_order(deals):
+    unique = {}
+    for deal in sorted(deals, key=lambda d: (-d.rank, -d.pct, d.source, d.name)):
+        unique.setdefault(home_notice_key(deal), deal)
+    urgent = balanced([d for d in unique.values() if home_urgent(d)])
+    rest = balanced([d for d in unique.values() if not home_urgent(d)])
+    room = 16 if rest else len(urgent)
+    return urgent[:room] + rest + urgent[room:]
 
 
 def summary_every():
@@ -433,14 +464,13 @@ def home_is_new(state, deal, now):
 def hold_home(state, deals, now):
     """Hogar se revisa cada 30 minutos pero avisa en un resumen cada HORAS_RESUMEN_HOGAR (3 h).
 
-    Todas las candidatas, urgentes incluidas, pasan por una cola guardada en la memoria con una
+    Las candidatas seleccionadas, urgentes incluidas, pasan por una cola guardada en la memoria con una
     sola entrada por producto (vendedor y condición): la última observación reemplaza a la
-    anterior, así nunca salen dos precios del mismo producto. Las de 80 % o más salen en cada
-    ronda y las demás cuando toca el resumen. Nada sale de la cola hasta que se envía, se
-    supera por otra observación o pasan 24 horas sin volver a verla.
+    anterior. Las de 80 % o más con bajada histórica salen en cada ronda, tras verificar vigencia.
+    Las demás esperan el resumen. Se retiran al enviar, superar, caducar o recortar por cupos.
     Devuelve (ofertas que tocan ahora, si incluye el resumen, métricas)."""
     queue = state.datos.setdefault('cola_hogar', {})
-    stats = {'entradas': 0, 'caducadas': 0, 'ahorro bajo': 0, 'descuento permanente': 0}
+    stats = {'entradas': 0, 'caducadas': 0, 'ahorro bajo': 0, 'historial_estable': 0}
     for deal in deals:
         key = deal.history_key
         if not home_is_new(state, deal, now):
@@ -450,6 +480,7 @@ def hold_home(state, deals, now):
         if reason:
             queue.pop(key, None); stats[reason] += 1
             continue
+        if deal.note.startswith('Precio estable'): stats['historial_estable'] += 1
         if key not in queue: stats['entradas'] += 1
         queue[key] = {'oferta': asdict(deal), 'visto': int(now)}
     for key, item in list(queue.items()):
@@ -458,53 +489,32 @@ def hold_home(state, deals, now):
             queue.pop(key); stats['caducadas'] += 1
         elif not home_is_new(state, deal, now) or quality(state, deal, now)[2]:
             queue.pop(key)
-    # Límite solo para las no urgentes: las de 80 % o más nunca se recortan (salen en cada ronda).
-    normal = sorted((k for k in queue if queue[k]['oferta']['pct'] < URGENT_HOME_PCT),
-                    key=lambda k: queue[k]['oferta'].get('rank', 0), reverse=True)
-    for key in normal[QUEUE_MAX:]: queue.pop(key)
+    # Renovar puntuación también para las observaciones guardadas.
+    for entry in queue.values():
+        deal = Deal(**entry['oferta'])
+        deal.rank, deal.note, _ = quality(state, deal, now)
+        entry['oferta'] = asdict(deal)
+    normal = balanced([Deal(**v['oferta']) for v in queue.values() if not home_urgent(Deal(**v['oferta']))])
+    for deal in normal[QUEUE_MAX:]: queue.pop(deal.history_key)
     stats['recortadas'] = max(0, len(normal) - QUEUE_MAX)
     digest = now - state.datos.get('ultimo_resumen_hogar', 0) >= summary_every()
     due = []
     for item in queue.values():
         deal = Deal(**item['oferta'])
-        if deal.pct < URGENT_HOME_PCT and not digest: continue
+        if not home_urgent(deal) and not digest: continue
         hours = (now - item['visto']) / 3600
         if hours >= 1: deal.note = '\n'.join(filter(None, [deal.note, f'Visto hace {hours:.0f} h: confirmar que siga vigente']))
         due.append(deal)
     oldest = max(((now - v['visto']) / 3600 for v in queue.values()), default=0)
     stats.update(pendientes=len(queue), mas_antigua_h=round(oldest, 1))
-    return due, digest and any(d.pct < URGENT_HOME_PCT for d in due), stats
+    return due, digest and any(not home_urgent(d) for d in due), stats
 
 
 def deliver(deals, state, notifier, now, group, dry_run=False):
     pending = [d for d in deals if state.is_new(d.key, now, 1440 if group in SLOW_GROUPS else 168)]
     if group == 'hogar': pending = [d for d in pending if home_is_new(state, d, now)]
     pending.sort(key=lambda d: (-d.pct, d.source, d.name))
-    if group == 'hogar':
-        pending.sort(key=lambda d: (-d.rank, -d.pct, d.source, d.name))
-        # El mismo producto al mismo precio publicado por dos vendedores o tiendas sale una sola vez.
-        # Misma referencia persistente, moneda y condiciones; nombres genéricos quedan separados.
-        unique, twins = [], {}
-        for deal in pending:
-            same = home_notice_key(deal)
-            if same in twins: twins[same].append(deal)
-            else: twins[same] = [deal]; unique.append(deal)
-        pending = unique
-        # Primero las de 80 % o más; el resto alterna las cuatro categorías para que decoración
-        # no desplace a muebles o tecnología.
-        def alternate(deals):
-            buckets, ordered = {}, []
-            for deal in deals: buckets.setdefault(deal.category, []).append(deal)
-            while any(buckets.values()):
-                for category in sorted(buckets):
-                    if buckets[category]: ordered.append(buckets[category].pop(0))
-            return ordered
-        urgent = alternate([d for d in pending if d.pct >= URGENT_HOME_PCT])
-        rest = alternate([d for d in pending if d.pct < URGENT_HOME_PCT])
-        # Las urgentes van primero pero ocupan como mucho 16 de los 24 cupos si hay otras
-        # pendientes: las que no caben siguen en la cola y salen en la ronda siguiente.
-        room = 16 if rest else len(urgent)
-        pending = urgent[:room] + rest + urgent[room:]
+    if group == 'hogar': pending = home_order(pending)
     sent, failed = 0, False
     # Máximo 8 mensajes: una oferta detallada por mensaje de viaje,
     # hasta 3 productos por mensaje de hogar. Nunca marcar lo que no se envió.
@@ -525,17 +535,12 @@ def deliver(deals, state, notifier, now, group, dry_run=False):
             if not dry_run:
                 for deal in batch:
                     state.mark_seen(deal.key, now)
-                    # Las copias del mismo producto y precio de otros vendedores quedan avisadas con él:
-                    # si no, saldrían en el resumen siguiente.
-                    if group == 'hogar':
-                        state.mark_seen(home_notice_key(deal), now)
-                        for twin in twins.get(home_notice_key(deal), [])[1:]:
-                            state.mark_seen(twin.key, now)
+                    if group == 'hogar': state.mark_seen(home_notice_key(deal), now)
         else: failed = True
     return sent, failed
 
 
-def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notifier=None, state_path=None):
+def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notifier=None, state_path=None, validator=None):
     now = time.time() if now is None else now
     cfg = Config.from_env()
     cfg.ntfy_topic = os.environ.get(TOPICS[group], '').strip() or None
@@ -557,7 +562,15 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
     deals, reports = scanner(state, now)
     found = len(deals)
     digest, stats = False, {}
-    if group == 'hogar': deals, digest, stats = hold_home(state, deals, now)
+    if group == 'hogar':
+        from .home_validation import validate, record_metrics
+        observations = deals
+        deals, digest, stats = hold_home(state, deals, now)
+        selected = home_order(deals)[:24]
+        deals, checks = (validator or validate)(selected, state, now, observations, reports)
+        stats.update(checks)
+        stats['seleccionadas'] = len(selected)
+        stats['unicas_vistas'] = len({home_notice_key(d) for d in observations})
     reports = [(name, count, privacy.redact(error) if error else None) for name, count, error in reports]
     if collect_only: log.info('%s: sin tema de ntfy configurado; solo se junta información', group)
     notifier = notifier or Notifier(cfg, HttpClient(), dry_run=dry_run or collect_only, log=log)
@@ -566,14 +579,22 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
         queue = state.datos.get('cola_hogar', {})
         for key in [k for k, v in queue.items() if not home_is_new(state, Deal(**v['oferta']), now)]: queue.pop(key)
         # Solo un resumen entregado sin fallas mueve el reloj; si ntfy falló, se reintenta en la próxima ronda.
-        if digest and not failed and not dry_run: state.datos['ultimo_resumen_hogar'] = int(now)
+        if digest and sent and not failed and not dry_run: state.datos['ultimo_resumen_hogar'] = int(now)
         log.info('hogar: %d candidatas vistas · %d entraron a la cola · %d descartadas por ahorro menor a S/ %.0f · '
-                 '%d por descuento permanente · %d caducaron sin volver a verse · %d recortadas por puntaje bajo · '
+                 '%d precios estables con menor prioridad · %d caducaron sin volver a verse · %d recortadas por puntaje bajo · '
                  '%d pendientes (la más antigua, %.1f h)%s',
                  found, stats.get('entradas', 0), stats.get('ahorro bajo', 0), min_savings(),
-                 stats.get('descuento permanente', 0), stats.get('caducadas', 0), stats.get('recortadas', 0), len(queue),
+                 stats.get('historial_estable', 0), stats.get('caducadas', 0), stats.get('recortadas', 0), len(queue),
                  stats.get('mas_antigua_h', 0),
-                 ' · resumen enviado' if digest and not failed else '')
+                 ' · resumen enviado' if digest and sent and not failed and not dry_run else '')
+    if group == 'hogar':
+        stats['pendientes_por_categoria'] = {}
+        for entry in queue.values():
+            category = entry['oferta']['category']
+            stats['pendientes_por_categoria'][category] = stats['pendientes_por_categoria'].get(category, 0) + 1
+        stats['fuentes_revisadas'] = {name: {'entradas': count, 'incompleta': bool(error)} for name, count, error in reports}
+        record_metrics(state, now, stats, sent, failed)
+        log.info('hogar: validación y selección %s', json.dumps(stats, ensure_ascii=False))
     for name, count, error in reports:
         log.info('%s: %d revisados · %s', name, count, error or 'OK')
     log.info("%s: %d ofertas cumplen el mínimo; %d enviadas", group, found, sent)
@@ -597,6 +618,7 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
         with open(summary, 'a', encoding='utf-8') as f:
             f.write(f"### {group}\n\nUmbral: {cfg.min_discount}% · Ofertas: {found} · Enviadas: {sent}\n\n")
             for name, count, error in reports: f.write(f"- {name}: {count} revisados; {error or 'OK'}\n")
+            if group == 'hogar': f.write('\nSelección y validación: ' + json.dumps(stats, ensure_ascii=False) + '\n')
             f.write('\nFuentes no activadas: ' + UNAVAILABLE[group] + '\n\n')
     # Una revisión incompleta cuenta para el aviso al celular (3 seguidas), pero no vuelve roja la ronda.
     return 1 if failed or any(error and not error.startswith(INCOMPLETE) for _, _, error in reports) else 0
