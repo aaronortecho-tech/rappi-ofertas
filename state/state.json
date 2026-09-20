@@ -179,8 +179,16 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1789795166,
+  "fetched_at": 1789881592,
   "stores": [
+   [
+    379,
+    "rosatel-market"
+   ],
+   [
+    385,
+    "rosatel-home"
+   ],
    [
     530,
     "floraria-home"
@@ -228,14 +236,6 @@
    [
     8595,
     "sea-frost"
-   ],
-   [
-    10278,
-    "rosatel-market"
-   ],
-   [
-    10279,
-    "rosatel-home"
    ],
    [
     10939,
@@ -354,6 +354,10 @@
     "oxxo-express"
    ],
    [
+    23468,
+    "tusandistribuidores-home"
+   ],
+   [
     24889,
     "aruma-encalada"
    ],
@@ -470,10 +474,6 @@
     "bmlicores-mt-nc"
    ],
    [
-    34401,
-    "forever-rosatel"
-   ],
-   [
     34460,
     "giftideaslima-mt-enc"
    ],
@@ -572,6 +572,10 @@
    [
     39130,
     "yenilu-mt-enc"
+   ],
+   [
+    39188,
+    "tecnodrome-mt-enc"
    ],
    [
     39260,
@@ -724,10 +728,6 @@
    [
     44948,
     "beerlandersmsquecervezas-mt-nc"
-   ],
-   [
-    45005,
-    "baliq"
    ],
    [
     45403,
@@ -902,6 +902,10 @@
     "viregalandoamor-mt-enc"
    ],
    [
+    51812,
+    "freshmart-mt-nc"
+   ],
+   [
     51862,
     "acpalogisticeirl-mt-enc"
    ],
@@ -1042,6 +1046,10 @@
     "tienda1901-mt-enc"
    ],
    [
+    57776,
+    "tusandistribuidores-express-nc"
+   ],
+   [
     57853,
     "beerpong-mt-nc"
    ],
@@ -1076,10 +1084,6 @@
    [
     58602,
     "uno-ms-uno-mt-super-nc"
-   ],
-   [
-    58679,
-    "forever-rosatel-regalos-enc"
    ],
    [
     58737,
@@ -1270,6 +1274,10 @@
     "20609793806-mt-enc"
    ],
    [
+    64493,
+    "rosettaperu-mt-enc"
+   ],
+   [
     64509,
     "marketmurillo-mt-nc"
    ],
@@ -1346,10 +1354,6 @@
     "youroutletperusac-mt-enc"
    ],
    [
-    67001,
-    "freshgreen-mt-nc"
-   ],
-   [
     67010,
     "beemovilsac-mt-enc"
    ],
@@ -1376,10 +1380,6 @@
    [
     67944,
     "20607431737-mt-enc"
-   ],
-   [
-    68213,
-    "metro-latenight-nc"
    ],
    [
     68255,
@@ -1462,7 +1462,7 @@
     "distribuidoramoravia-licores-nc"
    ],
    [
-    69879,
+    69883,
     "rosatel"
    ],
    [
@@ -1758,6 +1758,10 @@
     "lalucirnaga-mt-nc"
    ],
    [
+    85437,
+    "eljardnbyrosetta-mt-enc"
+   ],
+   [
     86266,
     "japydetalles-mt-enc"
    ],
@@ -1978,10 +1982,6 @@
     "kalafloristeriaydetalles-mt-enc"
    ],
    [
-    101936,
-    "ofertienda-mt-enc"
-   ],
-   [
     102003,
     "adcpremiumbrands-mt-nc"
    ],
@@ -2134,6 +2134,10 @@
     "laconistore-mt-enc"
    ],
    [
+    108585,
+    "joyasisamar-mt-enc"
+   ],
+   [
     108938,
     "deltechimportaciones-mt-enc"
    ],
@@ -2230,7 +2234,7 @@
     "10437786581-mt-enc"
    ]
   ],
-  "next_start": 196,
+  "next_start": 237,
   "sources": {
    "city": "lima",
    "types": [
@@ -2243,5 +2247,5 @@
    "market": true
   }
  },
- "saved_at": 1789879602
+ "saved_at": 1789881592
 }
