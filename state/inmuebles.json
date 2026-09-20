@@ -3,6 +3,7 @@
  "started_at": null,
  "seen": {
   "183e5f878abc3a86": 1789821586,
+  "5ff894a504fe96f5": 1789929478,
   "983b8fb47c6c3fe4": 1789756695,
   "b7f0d67d5c55dcd5": 1789756695,
   "c6c3a599fee042c4": 1789756695
@@ -10,7 +11,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {},
- "saved_at": 1789908014,
+ "saved_at": 1789929478,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -14662,9 +14663,5857 @@
      },
      "r": 20716,
      "x": 20716
+    },
+    "3274": {
+     "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/magnolia-3274",
+     "tipo": "departamentos",
+     "dist": "Magdalena Del Mar",
+     "nombre": "Magnolia",
+     "marca": "ABRIL GRUPO INMOBILIARIO",
+     "lat": -12.09163,
+     "lng": -77.05619,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO R DPTO. DEL 204 AL 404": [
+       79.59,
+       3,
+       "PEN",
+       684971.0
+      ],
+      "Modelo TIPO T DPTO. DEL 704 AL 1304": [
+       102.52,
+       3,
+       "PEN",
+       874624.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO R DPTO. DEL 204 AL 404": [
+       "PEN",
+       684971.0,
+       20716
+      ],
+      "Modelo TIPO T DPTO. DEL 704 AL 1304": [
+       "PEN",
+       874624.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3281": {
+     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/irigoyen-128-3281",
+     "tipo": "departamentos",
+     "dist": "Santiago De Surco",
+     "nombre": "Irigoyen 128",
+     "marca": "SEMBRA INMOBILIARIA",
+     "lat": -12.13223,
+     "lng": -77.01738,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo T-6": [
+       73.0,
+       3,
+       "PEN",
+       601700.0
+      ],
+      "Modelo T-7": [
+       72.0,
+       2,
+       "PEN",
+       641700.0
+      ],
+      "Modelo T-4A": [
+       82.0,
+       3,
+       "PEN",
+       664700.0
+      ],
+      "Modelo 808": [
+       170.0,
+       3,
+       "PEN",
+       1189900.0
+      ]
+     },
+     "primero": {
+      "Modelo T-6": [
+       "PEN",
+       601700.0,
+       20716
+      ],
+      "Modelo T-7": [
+       "PEN",
+       641700.0,
+       20716
+      ],
+      "Modelo T-4A": [
+       "PEN",
+       664700.0,
+       20716
+      ],
+      "Modelo 808": [
+       "PEN",
+       1189900.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3282": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/residencial-orion-3282",
+     "tipo": "departamentos",
+     "dist": "Jesus Maria",
+     "nombre": "RESIDENCIAL ORION",
+     "marca": "STELLA INMOBILIARIA",
+     "lat": -12.07433,
+     "lng": -77.04614,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo 102": [
+       64.71,
+       2,
+       "PEN",
+       507400.0
+      ],
+      "Modelo x01": [
+       82.66,
+       3,
+       "PEN",
+       602600.0
+      ],
+      "Modelo x04": [
+       80.62,
+       3,
+       "PEN",
+       582100.0
+      ],
+      "Modelo x05": [
+       86.1,
+       3,
+       "PEN",
+       654402.0
+      ],
+      "Modelo x06": [
+       82.37,
+       3,
+       "PEN",
+       625148.0
+      ]
+     },
+     "primero": {
+      "Modelo 102": [
+       "PEN",
+       507400.0,
+       20716
+      ],
+      "Modelo x01": [
+       "PEN",
+       602600.0,
+       20716
+      ],
+      "Modelo x04": [
+       "PEN",
+       582100.0,
+       20716
+      ],
+      "Modelo x05": [
+       "PEN",
+       654402.0,
+       20716
+      ],
+      "Modelo x06": [
+       "PEN",
+       625148.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3285": {
+     "u": "https://nexoinmobiliario.pe/departamentos/miraflores/bolona-256-3285",
+     "tipo": "departamentos",
+     "dist": "Miraflores",
+     "nombre": "Boloña 256",
+     "marca": "EE INMOBILIARIA",
+     "lat": -12.12119,
+     "lng": -77.01918,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo DUPLEX 1005": [
+       139.65,
+       2,
+       "PEN",
+       871800.0
+      ]
+     },
+     "primero": {
+      "Modelo DUPLEX 1005": [
+       "PEN",
+       871800.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3298": {
+     "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/cool-living-3298",
+     "tipo": "departamentos",
+     "dist": "Cercado De Lima",
+     "nombre": "Cool Living",
+     "marca": "PROMSAL",
+     "lat": -12.07842,
+     "lng": -77.03464,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo 5": [
+       59.89,
+       2,
+       "PEN",
+       397461.0
+      ],
+      "Modelo 1": [
+       72.18,
+       3,
+       "PEN",
+       499117.0
+      ],
+      "Modelo 2": [
+       67.11,
+       3,
+       "PEN",
+       464059.0
+      ],
+      "Modelo 10": [
+       31.83,
+       1,
+       "PEN",
+       229844.0
+      ],
+      "Modelo 9": [
+       59.86,
+       2,
+       "PEN",
+       394837.0
+      ],
+      "Modelo 3": [
+       75.18,
+       3,
+       "PEN",
+       485951.0
+      ],
+      "Modelo 4": [
+       82.88,
+       3,
+       "PEN",
+       535722.0
+      ],
+      "Modelo 6": [
+       52.34,
+       2,
+       "PEN",
+       353229.0
+      ],
+      "Modelo 7": [
+       55.52,
+       2,
+       "PEN",
+       370931.0
+      ],
+      "Modelo 8": [
+       57.19,
+       2,
+       "PEN",
+       377239.0
+      ]
+     },
+     "primero": {
+      "Modelo 5": [
+       "PEN",
+       397461.0,
+       20716
+      ],
+      "Modelo 1": [
+       "PEN",
+       499117.0,
+       20716
+      ],
+      "Modelo 2": [
+       "PEN",
+       464059.0,
+       20716
+      ],
+      "Modelo 10": [
+       "PEN",
+       229844.0,
+       20716
+      ],
+      "Modelo 9": [
+       "PEN",
+       394837.0,
+       20716
+      ],
+      "Modelo 3": [
+       "PEN",
+       485951.0,
+       20716
+      ],
+      "Modelo 4": [
+       "PEN",
+       535722.0,
+       20716
+      ],
+      "Modelo 6": [
+       "PEN",
+       353229.0,
+       20716
+      ],
+      "Modelo 7": [
+       "PEN",
+       370931.0,
+       20716
+      ],
+      "Modelo 8": [
+       "PEN",
+       377239.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3305": {
+     "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/belalba-3305",
+     "tipo": "departamentos",
+     "dist": "Pueblo Libre",
+     "nombre": "Belalba",
+     "marca": "URBANA PERÚ",
+     "lat": -12.07856,
+     "lng": -77.05762,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo A-TIPO 06": [
+       79.12,
+       1,
+       "PEN",
+       460164.0
+      ],
+      "Modelo A-X01": [
+       62.44,
+       1,
+       "PEN",
+       402039.0
+      ],
+      "Modelo A-X02": [
+       67.18,
+       2,
+       "PEN",
+       434961.0
+      ],
+      "Modelo A-X04": [
+       79.89,
+       2,
+       "PEN",
+       517266.0
+      ],
+      "Modelo A-X05": [
+       59.4,
+       1,
+       "PEN",
+       382509.0
+      ],
+      "Modelo A-X06": [
+       58.99,
+       1,
+       "PEN",
+       383625.0
+      ],
+      "Modelo A-X07": [
+       50.62,
+       1,
+       "PEN",
+       327546.0
+      ],
+      "Modelo B-TIPO 05": [
+       55.07,
+       1,
+       "PEN",
+       329034.0
+      ],
+      "Modelo B-X01": [
+       34.96,
+       1,
+       "PEN",
+       249984.0
+      ],
+      "Modelo B-X02": [
+       63.8,
+       1,
+       "PEN",
+       414966.0
+      ],
+      "Modelo B-X03": [
+       83.15,
+       2,
+       "PEN",
+       557349.0
+      ],
+      "Modelo B-X04": [
+       65.9,
+       2,
+       "PEN",
+       428823.0
+      ],
+      "Modelo B-X05": [
+       62.46,
+       1,
+       "PEN",
+       406224.0
+      ],
+      "Modelo B-X06": [
+       58.8,
+       1,
+       "PEN",
+       384369.0
+      ],
+      "Modelo B-X07": [
+       49.96,
+       1,
+       "PEN",
+       329778.0
+      ],
+      "Modelo A-Y05": [
+       118.21,
+       1,
+       "PEN",
+       656301.0
+      ],
+      "Modelo A-Y06": [
+       120.98,
+       1,
+       "PEN",
+       673971.0
+      ],
+      "Modelo A-Y07": [
+       110.37,
+       1,
+       "PEN",
+       619380.0
+      ],
+      "Modelo B-Y05": [
+       125.31,
+       1,
+       "PEN",
+       702522.0
+      ],
+      "Modelo B-Y07": [
+       108.17,
+       1,
+       "PEN",
+       608406.0
+      ]
+     },
+     "primero": {
+      "Modelo A-TIPO 06": [
+       "PEN",
+       460164.0,
+       20716
+      ],
+      "Modelo A-X01": [
+       "PEN",
+       402039.0,
+       20716
+      ],
+      "Modelo A-X02": [
+       "PEN",
+       434961.0,
+       20716
+      ],
+      "Modelo A-X04": [
+       "PEN",
+       517266.0,
+       20716
+      ],
+      "Modelo A-X05": [
+       "PEN",
+       382509.0,
+       20716
+      ],
+      "Modelo A-X06": [
+       "PEN",
+       383625.0,
+       20716
+      ],
+      "Modelo A-X07": [
+       "PEN",
+       327546.0,
+       20716
+      ],
+      "Modelo B-TIPO 05": [
+       "PEN",
+       329034.0,
+       20716
+      ],
+      "Modelo B-X01": [
+       "PEN",
+       249984.0,
+       20716
+      ],
+      "Modelo B-X02": [
+       "PEN",
+       414966.0,
+       20716
+      ],
+      "Modelo B-X03": [
+       "PEN",
+       557349.0,
+       20716
+      ],
+      "Modelo B-X04": [
+       "PEN",
+       428823.0,
+       20716
+      ],
+      "Modelo B-X05": [
+       "PEN",
+       406224.0,
+       20716
+      ],
+      "Modelo B-X06": [
+       "PEN",
+       384369.0,
+       20716
+      ],
+      "Modelo B-X07": [
+       "PEN",
+       329778.0,
+       20716
+      ],
+      "Modelo A-Y05": [
+       "PEN",
+       656301.0,
+       20716
+      ],
+      "Modelo A-Y06": [
+       "PEN",
+       673971.0,
+       20716
+      ],
+      "Modelo A-Y07": [
+       "PEN",
+       619380.0,
+       20716
+      ],
+      "Modelo B-Y05": [
+       "PEN",
+       702522.0,
+       20716
+      ],
+      "Modelo B-Y07": [
+       "PEN",
+       608406.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3310": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-bartolo/miramar-etapa-iii-3310",
+     "tipo": "departamentos",
+     "dist": "San Bartolo",
+     "nombre": "Miramar Etapa III",
+     "marca": "Grupo Santa Maria",
+     "lat": -12.38223,
+     "lng": -76.78463,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo Tipo 9": [
+       137.09,
+       3,
+       "PEN",
+       826000.0
+      ],
+      "Modelo Tipo 8": [
+       56.68,
+       2,
+       "PEN",
+       399000.0
+      ],
+      "Modelo Tipo 7": [
+       139.92,
+       3,
+       "PEN",
+       809000.0
+      ],
+      "Modelo Tipo 6": [
+       72.43,
+       3,
+       "PEN",
+       505000.0
+      ],
+      "Modelo Tipo 5": [
+       72.44,
+       3,
+       "PEN",
+       510000.0
+      ],
+      "Modelo Tipo 4": [
+       138.99,
+       3,
+       "PEN",
+       812000.0
+      ],
+      "Modelo Tipo 3": [
+       56.81,
+       2,
+       "PEN",
+       400000.0
+      ],
+      "Modelo Tipo 2": [
+       106.09,
+       2,
+       "PEN",
+       681000.0
+      ],
+      "Modelo Tipo 1": [
+       105.95,
+       2,
+       "PEN",
+       671000.0
+      ],
+      "Modelo Tipo 110": [
+       70.09,
+       2,
+       "PEN",
+       418000.0
+      ],
+      "Modelo Tipo 109": [
+       71.08,
+       2,
+       "PEN",
+       418000.0
+      ],
+      "Modelo Tipo 104": [
+       130.94,
+       3,
+       "PEN",
+       638000.0
+      ],
+      "Modelo Tipo 10": [
+       105.95,
+       2,
+       "PEN",
+       665000.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo 9": [
+       "PEN",
+       826000.0,
+       20716
+      ],
+      "Modelo Tipo 8": [
+       "PEN",
+       399000.0,
+       20716
+      ],
+      "Modelo Tipo 7": [
+       "PEN",
+       809000.0,
+       20716
+      ],
+      "Modelo Tipo 6": [
+       "PEN",
+       505000.0,
+       20716
+      ],
+      "Modelo Tipo 5": [
+       "PEN",
+       510000.0,
+       20716
+      ],
+      "Modelo Tipo 4": [
+       "PEN",
+       812000.0,
+       20716
+      ],
+      "Modelo Tipo 3": [
+       "PEN",
+       400000.0,
+       20716
+      ],
+      "Modelo Tipo 2": [
+       "PEN",
+       681000.0,
+       20716
+      ],
+      "Modelo Tipo 1": [
+       "PEN",
+       671000.0,
+       20716
+      ],
+      "Modelo Tipo 110": [
+       "PEN",
+       418000.0,
+       20716
+      ],
+      "Modelo Tipo 109": [
+       "PEN",
+       418000.0,
+       20716
+      ],
+      "Modelo Tipo 104": [
+       "PEN",
+       638000.0,
+       20716
+      ],
+      "Modelo Tipo 10": [
+       "PEN",
+       665000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3311": {
+     "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/homely-3311",
+     "tipo": "departamentos",
+     "dist": "Pueblo Libre",
+     "nombre": "HOMELY",
+     "marca": "GRUPO SOL",
+     "lat": -12.07084,
+     "lng": -77.06323,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo DPTO 101": [
+       47.55,
+       1,
+       "PEN",
+       372000.0
+      ],
+      "Modelo DÚPLEX 702": [
+       151.28,
+       3,
+       "PEN",
+       1077000.0
+      ],
+      "Modelo DÚPLEX 703": [
+       133.89,
+       4,
+       "PEN",
+       987000.0
+      ],
+      "Modelo DÚPLEX 704": [
+       133.89,
+       4,
+       "PEN",
+       987000.0
+      ]
+     },
+     "primero": {
+      "Modelo DPTO 101": [
+       "PEN",
+       372000.0,
+       20716
+      ],
+      "Modelo DÚPLEX 702": [
+       "PEN",
+       1077000.0,
+       20716
+      ],
+      "Modelo DÚPLEX 703": [
+       "PEN",
+       987000.0,
+       20716
+      ],
+      "Modelo DÚPLEX 704": [
+       "PEN",
+       987000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3312": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/arteco-dumont-3312",
+     "tipo": "departamentos",
+     "dist": "Jesus Maria",
+     "nombre": "Arteco | DuMont",
+     "marca": "ARTECO",
+     "lat": -12.07128,
+     "lng": -77.03872,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo TIPO 3": [
+       57.26,
+       2,
+       "PEN",
+       460000.0
+      ],
+      "Modelo TIPO 4": [
+       39.81,
+       1,
+       "PEN",
+       346000.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 3": [
+       "PEN",
+       460000.0,
+       20716
+      ],
+      "Modelo TIPO 4": [
+       "PEN",
+       346000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3316": {
+     "u": "https://nexoinmobiliario.pe/departamentos/miraflores/pop-3316",
+     "tipo": "departamentos",
+     "dist": "Miraflores",
+     "nombre": "POP",
+     "marca": "EE INMOBILIARIA",
+     "lat": -12.13162,
+     "lng": -77.02246,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo Tipo 01": [
+       70.81,
+       3,
+       "PEN",
+       608000.0
+      ],
+      "Modelo Tipo 02": [
+       61.76,
+       2,
+       "PEN",
+       594000.0
+      ],
+      "Modelo Tipo 03": [
+       41.14,
+       1,
+       "PEN",
+       424000.0
+      ],
+      "Modelo Tipo 04": [
+       65.12,
+       2,
+       "PEN",
+       533000.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo 01": [
+       "PEN",
+       608000.0,
+       20716
+      ],
+      "Modelo Tipo 02": [
+       "PEN",
+       594000.0,
+       20716
+      ],
+      "Modelo Tipo 03": [
+       "PEN",
+       424000.0,
+       20716
+      ],
+      "Modelo Tipo 04": [
+       "PEN",
+       533000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3318": {
+     "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/gaviotas-3318",
+     "tipo": "departamentos",
+     "dist": "Chorrillos",
+     "nombre": "GAVIOTAS",
+     "marca": "V&V GRUPO INMOBILIARIO",
+     "lat": -12.18219,
+     "lng": -77.00762,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo T1-X01-A": [
+       67.21,
+       3,
+       "PEN",
+       361000.0
+      ],
+      "Modelo T1-X01-B": [
+       66.69,
+       3,
+       "PEN",
+       353000.0
+      ],
+      "Modelo T1-X02-A": [
+       55.92,
+       2,
+       "PEN",
+       282000.0
+      ],
+      "Modelo T1-X02-B": [
+       55.28,
+       2,
+       "PEN",
+       286000.0
+      ],
+      "Modelo T1-X04-B": [
+       66.53,
+       3,
+       "PEN",
+       409000.0
+      ],
+      "Modelo T1-X05-A": [
+       68.53,
+       3,
+       "PEN",
+       465000.0
+      ],
+      "Modelo T1-X05-B": [
+       68.31,
+       3,
+       "PEN",
+       462000.0
+      ],
+      "Modelo T1-X06-B": [
+       57.27,
+       2,
+       "PEN",
+       330000.0
+      ],
+      "Modelo T1-X07-A": [
+       57.26,
+       2,
+       "PEN",
+       330000.0
+      ],
+      "Modelo T1-X07-B": [
+       57.26,
+       2,
+       "PEN",
+       318000.0
+      ],
+      "Modelo T1-X09-A": [
+       40.76,
+       1,
+       "PEN",
+       224000.0
+      ],
+      "Modelo T1-X09-B": [
+       40.38,
+       1,
+       "PEN",
+       210000.0
+      ],
+      "Modelo T1-X10-B": [
+       40.04,
+       1,
+       "PEN",
+       307000.0
+      ],
+      "Modelo T2-105": [
+       57.59,
+       2,
+       "PEN",
+       338000.0
+      ],
+      "Modelo T2-106": [
+       57.59,
+       2,
+       "PEN",
+       338000.0
+      ],
+      "Modelo T2-205": [
+       67.75,
+       3,
+       "PEN",
+       406000.0
+      ],
+      "Modelo T2-202": [
+       56.85,
+       2,
+       "PEN",
+       443000.0
+      ],
+      "Modelo T2-203": [
+       40.09,
+       1,
+       "PEN",
+       232000.0
+      ],
+      "Modelo T2-207": [
+       57.11,
+       2,
+       "PEN",
+       295000.0
+      ],
+      "Modelo T2-208": [
+       67.76,
+       3,
+       "PEN",
+       392000.0
+      ],
+      "Modelo T2-209": [
+       66.9,
+       3,
+       "PEN",
+       396000.0
+      ],
+      "Modelo T2-X01-A": [
+       67.75,
+       3,
+       "PEN",
+       399000.0
+      ],
+      "Modelo T2-X01-B": [
+       67.49,
+       3,
+       "PEN",
+       396000.0
+      ],
+      "Modelo T2-X02-A": [
+       56.85,
+       2,
+       "PEN",
+       436000.0
+      ],
+      "Modelo T2-X02-B": [
+       56.52,
+       2,
+       "PEN",
+       431000.0
+      ],
+      "Modelo T2-X03-A": [
+       40.09,
+       1,
+       "PEN",
+       230000.0
+      ],
+      "Modelo T2-X03-B": [
+       40.09,
+       1,
+       "PEN",
+       226000.0
+      ],
+      "Modelo T2-X03-C": [
+       40.09,
+       1,
+       "PEN",
+       218000.0
+      ],
+      "Modelo T2-X04-A": [
+       66.65,
+       3,
+       "PEN",
+       359000.0
+      ],
+      "Modelo T2-X04-B": [
+       66.42,
+       3,
+       "PEN",
+       333000.0
+      ],
+      "Modelo T2-X04-C": [
+       66.18,
+       3,
+       "PEN",
+       349000.0
+      ],
+      "Modelo T2-X05-A": [
+       67.75,
+       3,
+       "PEN",
+       384000.0
+      ],
+      "Modelo T2-X05-B": [
+       67.52,
+       3,
+       "PEN",
+       376000.0
+      ],
+      "Modelo T2-X05-C": [
+       67.28,
+       3,
+       "PEN",
+       369000.0
+      ],
+      "Modelo T2-X07-A": [
+       57.11,
+       2,
+       "PEN",
+       307000.0
+      ],
+      "Modelo T2-X07-B": [
+       57.11,
+       2,
+       "PEN",
+       302000.0
+      ],
+      "Modelo T2-X07-C": [
+       57.11,
+       2,
+       "PEN",
+       297000.0
+      ],
+      "Modelo T2-X08-C": [
+       67.29,
+       3,
+       "PEN",
+       448000.0
+      ],
+      "Modelo T2-X09-B": [
+       66.59,
+       3,
+       "PEN",
+       332000.0
+      ],
+      "Modelo T2-X09-C": [
+       66.38,
+       3,
+       "PEN",
+       347000.0
+      ],
+      "Modelo T2-101": [
+       57.72,
+       2,
+       "PEN",
+       314000.0
+      ],
+      "Modelo T2-102": [
+       57.19,
+       2,
+       "PEN",
+       314000.0
+      ],
+      "Modelo T2-103": [
+       66.15,
+       3,
+       "PEN",
+       397000.0
+      ],
+      "Modelo T2-104": [
+       57.65,
+       2,
+       "PEN",
+       344000.0
+      ],
+      "Modelo T2-107": [
+       57.66,
+       2,
+       "PEN",
+       344000.0
+      ],
+      "Modelo T2-204": [
+       66.65,
+       3,
+       "PEN",
+       365000.0
+      ],
+      "Modelo T1-1602": [
+       66.53,
+       3,
+       "PEN",
+       409000.0
+      ],
+      "Modelo T1-1504": [
+       66.53,
+       3,
+       "PEN",
+       409000.0
+      ],
+      "Modelo T1-1503": [
+       40.02,
+       1,
+       "PEN",
+       305000.0
+      ],
+      "Modelo T1-1502": [
+       55.28,
+       2,
+       "PEN",
+       284000.0
+      ],
+      "Modelo T1-1501": [
+       66.69,
+       3,
+       "PEN",
+       350000.0
+      ],
+      "Modelo T2-X01-C": [
+       67.27,
+       3,
+       "PEN",
+       390000.0
+      ],
+      "Modelo T1-101": [
+       58.15,
+       2,
+       "PEN",
+       335000.0
+      ],
+      "Modelo T1-102": [
+       57.75,
+       2,
+       "PEN",
+       337000.0
+      ],
+      "Modelo T1-201": [
+       67.21,
+       3,
+       "PEN",
+       370000.0
+      ],
+      "Modelo T1-202": [
+       55.92,
+       2,
+       "PEN",
+       302000.0
+      ],
+      "Modelo T1-204": [
+       58.15,
+       2,
+       "PEN",
+       337000.0
+      ],
+      "Modelo T1-205": [
+       57.26,
+       2,
+       "PEN",
+       335000.0
+      ],
+      "Modelo T1-207": [
+       40.58,
+       1,
+       "PEN",
+       224000.0
+      ],
+      "Modelo T1-208": [
+       40.37,
+       1,
+       "PEN",
+       321000.0
+      ]
+     },
+     "primero": {
+      "Modelo T1-X01-A": [
+       "PEN",
+       361000.0,
+       20716
+      ],
+      "Modelo T1-X01-B": [
+       "PEN",
+       353000.0,
+       20716
+      ],
+      "Modelo T1-X02-A": [
+       "PEN",
+       282000.0,
+       20716
+      ],
+      "Modelo T1-X02-B": [
+       "PEN",
+       286000.0,
+       20716
+      ],
+      "Modelo T1-X04-B": [
+       "PEN",
+       409000.0,
+       20716
+      ],
+      "Modelo T1-X05-A": [
+       "PEN",
+       465000.0,
+       20716
+      ],
+      "Modelo T1-X05-B": [
+       "PEN",
+       462000.0,
+       20716
+      ],
+      "Modelo T1-X06-B": [
+       "PEN",
+       330000.0,
+       20716
+      ],
+      "Modelo T1-X07-A": [
+       "PEN",
+       330000.0,
+       20716
+      ],
+      "Modelo T1-X07-B": [
+       "PEN",
+       318000.0,
+       20716
+      ],
+      "Modelo T1-X09-A": [
+       "PEN",
+       224000.0,
+       20716
+      ],
+      "Modelo T1-X09-B": [
+       "PEN",
+       210000.0,
+       20716
+      ],
+      "Modelo T1-X10-B": [
+       "PEN",
+       307000.0,
+       20716
+      ],
+      "Modelo T2-105": [
+       "PEN",
+       338000.0,
+       20716
+      ],
+      "Modelo T2-106": [
+       "PEN",
+       338000.0,
+       20716
+      ],
+      "Modelo T2-205": [
+       "PEN",
+       406000.0,
+       20716
+      ],
+      "Modelo T2-202": [
+       "PEN",
+       443000.0,
+       20716
+      ],
+      "Modelo T2-203": [
+       "PEN",
+       232000.0,
+       20716
+      ],
+      "Modelo T2-207": [
+       "PEN",
+       295000.0,
+       20716
+      ],
+      "Modelo T2-208": [
+       "PEN",
+       392000.0,
+       20716
+      ],
+      "Modelo T2-209": [
+       "PEN",
+       396000.0,
+       20716
+      ],
+      "Modelo T2-X01-A": [
+       "PEN",
+       399000.0,
+       20716
+      ],
+      "Modelo T2-X01-B": [
+       "PEN",
+       396000.0,
+       20716
+      ],
+      "Modelo T2-X02-A": [
+       "PEN",
+       436000.0,
+       20716
+      ],
+      "Modelo T2-X02-B": [
+       "PEN",
+       431000.0,
+       20716
+      ],
+      "Modelo T2-X03-A": [
+       "PEN",
+       230000.0,
+       20716
+      ],
+      "Modelo T2-X03-B": [
+       "PEN",
+       226000.0,
+       20716
+      ],
+      "Modelo T2-X03-C": [
+       "PEN",
+       218000.0,
+       20716
+      ],
+      "Modelo T2-X04-A": [
+       "PEN",
+       359000.0,
+       20716
+      ],
+      "Modelo T2-X04-B": [
+       "PEN",
+       333000.0,
+       20716
+      ],
+      "Modelo T2-X04-C": [
+       "PEN",
+       349000.0,
+       20716
+      ],
+      "Modelo T2-X05-A": [
+       "PEN",
+       384000.0,
+       20716
+      ],
+      "Modelo T2-X05-B": [
+       "PEN",
+       376000.0,
+       20716
+      ],
+      "Modelo T2-X05-C": [
+       "PEN",
+       369000.0,
+       20716
+      ],
+      "Modelo T2-X07-A": [
+       "PEN",
+       307000.0,
+       20716
+      ],
+      "Modelo T2-X07-B": [
+       "PEN",
+       302000.0,
+       20716
+      ],
+      "Modelo T2-X07-C": [
+       "PEN",
+       297000.0,
+       20716
+      ],
+      "Modelo T2-X08-C": [
+       "PEN",
+       448000.0,
+       20716
+      ],
+      "Modelo T2-X09-B": [
+       "PEN",
+       332000.0,
+       20716
+      ],
+      "Modelo T2-X09-C": [
+       "PEN",
+       347000.0,
+       20716
+      ],
+      "Modelo T2-101": [
+       "PEN",
+       314000.0,
+       20716
+      ],
+      "Modelo T2-102": [
+       "PEN",
+       314000.0,
+       20716
+      ],
+      "Modelo T2-103": [
+       "PEN",
+       397000.0,
+       20716
+      ],
+      "Modelo T2-104": [
+       "PEN",
+       344000.0,
+       20716
+      ],
+      "Modelo T2-107": [
+       "PEN",
+       344000.0,
+       20716
+      ],
+      "Modelo T2-204": [
+       "PEN",
+       365000.0,
+       20716
+      ],
+      "Modelo T1-1602": [
+       "PEN",
+       409000.0,
+       20716
+      ],
+      "Modelo T1-1504": [
+       "PEN",
+       409000.0,
+       20716
+      ],
+      "Modelo T1-1503": [
+       "PEN",
+       305000.0,
+       20716
+      ],
+      "Modelo T1-1502": [
+       "PEN",
+       284000.0,
+       20716
+      ],
+      "Modelo T1-1501": [
+       "PEN",
+       350000.0,
+       20716
+      ],
+      "Modelo T2-X01-C": [
+       "PEN",
+       390000.0,
+       20716
+      ],
+      "Modelo T1-101": [
+       "PEN",
+       335000.0,
+       20716
+      ],
+      "Modelo T1-102": [
+       "PEN",
+       337000.0,
+       20716
+      ],
+      "Modelo T1-201": [
+       "PEN",
+       370000.0,
+       20716
+      ],
+      "Modelo T1-202": [
+       "PEN",
+       302000.0,
+       20716
+      ],
+      "Modelo T1-204": [
+       "PEN",
+       337000.0,
+       20716
+      ],
+      "Modelo T1-205": [
+       "PEN",
+       335000.0,
+       20716
+      ],
+      "Modelo T1-207": [
+       "PEN",
+       224000.0,
+       20716
+      ],
+      "Modelo T1-208": [
+       "PEN",
+       321000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3322": {
+     "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/avellana-3322",
+     "tipo": "departamentos",
+     "dist": "Pueblo Libre",
+     "nombre": "Avellana",
+     "marca": "ABRIL GRUPO INMOBILIARIO",
+     "lat": -12.07254,
+     "lng": -77.05198,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo AVE-2-X20": [
+       60.59,
+       2,
+       "PEN",
+       396900.0
+      ],
+      "Modelo AVE-2-X01": [
+       74.44,
+       3,
+       "PEN",
+       458100.0
+      ],
+      "Modelo AVE-1-X01": [
+       37.77,
+       1,
+       "PEN",
+       286200.0
+      ],
+      "Modelo AVE-1-X03": [
+       50.92,
+       2,
+       "PEN",
+       381600.0
+      ],
+      "Modelo AVE-1-X04": [
+       71.76,
+       3,
+       "PEN",
+       521100.0
+      ],
+      "Modelo AVE-1-X05": [
+       67.4,
+       3,
+       "PEN",
+       454500.0
+      ],
+      "Modelo AVE-1-X07": [
+       55.94,
+       2,
+       "PEN",
+       366300.0
+      ],
+      "Modelo AVE-2-X02": [
+       54.94,
+       2,
+       "PEN",
+       344700.0
+      ],
+      "Modelo AVE-2-X03": [
+       53.55,
+       2,
+       "PEN",
+       335700.0
+      ],
+      "Modelo AVE-2-X04": [
+       68.85,
+       3,
+       "PEN",
+       423000.0
+      ],
+      "Modelo AVE-2-X05": [
+       70.15,
+       3,
+       "PEN",
+       446400.0
+      ],
+      "Modelo AVE-2-X06": [
+       41.17,
+       1,
+       "PEN",
+       261000.0
+      ],
+      "Modelo AVE-2-X07": [
+       37.27,
+       1,
+       "PEN",
+       265500.0
+      ],
+      "Modelo AVE-2-X08": [
+       54.98,
+       2,
+       "PEN",
+       347400.0
+      ],
+      "Modelo AVE-2-X09": [
+       53.94,
+       2,
+       "PEN",
+       331200.0
+      ],
+      "Modelo AVE-2-X10": [
+       53.46,
+       2,
+       "PEN",
+       327600.0
+      ],
+      "Modelo AVE-2-X11": [
+       63.2,
+       3,
+       "PEN",
+       395100.0
+      ],
+      "Modelo AVE-2-X12": [
+       55.65,
+       2,
+       "PEN",
+       350100.0
+      ],
+      "Modelo AVE-2-X13": [
+       56.98,
+       2,
+       "PEN",
+       356400.0
+      ],
+      "Modelo AVE-2-X14": [
+       51.03,
+       2,
+       "PEN",
+       335700.0
+      ],
+      "Modelo AVE-2-X15": [
+       40.13,
+       1,
+       "PEN",
+       247500.0
+      ],
+      "Modelo AVE-2-X16": [
+       39.44,
+       1,
+       "PEN",
+       250200.0
+      ],
+      "Modelo AVE-2-X17": [
+       28.91,
+       1,
+       "PEN",
+       196200.0
+      ],
+      "Modelo AVE-2-X18": [
+       71.36,
+       3,
+       "PEN",
+       471600.0
+      ],
+      "Modelo AVE-2-X19": [
+       41.52,
+       1,
+       "PEN",
+       277200.0
+      ]
+     },
+     "primero": {
+      "Modelo AVE-2-X20": [
+       "PEN",
+       396900.0,
+       20716
+      ],
+      "Modelo AVE-2-X01": [
+       "PEN",
+       458100.0,
+       20716
+      ],
+      "Modelo AVE-1-X01": [
+       "PEN",
+       286200.0,
+       20716
+      ],
+      "Modelo AVE-1-X03": [
+       "PEN",
+       381600.0,
+       20716
+      ],
+      "Modelo AVE-1-X04": [
+       "PEN",
+       521100.0,
+       20716
+      ],
+      "Modelo AVE-1-X05": [
+       "PEN",
+       454500.0,
+       20716
+      ],
+      "Modelo AVE-1-X07": [
+       "PEN",
+       366300.0,
+       20716
+      ],
+      "Modelo AVE-2-X02": [
+       "PEN",
+       344700.0,
+       20716
+      ],
+      "Modelo AVE-2-X03": [
+       "PEN",
+       335700.0,
+       20716
+      ],
+      "Modelo AVE-2-X04": [
+       "PEN",
+       423000.0,
+       20716
+      ],
+      "Modelo AVE-2-X05": [
+       "PEN",
+       446400.0,
+       20716
+      ],
+      "Modelo AVE-2-X06": [
+       "PEN",
+       261000.0,
+       20716
+      ],
+      "Modelo AVE-2-X07": [
+       "PEN",
+       265500.0,
+       20716
+      ],
+      "Modelo AVE-2-X08": [
+       "PEN",
+       347400.0,
+       20716
+      ],
+      "Modelo AVE-2-X09": [
+       "PEN",
+       331200.0,
+       20716
+      ],
+      "Modelo AVE-2-X10": [
+       "PEN",
+       327600.0,
+       20716
+      ],
+      "Modelo AVE-2-X11": [
+       "PEN",
+       395100.0,
+       20716
+      ],
+      "Modelo AVE-2-X12": [
+       "PEN",
+       350100.0,
+       20716
+      ],
+      "Modelo AVE-2-X13": [
+       "PEN",
+       356400.0,
+       20716
+      ],
+      "Modelo AVE-2-X14": [
+       "PEN",
+       335700.0,
+       20716
+      ],
+      "Modelo AVE-2-X15": [
+       "PEN",
+       247500.0,
+       20716
+      ],
+      "Modelo AVE-2-X16": [
+       "PEN",
+       250200.0,
+       20716
+      ],
+      "Modelo AVE-2-X17": [
+       "PEN",
+       196200.0,
+       20716
+      ],
+      "Modelo AVE-2-X18": [
+       "PEN",
+       471600.0,
+       20716
+      ],
+      "Modelo AVE-2-X19": [
+       "PEN",
+       277200.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3323": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/aramburu-living-3323",
+     "tipo": "departamentos",
+     "dist": "San Isidro",
+     "nombre": "ARAMBURU LIVING",
+     "marca": "GRUPO T&C",
+     "lat": -12.10239,
+     "lng": -77.02483,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo 5A": [
+       57.9,
+       2,
+       "PEN",
+       505226.0
+      ],
+      "Modelo 7B": [
+       57.19,
+       1,
+       "PEN",
+       448876.0
+      ],
+      "Modelo 8B": [
+       57.19,
+       1,
+       "PEN",
+       448876.0
+      ],
+      "Modelo 10A": [
+       58.46,
+       2,
+       "PEN",
+       487966.0
+      ]
+     },
+     "primero": {
+      "Modelo 5A": [
+       "PEN",
+       505226.0,
+       20716
+      ],
+      "Modelo 7B": [
+       "PEN",
+       448876.0,
+       20716
+      ],
+      "Modelo 8B": [
+       "PEN",
+       448876.0,
+       20716
+      ],
+      "Modelo 10A": [
+       "PEN",
+       487966.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3324": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/edificio-fenix-3324",
+     "tipo": "departamentos",
+     "dist": "Jesus Maria",
+     "nombre": "Edificio Fenix",
+     "marca": "Cygnus Grupo Inmobiliario",
+     "lat": -12.07587,
+     "lng": -77.05058,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo Tipo 3A": [
+       67.78,
+       3,
+       "PEN",
+       550819.0
+      ],
+      "Modelo Tipo 2B": [
+       60.17,
+       2,
+       "PEN",
+       495393.0
+      ],
+      "Modelo Tipo 1701": [
+       138.5,
+       3,
+       "PEN",
+       1034000.0
+      ],
+      "Modelo Tipo 1703": [
+       135.73,
+       3,
+       "PEN",
+       1015000.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo 3A": [
+       "PEN",
+       550819.0,
+       20716
+      ],
+      "Modelo Tipo 2B": [
+       "PEN",
+       495393.0,
+       20716
+      ],
+      "Modelo Tipo 1701": [
+       "PEN",
+       1034000.0,
+       20716
+      ],
+      "Modelo Tipo 1703": [
+       "PEN",
+       1015000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3325": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/edificio-sialia-3325",
+     "tipo": "departamentos",
+     "dist": "Jesus Maria",
+     "nombre": "Edificio Sialia",
+     "marca": "Cygnus Grupo Inmobiliario",
+     "lat": -12.0737,
+     "lng": -77.04666,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo Tipo 8A": [
+       69.99,
+       3,
+       "PEN",
+       431449.0
+      ],
+      "Modelo Tipo 6": [
+       65.86,
+       3,
+       "PEN",
+       443908.0
+      ],
+      "Modelo Tipo 101": [
+       48.89,
+       1,
+       "PEN",
+       388645.0
+      ],
+      "Modelo Tipo 102": [
+       82.42,
+       2,
+       "PEN",
+       629368.0
+      ],
+      "Modelo Tipo 1": [
+       40.0,
+       1,
+       "PEN",
+       285422.0
+      ],
+      "Modelo Tipo 2": [
+       57.31,
+       2,
+       "PEN",
+       418860.0
+      ],
+      "Modelo Tipo 4": [
+       70.64,
+       3,
+       "PEN",
+       589954.0
+      ],
+      "Modelo Tipo 206": [
+       70.97,
+       3,
+       "PEN",
+       535477.0
+      ],
+      "Modelo Tipo 7": [
+       69.77,
+       3,
+       "PEN",
+       522887.0
+      ],
+      "Modelo Tipo 1701": [
+       87.49,
+       2,
+       "PEN",
+       689996.0
+      ],
+      "Modelo Tipo 1702": [
+       113.18,
+       3,
+       "PEN",
+       928901.0
+      ],
+      "Modelo Tipo 1703": [
+       94.47,
+       3,
+       "PEN",
+       789818.0
+      ],
+      "Modelo Tipo 1704": [
+       150.71,
+       3,
+       "PEN",
+       1148647.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo 8A": [
+       "PEN",
+       431449.0,
+       20716
+      ],
+      "Modelo Tipo 6": [
+       "PEN",
+       443908.0,
+       20716
+      ],
+      "Modelo Tipo 101": [
+       "PEN",
+       388645.0,
+       20716
+      ],
+      "Modelo Tipo 102": [
+       "PEN",
+       629368.0,
+       20716
+      ],
+      "Modelo Tipo 1": [
+       "PEN",
+       285422.0,
+       20716
+      ],
+      "Modelo Tipo 2": [
+       "PEN",
+       418860.0,
+       20716
+      ],
+      "Modelo Tipo 4": [
+       "PEN",
+       589954.0,
+       20716
+      ],
+      "Modelo Tipo 206": [
+       "PEN",
+       535477.0,
+       20716
+      ],
+      "Modelo Tipo 7": [
+       "PEN",
+       522887.0,
+       20716
+      ],
+      "Modelo Tipo 1701": [
+       "PEN",
+       689996.0,
+       20716
+      ],
+      "Modelo Tipo 1702": [
+       "PEN",
+       928901.0,
+       20716
+      ],
+      "Modelo Tipo 1703": [
+       "PEN",
+       789818.0,
+       20716
+      ],
+      "Modelo Tipo 1704": [
+       "PEN",
+       1148647.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3326": {
+     "u": "https://nexoinmobiliario.pe/departamentos/lince/masias-3326",
+     "tipo": "departamentos",
+     "dist": "Lince",
+     "nombre": "MASIAS",
+     "marca": "ORTIZ INMOBILIARIA",
+     "lat": -12.0904,
+     "lng": -77.02621,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo X02": [
+       40.55,
+       1,
+       "PEN",
+       577777.0
+      ],
+      "Modelo X03": [
+       66.51,
+       2,
+       "PEN",
+       849777.0
+      ],
+      "Modelo X04": [
+       56.04,
+       2,
+       "PEN",
+       749777.0
+      ],
+      "Modelo X07": [
+       42.34,
+       1,
+       "PEN",
+       549777.0
+      ]
+     },
+     "primero": {
+      "Modelo X02": [
+       "PEN",
+       577777.0,
+       20716
+      ],
+      "Modelo X03": [
+       "PEN",
+       849777.0,
+       20716
+      ],
+      "Modelo X04": [
+       "PEN",
+       749777.0,
+       20716
+      ],
+      "Modelo X07": [
+       "PEN",
+       549777.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3328": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/vernazza-3328",
+     "tipo": "departamentos",
+     "dist": "Jesus Maria",
+     "nombre": "VERNAZZA",
+     "marca": "TORATTO GRUPO INMOBILIARIO",
+     "lat": -12.08427,
+     "lng": -77.04999,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo VER-03": [
+       65.89,
+       2,
+       "PEN",
+       565112.0
+      ],
+      "Modelo VER-05": [
+       38.33,
+       1,
+       "PEN",
+       337304.0
+      ],
+      "Modelo VER-1001": [
+       166.94,
+       3,
+       "PEN",
+       1244646.0
+      ],
+      "Modelo VER-1002": [
+       139.29,
+       3,
+       "PEN",
+       1058468.0
+      ],
+      "Modelo VER-1004": [
+       83.2,
+       2,
+       "PEN",
+       628084.0
+      ],
+      "Modelo VER-1005": [
+       73.98,
+       2,
+       "PEN",
+       555520.0
+      ]
+     },
+     "primero": {
+      "Modelo VER-03": [
+       "PEN",
+       565112.0,
+       20716
+      ],
+      "Modelo VER-05": [
+       "PEN",
+       337304.0,
+       20716
+      ],
+      "Modelo VER-1001": [
+       "PEN",
+       1244646.0,
+       20716
+      ],
+      "Modelo VER-1002": [
+       "PEN",
+       1058468.0,
+       20716
+      ],
+      "Modelo VER-1004": [
+       "PEN",
+       628084.0,
+       20716
+      ],
+      "Modelo VER-1005": [
+       "PEN",
+       555520.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3330": {
+     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/beside-3330",
+     "tipo": "departamentos",
+     "dist": "Santiago De Surco",
+     "nombre": "BESIDE",
+     "marca": "REDBAY INMOBILIARIA",
+     "lat": -12.09929,
+     "lng": -76.9708,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo 202": [
+       68.44,
+       2,
+       "PEN",
+       735900.0
+      ],
+      "Modelo X04": [
+       71.3,
+       2,
+       "PEN",
+       684900.0
+      ],
+      "Modelo X12": [
+       55.82,
+       2,
+       "PEN",
+       569900.0
+      ]
+     },
+     "primero": {
+      "Modelo 202": [
+       "PEN",
+       735900.0,
+       20716
+      ],
+      "Modelo X04": [
+       "PEN",
+       684900.0,
+       20716
+      ],
+      "Modelo X12": [
+       "PEN",
+       569900.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3331": {
+     "u": "https://nexoinmobiliario.pe/departamentos/surquillo/high-life-3331",
+     "tipo": "departamentos",
+     "dist": "Surquillo",
+     "nombre": "High Life",
+     "marca": "MADRID INMOBILIARIA",
+     "lat": -12.1238,
+     "lng": -77.00415,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo Flat Típico 2": [
+       59.52,
+       2,
+       "PEN",
+       460000.0
+      ],
+      "Modelo Flat Típico 5": [
+       67.71,
+       3,
+       "PEN",
+       514000.0
+      ],
+      "Modelo Flat Típico 1": [
+       41.58,
+       1,
+       "PEN",
+       334000.0
+      ],
+      "Modelo Flat 2204": [
+       42.25,
+       1,
+       "PEN",
+       319000.0
+      ]
+     },
+     "primero": {
+      "Modelo Flat Típico 2": [
+       "PEN",
+       460000.0,
+       20716
+      ],
+      "Modelo Flat Típico 5": [
+       "PEN",
+       514000.0,
+       20716
+      ],
+      "Modelo Flat Típico 1": [
+       "PEN",
+       334000.0,
+       20716
+      ],
+      "Modelo Flat 2204": [
+       "PEN",
+       319000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3336": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/prada-3336",
+     "tipo": "departamentos",
+     "dist": "Jesus Maria",
+     "nombre": "PRADA",
+     "marca": "MAXX GRUPO INMOBILIARIO",
+     "lat": -12.07945,
+     "lng": -77.04993,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo TIPO 1 IMPAR": [
+       84.0,
+       3,
+       "PEN",
+       787000.0
+      ],
+      "Modelo TIPO 1 - 1101": [
+       83.0,
+       3,
+       "PEN",
+       785000.0
+      ],
+      "Modelo TIPO 3": [
+       88.0,
+       3,
+       "PEN",
+       826000.0
+      ],
+      "Modelo TIPO 3 - 1103": [
+       87.0,
+       3,
+       "PEN",
+       816000.0
+      ],
+      "Modelo TIPO 4": [
+       61.0,
+       2,
+       "PEN",
+       560000.0
+      ],
+      "Modelo TIPO 5": [
+       69.0,
+       3,
+       "PEN",
+       630000.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 1 IMPAR": [
+       "PEN",
+       787000.0,
+       20716
+      ],
+      "Modelo TIPO 1 - 1101": [
+       "PEN",
+       785000.0,
+       20716
+      ],
+      "Modelo TIPO 3": [
+       "PEN",
+       826000.0,
+       20716
+      ],
+      "Modelo TIPO 3 - 1103": [
+       "PEN",
+       816000.0,
+       20716
+      ],
+      "Modelo TIPO 4": [
+       "PEN",
+       560000.0,
+       20716
+      ],
+      "Modelo TIPO 5": [
+       "PEN",
+       630000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3338": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/empire-3338",
+     "tipo": "departamentos",
+     "dist": "San Isidro",
+     "nombre": "EMPIRE",
+     "marca": "REDBAY INMOBILIARIA",
+     "lat": -12.09591,
+     "lng": -77.03545,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo 2": [
+       40.69,
+       1,
+       "PEN",
+       615242.0
+      ],
+      "Modelo 3": [
+       40.85,
+       1,
+       "PEN",
+       604983.0
+      ],
+      "Modelo 4": [
+       40.85,
+       1,
+       "PEN",
+       577391.0
+      ],
+      "Modelo 5": [
+       40.85,
+       1,
+       "PEN",
+       573183.0
+      ],
+      "Modelo 6": [
+       40.27,
+       1,
+       "PEN",
+       608295.0
+      ],
+      "Modelo 7": [
+       41.92,
+       1,
+       "PEN",
+       633420.0
+      ],
+      "Modelo 8": [
+       42.34,
+       1,
+       "PEN",
+       694740.0
+      ],
+      "Modelo 9": [
+       61.01,
+       2,
+       "PEN",
+       870275.0
+      ],
+      "Modelo 10": [
+       66.24,
+       2,
+       "PEN",
+       883805.0
+      ],
+      "Modelo 11": [
+       73.77,
+       2,
+       "PEN",
+       1011847.0
+      ],
+      "Modelo 12": [
+       71.7,
+       2,
+       "PEN",
+       989882.0
+      ],
+      "Modelo 1": [
+       45.31,
+       1,
+       "PEN",
+       604983.0
+      ],
+      "Modelo 13": [
+       84.37,
+       2,
+       "PEN",
+       1163668.0
+      ],
+      "Modelo 17": [
+       127.78,
+       3,
+       "PEN",
+       1354468.0
+      ],
+      "Modelo 19": [
+       156.32,
+       3,
+       "PEN",
+       1822988.0
+      ]
+     },
+     "primero": {
+      "Modelo 2": [
+       "PEN",
+       615242.0,
+       20716
+      ],
+      "Modelo 3": [
+       "PEN",
+       604983.0,
+       20716
+      ],
+      "Modelo 4": [
+       "PEN",
+       577391.0,
+       20716
+      ],
+      "Modelo 5": [
+       "PEN",
+       573183.0,
+       20716
+      ],
+      "Modelo 6": [
+       "PEN",
+       608295.0,
+       20716
+      ],
+      "Modelo 7": [
+       "PEN",
+       633420.0,
+       20716
+      ],
+      "Modelo 8": [
+       "PEN",
+       694740.0,
+       20716
+      ],
+      "Modelo 9": [
+       "PEN",
+       870275.0,
+       20716
+      ],
+      "Modelo 10": [
+       "PEN",
+       883805.0,
+       20716
+      ],
+      "Modelo 11": [
+       "PEN",
+       1011847.0,
+       20716
+      ],
+      "Modelo 12": [
+       "PEN",
+       989882.0,
+       20716
+      ],
+      "Modelo 1": [
+       "PEN",
+       604983.0,
+       20716
+      ],
+      "Modelo 13": [
+       "PEN",
+       1163668.0,
+       20716
+      ],
+      "Modelo 17": [
+       "PEN",
+       1354468.0,
+       20716
+      ],
+      "Modelo 19": [
+       "PEN",
+       1822988.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3339": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/guisse-1060-3339",
+     "tipo": "departamentos",
+     "dist": "Jesus Maria",
+     "nombre": "GUISSE 1060",
+     "marca": "BALANCE GRUPO INMOBILIARIO",
+     "lat": -12.07576,
+     "lng": -77.03999,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo 102B": [
+       60.56,
+       1,
+       "PEN",
+       398100.0
+      ],
+      "Modelo TIPO 5": [
+       37.34,
+       1,
+       "PEN",
+       336700.0
+      ],
+      "Modelo TIPO 6": [
+       58.73,
+       2,
+       "PEN",
+       435900.0
+      ],
+      "Modelo TIPO 8": [
+       61.19,
+       2,
+       "PEN",
+       459100.0
+      ]
+     },
+     "primero": {
+      "Modelo 102B": [
+       "PEN",
+       398100.0,
+       20716
+      ],
+      "Modelo TIPO 5": [
+       "PEN",
+       336700.0,
+       20716
+      ],
+      "Modelo TIPO 6": [
+       "PEN",
+       435900.0,
+       20716
+      ],
+      "Modelo TIPO 8": [
+       "PEN",
+       459100.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3340": {
+     "u": "https://nexoinmobiliario.pe/departamentos/miraflores/tommy-3340",
+     "tipo": "departamentos",
+     "dist": "Miraflores",
+     "nombre": "TOMMY",
+     "marca": "PUERTA DE TIERRA",
+     "lat": -12.12146,
+     "lng": -77.00656,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo TIPO 1A": [
+       78.09,
+       3,
+       "PEN",
+       610168.0
+      ],
+      "Modelo TIPO 2A": [
+       78.6,
+       3,
+       "PEN",
+       610168.0
+      ],
+      "Modelo TIPO 1B": [
+       80.41,
+       3,
+       "PEN",
+       626700.0
+      ],
+      "Modelo TIPO 3": [
+       72.74,
+       2,
+       "PEN",
+       542360.0
+      ],
+      "Modelo D1301": [
+       150.77,
+       3,
+       "PEN",
+       897540.0
+      ],
+      "Modelo D1302": [
+       151.85,
+       3,
+       "PEN",
+       913360.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 1A": [
+       "PEN",
+       610168.0,
+       20716
+      ],
+      "Modelo TIPO 2A": [
+       "PEN",
+       610168.0,
+       20716
+      ],
+      "Modelo TIPO 1B": [
+       "PEN",
+       626700.0,
+       20716
+      ],
+      "Modelo TIPO 3": [
+       "PEN",
+       542360.0,
+       20716
+      ],
+      "Modelo D1301": [
+       "PEN",
+       897540.0,
+       20716
+      ],
+      "Modelo D1302": [
+       "PEN",
+       913360.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3342": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/alborada-iii-san-miguel-3342",
+     "tipo": "departamentos",
+     "dist": "San Miguel",
+     "nombre": "ALBORADA III",
+     "marca": "GRUPO MG",
+     "lat": -12.08669,
+     "lng": -77.09119,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo A4a": [
+       67.0,
+       2,
+       "PEN",
+       371500.0
+      ],
+      "Modelo A4": [
+       57.4,
+       2,
+       "PEN",
+       332960.0
+      ],
+      "Modelo A4b": [
+       57.4,
+       2,
+       "PEN",
+       330870.0
+      ],
+      "Modelo A5": [
+       57.0,
+       2,
+       "PEN",
+       336500.0
+      ],
+      "Modelo A6b": [
+       71.0,
+       3,
+       "PEN",
+       403500.0
+      ],
+      "Modelo A6": [
+       66.0,
+       3,
+       "PEN",
+       372800.0
+      ],
+      "Modelo A7": [
+       65.0,
+       3,
+       "PEN",
+       374000.0
+      ],
+      "Modelo A8": [
+       63.5,
+       3,
+       "PEN",
+       365900.0
+      ],
+      "Modelo A1": [
+       66.9,
+       3,
+       "PEN",
+       404330.0
+      ],
+      "Modelo A2b": [
+       60.1,
+       2,
+       "PEN",
+       365570.0
+      ],
+      "Modelo A2": [
+       64.3,
+       3,
+       "PEN",
+       385880.0
+      ],
+      "Modelo A3a": [
+       67.4,
+       2,
+       "PEN",
+       379440.0
+      ],
+      "Modelo A3": [
+       65.2,
+       3,
+       "PEN",
+       375080.0
+      ],
+      "Modelo A7b": [
+       71.3,
+       1,
+       "PEN",
+       361510.0
+      ],
+      "Modelo A8a": [
+       67.5,
+       1,
+       "PEN",
+       347730.0
+      ],
+      "Modelo A11": [
+       86.1,
+       2,
+       "PEN",
+       423470.0
+      ]
+     },
+     "primero": {
+      "Modelo A4a": [
+       "PEN",
+       371500.0,
+       20716
+      ],
+      "Modelo A4": [
+       "PEN",
+       332960.0,
+       20716
+      ],
+      "Modelo A4b": [
+       "PEN",
+       330870.0,
+       20716
+      ],
+      "Modelo A5": [
+       "PEN",
+       336500.0,
+       20716
+      ],
+      "Modelo A6b": [
+       "PEN",
+       403500.0,
+       20716
+      ],
+      "Modelo A6": [
+       "PEN",
+       372800.0,
+       20716
+      ],
+      "Modelo A7": [
+       "PEN",
+       374000.0,
+       20716
+      ],
+      "Modelo A8": [
+       "PEN",
+       365900.0,
+       20716
+      ],
+      "Modelo A1": [
+       "PEN",
+       404330.0,
+       20716
+      ],
+      "Modelo A2b": [
+       "PEN",
+       365570.0,
+       20716
+      ],
+      "Modelo A2": [
+       "PEN",
+       385880.0,
+       20716
+      ],
+      "Modelo A3a": [
+       "PEN",
+       379440.0,
+       20716
+      ],
+      "Modelo A3": [
+       "PEN",
+       375080.0,
+       20716
+      ],
+      "Modelo A7b": [
+       "PEN",
+       361510.0,
+       20716
+      ],
+      "Modelo A8a": [
+       "PEN",
+       347730.0,
+       20716
+      ],
+      "Modelo A11": [
+       "PEN",
+       423470.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3343": {
+     "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/edificio-ugarteche-3343",
+     "tipo": "departamentos",
+     "dist": "Pueblo Libre",
+     "nombre": "Edificio UGARTECHE",
+     "marca": "QUARK GRUPO INMOBILIARIO",
+     "lat": -12.08485,
+     "lng": -77.06342,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo X01": [
+       66.31,
+       2,
+       "PEN",
+       459000.0
+      ],
+      "Modelo X02": [
+       55.9,
+       2,
+       "PEN",
+       376500.0
+      ]
+     },
+     "primero": {
+      "Modelo X01": [
+       "PEN",
+       459000.0,
+       20716
+      ],
+      "Modelo X02": [
+       "PEN",
+       376500.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3345": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/oceanika-3345",
+     "tipo": "departamentos",
+     "dist": "San Miguel",
+     "nombre": "OCEANIKA",
+     "marca": "SAN CHARBEL EDIFICACIONES",
+     "lat": -12.09221,
+     "lng": -77.08113,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo TIPO 5": [
+       39.06,
+       1,
+       "PEN",
+       329969.0
+      ],
+      "Modelo TIPO 6": [
+       36.65,
+       1,
+       "PEN",
+       336761.0
+      ],
+      "Modelo TIPO 8": [
+       24.0,
+       1,
+       "PEN",
+       225592.0
+      ],
+      "Modelo TIPO 10": [
+       53.33,
+       2,
+       "PEN",
+       517058.0
+      ],
+      "Modelo TIPO 1": [
+       72.41,
+       3,
+       "PEN",
+       869279.0
+      ],
+      "Modelo TIPO 7B": [
+       56.95,
+       2,
+       "PEN",
+       465430.0
+      ],
+      "Modelo TIPO 3B": [
+       34.8,
+       1,
+       "PEN",
+       402800.0
+      ],
+      "Modelo TIPO 3C": [
+       34.77,
+       1,
+       "PEN",
+       429789.0
+      ],
+      "Modelo TIPO 102": [
+       31.71,
+       1,
+       "PEN",
+       303449.0
+      ],
+      "Modelo TIPO 104": [
+       29.75,
+       1,
+       "PEN",
+       243823.0
+      ],
+      "Modelo TIPO 105": [
+       66.14,
+       2,
+       "PEN",
+       517602.0
+      ],
+      "Modelo TIPO 108": [
+       67.7,
+       2,
+       "PEN",
+       525557.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 5": [
+       "PEN",
+       329969.0,
+       20716
+      ],
+      "Modelo TIPO 6": [
+       "PEN",
+       336761.0,
+       20716
+      ],
+      "Modelo TIPO 8": [
+       "PEN",
+       225592.0,
+       20716
+      ],
+      "Modelo TIPO 10": [
+       "PEN",
+       517058.0,
+       20716
+      ],
+      "Modelo TIPO 1": [
+       "PEN",
+       869279.0,
+       20716
+      ],
+      "Modelo TIPO 7B": [
+       "PEN",
+       465430.0,
+       20716
+      ],
+      "Modelo TIPO 3B": [
+       "PEN",
+       402800.0,
+       20716
+      ],
+      "Modelo TIPO 3C": [
+       "PEN",
+       429789.0,
+       20716
+      ],
+      "Modelo TIPO 102": [
+       "PEN",
+       303449.0,
+       20716
+      ],
+      "Modelo TIPO 104": [
+       "PEN",
+       243823.0,
+       20716
+      ],
+      "Modelo TIPO 105": [
+       "PEN",
+       517602.0,
+       20716
+      ],
+      "Modelo TIPO 108": [
+       "PEN",
+       525557.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3346": {
+     "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/kauri-3346",
+     "tipo": "departamentos",
+     "dist": "Pueblo Libre",
+     "nombre": "Kaurí",
+     "marca": "ABRIL GRUPO INMOBILIARIO",
+     "lat": -12.07801,
+     "lng": -77.06834,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo KAU - 211, 312 AL 2012": [
+       54.49,
+       2,
+       "PEN",
+       367769.0
+      ],
+      "Modelo KAU - 212, 313 AL 2013": [
+       55.14,
+       2,
+       "PEN",
+       349159.0
+      ],
+      "Modelo KAU - 305 AL 2005": [
+       69.95,
+       3,
+       "PEN",
+       425246.0
+      ],
+      "Modelo KAU - 306 AL 2006": [
+       57.6,
+       2,
+       "PEN",
+       378959.0
+      ],
+      "Modelo KAU - 307 AL 2007": [
+       72.01,
+       3,
+       "PEN",
+       437202.0
+      ],
+      "Modelo KAU - 311 AL 2011": [
+       81.39,
+       3,
+       "PEN",
+       519540.0
+      ]
+     },
+     "primero": {
+      "Modelo KAU - 211, 312 AL 2012": [
+       "PEN",
+       367769.0,
+       20716
+      ],
+      "Modelo KAU - 212, 313 AL 2013": [
+       "PEN",
+       349159.0,
+       20716
+      ],
+      "Modelo KAU - 305 AL 2005": [
+       "PEN",
+       425246.0,
+       20716
+      ],
+      "Modelo KAU - 306 AL 2006": [
+       "PEN",
+       378959.0,
+       20716
+      ],
+      "Modelo KAU - 307 AL 2007": [
+       "PEN",
+       437202.0,
+       20716
+      ],
+      "Modelo KAU - 311 AL 2011": [
+       "PEN",
+       519540.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3347": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/maximo-abril-3347",
+     "tipo": "departamentos",
+     "dist": "Jesus Maria",
+     "nombre": "Máximo Abril",
+     "marca": "ABRIL GRUPO INMOBILIARIO",
+     "lat": -12.0713,
+     "lng": -77.03969,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo MAX-201AL2001": [
+       72.41,
+       3,
+       "PEN",
+       523296.0
+      ],
+      "Modelo MAX-202AL2002": [
+       75.62,
+       3,
+       "PEN",
+       555140.0
+      ],
+      "Modelo MAX-203-304AL2004": [
+       56.38,
+       2,
+       "PEN",
+       411309.0
+      ],
+      "Modelo MAX-205-306AL2006": [
+       58.0,
+       2,
+       "PEN",
+       417805.0
+      ],
+      "Modelo MAX-206-307AL2007": [
+       67.06,
+       3,
+       "PEN",
+       455377.0
+      ]
+     },
+     "primero": {
+      "Modelo MAX-201AL2001": [
+       "PEN",
+       523296.0,
+       20716
+      ],
+      "Modelo MAX-202AL2002": [
+       "PEN",
+       555140.0,
+       20716
+      ],
+      "Modelo MAX-203-304AL2004": [
+       "PEN",
+       411309.0,
+       20716
+      ],
+      "Modelo MAX-205-306AL2006": [
+       "PEN",
+       417805.0,
+       20716
+      ],
+      "Modelo MAX-206-307AL2007": [
+       "PEN",
+       455377.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3348": {
+     "u": "https://nexoinmobiliario.pe/departamentos/miraflores/sucre-45-3348",
+     "tipo": "departamentos",
+     "dist": "Miraflores",
+     "nombre": "SUCRE 45",
+     "marca": "VIDARQ",
+     "lat": -12.12675,
+     "lng": -77.02555,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo X04": [
+       67.7,
+       2,
+       "PEN",
+       692000.0
+      ],
+      "Modelo X01": [
+       79.5,
+       3,
+       "PEN",
+       795000.0
+      ],
+      "Modelo X02": [
+       59.7,
+       2,
+       "PEN",
+       696000.0
+      ],
+      "Modelo X03": [
+       94.4,
+       3,
+       "PEN",
+       861000.0
+      ]
+     },
+     "primero": {
+      "Modelo X04": [
+       "PEN",
+       692000.0,
+       20716
+      ],
+      "Modelo X01": [
+       "PEN",
+       795000.0,
+       20716
+      ],
+      "Modelo X02": [
+       "PEN",
+       696000.0,
+       20716
+      ],
+      "Modelo X03": [
+       "PEN",
+       861000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3358": {
+     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/central-home-chacarilla-3358",
+     "tipo": "departamentos",
+     "dist": "Santiago De Surco",
+     "nombre": "Central Home Chacarilla",
+     "marca": "EE INMOBILIARIA",
+     "lat": -12.11276,
+     "lng": -76.99036,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo Dpto. 101": [
+       55.0,
+       1,
+       "PEN",
+       430000.0
+      ],
+      "Modelo Dpto. 904": [
+       81.0,
+       3,
+       "PEN",
+       625000.0
+      ],
+      "Modelo Dpto. 1501": [
+       76.0,
+       3,
+       "PEN",
+       595000.0
+      ],
+      "Modelo Típico 4-A": [
+       82.0,
+       3,
+       "PEN",
+       615000.0
+      ],
+      "Modelo Típico 4-B": [
+       82.0,
+       3,
+       "PEN",
+       625000.0
+      ],
+      "Modelo Dpto. 804": [
+       82.0,
+       3,
+       "PEN",
+       625000.0
+      ],
+      "Modelo Dpto. 305": [
+       82.0,
+       2,
+       "PEN",
+       615000.0
+      ],
+      "Modelo Típico 5-A": [
+       82.0,
+       2,
+       "PEN",
+       620000.0
+      ],
+      "Modelo Duplex 1504": [
+       124.5,
+       3,
+       "PEN",
+       791000.0
+      ],
+      "Modelo Duplex 1505": [
+       124.5,
+       3,
+       "PEN",
+       787000.0
+      ]
+     },
+     "primero": {
+      "Modelo Dpto. 101": [
+       "PEN",
+       430000.0,
+       20716
+      ],
+      "Modelo Dpto. 904": [
+       "PEN",
+       625000.0,
+       20716
+      ],
+      "Modelo Dpto. 1501": [
+       "PEN",
+       595000.0,
+       20716
+      ],
+      "Modelo Típico 4-A": [
+       "PEN",
+       615000.0,
+       20716
+      ],
+      "Modelo Típico 4-B": [
+       "PEN",
+       625000.0,
+       20716
+      ],
+      "Modelo Dpto. 804": [
+       "PEN",
+       625000.0,
+       20716
+      ],
+      "Modelo Dpto. 305": [
+       "PEN",
+       615000.0,
+       20716
+      ],
+      "Modelo Típico 5-A": [
+       "PEN",
+       620000.0,
+       20716
+      ],
+      "Modelo Duplex 1504": [
+       "PEN",
+       791000.0,
+       20716
+      ],
+      "Modelo Duplex 1505": [
+       "PEN",
+       787000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3360": {
+     "u": "https://nexoinmobiliario.pe/departamentos/barranco/horne-3360",
+     "tipo": "departamentos",
+     "dist": "Barranco",
+     "nombre": "Horne",
+     "marca": "CALICANTO",
+     "lat": -12.13834,
+     "lng": -77.01852,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo SX01": [
+       89.03,
+       2,
+       "PEN",
+       665767.0
+      ],
+      "Modelo SX02": [
+       46.55,
+       1,
+       "PEN",
+       390592.0
+      ],
+      "Modelo SX03": [
+       85.07,
+       2,
+       "PEN",
+       610311.0
+      ],
+      "Modelo SX05": [
+       85.63,
+       2,
+       "PEN",
+       610311.0
+      ],
+      "Modelo SX06": [
+       48.75,
+       1,
+       "PEN",
+       398196.0
+      ],
+      "Modelo X06": [
+       62.05,
+       2,
+       "PEN",
+       518171.0
+      ],
+      "Modelo X07": [
+       72.84,
+       2,
+       "PEN",
+       595913.0
+      ],
+      "Modelo X08": [
+       73.3,
+       2,
+       "PEN",
+       625879.0
+      ],
+      "Modelo X09": [
+       63.72,
+       2,
+       "PEN",
+       518171.0
+      ],
+      "Modelo 704": [
+       115.64,
+       2,
+       "PEN",
+       836156.0
+      ],
+      "Modelo 706": [
+       121.11,
+       2,
+       "PEN",
+       900741.0
+      ],
+      "Modelo 707": [
+       136.72,
+       3,
+       "PEN",
+       1073857.0
+      ],
+      "Modelo 708": [
+       136.45,
+       3,
+       "PEN",
+       1073857.0
+      ],
+      "Modelo 709": [
+       123.22,
+       2,
+       "PEN",
+       900741.0
+      ],
+      "Modelo 702": [
+       115.05,
+       2,
+       "PEN",
+       836156.0
+      ]
+     },
+     "primero": {
+      "Modelo SX01": [
+       "PEN",
+       665767.0,
+       20716
+      ],
+      "Modelo SX02": [
+       "PEN",
+       390592.0,
+       20716
+      ],
+      "Modelo SX03": [
+       "PEN",
+       610311.0,
+       20716
+      ],
+      "Modelo SX05": [
+       "PEN",
+       610311.0,
+       20716
+      ],
+      "Modelo SX06": [
+       "PEN",
+       398196.0,
+       20716
+      ],
+      "Modelo X06": [
+       "PEN",
+       518171.0,
+       20716
+      ],
+      "Modelo X07": [
+       "PEN",
+       595913.0,
+       20716
+      ],
+      "Modelo X08": [
+       "PEN",
+       625879.0,
+       20716
+      ],
+      "Modelo X09": [
+       "PEN",
+       518171.0,
+       20716
+      ],
+      "Modelo 704": [
+       "PEN",
+       836156.0,
+       20716
+      ],
+      "Modelo 706": [
+       "PEN",
+       900741.0,
+       20716
+      ],
+      "Modelo 707": [
+       "PEN",
+       1073857.0,
+       20716
+      ],
+      "Modelo 708": [
+       "PEN",
+       1073857.0,
+       20716
+      ],
+      "Modelo 709": [
+       "PEN",
+       900741.0,
+       20716
+      ],
+      "Modelo 702": [
+       "PEN",
+       836156.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3362": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/edificio-blend-3362",
+     "tipo": "departamentos",
+     "dist": "Jesus Maria",
+     "nombre": "EDIFICIO BLEND",
+     "marca": "LUGANO",
+     "lat": -12.07155,
+     "lng": -77.04687,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo PRIMER PISO": [
+       68.47,
+       3,
+       "PEN",
+       641700.0
+      ],
+      "Modelo 2": [
+       70.55,
+       3,
+       "PEN",
+       610000.0
+      ],
+      "Modelo 3": [
+       71.05,
+       3,
+       "PEN",
+       519000.0
+      ],
+      "Modelo 4": [
+       67.34,
+       3,
+       "PEN",
+       497000.0
+      ],
+      "Modelo 5": [
+       56.42,
+       2,
+       "PEN",
+       495000.0
+      ],
+      "Modelo 6": [
+       66.31,
+       3,
+       "PEN",
+       491000.0
+      ],
+      "Modelo 7": [
+       68.35,
+       3,
+       "PEN",
+       503000.0
+      ],
+      "Modelo 8": [
+       43.23,
+       1,
+       "PEN",
+       380000.0
+      ],
+      "Modelo 9": [
+       40.0,
+       1,
+       "PEN",
+       355000.0
+      ],
+      "Modelo 1": [
+       70.5,
+       3,
+       "PEN",
+       610000.0
+      ]
+     },
+     "primero": {
+      "Modelo PRIMER PISO": [
+       "PEN",
+       641700.0,
+       20716
+      ],
+      "Modelo 2": [
+       "PEN",
+       610000.0,
+       20716
+      ],
+      "Modelo 3": [
+       "PEN",
+       519000.0,
+       20716
+      ],
+      "Modelo 4": [
+       "PEN",
+       497000.0,
+       20716
+      ],
+      "Modelo 5": [
+       "PEN",
+       495000.0,
+       20716
+      ],
+      "Modelo 6": [
+       "PEN",
+       491000.0,
+       20716
+      ],
+      "Modelo 7": [
+       "PEN",
+       503000.0,
+       20716
+      ],
+      "Modelo 8": [
+       "PEN",
+       380000.0,
+       20716
+      ],
+      "Modelo 9": [
+       "PEN",
+       355000.0,
+       20716
+      ],
+      "Modelo 1": [
+       "PEN",
+       610000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3370": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/suma-los-geranios-124-3370",
+     "tipo": "departamentos",
+     "dist": "San Isidro",
+     "nombre": "SUMA LOS GERANIOS 124",
+     "marca": "GRUPO DICON",
+     "lat": -12.09085,
+     "lng": -77.02927,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO 1A": [
+       45.35,
+       1,
+       "PEN",
+       420000.0
+      ],
+      "Modelo TIPO 1B": [
+       51.44,
+       1,
+       "PEN",
+       450545.0
+      ],
+      "Modelo TIPO 2C": [
+       54.18,
+       1,
+       "PEN",
+       467000.0
+      ],
+      "Modelo TIPO 2E": [
+       63.48,
+       2,
+       "PEN",
+       542000.0
+      ],
+      "Modelo TIPO 2: DUO": [
+       70.43,
+       2,
+       "PEN",
+       607200.0
+      ],
+      "Modelo TIPO 3 FAMILY": [
+       70.63,
+       2,
+       "PEN",
+       613000.0
+      ],
+      "Modelo TIPO 3B": [
+       73.54,
+       2,
+       "PEN",
+       659000.0
+      ],
+      "Modelo TIPO 3C": [
+       74.34,
+       2,
+       "PEN",
+       667000.0
+      ],
+      "Modelo TIPO 3D": [
+       79.09,
+       2,
+       "PEN",
+       679000.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 1A": [
+       "PEN",
+       420000.0,
+       20716
+      ],
+      "Modelo TIPO 1B": [
+       "PEN",
+       450545.0,
+       20716
+      ],
+      "Modelo TIPO 2C": [
+       "PEN",
+       467000.0,
+       20716
+      ],
+      "Modelo TIPO 2E": [
+       "PEN",
+       542000.0,
+       20716
+      ],
+      "Modelo TIPO 2: DUO": [
+       "PEN",
+       607200.0,
+       20716
+      ],
+      "Modelo TIPO 3 FAMILY": [
+       "PEN",
+       613000.0,
+       20716
+      ],
+      "Modelo TIPO 3B": [
+       "PEN",
+       659000.0,
+       20716
+      ],
+      "Modelo TIPO 3C": [
+       "PEN",
+       667000.0,
+       20716
+      ],
+      "Modelo TIPO 3D": [
+       "PEN",
+       679000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3371": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/nuova-vita-3371",
+     "tipo": "departamentos",
+     "dist": "Jesus Maria",
+     "nombre": "NUOVA VITA",
+     "marca": "GRUPO SOL",
+     "lat": -12.07897,
+     "lng": -77.04515,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo X02": [
+       61.0,
+       2,
+       "PEN",
+       557000.0
+      ],
+      "Modelo X04": [
+       70.6,
+       3,
+       "PEN",
+       564000.0
+      ]
+     },
+     "primero": {
+      "Modelo X02": [
+       "PEN",
+       557000.0,
+       20716
+      ],
+      "Modelo X04": [
+       "PEN",
+       564000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3375": {
+     "u": "https://nexoinmobiliario.pe/departamentos/miraflores/escudero-3375",
+     "tipo": "departamentos",
+     "dist": "Miraflores",
+     "nombre": "ESCUDERO",
+     "marca": "ELSVAN CONSTRUCCIONES INMOBILIARIAS",
+     "lat": -12.12513,
+     "lng": -77.00404,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo TIPO A": [
+       62.15,
+       2,
+       "PEN",
+       525000.0
+      ],
+      "Modelo TIPO B": [
+       81.12,
+       3,
+       "PEN",
+       687000.0
+      ],
+      "Modelo TIPO C": [
+       83.65,
+       3,
+       "PEN",
+       706000.0
+      ],
+      "Modelo TIPO D": [
+       80.0,
+       3,
+       "PEN",
+       676000.0
+      ],
+      "Modelo TIPO G": [
+       66.31,
+       2,
+       "PEN",
+       560000.0
+      ],
+      "Modelo TIPO L": [
+       94.3,
+       3,
+       "PEN",
+       799000.0
+      ],
+      "Modelo TIPO K": [
+       107.27,
+       2,
+       "PEN",
+       869000.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO A": [
+       "PEN",
+       525000.0,
+       20716
+      ],
+      "Modelo TIPO B": [
+       "PEN",
+       687000.0,
+       20716
+      ],
+      "Modelo TIPO C": [
+       "PEN",
+       706000.0,
+       20716
+      ],
+      "Modelo TIPO D": [
+       "PEN",
+       676000.0,
+       20716
+      ],
+      "Modelo TIPO G": [
+       "PEN",
+       560000.0,
+       20716
+      ],
+      "Modelo TIPO L": [
+       "PEN",
+       799000.0,
+       20716
+      ],
+      "Modelo TIPO K": [
+       "PEN",
+       869000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3376": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/naxos-3376",
+     "tipo": "departamentos",
+     "dist": "Jesus Maria",
+     "nombre": "NAXOS",
+     "marca": "IFI INMOBILIARIA",
+     "lat": -12.07976,
+     "lng": -77.04924,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo 3": [
+       75.0,
+       3,
+       "PEN",
+       673000.0
+      ],
+      "Modelo 4": [
+       73.0,
+       3,
+       "PEN",
+       627000.0
+      ],
+      "Modelo 1B": [
+       51.0,
+       1,
+       "PEN",
+       435000.0
+      ]
+     },
+     "primero": {
+      "Modelo 3": [
+       "PEN",
+       673000.0,
+       20716
+      ],
+      "Modelo 4": [
+       "PEN",
+       627000.0,
+       20716
+      ],
+      "Modelo 1B": [
+       "PEN",
+       435000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3378": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/altavista-aranibar-3378",
+     "tipo": "departamentos",
+     "dist": "San Isidro",
+     "nombre": "Altavista Aranibar",
+     "marca": "TALE INMOBILIARIA",
+     "lat": -12.10821,
+     "lng": -77.05336,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo TIPO 1": [
+       94.41,
+       3,
+       "PEN",
+       929000.0
+      ],
+      "Modelo TIPO 2": [
+       63.87,
+       2,
+       "PEN",
+       759000.0
+      ],
+      "Modelo TIPO 3": [
+       40.63,
+       1,
+       "PEN",
+       482000.0
+      ],
+      "Modelo X204": [
+       65.59,
+       2,
+       "PEN",
+       520000.0
+      ],
+      "Modelo TIPO 7": [
+       75.86,
+       3,
+       "PEN",
+       609000.0
+      ],
+      "Modelo X304": [
+       47.56,
+       1,
+       "PEN",
+       519000.0
+      ],
+      "Modelo TIPO 4": [
+       41.76,
+       1,
+       "PEN",
+       480000.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 1": [
+       "PEN",
+       929000.0,
+       20716
+      ],
+      "Modelo TIPO 2": [
+       "PEN",
+       759000.0,
+       20716
+      ],
+      "Modelo TIPO 3": [
+       "PEN",
+       482000.0,
+       20716
+      ],
+      "Modelo X204": [
+       "PEN",
+       520000.0,
+       20716
+      ],
+      "Modelo TIPO 7": [
+       "PEN",
+       609000.0,
+       20716
+      ],
+      "Modelo X304": [
+       "PEN",
+       519000.0,
+       20716
+      ],
+      "Modelo TIPO 4": [
+       "PEN",
+       480000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3379": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/ciudaris-i-monet-3379",
+     "tipo": "departamentos",
+     "dist": "Jesus Maria",
+     "nombre": "CIUDARIS I MONET",
+     "marca": "CIUDARIS",
+     "lat": -12.07286,
+     "lng": -77.04325,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo Tipo 6": [
+       56.75,
+       2,
+       "PEN",
+       520000.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo 6": [
+       "PEN",
+       520000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3381": {
+     "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/novo-3-santa-beatriz-3381",
+     "tipo": "departamentos",
+     "dist": "Cercado De Lima",
+     "nombre": "NOVO 3",
+     "marca": "MY HOME",
+     "lat": -12.07328,
+     "lng": -77.03092,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo Tipo 1 A": [
+       37.0,
+       1,
+       "PEN",
+       294000.0
+      ],
+      "Modelo Tipo 2 B": [
+       51.0,
+       2,
+       "PEN",
+       385000.0
+      ],
+      "Modelo Tipo 2 C": [
+       53.0,
+       2,
+       "PEN",
+       380000.0
+      ],
+      "Modelo Tipo 3C2": [
+       62.0,
+       2,
+       "PEN",
+       390000.0
+      ],
+      "Modelo Tipo 3C1": [
+       62.0,
+       2,
+       "PEN",
+       395000.0
+      ],
+      "Modelo Tipo 4": [
+       51.0,
+       2,
+       "PEN",
+       355000.0
+      ],
+      "Modelo Tipo 5": [
+       39.0,
+       1,
+       "PEN",
+       290000.0
+      ],
+      "Modelo Tipo 6": [
+       36.0,
+       1,
+       "PEN",
+       290000.0
+      ],
+      "Modelo Tipo 7": [
+       56.0,
+       2,
+       "PEN",
+       360000.0
+      ],
+      "Modelo Tipo Único 201": [
+       48.0,
+       1,
+       "PEN",
+       335000.0
+      ],
+      "Modelo Tipo Único 202": [
+       33.0,
+       1,
+       "PEN",
+       280000.0
+      ],
+      "Modelo Tipo Único 203": [
+       39.0,
+       1,
+       "PEN",
+       290000.0
+      ],
+      "Modelo Tipo Único 304": [
+       51.0,
+       1,
+       "PEN",
+       371000.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo 1 A": [
+       "PEN",
+       294000.0,
+       20716
+      ],
+      "Modelo Tipo 2 B": [
+       "PEN",
+       385000.0,
+       20716
+      ],
+      "Modelo Tipo 2 C": [
+       "PEN",
+       380000.0,
+       20716
+      ],
+      "Modelo Tipo 3C2": [
+       "PEN",
+       390000.0,
+       20716
+      ],
+      "Modelo Tipo 3C1": [
+       "PEN",
+       395000.0,
+       20716
+      ],
+      "Modelo Tipo 4": [
+       "PEN",
+       355000.0,
+       20716
+      ],
+      "Modelo Tipo 5": [
+       "PEN",
+       290000.0,
+       20716
+      ],
+      "Modelo Tipo 6": [
+       "PEN",
+       290000.0,
+       20716
+      ],
+      "Modelo Tipo 7": [
+       "PEN",
+       360000.0,
+       20716
+      ],
+      "Modelo Tipo Único 201": [
+       "PEN",
+       335000.0,
+       20716
+      ],
+      "Modelo Tipo Único 202": [
+       "PEN",
+       280000.0,
+       20716
+      ],
+      "Modelo Tipo Único 203": [
+       "PEN",
+       290000.0,
+       20716
+      ],
+      "Modelo Tipo Único 304": [
+       "PEN",
+       371000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3384": {
+     "u": "https://nexoinmobiliario.pe/departamentos/lince/zentro-3384",
+     "tipo": "departamentos",
+     "dist": "Lince",
+     "nombre": "ZENTRO",
+     "marca": "CENTRAL INMOBILIARIA",
+     "lat": -12.08146,
+     "lng": -77.03416,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo 1B": [
+       61.96,
+       1,
+       "PEN",
+       444500.0
+      ],
+      "Modelo 1": [
+       140.63,
+       3,
+       "PEN",
+       909100.0
+      ],
+      "Modelo 4": [
+       67.34,
+       3,
+       "PEN",
+       518518.0
+      ],
+      "Modelo 2": [
+       74.51,
+       3,
+       "PEN",
+       573800.0
+      ]
+     },
+     "primero": {
+      "Modelo 1B": [
+       "PEN",
+       444500.0,
+       20716
+      ],
+      "Modelo 1": [
+       "PEN",
+       909100.0,
+       20716
+      ],
+      "Modelo 4": [
+       "PEN",
+       518518.0,
+       20716
+      ],
+      "Modelo 2": [
+       "PEN",
+       573800.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3385": {
+     "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/albamar-re-3385",
+     "tipo": "departamentos",
+     "dist": "Cercado De Lima",
+     "nombre": "Albamar | Re+",
+     "marca": "ALBAMAR GRUPO INMOBILIARIO",
+     "lat": -12.04831,
+     "lng": -77.06417,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo MODELO 1": [
+       64.48,
+       2,
+       "PEN",
+       314000.0
+      ],
+      "Modelo MODELO 2": [
+       64.13,
+       3,
+       "PEN",
+       327000.0
+      ],
+      "Modelo MODELO 3": [
+       58.86,
+       2,
+       "PEN",
+       291300.0
+      ],
+      "Modelo MODELO 4": [
+       62.89,
+       3,
+       "PEN",
+       305000.0
+      ],
+      "Modelo MODELO 5": [
+       44.94,
+       2,
+       "PEN",
+       253400.0
+      ],
+      "Modelo MODELO 6": [
+       31.39,
+       1,
+       "PEN",
+       189000.0
+      ],
+      "Modelo MODELO 7": [
+       63.15,
+       3,
+       "PEN",
+       301700.0
+      ],
+      "Modelo MODELO 8": [
+       63.72,
+       3,
+       "PEN",
+       302100.0
+      ],
+      "Modelo MODELO 9": [
+       56.7,
+       2,
+       "PEN",
+       276200.0
+      ],
+      "Modelo MODELO 10": [
+       48.81,
+       2,
+       "PEN",
+       276300.0
+      ],
+      "Modelo MODELO 11": [
+       50.46,
+       2,
+       "PEN",
+       287700.0
+      ]
+     },
+     "primero": {
+      "Modelo MODELO 1": [
+       "PEN",
+       314000.0,
+       20716
+      ],
+      "Modelo MODELO 2": [
+       "PEN",
+       327000.0,
+       20716
+      ],
+      "Modelo MODELO 3": [
+       "PEN",
+       291300.0,
+       20716
+      ],
+      "Modelo MODELO 4": [
+       "PEN",
+       305000.0,
+       20716
+      ],
+      "Modelo MODELO 5": [
+       "PEN",
+       253400.0,
+       20716
+      ],
+      "Modelo MODELO 6": [
+       "PEN",
+       189000.0,
+       20716
+      ],
+      "Modelo MODELO 7": [
+       "PEN",
+       301700.0,
+       20716
+      ],
+      "Modelo MODELO 8": [
+       "PEN",
+       302100.0,
+       20716
+      ],
+      "Modelo MODELO 9": [
+       "PEN",
+       276200.0,
+       20716
+      ],
+      "Modelo MODELO 10": [
+       "PEN",
+       276300.0,
+       20716
+      ],
+      "Modelo MODELO 11": [
+       "PEN",
+       287700.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3390": {
+     "u": "https://nexoinmobiliario.pe/departamentos/comas/residencial-seiss-3390",
+     "tipo": "departamentos",
+     "dist": "Comas",
+     "nombre": "RESIDENCIAL SEISS",
+     "marca": "LIDER",
+     "lat": -11.93366,
+     "lng": -77.06357,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo M01": [
+       54.06,
+       2,
+       "PEN",
+       282200.0
+      ],
+      "Modelo M02": [
+       56.88,
+       2,
+       "PEN",
+       286700.0
+      ],
+      "Modelo T03": [
+       57.42,
+       2,
+       "PEN",
+       291400.0
+      ],
+      "Modelo T04": [
+       56.57,
+       2,
+       "PEN",
+       294500.0
+      ],
+      "Modelo T05": [
+       58.13,
+       2,
+       "PEN",
+       297800.0
+      ],
+      "Modelo M06": [
+       56.71,
+       2,
+       "PEN",
+       306500.0
+      ],
+      "Modelo T07": [
+       57.98,
+       2,
+       "PEN",
+       291800.0
+      ],
+      "Modelo T09": [
+       57.98,
+       2,
+       "PEN",
+       287500.0
+      ],
+      "Modelo T10": [
+       57.47,
+       2,
+       "PEN",
+       292500.0
+      ],
+      "Modelo M11": [
+       55.82,
+       2,
+       "PEN",
+       290000.0
+      ],
+      "Modelo T08": [
+       56.53,
+       2,
+       "PEN",
+       287500.0
+      ]
+     },
+     "primero": {
+      "Modelo M01": [
+       "PEN",
+       282200.0,
+       20716
+      ],
+      "Modelo M02": [
+       "PEN",
+       286700.0,
+       20716
+      ],
+      "Modelo T03": [
+       "PEN",
+       291400.0,
+       20716
+      ],
+      "Modelo T04": [
+       "PEN",
+       294500.0,
+       20716
+      ],
+      "Modelo T05": [
+       "PEN",
+       297800.0,
+       20716
+      ],
+      "Modelo M06": [
+       "PEN",
+       306500.0,
+       20716
+      ],
+      "Modelo T07": [
+       "PEN",
+       291800.0,
+       20716
+      ],
+      "Modelo T09": [
+       "PEN",
+       287500.0,
+       20716
+      ],
+      "Modelo T10": [
+       "PEN",
+       292500.0,
+       20716
+      ],
+      "Modelo M11": [
+       "PEN",
+       290000.0,
+       20716
+      ],
+      "Modelo T08": [
+       "PEN",
+       287500.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3391": {
+     "u": "https://nexoinmobiliario.pe/departamentos/miraflores/aster-reducto-3391",
+     "tipo": "departamentos",
+     "dist": "Miraflores",
+     "nombre": "ASTER REDUCTO",
+     "marca": "ASTER HOMES",
+     "lat": -12.13373,
+     "lng": -77.02316,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo X01": [
+       82.73,
+       3,
+       "PEN",
+       765910.0
+      ],
+      "Modelo X02": [
+       82.59,
+       3,
+       "PEN",
+       805033.0
+      ],
+      "Modelo X03": [
+       98.67,
+       3,
+       "PEN",
+       937831.0
+      ],
+      "Modelo X04": [
+       70.01,
+       2,
+       "PEN",
+       779643.0
+      ],
+      "Modelo X05": [
+       90.17,
+       3,
+       "PEN",
+       890434.0
+      ],
+      "Modelo X06": [
+       67.86,
+       2,
+       "PEN",
+       644992.0
+      ],
+      "Modelo X07": [
+       61.17,
+       2,
+       "PEN",
+       663664.0
+      ],
+      "Modelo X08": [
+       61.32,
+       2,
+       "PEN",
+       668927.0
+      ]
+     },
+     "primero": {
+      "Modelo X01": [
+       "PEN",
+       765910.0,
+       20716
+      ],
+      "Modelo X02": [
+       "PEN",
+       805033.0,
+       20716
+      ],
+      "Modelo X03": [
+       "PEN",
+       937831.0,
+       20716
+      ],
+      "Modelo X04": [
+       "PEN",
+       779643.0,
+       20716
+      ],
+      "Modelo X05": [
+       "PEN",
+       890434.0,
+       20716
+      ],
+      "Modelo X06": [
+       "PEN",
+       644992.0,
+       20716
+      ],
+      "Modelo X07": [
+       "PEN",
+       663664.0,
+       20716
+      ],
+      "Modelo X08": [
+       "PEN",
+       668927.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3392": {
+     "u": "https://nexoinmobiliario.pe/departamentos/lince/cross-3392",
+     "tipo": "departamentos",
+     "dist": "Lince",
+     "nombre": "Cross",
+     "marca": "GRANADERO INMOBILIARIA",
+     "lat": -12.08687,
+     "lng": -77.02854,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo TIPO 1 - SIN BALCÓN": [
+       62.85,
+       3,
+       "PEN",
+       439000.0
+      ],
+      "Modelo TIPO 2 - SIN BALCÓN": [
+       54.37,
+       2,
+       "PEN",
+       414720.0
+      ],
+      "Modelo TIPO 3 - SIN BALCÓN": [
+       65.88,
+       3,
+       "PEN",
+       476160.0
+      ],
+      "Modelo TIPO 4": [
+       51.75,
+       2,
+       "PEN",
+       391680.0
+      ],
+      "Modelo TIPO 5": [
+       37.93,
+       1,
+       "PEN",
+       305280.0
+      ],
+      "Modelo TIPO 1 - CON BALCÓN": [
+       63.74,
+       3,
+       "PEN",
+       456000.0
+      ],
+      "Modelo TIPO 3 - CON BALCÓN": [
+       66.73,
+       3,
+       "PEN",
+       472320.0
+      ],
+      "Modelo TIPO 2 - CON BALCÓN": [
+       55.38,
+       2,
+       "PEN",
+       425280.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 1 - SIN BALCÓN": [
+       "PEN",
+       439000.0,
+       20716
+      ],
+      "Modelo TIPO 2 - SIN BALCÓN": [
+       "PEN",
+       414720.0,
+       20716
+      ],
+      "Modelo TIPO 3 - SIN BALCÓN": [
+       "PEN",
+       476160.0,
+       20716
+      ],
+      "Modelo TIPO 4": [
+       "PEN",
+       391680.0,
+       20716
+      ],
+      "Modelo TIPO 5": [
+       "PEN",
+       305280.0,
+       20716
+      ],
+      "Modelo TIPO 1 - CON BALCÓN": [
+       "PEN",
+       456000.0,
+       20716
+      ],
+      "Modelo TIPO 3 - CON BALCÓN": [
+       "PEN",
+       472320.0,
+       20716
+      ],
+      "Modelo TIPO 2 - CON BALCÓN": [
+       "PEN",
+       425280.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3394": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-borja/vision-prado-3394",
+     "tipo": "departamentos",
+     "dist": "San Borja",
+     "nombre": "VISIÓN PRADO",
+     "marca": "INMOVISION",
+     "lat": -12.08838,
+     "lng": -77.00284,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo X01": [
+       60.05,
+       2,
+       "PEN",
+       505319.0
+      ],
+      "Modelo X02": [
+       67.45,
+       3,
+       "PEN",
+       574043.0
+      ],
+      "Modelo X03-I": [
+       50.23,
+       1,
+       "PEN",
+       420183.0
+      ],
+      "Modelo X03-S": [
+       50.06,
+       1,
+       "PEN",
+       407261.0
+      ],
+      "Modelo X04-I": [
+       64.05,
+       2,
+       "PEN",
+       521809.0
+      ],
+      "Modelo X04-S": [
+       63.63,
+       2,
+       "PEN",
+       526596.0
+      ]
+     },
+     "primero": {
+      "Modelo X01": [
+       "PEN",
+       505319.0,
+       20716
+      ],
+      "Modelo X02": [
+       "PEN",
+       574043.0,
+       20716
+      ],
+      "Modelo X03-I": [
+       "PEN",
+       420183.0,
+       20716
+      ],
+      "Modelo X03-S": [
+       "PEN",
+       407261.0,
+       20716
+      ],
+      "Modelo X04-I": [
+       "PEN",
+       521809.0,
+       20716
+      ],
+      "Modelo X04-S": [
+       "PEN",
+       526596.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3395": {
+     "u": "https://nexoinmobiliario.pe/departamentos/rimac/las-lomas-residencial-ecoamigable-3395",
+     "tipo": "departamentos",
+     "dist": "Rimac",
+     "nombre": "Las Lomas Residencial Ecoamigable",
+     "marca": "BESCO",
+     "lat": -12.01685,
+     "lng": -77.04182,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo Dpto. 3": [
+       55.56,
+       2,
+       "PEN",
+       323970.0
+      ],
+      "Modelo Dpto. 8": [
+       57.19,
+       2,
+       "PEN",
+       349290.0
+      ],
+      "Modelo Dpto. 02": [
+       55.77,
+       2,
+       "PEN",
+       323690.0
+      ],
+      "Modelo Dpto. 1": [
+       57.47,
+       2,
+       "PEN",
+       343790.0
+      ],
+      "Modelo Dpto. 5": [
+       60.49,
+       3,
+       "PEN",
+       374268.0
+      ]
+     },
+     "primero": {
+      "Modelo Dpto. 3": [
+       "PEN",
+       323970.0,
+       20716
+      ],
+      "Modelo Dpto. 8": [
+       "PEN",
+       349290.0,
+       20716
+      ],
+      "Modelo Dpto. 02": [
+       "PEN",
+       323690.0,
+       20716
+      ],
+      "Modelo Dpto. 1": [
+       "PEN",
+       343790.0,
+       20716
+      ],
+      "Modelo Dpto. 5": [
+       "PEN",
+       374268.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3397": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/zircon-3397",
+     "tipo": "departamentos",
+     "dist": "Jesus Maria",
+     "nombre": "Zircon",
+     "marca": "MARTE",
+     "lat": -12.07088,
+     "lng": -77.04226,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo Tipo 101": [
+       70.14,
+       2,
+       "PEN",
+       599247.0
+      ],
+      "Modelo Tipo 102": [
+       62.21,
+       1,
+       "PEN",
+       552502.0
+      ],
+      "Modelo Tipo 8": [
+       55.28,
+       1,
+       "PEN",
+       402642.0
+      ],
+      "Modelo Tipo 9": [
+       61.04,
+       2,
+       "PEN",
+       456989.0
+      ],
+      "Modelo Tipo 105": [
+       70.86,
+       1,
+       "PEN",
+       559298.0
+      ],
+      "Modelo Tipo 2": [
+       75.64,
+       3,
+       "PEN",
+       775639.0
+      ],
+      "Modelo Tipo 3": [
+       77.24,
+       3,
+       "PEN",
+       723339.0
+      ],
+      "Modelo Tipo 4": [
+       40.36,
+       1,
+       "PEN",
+       315304.0
+      ],
+      "Modelo Tipo 5": [
+       41.17,
+       1,
+       "PEN",
+       313988.0
+      ],
+      "Modelo Tipo 6": [
+       52.91,
+       2,
+       "PEN",
+       413227.0
+      ],
+      "Modelo Tipo 7": [
+       56.6,
+       2,
+       "PEN",
+       436460.0
+      ],
+      "Modelo Tipo 10": [
+       61.13,
+       3,
+       "PEN",
+       472402.0
+      ],
+      "Modelo Tipo 11": [
+       51.43,
+       1,
+       "PEN",
+       378384.0
+      ],
+      "Modelo Tipo 1": [
+       78.36,
+       3,
+       "PEN",
+       795811.0
+      ],
+      "Modelo Tipo 9B": [
+       60.04,
+       2,
+       "PEN",
+       436887.0
+      ],
+      "Modelo Tipo 12": [
+       67.99,
+       2,
+       "PEN",
+       515535.0
+      ],
+      "Modelo Tipo 2201": [
+       155.64,
+       3,
+       "PEN",
+       1357297.0
+      ],
+      "Modelo Tipo 2202": [
+       151.48,
+       3,
+       "PEN",
+       1390035.0
+      ],
+      "Modelo Tipo 2203": [
+       152.9,
+       3,
+       "PEN",
+       1311090.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo 101": [
+       "PEN",
+       599247.0,
+       20716
+      ],
+      "Modelo Tipo 102": [
+       "PEN",
+       552502.0,
+       20716
+      ],
+      "Modelo Tipo 8": [
+       "PEN",
+       402642.0,
+       20716
+      ],
+      "Modelo Tipo 9": [
+       "PEN",
+       456989.0,
+       20716
+      ],
+      "Modelo Tipo 105": [
+       "PEN",
+       559298.0,
+       20716
+      ],
+      "Modelo Tipo 2": [
+       "PEN",
+       775639.0,
+       20716
+      ],
+      "Modelo Tipo 3": [
+       "PEN",
+       723339.0,
+       20716
+      ],
+      "Modelo Tipo 4": [
+       "PEN",
+       315304.0,
+       20716
+      ],
+      "Modelo Tipo 5": [
+       "PEN",
+       313988.0,
+       20716
+      ],
+      "Modelo Tipo 6": [
+       "PEN",
+       413227.0,
+       20716
+      ],
+      "Modelo Tipo 7": [
+       "PEN",
+       436460.0,
+       20716
+      ],
+      "Modelo Tipo 10": [
+       "PEN",
+       472402.0,
+       20716
+      ],
+      "Modelo Tipo 11": [
+       "PEN",
+       378384.0,
+       20716
+      ],
+      "Modelo Tipo 1": [
+       "PEN",
+       795811.0,
+       20716
+      ],
+      "Modelo Tipo 9B": [
+       "PEN",
+       436887.0,
+       20716
+      ],
+      "Modelo Tipo 12": [
+       "PEN",
+       515535.0,
+       20716
+      ],
+      "Modelo Tipo 2201": [
+       "PEN",
+       1357297.0,
+       20716
+      ],
+      "Modelo Tipo 2202": [
+       "PEN",
+       1390035.0,
+       20716
+      ],
+      "Modelo Tipo 2203": [
+       "PEN",
+       1311090.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3398": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/alicanto-3398",
+     "tipo": "departamentos",
+     "dist": "Jesus Maria",
+     "nombre": "Alicanto",
+     "marca": "Cygnus Grupo Inmobiliario",
+     "lat": -12.0706,
+     "lng": -77.04705,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo Tipo 101": [
+       65.65,
+       2,
+       "PEN",
+       523552.0
+      ],
+      "Modelo Tipo 102": [
+       82.6,
+       3,
+       "PEN",
+       735814.0
+      ],
+      "Modelo Tipo 202": [
+       70.58,
+       3,
+       "PEN",
+       583052.0
+      ],
+      "Modelo Tipo 3": [
+       39.97,
+       1,
+       "PEN",
+       330600.0
+      ],
+      "Modelo Tipo 1": [
+       78.23,
+       3,
+       "PEN",
+       573885.0
+      ],
+      "Modelo Tipo 2": [
+       81.63,
+       3,
+       "PEN",
+       573027.0
+      ],
+      "Modelo Tipo 1601": [
+       154.03,
+       3,
+       "PEN",
+       1037359.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo 101": [
+       "PEN",
+       523552.0,
+       20716
+      ],
+      "Modelo Tipo 102": [
+       "PEN",
+       735814.0,
+       20716
+      ],
+      "Modelo Tipo 202": [
+       "PEN",
+       583052.0,
+       20716
+      ],
+      "Modelo Tipo 3": [
+       "PEN",
+       330600.0,
+       20716
+      ],
+      "Modelo Tipo 1": [
+       "PEN",
+       573885.0,
+       20716
+      ],
+      "Modelo Tipo 2": [
+       "PEN",
+       573027.0,
+       20716
+      ],
+      "Modelo Tipo 1601": [
+       "PEN",
+       1037359.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3399": {
+     "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/top-life-juan-de-aliaga-3399",
+     "tipo": "departamentos",
+     "dist": "Magdalena Del Mar",
+     "nombre": "TOP LIFE JUAN DE ALIAGA",
+     "marca": "Val Grupo Inmobiliario",
+     "lat": -12.09551,
+     "lng": -77.05981,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo TIPO 1": [
+       71.99,
+       2,
+       "PEN",
+       625200.0
+      ],
+      "Modelo TIPO 2": [
+       51.84,
+       1,
+       "PEN",
+       466300.0
+      ],
+      "Modelo TIPO 3": [
+       52.94,
+       2,
+       "PEN",
+       461000.0
+      ],
+      "Modelo TIPO 4": [
+       62.81,
+       2,
+       "PEN",
+       521300.0
+      ],
+      "Modelo TIPO 4B": [
+       55.11,
+       2,
+       "PEN",
+       486700.0
+      ],
+      "Modelo TIPO 4A": [
+       59.5,
+       2,
+       "PEN",
+       508200.0
+      ],
+      "Modelo TIPO 5": [
+       144.67,
+       3,
+       "PEN",
+       1044800.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 1": [
+       "PEN",
+       625200.0,
+       20716
+      ],
+      "Modelo TIPO 2": [
+       "PEN",
+       466300.0,
+       20716
+      ],
+      "Modelo TIPO 3": [
+       "PEN",
+       461000.0,
+       20716
+      ],
+      "Modelo TIPO 4": [
+       "PEN",
+       521300.0,
+       20716
+      ],
+      "Modelo TIPO 4B": [
+       "PEN",
+       486700.0,
+       20716
+      ],
+      "Modelo TIPO 4A": [
+       "PEN",
+       508200.0,
+       20716
+      ],
+      "Modelo TIPO 5": [
+       "PEN",
+       1044800.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3403": {
+     "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/aliaga-442-3403",
+     "tipo": "departamentos",
+     "dist": "Magdalena Del Mar",
+     "nombre": "ALIAGA 442",
+     "marca": "Vive+ Grupo inmobiliario",
+     "lat": -12.09517,
+     "lng": -77.05934,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo T 12B": [
+       71.67,
+       3,
+       "PEN",
+       583000.0
+      ],
+      "Modelo T 17A": [
+       94.13,
+       3,
+       "PEN",
+       829812.0
+      ],
+      "Modelo T 18C": [
+       100.27,
+       3,
+       "PEN",
+       868000.0
+      ],
+      "Modelo T 17C": [
+       97.55,
+       3,
+       "PEN",
+       902000.0
+      ],
+      "Modelo T 16C": [
+       78.41,
+       3,
+       "PEN",
+       703000.0
+      ],
+      "Modelo T 3A": [
+       43.88,
+       1,
+       "PEN",
+       480000.0
+      ],
+      "Modelo T 14C": [
+       74.99,
+       3,
+       "PEN",
+       681000.0
+      ],
+      "Modelo T 11A": [
+       68.45,
+       3,
+       "PEN",
+       584000.0
+      ],
+      "Modelo T 9A": [
+       67.12,
+       2,
+       "PEN",
+       574000.0
+      ],
+      "Modelo T 14B": [
+       73.48,
+       3,
+       "PEN",
+       670000.0
+      ]
+     },
+     "primero": {
+      "Modelo T 12B": [
+       "PEN",
+       583000.0,
+       20716
+      ],
+      "Modelo T 17A": [
+       "PEN",
+       829812.0,
+       20716
+      ],
+      "Modelo T 18C": [
+       "PEN",
+       868000.0,
+       20716
+      ],
+      "Modelo T 17C": [
+       "PEN",
+       902000.0,
+       20716
+      ],
+      "Modelo T 16C": [
+       "PEN",
+       703000.0,
+       20716
+      ],
+      "Modelo T 3A": [
+       "PEN",
+       480000.0,
+       20716
+      ],
+      "Modelo T 14C": [
+       "PEN",
+       681000.0,
+       20716
+      ],
+      "Modelo T 11A": [
+       "PEN",
+       584000.0,
+       20716
+      ],
+      "Modelo T 9A": [
+       "PEN",
+       574000.0,
+       20716
+      ],
+      "Modelo T 14B": [
+       "PEN",
+       670000.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3406": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/albamar-match-3406",
+     "tipo": "departamentos",
+     "dist": "San Miguel",
+     "nombre": "Albamar | Match",
+     "marca": "ALBAMAR GRUPO INMOBILIARIO",
+     "lat": -12.07816,
+     "lng": -77.09538,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo TIPO 7": [
+       51.25,
+       2,
+       "PEN",
+       365900.0
+      ],
+      "Modelo TIPO 2B": [
+       77.91,
+       2,
+       "PEN",
+       463700.0
+      ],
+      "Modelo TIPO 3B": [
+       49.55,
+       1,
+       "PEN",
+       302200.0
+      ],
+      "Modelo TIPO 1": [
+       34.89,
+       1,
+       "PEN",
+       269200.0
+      ],
+      "Modelo TIPO 2": [
+       57.87,
+       2,
+       "PEN",
+       380800.0
+      ],
+      "Modelo TIPO 3": [
+       69.42,
+       3,
+       "PEN",
+       475500.0
+      ],
+      "Modelo TIPO 4": [
+       38.46,
+       1,
+       "PEN",
+       284600.0
+      ],
+      "Modelo TIPO 5": [
+       31.59,
+       1,
+       "PEN",
+       233700.0
+      ],
+      "Modelo TIPO 6": [
+       58.66,
+       2,
+       "PEN",
+       381800.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 7": [
+       "PEN",
+       365900.0,
+       20716
+      ],
+      "Modelo TIPO 2B": [
+       "PEN",
+       463700.0,
+       20716
+      ],
+      "Modelo TIPO 3B": [
+       "PEN",
+       302200.0,
+       20716
+      ],
+      "Modelo TIPO 1": [
+       "PEN",
+       269200.0,
+       20716
+      ],
+      "Modelo TIPO 2": [
+       "PEN",
+       380800.0,
+       20716
+      ],
+      "Modelo TIPO 3": [
+       "PEN",
+       475500.0,
+       20716
+      ],
+      "Modelo TIPO 4": [
+       "PEN",
+       284600.0,
+       20716
+      ],
+      "Modelo TIPO 5": [
+       "PEN",
+       233700.0,
+       20716
+      ],
+      "Modelo TIPO 6": [
+       "PEN",
+       381800.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
+    },
+    "3410": {
+     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/glam-3410",
+     "tipo": "departamentos",
+     "dist": "Santiago De Surco",
+     "nombre": "GLAM",
+     "marca": "F INMOBILIARIA",
+     "lat": -12.09085,
+     "lng": -76.96708,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo TD-X01": [
+       108.72,
+       3,
+       "PEN",
+       886200.0
+      ],
+      "Modelo TD-X13": [
+       115.54,
+       3,
+       "PEN",
+       992800.0
+      ],
+      "Modelo TD-X14": [
+       107.13,
+       3,
+       "PEN",
+       893700.0
+      ],
+      "Modelo TD-X15": [
+       100.38,
+       3,
+       "PEN",
+       830100.0
+      ],
+      "Modelo TD-X16": [
+       89.55,
+       3,
+       "PEN",
+       726700.0
+      ],
+      "Modelo TD-X17": [
+       49.56,
+       1,
+       "PEN",
+       420375.0
+      ],
+      "Modelo TD-X18": [
+       99.19,
+       3,
+       "PEN",
+       817400.0
+      ],
+      "Modelo TD-X20": [
+       81.11,
+       2,
+       "PEN",
+       646285.0
+      ],
+      "Modelo TD-X24": [
+       56.12,
+       1,
+       "PEN",
+       458660.0
+      ],
+      "Modelo TD-X35": [
+       106.76,
+       3,
+       "PEN",
+       885300.0
+      ]
+     },
+     "primero": {
+      "Modelo TD-X01": [
+       "PEN",
+       886200.0,
+       20716
+      ],
+      "Modelo TD-X13": [
+       "PEN",
+       992800.0,
+       20716
+      ],
+      "Modelo TD-X14": [
+       "PEN",
+       893700.0,
+       20716
+      ],
+      "Modelo TD-X15": [
+       "PEN",
+       830100.0,
+       20716
+      ],
+      "Modelo TD-X16": [
+       "PEN",
+       726700.0,
+       20716
+      ],
+      "Modelo TD-X17": [
+       "PEN",
+       420375.0,
+       20716
+      ],
+      "Modelo TD-X18": [
+       "PEN",
+       817400.0,
+       20716
+      ],
+      "Modelo TD-X20": [
+       "PEN",
+       646285.0,
+       20716
+      ],
+      "Modelo TD-X24": [
+       "PEN",
+       458660.0,
+       20716
+      ],
+      "Modelo TD-X35": [
+       "PEN",
+       885300.0,
+       20716
+      ]
+     },
+     "r": 20716,
+     "x": 20716
     }
    },
-   "ultima": 1789865019
+   "ultima": 1789929478
   },
   "scotiabank": {
    "filas": {
@@ -15423,7 +21272,7 @@
      ],
      "f": 20714,
      "r": 20716,
-     "dist": "pueblo-libre"
+     "dist": "ate"
     },
     "194140720": {
      "op": "venta",
@@ -15506,7 +21355,7 @@
     "194245577": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 103077.0,
+     "usd": 103244.0,
      "area": 42.0,
      "lat": -12.15011,
      "lng": -77.01834,
@@ -15527,6 +21376,10 @@
       [
        20715,
        103077.0
+      ],
+      [
+       20716,
+       103244.0
       ]
      ],
      "f": 20714,
@@ -15614,13 +21467,13 @@
     "194228564": {
      "op": "alquiler",
      "tipo": "departamentos",
-     "usd": 889.0,
+     "usd": 890.0,
      "area": 56.0,
      "lat": -12.14308,
      "lng": -77.02201,
      "mon": "PEN",
      "monto": 3000.0,
-     "mant": 103.72,
+     "mant": 103.83,
      "anio": "",
      "dorm": "2",
      "zona": "Barranco",
@@ -15635,6 +21488,10 @@
       [
        20715,
        889.0
+      ],
+      [
+       20716,
+       890.0
       ]
      ],
      "f": 20714,
@@ -16034,7 +21891,7 @@
     "194197031": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 264297.0,
+     "usd": 264724.0,
      "area": 123.0,
      "lat": -12.09409,
      "lng": -77.07822,
@@ -16055,6 +21912,10 @@
       [
        20715,
        264297.0
+      ],
+      [
+       20716,
+       264724.0
       ]
      ],
      "f": 20714,
@@ -16142,7 +22003,7 @@
     "194187731": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 41099.0,
+     "usd": 41165.0,
      "area": 74.0,
      "lat": -12.07586,
      "lng": -77.03285,
@@ -16163,6 +22024,10 @@
       [
        20715,
        41099.0
+      ],
+      [
+       20716,
+       41165.0
       ]
      ],
      "f": 20714,
@@ -16328,7 +22193,7 @@
     "194213181": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 83538.0,
+     "usd": 83674.0,
      "area": 46.0,
      "lat": -12.07602,
      "lng": -77.09824,
@@ -16349,6 +22214,10 @@
       [
        20715,
        83538.0
+      ],
+      [
+       20716,
+       83674.0
       ]
      ],
      "f": 20714,
@@ -16592,7 +22461,7 @@
     "194176388": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 101016.0,
+     "usd": 101180.0,
      "area": 70.0,
      "lat": -12.20272,
      "lng": -77.00881,
@@ -16613,6 +22482,10 @@
       [
        20715,
        101016.0
+      ],
+      [
+       20716,
+       101180.0
       ]
      ],
      "f": 20714,
@@ -16838,13 +22711,13 @@
     "194175034": {
      "op": "alquiler",
      "tipo": "departamentos",
-     "usd": 355.0,
+     "usd": 356.0,
      "area": 72.0,
      "lat": -11.92714,
      "lng": -77.06091,
      "mon": "PEN",
      "monto": 1200.0,
-     "mant": 41.42,
+     "mant": 41.53,
      "anio": "",
      "dorm": "3",
      "zona": "Comas",
@@ -16855,6 +22728,10 @@
       [
        20714,
        355.0
+      ],
+      [
+       20716,
+       356.0
       ]
      ],
      "f": 20714,
@@ -16968,13 +22845,13 @@
     "194278340": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 293273.0,
+     "usd": 293748.0,
      "area": 204.0,
      "lat": -12.08116,
      "lng": -77.04774,
      "mon": "PEN",
      "monto": 990000.0,
-     "mant": 148.12,
+     "mant": 148.36,
      "anio": "",
      "dorm": "4",
      "zona": "Jesus Maria",
@@ -16985,6 +22862,10 @@
       [
        20714,
        293273.0
+      ],
+      [
+       20716,
+       293748.0
       ]
      ],
      "f": 20714,
@@ -16994,7 +22875,7 @@
     "194176370": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 105516.0,
+     "usd": 105687.0,
      "area": 44.0,
      "lat": -12.08373,
      "lng": -77.05191,
@@ -17015,6 +22896,10 @@
       [
        20715,
        105516.0
+      ],
+      [
+       20716,
+       105687.0
       ]
      ],
      "f": 20714,
@@ -17050,13 +22935,13 @@
     "194227796": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 177741.0,
+     "usd": 178029.0,
      "area": 75.0,
      "lat": -12.08249,
      "lng": -77.05061,
      "mon": "PEN",
      "monto": 600000.0,
-     "mant": 97.76,
+     "mant": 97.92,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -17071,6 +22956,10 @@
       [
        20715,
        177741.0
+      ],
+      [
+       20716,
+       178029.0
       ]
      ],
      "f": 20714,
@@ -17106,13 +22995,13 @@
     "194258861": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 177741.0,
+     "usd": 178029.0,
      "area": 75.0,
      "lat": -12.08249,
      "lng": -77.05061,
      "mon": "PEN",
      "monto": 600000.0,
-     "mant": 97.76,
+     "mant": 97.92,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -17127,6 +23016,10 @@
       [
        20715,
        177741.0
+      ],
+      [
+       20716,
+       178029.0
       ]
      ],
      "f": 20714,
@@ -17214,7 +23107,7 @@
     "194176369": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 101752.0,
+     "usd": 101917.0,
      "area": 42.0,
      "lat": -12.08373,
      "lng": -77.05191,
@@ -17235,6 +23128,10 @@
       [
        20715,
        101752.0
+      ],
+      [
+       20716,
+       101917.0
       ]
      ],
      "f": 20714,
@@ -17244,7 +23141,7 @@
     "194176372": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 120923.0,
+     "usd": 121119.0,
      "area": 40.0,
      "lat": -12.08373,
      "lng": -77.05191,
@@ -17265,6 +23162,10 @@
       [
        20715,
        120923.0
+      ],
+      [
+       20716,
+       121119.0
       ]
      ],
      "f": 20714,
@@ -17274,7 +23175,7 @@
     "194176366": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 94407.0,
+     "usd": 94560.0,
      "area": 39.0,
      "lat": -12.08373,
      "lng": -77.05191,
@@ -17295,6 +23196,10 @@
       [
        20715,
        94407.0
+      ],
+      [
+       20716,
+       94560.0
       ]
      ],
      "f": 20714,
@@ -17304,7 +23209,7 @@
     "194176368": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 92852.0,
+     "usd": 93002.0,
      "area": 42.0,
      "lat": -12.08373,
      "lng": -77.05191,
@@ -17325,6 +23230,10 @@
       [
        20715,
        92852.0
+      ],
+      [
+       20716,
+       93002.0
       ]
      ],
      "f": 20714,
@@ -17386,13 +23295,13 @@
     "194227764": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 322897.0,
+     "usd": 323419.0,
      "area": 142.0,
      "lat": -12.08249,
      "lng": -77.05061,
      "mon": "PEN",
      "monto": 1090000.0,
-     "mant": 88.87,
+     "mant": 89.01,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -17407,6 +23316,10 @@
       [
        20715,
        322897.0
+      ],
+      [
+       20716,
+       323419.0
       ]
      ],
      "f": 20714,
@@ -17416,7 +23329,7 @@
     "194176371": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 106866.0,
+     "usd": 107038.0,
      "area": 37.0,
      "lat": -12.08373,
      "lng": -77.05191,
@@ -17437,6 +23350,10 @@
       [
        20715,
        106866.0
+      ],
+      [
+       20716,
+       107038.0
       ]
      ],
      "f": 20714,
@@ -17528,7 +23445,7 @@
     "194176376": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 161434.0,
+     "usd": 161695.0,
      "area": 64.0,
      "lat": -12.08373,
      "lng": -77.05191,
@@ -17549,6 +23466,10 @@
       [
        20715,
        161434.0
+      ],
+      [
+       20716,
+       161695.0
       ]
      ],
      "f": 20714,
@@ -17558,13 +23479,13 @@
     "194173128": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 322897.0,
+     "usd": 323419.0,
      "area": 142.0,
      "lat": -12.09019,
      "lng": -77.25663,
      "mon": "PEN",
      "monto": 1090000.0,
-     "mant": 88.87,
+     "mant": 89.01,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -17579,6 +23500,10 @@
       [
        20715,
        322897.0
+      ],
+      [
+       20716,
+       323419.0
       ]
      ],
      "f": 20714,
@@ -17588,13 +23513,13 @@
     "194164619": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 322897.0,
+     "usd": 323419.0,
      "area": 142.0,
      "lat": -12.09863,
      "lng": -77.14819,
      "mon": "PEN",
      "monto": 1090000.0,
-     "mant": 88.87,
+     "mant": 89.01,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -17609,6 +23534,10 @@
       [
        20715,
        322897.0
+      ],
+      [
+       20716,
+       323419.0
       ]
      ],
      "f": 20714,
@@ -17618,7 +23547,7 @@
     "194176367": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 92852.0,
+     "usd": 93002.0,
      "area": 42.0,
      "lat": -12.08373,
      "lng": -77.05191,
@@ -17639,6 +23568,10 @@
       [
        20715,
        92852.0
+      ],
+      [
+       20716,
+       93002.0
       ]
      ],
      "f": 20714,
@@ -17648,7 +23581,7 @@
     "194176373": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 138719.0,
+     "usd": 138943.0,
      "area": 51.0,
      "lat": -12.08373,
      "lng": -77.05191,
@@ -17669,6 +23602,10 @@
       [
        20716,
        138719.0
+      ],
+      [
+       20716,
+       138943.0
       ]
      ],
      "f": 20714,
@@ -17678,7 +23615,7 @@
     "194176374": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 131138.0,
+     "usd": 131350.0,
      "area": 52.0,
      "lat": -12.08373,
      "lng": -77.05191,
@@ -17699,6 +23636,10 @@
       [
        20715,
        131138.0
+      ],
+      [
+       20716,
+       131350.0
       ]
      ],
      "f": 20714,
@@ -17714,7 +23655,7 @@
      "lng": -77.04774,
      "mon": "USD",
      "monto": 990000.0,
-     "mant": 148.12,
+     "mant": 148.36,
      "anio": "",
      "dorm": "4",
      "zona": "Jesus Maria",
@@ -17760,13 +23701,13 @@
     "194204771": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 322897.0,
+     "usd": 323419.0,
      "area": 142.0,
      "lat": -12.08249,
      "lng": -77.05061,
      "mon": "PEN",
      "monto": 1090000.0,
-     "mant": 88.87,
+     "mant": 89.01,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -17781,6 +23722,10 @@
       [
        20715,
        322897.0
+      ],
+      [
+       20716,
+       323419.0
       ]
      ],
      "f": 20714,
@@ -17796,7 +23741,7 @@
      "lng": -77.05039,
      "mon": "USD",
      "monto": 250000.0,
-     "mant": 133.31,
+     "mant": 133.52,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -17816,7 +23761,7 @@
     "194208235": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 192553.0,
+     "usd": 192865.0,
      "area": 80.0,
      "lat": -12.0788,
      "lng": -77.05117,
@@ -17837,6 +23782,10 @@
       [
        20715,
        192553.0
+      ],
+      [
+       20716,
+       192865.0
       ]
      ],
      "f": 20714,
@@ -17898,7 +23847,7 @@
     "194176375": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 140368.0,
+     "usd": 140595.0,
      "area": 56.0,
      "lat": -12.08373,
      "lng": -77.05191,
@@ -17919,6 +23868,10 @@
       [
        20715,
        140368.0
+      ],
+      [
+       20716,
+       140595.0
       ]
      ],
      "f": 20714,
@@ -30894,7 +36847,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20715,
+     "r": 20716,
      "dist": "villa-el-salvador"
     },
     "194221501": {
@@ -30952,13 +36905,13 @@
     "194147651": {
      "op": "venta",
      "tipo": "departamentos",
-     "usd": 177741.0,
+     "usd": 178029.0,
      "area": 75.0,
      "lat": -12.08246,
      "lng": -77.1535,
      "mon": "PEN",
      "monto": 600000.0,
-     "mant": 97.76,
+     "mant": 97.92,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -30969,6 +36922,10 @@
       [
        20715,
        177741.0
+      ],
+      [
+       20716,
+       178029.0
       ]
      ],
      "f": 20715,
@@ -31210,8 +37167,8 @@
      "dist": "santiago-de-surco"
     }
    },
-   "tc": 3.3694344163658245,
-   "turno": 162,
+   "tc": 3.370237433227171,
+   "turno": 49,
    "pagina": 1
   }
  }
