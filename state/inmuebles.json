@@ -11,7 +11,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {},
- "saved_at": 1789950326,
+ "saved_at": 1789951408,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -21251,6 +21251,7 @@
     "194256162": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 515.0,
      "area": 32.0,
      "lat": -12.07513,
@@ -21271,8 +21272,8 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
-     "dist": "ate"
+     "r": 20717,
+     "dist": "pueblo-libre"
     },
     "194140720": {
      "op": "venta",
@@ -29574,6 +29575,7 @@
     "194160692": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 480000.0,
      "area": 671.0,
      "lat": -12.22685,
@@ -29594,12 +29596,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "pachacamac"
     },
     "194202754": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 125970.0,
      "area": 60.0,
      "lat": -12.07702,
@@ -29620,12 +29623,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "pueblo-libre"
     },
     "194193457": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 123790.0,
      "area": 67.0,
      "lat": -12.08421,
@@ -29646,7 +29650,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "pueblo-libre"
     },
     "194137517": {
@@ -29678,6 +29682,7 @@
     "194254551": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 179175.0,
      "area": 92.0,
      "lat": -12.0719,
@@ -29698,12 +29703,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "pueblo-libre"
     },
     "194225664": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 179122.0,
      "area": 92.0,
      "lat": -12.0719,
@@ -29724,7 +29730,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "pueblo-libre"
     },
     "194139023": {
@@ -29756,6 +29762,7 @@
     "194274917": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 179122.0,
      "area": 92.0,
      "lat": -12.0719,
@@ -29776,7 +29783,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "pueblo-libre"
     },
     "194176344": {
@@ -29808,6 +29815,7 @@
     "194208232": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 676.0,
      "area": 65.0,
      "lat": -12.08515,
@@ -29828,12 +29836,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "pueblo-libre"
     },
     "194271849": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 330000.0,
      "area": 290.0,
      "lat": -12.07952,
@@ -29854,12 +29863,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "pueblo-libre"
     },
     "194270604": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 169000.0,
      "area": 61.0,
      "lat": -12.33911,
@@ -29880,12 +29890,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "punta-hermosa"
     },
     "194170971": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 592241.0,
      "area": 209.0,
      "lat": -12.32774,
@@ -29906,12 +29917,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "punta-hermosa"
     },
     "194223557": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 239000.0,
      "area": 96.0,
      "lat": -12.33829,
@@ -29932,12 +29944,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "punta-hermosa"
     },
     "194270605": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 139000.0,
      "area": 51.0,
      "lat": -12.33912,
@@ -29958,12 +29971,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "punta-hermosa"
     },
     "194270603": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 149000.0,
      "area": 55.0,
      "lat": -12.33915,
@@ -29984,12 +29998,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "punta-hermosa"
     },
     "194216392": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 2500.0,
      "area": 297.0,
      "lat": -12.032,
@@ -30010,12 +30025,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "punta-hermosa"
     },
     "194164662": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 1988.0,
      "area": 245.0,
      "lat": -12.33816,
@@ -30044,12 +30060,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "punta-hermosa"
     },
     "194256165": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 340000.0,
      "area": 410.0,
      "lat": -12.09796,
@@ -30070,12 +30087,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "punta-hermosa"
     },
     "194190453": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 170000.0,
      "area": 110.0,
      "lat": -12.35824,
@@ -30096,12 +30114,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "punta-negra"
     },
     "194269432": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 720000.0,
      "area": 527.0,
      "lat": -12.34957,
@@ -30122,12 +30141,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "punta-negra"
     },
     "194277391": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 285000.0,
      "area": 250.0,
      "lat": -12.37596,
@@ -30148,12 +30168,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "punta-negra"
     },
     "194268509": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 45000.0,
      "area": 53.0,
      "lat": -12.02901,
@@ -30174,7 +30195,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "rimac"
     },
     "194135834": {
@@ -30206,6 +30227,7 @@
     "194176363": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 141960.0,
      "area": 83.0,
      "lat": -12.38742,
@@ -30226,12 +30248,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181467": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 104681.0,
      "area": 61.0,
      "lat": -12.39228,
@@ -30260,12 +30283,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181475": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 179453.0,
      "area": 96.0,
      "lat": -12.39228,
@@ -30294,12 +30318,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181477": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 149544.0,
      "area": 102.0,
      "lat": -12.39228,
@@ -30328,12 +30353,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181471": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 134590.0,
      "area": 77.0,
      "lat": -12.39228,
@@ -30362,12 +30388,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181479": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 199392.0,
      "area": 105.0,
      "lat": -12.39228,
@@ -30396,12 +30423,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194209606": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 124219.0,
      "area": 64.0,
      "lat": -12.38393,
@@ -30430,12 +30458,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194234836": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 180000.0,
      "area": 92.0,
      "lat": -12.38296,
@@ -30456,7 +30485,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181484": {
@@ -30518,6 +30547,7 @@
     "194209381": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 113929.0,
      "area": 58.0,
      "lat": -12.38383,
@@ -30546,12 +30576,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194209219": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 118115.0,
      "area": 60.0,
      "lat": -12.38385,
@@ -30580,12 +30611,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181468": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 130000.0,
      "area": 72.0,
      "lat": -12.39228,
@@ -30606,12 +30638,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181469": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 129605.0,
      "area": 72.0,
      "lat": -12.39228,
@@ -30640,12 +30673,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181478": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 200000.0,
      "area": 105.0,
      "lat": -12.39228,
@@ -30666,12 +30700,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181480": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 195000.0,
      "area": 108.0,
      "lat": -12.39228,
@@ -30692,12 +30727,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194176362": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 84851.0,
      "area": 44.0,
      "lat": -12.38742,
@@ -30718,12 +30754,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194176346": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 115000.0,
      "area": 89.0,
      "lat": -12.08102,
@@ -30744,12 +30781,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181470": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 135000.0,
      "area": 77.0,
      "lat": -12.39228,
@@ -30770,12 +30808,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194209503": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 117824.0,
      "area": 60.0,
      "lat": -12.38396,
@@ -30804,12 +30843,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181461": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 89727.0,
      "area": 53.0,
      "lat": -12.39228,
@@ -30838,12 +30878,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181462": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 100000.0,
      "area": 60.0,
      "lat": -12.39228,
@@ -30864,12 +30905,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181476": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 150000.0,
      "area": 102.0,
      "lat": -12.39228,
@@ -30890,12 +30932,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194209129": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 105256.0,
      "area": 54.0,
      "lat": -12.38378,
@@ -30924,12 +30967,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181463": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 99696.0,
      "area": 60.0,
      "lat": -12.39228,
@@ -30958,12 +31002,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181481": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 194408.0,
      "area": 108.0,
      "lat": -12.39228,
@@ -30992,12 +31037,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181483": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 184438.0,
      "area": 124.0,
      "lat": -12.39228,
@@ -31026,12 +31072,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194170972": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 200000.0,
      "area": 130.0,
      "lat": -12.38519,
@@ -31052,12 +31099,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194176379": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 204377.0,
      "area": 132.0,
      "lat": -12.38519,
@@ -31086,12 +31134,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194176380": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 205000.0,
      "area": 132.0,
      "lat": -12.38519,
@@ -31112,12 +31161,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194209336": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 76898.0,
      "area": 40.0,
      "lat": -12.38341,
@@ -31146,12 +31196,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194209755": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 107023.0,
      "area": 55.0,
      "lat": -12.38378,
@@ -31180,12 +31231,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181464": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 105000.0,
      "area": 60.0,
      "lat": -12.39228,
@@ -31206,12 +31258,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181472": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 170000.0,
      "area": 88.0,
      "lat": -12.39228,
@@ -31232,12 +31285,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181473": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 169483.0,
      "area": 88.0,
      "lat": -12.39228,
@@ -31266,12 +31320,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181460": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 90000.0,
      "area": 53.0,
      "lat": -12.39228,
@@ -31292,12 +31347,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181482": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 185000.0,
      "area": 124.0,
      "lat": -12.39228,
@@ -31318,12 +31374,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181466": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 105000.0,
      "area": 61.0,
      "lat": -12.39228,
@@ -31344,12 +31401,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181465": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 104681.0,
      "area": 60.0,
      "lat": -12.39228,
@@ -31378,12 +31436,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194181474": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 180000.0,
      "area": 96.0,
      "lat": -12.39228,
@@ -31404,12 +31463,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194262558": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 1000.0,
      "area": 140.0,
      "lat": -12.38433,
@@ -31430,7 +31490,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-bartolo"
     },
     "194143591": {
@@ -31462,6 +31522,7 @@
     "194149677": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 275000.0,
      "area": 128.0,
      "lat": -12.09697,
@@ -31482,12 +31543,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-borja"
     },
     "194245566": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 575000.0,
      "area": 217.0,
      "lat": -12.10877,
@@ -31508,12 +31570,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-borja"
     },
     "194270596": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 250000.0,
      "area": 115.0,
      "lat": -12.10721,
@@ -31534,12 +31597,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-borja"
     },
     "194203427": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 192461.0,
      "area": 72.0,
      "lat": -12.10127,
@@ -31560,12 +31624,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-borja"
     },
     "194170964": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 222970.0,
      "area": 88.0,
      "lat": -12.10127,
@@ -31586,12 +31651,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-borja"
     },
     "194263103": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 331223.0,
      "area": 120.0,
      "lat": -12.10626,
@@ -31620,12 +31686,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-borja"
     },
     "194256155": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 280000.0,
      "area": 105.0,
      "lat": -12.08175,
@@ -31646,12 +31713,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-borja"
     },
     "194182203": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 221366.0,
      "area": 84.0,
      "lat": -12.10127,
@@ -31672,12 +31740,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-borja"
     },
     "194249803": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 376900.0,
      "area": 193.0,
      "lat": -12.09579,
@@ -31698,12 +31767,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-borja"
     },
     "194270606": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 1200.0,
      "area": 106.0,
      "lat": -12.09419,
@@ -31724,12 +31794,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-borja"
     },
     "194234837": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 1900.0,
      "area": 200.0,
      "lat": -12.09605,
@@ -31750,12 +31821,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-borja"
     },
     "194190445": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 795000.0,
      "area": 300.0,
      "lat": -12.09365,
@@ -31776,12 +31848,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-borja"
     },
     "194193339": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 220000.0,
      "area": 160.0,
      "lat": -12.09704,
@@ -31802,12 +31875,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194176353": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 192198.0,
      "area": 77.0,
      "lat": -12.10559,
@@ -31828,12 +31902,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194168877": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 390000.0,
      "area": 165.0,
      "lat": -12.10007,
@@ -31854,12 +31929,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194147966": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 576000.0,
      "area": 151.0,
      "lat": -12.10253,
@@ -31880,12 +31956,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194202756": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 1246000.0,
      "area": 302.0,
      "lat": -12.10253,
@@ -31906,12 +31983,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194270602": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 640000.0,
      "area": 212.0,
      "lat": -12.09511,
@@ -31932,12 +32010,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194245570": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 128656.0,
      "area": 56.0,
      "lat": -12.10241,
@@ -31958,12 +32037,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194166243": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 152507.0,
      "area": 46.0,
      "lat": -12.09133,
@@ -31984,12 +32064,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194206786": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 220000.0,
      "area": 160.0,
      "lat": -12.09704,
@@ -32010,12 +32091,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194170978": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 450000.0,
      "area": 195.0,
      "lat": -12.0988,
@@ -32036,12 +32118,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194147968": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 229705.0,
      "area": 81.0,
      "lat": -12.09009,
@@ -32062,12 +32145,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194176352": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 137630.0,
      "area": 54.0,
      "lat": -12.10559,
@@ -32088,12 +32172,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194208241": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 294118.0,
      "area": 136.0,
      "lat": -12.09363,
@@ -32114,12 +32199,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194182388": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 225834.0,
      "area": 75.0,
      "lat": -12.09663,
@@ -32140,12 +32226,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194202752": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 564888.0,
      "area": 146.0,
      "lat": -12.09297,
@@ -32166,12 +32253,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194208240": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 296714.0,
      "area": 136.0,
      "lat": -12.09363,
@@ -32200,12 +32288,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194166388": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 226239.0,
      "area": 75.0,
      "lat": -12.09681,
@@ -32226,12 +32315,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194170970": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 138528.0,
      "area": 53.0,
      "lat": -12.09269,
@@ -32252,7 +32342,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194141714": {
@@ -32284,6 +32374,7 @@
     "194234834": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 297918.0,
      "area": 115.0,
      "lat": -12.09297,
@@ -32304,12 +32395,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194245578": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 546000.0,
      "area": 200.0,
      "lat": -12.09483,
@@ -32330,12 +32422,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194170979": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 453974.0,
      "area": 195.0,
      "lat": -12.0988,
@@ -32364,12 +32457,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194256163": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 234900.0,
      "area": 115.0,
      "lat": -12.09459,
@@ -32390,12 +32484,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194245569": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 1200.0,
      "area": 84.0,
      "lat": -12.09343,
@@ -32416,7 +32511,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194165524": {
@@ -32448,6 +32543,7 @@
     "194249802": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 2500.0,
      "area": 175.0,
      "lat": -12.09504,
@@ -32468,7 +32564,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194213165": {
@@ -32500,6 +32596,7 @@
     "194160693": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 1200000.0,
      "area": 418.0,
      "lat": -12.09986,
@@ -32520,12 +32617,13 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194238703": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 1900000.0,
      "area": 800.0,
      "lat": -12.10398,
@@ -32546,7 +32644,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194151374": {
@@ -37197,6 +37295,7 @@
     "194281410": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 1400.0,
      "area": 160.0,
      "lat": -12.09146,
@@ -37217,7 +37316,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "san-isidro"
     },
     "194282869": {
@@ -37304,13 +37403,14 @@
     "194282584": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 176000.0,
      "area": 105.0,
      "lat": -12.07772,
      "lng": -77.06947,
      "mon": "USD",
      "monto": 176000.0,
-     "mant": 83.09,
+     "mant": 83.07,
      "anio": "",
      "dorm": "3",
      "zona": "Pueblo Libre",
@@ -37324,19 +37424,20 @@
       ]
      ],
      "f": 20716,
-     "r": 20716,
+     "r": 20717,
      "dist": "pueblo-libre"
     },
     "194282224": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 145000.0,
      "area": 104.0,
      "lat": -12.07245,
      "lng": -77.06742,
      "mon": "USD",
      "monto": 145000.0,
-     "mant": 65.28,
+     "mant": 65.27,
      "anio": "",
      "dorm": "2",
      "zona": "Pueblo Libre",
@@ -37350,7 +37451,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20716,
+     "r": 20717,
      "dist": "pueblo-libre"
     },
     "194283306": {
@@ -37577,7 +37678,7 @@
      "lng": -71.96199,
      "mon": "USD",
      "monto": 150000.0,
-     "mant": 32.63,
+     "mant": 32.64,
      "anio": "",
      "dorm": "4",
      "zona": "Wanchaq",
@@ -37595,8 +37696,8 @@
      "dist": "cuzco"
     }
    },
-   "tc": 3.3707865168539324,
-   "turno": 85,
+   "tc": 3.3702454215170166,
+   "turno": 123,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -37623,39 +37724,39 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 176,
+     "validos": 101,
      "fuera_ciudad": 0,
-     "momento": 1789950326
+     "momento": 1789951408
     },
     "arequipa": {
      "paginas": 4,
      "validos": 6,
      "fuera_ciudad": 2,
-     "momento": 1789950326
+     "momento": 1789951408
     },
     "cusco": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1789950326
+     "momento": 1789951408
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1789950326
+     "momento": 1789951408
     },
     "trujillo": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1789950326
+     "momento": 1789951408
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1789950326
+     "momento": 1789951408
     }
    }
   }
