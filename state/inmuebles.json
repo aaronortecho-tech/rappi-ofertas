@@ -11,7 +11,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {},
- "saved_at": 1789929478,
+ "saved_at": 1789950326,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -23959,13 +23959,14 @@
     "194206774": {
      "op": "alquiler",
      "tipo": "departamentos",
-     "usd": 904.0,
+     "ciudad": "lima",
+     "usd": 905.0,
      "area": 69.0,
      "lat": -12.07728,
      "lng": -77.038,
      "mon": "PEN",
      "monto": 3050.0,
-     "mant": 59.28,
+     "mant": 59.34,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -23980,22 +23981,27 @@
       [
        20715,
        904.0
+      ],
+      [
+       20717,
+       905.0
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194211966": {
      "op": "alquiler",
      "tipo": "departamentos",
-     "usd": 770.0,
+     "ciudad": "lima",
+     "usd": 771.0,
      "area": 75.0,
      "lat": -12.08249,
      "lng": -77.05061,
      "mon": "PEN",
      "monto": 2600.0,
-     "mant": 97.81,
+     "mant": 97.92,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -24006,16 +24012,21 @@
       [
        20714,
        770.0
+      ],
+      [
+       20717,
+       771.0
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194278446": {
      "op": "alquiler",
      "tipo": "departamentos",
-     "usd": 904.0,
+     "ciudad": "lima",
+     "usd": 905.0,
      "area": 69.0,
      "lat": -12.07728,
      "lng": -77.038,
@@ -24032,22 +24043,27 @@
       [
        20714,
        904.0
+      ],
+      [
+       20717,
+       905.0
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194254246": {
      "op": "alquiler",
      "tipo": "departamentos",
-     "usd": 711.0,
+     "ciudad": "lima",
+     "usd": 712.0,
      "area": 66.0,
      "lat": -12.08182,
      "lng": -77.04837,
      "mon": "PEN",
      "monto": 2400.0,
-     "mant": 85.95,
+     "mant": 86.05,
      "anio": "",
      "dorm": "2",
      "zona": "Jesus Maria",
@@ -24058,22 +24074,27 @@
       [
        20714,
        711.0
+      ],
+      [
+       20717,
+       712.0
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194221835": {
      "op": "alquiler",
      "tipo": "departamentos",
-     "usd": 770.0,
+     "ciudad": "lima",
+     "usd": 771.0,
      "area": 75.0,
      "lat": -12.08249,
      "lng": -77.05061,
      "mon": "PEN",
      "monto": 2600.0,
-     "mant": 97.81,
+     "mant": 97.92,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -24084,16 +24105,21 @@
       [
        20714,
        770.0
+      ],
+      [
+       20717,
+       771.0
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194190067": {
      "op": "alquiler",
      "tipo": "departamentos",
-     "usd": 741.0,
+     "ciudad": "lima",
+     "usd": 742.0,
      "area": 72.0,
      "lat": -12.07512,
      "lng": -77.04716,
@@ -24114,16 +24140,21 @@
       [
        20715,
        741.0
+      ],
+      [
+       20717,
+       742.0
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194249806": {
      "op": "alquiler",
      "tipo": "departamentos",
-     "usd": 1198.0,
+     "ciudad": "lima",
+     "usd": 1200.0,
      "area": 102.0,
      "lat": -12.08001,
      "lng": -77.05061,
@@ -24144,22 +24175,27 @@
       [
        20715,
        1198.0
+      ],
+      [
+       20717,
+       1200.0
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194254769": {
      "op": "alquiler",
      "tipo": "departamentos",
-     "usd": 563.0,
+     "ciudad": "lima",
+     "usd": 564.0,
      "area": 40.0,
      "lat": -12.07495,
      "lng": -77.04648,
      "mon": "PEN",
      "monto": 1900.0,
-     "mant": 38.53,
+     "mant": 38.57,
      "anio": "",
      "dorm": "1",
      "zona": "Jesus Maria",
@@ -24170,15 +24206,20 @@
       [
        20714,
        563.0
+      ],
+      [
+       20717,
+       564.0
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194249805": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 1200.0,
      "area": 102.0,
      "lat": -12.08001,
@@ -24199,19 +24240,20 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194179231": {
      "op": "alquiler",
      "tipo": "departamentos",
-     "usd": 770.0,
+     "ciudad": "lima",
+     "usd": 771.0,
      "area": 75.0,
      "lat": -12.08249,
      "lng": -77.05061,
      "mon": "PEN",
      "monto": 2600.0,
-     "mant": 97.81,
+     "mant": 97.92,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -24222,22 +24264,27 @@
       [
        20714,
        770.0
+      ],
+      [
+       20717,
+       771.0
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194147614": {
      "op": "alquiler",
      "tipo": "departamentos",
-     "usd": 770.0,
+     "ciudad": "lima",
+     "usd": 771.0,
      "area": 75.0,
      "lat": -12.16923,
      "lng": -77.06953,
      "mon": "PEN",
      "monto": 2600.0,
-     "mant": 97.81,
+     "mant": 97.92,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -24248,22 +24295,27 @@
       [
        20714,
        770.0
+      ],
+      [
+       20717,
+       771.0
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194237281": {
      "op": "alquiler",
      "tipo": "departamentos",
-     "usd": 681.0,
+     "ciudad": "lima",
+     "usd": 682.0,
      "area": 58.0,
      "lat": -12.08315,
      "lng": -77.05225,
      "mon": "PEN",
      "monto": 2300.0,
-     "mant": 74.1,
+     "mant": 74.18,
      "anio": "",
      "dorm": "1",
      "zona": "Jesus Maria",
@@ -24274,22 +24326,27 @@
       [
        20714,
        681.0
+      ],
+      [
+       20717,
+       682.0
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194250439": {
      "op": "alquiler",
      "tipo": "departamentos",
-     "usd": 948.0,
+     "ciudad": "lima",
+     "usd": 949.0,
      "area": 110.0,
      "lat": -12.08348,
      "lng": -77.05303,
      "mon": "PEN",
      "monto": 3200.0,
-     "mant": 97.81,
+     "mant": 97.92,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -24304,22 +24361,27 @@
       [
        20715,
        948.0
+      ],
+      [
+       20717,
+       949.0
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194164444": {
      "op": "alquiler",
      "tipo": "departamentos",
-     "usd": 533.0,
+     "ciudad": "lima",
+     "usd": 534.0,
      "area": 45.0,
      "lat": -12.0843,
      "lng": -77.05215,
      "mon": "PEN",
      "monto": 1800.0,
-     "mant": 65.21,
+     "mant": 65.28,
      "anio": "",
      "dorm": "Mono",
      "zona": "Jesus Maria",
@@ -24330,22 +24392,27 @@
       [
        20714,
        533.0
+      ],
+      [
+       20717,
+       534.0
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194266167": {
      "op": "alquiler",
      "tipo": "departamentos",
-     "usd": 741.0,
+     "ciudad": "lima",
+     "usd": 742.0,
      "area": 75.0,
      "lat": -12.08249,
      "lng": -77.05061,
      "mon": "PEN",
      "monto": 2500.0,
-     "mant": 74.1,
+     "mant": 74.18,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -24360,22 +24427,27 @@
       [
        20715,
        741.0
+      ],
+      [
+       20717,
+       742.0
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194254227": {
      "op": "alquiler",
      "tipo": "departamentos",
-     "usd": 770.0,
+     "ciudad": "lima",
+     "usd": 771.0,
      "area": 75.0,
      "lat": -12.10236,
      "lng": -77.16996,
      "mon": "PEN",
      "monto": 2600.0,
-     "mant": 97.81,
+     "mant": 97.92,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -24386,22 +24458,27 @@
       [
        20714,
        770.0
+      ],
+      [
+       20717,
+       771.0
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194246601": {
      "op": "alquiler",
      "tipo": "departamentos",
-     "usd": 741.0,
+     "ciudad": "lima",
+     "usd": 742.0,
      "area": 72.0,
      "lat": -12.07487,
      "lng": -77.047,
      "mon": "PEN",
      "monto": 2500.0,
-     "mant": 88.92,
+     "mant": 89.02,
      "anio": "",
      "dorm": "2",
      "zona": "Jesus Maria",
@@ -24416,22 +24493,27 @@
       [
        20715,
        741.0
+      ],
+      [
+       20717,
+       742.0
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194202631": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 105000.0,
      "area": 75.0,
      "lat": -12.10179,
      "lng": -76.9425,
      "mon": "USD",
      "monto": 105000.0,
-     "mant": 29.64,
+     "mant": 29.67,
      "anio": "",
      "dorm": "3",
      "zona": "La Molina",
@@ -24445,12 +24527,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "la-molina"
     },
     "194254007": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 593.0,
      "area": 45.0,
      "lat": -12.08325,
@@ -24475,12 +24558,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "la-molina"
     },
     "194256153": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 1150000.0,
      "area": 554.0,
      "lat": -12.08282,
@@ -24501,7 +24585,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "la-molina"
     },
     "194145100": {
@@ -24533,6 +24617,7 @@
     "194213149": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 1550000.0,
      "area": 535.0,
      "lat": -12.07594,
@@ -24553,12 +24638,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "la-molina"
     },
     "194190461": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 857506.0,
      "area": 324.0,
      "lat": -12.07712,
@@ -24587,12 +24673,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "la-molina"
     },
     "194204609": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 1073000.0,
      "area": 337.0,
      "lat": -12.0761,
@@ -24613,12 +24700,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "la-molina"
     },
     "194190462": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 550000.0,
      "area": 348.0,
      "lat": -12.10192,
@@ -24639,12 +24727,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "la-molina"
     },
     "194190463": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 554857.0,
      "area": 348.0,
      "lat": -12.10192,
@@ -24673,12 +24762,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "la-molina"
     },
     "194278541": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 1073000.0,
      "area": 337.0,
      "lat": -12.0761,
@@ -24699,12 +24789,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "la-molina"
     },
     "194190460": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 850000.0,
      "area": 324.0,
      "lat": -12.07712,
@@ -24725,12 +24816,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "la-molina"
     },
     "194202759": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 77347.0,
      "area": 33.0,
      "lat": -12.08689,
@@ -24751,12 +24843,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "la-victoria"
     },
     "194197016": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 82961.0,
      "area": 40.0,
      "lat": -12.08217,
@@ -24777,12 +24870,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "la-victoria"
     },
     "194188871": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 564.0,
      "area": 42.0,
      "lat": -12.08313,
@@ -24807,7 +24901,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "la-victoria"
     },
     "194137519": {
@@ -24839,6 +24933,7 @@
     "194234826": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 349900.0,
      "area": 201.0,
      "lat": -12.08592,
@@ -24859,12 +24954,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "la-victoria"
     },
     "194204484": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 145000.0,
      "area": 93.0,
      "lat": -12.08847,
@@ -24885,12 +24981,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194183998": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 62000.0,
      "area": 48.0,
      "lat": -12.08201,
@@ -24911,12 +25008,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194162042": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 180274.0,
      "area": 80.0,
      "lat": -12.08335,
@@ -24937,12 +25035,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194170962": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 229000.0,
      "area": 104.0,
      "lat": -12.0889,
@@ -24963,12 +25062,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194170974": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 157852.0,
      "area": 64.0,
      "lat": -12.0882,
@@ -24997,12 +25097,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194191347": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 311850.0,
      "area": 151.0,
      "lat": -12.08948,
@@ -25023,12 +25124,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194225240": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 219454.0,
      "area": 112.0,
      "lat": -12.08335,
@@ -25049,12 +25151,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194147978": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 113432.0,
      "area": 31.0,
      "lat": -12.09089,
@@ -25075,12 +25178,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194147984": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 114580.0,
      "area": 45.0,
      "lat": -12.08859,
@@ -25101,12 +25205,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194181457": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 95000.0,
      "area": 40.0,
      "lat": -12.08963,
@@ -25127,12 +25232,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194193298": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 219780.0,
      "area": 112.0,
      "lat": -12.08335,
@@ -25153,12 +25259,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194147974": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 217910.0,
      "area": 55.0,
      "lat": -12.09089,
@@ -25179,12 +25286,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194147976": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 166567.0,
      "area": 40.0,
      "lat": -12.09089,
@@ -25205,12 +25313,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194165154": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 742.0,
      "area": 64.0,
      "lat": -12.08102,
@@ -25239,12 +25348,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194190452": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 750.0,
      "area": 55.0,
      "lat": -12.09051,
@@ -25265,19 +25375,20 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194179345": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 564.0,
      "area": 49.0,
      "lat": -12.08481,
      "lng": -77.03556,
      "mon": "PEN",
      "monto": 1900.0,
-     "mant": 72.71,
+     "mant": 72.72,
      "anio": "",
      "dorm": "2",
      "zona": "Lince",
@@ -25295,12 +25406,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194147989": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 1100.0,
      "area": 83.0,
      "lat": -12.08975,
@@ -25321,12 +25433,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194147990": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 1110.0,
      "area": 83.0,
      "lat": -12.08975,
@@ -25355,7 +25468,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194137515": {
@@ -25387,6 +25500,7 @@
     "194223564": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 650000.0,
      "area": 342.0,
      "lat": -12.08998,
@@ -25407,12 +25521,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194216388": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 650000.0,
      "area": 342.0,
      "lat": -12.05263,
@@ -25433,12 +25548,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lince"
     },
     "194246529": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 125000.0,
      "area": 100.0,
      "lat": -12.31193,
@@ -25459,12 +25575,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lurin"
     },
     "194149567": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 330000.0,
      "area": 380.0,
      "lat": -12.3106,
@@ -25485,12 +25602,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "lurin"
     },
     "194204038": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 180000.0,
      "area": 78.0,
      "lat": -12.09119,
@@ -25511,7 +25629,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "magdalena-del-mar"
     },
     "194132426": {
@@ -25543,6 +25661,7 @@
     "194208225": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 210000.0,
      "area": 77.0,
      "lat": -12.09755,
@@ -25563,12 +25682,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "magdalena-del-mar"
     },
     "194197032": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 197000.0,
      "area": 90.0,
      "lat": -12.1003,
@@ -25589,12 +25709,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "magdalena-del-mar"
     },
     "194232483": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 148512.0,
      "area": 81.0,
      "lat": -12.09361,
@@ -25615,7 +25736,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "magdalena-del-mar"
     },
     "194132422": {
@@ -25725,6 +25846,7 @@
     "194213162": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 254225.0,
      "area": 110.0,
      "lat": -12.09511,
@@ -25745,12 +25867,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "magdalena-del-mar"
     },
     "194240823": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 124000.0,
      "area": 41.0,
      "lat": -12.09941,
@@ -25771,12 +25894,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "magdalena-del-mar"
     },
     "194185062": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 245000.0,
      "area": 123.0,
      "lat": -12.09848,
@@ -25797,7 +25921,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "magdalena-del-mar"
     },
     "194132428": {
@@ -25829,6 +25953,7 @@
     "194278211": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 200000.0,
      "area": 146.0,
      "lat": -12.096,
@@ -25849,12 +25974,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "magdalena-del-mar"
     },
     "194270613": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 123900.0,
      "area": 45.0,
      "lat": -12.09143,
@@ -25875,12 +26001,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "magdalena-del-mar"
     },
     "194270614": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 124994.0,
      "area": 45.0,
      "lat": -12.09143,
@@ -25909,12 +26036,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "magdalena-del-mar"
     },
     "194197034": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 196401.0,
      "area": 90.0,
      "lat": -12.1003,
@@ -25943,12 +26071,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "magdalena-del-mar"
     },
     "194260251": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 95000.0,
      "area": 47.0,
      "lat": -12.09718,
@@ -25969,7 +26098,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "magdalena-del-mar"
     },
     "194132433": {
@@ -26105,6 +26234,7 @@
     "194213141": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 123500.0,
      "area": 66.0,
      "lat": -12.08673,
@@ -26125,7 +26255,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "magdalena-del-mar"
     },
     "194138837": {
@@ -26209,6 +26339,7 @@
     "194197010": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 268823.0,
      "area": 84.0,
      "lat": -12.095,
@@ -26229,7 +26360,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "magdalena-del-mar"
     },
     "194132424": {
@@ -26287,6 +26418,7 @@
     "194263068": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 805.0,
      "area": 49.0,
      "lat": -12.09521,
@@ -26307,12 +26439,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "magdalena-del-mar"
     },
     "194213157": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 623.0,
      "area": 50.0,
      "lat": -12.09219,
@@ -26337,12 +26470,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "magdalena-del-mar"
     },
     "194212937": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 682.0,
      "area": 86.0,
      "lat": -12.09385,
@@ -26367,12 +26501,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "magdalena-del-mar"
     },
     "194234821": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 206610.0,
      "area": 71.0,
      "lat": -12.1249,
@@ -26393,12 +26528,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194234835": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 244000.0,
      "area": 82.0,
      "lat": -12.12562,
@@ -26419,12 +26555,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194208927": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 125000.0,
      "area": 80.0,
      "lat": -12.12801,
@@ -26445,12 +26582,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194240833": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 309000.0,
      "area": 89.0,
      "lat": -12.11098,
@@ -26471,7 +26609,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194137512": {
@@ -26503,6 +26641,7 @@
     "194256160": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 950000.0,
      "area": 235.0,
      "lat": -12.1126,
@@ -26523,7 +26662,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194132407": {
@@ -26555,6 +26694,7 @@
     "194213147": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 233000.0,
      "area": 72.0,
      "lat": -12.12004,
@@ -26575,12 +26715,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194234845": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 528390.0,
      "area": 183.0,
      "lat": -12.12295,
@@ -26609,12 +26750,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194202755": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 433000.0,
      "area": 136.0,
      "lat": -12.11982,
@@ -26635,12 +26777,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194234819": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 258160.0,
      "area": 96.0,
      "lat": -12.11942,
@@ -26661,12 +26804,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194234825": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 845000.0,
      "area": 137.0,
      "lat": -12.12644,
@@ -26687,12 +26831,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194181458": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 339000.0,
      "area": 116.0,
      "lat": -12.12096,
@@ -26713,12 +26858,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194169550": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 194900.0,
      "area": 79.0,
      "lat": -12.12635,
@@ -26739,12 +26885,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194223569": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 244117.0,
      "area": 94.0,
      "lat": -12.10672,
@@ -26765,12 +26912,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194202757": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 270512.0,
      "area": 93.0,
      "lat": -12.12136,
@@ -26791,12 +26939,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194182308": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 209595.0,
      "area": 82.0,
      "lat": -12.11134,
@@ -26817,12 +26966,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194240832": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 767000.0,
      "area": 191.0,
      "lat": -12.11098,
@@ -26843,12 +26993,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194213153": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 450000.0,
      "area": 148.0,
      "lat": -12.11745,
@@ -26869,12 +27020,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194277931": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 130000.0,
      "area": 75.0,
      "lat": -12.11484,
@@ -26895,12 +27047,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194274599": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 208600.0,
      "area": 82.0,
      "lat": -12.11134,
@@ -26921,12 +27074,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194191214": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 309000.0,
      "area": 125.0,
      "lat": -12.12399,
@@ -26947,12 +27101,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194173193": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 185000.0,
      "area": 94.0,
      "lat": -12.12637,
@@ -26973,12 +27128,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194170966": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 208000.0,
      "area": 65.0,
      "lat": -12.12137,
@@ -26999,7 +27155,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194132408": {
@@ -27031,6 +27187,7 @@
     "194234811": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 184277.0,
      "area": 60.0,
      "lat": -12.1249,
@@ -27051,12 +27208,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194270599": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 90000.0,
      "area": 86.0,
      "lat": -12.11462,
@@ -27077,12 +27235,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194203657": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 209345.0,
      "area": 82.0,
      "lat": -12.11134,
@@ -27103,12 +27262,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194202758": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 305544.0,
      "area": 106.0,
      "lat": -12.12136,
@@ -27129,7 +27289,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194132417": {
@@ -27161,6 +27321,7 @@
     "194234823": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 536000.0,
      "area": 78.0,
      "lat": -12.12644,
@@ -27181,12 +27342,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194181456": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 129000.0,
      "area": 61.0,
      "lat": -12.13257,
@@ -27207,12 +27369,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194208229": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 284000.0,
      "area": 102.0,
      "lat": -12.13211,
@@ -27235,12 +27398,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194240830": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 290500.0,
      "area": 80.0,
      "lat": -12.11098,
@@ -27261,12 +27425,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194223560": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 639000.0,
      "area": 104.0,
      "lat": -12.12644,
@@ -27287,7 +27452,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194176364": {
@@ -27319,6 +27484,7 @@
     "194213146": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 230000.0,
      "area": 82.0,
      "lat": -12.11982,
@@ -27339,12 +27505,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194240831": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 392000.0,
      "area": 132.0,
      "lat": -12.11098,
@@ -27365,19 +27532,20 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194172777": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 330000.0,
      "area": 200.0,
      "lat": -12.11897,
      "lng": -77.03799,
      "mon": "USD",
      "monto": 330000.0,
-     "mant": 201.77,
+     "mant": 201.73,
      "anio": "",
      "dorm": "4",
      "zona": "Miraflores",
@@ -27391,12 +27559,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194223568": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 198529.0,
      "area": 69.0,
      "lat": -12.10672,
@@ -27417,12 +27586,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194240829": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 526000.0,
      "area": 144.0,
      "lat": -12.11098,
@@ -27443,12 +27613,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194234844": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 480000.0,
      "area": 183.0,
      "lat": -12.12295,
@@ -27469,12 +27640,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194215355": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 187000.0,
      "area": 88.0,
      "lat": -12.12074,
@@ -27495,19 +27667,20 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194278283": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 185000.0,
      "area": 116.0,
      "lat": -12.12652,
      "lng": -77.01698,
      "mon": "USD",
      "monto": 185000.0,
-     "mant": 89.01,
+     "mant": 89.0,
      "anio": "",
      "dorm": "2",
      "zona": "Miraflores",
@@ -27521,12 +27694,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263096": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 424470.0,
      "area": 122.0,
      "lat": -12.1271,
@@ -27555,12 +27729,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263079": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 266500.0,
      "area": 87.0,
      "lat": -12.1271,
@@ -27581,12 +27756,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263101": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 433000.0,
      "area": 138.0,
      "lat": -12.1271,
@@ -27607,12 +27783,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263083": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 341000.0,
      "area": 102.0,
      "lat": -12.1271,
@@ -27633,12 +27810,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263087": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 306500.0,
      "area": 80.0,
      "lat": -12.1271,
@@ -27659,12 +27837,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263091": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 328000.0,
      "area": 87.0,
      "lat": -12.1271,
@@ -27685,12 +27864,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263092": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 327977.0,
      "area": 87.0,
      "lat": -12.1271,
@@ -27719,12 +27899,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263095": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 424500.0,
      "area": 122.0,
      "lat": -12.1271,
@@ -27745,12 +27926,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263099": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 442000.0,
      "area": 125.0,
      "lat": -12.1271,
@@ -27771,12 +27953,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263084": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 340976.0,
      "area": 102.0,
      "lat": -12.1271,
@@ -27805,12 +27988,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263100": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 441969.0,
      "area": 125.0,
      "lat": -12.1271,
@@ -27839,12 +28023,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263078": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 256982.0,
      "area": 84.0,
      "lat": -12.1271,
@@ -27873,12 +28058,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263089": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 336000.0,
      "area": 113.0,
      "lat": -12.1271,
@@ -27899,12 +28085,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263093": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 385500.0,
      "area": 87.0,
      "lat": -12.1271,
@@ -27925,12 +28112,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263102": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 432969.0,
      "area": 138.0,
      "lat": -12.1271,
@@ -27959,12 +28147,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263075": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 262500.0,
      "area": 84.0,
      "lat": -12.1271,
@@ -27985,12 +28174,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263080": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 266481.0,
      "area": 87.0,
      "lat": -12.1271,
@@ -28019,12 +28209,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263076": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 262481.0,
      "area": 84.0,
      "lat": -12.1271,
@@ -28053,12 +28244,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263077": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 257000.0,
      "area": 84.0,
      "lat": -12.1271,
@@ -28079,12 +28271,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263082": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 261981.0,
      "area": 92.0,
      "lat": -12.1271,
@@ -28113,12 +28306,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263086": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 367974.0,
      "area": 108.0,
      "lat": -12.1271,
@@ -28147,12 +28341,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263073": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 246500.0,
      "area": 80.0,
      "lat": -12.1271,
@@ -28173,12 +28368,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263074": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 246482.0,
      "area": 80.0,
      "lat": -12.1271,
@@ -28207,12 +28403,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263085": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 368000.0,
      "area": 108.0,
      "lat": -12.1271,
@@ -28233,12 +28430,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263094": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 385473.0,
      "area": 87.0,
      "lat": -12.1271,
@@ -28267,12 +28465,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263097": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 387500.0,
      "area": 120.0,
      "lat": -12.1271,
@@ -28293,12 +28492,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263098": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 387472.0,
      "area": 120.0,
      "lat": -12.1271,
@@ -28327,12 +28527,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263081": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 262000.0,
      "area": 92.0,
      "lat": -12.1271,
@@ -28353,12 +28554,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263088": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 306478.0,
      "area": 80.0,
      "lat": -12.1271,
@@ -28387,12 +28589,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263090": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 335976.0,
      "area": 113.0,
      "lat": -12.1271,
@@ -28421,12 +28624,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194269363": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 265000.0,
      "area": 130.0,
      "lat": -12.12805,
@@ -28447,12 +28651,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194269362": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 265000.0,
      "area": 130.0,
      "lat": -12.12805,
@@ -28473,12 +28678,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194269315": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 265000.0,
      "area": 130.0,
      "lat": -12.12805,
@@ -28499,12 +28705,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194269311": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 265000.0,
      "area": 130.0,
      "lat": -12.12805,
@@ -28525,12 +28732,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194269314": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 265000.0,
      "area": 130.0,
      "lat": -12.12805,
@@ -28551,12 +28759,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194269361": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 265000.0,
      "area": 130.0,
      "lat": -12.12805,
@@ -28577,12 +28786,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194269313": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 265000.0,
      "area": 130.0,
      "lat": -12.12805,
@@ -28603,12 +28813,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194269312": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 265000.0,
      "area": 130.0,
      "lat": -12.12805,
@@ -28629,12 +28840,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194230724": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 600.0,
      "area": 55.0,
      "lat": -12.12249,
@@ -28655,19 +28867,20 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194221889": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 2500.0,
      "area": 540.0,
      "lat": -12.12249,
      "lng": -77.03135,
      "mon": "USD",
      "monto": 2500.0,
-     "mant": 450.54,
+     "mant": 450.34,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -28681,12 +28894,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194197012": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 880.0,
      "area": 68.0,
      "lat": -12.11355,
@@ -28707,12 +28921,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194245581": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 1368.0,
      "area": 125.0,
      "lat": -12.12142,
@@ -28741,12 +28956,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194267535": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 600.0,
      "area": 55.0,
      "lat": -12.12249,
@@ -28767,12 +28983,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194219857": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 600.0,
      "area": 55.0,
      "lat": -12.12249,
@@ -28793,12 +29010,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194249804": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 1068.0,
      "area": 70.0,
      "lat": -12.1152,
@@ -28823,19 +29041,20 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194250526": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 900.0,
      "area": 70.0,
      "lat": -12.11295,
      "lng": -77.04742,
      "mon": "USD",
      "monto": 900.0,
-     "mant": 148.4,
+     "mant": 148.33,
      "anio": "",
      "dorm": "1",
      "zona": "Miraflores",
@@ -28849,19 +29068,20 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194183964": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 890.0,
      "area": 70.0,
      "lat": -12.11405,
      "lng": -77.03801,
      "mon": "PEN",
      "monto": 3000.0,
-     "mant": 103.88,
+     "mant": 103.83,
      "anio": "",
      "dorm": "2",
      "zona": "Miraflores",
@@ -28883,19 +29103,20 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194201710": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 2500.0,
      "area": 540.0,
      "lat": -12.12249,
      "lng": -77.03135,
      "mon": "USD",
      "monto": 2500.0,
-     "mant": 450.54,
+     "mant": 450.34,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -28909,19 +29130,20 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194211979": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 2500.0,
      "area": 540.0,
      "lat": -12.14753,
      "lng": -77.05862,
      "mon": "USD",
      "monto": 2500.0,
-     "mant": 450.54,
+     "mant": 450.34,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -28935,12 +29157,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194210031": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 600.0,
      "area": 55.0,
      "lat": -12.12249,
@@ -28961,19 +29184,20 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194205294": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 1200.0,
      "area": 69.0,
      "lat": -12.12738,
      "lng": -77.02602,
      "mon": "USD",
      "monto": 1200.0,
-     "mant": 118.7,
+     "mant": 118.67,
      "anio": "",
      "dorm": "2",
      "zona": "Miraflores",
@@ -28987,19 +29211,20 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194187659": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 593.0,
      "area": 35.0,
      "lat": -12.12249,
      "lng": -77.03135,
      "mon": "PEN",
      "monto": 2000.0,
-     "mant": 29.68,
+     "mant": 29.67,
      "anio": "",
      "dorm": "1",
      "zona": "Miraflores",
@@ -29017,7 +29242,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194144724": {
@@ -29049,6 +29274,7 @@
     "194199172": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 600.0,
      "area": 55.0,
      "lat": -12.12249,
@@ -29069,12 +29295,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194263067": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 1100.0,
      "area": 67.0,
      "lat": -12.12679,
@@ -29095,19 +29322,20 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194154562": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 1200.0,
      "area": 69.0,
      "lat": -12.12738,
      "lng": -77.02602,
      "mon": "USD",
      "monto": 1200.0,
-     "mant": 118.72,
+     "mant": 118.67,
      "anio": "",
      "dorm": "2",
      "zona": "Miraflores",
@@ -29121,12 +29349,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194242776": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 600.0,
      "area": 55.0,
      "lat": -12.12249,
@@ -29147,12 +29376,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194181450": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 1250.0,
      "area": 76.0,
      "lat": -12.12567,
@@ -29173,19 +29403,20 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194164401": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 2500.0,
      "area": 540.0,
      "lat": -12.1324,
      "lng": -77.066,
      "mon": "USD",
      "monto": 2500.0,
-     "mant": 450.46,
+     "mant": 450.34,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -29199,12 +29430,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194245580": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 1350.0,
      "area": 125.0,
      "lat": -12.12142,
@@ -29225,12 +29457,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194174849": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 600.0,
      "area": 55.0,
      "lat": -12.12249,
@@ -29251,19 +29484,20 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194220376": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 831.0,
      "area": 68.0,
      "lat": -12.11373,
      "lng": -77.04747,
      "mon": "PEN",
      "monto": 2800.0,
-     "mant": 103.88,
+     "mant": 103.83,
      "anio": "",
      "dorm": "2",
      "zona": "Miraflores",
@@ -29281,19 +29515,20 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194147638": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 2500.0,
      "area": 540.0,
      "lat": -12.13741,
      "lng": -77.05467,
      "mon": "USD",
      "monto": 2500.0,
-     "mant": 450.54,
+     "mant": 450.34,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -29307,7 +29542,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194137514": {
@@ -36935,6 +37170,7 @@
     "194160695": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 2500.0,
      "area": 200.0,
      "lat": -12.1121,
@@ -36955,7 +37191,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194281410": {
@@ -36987,13 +37223,14 @@
     "194282869": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 549.0,
      "area": 55.0,
      "lat": -12.06486,
      "lng": -77.04195,
      "mon": "PEN",
      "monto": 1850.0,
-     "mant": 38.53,
+     "mant": 38.57,
      "anio": "",
      "dorm": "1",
      "zona": "Jesus Maria",
@@ -37007,12 +37244,13 @@
       ]
      ],
      "f": 20716,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194283666": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 318000.0,
      "area": 120.0,
      "lat": -12.11667,
@@ -37033,19 +37271,20 @@
       ]
      ],
      "f": 20716,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194283045": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 1484.0,
      "area": 83.0,
      "lat": -12.11855,
      "lng": -77.04267,
      "mon": "PEN",
      "monto": 5000.0,
-     "mant": 103.88,
+     "mant": 103.83,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -37059,7 +37298,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20716,
+     "r": 20717,
      "dist": "miraflores"
     },
     "194282584": {
@@ -37165,11 +37404,260 @@
      "f": 20716,
      "r": 20716,
      "dist": "santiago-de-surco"
+    },
+    "194267250": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "arequipa",
+     "usd": 185000.0,
+     "area": 104.0,
+     "lat": -16.39671,
+     "lng": -71.55793,
+     "mon": "USD",
+     "monto": 185000.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Yanahuara",
+     "titulo": "Moderno Departamento De Estreno Frente A Parque – Yanahuara",
+     "u": "https://www.infocasas.com.pe/moderno-departamento-de-estreno-frente-a-parque-–-yanahuara-/194267250",
+     "flags": [],
+     "p": [
+      [
+       20717,
+       185000.0
+      ]
+     ],
+     "f": 20717,
+     "r": 20717,
+     "dist": "arequipa"
+    },
+    "194267338": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "arequipa",
+     "usd": 215000.0,
+     "area": 120.0,
+     "lat": -16.39671,
+     "lng": -71.55793,
+     "mon": "USD",
+     "monto": 215000.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Yanahuara",
+     "titulo": "Moderno Departamento de Estreno en Segundo Piso con Terraza y Vista a Parque",
+     "u": "https://www.infocasas.com.pe/moderno-departamento-de-estreno-en-segundo-piso-con-terraza-y-vista-a-parque/194267338",
+     "flags": [],
+     "p": [
+      [
+       20717,
+       215000.0
+      ]
+     ],
+     "f": 20717,
+     "r": 20717,
+     "dist": "arequipa"
+    },
+    "194267564": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "arequipa",
+     "usd": 125000.0,
+     "area": 80.0,
+     "lat": -16.37928,
+     "lng": -71.55274,
+     "mon": "USD",
+     "monto": 125000.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cayma",
+     "titulo": "Moderno Departamento de Estreno en Zona Residencial de Cayma",
+     "u": "https://www.infocasas.com.pe/moderno-departamento-de-estreno-en-zona-residencial-de-cayma/194267564",
+     "flags": [],
+     "p": [
+      [
+       20717,
+       125000.0
+      ]
+     ],
+     "f": 20717,
+     "r": 20717,
+     "dist": "arequipa"
+    },
+    "194267610": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "arequipa",
+     "usd": 125000.0,
+     "area": 85.0,
+     "lat": -16.37928,
+     "lng": -71.55274,
+     "mon": "USD",
+     "monto": 125000.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cayma",
+     "titulo": "Moderno Departamento de Estreno en Segundo Piso – Cayma",
+     "u": "https://www.infocasas.com.pe/moderno-departamento-de-estreno-en-segundo-piso-–-cayma/194267610",
+     "flags": [],
+     "p": [
+      [
+       20717,
+       125000.0
+      ]
+     ],
+     "f": 20717,
+     "r": 20717,
+     "dist": "arequipa"
+    },
+    "194212252": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "arequipa",
+     "usd": 180000.0,
+     "area": 128.0,
+     "lat": -16.40411,
+     "lng": -71.54198,
+     "mon": "USD",
+     "monto": 180000.0,
+     "mant": 0.3,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Vallecito",
+     "titulo": "Preventa de Exclusivo Departamento en Primer Piso Vista a Parque – Vallecito",
+     "u": "https://www.infocasas.com.pe/preventa-de-exclusivo-departamento-en-primer-piso-vista-a-parque-–-vallecito/194212252",
+     "flags": [],
+     "p": [
+      [
+       20717,
+       180000.0
+      ]
+     ],
+     "f": 20717,
+     "r": 20717,
+     "dist": "arequipa"
+    },
+    "194206492": {
+     "op": "venta",
+     "tipo": "casas",
+     "ciudad": "arequipa",
+     "usd": 210000.0,
+     "area": 158.0,
+     "lat": -16.40411,
+     "lng": -71.54198,
+     "mon": "USD",
+     "monto": 210000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Vallecito",
+     "titulo": "Preventa de Exclusivo Departamento en Primer Piso con Patio – Vallecito",
+     "u": "https://www.infocasas.com.pe/preventa-de-exclusivo-departamento-en-primer-piso-con-patio-–-vallecito/194206492",
+     "flags": [],
+     "p": [
+      [
+       20717,
+       210000.0
+      ]
+     ],
+     "f": 20717,
+     "r": 20717,
+     "dist": "arequipa"
+    },
+    "194229113": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "cusco",
+     "usd": 150000.0,
+     "area": 130.0,
+     "lat": -13.53291,
+     "lng": -71.96199,
+     "mon": "USD",
+     "monto": 150000.0,
+     "mant": 32.63,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Wanchaq",
+     "titulo": "Departamentos en Venta en Cusco | Vive, Invierte o Genera con Airbnb",
+     "u": "https://www.infocasas.com.pe/departamentos-en-venta-en-cusco-vive-invierte-o-genera-con-airbnb/194229113",
+     "flags": [],
+     "p": [
+      [
+       20717,
+       150000.0
+      ]
+     ],
+     "f": 20717,
+     "r": 20717,
+     "dist": "cuzco"
     }
    },
-   "tc": 3.370237433227171,
-   "turno": 49,
-   "pagina": 1
+   "tc": 3.3707865168539324,
+   "turno": 85,
+   "pagina": 1,
+   "rotacion_ciudades": {
+    "arequipa": {
+     "turno": 0,
+     "pagina": 1
+    },
+    "cusco": {
+     "turno": 0,
+     "pagina": 1
+    },
+    "cajamarca": {
+     "turno": 0,
+     "pagina": 1
+    },
+    "trujillo": {
+     "turno": 0,
+     "pagina": 1
+    },
+    "huaraz": {
+     "turno": 0,
+     "pagina": 1
+    }
+   },
+   "ultima_cobertura": {
+    "lima": {
+     "paginas": 40,
+     "validos": 176,
+     "fuera_ciudad": 0,
+     "momento": 1789950326
+    },
+    "arequipa": {
+     "paginas": 4,
+     "validos": 6,
+     "fuera_ciudad": 2,
+     "momento": 1789950326
+    },
+    "cusco": {
+     "paginas": 4,
+     "validos": 1,
+     "fuera_ciudad": 0,
+     "momento": 1789950326
+    },
+    "cajamarca": {
+     "paginas": 4,
+     "validos": 0,
+     "fuera_ciudad": 0,
+     "momento": 1789950326
+    },
+    "trujillo": {
+     "paginas": 4,
+     "validos": 0,
+     "fuera_ciudad": 0,
+     "momento": 1789950326
+    },
+    "huaraz": {
+     "paginas": 4,
+     "validos": 0,
+     "fuera_ciudad": 0,
+     "momento": 1789950326
+    }
+   }
   }
  }
 }
