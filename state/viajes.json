@@ -5,7 +5,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {},
- "saved_at": 1789980719,
+ "saved_at": 1789982753,
  "history": {
   "45e494479f289b17": [
    [
@@ -1525,7 +1525,7 @@
   ]
  },
  "cursors": {
-  "travelpayouts": 1789961148
+  "travelpayouts": 1789982753
  },
  "flight_alerts": {},
  "datos": {
@@ -2168,6 +2168,10 @@
     "2af4634c56886207": [
      20717,
      6.008
+    ],
+    "deb13b6849a89619": [
+     20717,
+     5.646
     ]
    },
    "Travelpayouts|USD|ida-vuelta|regional": {
