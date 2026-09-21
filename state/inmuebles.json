@@ -12,7 +12,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {},
- "saved_at": 1789994370,
+ "saved_at": 1790016016,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -26832,6 +26832,7 @@
     "194213150": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 92000.0,
      "area": 63.0,
      "lat": -12.17752,
@@ -26852,12 +26853,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "chorrillos"
     },
     "194215381": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 70000.0,
      "area": 45.0,
      "lat": -12.17623,
@@ -26878,12 +26880,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "chorrillos"
     },
     "194170961": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 110000.0,
      "area": 90.0,
      "lat": -12.17821,
@@ -26904,12 +26907,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "chorrillos"
     },
     "194152713": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 227625.0,
      "area": 106.0,
      "lat": -12.15722,
@@ -26930,12 +26934,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "chorrillos"
     },
     "194176388": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 101180.0,
      "area": 70.0,
      "lat": -12.20272,
@@ -26964,12 +26969,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "chorrillos"
     },
     "194176387": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 100000.0,
      "area": 70.0,
      "lat": -12.20272,
@@ -26990,7 +26996,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "chorrillos"
     },
     "194132411": {
@@ -27022,6 +27028,7 @@
     "194190455": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 163398.0,
      "area": 100.0,
      "lat": -12.17674,
@@ -27042,12 +27049,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "chorrillos"
     },
     "194204668": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 445.0,
      "area": 47.0,
      "lat": -12.17383,
@@ -27072,12 +27080,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "chorrillos"
     },
     "194211831": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 297.0,
      "area": 40.0,
      "lat": -12.20221,
@@ -27102,12 +27111,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "chorrillos"
     },
     "194269448": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 310000.0,
      "area": 294.0,
      "lat": -12.18174,
@@ -27128,12 +27138,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "chorrillos"
     },
     "194167045": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 169000.0,
      "area": 216.0,
      "lat": -12.10571,
@@ -27154,12 +27165,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "cieneguilla"
     },
     "194234830": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 960000.0,
      "area": 700.0,
      "lat": -12.09482,
@@ -27180,12 +27192,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "cieneguilla"
     },
     "194175034": {
      "op": "alquiler",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 356.0,
      "area": 72.0,
      "lat": -11.92714,
@@ -27210,12 +27223,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "comas"
     },
     "194221455": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 279000.0,
      "area": 420.0,
      "lat": -11.93806,
@@ -27236,12 +27250,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "comas"
     },
     "194221475": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 279000.0,
      "area": 420.0,
      "lat": -11.92374,
@@ -27262,12 +27277,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "comas"
     },
     "194221474": {
      "op": "venta",
      "tipo": "casas",
+     "ciudad": "lima",
      "usd": 279000.0,
      "area": 420.0,
      "lat": -11.92374,
@@ -27288,12 +27304,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "comas"
     },
     "194254452": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 167903.0,
      "area": 73.0,
      "lat": -12.07496,
@@ -27314,12 +27331,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194278340": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 293748.0,
      "area": 204.0,
      "lat": -12.08116,
@@ -27344,12 +27362,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194176370": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 105687.0,
      "area": 44.0,
      "lat": -12.08373,
@@ -27378,12 +27397,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194224997": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 158956.0,
      "area": 73.0,
      "lat": -12.07496,
@@ -27404,12 +27424,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194227796": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 178029.0,
      "area": 75.0,
      "lat": -12.08249,
@@ -27438,12 +27459,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194147982": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 159705.0,
      "area": 66.0,
      "lat": -12.06994,
@@ -27464,12 +27486,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194258861": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 178029.0,
      "area": 75.0,
      "lat": -12.08249,
@@ -27498,12 +27521,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194256159": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 113500.0,
      "area": 40.0,
      "lat": -12.07039,
@@ -27524,12 +27548,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194254308": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 154257.0,
      "area": 57.0,
      "lat": -12.07288,
@@ -27550,12 +27575,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194240826": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 265000.0,
      "area": 96.0,
      "lat": -12.08334,
@@ -27576,12 +27602,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194176369": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 101917.0,
      "area": 42.0,
      "lat": -12.08373,
@@ -27610,12 +27637,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194176372": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 121119.0,
      "area": 40.0,
      "lat": -12.08373,
@@ -27644,12 +27672,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194176366": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 94560.0,
      "area": 39.0,
      "lat": -12.08373,
@@ -27678,12 +27707,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194176368": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 93002.0,
      "area": 42.0,
      "lat": -12.08373,
@@ -27712,12 +27742,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194153022": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 171539.0,
      "area": 69.0,
      "lat": -12.07496,
@@ -27738,7 +27769,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194132419": {
@@ -27770,6 +27801,7 @@
     "194227764": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 323419.0,
      "area": 142.0,
      "lat": -12.08249,
@@ -27798,12 +27830,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194176371": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 107038.0,
      "area": 37.0,
      "lat": -12.08373,
@@ -27832,7 +27865,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194139915": {
@@ -27868,6 +27901,7 @@
     "194147961": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 173764.0,
      "area": 63.0,
      "lat": -12.08213,
@@ -27888,12 +27922,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194274761": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 154211.0,
      "area": 56.0,
      "lat": -12.07288,
@@ -27914,12 +27949,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194176376": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 161695.0,
      "area": 64.0,
      "lat": -12.08373,
@@ -27948,12 +27984,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194173128": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 323419.0,
      "area": 142.0,
      "lat": -12.09019,
@@ -27982,12 +28019,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194164619": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 323419.0,
      "area": 142.0,
      "lat": -12.09863,
@@ -28016,12 +28054,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194176367": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 93002.0,
      "area": 42.0,
      "lat": -12.08373,
@@ -28050,12 +28089,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194176373": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 138943.0,
      "area": 51.0,
      "lat": -12.08373,
@@ -28084,12 +28124,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194176374": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 131350.0,
      "area": 52.0,
      "lat": -12.08373,
@@ -28118,12 +28159,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194204688": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 990000.0,
      "area": 204.0,
      "lat": -12.08116,
@@ -28144,12 +28186,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194147975": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 168157.0,
      "area": 58.0,
      "lat": -12.08294,
@@ -28170,12 +28213,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194204771": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 323419.0,
      "area": 142.0,
      "lat": -12.08249,
@@ -28204,12 +28248,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194272062": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 250000.0,
      "area": 905.0,
      "lat": -12.07785,
@@ -28230,12 +28275,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194208235": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 192865.0,
      "area": 80.0,
      "lat": -12.0788,
@@ -28264,12 +28310,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194147973": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 212335.0,
      "area": 61.0,
      "lat": -12.0795,
@@ -28290,12 +28337,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194147981": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 133530.0,
      "area": 53.0,
      "lat": -12.06994,
@@ -28316,12 +28364,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194176375": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 140595.0,
      "area": 56.0,
      "lat": -12.08373,
@@ -28350,12 +28399,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194166568": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 162388.0,
      "area": 66.0,
      "lat": -12.07288,
@@ -28376,12 +28426,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194147969": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 110590.0,
      "area": 40.0,
      "lat": -12.06994,
@@ -28402,12 +28453,13 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194172386": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 187164.0,
      "area": 73.0,
      "lat": -12.07977,
@@ -28428,7 +28480,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194206774": {
@@ -28850,7 +28902,7 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 534.0,
+     "usd": 533.0,
      "area": 45.0,
      "lat": -12.0843,
      "lng": -77.05215,
@@ -28871,6 +28923,10 @@
       [
        20717,
        534.0
+      ],
+      [
+       20717,
+       533.0
       ]
      ],
      "f": 20714,
@@ -29352,13 +29408,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 564.0,
+     "usd": 563.0,
      "area": 42.0,
      "lat": -12.08313,
      "lng": -77.02561,
      "mon": "PEN",
      "monto": 1900.0,
-     "mant": 59.37,
+     "mant": 59.26,
      "anio": "",
      "dorm": "Mono",
      "zona": "La Victoria",
@@ -29373,6 +29429,10 @@
       [
        20716,
        564.0
+      ],
+      [
+       20717,
+       563.0
       ]
      ],
      "f": 20714,
@@ -41870,6 +41930,7 @@
     "194147651": {
      "op": "venta",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "usd": 178029.0,
      "area": 75.0,
      "lat": -12.08246,
@@ -41894,7 +41955,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20716,
+     "r": 20717,
      "dist": "jesus-maria"
     },
     "194160695": {
@@ -42330,8 +42391,8 @@
      "dist": "cuzco"
     }
    },
-   "tc": 3.3689839572192515,
-   "turno": 27,
+   "tc": 3.3692722371967654,
+   "turno": 66,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -42358,39 +42419,39 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 56,
-     "fuera_ciudad": 2,
-     "momento": 1789994370
+     "validos": 105,
+     "fuera_ciudad": 0,
+     "momento": 1790016016
     },
     "arequipa": {
      "paginas": 4,
      "validos": 6,
      "fuera_ciudad": 2,
-     "momento": 1789994370
+     "momento": 1790016016
     },
     "cusco": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1789994370
+     "momento": 1790016016
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1789994370
+     "momento": 1790016016
     },
     "trujillo": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1789994370
+     "momento": 1790016016
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1789994370
+     "momento": 1790016016
     }
    }
   }
