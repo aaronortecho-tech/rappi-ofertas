@@ -1,0 +1,138 @@
+{
+  "url": "https://www.infocasas.com.pe/venta/departamentos/arequipa/publicado-ultimos-30-dias",
+  "lastPage": 1,
+  "data": [
+    {
+      "id": 194240827,
+      "price": {
+        "amount": 419000,
+        "admin_included": 419750,
+        "hidePrice": false,
+        "currency": {
+          "id": 1,
+          "name": "U$S",
+          "rate": 1
+        }
+      },
+      "price_amount_usd": 419000,
+      "locations": {
+        "neighbourhood": [
+          {
+            "name": "Orrantia"
+          }
+        ]
+      },
+      "technicalSheet": [
+        {
+          "field": "constructionYear",
+          "value": ""
+        },
+        {
+          "field": "bedrooms",
+          "value": "3"
+        },
+        {
+          "field": "commonExpenses",
+          "value": "$ 750"
+        }
+      ],
+      "link": "/venta-alquiler-lindo-departamento-3-dormitorios-con-baño-2-cocheras-san-isidro/194240827",
+      "operation_type": {
+        "id": 1,
+        "name": "Venta"
+      },
+      "m2": 172,
+      "m2Built": 172,
+      "latitude": -12.0920211,
+      "longitude": -77.0365592
+    },
+    {
+      "id": 194267250,
+      "price": {
+        "amount": 185000,
+        "admin_included": 185001,
+        "hidePrice": false,
+        "currency": {
+          "id": 1,
+          "name": "U$S",
+          "rate": 1
+        }
+      },
+      "price_amount_usd": 185000,
+      "locations": {
+        "neighbourhood": [
+          {
+            "name": "Yanahuara"
+          }
+        ]
+      },
+      "technicalSheet": [
+        {
+          "field": "constructionYear",
+          "value": ""
+        },
+        {
+          "field": "bedrooms",
+          "value": "3"
+        },
+        {
+          "field": "commonExpenses",
+          "value": "S/ 1"
+        }
+      ],
+      "link": "/moderno-departamento-de-estreno-frente-a-parque-–-yanahuara-/194267250",
+      "operation_type": {
+        "id": 1,
+        "name": "Venta"
+      },
+      "m2": 104,
+      "m2Built": 104,
+      "latitude": -16.396712,
+      "longitude": -71.5579295
+    },
+    {
+      "id": 194267338,
+      "price": {
+        "amount": 215000,
+        "admin_included": 215001,
+        "hidePrice": false,
+        "currency": {
+          "id": 1,
+          "name": "U$S",
+          "rate": 1
+        }
+      },
+      "price_amount_usd": 215000,
+      "locations": {
+        "neighbourhood": [
+          {
+            "name": "Yanahuara"
+          }
+        ]
+      },
+      "technicalSheet": [
+        {
+          "field": "constructionYear",
+          "value": ""
+        },
+        {
+          "field": "bedrooms",
+          "value": "3"
+        },
+        {
+          "field": "commonExpenses",
+          "value": "S/ 1"
+        }
+      ],
+      "link": "/moderno-departamento-de-estreno-en-segundo-piso-con-terraza-y-vista-a-parque/194267338",
+      "operation_type": {
+        "id": 1,
+        "name": "Venta"
+      },
+      "m2": 120,
+      "m2Built": 120,
+      "latitude": -16.396712,
+      "longitude": -71.5579295
+    }
+  ]
+}

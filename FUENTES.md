@@ -367,6 +367,16 @@ Como no hay apuro de comprar, conviene poco y bueno:
 
 ## Grupo 5 · Inmuebles (`inmuebles`)
 
+### Ampliación vigente: 20 de septiembre de 2026
+
+Esta ampliación reemplaza las restricciones anteriores a Lima. Se conservan Lima y las reglas de riesgo, comparables, deduplicación y máximo tres alertas por ronda.
+
+- Infocasas: comprobadas las 20 combinaciones venta/alquiler × casas/departamentos × cinco ciudades, con robots permitido y filtro `publicado-ultimos-30-dias`. Rutas regionales: `arequipa`, `cuzco`, `cajamarca`, `la-libertad/trujillo`, `ancash/huaraz`. La consulta real dio siete departamentos y una casa en venta en Arequipa, un departamento en venta en Cusco y cero en las combinaciones restantes salvo un alquiler de Arequipa con coordenadas de Lima. Esas cantidades son observaciones puntuales, no cobertura total del mercado. Algunos resultados de Arequipa tenían coordenadas de Lima: se rechazan por discrepancia de ciudad. Muestras recortadas sin contactos en `tests/fixtures/infocasas_ciudad_*`.
+- `monitor/property_cities.py` centraliza áreas urbanas aproximadas por coordenadas, sin pretender límites municipales exactos. Comparables separados por ciudad además del radio de 1,5 km. La memoria antigua de Lima se reconoce por coordenadas, sin borrarla. Infocasas conserva sus 60 páginas totales: 40 Lima y cuatro por ciudad nueva, con rotación independiente y métricas por ciudad. Un 403/429 detiene las solicitudes del dominio.
+- Nexo: mapa público verificado, con fichas regionales reales `departamentos/arequipa/luzzo-cerro-colorado-3197` y `departamentos/cusco/lumine-3513`; muestras recortadas incluidas. Se admiten coordenadas de las seis ciudades y se reserva hasta un tercio del presupuesto, máximo diez lecturas, para los proyectos regionales disponibles. No se afirma que Nexo publique proyectos en las otras tres ciudades.
+- Scotiabank: PDF público de 242 filas; 36 filas identificables en las cinco provincias nuevas antes de aplicar filtros registrales/riesgo. Se reconoce la pareja departamento/provincia: Arequipa/Arequipa, Cusco o Cuzco/Cusco o Cuzco, Cajamarca/Cajamarca, La Libertad/Trujillo, Áncash/Huaraz. Se mantiene Lima/Callao. La cobertura bancaria es provincial (puede incluir distritos periféricos); el PDF no permite el mismo control por coordenadas. La memoria ya conservaba todas las filas, por lo que ampliar cobertura no convierte automáticamente cada adjudicado antiguo en una novedad.
+
+
 Un inmueble no es comparable con otro como sí lo son dos autos del mismo modelo: dos departamentos de tres dormitorios en Surco pueden valer muy distinto por el piso, la vista, la antigüedad del edificio, el mantenimiento o media cuadra de diferencia. Por eso la mediana de comparables, que en autos funciona bien, aquí es débil.
 
 Pero los inmuebles tienen algo que los autos no: **un ingreso observable**. Los mismos portales publican ventas y alquileres, así que se puede calcular cuánto renta un inmueble y compararlo con lo que renta su zona. Ese es el criterio central de este grupo.

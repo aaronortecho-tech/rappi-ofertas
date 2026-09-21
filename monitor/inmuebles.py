@@ -16,6 +16,7 @@ from urllib.robotparser import RobotFileParser
 
 from .http import HttpClient, Blocked
 from . import infocasas
+from .property_cities import CITIES, city_at, listing_city, city_label, bank_city
 
 NEXO = 'https://nexoinmobiliario.pe'
 PROJECT_URL = re.compile(r'^https://nexoinmobiliario\.pe/(departamentos|casas)/([a-z0-9-]+)/[a-z0-9-]+-(\d+)$')
@@ -92,7 +93,8 @@ def parse_project(html, url):
     lng = re.search(r'lng"\s*:\s*"(-?\d+\.\d+)"', html)
     if not lat or not lng: raise ValueError('El proyecto no trae su ubicación')
     point = (float(lat.group(1)), float(lng.group(1)))
-    if not (-12.6 < point[0] < -11.6 and -77.3 < point[1] < -76.6): raise ValueError('Ubicación fuera de Lima')
+    city = city_at(*point)
+    if not city: raise ValueError('Ubicación fuera de las ciudades monitorizadas')
     stage = re.search(r'Entrega (en planos|en construcci[oó]n|inmediata)', str(product.get('description') or ''), re.I)
     models = {}
     for block in html.split('fp-modelo-disponible-content')[1:]:
@@ -108,7 +110,7 @@ def parse_project(html, url):
         models[name.group(1)] = [area, dorms, 'PEN' if price.group(1) == 'S/' else 'USD', value]
     brand = product.get('brand') if isinstance(product.get('brand'), dict) else {}
     return match.group(3), {
-        'u': url, 'tipo': match.group(1), 'dist': match.group(2).replace('-', ' ').title(),
+        'u': url, 'tipo': match.group(1), 'ciudad': city, 'dist': match.group(2).replace('-', ' ').title(),
         'nombre': str(product.get('name') or '').split(' - ')[0].strip()[:60], 'marca': str(brand.get('name') or '')[:40],
         'lat': round(point[0], 5), 'lng': round(point[1], 5), 'etapa': (stage.group(1).lower() if stage else ''),
         'modelos': models,
@@ -133,7 +135,7 @@ def evaluate_project(store, pid, rate, day):
     project = store[pid]
     own = per_m2(project, rate)
     if not own: return None
-    title = f"🏢 {project['nombre']} · {project['dist']}" + (f" · entrega {project['etapa']}" if project['etapa'] else '')
+    title = f"🏢 {project['nombre']} · {project['dist']} · {city_label(project)}" + (f" · entrega {project['etapa']}" if project['etapa'] else '')
     # 1) Bajada de precio de un modelo frente a lo primero que se vio.
     drops = []
     for name, (area, dorms, cur, price) in project['modelos'].items():
@@ -149,6 +151,7 @@ def evaluate_project(store, pid, rate, day):
     here = (project['lat'], project['lng'])
     near = [per_m2(p, rate) for k, p in store.items()
             if k != pid and p['tipo'] == project['tipo'] and p.get('r', 0) >= day - 30
+            and listing_city(p) == listing_city(project)
             and distance_km(here, (p['lat'], p['lng'])) <= RADIUS_KM]
     near = [v for v in near if v]
     if len(near) < MIN_COMPARABLES: return None
@@ -183,6 +186,10 @@ def scan_nexo(state, now, rate, budget, http_factory=HttpClient):
         for pid in listed:
             if pid in store: store[pid]['x'] = day
         queue = [p for p in listed if p not in store] + sorted((p for p in listed if p in store), key=lambda p: store[p].get('r', 0))
+        regional = [p for p in queue if PROJECT_URL.match(listed[p]).group(2) in set(CITIES)-{'lima'}
+                    or (p in store and listing_city(store[p]) in set(CITIES)-{'lima'})]
+        reserved = regional[:min(10, budget // 3)]
+        queue = reserved + [p for p in queue if p not in set(reserved)]
         for pid in queue[:budget]:
             if not rules.can_fetch(client.user_agent, listed[pid]): continue
             html = client.get(listed[pid]); read += 1
@@ -225,6 +232,7 @@ def scotia_text_rows(text, minimum=50):
         before = chunk[len(match.group(0)):value.start()].strip()
         rows[re.sub(r'\s', '', match.group(2))] = {
             'valor': float(value.group(1).replace(',', '')), 'area': value.group(2) + ' ' + value.group(3),
+            'ciudad': bank_city(before),
             'texto': before[:160], 'lima': bool(re.search(r'\bLIMA (LIMA|CALLAO)\b', before)),
             # Palabra completa: «TERRENO URBANO INSCRITO» termina en «NO INSCRITO» si se compara el texto a secas.
             'inscrito': bool(re.search(r'\bINSCRITO$', chunk.rstrip())) and not re.search(r'\bNO INSCRITO$', chunk.rstrip()),
@@ -245,10 +253,11 @@ def scan_scotia(state, now, http_factory=HttpClient):
         count = len(rows)
         previous = data.get('filas')
         for exp, row in rows.items():
-            if not row['lima'] or not row['inscrito']: continue
+            city = row.get('ciudad') or bank_city(row['texto'])
+            if not city or not row['inscrito']: continue
             if bad_text(row['texto']) or re.search(r'\bACC\b', row['texto']): continue
             before = (previous or {}).get(exp)
-            title = f"🏦 Adjudicado Scotiabank · exp. {exp}"
+            title = f"🏦 Adjudicado Scotiabank · {CITIES[city][0]} · exp. {exp}"
             facts = f"{row['texto']} · {row['area']}" + (f" · {row['clase'].lower()}" if row['clase'] else '')
             if previous is None: continue  # primera lectura: solo se guarda la lista de referencia
             if before is None:
@@ -300,4 +309,13 @@ def scan_inmuebles(state, now, http_factory=HttpClient):
     counts = [sum(v['op'] == op for v in listings.values()) for op in ('venta', 'alquiler')]
     logging.getLogger('catalogs').info('Nexo: %d proyectos · Infocasas: %d ventas y %d alquileres en memoria',
                                        len(store), *counts)
+    for city, (label, _) in CITIES.items():
+        city_rows = [v for v in listings.values() if listing_city(v) == city]
+        coverage = state.datos['infocasas'].get('ultima_cobertura', {}).get(city, {})
+        logging.getLogger('catalogs').info('Inmuebles/%s: %d ventas y %d alquileres; %d proyectos; '
+                                         '%d páginas y %d avisos válidos en esta ronda', label,
+                                         sum(v['op'] == 'venta' for v in city_rows),
+                                         sum(v['op'] == 'alquiler' for v in city_rows),
+                                         sum(listing_city(v) == city for v in store.values()),
+                                         coverage.get('paginas', 0), coverage.get('validos', 0))
     return sorted(deals, key=lambda d: -d.pct), reports + more  # límite después de deduplicar

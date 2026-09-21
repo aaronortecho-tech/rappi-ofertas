@@ -109,6 +109,8 @@ Es el grupo más distinto de todos: nadie publica un precio de lista de un auto 
 
 ### Grupo `inmuebles`: la rentabilidad manda, no el precio por m²
 
+- Ampliación autorizada el 20 de septiembre: Lima más Arequipa, Cusco/Cuzco, Cajamarca, Trujillo y Huaraz. `property_cities.py` define la cobertura aproximada; Infocasas valida ciudad por coordenadas de cada búsqueda y compara solo la misma ciudad a 1,5 km. Conserva cursor legado de Lima y cursores regionales independientes. Presupuesto total igual: por defecto 40 páginas Lima y cuatro por cada ciudad nueva. Nexo acepta las mismas ciudades y reserva hasta diez lecturas regionales dentro del presupuesto. Scotiabank usa departamento/provincia del PDF (cobertura provincial), manteniendo inscripción y filtros de riesgo. No borrar el historial ni duplicar temas. Consultas vacías se registran como cero, sin afirmar cobertura comercial completa. Ver FUENTES.md para rutas y muestras verificadas.
+
 El detalle verificado está en FUENTES.md, sección "Grupo 5 · Inmuebles". **Ojo:** Urbania, Adondevivir y RE/MAX quedaron fuera por el bloqueo de Cloudflare. Ventas y alquileres salen de Infocasas (`monitor/infocasas.py`, ruta `publicado-ultimos-30-dias`); además Nexo (preventa) y el PDF de Scotiabank. Donde abajo dice Urbania, léase Infocasas:
 
 - **No uses las APIs internas.** Urbania y Adondevivir prohíben expresamente `/avisos-api/`, `/users-api/` y `/leads-api/` en su robots.txt. Devuelven JSON limpio y son la tentación obvia: no se tocan. Solo HTML y mapas del sitio.

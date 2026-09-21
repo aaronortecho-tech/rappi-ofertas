@@ -1,0 +1,46 @@
+{
+  "url": "https://www.infocasas.com.pe/venta/casas/arequipa/publicado-ultimos-30-dias",
+  "lastPage": 1,
+  "data": [
+    {
+      "id": 194206492,
+      "price": {
+        "amount": 210000,
+        "admin_included": 210000,
+        "hidePrice": false,
+        "currency": {
+          "id": 1,
+          "name": "U$S",
+          "rate": 1
+        }
+      },
+      "price_amount_usd": 210000,
+      "locations": {
+        "neighbourhood": [
+          {
+            "name": "Vallecito"
+          }
+        ]
+      },
+      "technicalSheet": [
+        {
+          "field": "constructionYear",
+          "value": ""
+        },
+        {
+          "field": "bedrooms",
+          "value": "3"
+        }
+      ],
+      "link": "/preventa-de-exclusivo-departamento-en-primer-piso-con-patio-–-vallecito/194206492",
+      "operation_type": {
+        "id": 1,
+        "name": "Venta"
+      },
+      "m2": 158,
+      "m2Built": 158,
+      "latitude": -16.4041083,
+      "longitude": -71.5419793
+    }
+  ]
+}

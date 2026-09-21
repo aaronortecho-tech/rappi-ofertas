@@ -1,0 +1,50 @@
+{
+  "url": "https://www.infocasas.com.pe/venta/departamentos/cuzco/publicado-ultimos-30-dias",
+  "lastPage": 1,
+  "data": [
+    {
+      "id": 194229113,
+      "price": {
+        "amount": 150000,
+        "admin_included": 150110,
+        "hidePrice": false,
+        "currency": {
+          "id": 1,
+          "name": "U$S",
+          "rate": 1
+        }
+      },
+      "price_amount_usd": 150000,
+      "locations": {
+        "neighbourhood": [
+          {
+            "name": "Wanchaq"
+          }
+        ]
+      },
+      "technicalSheet": [
+        {
+          "field": "constructionYear",
+          "value": ""
+        },
+        {
+          "field": "bedrooms",
+          "value": "4"
+        },
+        {
+          "field": "commonExpenses",
+          "value": "S/ 110"
+        }
+      ],
+      "link": "/departamentos-en-venta-en-cusco-vive-invierte-o-genera-con-airbnb/194229113",
+      "operation_type": {
+        "id": 1,
+        "name": "Venta"
+      },
+      "m2": 130,
+      "m2Built": 130,
+      "latitude": -13.532905669431873,
+      "longitude": -71.96199417114259
+    }
+  ]
+}

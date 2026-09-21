@@ -73,6 +73,7 @@ def test_price_drop_on_sale_is_reported():
 
 
 def test_rotation_resumes_unfinished_search_and_stops_on_block(monkeypatch):
+    monkeypatch.setattr(infocasas, 'REGIONAL_SEARCHES', {})  # aislar el cursor legado de Lima
     monkeypatch.setenv('PAGINAS_INFOCASAS', '10')
     calls = []
 
@@ -103,6 +104,7 @@ def test_rotation_resumes_unfinished_search_and_stops_on_block(monkeypatch):
 
 
 def test_resume_page_when_one_search_exceeds_round_budget(monkeypatch):
+    monkeypatch.setattr(infocasas, 'REGIONAL_SEARCHES', {})
     import json
     monkeypatch.setenv('PAGINAS_INFOCASAS', '10')
     calls = []

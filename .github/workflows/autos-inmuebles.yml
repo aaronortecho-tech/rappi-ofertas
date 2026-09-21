@@ -54,7 +54,7 @@ jobs:
           AUTOS_PRECIO_MAX: ${{ vars.AUTOS_PRECIO_MAX }}
           MODO_PRUEBA: ${{ github.event_name == 'workflow_dispatch' && inputs.prueba && 'si' || 'no' }}
         run: python -m monitor.catalogs --grupo autos
-      - name: Inmuebles (Nexo y adjudicados)
+      - name: Inmuebles (Lima y cinco ciudades)
         if: ${{ !cancelled() && (github.event_name != 'workflow_dispatch' || inputs.grupo == 'todos' || inputs.grupo == 'inmuebles') }}
         env:
           NTFY_TOPIC_INMUEBLES: ${{ secrets.NTFY_TOPIC_INMUEBLES }}

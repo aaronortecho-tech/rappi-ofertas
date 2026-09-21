@@ -64,7 +64,7 @@ No. # Exp Dirección Bien Departamento Provincia Distrito Valor Referencial
 def test_scotia_rows_parse_value_area_region_and_registry():
     rows = scotia_text_rows(SCOTIA, minimum=1)
     assert set(rows) == {'427', '5679', '5556', '5683-C'}
-    assert rows['5679'] == {'valor': 438300.0, 'area': '1280 m2', 'lima': True, 'inscrito': True,
+    assert rows['5679'] == {'valor': 438300.0, 'area': '1280 m2', 'lima': True, 'ciudad': 'lima', 'inscrito': True,
                             'texto': 'LT 21 MZ M1 URB.CASUARINAS SUR LIMA LIMA SANTIAGO DE SURCO', 'clase': 'VIVIENDA TERRENO URBANO'}
     assert rows['427']['inscrito'] is False and rows['5556']['lima'] is False
 

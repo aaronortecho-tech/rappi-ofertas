@@ -1,4 +1,4 @@
-"""Infocasas: ventas y alquileres publicados en los últimos 30 días en Lima Metropolitana.
+"""Infocasas: ventas y alquileres recientes en Lima y cinco ciudades adicionales.
 
 Es la fuente de alquileres que Urbania y Adondevivir no permiten leer (bloqueo de Cloudflare).
 Sus reglas de robots.txt permiten estos listados; solo se prohíben combinaciones «-y-» y rutas
@@ -13,6 +13,7 @@ import statistics
 from urllib.robotparser import RobotFileParser
 
 from .http import HttpClient, Blocked
+from .property_cities import CITIES, city_at, listing_city, city_label
 
 BASE = 'https://www.infocasas.com.pe'
 # Los 43 distritos de Lima Metropolitana (sin el Callao), con la forma de dirección de Infocasas.
@@ -24,6 +25,11 @@ DISTRICTS = ['ancon', 'ate', 'barranco', 'brena', 'carabayllo', 'cercado-de-lima
              'san-martin-de-porres', 'san-miguel', 'santa-anita', 'santa-maria-del-mar', 'santa-rosa',
              'santiago-de-surco', 'surquillo', 'villa-el-salvador', 'villa-maria-del-triunfo']
 SEARCHES = [(op, kind, d) for d in DISTRICTS for kind in ('departamentos', 'casas') for op in ('venta', 'alquiler')]
+REGIONAL_SEARCHES = {
+    city: [(op, kind, route) for kind in ('departamentos', 'casas') for op in ('venta', 'alquiler')]
+    for city, route in [('arequipa', 'arequipa'), ('cusco', 'cuzco'), ('cajamarca', 'cajamarca'),
+                        ('trujillo', 'la-libertad/trujillo'), ('huaraz', 'ancash/huaraz')]
+}
 FRESH = 'publicado-ultimos-30-dias'
 
 MIN_COMPARABLES = 8
@@ -59,7 +65,7 @@ def _money(text, rate):
     return value / rate if match.group(1) == 'S/' else value
 
 
-def parse_item(item, kind, rate):
+def parse_item(item, kind, rate, expected_city=None):
     """Aviso normalizado en dólares. Devuelve None si le falta lo indispensable para compararlo."""
     price = item.get('price') or {}
     usd = item.get('price_amount_usd')
@@ -68,7 +74,9 @@ def parse_item(item, kind, rate):
     area = item.get('m2Built') or (item.get('m2') if kind == 'departamentos' else 0)
     try: lat, lng = float(item.get('latitude')), float(item.get('longitude'))
     except (TypeError, ValueError): return None
-    if not area or not 15 <= float(area) <= 1000 or not (-12.6 < lat < -11.6 and -77.3 < lng < -76.6): return None
+    city = city_at(lat, lng)
+    if not area or not 15 <= float(area) <= 1000 or not city: return None
+    if expected_city and city != expected_city: return None
     # Avisos publicados en la operación equivocada (una «venta» de US$ 900 es un alquiler) ensucian las medianas.
     per_m2 = usd / float(area)
     if (op == 'venta' and per_m2 < 200) or (op == 'alquiler' and not 1 <= per_m2 <= 60): return None
@@ -78,7 +86,7 @@ def parse_item(item, kind, rate):
     text = (str(item.get('title') or '') + ' ' + re.sub(r'<[^>]+>', ' ', str(item.get('description') or ''))).lower()
     link = str(item.get('link') or '')
     return {
-        'op': op, 'tipo': kind, 'usd': float(usd), 'area': float(area), 'lat': round(lat, 5), 'lng': round(lng, 5),
+        'op': op, 'tipo': kind, 'ciudad': city, 'usd': float(usd), 'area': float(area), 'lat': round(lat, 5), 'lng': round(lng, 5),
         'mon': 'PEN' if currency == 'S/' else 'USD', 'monto': float(price.get('amount') or usd),
         'mant': round(_money(_sheet(item, 'commonExpenses'), rate), 2), 'anio': year if re.fullmatch(r'(19|20)\d\d', year) else '',
         'dorm': _sheet(item, 'bedrooms'), 'zona': neighbourhood[:40], 'titulo': str(item.get('title') or '').strip()[:80],
@@ -104,37 +112,54 @@ def scan_listings(state, now, rate, http_factory=HttpClient):
     budget = pages_budget()
     client = http_factory(delay=2, timeout=40, max_requests=budget + 2)
     read, error, fresh = 0, None, []
-    cursor = data.get('turno', 0) if isinstance(data.get('turno'), int) else 0
+    # Conserva el cursor legado de Lima; cada ciudad nueva tiene su propio turno/página.
+    rotations = data.setdefault('rotacion_ciudades', {})
+    per_city = max(1, budget // 15)
+    groups = [('lima', SEARCHES, budget - per_city * len(REGIONAL_SEARCHES), data)]
+    groups += [(city, searches, per_city, rotations.setdefault(city, {}))
+               for city, searches in REGIONAL_SEARCHES.items()]
+    coverage = data['ultima_cobertura'] = {}
     try:
-        rules = RobotFileParser(); rules.parse((client.get(BASE + '/robots.txt') or '').splitlines())
-        for step in range(len(SEARCHES)):
-            if read >= budget: break
-            op, kind, district = SEARCHES[(cursor + step) % len(SEARCHES)]
-            page = max(1, int(data.get('pagina', 1))) if step == 0 else 1
-            last = page
-            while page <= last and read < budget:
-                url = f'{BASE}/{op}/{kind}/lima/{district}/{FRESH}' + (f'/pagina{page}' if page > 1 else '')
-                if not rules.can_fetch(client.user_agent, url): raise ValueError('robots.txt ya no permite ' + url)
-                html = client.get(url); read += 1
-                if html is None: last = 0; break
-                items, last = listing_data(html)
-                rate = data['tc'] = site_rate(items, data.get('tc') or rate)
-                for item in items:
-                    parsed = parse_item(item, kind, rate)
-                    if not parsed or parsed['op'] != op: continue
-                    key = str(item.get('id'))
-                    old = store.get(key) or {}
-                    prices = old.get('p', [])
-                    if not prices or prices[-1][1] != parsed['usd']: prices.append([day, parsed['usd']])
-                    text = parsed.pop('texto')  # solo se guardan las alertas, no la descripción
-                    flags = sorted(w for w in BAD_WORDS if re.search(r'(?<!\w)' + re.escape(w) + r'(?!\w)', text))
-                    store[key] = dict(parsed, flags=flags, p=prices[-8:], f=old.get('f', day), r=day, dist=district)
-                    fresh.append(key)
-                page += 1
-                data['pagina'] = page
-            if page <= last: break  # se acabó el presupuesto a mitad de la búsqueda: se retoma la próxima vez
-            data['turno'] = (cursor + step + 1) % len(SEARCHES)
-            data['pagina'] = 1
+        robots = client.get(BASE + '/robots.txt') or ''
+        if 'user-agent:' not in robots.lower(): raise ValueError('robots.txt no verificable')
+        rules = RobotFileParser(); rules.parse(robots.splitlines())
+        for city, searches, quota, rotation in groups:
+            cursor = rotation.get('turno', 0) if isinstance(rotation.get('turno'), int) else 0
+            city_read = 0
+            metrics = coverage[city] = {'paginas': 0, 'validos': 0, 'fuera_ciudad': 0, 'momento': int(now)}
+            for step in range(len(searches)):
+                if city_read >= quota or read >= budget: break
+                index = (cursor + step) % len(searches)
+                op, kind, district = searches[index]
+                rotation['turno'] = index
+                page = max(1, int(rotation.get('pagina', 1)))
+                last = page
+                while page <= last and city_read < quota and read < budget:
+                    route = 'lima/' + district if city == 'lima' else district
+                    url = f'{BASE}/{op}/{kind}/{route}/{FRESH}' + (f'/pagina{page}' if page > 1 else '')
+                    if not rules.can_fetch(client.user_agent, url): raise ValueError('robots.txt ya no permite ' + url)
+                    html = client.get(url); read += 1; city_read += 1; metrics['paginas'] += 1
+                    if html is None: raise ValueError('Listado no disponible (404): ' + url)
+                    items, last = listing_data(html)
+                    rate = data['tc'] = site_rate(items, data.get('tc') or rate)
+                    for item in items:
+                        if city_at(item.get('latitude'), item.get('longitude')) != city:
+                            metrics['fuera_ciudad'] += 1
+                        parsed = parse_item(item, kind, rate, expected_city=city)
+                        if not parsed or parsed['op'] != op: continue
+                        key = str(item.get('id'))
+                        old = store.get(key) or {}
+                        prices = old.get('p', [])
+                        if not prices or prices[-1][1] != parsed['usd']: prices.append([day, parsed['usd']])
+                        text = parsed.pop('texto')  # no guardar descripciones ni contactos
+                        flags = sorted(w for w in BAD_WORDS if re.search(r'(?<!\w)' + re.escape(w) + r'(?!\w)', text))
+                        store[key] = dict(parsed, flags=flags, p=prices[-8:], f=old.get('f', day), r=day, dist=district)
+                        fresh.append(key); metrics['validos'] += 1
+                    page += 1
+                    rotation['pagina'] = page
+                if page <= last: break  # retomar esta búsqueda en la siguiente ronda
+                rotation['turno'] = (index + 1) % len(searches)
+                rotation['pagina'] = 1
     except Exception as exc:
         error = 'acceso bloqueado; no se insiste' if isinstance(exc, Blocked) else type(exc).__name__ + ': ' + str(exc)[:140]
     for key in [k for k, v in store.items() if v.get('r', 0) < day - KEEP_DAYS]: store.pop(key)
@@ -158,6 +183,7 @@ def comparables(store, listing, op, day):
     unique = {}
     for v in store.values():
         if v is listing or v['op'] != op or v['tipo'] != listing['tipo'] or v.get('flags'): continue
+        if not listing_city(listing) or listing_city(v) != listing_city(listing): continue
         if v.get('r', 0) < day - KEEP_DAYS or not low * listing['area'] <= v['area'] <= high * listing['area']: continue
         if distance_km(here, (v['lat'], v['lng'])) > RADIUS_KM: continue
         # Un mismo inmueble republicado con otro id (o por dos corredores) cuenta una sola vez:
@@ -175,7 +201,7 @@ def evaluate_listing(store, key, day, rate):
     if listing['op'] != 'venta' or listing.get('flags'): return None
     money = (lambda v: f"S/ {v * rate:,.0f}") if listing['mon'] == 'PEN' else (lambda v: f"US$ {v:,.0f}")
     title = (f"🏠 {listing['tipo'][:-1].capitalize()} en venta · {listing['zona'] or listing['dist'].replace('-', ' ').title()}"
-             f" · {listing['area']:g} m²" + (f" · {listing['dorm']} dorm." if listing.get('dorm') else ''))
+             f" · {city_label(listing)} · {listing['area']:g} m²" + (f" · {listing['dorm']} dorm." if listing.get('dorm') else ''))
     age = (f"Construido en {listing['anio']}" + (' (antes de la norma sísmica de 1997)' if listing['anio'] < '1997' else '')
            if listing.get('anio') else 'Antigüedad no informada')
     prices = [p for _, p in listing['p']]
