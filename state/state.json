@@ -223,15 +223,11 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1789968081,
+  "fetched_at": 1790056022,
   "stores": [
    [
-    326,
-    "gas-station"
-   ],
-   [
-    327,
-    "gas-station-home"
+    278,
+    "liquor"
    ],
    [
     379,
@@ -258,16 +254,8 @@
     "lab-nutrition-market"
    ],
    [
-    3563,
-    "sorpresa-lima"
-   ],
-   [
     3861,
     "consumoc"
-   ],
-   [
-    4068,
-    "gas-station-licores"
    ],
    [
     4465,
@@ -290,6 +278,10 @@
     "sony"
    ],
    [
+    8590,
+    "florescasa"
+   ],
+   [
     8595,
     "sea-frost"
    ],
@@ -306,6 +298,10 @@
     "metro-express"
    ],
    [
+    11741,
+    "laviniteca-licores"
+   ],
+   [
     11967,
     "floristeri"
    ],
@@ -320,6 +316,14 @@
    [
     12522,
     "mrgrill"
+   ],
+   [
+    13169,
+    "barrancobeer"
+   ],
+   [
+    13173,
+    "barrancobeer-home"
    ],
    [
     14026,
@@ -356,10 +360,6 @@
    [
     16343,
     "ferco"
-   ],
-   [
-    18673,
-    "central-party"
    ],
    [
     18680,
@@ -406,16 +406,16 @@
     "oxxo-express"
    ],
    [
+    23468,
+    "tusandistribuidores-home"
+   ],
+   [
     24889,
     "aruma-encalada"
    ],
    [
     25321,
     "turbo"
-   ],
-   [
-    25812,
-    "sophie-crown"
    ],
    [
     26077,
@@ -454,10 +454,6 @@
     "floreria-bloom-floristeria"
    ],
    [
-    30355,
-    "turbo"
-   ],
-   [
     30356,
     "turbo"
    ],
@@ -466,16 +462,20 @@
     "turbo"
    ],
    [
+    30427,
+    "anden-naturals-mt-nc"
+   ],
+   [
     30584,
     "xperteasy-mt-enc"
    ],
    [
-    31656,
-    "green-supply-enc"
+    31350,
+    "yumigumi-mt-enc"
    ],
    [
-    31773,
-    "detallitosdeliverylima-mt-enc"
+    31656,
+    "green-supply-enc"
    ],
    [
     32392,
@@ -506,24 +506,40 @@
     "interfastperu-mt-enc"
    ],
    [
-    33810,
-    "florescasa"
+    33663,
+    "morandina-mt-nc"
+   ],
+   [
+    33741,
+    "sweetsorpresa-mt-enc"
+   ],
+   [
+    34315,
+    "bmlicores-mt-nc"
+   ],
+   [
+    34460,
+    "giftideaslima-mt-enc"
    ],
    [
     34514,
     "percia-mt-enc"
    ],
    [
+    34609,
+    "irestoreit-mt-enc"
+   ],
+   [
     34632,
     "gamecenter-mt-enc"
    ],
    [
-    34763,
-    "lafloreria-mt-enc"
-   ],
-   [
     35137,
     "sabasbar-mt-nc"
+   ],
+   [
+    35366,
+    "alyssol-mt-nc"
    ],
    [
     35388,
@@ -538,8 +554,20 @@
     "secondskin-mt-enc"
    ],
    [
+    36584,
+    "cyzone-mt-enc"
+   ],
+   [
+    36591,
+    "lebel-mt-enc"
+   ],
+   [
     36611,
     "sumaqpe-mt-enc"
+   ],
+   [
+    36657,
+    "esikape-mt-enc"
    ],
    [
     36835,
@@ -554,10 +582,6 @@
     "makemusic-mt-enc"
    ],
    [
-    37064,
-    "petuniaflorerias-mt-enc"
-   ],
-   [
     37432,
     "wonderlandstore-mt-enc"
    ],
@@ -570,6 +594,10 @@
     "sanfernandope-mt-nc"
    ],
    [
+    38011,
+    "flowerboxper-mt-enc"
+   ],
+   [
     39130,
     "yenilu-mt-enc"
    ],
@@ -578,8 +606,20 @@
     "tecnodrome-mt-enc"
    ],
    [
+    39260,
+    "kebar-mt-nc"
+   ],
+   [
     39265,
     "noaltecnologia-mt-enc"
+   ],
+   [
+    39599,
+    "lapajarera-mt-enc"
+   ],
+   [
+    39680,
+    "ibaigo-mt-nc"
    ],
    [
     39704,
@@ -594,12 +634,24 @@
     "jotastore-mt-enc"
    ],
    [
+    39970,
+    "redkenproductoslima-mt-enc"
+   ],
+   [
     40427,
     "donsalvattorevinosypiscos-mt-nc"
    ],
    [
+    40982,
+    "pescadospremium-mt-nc"
+   ],
+   [
     40985,
     "ecologics-mt-enc"
+   ],
+   [
+    40987,
+    "regalosconmagia-mt-enc"
    ],
    [
     41093,
@@ -614,6 +666,10 @@
     "technologysspace-mt-enc"
    ],
    [
+    41261,
+    "golosinasgema-mt-enc"
+   ],
+   [
     41451,
     "petunia-mt-enc"
    ],
@@ -626,24 +682,24 @@
     "bexoperu-mt-enc"
    ],
    [
-    41905,
-    "kalafloristeriaydetalles-mt-enc"
-   ],
-   [
     41908,
     "fluyebottlepe-mt-enc"
-   ],
-   [
-    41918,
-    "damour-mt-enc"
    ],
    [
     42505,
     "dcalima-mt-enc"
    ],
    [
+    42565,
+    "camellia-mt-enc"
+   ],
+   [
     42626,
     "paperstop-mt-enc"
+   ],
+   [
+    42703,
+    "mysign-mt-enc"
    ],
    [
     43008,
@@ -658,20 +714,56 @@
     "lumpet-express-nc"
    ],
    [
+    43237,
+    "lecoreane-mt-enc"
+   ],
+   [
+    43594,
+    "convdevinos-mt-nc"
+   ],
+   [
+    43597,
+    "floreralosherrajes-mt-enc"
+   ],
+   [
     43752,
     "corpo-vega-home"
+   ],
+   [
+    43792,
+    "elementojadeflorerayregal-mt-enc"
    ],
    [
     44082,
     "dermapoint-mt-enc"
    ],
    [
+    44142,
+    "carniceralima-mt-nc"
+   ],
+   [
+    44332,
+    "vivero-mt-enc"
+   ],
+   [
     44827,
     "zegatech-mt-enc"
    ],
    [
+    44924,
+    "naturalflowers-mt-enc"
+   ],
+   [
+    44945,
+    "bionuna-mt-enc"
+   ],
+   [
     44948,
     "beerlandersmsquecervezas-mt-nc"
+   ],
+   [
+    45005,
+    "baliq"
    ],
    [
     45403,
@@ -682,12 +774,32 @@
     "love-packaging"
    ],
    [
+    45659,
+    "adriajoyas-mt-enc"
+   ],
+   [
+    45695,
+    "sperberriesper-mt-nc"
+   ],
+   [
+    46407,
+    "peredaplaterajoyera-mt-enc"
+   ],
+   [
     46423,
     "matheusbluemarket-mt-nc"
    ],
    [
     46521,
     "smartsystemperu-mt-enc"
+   ],
+   [
+    46585,
+    "elahiajoyeria-mt-enc"
+   ],
+   [
+    46748,
+    "floristsshopelcarretiller-mt-enc"
    ],
    [
     46912,
@@ -698,12 +810,28 @@
     "powermano-mt-enc"
    ],
    [
+    47104,
+    "licoreraelromano-mt-nc"
+   ],
+   [
     47151,
     "eztech-mt-enc"
    ],
    [
+    47166,
+    "vikingobeard-mt-enc"
+   ],
+   [
     47410,
     "rumah-mt-enc"
+   ],
+   [
+    47807,
+    "arthursons-mt-enc"
+   ],
+   [
+    47869,
+    "navigroupimportexportsac-mt-nc"
    ],
    [
     48041,
@@ -714,8 +842,12 @@
     "inversioneshomekitsrl-mt-enc"
    ],
    [
-    48507,
-    "boketto-mt-enc"
+    48561,
+    "florerasexpress-mt-enc"
+   ],
+   [
+    48709,
+    "saviaviveroboutique-mt-enc"
    ],
    [
     48764,
@@ -726,8 +858,16 @@
     "fabricacionesdigitalesdel-mt-enc"
    ],
    [
+    49078,
+    "repsol-mt-nc"
+   ],
+   [
     49326,
     "naturalgym-mt-enc"
+   ],
+   [
+    49344,
+    "ambarlashes-mt-enc"
    ],
    [
     49419,
@@ -742,6 +882,10 @@
     "thehange-mt-enc"
    ],
    [
+    49939,
+    "perfumo-mt-enc"
+   ],
+   [
     50239,
     "digitalshop-mt-enc"
    ],
@@ -750,28 +894,40 @@
     "domotika-mt-enc"
    ],
    [
-    50709,
-    "everydaybusiness-mt-enc"
+    50522,
+    "20113015765-mt-enc"
    ],
    [
-    50812,
-    "floreriasaurora-regalos-enc"
+    50709,
+    "everydaybusiness-mt-enc"
    ],
    [
     50828,
     "puntos-exclusivos-enc"
    ],
    [
+    50855,
+    "copynet-mt-enc"
+   ],
+   [
     50880,
     "wwtradingsac-mt-enc"
    ],
    [
-    50944,
-    "damour-regalos-enc"
+    51272,
+    "jhacyasociadossac-mt-nc"
    ],
    [
     51298,
     "widgetpersonalcomputerang-mt-enc"
+   ],
+   [
+    51382,
+    "engriecondetalles-mt-enc"
+   ],
+   [
+    51740,
+    "20549543368-mt-nc"
    ],
    [
     51780,
@@ -786,20 +942,36 @@
     "acpalogisticeirl-mt-enc"
    ],
    [
+    52073,
+    "carameliz-mt-enc"
+   ],
+   [
+    52215,
+    "supermercadosholipe-mt-nc"
+   ],
+   [
     52258,
     "ebestprice-mt-enc"
    ],
    [
-    52615,
-    "floristerabellarosa-mt-enc"
+    52330,
+    "sikaarequipa-mt-enc"
    ],
    [
     52685,
     "florayfauna"
    ],
    [
+    52792,
+    "proyeccininternacionalsac-mt-enc"
+   ],
+   [
     53131,
     "lopezarevalohnossac-mt-enc"
+   ],
+   [
+    53200,
+    "healthcorp-mt-nc"
    ],
    [
     53301,
@@ -810,8 +982,24 @@
     "disenzo-home"
    ],
    [
+    53327,
+    "bar-premium-super-nc"
+   ],
+   [
+    53361,
+    "pozito-market"
+   ],
+   [
+    53542,
+    "heliosimport-mt-enc"
+   ],
+   [
     53598,
     "the-drink-company-nc"
+   ],
+   [
+    53690,
+    "healinglab-mt-enc"
    ],
    [
     53825,
@@ -824,6 +1012,10 @@
    [
     53923,
     "icrazystore-mt-enc"
+   ],
+   [
+    54122,
+    "ebiflowersac-mt-enc"
    ],
    [
     54197,
@@ -842,8 +1034,32 @@
     "metanegociosyrepresentaci-mt-enc"
    ],
    [
+    54919,
+    "kauparty-mt-enc"
+   ],
+   [
+    54961,
+    "corporacionvertex-mt-enc"
+   ],
+   [
     55214,
     "casaideas-mt-enc"
+   ],
+   [
+    55430,
+    "fincafoodssac-mt-nc"
+   ],
+   [
+    55535,
+    "peccatrixaltaryvelas-mt-enc"
+   ],
+   [
+    55626,
+    "companiabiodyneperusac-mt-enc"
+   ],
+   [
+    55700,
+    "marketingyventassrl-mt-enc"
    ],
    [
     55777,
@@ -854,6 +1070,10 @@
     "lacanasteria-mt-enc"
    ],
    [
+    55913,
+    "magaysofistoresrl-mt-enc"
+   ],
+   [
     57092,
     "ajustegamershop-mt-enc"
    ],
@@ -862,12 +1082,28 @@
     "natura-mt-enc"
    ],
    [
+    57318,
+    "eymimportacionesycomercia-mt-enc"
+   ],
+   [
+    57331,
+    "shakingperusac-mt-enc"
+   ],
+   [
     57420,
     "greeninversionesdhcreirl-mt-enc"
    ],
    [
+    57472,
+    "20610768947-mt-enc"
+   ],
+   [
     57492,
     "serviciosinformaticosinte-mt-enc"
+   ],
+   [
+    57774,
+    "tusan-distribuidores-super-nc"
    ],
    [
     57776,
@@ -878,12 +1114,32 @@
     "beerpong-mt-nc"
    ],
    [
+    57858,
+    "importacionestmpereirl-mt-enc"
+   ],
+   [
     57870,
     "disenzo-express-nc"
    ],
    [
+    57872,
+    "biokamari-mt-enc"
+   ],
+   [
     57967,
     "vtcperu-mt-enc"
+   ],
+   [
+    58072,
+    "arlechimportaciones-mt-enc"
+   ],
+   [
+    58129,
+    "pressstart-mt-enc"
+   ],
+   [
+    58289,
+    "aristore-mt-enc"
    ],
    [
     58454,
@@ -894,16 +1150,48 @@
     "uno-ms-uno-mt-super-nc"
    ],
    [
+    58829,
+    "saritadetalles-mt-enc"
+   ],
+   [
     58921,
     "terratote-mt-enc"
+   ],
+   [
+    58980,
+    "neufertcorporation-mt-enc"
+   ],
+   [
+    59032,
+    "vebldetalle-mt-enc"
+   ],
+   [
+    59339,
+    "elmundodekimstore-mt-enc"
+   ],
+   [
+    59359,
+    "typsac-mt-nc"
    ],
    [
     59479,
     "mapledesignsac-mt-enc"
    ],
    [
+    59487,
+    "cristaleriasferrand-mt-enc"
+   ],
+   [
     59639,
     "celebra24-mt-nc"
+   ],
+   [
+    59738,
+    "santorolicores-mt-nc"
+   ],
+   [
+    59788,
+    "tazaspersonalizadas-mt-enc"
    ],
    [
     59872,
@@ -914,6 +1202,30 @@
     "chillygeek-mt-enc"
    ],
    [
+    60116,
+    "almabonitapereirl-mt-enc"
+   ],
+   [
+    60187,
+    "bluewavestechsolutionssac-mt-enc"
+   ],
+   [
+    60207,
+    "munaykiperusac-mt-enc"
+   ],
+   [
+    60243,
+    "makani-mt-enc"
+   ],
+   [
+    60415,
+    "perumercado-mt-enc"
+   ],
+   [
+    60498,
+    "dempaqper-mt-enc"
+   ],
+   [
     60500,
     "pharman-farmacia-nc"
    ],
@@ -922,12 +1234,24 @@
     "oregonfoodspe-mt-nc"
    ],
    [
+    60545,
+    "yakuaperusac-mt-enc"
+   ],
+   [
+    60589,
+    "fybzelugroupsac-mt-enc"
+   ],
+   [
     60642,
     "fotobuystore-mt-enc"
    ],
    [
     61115,
     "esmeyo"
+   ],
+   [
+    61240,
+    "replique-mt-enc"
    ],
    [
     61284,
@@ -942,8 +1266,48 @@
     "mercurytech-mt-enc"
    ],
    [
+    61548,
+    "fiestacolors-mt-enc"
+   ],
+   [
+    61670,
+    "sorprendimi-mt-enc"
+   ],
+   [
+    61754,
+    "bazarsaludable-mt-enc"
+   ],
+   [
     61790,
     "gsglobalgroupeirl-moda-enc"
+   ],
+   [
+    61809,
+    "yotomo-mt-nc"
+   ],
+   [
+    61926,
+    "tusmartsac-mt-enc"
+   ],
+   [
+    61976,
+    "regaloslule-mt-enc"
+   ],
+   [
+    62112,
+    "morangestore-mt-enc"
+   ],
+   [
+    62115,
+    "rinconadadevilla-mt-nc"
+   ],
+   [
+    62161,
+    "elmundodeignacia-mt-enc"
+   ],
+   [
+    62177,
+    "milienvolturas-mt-enc"
    ],
    [
     62272,
@@ -954,10 +1318,6 @@
     "wong"
    ],
    [
-    62427,
-    "vapingstore-mt-enc"
-   ],
-   [
     63034,
     "piscokilmetro300-mt-nc"
    ],
@@ -966,24 +1326,48 @@
     "felizcity-mt-enc"
    ],
    [
+    63355,
+    "estudiodomenicapadilla-mt-enc"
+   ],
+   [
     63393,
     "wong-hogar-enc"
+   ],
+   [
+    63789,
+    "chupilcapersac-mt-enc"
+   ],
+   [
+    64125,
+    "gastronomiasinlimitessrl-mt-enc"
    ],
    [
     64405,
     "orcapsac-mt-nc"
    ],
    [
+    64429,
+    "sarainternationalbeauty-mt-enc"
+   ],
+   [
     64458,
     "sinfiltro-mt-enc"
    ],
    [
-    64493,
-    "rosettaperu-mt-enc"
+    64473,
+    "20609793806-mt-enc"
+   ],
+   [
+    64509,
+    "marketmurillo-mt-nc"
    ],
    [
     64816,
     "greta-market-nc"
+   ],
+   [
+    65234,
+    "vapingstore-mt-enc"
    ],
    [
     65290,
@@ -994,8 +1378,24 @@
     "pericasqueen-mt-enc"
    ],
    [
+    65437,
+    "grupolucselsac-mt-enc"
+   ],
+   [
     65646,
     "felizcity-flores-enc"
+   ],
+   [
+    65655,
+    "botanicannperu-home"
+   ],
+   [
+    65743,
+    "nfecare-farmacia"
+   ],
+   [
+    65887,
+    "floritelfloreria-mt-enc"
    ],
    [
     66062,
@@ -1006,28 +1406,76 @@
     "allcute-mt-enc"
    ],
    [
+    66124,
+    "laaromtica-mt-enc"
+   ],
+   [
+    66241,
+    "limpieypunto-mt-enc"
+   ],
+   [
+    66370,
+    "noalife-mt-nc"
+   ],
+   [
+    66372,
+    "encremadas-mt-nc"
+   ],
+   [
+    66469,
+    "fasty-mt-nc"
+   ],
+   [
+    66529,
+    "distribuidoramoraviasac-mt-nc"
+   ],
+   [
     66724,
     "20612986771-mt-enc"
+   ],
+   [
+    66752,
+    "grupopraizsac-mt-enc"
    ],
    [
     66950,
     "youroutletperusac-mt-enc"
    ],
    [
-    67001,
-    "freshgreen-mt-nc"
-   ],
-   [
     67010,
     "beemovilsac-mt-enc"
+   ],
+   [
+    67439,
+    "fiesta21sac-mt-enc"
    ],
    [
     67588,
     "jpcvaperssac-licores-enc"
    ],
    [
+    67665,
+    "magellantradingperu-mt-enc"
+   ],
+   [
+    67777,
+    "shipersales-mt-enc"
+   ],
+   [
+    67944,
+    "20607431737-mt-enc"
+   ],
+   [
     68255,
     "docucenter-mt-enc"
+   ],
+   [
+    68309,
+    "carpinteriaeltallerdedonm-mt-enc"
+   ],
+   [
+    68490,
+    "doncamilosparklingwines-mt-nc"
    ],
    [
     68704,
@@ -1054,8 +1502,8 @@
     "vapor-club-cigarro-enc"
    ],
    [
-    69292,
-    "central-party-regalos-enc"
+    69348,
+    "bohooaccesorios-mt-enc"
    ],
    [
     69385,
@@ -1078,6 +1526,10 @@
     "la-canasteria-express-nc"
    ],
    [
+    69701,
+    "el-pozito-express-licores-nc"
+   ],
+   [
     69707,
     "la-canasteria-mt-licores-nc"
    ],
@@ -1090,8 +1542,16 @@
     "el-hongo-licores-nc"
    ],
    [
+    69788,
+    "social-drinks-marketlicores-nc"
+   ],
+   [
     69792,
     "distribuidoramoravia-express-nc"
+   ],
+   [
+    69802,
+    "social-drinks"
    ],
    [
     69807,
@@ -1102,20 +1562,64 @@
     "rosatel"
    ],
    [
-    71363,
-    "florelima-mt-enc"
+    69991,
+    "zentribienestar-mt-enc"
    ],
    [
-    71578,
-    "kausay-mt-enc"
+    70147,
+    "sarhidregalos-mt-enc"
+   ],
+   [
+    71108,
+    "matiartesanalsac-mt-enc"
+   ],
+   [
+    71257,
+    "marketcarabela-mt-nc"
+   ],
+   [
+    71569,
+    "20607484421-mt-nc"
+   ],
+   [
+    71907,
+    "karedesayunosorpresa-mt-enc"
+   ],
+   [
+    71946,
+    "solucionesbotanicaseirl-mt-enc"
    ],
    [
     72104,
     "thecandleshop-mt-enc"
    ],
    [
+    72219,
+    "tucsonfood-mt-nc"
+   ],
+   [
+    72317,
+    "gas-station"
+   ],
+   [
+    72393,
+    "gas-station-home"
+   ],
+   [
+    72394,
+    "gas-station-licores"
+   ],
+   [
+    72804,
+    "piamore-mt-enc"
+   ],
+   [
     72868,
     "20610546677-mt-enc"
+   ],
+   [
+    72955,
+    "soltechsurco-mt-enc"
    ],
    [
     73071,
@@ -1124,6 +1628,14 @@
    [
     73106,
     "stanley-mt-enc"
+   ],
+   [
+    73522,
+    "turbo-lacestasuper-multibrand-nc"
+   ],
+   [
+    73748,
+    "vanidiosaperu-mt-enc"
    ],
    [
     73813,
@@ -1138,12 +1650,36 @@
     "licoreriapaty-mt-nc"
    ],
    [
+    74472,
+    "cajacreativa-mt-enc"
+   ],
+   [
+    74494,
+    "jemma-mt-enc"
+   ],
+   [
     74691,
     "wong-licores"
    ],
    [
+    74777,
+    "danielavs-mt-enc"
+   ],
+   [
     74841,
     "florayfauna-home"
+   ],
+   [
+    74892,
+    "sidrasperu-mt-nc"
+   ],
+   [
+    74896,
+    "regaloslima-mt-enc"
+   ],
+   [
+    74943,
+    "livecandra-mt-enc"
    ],
    [
     75084,
@@ -1154,16 +1690,48 @@
     "normita-express-nc"
    ],
    [
+    75129,
+    "hipatiacompany-mt-enc"
+   ],
+   [
     75135,
     "locomprooyaaa-mt-enc"
+   ],
+   [
+    75164,
+    "varelox-mt-enc"
+   ],
+   [
+    75283,
+    "forestfruitssac-mt-nc"
    ],
    [
     75413,
     "minna-mt-enc"
    ],
    [
-    75860,
-    "naturalflowers-mt-enc"
+    75730,
+    "amoreo-mt-enc"
+   ],
+   [
+    75991,
+    "puig-mt-enc"
+   ],
+   [
+    76034,
+    "qongelado-mt-nc"
+   ],
+   [
+    76130,
+    "carcareper-mt-enc"
+   ],
+   [
+    76225,
+    "oliverycatalina-mt-enc"
+   ],
+   [
+    76917,
+    "licorama2-mt-nc"
    ],
    [
     76991,
@@ -1174,12 +1742,68 @@
     "factordisruptivosac-mt-enc"
    ],
    [
+    77238,
+    "abbazia-mt-nc"
+   ],
+   [
+    77427,
+    "medstyleperuanasac-mt-enc"
+   ],
+   [
     77543,
     "kriskenn-mt-enc"
    ],
    [
+    77594,
+    "darkloy-mt-enc"
+   ],
+   [
+    78427,
+    "cannahealing-mt-nc"
+   ],
+   [
+    78605,
+    "ocshop-mt-enc"
+   ],
+   [
     78801,
     "kamlustore-mt-enc"
+   ],
+   [
+    79034,
+    "maderomarket-mt-nc"
+   ],
+   [
+    79291,
+    "florquelattesac-mt-enc"
+   ],
+   [
+    79352,
+    "granjasandiego-mt-nc"
+   ],
+   [
+    79354,
+    "elcuadrilcarnicera-mt-nc"
+   ],
+   [
+    79811,
+    "ureabienestarmcscrl-mt-enc"
+   ],
+   [
+    79824,
+    "endemicgames-mt-enc"
+   ],
+   [
+    79982,
+    "kentifrutossecos-mt-nc"
+   ],
+   [
+    80077,
+    "danik-mt-enc"
+   ],
+   [
+    80139,
+    "fleurdelis-mt-enc"
    ],
    [
     80219,
@@ -1194,20 +1818,44 @@
     "dandeliongiftbox-mt-enc"
    ],
    [
+    80853,
+    "hogarylimpiezaryl-mt-enc"
+   ],
+   [
     81087,
     "mac"
+   ],
+   [
+    81819,
+    "legonlive-mt-enc"
+   ],
+   [
+    81905,
+    "encantaperfumeria-mt-enc"
+   ],
+   [
+    85173,
+    "morangeglamourstore-mt-enc"
    ],
    [
     85367,
     "lalucirnaga-mt-nc"
    ],
    [
-    85437,
-    "eljardnbyrosetta-mt-enc"
+    86259,
+    "tiendamaniacos-mt-enc"
    ],
    [
-    86270,
-    "tiendamaniacos-mt-enc"
+    86266,
+    "japydetalles-mt-enc"
+   ],
+   [
+    86307,
+    "chingucompras-mt-enc"
+   ],
+   [
+    86348,
+    "beconfort-mt-enc"
    ],
    [
     86712,
@@ -1246,12 +1894,36 @@
     "innova-health"
    ],
    [
+    87914,
+    "beautygoperu-mt-enc"
+   ],
+   [
     88172,
     "somoscase-mt-enc"
    ],
    [
+    88222,
+    "polar-enc"
+   ],
+   [
+    88550,
+    "soxogame-mt-enc"
+   ],
+   [
     88634,
     "thule-case-logic-enc"
+   ],
+   [
+    88662,
+    "zenbuya-mt-enc"
+   ],
+   [
+    88674,
+    "revistaellasinternacional-mt-enc"
+   ],
+   [
+    89079,
+    "angusbrangus-mt-nc"
    ],
    [
     89252,
@@ -1270,8 +1942,8 @@
     "ositatech-mt-enc"
    ],
    [
-    92705,
-    "meeplia-mt-enc"
+    92101,
+    "specchi-mt-enc"
    ],
    [
     92808,
@@ -1286,8 +1958,8 @@
     "inkafarma-nc"
    ],
    [
-    95094,
-    "gaiapaisajismo-mt-enc"
+    94329,
+    "sophie-crown"
    ],
    [
     95560,
@@ -1302,6 +1974,10 @@
     "inkafarmape-market-nc"
    ],
    [
+    96410,
+    "samanthapintohandmadeacce-mt-enc"
+   ],
+   [
     96922,
     "oxxo-allnight-nc"
    ],
@@ -1310,44 +1986,124 @@
     "listo-openallnight-nc"
    ],
    [
+    97838,
+    "a18lab-mt-enc"
+   ],
+   [
     97880,
     "capsulapesrl-mt-enc"
+   ],
+   [
+    98515,
+    "bohemian-mt-nc"
+   ],
+   [
+    98692,
+    "alitosstore-mt-enc"
+   ],
+   [
+    98747,
+    "kaura-mt-enc"
+   ],
+   [
+    98872,
+    "sesupportss-mt-enc"
+   ],
+   [
+    99205,
+    "charrua-mt-nc"
    ],
    [
     100095,
     "wari-mt-nc"
    ],
    [
+    100407,
+    "holi-express-nc"
+   ],
+   [
     100714,
     "novamaximport-mt-enc"
+   ],
+   [
+    100717,
+    "abrazarte-mt-enc"
+   ],
+   [
+    100865,
+    "allnet-mt-enc"
    ],
    [
     100913,
     "latabernadebaco-mt-enc"
    ],
    [
-    101065,
-    "distribuidoramoravia-exclusi-nc"
+    101025,
+    "gaiapaisajismo-mt-enc"
    ],
    [
-    101096,
-    "limafloralco-mt-enc"
+    101065,
+    "distribuidoramoravia-exclusi-nc"
    ],
    [
     101193,
     "gaviotasdrinks-mt-nc"
    ],
    [
+    101248,
+    "regalosarianellakokiflor-mt-enc"
+   ],
+   [
+    101357,
+    "adah-mt-enc"
+   ],
+   [
+    101537,
+    "floraltrendy-mt-enc"
+   ],
+   [
     101660,
     "inversionesrodalexia-mt-enc"
    ],
    [
-    101936,
-    "ofertienda-mt-enc"
+    102003,
+    "adcpremiumbrands-mt-nc"
+   ],
+   [
+    102034,
+    "itemboxperu-mt-enc"
+   ],
+   [
+    102060,
+    "dtuhogar-mt-enc"
+   ],
+   [
+    102470,
+    "pescaderiaelisabella-mt-nc"
+   ],
+   [
+    102632,
+    "holacalm-mt-enc"
+   ],
+   [
+    102699,
+    "viralbox-mt-enc"
+   ],
+   [
+    102748,
+    "cozyslab-mt-enc"
+   ],
+   [
+    103068,
+    "20518509714-mt-enc"
    ],
    [
     103110,
     "futur-mt-enc"
+   ],
+   [
+    103287,
+    "suryabrasilperu-mt-enc"
    ],
    [
     103377,
@@ -1362,12 +2118,24 @@
     "wmfotovideo-mt-enc"
    ],
    [
+    103823,
+    "comercialmacalsac-mt-enc"
+   ],
+   [
     104124,
     "greta-vitaminas"
    ],
    [
     104444,
     "20611745495-mt-enc"
+   ],
+   [
+    104801,
+    "maspura-mt-enc"
+   ],
+   [
+    104946,
+    "gardenbydfz-mt-enc"
    ],
    [
     105288,
@@ -1386,12 +2154,48 @@
     "casecool-mt-enc"
    ],
    [
+    105803,
+    "floreriaoroverde-mt-enc"
+   ],
+   [
+    105935,
+    "ateneaimportaciones-mt-enc"
+   ],
+   [
     106131,
     "turbo"
    ],
    [
     106223,
     "sarcasticastore-mt-enc"
+   ],
+   [
+    106357,
+    "markethome-mt-enc"
+   ],
+   [
+    106446,
+    "velab-mt-enc"
+   ],
+   [
+    106534,
+    "20609628864-mt-enc"
+   ],
+   [
+    106813,
+    "naturistayesoterismo-mt-enc"
+   ],
+   [
+    106963,
+    "libreragf-mt-enc"
+   ],
+   [
+    107079,
+    "lafloreria-mt-enc"
+   ],
+   [
+    107227,
+    "allmats-mt-enc"
    ],
    [
     107246,
@@ -1402,6 +2206,10 @@
     "turbo"
    ],
    [
+    107644,
+    "reserva21-mt-nc"
+   ],
+   [
     107750,
     "miukbeauty-mt-enc"
    ],
@@ -1410,12 +2218,44 @@
     "inkatech-mt-enc"
    ],
    [
+    107942,
+    "opalotodoparatubelleza-mt-enc"
+   ],
+   [
+    107957,
+    "vivefelizstore-mt-enc"
+   ],
+   [
+    108283,
+    "omshantiperusac-mt-enc"
+   ],
+   [
+    108336,
+    "caravanaderizossac-mt-enc"
+   ],
+   [
     108437,
     "laconistore-mt-enc"
    ],
    [
+    108585,
+    "joyasisamar-mt-enc"
+   ],
+   [
     108938,
     "deltechimportaciones-mt-enc"
+   ],
+   [
+    109028,
+    "nubedelanaregalos-mt-enc"
+   ],
+   [
+    109034,
+    "scdesign-mt-enc"
+   ],
+   [
+    109318,
+    "evaspassion-mt-enc"
    ],
    [
     109319,
@@ -1424,6 +2264,22 @@
    [
     109345,
     "compugamesperueirl-mt-enc"
+   ],
+   [
+    109627,
+    "veronaatelierfloral-mt-enc"
+   ],
+   [
+    109911,
+    "20609339013-mt-enc"
+   ],
+   [
+    109912,
+    "mossisalon-mt-enc"
+   ],
+   [
+    109930,
+    "auraper-mt-enc"
    ],
    [
     110427,
@@ -1454,6 +2310,10 @@
     "mifarma-ecomm-belleza-nc"
    ],
    [
+    110816,
+    "friendop"
+   ],
+   [
     110860,
     "betnucci-mt-enc"
    ],
@@ -1480,13 +2340,9 @@
    [
     112485,
     "10437786581-mt-enc"
-   ],
-   [
-    112677,
-    "joyasisamar-mt-enc"
    ]
   ],
-  "next_start": 95,
+  "next_start": 148,
   "sources": {
    "city": "lima",
    "types": [
@@ -1499,5 +2355,5 @@
    "market": true
   }
  },
- "saved_at": 1790054450
+ "saved_at": 1790056022
 }
