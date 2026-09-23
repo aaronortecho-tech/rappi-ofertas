@@ -255,9 +255,7 @@
   "ffa915af26d3d3ff": 1789618945,
   "ffb761108f502988": 1789655046
  },
- "failures": {
-  "tiendas": 1
- },
+ "failures": {},
  "last_failure_notice": null,
  "store_list": {
   "fetched_at": 1790142425,
@@ -2455,7 +2453,7 @@
     "10437786581-mt-enc"
    ]
   ],
-  "next_start": 460,
+  "next_start": 500,
   "sources": {
    "city": "lima",
    "types": [
@@ -2468,5 +2466,5 @@
    "market": true
   }
  },
- "saved_at": 1790144850
+ "saved_at": 1790146286
 }
