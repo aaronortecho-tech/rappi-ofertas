@@ -5,7 +5,7 @@
  "failures": {},
  "last_failure_notice": 1790145039,
  "store_list": {},
- "saved_at": 1790203795,
+ "saved_at": 1790205641,
  "history": {
   "45e494479f289b17": [
    [
@@ -3322,10 +3322,16 @@
     20719,
     500.48
    ]
+  ],
+  "ae6e6a05d727dcb8": [
+   [
+    20719,
+    224.22
+   ]
   ]
  },
  "cursors": {
-  "travelpayouts": 1790182351
+  "travelpayouts": 1790205641
  },
  "flight_alerts": {},
  "datos": {
@@ -4132,6 +4138,10 @@
     "33d61e7d64cd05b8": [
      20719,
      30.645
+    ],
+    "ae6e6a05d727dcb8": [
+     20719,
+     29.272
     ]
    },
    "SKY|USD|nacional": {
@@ -4832,6 +4842,10 @@
     "caa7776a755ea26a": [
      20719,
      6.384
+    ],
+    "ab74a7fd1327cd70": [
+     20719,
+     4.923
     ]
    },
    "Travelpayouts|USD|ida-vuelta|regional": {
@@ -4934,6 +4948,10 @@
     "94b1f04fbcde65ea": [
      20719,
      8.978
+    ],
+    "65121649d163a219": [
+     20719,
+     5.179
     ]
    },
    "Travelpayouts|USD|ida-vuelta|medio": {
