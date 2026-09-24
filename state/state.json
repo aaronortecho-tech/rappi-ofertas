@@ -265,7 +265,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1790142425,
+  "fetched_at": 1790228852,
   "stores": [
    [
     278,
@@ -286,6 +286,10 @@
    [
     2263,
     "lab-nutrition-market"
+   ],
+   [
+    3563,
+    "sorpresa-lima"
    ],
    [
     3861,
@@ -310,10 +314,6 @@
    [
     6863,
     "sony"
-   ],
-   [
-    8590,
-    "florescasa"
    ],
    [
     8595,
@@ -452,10 +452,6 @@
     "oxxo-express"
    ],
    [
-    23468,
-    "tusandistribuidores-home"
-   ],
-   [
     24889,
     "aruma-encalada"
    ],
@@ -564,8 +560,16 @@
     "sweetsorpresa-mt-enc"
    ],
    [
+    33810,
+    "florescasa"
+   ],
+   [
     34315,
     "bmlicores-mt-nc"
+   ],
+   [
+    34401,
+    "forever-rosatel"
    ],
    [
     34460,
@@ -646,10 +650,6 @@
    [
     37727,
     "sanfernandope-mt-nc"
-   ],
-   [
-    38011,
-    "flowerboxper-mt-enc"
    ],
    [
     39130,
@@ -944,10 +944,6 @@
     "crisol-rappimall"
    ],
    [
-    49785,
-    "healthcorp-mt-nc"
-   ],
-   [
     49878,
     "thehange-mt-enc"
    ],
@@ -1046,6 +1042,10 @@
    [
     53131,
     "lopezarevalohnossac-mt-enc"
+   ],
+   [
+    53200,
+    "healthcorp-mt-nc"
    ],
    [
     53301,
@@ -1180,10 +1180,6 @@
     "serviciosinformaticosinte-mt-enc"
    ],
    [
-    57776,
-    "tusandistribuidores-express-nc"
-   ],
-   [
     57853,
     "beerpong-mt-nc"
    ],
@@ -1222,6 +1218,10 @@
    [
     58602,
     "uno-ms-uno-mt-super-nc"
+   ],
+   [
+    58679,
+    "forever-rosatel-regalos-enc"
    ],
    [
     58737,
@@ -1270,10 +1270,6 @@
    [
     59872,
     "chupetabrava-mt-nc"
-   ],
-   [
-    60064,
-    "chillygeek-mt-enc"
    ],
    [
     60116,
@@ -1402,6 +1398,10 @@
    [
     63224,
     "felizcity-mt-enc"
+   ],
+   [
+    63244,
+    "altar-mt-enc"
    ],
    [
     63355,
@@ -1678,6 +1678,10 @@
    [
     71569,
     "20607484421-mt-nc"
+   ],
+   [
+    71843,
+    "thechocolatebrownie-mt-enc"
    ],
    [
     71907,
@@ -2064,6 +2068,10 @@
     "dermotiendape-mt-enc"
    ],
    [
+    92898,
+    "soltechsurco-mt-enc"
+   ],
+   [
     94047,
     "delifrance-exclusivos-nc"
    ],
@@ -2178,6 +2186,10 @@
    [
     101660,
     "inversionesrodalexia-mt-enc"
+   ],
+   [
+    101936,
+    "ofertienda-mt-enc"
    ],
    [
     102003,
@@ -2448,6 +2460,10 @@
     "artisan-nc"
    ],
    [
+    111682,
+    "almadebruja-mt-enc"
+   ],
+   [
     112206,
     "bamboostore-mt-enc"
    ],
@@ -2460,7 +2476,7 @@
     "10437786581-mt-enc"
    ]
   ],
-  "next_start": 62,
+  "next_start": 101,
   "sources": {
    "city": "lima",
    "types": [
@@ -2473,5 +2489,5 @@
    "market": true
   }
  },
- "saved_at": 1790227246
+ "saved_at": 1790228852
 }
