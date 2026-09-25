@@ -2,12 +2,10 @@
  "version": 1,
  "started_at": null,
  "seen": {},
- "failures": {
-  "JetSMART/tarifas desde Lima": 1
- },
+ "failures": {},
  "last_failure_notice": 1790145039,
  "store_list": {},
- "saved_at": 1790340886,
+ "saved_at": 1790342825,
  "history": {
   "45e494479f289b17": [
    [
@@ -4366,11 +4364,34 @@
     20721,
     459.66
    ]
+  ],
+  "b6a44f61715b1018": [
+   [
+    20721,
+    559.98
+   ]
+  ],
+  "ea2413501f8f9f8c": [
+   [
+    20721,
+    212.32
+   ]
+  ],
+  "47380c9dae393016": [
+   [
+    20721,
+    421.13
+   ]
+  ],
+  "92922ae4e2cc8eca": [
+   [
+    20721,
+    208.35
+   ]
   ]
  },
  "cursors": {
-  "travelpayouts": 1790319302,
-  "JetSMART/portada-sin-tarifas": 1
+  "travelpayouts": 1790342825
  },
  "flight_alerts": {},
  "datos": {
@@ -4867,6 +4888,14 @@
     "545f70ddf2a2f150": [
      20721,
      22.643
+    ],
+    "b6a44f61715b1018": [
+     20721,
+     17.845
+    ],
+    "47380c9dae393016": [
+     20721,
+     17.105
     ]
    },
    "JetSMART|PEN|nacional": {
@@ -5381,6 +5410,14 @@
     "a069c714d1316c4b": [
      20721,
      29.272
+    ],
+    "ea2413501f8f9f8c": [
+     20721,
+     36.232
+    ],
+    "92922ae4e2cc8eca": [
+     20721,
+     33.714
     ]
    },
    "SKY|USD|nacional": {
@@ -6167,6 +6204,10 @@
     "6a7a5298cb1578c3": [
      20721,
      10.124
+    ],
+    "89dacfb919ec2010": [
+     20721,
+     16.293
     ]
    },
    "Travelpayouts|USD|ida-vuelta|largo": {
@@ -6273,6 +6314,10 @@
     "2c2908fa24c2ccbc": [
      20721,
      9.255
+    ],
+    "3bd1a5ce6a115a50": [
+     20721,
+     6.482
     ]
    },
    "Travelpayouts|USD|ida-vuelta|regional": {
@@ -6378,7 +6423,7 @@
     ],
     "65121649d163a219": [
      20721,
-     5.179
+     5.443
     ],
     "a0b6aae32a97721e": [
      20720,
