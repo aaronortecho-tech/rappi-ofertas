@@ -3,6 +3,7 @@
  "started_at": null,
  "seen": {
   "183e5f878abc3a86": 1789821586,
+  "30f95cd6f1e2824a": 1790361594,
   "3a2f629c0d337823": 1790340170,
   "4477f44e7ce91765": 1790253815,
   "5388d5519085601e": 1790210611,
@@ -18,7 +19,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {},
- "saved_at": 1790340170,
+ "saved_at": 1790361594,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -656,7 +657,7 @@
       ]
      },
      "r": 20714,
-     "x": 20718
+     "x": 20721
     },
     "1976": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/simplicity-1976",
@@ -55110,9 +55111,4588 @@
      },
      "r": 20721,
      "x": 20721
+    },
+    "3927": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/olivo-3927",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Jesus Maria",
+     "nombre": "Olivo",
+     "marca": "ABRIL GRUPO INMOBILIARIO",
+     "lat": -12.08141,
+     "lng": -77.04975,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo OLIVO-X06": [
+       52.47,
+       2,
+       "PEN",
+       441900.0
+      ],
+      "Modelo OLIVO-X07": [
+       71.8,
+       3,
+       "PEN",
+       550800.0
+      ],
+      "Modelo OLIVO-X08": [
+       69.08,
+       3,
+       "PEN",
+       527400.0
+      ],
+      "Modelo OLIVO-X09": [
+       59.42,
+       2,
+       "PEN",
+       485100.0
+      ],
+      "Modelo OLIVO-X01": [
+       83.83,
+       3,
+       "PEN",
+       708300.0
+      ],
+      "Modelo OLIVO-X02": [
+       79.86,
+       3,
+       "PEN",
+       686700.0
+      ],
+      "Modelo OLIVO-X03": [
+       60.9,
+       2,
+       "PEN",
+       521100.0
+      ],
+      "Modelo OLIVO-X04": [
+       83.85,
+       3,
+       "PEN",
+       708300.0
+      ],
+      "Modelo OLIVO-X05": [
+       57.72,
+       2,
+       "PEN",
+       473400.0
+      ]
+     },
+     "primero": {
+      "Modelo OLIVO-X06": [
+       "PEN",
+       441900.0,
+       20721
+      ],
+      "Modelo OLIVO-X07": [
+       "PEN",
+       550800.0,
+       20721
+      ],
+      "Modelo OLIVO-X08": [
+       "PEN",
+       527400.0,
+       20721
+      ],
+      "Modelo OLIVO-X09": [
+       "PEN",
+       485100.0,
+       20721
+      ],
+      "Modelo OLIVO-X01": [
+       "PEN",
+       708300.0,
+       20721
+      ],
+      "Modelo OLIVO-X02": [
+       "PEN",
+       686700.0,
+       20721
+      ],
+      "Modelo OLIVO-X03": [
+       "PEN",
+       521100.0,
+       20721
+      ],
+      "Modelo OLIVO-X04": [
+       "PEN",
+       708300.0,
+       20721
+      ],
+      "Modelo OLIVO-X05": [
+       "PEN",
+       473400.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3929": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/salaverry-563-3929",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Jesus Maria",
+     "nombre": "SALAVERRY 563",
+     "marca": "DESARROLLADORA",
+     "lat": -12.06991,
+     "lng": -77.03993,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo 1": [
+       53.51,
+       2,
+       "PEN",
+       449000.0
+      ],
+      "Modelo 2": [
+       69.53,
+       3,
+       "PEN",
+       670000.0
+      ],
+      "Modelo 3": [
+       38.91,
+       1,
+       "PEN",
+       419000.0
+      ],
+      "Modelo 4": [
+       52.22,
+       2,
+       "PEN",
+       498000.0
+      ],
+      "Modelo 5": [
+       40.17,
+       1,
+       "PEN",
+       376000.0
+      ],
+      "Modelo 6": [
+       44.25,
+       2,
+       "PEN",
+       381000.0
+      ],
+      "Modelo 7": [
+       66.83,
+       3,
+       "PEN",
+       573000.0
+      ],
+      "Modelo 8": [
+       66.66,
+       3,
+       "PEN",
+       543000.0
+      ]
+     },
+     "primero": {
+      "Modelo 1": [
+       "PEN",
+       449000.0,
+       20721
+      ],
+      "Modelo 2": [
+       "PEN",
+       670000.0,
+       20721
+      ],
+      "Modelo 3": [
+       "PEN",
+       419000.0,
+       20721
+      ],
+      "Modelo 4": [
+       "PEN",
+       498000.0,
+       20721
+      ],
+      "Modelo 5": [
+       "PEN",
+       376000.0,
+       20721
+      ],
+      "Modelo 6": [
+       "PEN",
+       381000.0,
+       20721
+      ],
+      "Modelo 7": [
+       "PEN",
+       573000.0,
+       20721
+      ],
+      "Modelo 8": [
+       "PEN",
+       543000.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3931": {
+     "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/ezena-4-3931",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Cercado De Lima",
+     "nombre": "EZENA 4",
+     "marca": "PROYEC INMOBILIARIA",
+     "lat": -12.07524,
+     "lng": -77.03424,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo TIPO 101": [
+       69.97,
+       2,
+       "PEN",
+       453216.0
+      ],
+      "Modelo TIPO 102": [
+       54.85,
+       2,
+       "PEN",
+       350592.0
+      ],
+      "Modelo TIPO 104": [
+       46.59,
+       2,
+       "PEN",
+       318336.0
+      ],
+      "Modelo TIPO 201": [
+       55.57,
+       2,
+       "PEN",
+       406176.0
+      ],
+      "Modelo TIPO 203": [
+       49.78,
+       2,
+       "PEN",
+       358656.0
+      ],
+      "Modelo TIPO 204": [
+       40.1,
+       1,
+       "PEN",
+       293376.0
+      ],
+      "Modelo TIPO 205": [
+       43.94,
+       1,
+       "PEN",
+       319968.0
+      ],
+      "Modelo TIPO 206": [
+       40.1,
+       1,
+       "PEN",
+       294816.0
+      ],
+      "Modelo TIPO 207": [
+       40.54,
+       1,
+       "PEN",
+       296640.0
+      ],
+      "Modelo TIPO 208": [
+       40.05,
+       1,
+       "PEN",
+       292992.0
+      ],
+      "Modelo TIPO 209": [
+       50.83,
+       2,
+       "PEN",
+       368064.0
+      ],
+      "Modelo TIPO X01": [
+       51.35,
+       2,
+       "PEN",
+       353875.0
+      ],
+      "Modelo TIPO X02": [
+       51.08,
+       2,
+       "PEN",
+       364854.0
+      ],
+      "Modelo TIPO X03": [
+       50.48,
+       2,
+       "PEN",
+       362404.0
+      ],
+      "Modelo TIPO X04": [
+       49.45,
+       2,
+       "PEN",
+       337345.0
+      ],
+      "Modelo TIPO X05": [
+       40.14,
+       1,
+       "PEN",
+       275138.0
+      ],
+      "Modelo TIPO X06": [
+       43.91,
+       1,
+       "PEN",
+       299484.0
+      ],
+      "Modelo TIPO X07": [
+       40.0,
+       1,
+       "PEN",
+       278445.0
+      ],
+      "Modelo TIPO X08": [
+       40.67,
+       1,
+       "PEN",
+       280345.0
+      ],
+      "Modelo TIPO X09": [
+       40.06,
+       1,
+       "PEN",
+       277495.0
+      ],
+      "Modelo TIPO X10": [
+       50.24,
+       2,
+       "PEN",
+       339152.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 101": [
+       "PEN",
+       453216.0,
+       20721
+      ],
+      "Modelo TIPO 102": [
+       "PEN",
+       350592.0,
+       20721
+      ],
+      "Modelo TIPO 104": [
+       "PEN",
+       318336.0,
+       20721
+      ],
+      "Modelo TIPO 201": [
+       "PEN",
+       406176.0,
+       20721
+      ],
+      "Modelo TIPO 203": [
+       "PEN",
+       358656.0,
+       20721
+      ],
+      "Modelo TIPO 204": [
+       "PEN",
+       293376.0,
+       20721
+      ],
+      "Modelo TIPO 205": [
+       "PEN",
+       319968.0,
+       20721
+      ],
+      "Modelo TIPO 206": [
+       "PEN",
+       294816.0,
+       20721
+      ],
+      "Modelo TIPO 207": [
+       "PEN",
+       296640.0,
+       20721
+      ],
+      "Modelo TIPO 208": [
+       "PEN",
+       292992.0,
+       20721
+      ],
+      "Modelo TIPO 209": [
+       "PEN",
+       368064.0,
+       20721
+      ],
+      "Modelo TIPO X01": [
+       "PEN",
+       353875.0,
+       20721
+      ],
+      "Modelo TIPO X02": [
+       "PEN",
+       364854.0,
+       20721
+      ],
+      "Modelo TIPO X03": [
+       "PEN",
+       362404.0,
+       20721
+      ],
+      "Modelo TIPO X04": [
+       "PEN",
+       337345.0,
+       20721
+      ],
+      "Modelo TIPO X05": [
+       "PEN",
+       275138.0,
+       20721
+      ],
+      "Modelo TIPO X06": [
+       "PEN",
+       299484.0,
+       20721
+      ],
+      "Modelo TIPO X07": [
+       "PEN",
+       278445.0,
+       20721
+      ],
+      "Modelo TIPO X08": [
+       "PEN",
+       280345.0,
+       20721
+      ],
+      "Modelo TIPO X09": [
+       "PEN",
+       277495.0,
+       20721
+      ],
+      "Modelo TIPO X10": [
+       "PEN",
+       339152.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3932": {
+     "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/sol-boulevard-3932",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Chorrillos",
+     "nombre": "Sol Boulevard",
+     "marca": "LA VENTUROSA",
+     "lat": -12.17541,
+     "lng": -76.99938,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo A-201": [
+       54.0,
+       2,
+       "PEN",
+       310021.0
+      ],
+      "Modelo A-205": [
+       37.0,
+       1,
+       "PEN",
+       241806.0
+      ],
+      "Modelo A-206": [
+       80.0,
+       3,
+       "PEN",
+       391869.0
+      ],
+      "Modelo A-X01": [
+       49.0,
+       2,
+       "PEN",
+       288864.0
+      ],
+      "Modelo A-X02": [
+       32.5,
+       1,
+       "PEN",
+       220979.0
+      ],
+      "Modelo A-X03": [
+       68.0,
+       3,
+       "PEN",
+       332182.0
+      ],
+      "Modelo A-X04": [
+       69.0,
+       3,
+       "PEN",
+       342875.0
+      ],
+      "Modelo A-X05": [
+       49.0,
+       2,
+       "PEN",
+       290828.0
+      ],
+      "Modelo A-X06": [
+       45.0,
+       2,
+       "PEN",
+       269582.0
+      ],
+      "Modelo A-X07": [
+       63.0,
+       3,
+       "PEN",
+       326211.0
+      ]
+     },
+     "primero": {
+      "Modelo A-201": [
+       "PEN",
+       310021.0,
+       20721
+      ],
+      "Modelo A-205": [
+       "PEN",
+       241806.0,
+       20721
+      ],
+      "Modelo A-206": [
+       "PEN",
+       391869.0,
+       20721
+      ],
+      "Modelo A-X01": [
+       "PEN",
+       288864.0,
+       20721
+      ],
+      "Modelo A-X02": [
+       "PEN",
+       220979.0,
+       20721
+      ],
+      "Modelo A-X03": [
+       "PEN",
+       332182.0,
+       20721
+      ],
+      "Modelo A-X04": [
+       "PEN",
+       342875.0,
+       20721
+      ],
+      "Modelo A-X05": [
+       "PEN",
+       290828.0,
+       20721
+      ],
+      "Modelo A-X06": [
+       "PEN",
+       269582.0,
+       20721
+      ],
+      "Modelo A-X07": [
+       "PEN",
+       326211.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3934": {
+     "u": "https://nexoinmobiliario.pe/departamentos/barranco/atreo-apartments-3934",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Barranco",
+     "nombre": "Atreo Apartments",
+     "marca": "LIDER",
+     "lat": -12.13946,
+     "lng": -77.01858,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo AX01": [
+       57.19,
+       1,
+       "PEN",
+       516200.0
+      ],
+      "Modelo AX03": [
+       55.03,
+       1,
+       "PEN",
+       522700.0
+      ],
+      "Modelo BX08": [
+       56.08,
+       1,
+       "PEN",
+       511000.0
+      ],
+      "Modelo BX04": [
+       49.81,
+       1,
+       "PEN",
+       482300.0
+      ],
+      "Modelo BX09": [
+       53.7,
+       1,
+       "PEN",
+       563300.0
+      ],
+      "Modelo BX02": [
+       39.9,
+       1,
+       "PEN",
+       428700.0
+      ],
+      "Modelo BX03": [
+       40.95,
+       1,
+       "PEN",
+       438300.0
+      ],
+      "Modelo AX02": [
+       38.43,
+       1,
+       "PEN",
+       406800.0
+      ],
+      "Modelo BX01": [
+       40.14,
+       1,
+       "PEN",
+       434100.0
+      ],
+      "Modelo BX06": [
+       42.52,
+       1,
+       "PEN",
+       411100.0
+      ],
+      "Modelo BX07": [
+       39.94,
+       1,
+       "PEN",
+       424100.0
+      ],
+      "Modelo BX05": [
+       40.13,
+       1,
+       "PEN",
+       398700.0
+      ],
+      "Modelo 2D+1 Duplex BX04": [
+       98.83,
+       2,
+       "PEN",
+       878000.0
+      ],
+      "Modelo 1D+1 Dúplex BX05": [
+       78.98,
+       1,
+       "PEN",
+       696600.0
+      ]
+     },
+     "primero": {
+      "Modelo AX01": [
+       "PEN",
+       516200.0,
+       20721
+      ],
+      "Modelo AX03": [
+       "PEN",
+       522700.0,
+       20721
+      ],
+      "Modelo BX08": [
+       "PEN",
+       511000.0,
+       20721
+      ],
+      "Modelo BX04": [
+       "PEN",
+       482300.0,
+       20721
+      ],
+      "Modelo BX09": [
+       "PEN",
+       563300.0,
+       20721
+      ],
+      "Modelo BX02": [
+       "PEN",
+       428700.0,
+       20721
+      ],
+      "Modelo BX03": [
+       "PEN",
+       438300.0,
+       20721
+      ],
+      "Modelo AX02": [
+       "PEN",
+       406800.0,
+       20721
+      ],
+      "Modelo BX01": [
+       "PEN",
+       434100.0,
+       20721
+      ],
+      "Modelo BX06": [
+       "PEN",
+       411100.0,
+       20721
+      ],
+      "Modelo BX07": [
+       "PEN",
+       424100.0,
+       20721
+      ],
+      "Modelo BX05": [
+       "PEN",
+       398700.0,
+       20721
+      ],
+      "Modelo 2D+1 Duplex BX04": [
+       "PEN",
+       878000.0,
+       20721
+      ],
+      "Modelo 1D+1 Dúplex BX05": [
+       "PEN",
+       696600.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3936": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/natural-urban-3936",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "San Miguel",
+     "nombre": "Natural Urban",
+     "marca": "OLED INMOBILIARIA",
+     "lat": -12.07422,
+     "lng": -77.10419,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo TIPO 5'": [
+       42.39,
+       1,
+       "PEN",
+       285000.0
+      ],
+      "Modelo TIPO 6": [
+       40.04,
+       1,
+       "PEN",
+       244000.0
+      ],
+      "Modelo TIPO 7": [
+       73.15,
+       3,
+       "PEN",
+       471000.0
+      ],
+      "Modelo TIPO 8": [
+       75.48,
+       3,
+       "PEN",
+       487000.0
+      ],
+      "Modelo TIPO 8'": [
+       74.27,
+       3,
+       "PEN",
+       480000.0
+      ],
+      "Modelo TIPO 9": [
+       40.91,
+       1,
+       "PEN",
+       278000.0
+      ],
+      "Modelo TIPO 12'": [
+       78.59,
+       2,
+       "PEN",
+       470000.0
+      ],
+      "Modelo TIPO 12": [
+       58.13,
+       2,
+       "PEN",
+       378000.0
+      ],
+      "Modelo TIPO 1'": [
+       62.71,
+       2,
+       "PEN",
+       398000.0
+      ],
+      "Modelo TIPO 1": [
+       62.89,
+       2,
+       "PEN",
+       393000.0
+      ],
+      "Modelo TIPO 2": [
+       74.09,
+       3,
+       "PEN",
+       457000.0
+      ],
+      "Modelo TIPO 3": [
+       60.71,
+       2,
+       "PEN",
+       404000.0
+      ],
+      "Modelo TIPO 3'": [
+       61.13,
+       2,
+       "PEN",
+       393000.0
+      ],
+      "Modelo TIPO 3\"": [
+       60.01,
+       2,
+       "PEN",
+       369000.0
+      ],
+      "Modelo TIPO 4": [
+       42.41,
+       1,
+       "PEN",
+       277000.0
+      ],
+      "Modelo TIPO 4'": [
+       40.89,
+       1,
+       "PEN",
+       270000.0
+      ],
+      "Modelo TIPO 5": [
+       40.84,
+       1,
+       "PEN",
+       269000.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 5'": [
+       "PEN",
+       285000.0,
+       20721
+      ],
+      "Modelo TIPO 6": [
+       "PEN",
+       244000.0,
+       20721
+      ],
+      "Modelo TIPO 7": [
+       "PEN",
+       471000.0,
+       20721
+      ],
+      "Modelo TIPO 8": [
+       "PEN",
+       487000.0,
+       20721
+      ],
+      "Modelo TIPO 8'": [
+       "PEN",
+       480000.0,
+       20721
+      ],
+      "Modelo TIPO 9": [
+       "PEN",
+       278000.0,
+       20721
+      ],
+      "Modelo TIPO 12'": [
+       "PEN",
+       470000.0,
+       20721
+      ],
+      "Modelo TIPO 12": [
+       "PEN",
+       378000.0,
+       20721
+      ],
+      "Modelo TIPO 1'": [
+       "PEN",
+       398000.0,
+       20721
+      ],
+      "Modelo TIPO 1": [
+       "PEN",
+       393000.0,
+       20721
+      ],
+      "Modelo TIPO 2": [
+       "PEN",
+       457000.0,
+       20721
+      ],
+      "Modelo TIPO 3": [
+       "PEN",
+       404000.0,
+       20721
+      ],
+      "Modelo TIPO 3'": [
+       "PEN",
+       393000.0,
+       20721
+      ],
+      "Modelo TIPO 3\"": [
+       "PEN",
+       369000.0,
+       20721
+      ],
+      "Modelo TIPO 4": [
+       "PEN",
+       277000.0,
+       20721
+      ],
+      "Modelo TIPO 4'": [
+       "PEN",
+       270000.0,
+       20721
+      ],
+      "Modelo TIPO 5": [
+       "PEN",
+       269000.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3937": {
+     "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/eleva-155-3937",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Pueblo Libre",
+     "nombre": "ELEVA 155",
+     "marca": "INVERSIONES TIERRA BLANCA",
+     "lat": -12.06891,
+     "lng": -77.06101,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo TIPO2": [
+       32.35,
+       1,
+       "PEN",
+       227000.0
+      ],
+      "Modelo TIPO1": [
+       59.05,
+       2,
+       "PEN",
+       364500.0
+      ],
+      "Modelo TIPO4": [
+       49.49,
+       2,
+       "PEN",
+       308500.0
+      ],
+      "Modelo TIPO3": [
+       52.57,
+       2,
+       "PEN",
+       338000.0
+      ],
+      "Modelo DUPLEXO4": [
+       92.54,
+       2,
+       "PEN",
+       531000.0
+      ],
+      "Modelo DUPLEXO3": [
+       95.5,
+       2,
+       "PEN",
+       664500.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO2": [
+       "PEN",
+       227000.0,
+       20721
+      ],
+      "Modelo TIPO1": [
+       "PEN",
+       364500.0,
+       20721
+      ],
+      "Modelo TIPO4": [
+       "PEN",
+       308500.0,
+       20721
+      ],
+      "Modelo TIPO3": [
+       "PEN",
+       338000.0,
+       20721
+      ],
+      "Modelo DUPLEXO4": [
+       "PEN",
+       531000.0,
+       20721
+      ],
+      "Modelo DUPLEXO3": [
+       "PEN",
+       664500.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3940": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/matiz-3940",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "San Isidro",
+     "nombre": "Matiz",
+     "marca": "PAZ",
+     "lat": -12.09359,
+     "lng": -77.03443,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo A5": [
+       197.0,
+       2,
+       "PEN",
+       1426000.0
+      ],
+      "Modelo A6": [
+       110.78,
+       2,
+       "PEN",
+       1039000.0
+      ],
+      "Modelo A7": [
+       110.06,
+       2,
+       "PEN",
+       1052000.0
+      ],
+      "Modelo B5": [
+       219.29,
+       3,
+       "PEN",
+       1637000.0
+      ],
+      "Modelo B6": [
+       110.0,
+       2,
+       "PEN",
+       1031000.0
+      ],
+      "Modelo B7": [
+       110.0,
+       2,
+       "PEN",
+       1031000.0
+      ],
+      "Modelo A1": [
+       80.0,
+       1,
+       "PEN",
+       757000.0
+      ],
+      "Modelo A2": [
+       130.01,
+       3,
+       "PEN",
+       1207000.0
+      ],
+      "Modelo A3": [
+       110.01,
+       2,
+       "PEN",
+       1021000.0
+      ],
+      "Modelo A4": [
+       130.0,
+       3,
+       "PEN",
+       1237000.0
+      ],
+      "Modelo B1": [
+       80.03,
+       1,
+       "PEN",
+       754000.0
+      ],
+      "Modelo B2": [
+       130.04,
+       3,
+       "PEN",
+       1213000.0
+      ],
+      "Modelo B3A": [
+       112.02,
+       2,
+       "PEN",
+       1045000.0
+      ],
+      "Modelo B4": [
+       134.33,
+       3,
+       "PEN",
+       1247000.0
+      ],
+      "Modelo B3B": [
+       112.02,
+       2,
+       "PEN",
+       1040000.0
+      ],
+      "Modelo A9": [
+       255.17,
+       3,
+       "PEN",
+       1900000.0
+      ],
+      "Modelo A10": [
+       219.29,
+       3,
+       "PEN",
+       1631000.0
+      ],
+      "Modelo A11": [
+       193.11,
+       3,
+       "PEN",
+       1610000.0
+      ],
+      "Modelo B8": [
+       160.12,
+       2,
+       "PEN",
+       1275000.0
+      ],
+      "Modelo B9": [
+       253.04,
+       3,
+       "PEN",
+       1894000.0
+      ]
+     },
+     "primero": {
+      "Modelo A5": [
+       "PEN",
+       1426000.0,
+       20721
+      ],
+      "Modelo A6": [
+       "PEN",
+       1039000.0,
+       20721
+      ],
+      "Modelo A7": [
+       "PEN",
+       1052000.0,
+       20721
+      ],
+      "Modelo B5": [
+       "PEN",
+       1637000.0,
+       20721
+      ],
+      "Modelo B6": [
+       "PEN",
+       1031000.0,
+       20721
+      ],
+      "Modelo B7": [
+       "PEN",
+       1031000.0,
+       20721
+      ],
+      "Modelo A1": [
+       "PEN",
+       757000.0,
+       20721
+      ],
+      "Modelo A2": [
+       "PEN",
+       1207000.0,
+       20721
+      ],
+      "Modelo A3": [
+       "PEN",
+       1021000.0,
+       20721
+      ],
+      "Modelo A4": [
+       "PEN",
+       1237000.0,
+       20721
+      ],
+      "Modelo B1": [
+       "PEN",
+       754000.0,
+       20721
+      ],
+      "Modelo B2": [
+       "PEN",
+       1213000.0,
+       20721
+      ],
+      "Modelo B3A": [
+       "PEN",
+       1045000.0,
+       20721
+      ],
+      "Modelo B4": [
+       "PEN",
+       1247000.0,
+       20721
+      ],
+      "Modelo B3B": [
+       "PEN",
+       1040000.0,
+       20721
+      ],
+      "Modelo A9": [
+       "PEN",
+       1900000.0,
+       20721
+      ],
+      "Modelo A10": [
+       "PEN",
+       1631000.0,
+       20721
+      ],
+      "Modelo A11": [
+       "PEN",
+       1610000.0,
+       20721
+      ],
+      "Modelo B8": [
+       "PEN",
+       1275000.0,
+       20721
+      ],
+      "Modelo B9": [
+       "PEN",
+       1894000.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3942": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/eucalipto-3942",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Jesus Maria",
+     "nombre": "Eucalipto",
+     "marca": "ABRIL GRUPO INMOBILIARIO",
+     "lat": -12.07764,
+     "lng": -77.05571,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo EUC-TA-206AL2206": [
+       40.01,
+       1,
+       "PEN",
+       246090.0
+      ],
+      "Modelo EUC-TA-201AL2301": [
+       40.69,
+       1,
+       "PEN",
+       250272.0
+      ],
+      "Modelo EUC-TA-2306,2406,2505AL2905": [
+       40.21,
+       1,
+       "PEN",
+       247320.0
+      ],
+      "Modelo EUC-TA-2401AL2901": [
+       40.87,
+       1,
+       "PEN",
+       251379.0
+      ],
+      "Modelo EUC-TA-309AL2409,2508AL2908": [
+       40.01,
+       1,
+       "PEN",
+       282141.0
+      ],
+      "Modelo EUC-TA-209": [
+       36.47,
+       1,
+       "PEN",
+       265750.0
+      ],
+      "Modelo EUC-TA-308AL2408,2507AL2907": [
+       38.17,
+       1,
+       "PEN",
+       269166.0
+      ],
+      "Modelo EUC-TA-208": [
+       38.17,
+       1,
+       "PEN",
+       278138.0
+      ],
+      "Modelo EUC-TA-203AL2203": [
+       51.61,
+       2,
+       "PEN",
+       323504.0
+      ],
+      "Modelo EUC-TA-204AL2204": [
+       52.02,
+       2,
+       "PEN",
+       326074.0
+      ],
+      "Modelo EUC-TA-2303": [
+       51.04,
+       2,
+       "PEN",
+       327929.0
+      ],
+      "Modelo EUC-TA-202AL2302": [
+       52.4,
+       2,
+       "PEN",
+       328456.0
+      ],
+      "Modelo EUC-TA-205AL2205": [
+       52.78,
+       2,
+       "PEN",
+       330837.0
+      ],
+      "Modelo EUC-TA-411AL2411,2510AL2910": [
+       54.08,
+       2,
+       "PEN",
+       362291.0
+      ],
+      "Modelo EUC-TA-210": [
+       53.18,
+       2,
+       "PEN",
+       370846.0
+      ],
+      "Modelo EUC-TA-311": [
+       54.29,
+       2,
+       "PEN",
+       378587.0
+      ],
+      "Modelo EUC-TA-212,313AL2313": [
+       64.84,
+       3,
+       "PEN",
+       406432.0
+      ],
+      "Modelo EUC-TA-207AL2207": [
+       65.05,
+       3,
+       "PEN",
+       407749.0
+      ],
+      "Modelo EUC-TA-512AL2412,2511AL2911": [
+       66.9,
+       3,
+       "PEN",
+       449485.0
+      ],
+      "Modelo EUC-TA-211": [
+       64.4,
+       3,
+       "PEN",
+       450349.0
+      ],
+      "Modelo EUC-TA-2307,2407,2506AL2906": [
+       62.5,
+       3,
+       "PEN",
+       401079.0
+      ],
+      "Modelo EUC-TA-2413,2512AL2912": [
+       62.6,
+       3,
+       "PEN",
+       401721.0
+      ],
+      "Modelo EUC-TA-2503AL2903": [
+       69.59,
+       3,
+       "PEN",
+       436946.0
+      ]
+     },
+     "primero": {
+      "Modelo EUC-TA-206AL2206": [
+       "PEN",
+       246090.0,
+       20721
+      ],
+      "Modelo EUC-TA-201AL2301": [
+       "PEN",
+       250272.0,
+       20721
+      ],
+      "Modelo EUC-TA-2306,2406,2505AL2905": [
+       "PEN",
+       247320.0,
+       20721
+      ],
+      "Modelo EUC-TA-2401AL2901": [
+       "PEN",
+       251379.0,
+       20721
+      ],
+      "Modelo EUC-TA-309AL2409,2508AL2908": [
+       "PEN",
+       282141.0,
+       20721
+      ],
+      "Modelo EUC-TA-209": [
+       "PEN",
+       265750.0,
+       20721
+      ],
+      "Modelo EUC-TA-308AL2408,2507AL2907": [
+       "PEN",
+       269166.0,
+       20721
+      ],
+      "Modelo EUC-TA-208": [
+       "PEN",
+       278138.0,
+       20721
+      ],
+      "Modelo EUC-TA-203AL2203": [
+       "PEN",
+       323504.0,
+       20721
+      ],
+      "Modelo EUC-TA-204AL2204": [
+       "PEN",
+       326074.0,
+       20721
+      ],
+      "Modelo EUC-TA-2303": [
+       "PEN",
+       327929.0,
+       20721
+      ],
+      "Modelo EUC-TA-202AL2302": [
+       "PEN",
+       328456.0,
+       20721
+      ],
+      "Modelo EUC-TA-205AL2205": [
+       "PEN",
+       330837.0,
+       20721
+      ],
+      "Modelo EUC-TA-411AL2411,2510AL2910": [
+       "PEN",
+       362291.0,
+       20721
+      ],
+      "Modelo EUC-TA-210": [
+       "PEN",
+       370846.0,
+       20721
+      ],
+      "Modelo EUC-TA-311": [
+       "PEN",
+       378587.0,
+       20721
+      ],
+      "Modelo EUC-TA-212,313AL2313": [
+       "PEN",
+       406432.0,
+       20721
+      ],
+      "Modelo EUC-TA-207AL2207": [
+       "PEN",
+       407749.0,
+       20721
+      ],
+      "Modelo EUC-TA-512AL2412,2511AL2911": [
+       "PEN",
+       449485.0,
+       20721
+      ],
+      "Modelo EUC-TA-211": [
+       "PEN",
+       450349.0,
+       20721
+      ],
+      "Modelo EUC-TA-2307,2407,2506AL2906": [
+       "PEN",
+       401079.0,
+       20721
+      ],
+      "Modelo EUC-TA-2413,2512AL2912": [
+       "PEN",
+       401721.0,
+       20721
+      ],
+      "Modelo EUC-TA-2503AL2903": [
+       "PEN",
+       436946.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3944": {
+     "u": "https://nexoinmobiliario.pe/departamentos/surquillo/mora-3944",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Surquillo",
+     "nombre": "Mora",
+     "marca": "ABRIL GRUPO INMOBILIARIO",
+     "lat": -12.10251,
+     "lng": -77.02417,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo MORA-1-X01": [
+       65.44,
+       3,
+       "PEN",
+       468000.0
+      ],
+      "Modelo MORA-1-X02": [
+       40.16,
+       1,
+       "PEN",
+       363600.0
+      ],
+      "Modelo MORA-1-X03": [
+       54.69,
+       2,
+       "PEN",
+       488700.0
+      ],
+      "Modelo MORA-1-X04": [
+       62.62,
+       3,
+       "PEN",
+       450000.0
+      ],
+      "Modelo MORA-1-X06": [
+       57.86,
+       2,
+       "PEN",
+       418500.0
+      ],
+      "Modelo MORA-1-X07": [
+       50.51,
+       2,
+       "PEN",
+       382500.0
+      ],
+      "Modelo MORA-1-X08": [
+       52.04,
+       2,
+       "PEN",
+       420300.0
+      ],
+      "Modelo MORA-1-X05B": [
+       51.97,
+       2,
+       "PEN",
+       430200.0
+      ],
+      "Modelo MORA-2-X01": [
+       40.86,
+       1,
+       "PEN",
+       372600.0
+      ]
+     },
+     "primero": {
+      "Modelo MORA-1-X01": [
+       "PEN",
+       468000.0,
+       20721
+      ],
+      "Modelo MORA-1-X02": [
+       "PEN",
+       363600.0,
+       20721
+      ],
+      "Modelo MORA-1-X03": [
+       "PEN",
+       488700.0,
+       20721
+      ],
+      "Modelo MORA-1-X04": [
+       "PEN",
+       450000.0,
+       20721
+      ],
+      "Modelo MORA-1-X06": [
+       "PEN",
+       418500.0,
+       20721
+      ],
+      "Modelo MORA-1-X07": [
+       "PEN",
+       382500.0,
+       20721
+      ],
+      "Modelo MORA-1-X08": [
+       "PEN",
+       420300.0,
+       20721
+      ],
+      "Modelo MORA-1-X05B": [
+       "PEN",
+       430200.0,
+       20721
+      ],
+      "Modelo MORA-2-X01": [
+       "PEN",
+       372600.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3945": {
+     "u": "https://nexoinmobiliario.pe/departamentos/lince/vizuale-3-3945",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Lince",
+     "nombre": "Vizuale 3",
+     "marca": "ORTIZ INMOBILIARIA",
+     "lat": -12.09033,
+     "lng": -77.0301,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo X06": [
+       46.49,
+       2,
+       "PEN",
+       449777.0
+      ],
+      "Modelo X01": [
+       122.51,
+       3,
+       "PEN",
+       549777.0
+      ],
+      "Modelo X02": [
+       33.94,
+       2,
+       "PEN",
+       479777.0
+      ],
+      "Modelo X03": [
+       45.96,
+       2,
+       "PEN",
+       469777.0
+      ]
+     },
+     "primero": {
+      "Modelo X06": [
+       "PEN",
+       449777.0,
+       20721
+      ],
+      "Modelo X01": [
+       "PEN",
+       549777.0,
+       20721
+      ],
+      "Modelo X02": [
+       "PEN",
+       479777.0,
+       20721
+      ],
+      "Modelo X03": [
+       "PEN",
+       469777.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3946": {
+     "u": "https://nexoinmobiliario.pe/departamentos/barranco/the-muse-3946",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Barranco",
+     "nombre": "The Muse",
+     "marca": "EDIFICA",
+     "lat": -12.13717,
+     "lng": -77.02452,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo Tipo A1": [
+       40.53,
+       1,
+       "PEN",
+       504425.0
+      ],
+      "Modelo Tipo A2": [
+       40.19,
+       1,
+       "PEN",
+       477937.0
+      ],
+      "Modelo Tipo B1": [
+       42.93,
+       1,
+       "PEN",
+       438384.0
+      ],
+      "Modelo Tipo B2": [
+       40.79,
+       1,
+       "PEN",
+       439347.0
+      ],
+      "Modelo Tipo B2 T": [
+       50.01,
+       1,
+       "PEN",
+       469004.0
+      ],
+      "Modelo Tipo B3 X": [
+       40.27,
+       1,
+       "PEN",
+       434607.0
+      ],
+      "Modelo Tipo B3": [
+       40.27,
+       1,
+       "PEN",
+       448335.0
+      ],
+      "Modelo Tipo B3 T": [
+       48.53,
+       1,
+       "PEN",
+       472224.0
+      ],
+      "Modelo Tipo B4": [
+       40.03,
+       1,
+       "PEN",
+       395296.0
+      ],
+      "Modelo Tipo B4 T": [
+       46.68,
+       1,
+       "PEN",
+       416812.0
+      ],
+      "Modelo Tipo B5": [
+       42.13,
+       1,
+       "PEN",
+       458293.0
+      ],
+      "Modelo Tipo B5 T": [
+       45.08,
+       1,
+       "PEN",
+       462013.0
+      ],
+      "Modelo Tipo B6": [
+       40.24,
+       1,
+       "PEN",
+       468051.0
+      ],
+      "Modelo Tipo B6 T": [
+       51.94,
+       1,
+       "PEN",
+       521463.0
+      ],
+      "Modelo Tipo B7": [
+       40.02,
+       1,
+       "PEN",
+       454083.0
+      ],
+      "Modelo Tipo B8": [
+       42.01,
+       1,
+       "PEN",
+       447578.0
+      ],
+      "Modelo Tipo B9": [
+       40.65,
+       1,
+       "PEN",
+       472820.0
+      ],
+      "Modelo Tipo B10": [
+       40.33,
+       1,
+       "PEN",
+       464171.0
+      ],
+      "Modelo Tipo B10 T": [
+       52.9,
+       1,
+       "PEN",
+       533858.0
+      ],
+      "Modelo Tipo B13 X": [
+       40.31,
+       1,
+       "PEN",
+       440555.0
+      ],
+      "Modelo Tipo B13": [
+       40.31,
+       1,
+       "PEN",
+       445135.0
+      ],
+      "Modelo Tipo B13 T": [
+       51.63,
+       1,
+       "PEN",
+       493779.0
+      ],
+      "Modelo Tipo B14 X": [
+       40.0,
+       1,
+       "PEN",
+       440767.0
+      ],
+      "Modelo Tipo B14": [
+       40.0,
+       1,
+       "PEN",
+       449857.0
+      ],
+      "Modelo Tipo B14 T": [
+       48.46,
+       1,
+       "PEN",
+       487570.0
+      ],
+      "Modelo Tipo B15": [
+       40.17,
+       1,
+       "PEN",
+       430502.0
+      ],
+      "Modelo Tipo B15 Y": [
+       40.79,
+       1,
+       "PEN",
+       455685.0
+      ],
+      "Modelo Tipo B15 TX": [
+       66.29,
+       1,
+       "PEN",
+       596094.0
+      ],
+      "Modelo Tipo B15 T": [
+       41.94,
+       1,
+       "PEN",
+       428800.0
+      ],
+      "Modelo Tipo B16": [
+       49.96,
+       2,
+       "PEN",
+       517414.0
+      ],
+      "Modelo Tipo B17": [
+       40.21,
+       1,
+       "PEN",
+       493560.0
+      ],
+      "Modelo Tipo B29": [
+       79.38,
+       2,
+       "PEN",
+       699760.0
+      ],
+      "Modelo Tipo B30": [
+       99.72,
+       3,
+       "PEN",
+       828980.0
+      ],
+      "Modelo Tipo B32": [
+       119.01,
+       3,
+       "PEN",
+       1219454.0
+      ],
+      "Modelo Tipo B34": [
+       106.54,
+       3,
+       "PEN",
+       1133427.0
+      ],
+      "Modelo Tipo A5": [
+       62.87,
+       1,
+       "PEN",
+       722495.0
+      ],
+      "Modelo Tipo B28": [
+       78.52,
+       2,
+       "PEN",
+       691719.0
+      ],
+      "Modelo Tipo B24": [
+       79.18,
+       2,
+       "PEN",
+       1113706.0
+      ],
+      "Modelo Tipo B26": [
+       119.34,
+       2,
+       "PEN",
+       1509779.0
+      ],
+      "Modelo Tipo B27": [
+       113.96,
+       3,
+       "PEN",
+       913868.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo A1": [
+       "PEN",
+       504425.0,
+       20721
+      ],
+      "Modelo Tipo A2": [
+       "PEN",
+       477937.0,
+       20721
+      ],
+      "Modelo Tipo B1": [
+       "PEN",
+       438384.0,
+       20721
+      ],
+      "Modelo Tipo B2": [
+       "PEN",
+       439347.0,
+       20721
+      ],
+      "Modelo Tipo B2 T": [
+       "PEN",
+       469004.0,
+       20721
+      ],
+      "Modelo Tipo B3 X": [
+       "PEN",
+       434607.0,
+       20721
+      ],
+      "Modelo Tipo B3": [
+       "PEN",
+       448335.0,
+       20721
+      ],
+      "Modelo Tipo B3 T": [
+       "PEN",
+       472224.0,
+       20721
+      ],
+      "Modelo Tipo B4": [
+       "PEN",
+       395296.0,
+       20721
+      ],
+      "Modelo Tipo B4 T": [
+       "PEN",
+       416812.0,
+       20721
+      ],
+      "Modelo Tipo B5": [
+       "PEN",
+       458293.0,
+       20721
+      ],
+      "Modelo Tipo B5 T": [
+       "PEN",
+       462013.0,
+       20721
+      ],
+      "Modelo Tipo B6": [
+       "PEN",
+       468051.0,
+       20721
+      ],
+      "Modelo Tipo B6 T": [
+       "PEN",
+       521463.0,
+       20721
+      ],
+      "Modelo Tipo B7": [
+       "PEN",
+       454083.0,
+       20721
+      ],
+      "Modelo Tipo B8": [
+       "PEN",
+       447578.0,
+       20721
+      ],
+      "Modelo Tipo B9": [
+       "PEN",
+       472820.0,
+       20721
+      ],
+      "Modelo Tipo B10": [
+       "PEN",
+       464171.0,
+       20721
+      ],
+      "Modelo Tipo B10 T": [
+       "PEN",
+       533858.0,
+       20721
+      ],
+      "Modelo Tipo B13 X": [
+       "PEN",
+       440555.0,
+       20721
+      ],
+      "Modelo Tipo B13": [
+       "PEN",
+       445135.0,
+       20721
+      ],
+      "Modelo Tipo B13 T": [
+       "PEN",
+       493779.0,
+       20721
+      ],
+      "Modelo Tipo B14 X": [
+       "PEN",
+       440767.0,
+       20721
+      ],
+      "Modelo Tipo B14": [
+       "PEN",
+       449857.0,
+       20721
+      ],
+      "Modelo Tipo B14 T": [
+       "PEN",
+       487570.0,
+       20721
+      ],
+      "Modelo Tipo B15": [
+       "PEN",
+       430502.0,
+       20721
+      ],
+      "Modelo Tipo B15 Y": [
+       "PEN",
+       455685.0,
+       20721
+      ],
+      "Modelo Tipo B15 TX": [
+       "PEN",
+       596094.0,
+       20721
+      ],
+      "Modelo Tipo B15 T": [
+       "PEN",
+       428800.0,
+       20721
+      ],
+      "Modelo Tipo B16": [
+       "PEN",
+       517414.0,
+       20721
+      ],
+      "Modelo Tipo B17": [
+       "PEN",
+       493560.0,
+       20721
+      ],
+      "Modelo Tipo B29": [
+       "PEN",
+       699760.0,
+       20721
+      ],
+      "Modelo Tipo B30": [
+       "PEN",
+       828980.0,
+       20721
+      ],
+      "Modelo Tipo B32": [
+       "PEN",
+       1219454.0,
+       20721
+      ],
+      "Modelo Tipo B34": [
+       "PEN",
+       1133427.0,
+       20721
+      ],
+      "Modelo Tipo A5": [
+       "PEN",
+       722495.0,
+       20721
+      ],
+      "Modelo Tipo B28": [
+       "PEN",
+       691719.0,
+       20721
+      ],
+      "Modelo Tipo B24": [
+       "PEN",
+       1113706.0,
+       20721
+      ],
+      "Modelo Tipo B26": [
+       "PEN",
+       1509779.0,
+       20721
+      ],
+      "Modelo Tipo B27": [
+       "PEN",
+       913868.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3949": {
+     "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/alto-rospigliosi-3949",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Pueblo Libre",
+     "nombre": "Alto Rospigliosi",
+     "marca": "CONCRETA GRUPO INMOBILIARIO",
+     "lat": -12.08186,
+     "lng": -77.06378,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo TIPO 3": [
+       82.5,
+       3,
+       "PEN",
+       565000.0
+      ],
+      "Modelo TIPO 4": [
+       67.0,
+       3,
+       "PEN",
+       460000.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 3": [
+       "PEN",
+       565000.0,
+       20721
+      ],
+      "Modelo TIPO 4": [
+       "PEN",
+       460000.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3950": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/noa-3950",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Jesus Maria",
+     "nombre": "NOA",
+     "marca": "PALACE",
+     "lat": -12.08697,
+     "lng": -77.0578,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo T01": [
+       70.1,
+       3,
+       "PEN",
+       653310.0
+      ],
+      "Modelo T02": [
+       38.08,
+       1,
+       "PEN",
+       383690.0
+      ],
+      "Modelo T01-A": [
+       71.6,
+       3,
+       "PEN",
+       658495.0
+      ],
+      "Modelo T03-A": [
+       60.6,
+       2,
+       "PEN",
+       506886.0
+      ],
+      "Modelo D01": [
+       100.0,
+       3,
+       "PEN",
+       839970.0
+      ],
+      "Modelo D02": [
+       70.35,
+       1,
+       "PEN",
+       583831.0
+      ],
+      "Modelo D03": [
+       106.87,
+       3,
+       "PEN",
+       871080.0
+      ],
+      "Modelo D04": [
+       73.7,
+       1,
+       "PEN",
+       565165.0
+      ]
+     },
+     "primero": {
+      "Modelo T01": [
+       "PEN",
+       653310.0,
+       20721
+      ],
+      "Modelo T02": [
+       "PEN",
+       383690.0,
+       20721
+      ],
+      "Modelo T01-A": [
+       "PEN",
+       658495.0,
+       20721
+      ],
+      "Modelo T03-A": [
+       "PEN",
+       506886.0,
+       20721
+      ],
+      "Modelo D01": [
+       "PEN",
+       839970.0,
+       20721
+      ],
+      "Modelo D02": [
+       "PEN",
+       583831.0,
+       20721
+      ],
+      "Modelo D03": [
+       "PEN",
+       871080.0,
+       20721
+      ],
+      "Modelo D04": [
+       "PEN",
+       565165.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3951": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-borja/andalucia-3951",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "San Borja",
+     "nombre": "ANDALUCIA",
+     "marca": "INMGENIO",
+     "lat": -12.10876,
+     "lng": -76.98669,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo Tipo 101": [
+       158.21,
+       3,
+       "PEN",
+       1445200.0
+      ],
+      "Modelo Tipo X01": [
+       125.84,
+       3,
+       "PEN",
+       1302600.0
+      ],
+      "Modelo Tipo X04": [
+       124.27,
+       3,
+       "PEN",
+       1206500.0
+      ],
+      "Modelo Tipo X05": [
+       126.03,
+       3,
+       "PEN",
+       1127600.0
+      ],
+      "Modelo Tipo X03": [
+       127.56,
+       3,
+       "PEN",
+       1217100.0
+      ],
+      "Modelo Tipo 605": [
+       251.6,
+       4,
+       "PEN",
+       1926200.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo 101": [
+       "PEN",
+       1445200.0,
+       20721
+      ],
+      "Modelo Tipo X01": [
+       "PEN",
+       1302600.0,
+       20721
+      ],
+      "Modelo Tipo X04": [
+       "PEN",
+       1206500.0,
+       20721
+      ],
+      "Modelo Tipo X05": [
+       "PEN",
+       1127600.0,
+       20721
+      ],
+      "Modelo Tipo X03": [
+       "PEN",
+       1217100.0,
+       20721
+      ],
+      "Modelo Tipo 605": [
+       "PEN",
+       1926200.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3952": {
+     "u": "https://nexoinmobiliario.pe/departamentos/barranco/residencial-panama-280-3952",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Barranco",
+     "nombre": "Residencial Panamá 280",
+     "marca": "ICASA INMOBILIARIA",
+     "lat": -12.13961,
+     "lng": -77.01753,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo BLOQUE A - 612": [
+       68.02,
+       3,
+       "PEN",
+       485280.0
+      ],
+      "Modelo BLOQUE A - 704": [
+       68.26,
+       3,
+       "PEN",
+       486964.0
+      ],
+      "Modelo BLOQUE A - 708": [
+       77.1,
+       3,
+       "PEN",
+       603699.0
+      ],
+      "Modelo BLOQUE A - 712": [
+       68.02,
+       3,
+       "PEN",
+       485280.0
+      ],
+      "Modelo BLOQUE A - 713": [
+       44.6,
+       1,
+       "PEN",
+       335012.0
+      ],
+      "Modelo BLOQUE A - 714": [
+       43.56,
+       1,
+       "PEN",
+       327387.0
+      ],
+      "Modelo BLOQUE B - 1002": [
+       77.1,
+       3,
+       "PEN",
+       586500.0
+      ],
+      "Modelo BLOQUE A - 804": [
+       68.26,
+       3,
+       "PEN",
+       486964.0
+      ],
+      "Modelo BLOQUE A - 811": [
+       67.74,
+       3,
+       "PEN",
+       488655.0
+      ],
+      "Modelo BLOQUE A - 812": [
+       68.02,
+       3,
+       "PEN",
+       485280.0
+      ],
+      "Modelo BLOQUE A - 904": [
+       68.26,
+       3,
+       "PEN",
+       486964.0
+      ],
+      "Modelo BLOQUE A - 1012": [
+       68.02,
+       3,
+       "PEN",
+       485280.0
+      ],
+      "Modelo BLOQUE A - 1014": [
+       43.56,
+       1,
+       "PEN",
+       317084.0
+      ],
+      "Modelo BLOQUE A - 1104": [
+       68.26,
+       3,
+       "PEN",
+       486964.0
+      ],
+      "Modelo BLOQUE A - 1204": [
+       68.26,
+       3,
+       "PEN",
+       486964.0
+      ],
+      "Modelo BLOQUE A - 1212": [
+       68.02,
+       3,
+       "PEN",
+       485280.0
+      ],
+      "Modelo BLOQUE A - 1214": [
+       43.56,
+       1,
+       "PEN",
+       317084.0
+      ],
+      "Modelo BLOQUE A - 1304": [
+       68.26,
+       3,
+       "PEN",
+       489654.0
+      ],
+      "Modelo BLOQUE A - 1404": [
+       68.26,
+       3,
+       "PEN",
+       489654.0
+      ],
+      "Modelo BLOQUE A - 1504": [
+       68.26,
+       3,
+       "PEN",
+       486964.0
+      ],
+      "Modelo BLOQUE A - 1511": [
+       67.74,
+       3,
+       "PEN",
+       480645.0
+      ],
+      "Modelo BLOQUE A - 1512": [
+       68.02,
+       3,
+       "PEN",
+       485280.0
+      ],
+      "Modelo BLOQUE A - 1604": [
+       68.26,
+       3,
+       "PEN",
+       486964.0
+      ],
+      "Modelo BLOQUE A - 1606": [
+       76.97,
+       3,
+       "PEN",
+       551114.0
+      ],
+      "Modelo BLOQUE A - 1608": [
+       77.1,
+       3,
+       "PEN",
+       552031.0
+      ],
+      "Modelo BLOQUE A - 1702": [
+       61.75,
+       2,
+       "PEN",
+       443719.0
+      ],
+      "Modelo BLOQUE A - 1704": [
+       68.26,
+       3,
+       "PEN",
+       486964.0
+      ],
+      "Modelo BLOQUE A - 1708": [
+       77.1,
+       3,
+       "PEN",
+       552031.0
+      ],
+      "Modelo BLOQUE A - 1802": [
+       61.75,
+       2,
+       "PEN",
+       443719.0
+      ],
+      "Modelo BLOQUE A - 1804": [
+       68.26,
+       3,
+       "PEN",
+       486964.0
+      ],
+      "Modelo BLOQUE A - 1812": [
+       68.02,
+       3,
+       "PEN",
+       485280.0
+      ],
+      "Modelo BLOQUE A - 1902": [
+       61.75,
+       2,
+       "PEN",
+       443719.0
+      ],
+      "Modelo BLOQUE A - 1904": [
+       68.26,
+       3,
+       "PEN",
+       486964.0
+      ],
+      "Modelo BLOQUE A - 1908": [
+       77.1,
+       3,
+       "PEN",
+       552031.0
+      ],
+      "Modelo BLOQUE A - 2002": [
+       61.75,
+       2,
+       "PEN",
+       443719.0
+      ],
+      "Modelo BLOQUE A - 205": [
+       89.67,
+       3,
+       "PEN",
+       619518.0
+      ],
+      "Modelo BLOQUE A - 206": [
+       58.9,
+       2,
+       "PEN",
+       451471.0
+      ],
+      "Modelo BLOQUE A - 207": [
+       46.69,
+       1,
+       "PEN",
+       359539.0
+      ],
+      "Modelo BLOQUE A - 208": [
+       73.06,
+       3,
+       "PEN",
+       529284.0
+      ],
+      "Modelo BLOQUE A - 209": [
+       76.71,
+       3,
+       "PEN",
+       555327.0
+      ],
+      "Modelo BLOQUE A - 2102": [
+       61.75,
+       2,
+       "PEN",
+       443719.0
+      ],
+      "Modelo BLOQUE A - 2108": [
+       77.1,
+       3,
+       "PEN",
+       552031.0
+      ],
+      "Modelo BLOQUE A - 2113": [
+       44.6,
+       1,
+       "PEN",
+       322705.0
+      ],
+      "Modelo BLOQUE A - 2202": [
+       61.75,
+       2,
+       "PEN",
+       443719.0
+      ],
+      "Modelo BLOQUE A - 2208": [
+       77.1,
+       3,
+       "PEN",
+       552031.0
+      ],
+      "Modelo BLOQUE A - 2213": [
+       44.6,
+       1,
+       "PEN",
+       324463.0
+      ],
+      "Modelo BLOQUE A - 412": [
+       68.02,
+       3,
+       "PEN",
+       485280.0
+      ],
+      "Modelo BLOQUE A - 512": [
+       68.02,
+       3,
+       "PEN",
+       485280.0
+      ],
+      "Modelo BLOQUE A - 514": [
+       43.56,
+       1,
+       "PEN",
+       323952.0
+      ]
+     },
+     "primero": {
+      "Modelo BLOQUE A - 612": [
+       "PEN",
+       485280.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 704": [
+       "PEN",
+       486964.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 708": [
+       "PEN",
+       603699.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 712": [
+       "PEN",
+       485280.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 713": [
+       "PEN",
+       335012.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 714": [
+       "PEN",
+       327387.0,
+       20721
+      ],
+      "Modelo BLOQUE B - 1002": [
+       "PEN",
+       586500.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 804": [
+       "PEN",
+       486964.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 811": [
+       "PEN",
+       488655.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 812": [
+       "PEN",
+       485280.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 904": [
+       "PEN",
+       486964.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1012": [
+       "PEN",
+       485280.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1014": [
+       "PEN",
+       317084.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1104": [
+       "PEN",
+       486964.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1204": [
+       "PEN",
+       486964.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1212": [
+       "PEN",
+       485280.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1214": [
+       "PEN",
+       317084.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1304": [
+       "PEN",
+       489654.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1404": [
+       "PEN",
+       489654.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1504": [
+       "PEN",
+       486964.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1511": [
+       "PEN",
+       480645.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1512": [
+       "PEN",
+       485280.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1604": [
+       "PEN",
+       486964.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1606": [
+       "PEN",
+       551114.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1608": [
+       "PEN",
+       552031.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1702": [
+       "PEN",
+       443719.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1704": [
+       "PEN",
+       486964.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1708": [
+       "PEN",
+       552031.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1802": [
+       "PEN",
+       443719.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1804": [
+       "PEN",
+       486964.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1812": [
+       "PEN",
+       485280.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1902": [
+       "PEN",
+       443719.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1904": [
+       "PEN",
+       486964.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 1908": [
+       "PEN",
+       552031.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 2002": [
+       "PEN",
+       443719.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 205": [
+       "PEN",
+       619518.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 206": [
+       "PEN",
+       451471.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 207": [
+       "PEN",
+       359539.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 208": [
+       "PEN",
+       529284.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 209": [
+       "PEN",
+       555327.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 2102": [
+       "PEN",
+       443719.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 2108": [
+       "PEN",
+       552031.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 2113": [
+       "PEN",
+       322705.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 2202": [
+       "PEN",
+       443719.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 2208": [
+       "PEN",
+       552031.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 2213": [
+       "PEN",
+       324463.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 412": [
+       "PEN",
+       485280.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 512": [
+       "PEN",
+       485280.0,
+       20721
+      ],
+      "Modelo BLOQUE A - 514": [
+       "PEN",
+       323952.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3953": {
+     "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/albamar-flex-3953",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Cercado De Lima",
+     "nombre": "Albamar | Flex",
+     "marca": "ALBAMAR GRUPO INMOBILIARIO",
+     "lat": -12.05604,
+     "lng": -77.05801,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo Modelo 1": [
+       55.09,
+       2,
+       "PEN",
+       246000.0
+      ],
+      "Modelo Modelo 2": [
+       65.61,
+       3,
+       "PEN",
+       298900.0
+      ],
+      "Modelo Modelo 3": [
+       60.11,
+       3,
+       "PEN",
+       279800.0
+      ],
+      "Modelo Modelo 4": [
+       59.55,
+       3,
+       "PEN",
+       296900.0
+      ],
+      "Modelo Modelo 5": [
+       60.21,
+       3,
+       "PEN",
+       283100.0
+      ],
+      "Modelo Modelo 6": [
+       66.82,
+       3,
+       "PEN",
+       233700.0
+      ],
+      "Modelo Modelo 7": [
+       50.11,
+       2,
+       "PEN",
+       243100.0
+      ],
+      "Modelo Modelo 8": [
+       54.02,
+       2,
+       "PEN",
+       246100.0
+      ],
+      "Modelo Modelo 9": [
+       40.11,
+       1,
+       "PEN",
+       195100.0
+      ],
+      "Modelo Modelo 10": [
+       66.57,
+       3,
+       "PEN",
+       335300.0
+      ],
+      "Modelo Modelo 11": [
+       63.98,
+       3,
+       "PEN",
+       298700.0
+      ],
+      "Modelo Modelo 12": [
+       41.43,
+       1,
+       "PEN",
+       197600.0
+      ]
+     },
+     "primero": {
+      "Modelo Modelo 1": [
+       "PEN",
+       246000.0,
+       20721
+      ],
+      "Modelo Modelo 2": [
+       "PEN",
+       298900.0,
+       20721
+      ],
+      "Modelo Modelo 3": [
+       "PEN",
+       279800.0,
+       20721
+      ],
+      "Modelo Modelo 4": [
+       "PEN",
+       296900.0,
+       20721
+      ],
+      "Modelo Modelo 5": [
+       "PEN",
+       283100.0,
+       20721
+      ],
+      "Modelo Modelo 6": [
+       "PEN",
+       233700.0,
+       20721
+      ],
+      "Modelo Modelo 7": [
+       "PEN",
+       243100.0,
+       20721
+      ],
+      "Modelo Modelo 8": [
+       "PEN",
+       246100.0,
+       20721
+      ],
+      "Modelo Modelo 9": [
+       "PEN",
+       195100.0,
+       20721
+      ],
+      "Modelo Modelo 10": [
+       "PEN",
+       335300.0,
+       20721
+      ],
+      "Modelo Modelo 11": [
+       "PEN",
+       298700.0,
+       20721
+      ],
+      "Modelo Modelo 12": [
+       "PEN",
+       197600.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3954": {
+     "u": "https://nexoinmobiliario.pe/departamentos/brena/albamar-quadra-3954",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Brena",
+     "nombre": "Albamar | Quadra",
+     "marca": "ALBAMAR GRUPO INMOBILIARIO",
+     "lat": -12.05674,
+     "lng": -77.0467,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo 1B": [
+       49.44,
+       2,
+       "PEN",
+       298400.0
+      ],
+      "Modelo 2D": [
+       49.67,
+       2,
+       "PEN",
+       308300.0
+      ],
+      "Modelo 2E": [
+       49.67,
+       2,
+       "PEN",
+       278700.0
+      ],
+      "Modelo 3G": [
+       55.21,
+       2,
+       "PEN",
+       327300.0
+      ],
+      "Modelo 4I": [
+       57.51,
+       2,
+       "PEN",
+       330900.0
+      ],
+      "Modelo 5J": [
+       61.27,
+       2,
+       "PEN",
+       404600.0
+      ],
+      "Modelo 6K": [
+       27.73,
+       1,
+       "PEN",
+       207000.0
+      ],
+      "Modelo 7M": [
+       56.07,
+       2,
+       "PEN",
+       306700.0
+      ],
+      "Modelo 8O": [
+       67.4,
+       3,
+       "PEN",
+       387000.0
+      ],
+      "Modelo 9Q": [
+       37.38,
+       1,
+       "PEN",
+       220800.0
+      ],
+      "Modelo 8P": [
+       130.57,
+       3,
+       "PEN",
+       639600.0
+      ]
+     },
+     "primero": {
+      "Modelo 1B": [
+       "PEN",
+       298400.0,
+       20721
+      ],
+      "Modelo 2D": [
+       "PEN",
+       308300.0,
+       20721
+      ],
+      "Modelo 2E": [
+       "PEN",
+       278700.0,
+       20721
+      ],
+      "Modelo 3G": [
+       "PEN",
+       327300.0,
+       20721
+      ],
+      "Modelo 4I": [
+       "PEN",
+       330900.0,
+       20721
+      ],
+      "Modelo 5J": [
+       "PEN",
+       404600.0,
+       20721
+      ],
+      "Modelo 6K": [
+       "PEN",
+       207000.0,
+       20721
+      ],
+      "Modelo 7M": [
+       "PEN",
+       306700.0,
+       20721
+      ],
+      "Modelo 8O": [
+       "PEN",
+       387000.0,
+       20721
+      ],
+      "Modelo 9Q": [
+       "PEN",
+       220800.0,
+       20721
+      ],
+      "Modelo 8P": [
+       "PEN",
+       639600.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3955": {
+     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/velasco-astete-3955",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Santiago De Surco",
+     "nombre": "Velasco Astete",
+     "marca": "EE INMOBILIARIA",
+     "lat": -12.12663,
+     "lng": -76.98704,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo DPTO. 101": [
+       97.12,
+       3,
+       "PEN",
+       625000.0
+      ],
+      "Modelo DPTO. 102": [
+       99.81,
+       3,
+       "PEN",
+       670000.0
+      ],
+      "Modelo TIPO 01-A": [
+       77.0,
+       3,
+       "PEN",
+       575000.0
+      ],
+      "Modelo TIPO 02-A": [
+       73.24,
+       3,
+       "PEN",
+       569000.0
+      ],
+      "Modelo TIPO 03-A": [
+       78.61,
+       3,
+       "PEN",
+       599000.0
+      ],
+      "Modelo TIPO 05": [
+       63.29,
+       2,
+       "PEN",
+       479000.0
+      ],
+      "Modelo TIPO 01-B": [
+       77.0,
+       3,
+       "PEN",
+       575000.0
+      ],
+      "Modelo TIPO 02-B": [
+       73.24,
+       3,
+       "PEN",
+       569000.0
+      ],
+      "Modelo TIPO 03-B": [
+       78.61,
+       3,
+       "PEN",
+       625000.0
+      ],
+      "Modelo DPTO. 805": [
+       63.0,
+       2,
+       "PEN",
+       470000.0
+      ],
+      "Modelo DÚPLEX 901": [
+       145.42,
+       3,
+       "PEN",
+       869000.0
+      ],
+      "Modelo DÚPLEX 902": [
+       136.39,
+       2,
+       "PEN",
+       835000.0
+      ],
+      "Modelo DÚPLEX 903": [
+       149.53,
+       3,
+       "PEN",
+       919000.0
+      ],
+      "Modelo DÚPLEX 904": [
+       89.38,
+       2,
+       "PEN",
+       570000.0
+      ]
+     },
+     "primero": {
+      "Modelo DPTO. 101": [
+       "PEN",
+       625000.0,
+       20721
+      ],
+      "Modelo DPTO. 102": [
+       "PEN",
+       670000.0,
+       20721
+      ],
+      "Modelo TIPO 01-A": [
+       "PEN",
+       575000.0,
+       20721
+      ],
+      "Modelo TIPO 02-A": [
+       "PEN",
+       569000.0,
+       20721
+      ],
+      "Modelo TIPO 03-A": [
+       "PEN",
+       599000.0,
+       20721
+      ],
+      "Modelo TIPO 05": [
+       "PEN",
+       479000.0,
+       20721
+      ],
+      "Modelo TIPO 01-B": [
+       "PEN",
+       575000.0,
+       20721
+      ],
+      "Modelo TIPO 02-B": [
+       "PEN",
+       569000.0,
+       20721
+      ],
+      "Modelo TIPO 03-B": [
+       "PEN",
+       625000.0,
+       20721
+      ],
+      "Modelo DPTO. 805": [
+       "PEN",
+       470000.0,
+       20721
+      ],
+      "Modelo DÚPLEX 901": [
+       "PEN",
+       869000.0,
+       20721
+      ],
+      "Modelo DÚPLEX 902": [
+       "PEN",
+       835000.0,
+       20721
+      ],
+      "Modelo DÚPLEX 903": [
+       "PEN",
+       919000.0,
+       20721
+      ],
+      "Modelo DÚPLEX 904": [
+       "PEN",
+       570000.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3956": {
+     "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/capital-3956",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "La Victoria",
+     "nombre": "CAPITAL",
+     "marca": "PISONAY INMOBILIARIA",
+     "lat": -12.07291,
+     "lng": -77.03024,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo 1": [
+       60.0,
+       3,
+       "PEN",
+       354000.0
+      ],
+      "Modelo 2": [
+       52.87,
+       2,
+       "PEN",
+       300000.0
+      ],
+      "Modelo 3": [
+       41.24,
+       1,
+       "PEN",
+       222000.0
+      ],
+      "Modelo 4": [
+       78.5,
+       3,
+       "PEN",
+       425000.0
+      ],
+      "Modelo 5": [
+       68.77,
+       3,
+       "PEN",
+       370000.0
+      ],
+      "Modelo 6": [
+       53.54,
+       2,
+       "PEN",
+       260000.0
+      ],
+      "Modelo 7": [
+       43.2,
+       1,
+       "PEN",
+       225000.0
+      ],
+      "Modelo DUPLEX": [
+       116.84,
+       4,
+       "PEN",
+       651019.0
+      ]
+     },
+     "primero": {
+      "Modelo 1": [
+       "PEN",
+       354000.0,
+       20721
+      ],
+      "Modelo 2": [
+       "PEN",
+       300000.0,
+       20721
+      ],
+      "Modelo 3": [
+       "PEN",
+       222000.0,
+       20721
+      ],
+      "Modelo 4": [
+       "PEN",
+       425000.0,
+       20721
+      ],
+      "Modelo 5": [
+       "PEN",
+       370000.0,
+       20721
+      ],
+      "Modelo 6": [
+       "PEN",
+       260000.0,
+       20721
+      ],
+      "Modelo 7": [
+       "PEN",
+       225000.0,
+       20721
+      ],
+      "Modelo DUPLEX": [
+       "PEN",
+       651019.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3957": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/polo-park-3957",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "San Miguel",
+     "nombre": "Polo Park",
+     "marca": "MULTIURBE",
+     "lat": -12.06819,
+     "lng": -77.09634,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo Tipo 3": [
+       79.3,
+       3,
+       "PEN",
+       550900.0
+      ],
+      "Modelo Tipo 5": [
+       103.7,
+       4,
+       "PEN",
+       729000.0
+      ],
+      "Modelo Tipo 6": [
+       52.0,
+       2,
+       "PEN",
+       365900.0
+      ],
+      "Modelo Tipo 7": [
+       68.0,
+       3,
+       "PEN",
+       466700.0
+      ],
+      "Modelo Tipo 8": [
+       71.6,
+       3,
+       "PEN",
+       508100.0
+      ],
+      "Modelo Tipo 9": [
+       81.3,
+       3,
+       "PEN",
+       568500.0
+      ],
+      "Modelo Tipo 8A": [
+       70.8,
+       3,
+       "PEN",
+       502500.0
+      ],
+      "Modelo Tipo 9A": [
+       77.5,
+       3,
+       "PEN",
+       554200.0
+      ],
+      "Modelo Tipo 10": [
+       50.6,
+       1,
+       "PEN",
+       364900.0
+      ],
+      "Modelo Tipo 12": [
+       60.8,
+       2,
+       "PEN",
+       430200.0
+      ],
+      "Modelo Tipo 12A": [
+       62.6,
+       2,
+       "PEN",
+       442700.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo 3": [
+       "PEN",
+       550900.0,
+       20721
+      ],
+      "Modelo Tipo 5": [
+       "PEN",
+       729000.0,
+       20721
+      ],
+      "Modelo Tipo 6": [
+       "PEN",
+       365900.0,
+       20721
+      ],
+      "Modelo Tipo 7": [
+       "PEN",
+       466700.0,
+       20721
+      ],
+      "Modelo Tipo 8": [
+       "PEN",
+       508100.0,
+       20721
+      ],
+      "Modelo Tipo 9": [
+       "PEN",
+       568500.0,
+       20721
+      ],
+      "Modelo Tipo 8A": [
+       "PEN",
+       502500.0,
+       20721
+      ],
+      "Modelo Tipo 9A": [
+       "PEN",
+       554200.0,
+       20721
+      ],
+      "Modelo Tipo 10": [
+       "PEN",
+       364900.0,
+       20721
+      ],
+      "Modelo Tipo 12": [
+       "PEN",
+       430200.0,
+       20721
+      ],
+      "Modelo Tipo 12A": [
+       "PEN",
+       442700.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3959": {
+     "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/milos-3959",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Chorrillos",
+     "nombre": "MILOS",
+     "marca": "IFI INMOBILIARIA",
+     "lat": -12.15882,
+     "lng": -77.02379,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo TIPO 1A": [
+       97.2,
+       3,
+       "PEN",
+       715000.0
+      ],
+      "Modelo TIPO 2A": [
+       92.0,
+       2,
+       "PEN",
+       697000.0
+      ],
+      "Modelo TIPO 1": [
+       80.7,
+       3,
+       "PEN",
+       627000.0
+      ],
+      "Modelo TIPO 2": [
+       59.2,
+       2,
+       "PEN",
+       499000.0
+      ],
+      "Modelo TIPO 3": [
+       42.0,
+       1,
+       "PEN",
+       377000.0
+      ],
+      "Modelo TIPO 4": [
+       59.6,
+       2,
+       "PEN",
+       485000.0
+      ],
+      "Modelo TIPO 5": [
+       58.6,
+       2,
+       "PEN",
+       469000.0
+      ],
+      "Modelo TIPO 3A": [
+       60.9,
+       2,
+       "PEN",
+       515000.0
+      ],
+      "Modelo TIPO 1B": [
+       118.1,
+       3,
+       "PEN",
+       865000.0
+      ],
+      "Modelo TIPO 2B": [
+       102.4,
+       3,
+       "PEN",
+       781000.0
+      ],
+      "Modelo TIPO 5A": [
+       114.7,
+       3,
+       "PEN",
+       765000.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 1A": [
+       "PEN",
+       715000.0,
+       20721
+      ],
+      "Modelo TIPO 2A": [
+       "PEN",
+       697000.0,
+       20721
+      ],
+      "Modelo TIPO 1": [
+       "PEN",
+       627000.0,
+       20721
+      ],
+      "Modelo TIPO 2": [
+       "PEN",
+       499000.0,
+       20721
+      ],
+      "Modelo TIPO 3": [
+       "PEN",
+       377000.0,
+       20721
+      ],
+      "Modelo TIPO 4": [
+       "PEN",
+       485000.0,
+       20721
+      ],
+      "Modelo TIPO 5": [
+       "PEN",
+       469000.0,
+       20721
+      ],
+      "Modelo TIPO 3A": [
+       "PEN",
+       515000.0,
+       20721
+      ],
+      "Modelo TIPO 1B": [
+       "PEN",
+       865000.0,
+       20721
+      ],
+      "Modelo TIPO 2B": [
+       "PEN",
+       781000.0,
+       20721
+      ],
+      "Modelo TIPO 5A": [
+       "PEN",
+       765000.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3960": {
+     "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/jardines-de-santa-beatriz-tercera-etapa-3960",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Cercado De Lima",
+     "nombre": "Jardines de  Santa Beatriz tercera etapa",
+     "marca": "TM GESTION INMOBILIARIA",
+     "lat": -12.07691,
+     "lng": -77.03076,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo 1": [
+       40.71,
+       1,
+       "PEN",
+       259000.0
+      ],
+      "Modelo 2": [
+       45.38,
+       2,
+       "PEN",
+       292000.0
+      ],
+      "Modelo 3": [
+       44.39,
+       1,
+       "PEN",
+       311800.0
+      ],
+      "Modelo 4": [
+       44.39,
+       1,
+       "PEN",
+       288000.0
+      ],
+      "Modelo 5": [
+       44.7,
+       2,
+       "PEN",
+       316900.0
+      ],
+      "Modelo 6": [
+       44.8,
+       2,
+       "PEN",
+       284000.0
+      ],
+      "Modelo 7": [
+       53.04,
+       2,
+       "PEN",
+       390800.0
+      ],
+      "Modelo 8": [
+       43.54,
+       1,
+       "PEN",
+       300000.0
+      ],
+      "Modelo 9": [
+       43.38,
+       1,
+       "PEN",
+       305000.0
+      ],
+      "Modelo 10": [
+       40.08,
+       1,
+       "PEN",
+       276000.0
+      ],
+      "Modelo 11": [
+       45.87,
+       2,
+       "PEN",
+       319900.0
+      ],
+      "Modelo 12": [
+       45.9,
+       2,
+       "PEN",
+       305000.0
+      ],
+      "Modelo 13": [
+       54.25,
+       2,
+       "PEN",
+       386700.0
+      ]
+     },
+     "primero": {
+      "Modelo 1": [
+       "PEN",
+       259000.0,
+       20721
+      ],
+      "Modelo 2": [
+       "PEN",
+       292000.0,
+       20721
+      ],
+      "Modelo 3": [
+       "PEN",
+       311800.0,
+       20721
+      ],
+      "Modelo 4": [
+       "PEN",
+       288000.0,
+       20721
+      ],
+      "Modelo 5": [
+       "PEN",
+       316900.0,
+       20721
+      ],
+      "Modelo 6": [
+       "PEN",
+       284000.0,
+       20721
+      ],
+      "Modelo 7": [
+       "PEN",
+       390800.0,
+       20721
+      ],
+      "Modelo 8": [
+       "PEN",
+       300000.0,
+       20721
+      ],
+      "Modelo 9": [
+       "PEN",
+       305000.0,
+       20721
+      ],
+      "Modelo 10": [
+       "PEN",
+       276000.0,
+       20721
+      ],
+      "Modelo 11": [
+       "PEN",
+       319900.0,
+       20721
+      ],
+      "Modelo 12": [
+       "PEN",
+       305000.0,
+       20721
+      ],
+      "Modelo 13": [
+       "PEN",
+       386700.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3962": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/maytacapac1248-3962",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Jesus Maria",
+     "nombre": "MaytaCapac1248",
+     "marca": "VITTORIA INMOBILIARIA",
+     "lat": -12.07424,
+     "lng": -77.04278,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo TIPO1": [
+       80.06,
+       3,
+       "PEN",
+       750000.0
+      ],
+      "Modelo TIPO3": [
+       43.15,
+       2,
+       "PEN",
+       390000.0
+      ],
+      "Modelo TIPO4": [
+       53.31,
+       2,
+       "PEN",
+       458000.0
+      ],
+      "Modelo TIPO5": [
+       65.4,
+       3,
+       "PEN",
+       550500.0
+      ],
+      "Modelo TIPO2": [
+       80.58,
+       3,
+       "PEN",
+       703500.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO1": [
+       "PEN",
+       750000.0,
+       20721
+      ],
+      "Modelo TIPO3": [
+       "PEN",
+       390000.0,
+       20721
+      ],
+      "Modelo TIPO4": [
+       "PEN",
+       458000.0,
+       20721
+      ],
+      "Modelo TIPO5": [
+       "PEN",
+       550500.0,
+       20721
+      ],
+      "Modelo TIPO2": [
+       "PEN",
+       703500.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3965": {
+     "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/vertice-3965",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Chorrillos",
+     "nombre": "Vértice",
+     "marca": "ANDIAMO",
+     "lat": -12.17526,
+     "lng": -77.01975,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo 201": [
+       70.57,
+       3,
+       "PEN",
+       358700.0
+      ],
+      "Modelo 203": [
+       63.19,
+       3,
+       "PEN",
+       340500.0
+      ],
+      "Modelo 204": [
+       65.51,
+       3,
+       "PEN",
+       345300.0
+      ],
+      "Modelo 205": [
+       82.01,
+       3,
+       "PEN",
+       380500.0
+      ],
+      "Modelo 206": [
+       55.96,
+       2,
+       "PEN",
+       316400.0
+      ],
+      "Modelo X01": [
+       63.93,
+       3,
+       "PEN",
+       316400.0
+      ],
+      "Modelo X02": [
+       63.19,
+       3,
+       "PEN",
+       312700.0
+      ],
+      "Modelo X03": [
+       63.19,
+       3,
+       "PEN",
+       315900.0
+      ],
+      "Modelo X04": [
+       65.51,
+       3,
+       "PEN",
+       310700.0
+      ],
+      "Modelo X05": [
+       66.45,
+       3,
+       "PEN",
+       315200.0
+      ],
+      "Modelo X06": [
+       68.87,
+       3,
+       "PEN",
+       371700.0
+      ],
+      "Modelo X07": [
+       44.89,
+       2,
+       "PEN",
+       222200.0
+      ],
+      "Modelo X08": [
+       49.85,
+       2,
+       "PEN",
+       269100.0
+      ]
+     },
+     "primero": {
+      "Modelo 201": [
+       "PEN",
+       358700.0,
+       20721
+      ],
+      "Modelo 203": [
+       "PEN",
+       340500.0,
+       20721
+      ],
+      "Modelo 204": [
+       "PEN",
+       345300.0,
+       20721
+      ],
+      "Modelo 205": [
+       "PEN",
+       380500.0,
+       20721
+      ],
+      "Modelo 206": [
+       "PEN",
+       316400.0,
+       20721
+      ],
+      "Modelo X01": [
+       "PEN",
+       316400.0,
+       20721
+      ],
+      "Modelo X02": [
+       "PEN",
+       312700.0,
+       20721
+      ],
+      "Modelo X03": [
+       "PEN",
+       315900.0,
+       20721
+      ],
+      "Modelo X04": [
+       "PEN",
+       310700.0,
+       20721
+      ],
+      "Modelo X05": [
+       "PEN",
+       315200.0,
+       20721
+      ],
+      "Modelo X06": [
+       "PEN",
+       371700.0,
+       20721
+      ],
+      "Modelo X07": [
+       "PEN",
+       222200.0,
+       20721
+      ],
+      "Modelo X08": [
+       "PEN",
+       269100.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3968": {
+     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/bosquia-living-3968",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Santiago De Surco",
+     "nombre": "Bosquia Living",
+     "marca": "EE INMOBILIARIA",
+     "lat": -12.12972,
+     "lng": -76.99709,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo Dpto. 101": [
+       113.13,
+       3,
+       "PEN",
+       691759.0
+      ],
+      "Modelo Dpto. 102": [
+       122.81,
+       2,
+       "PEN",
+       685572.0
+      ],
+      "Modelo Tipo 01-B": [
+       116.99,
+       3,
+       "PEN",
+       819753.0
+      ],
+      "Modelo Tipo 01-A": [
+       116.99,
+       3,
+       "PEN",
+       819753.0
+      ],
+      "Modelo DUPLEX 601": [
+       125.08,
+       3,
+       "PEN",
+       835368.0
+      ],
+      "Modelo DUPLEX 604": [
+       99.2,
+       3,
+       "PEN",
+       694881.0
+      ]
+     },
+     "primero": {
+      "Modelo Dpto. 101": [
+       "PEN",
+       691759.0,
+       20721
+      ],
+      "Modelo Dpto. 102": [
+       "PEN",
+       685572.0,
+       20721
+      ],
+      "Modelo Tipo 01-B": [
+       "PEN",
+       819753.0,
+       20721
+      ],
+      "Modelo Tipo 01-A": [
+       "PEN",
+       819753.0,
+       20721
+      ],
+      "Modelo DUPLEX 601": [
+       "PEN",
+       835368.0,
+       20721
+      ],
+      "Modelo DUPLEX 604": [
+       "PEN",
+       694881.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3973": {
+     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/essenza-117-3973",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Santiago De Surco",
+     "nombre": "Essenza 117",
+     "marca": "EE INMOBILIARIA",
+     "lat": -12.13243,
+     "lng": -77.01343,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo Dpto. 101": [
+       105.11,
+       2,
+       "PEN",
+       723000.0
+      ],
+      "Modelo Típico 1-A": [
+       95.87,
+       3,
+       "PEN",
+       678000.0
+      ],
+      "Modelo Típico 3-A": [
+       84.64,
+       3,
+       "PEN",
+       601000.0
+      ],
+      "Modelo Típico 4-A": [
+       70.52,
+       2,
+       "PEN",
+       482000.0
+      ],
+      "Modelo Típico 1-B": [
+       95.73,
+       3,
+       "PEN",
+       679000.0
+      ],
+      "Modelo Típico 4-B": [
+       70.52,
+       2,
+       "PEN",
+       482000.0
+      ],
+      "Modelo Dúplex 701": [
+       170.53,
+       3,
+       "PEN",
+       1002000.0
+      ],
+      "Modelo Dúplex 702": [
+       163.57,
+       3,
+       "PEN",
+       992000.0
+      ],
+      "Modelo Dúplex 703": [
+       154.66,
+       3,
+       "PEN",
+       922000.0
+      ],
+      "Modelo Dúplex 704": [
+       152.72,
+       3,
+       "PEN",
+       862000.0
+      ]
+     },
+     "primero": {
+      "Modelo Dpto. 101": [
+       "PEN",
+       723000.0,
+       20721
+      ],
+      "Modelo Típico 1-A": [
+       "PEN",
+       678000.0,
+       20721
+      ],
+      "Modelo Típico 3-A": [
+       "PEN",
+       601000.0,
+       20721
+      ],
+      "Modelo Típico 4-A": [
+       "PEN",
+       482000.0,
+       20721
+      ],
+      "Modelo Típico 1-B": [
+       "PEN",
+       679000.0,
+       20721
+      ],
+      "Modelo Típico 4-B": [
+       "PEN",
+       482000.0,
+       20721
+      ],
+      "Modelo Dúplex 701": [
+       "PEN",
+       1002000.0,
+       20721
+      ],
+      "Modelo Dúplex 702": [
+       "PEN",
+       992000.0,
+       20721
+      ],
+      "Modelo Dúplex 703": [
+       "PEN",
+       922000.0,
+       20721
+      ],
+      "Modelo Dúplex 704": [
+       "PEN",
+       862000.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
+    },
+    "3975": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/the-summit-3975",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "San Isidro",
+     "nombre": "THE SUMMIT",
+     "marca": "GRUPO T&C",
+     "lat": -12.10561,
+     "lng": -77.05617,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo 9A": [
+       70.2,
+       2,
+       "PEN",
+       532334.0
+      ],
+      "Modelo 1A": [
+       48.63,
+       2,
+       "PEN",
+       390016.0
+      ],
+      "Modelo 2A": [
+       54.34,
+       2,
+       "PEN",
+       441445.0
+      ],
+      "Modelo 7A": [
+       70.73,
+       3,
+       "PEN",
+       585014.0
+      ],
+      "Modelo 4A": [
+       57.59,
+       2,
+       "PEN",
+       475545.0
+      ],
+      "Modelo 5A": [
+       76.57,
+       3,
+       "PEN",
+       640406.0
+      ],
+      "Modelo 6A": [
+       74.71,
+       3,
+       "PEN",
+       608611.0
+      ],
+      "Modelo 1B": [
+       48.63,
+       2,
+       "PEN",
+       380621.0
+      ],
+      "Modelo 2B": [
+       54.34,
+       2,
+       "PEN",
+       430947.0
+      ],
+      "Modelo 7B": [
+       70.73,
+       3,
+       "PEN",
+       578181.0
+      ],
+      "Modelo 4B": [
+       57.59,
+       2,
+       "PEN",
+       484817.0
+      ],
+      "Modelo 5B": [
+       76.57,
+       3,
+       "PEN",
+       628078.0
+      ],
+      "Modelo 6B": [
+       74.71,
+       3,
+       "PEN",
+       615828.0
+      ]
+     },
+     "primero": {
+      "Modelo 9A": [
+       "PEN",
+       532334.0,
+       20721
+      ],
+      "Modelo 1A": [
+       "PEN",
+       390016.0,
+       20721
+      ],
+      "Modelo 2A": [
+       "PEN",
+       441445.0,
+       20721
+      ],
+      "Modelo 7A": [
+       "PEN",
+       585014.0,
+       20721
+      ],
+      "Modelo 4A": [
+       "PEN",
+       475545.0,
+       20721
+      ],
+      "Modelo 5A": [
+       "PEN",
+       640406.0,
+       20721
+      ],
+      "Modelo 6A": [
+       "PEN",
+       608611.0,
+       20721
+      ],
+      "Modelo 1B": [
+       "PEN",
+       380621.0,
+       20721
+      ],
+      "Modelo 2B": [
+       "PEN",
+       430947.0,
+       20721
+      ],
+      "Modelo 7B": [
+       "PEN",
+       578181.0,
+       20721
+      ],
+      "Modelo 4B": [
+       "PEN",
+       484817.0,
+       20721
+      ],
+      "Modelo 5B": [
+       "PEN",
+       628078.0,
+       20721
+      ],
+      "Modelo 6B": [
+       "PEN",
+       615828.0,
+       20721
+      ]
+     },
+     "r": 20721,
+     "x": 20721
     }
    },
-   "ultima": 1790297036
+   "ultima": 1790361594
   },
   "scotiabank": {
    "filas": {
@@ -55843,7 +60423,7 @@
      "valor": 1218200.0
     }
    },
-   "ultima": 1789754995
+   "ultima": 1790361594
   },
   "infocasas": {
    "avisos": {
@@ -67439,7 +72019,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-borja"
     },
     "194270596": {
@@ -67466,7 +72046,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-borja"
     },
     "194203427": {
@@ -67493,7 +72073,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-borja"
     },
     "194170964": {
@@ -67520,14 +72100,14 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-borja"
     },
     "194263103": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 330709.0,
+     "usd": 329468.0,
      "area": 120.0,
      "lat": -12.10626,
      "lng": -76.98972,
@@ -67564,10 +72144,14 @@
       [
        20720,
        330709.0
+      ],
+      [
+       20721,
+       329468.0
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-borja"
     },
     "194256155": {
@@ -67594,7 +72178,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-borja"
     },
     "194182203": {
@@ -67621,7 +72205,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-borja"
     },
     "194249803": {
@@ -67648,7 +72232,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-borja"
     },
     "194270606": {
@@ -67675,7 +72259,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-borja"
     },
     "194234837": {
@@ -67702,7 +72286,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-borja"
     },
     "194190445": {
@@ -67729,7 +72313,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-borja"
     },
     "194193339": {
@@ -67742,7 +72326,7 @@
      "lng": -77.03394,
      "mon": "USD",
      "monto": 220000.0,
-     "mant": 97.17,
+     "mant": 96.81,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -67756,7 +72340,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194176353": {
@@ -67783,7 +72367,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194168877": {
@@ -67796,7 +72380,7 @@
      "lng": -77.04098,
      "mon": "USD",
      "monto": 390000.0,
-     "mant": 266.63,
+     "mant": 265.63,
      "anio": "",
      "dorm": "2",
      "zona": "San Isidro",
@@ -67810,7 +72394,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194147966": {
@@ -67864,7 +72448,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194270602": {
@@ -67891,7 +72475,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194245570": {
@@ -67918,7 +72502,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194166243": {
@@ -67945,7 +72529,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194206786": {
@@ -67958,7 +72542,7 @@
      "lng": -77.03394,
      "mon": "USD",
      "monto": 220000.0,
-     "mant": 97.17,
+     "mant": 96.81,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -67972,7 +72556,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194170978": {
@@ -67999,7 +72583,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194147968": {
@@ -68053,7 +72637,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194208241": {
@@ -68080,7 +72664,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194182388": {
@@ -68107,7 +72691,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194202752": {
@@ -68134,14 +72718,14 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194208240": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 296254.0,
+     "usd": 295143.0,
      "area": 136.0,
      "lat": -12.09363,
      "lng": -77.05973,
@@ -68178,10 +72762,14 @@
       [
        20720,
        296254.0
+      ],
+      [
+       20721,
+       295143.0
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194166388": {
@@ -68208,7 +72796,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194170970": {
@@ -68235,7 +72823,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194141714": {
@@ -68288,7 +72876,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194245578": {
@@ -68315,14 +72903,14 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194170979": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 453269.0,
+     "usd": 451569.0,
      "area": 195.0,
      "lat": -12.0988,
      "lng": -77.05053,
@@ -68359,10 +72947,14 @@
       [
        20720,
        453269.0
+      ],
+      [
+       20721,
+       451569.0
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194256163": {
@@ -68389,7 +72981,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194245569": {
@@ -68416,7 +73008,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194165524": {
@@ -68469,7 +73061,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194213165": {
@@ -68549,7 +73141,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194151374": {
@@ -68688,7 +73280,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-miguel"
     },
     "194203564": {
@@ -68715,7 +73307,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-miguel"
     },
     "194160690": {
@@ -68769,7 +73361,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-miguel"
     },
     "194138828": {
@@ -68822,7 +73414,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-miguel"
     },
     "194145352": {
@@ -68886,13 +73478,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 681.0,
+     "usd": 679.0,
      "area": 70.0,
      "lat": -12.07743,
      "lng": -77.09341,
      "mon": "PEN",
      "monto": 2300.0,
-     "mant": 53.36,
+     "mant": 53.14,
      "anio": "",
      "dorm": "2",
      "zona": "San Miguel",
@@ -68911,23 +73503,27 @@
       [
        20718,
        681.0
+      ],
+      [
+       20721,
+       679.0
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-miguel"
     },
     "194188001": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 681.0,
+     "usd": 679.0,
      "area": 70.0,
      "lat": -12.07743,
      "lng": -77.09341,
      "mon": "PEN",
      "monto": 2300.0,
-     "mant": 53.36,
+     "mant": 53.14,
      "anio": "",
      "dorm": "2",
      "zona": "San Miguel",
@@ -68946,23 +73542,27 @@
       [
        20718,
        681.0
+      ],
+      [
+       20721,
+       679.0
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-miguel"
     },
     "194230936": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 681.0,
+     "usd": 679.0,
      "area": 70.0,
      "lat": -12.07743,
      "lng": -77.09341,
      "mon": "PEN",
      "monto": 2300.0,
-     "mant": 53.36,
+     "mant": 53.14,
      "anio": "",
      "dorm": "2",
      "zona": "San Miguel",
@@ -68981,23 +73581,27 @@
       [
        20718,
        681.0
+      ],
+      [
+       20721,
+       679.0
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-miguel"
     },
     "194242838": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 681.0,
+     "usd": 679.0,
      "area": 70.0,
      "lat": -12.07743,
      "lng": -77.09341,
      "mon": "PEN",
      "monto": 2300.0,
-     "mant": 53.36,
+     "mant": 53.14,
      "anio": "",
      "dorm": "2",
      "zona": "San Miguel",
@@ -69016,23 +73620,27 @@
       [
        20718,
        681.0
+      ],
+      [
+       20721,
+       679.0
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-miguel"
     },
     "194267289": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 622.0,
+     "usd": 620.0,
      "area": 70.0,
      "lat": -12.07485,
      "lng": -77.10025,
      "mon": "PEN",
      "monto": 2100.0,
-     "mant": 53.36,
+     "mant": 53.14,
      "anio": "",
      "dorm": "2",
      "zona": "San Miguel",
@@ -69059,23 +73667,27 @@
       [
        20720,
        622.0
+      ],
+      [
+       20721,
+       620.0
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-miguel"
     },
     "194201607": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 681.0,
+     "usd": 679.0,
      "area": 70.0,
      "lat": -12.07743,
      "lng": -77.09341,
      "mon": "PEN",
      "monto": 2300.0,
-     "mant": 53.36,
+     "mant": 53.14,
      "anio": "",
      "dorm": "2",
      "zona": "San Miguel",
@@ -69094,23 +73706,27 @@
       [
        20718,
        681.0
+      ],
+      [
+       20721,
+       679.0
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-miguel"
     },
     "194174873": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 681.0,
+     "usd": 679.0,
      "area": 70.0,
      "lat": -12.07743,
      "lng": -77.09341,
      "mon": "PEN",
      "monto": 2300.0,
-     "mant": 53.36,
+     "mant": 53.14,
      "anio": "",
      "dorm": "2",
      "zona": "San Miguel",
@@ -69129,10 +73745,14 @@
       [
        20718,
        681.0
+      ],
+      [
+       20721,
+       679.0
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-miguel"
     },
     "194223546": {
@@ -69159,7 +73779,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "santa-anita"
     },
     "194208223": {
@@ -69186,7 +73806,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "santa-maria-del-mar"
     },
     "194277936": {
@@ -74195,7 +78815,7 @@
      "lng": -77.03697,
      "mon": "USD",
      "monto": 1300.0,
-     "mant": 133.34,
+     "mant": 132.87,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -74213,7 +78833,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194282869": {
@@ -74605,7 +79225,7 @@
      "lng": -71.96199,
      "mon": "USD",
      "monto": 150000.0,
-     "mant": 32.47,
+     "mant": 32.46,
      "anio": "",
      "dorm": "4",
      "zona": "Wanchaq",
@@ -75101,7 +79721,7 @@
      "lng": -71.55376,
      "mon": "USD",
      "monto": 330000.0,
-     "mant": 38.37,
+     "mant": 38.36,
      "anio": "",
      "dorm": "4",
      "zona": "Yanahuara",
@@ -75149,13 +79769,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 1126.0,
+     "usd": 1122.0,
      "area": 60.0,
      "lat": -12.09301,
      "lng": -77.02629,
      "mon": "PEN",
      "monto": 3800.0,
-     "mant": 103.71,
+     "mant": 103.34,
      "anio": "",
      "dorm": "2",
      "zona": "San Isidro",
@@ -75170,23 +79790,27 @@
       [
        20720,
        1126.0
+      ],
+      [
+       20721,
+       1122.0
       ]
      ],
      "f": 20719,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194294735": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 849.0,
+     "usd": 846.0,
      "area": 118.0,
      "lat": -12.10046,
      "lng": -77.02988,
      "mon": "PEN",
      "monto": 2865.0,
-     "mant": 54.82,
+     "mant": 54.62,
      "anio": "",
      "dorm": "2",
      "zona": "San Isidro",
@@ -75201,10 +79825,14 @@
       [
        20720,
        849.0
+      ],
+      [
+       20721,
+       846.0
       ]
      ],
      "f": 20719,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-isidro"
     },
     "194292936": {
@@ -75296,13 +79924,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 504.0,
+     "usd": 502.0,
      "area": 45.0,
      "lat": -12.08526,
      "lng": -77.09698,
      "mon": "PEN",
      "monto": 1700.0,
-     "mant": 56.33,
+     "mant": 56.09,
      "anio": "",
      "dorm": "1",
      "zona": "San Miguel",
@@ -75313,10 +79941,14 @@
       [
        20720,
        504.0
+      ],
+      [
+       20721,
+       502.0
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20721,
      "dist": "san-miguel"
     },
     "194310348": {
@@ -75509,10 +80141,64 @@
      "f": 20721,
      "r": 20721,
      "dist": "miraflores"
+    },
+    "194312531": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 250000.0,
+     "area": 120.0,
+     "lat": -12.09179,
+     "lng": -77.01158,
+     "mon": "USD",
+     "monto": 250000.0,
+     "mant": 162.33,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "VENTA DE DEPA - SAN ISIDRO",
+     "u": "https://www.infocasas.com.pe/venta-de-depa-san-isidro-/194312531",
+     "flags": [],
+     "p": [
+      [
+       20721,
+       250000.0
+      ]
+     ],
+     "f": 20721,
+     "r": 20721,
+     "dist": "san-isidro"
+    },
+    "194309721": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 89000.0,
+     "area": 96.0,
+     "lat": -11.99028,
+     "lng": -77.0956,
+     "mon": "USD",
+     "monto": 89000.0,
+     "mant": 26.57,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Martin De Porres",
+     "titulo": "SAN MARTIN DE PORRES VENDO DEPARTAMENTO DE ESTRENO",
+     "u": "https://www.infocasas.com.pe/san-martin-de-porres-vendo-departamento-de-estreno-/194309721",
+     "flags": [],
+     "p": [
+      [
+       20721,
+       89000.0
+      ]
+     ],
+     "f": 20721,
+     "r": 20721,
+     "dist": "san-martin-de-porres"
     }
    },
-   "tc": 3.3881911262798634,
-   "turno": 114,
+   "tc": 3.38855421686747,
+   "turno": 154,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -75539,39 +80225,39 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 169,
+     "validos": 53,
      "fuera_ciudad": 0,
-     "momento": 1790340170
+     "momento": 1790361594
     },
     "arequipa": {
      "paginas": 4,
      "validos": 15,
      "fuera_ciudad": 2,
-     "momento": 1790340170
+     "momento": 1790361594
     },
     "cusco": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1790340170
+     "momento": 1790361594
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 1,
-     "momento": 1790340170
+     "momento": 1790361594
     },
     "trujillo": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1790340170
+     "momento": 1790361594
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1790340170
+     "momento": 1790361594
     }
    }
   }
