@@ -275,7 +275,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1790228852,
+  "fetched_at": 1790315285,
   "stores": [
    [
     278,
@@ -460,6 +460,10 @@
    [
     22886,
     "oxxo-express"
+   ],
+   [
+    23468,
+    "tusandistribuidores-home"
    ],
    [
     24889,
@@ -662,12 +666,12 @@
     "sanfernandope-mt-nc"
    ],
    [
-    39130,
-    "yenilu-mt-enc"
+    38011,
+    "flowerboxper-mt-enc"
    ],
    [
-    39188,
-    "tecnodrome-mt-enc"
+    39130,
+    "yenilu-mt-enc"
    ],
    [
     39260,
@@ -792,6 +796,10 @@
    [
     43792,
     "elementojadeflorerayregal-mt-enc"
+   ],
+   [
+    43961,
+    "wilsongx-mt-enc"
    ],
    [
     44082,
@@ -1188,6 +1196,10 @@
    [
     57492,
     "serviciosinformaticosinte-mt-enc"
+   ],
+   [
+    57776,
+    "tusandistribuidores-express-nc"
    ],
    [
     57853,
@@ -1638,6 +1650,10 @@
     "la-canasteria-mt-licores-nc"
    ],
    [
+    69734,
+    "greenssperu-mt-nc"
+   ],
+   [
     69772,
     "el-hongo-licores-nc"
    ],
@@ -1742,6 +1758,10 @@
     "stanley-mt-enc"
    ],
    [
+    73151,
+    "detallitoslima-mt-enc"
+   ],
+   [
     73522,
     "turbo-lacestasuper-multibrand-nc"
    ],
@@ -1788,6 +1808,10 @@
    [
     74896,
     "regaloslima-mt-enc"
+   ],
+   [
+    74918,
+    "acimporstore-mt-enc"
    ],
    [
     74943,
@@ -2178,6 +2202,10 @@
     "distribuidoramoravia-exclusi-nc"
    ],
    [
+    101096,
+    "limafloralco-mt-enc"
+   ],
+   [
     101193,
     "gaviotasdrinks-mt-nc"
    ],
@@ -2320,6 +2348,10 @@
    [
     106813,
     "naturistayesoterismo-mt-enc"
+   ],
+   [
+    106963,
+    "libreragf-mt-enc"
    ],
    [
     107079,
@@ -2470,10 +2502,6 @@
     "artisan-nc"
    ],
    [
-    111682,
-    "almadebruja-mt-enc"
-   ],
-   [
     112206,
     "bamboostore-mt-enc"
    ],
@@ -2486,7 +2514,7 @@
     "10437786581-mt-enc"
    ]
   ],
-  "next_start": 325,
+  "next_start": 368,
   "sources": {
    "city": "lima",
    "types": [
@@ -2499,5 +2527,5 @@
    "market": true
   }
  },
- "saved_at": 1790313693
+ "saved_at": 1790315285
 }
