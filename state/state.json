@@ -290,7 +290,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1790315285,
+  "fetched_at": 1790403941,
   "stores": [
    [
     278,
@@ -545,14 +545,6 @@
     "yumigumi-mt-enc"
    ],
    [
-    31656,
-    "green-supply-enc"
-   ],
-   [
-    31773,
-    "detallitosdeliverylima-mt-enc"
-   ],
-   [
     32392,
     "kallma-farmacia-enc"
    ],
@@ -689,6 +681,10 @@
     "yenilu-mt-enc"
    ],
    [
+    39188,
+    "tecnodrome-mt-enc"
+   ],
+   [
     39260,
     "kebar-mt-nc"
    ],
@@ -763,10 +759,6 @@
    [
     41908,
     "fluyebottlepe-mt-enc"
-   ],
-   [
-    41918,
-    "damour-mt-enc"
    ],
    [
     42505,
@@ -1013,10 +1005,6 @@
     "wwtradingsac-mt-enc"
    ],
    [
-    50944,
-    "damour-regalos-enc"
-   ],
-   [
     51272,
     "jhacyasociadossac-mt-nc"
    ],
@@ -1157,10 +1145,6 @@
     "fincafoodssac-mt-nc"
    ],
    [
-    55445,
-    "rizoslindosperu-mt-enc"
-   ],
-   [
     55535,
     "peccatrixaltaryvelas-mt-enc"
    ],
@@ -1279,6 +1263,10 @@
    [
     59032,
     "vebldetalle-mt-enc"
+   ],
+   [
+    59339,
+    "elmundodekimstore-mt-enc"
    ],
    [
     59359,
@@ -1477,10 +1465,6 @@
     "20609793806-mt-enc"
    ],
    [
-    64493,
-    "rosettaperu-mt-enc"
-   ],
-   [
     64509,
     "marketmurillo-mt-nc"
    ],
@@ -1659,10 +1643,6 @@
    [
     69701,
     "el-pozito-express-licores-nc"
-   ],
-   [
-    69707,
-    "la-canasteria-mt-licores-nc"
    ],
    [
     69734,
@@ -2005,10 +1985,6 @@
     "lalucirnaga-mt-nc"
    ],
    [
-    85437,
-    "eljardnbyrosetta-mt-enc"
-   ],
-   [
     86259,
     "tiendamaniacos-mt-enc"
    ],
@@ -2113,6 +2089,10 @@
     "specchi-mt-enc"
    ],
    [
+    92705,
+    "meeplia-mt-enc"
+   ],
+   [
     92808,
     "dermotiendape-mt-enc"
    ],
@@ -2201,10 +2181,6 @@
     "abrazarte-mt-enc"
    ],
    [
-    100865,
-    "allnet-mt-enc"
-   ],
-   [
     100913,
     "latabernadebaco-mt-enc"
    ],
@@ -2239,10 +2215,6 @@
    [
     101660,
     "inversionesrodalexia-mt-enc"
-   ],
-   [
-    101936,
-    "ofertienda-mt-enc"
    ],
    [
     102003,
@@ -2365,10 +2337,6 @@
     "naturistayesoterismo-mt-enc"
    ],
    [
-    106963,
-    "libreragf-mt-enc"
-   ],
-   [
     107079,
     "lafloreria-mt-enc"
    ],
@@ -2435,10 +2403,6 @@
    [
     109034,
     "scdesign-mt-enc"
-   ],
-   [
-    109233,
-    "perfumeriabellaaryaessenc-mt-enc"
    ],
    [
     109318,
@@ -2529,7 +2493,7 @@
     "10437786581-mt-enc"
    ]
   ],
-  "next_start": 19,
+  "next_start": 59,
   "sources": {
    "city": "lima",
    "types": [
@@ -2542,5 +2506,5 @@
    "market": true
   }
  },
- "saved_at": 1790401572
+ "saved_at": 1790403941
 }
