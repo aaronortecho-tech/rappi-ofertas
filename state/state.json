@@ -4,6 +4,7 @@
  "seen": {
   "018741cc8125e731": 1789899631,
   "01c85a9b31fc361c": 1790360623,
+  "02f638c8182fa980": 1790490371,
   "02fc54f698659558": 1790173379,
   "03fc0369a42aba9e": 1789651379,
   "04474197657a9a95": 1790000559,
@@ -302,7 +303,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1790403941,
+  "fetched_at": 1790490371,
   "stores": [
    [
     278,
@@ -453,10 +454,6 @@
     "elclubdecata-market"
    ],
    [
-    19244,
-    "hierba-y-luisa"
-   ],
-   [
     19466,
     "avinka-market"
    ],
@@ -555,6 +552,10 @@
    [
     31350,
     "yumigumi-mt-enc"
+   ],
+   [
+    31773,
+    "detallitosdeliverylima-mt-enc"
    ],
    [
     32392,
@@ -981,6 +982,10 @@
     "crisol-rappimall"
    ],
    [
+    49785,
+    "healthcorp-mt-nc"
+   ],
+   [
     49878,
     "thehange-mt-enc"
    ],
@@ -1075,10 +1080,6 @@
    [
     53131,
     "lopezarevalohnossac-mt-enc"
-   ],
-   [
-    53200,
-    "healthcorp-mt-nc"
    ],
    [
     53301,
@@ -1273,10 +1274,6 @@
     "neufertcorporation-mt-enc"
    ],
    [
-    59032,
-    "vebldetalle-mt-enc"
-   ],
-   [
     59339,
     "elmundodekimstore-mt-enc"
    ],
@@ -1453,10 +1450,6 @@
     "chupilcapersac-mt-enc"
    ],
    [
-    64069,
-    "isok-mt-enc"
-   ],
-   [
     64125,
     "gastronomiasinlimitessrl-mt-enc"
    ],
@@ -1475,6 +1468,10 @@
    [
     64473,
     "20609793806-mt-enc"
+   ],
+   [
+    64493,
+    "rosettaperu-mt-enc"
    ],
    [
     64509,
@@ -1657,12 +1654,20 @@
     "el-pozito-express-licores-nc"
    ],
    [
+    69707,
+    "la-canasteria-mt-licores-nc"
+   ],
+   [
     69734,
     "greenssperu-mt-nc"
    ],
    [
     69772,
     "el-hongo-licores-nc"
+   ],
+   [
+    69774,
+    "alkosac-express-nc"
    ],
    [
     69788,
@@ -1997,6 +2002,10 @@
     "lalucirnaga-mt-nc"
    ],
    [
+    85437,
+    "eljardnbyrosetta-mt-enc"
+   ],
+   [
     86259,
     "tiendamaniacos-mt-enc"
    ],
@@ -2137,10 +2146,6 @@
     "inkafarmape-market-nc"
    ],
    [
-    96410,
-    "samanthapintohandmadeacce-mt-enc"
-   ],
-   [
     96922,
     "oxxo-allnight-nc"
    ],
@@ -2227,6 +2232,10 @@
    [
     101660,
     "inversionesrodalexia-mt-enc"
+   ],
+   [
+    101936,
+    "ofertienda-mt-enc"
    ],
    [
     102003,
@@ -2417,6 +2426,10 @@
     "scdesign-mt-enc"
    ],
    [
+    109233,
+    "perfumeriabellaaryaessenc-mt-enc"
+   ],
+   [
     109318,
     "evaspassion-mt-enc"
    ],
@@ -2499,13 +2512,9 @@
    [
     112348,
     "farianaturals-mt-enc"
-   ],
-   [
-    112485,
-    "10437786581-mt-enc"
    ]
   ],
-  "next_start": 254,
+  "next_start": 293,
   "sources": {
    "city": "lima",
    "types": [
@@ -2518,5 +2527,5 @@
    "market": true
   }
  },
- "saved_at": 1790488004
+ "saved_at": 1790490371
 }
