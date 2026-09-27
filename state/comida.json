@@ -2,11 +2,14 @@
  "version": 1,
  "started_at": null,
  "seen": {},
- "failures": {},
+ "failures": {
+  "Makro": 1
+ },
  "last_failure_notice": null,
  "store_list": {},
- "saved_at": 1789703360,
+ "saved_at": 1790512168,
  "history": {},
  "cursors": {},
- "flight_alerts": {}
+ "flight_alerts": {},
+ "datos": {}
 }
