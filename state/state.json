@@ -202,6 +202,8 @@
   "a5960aa521a71507": 1790310150,
   "a7751085c9d2e120": 1790083394,
   "a995ab5d4350480e": 1790063243,
+  "ab04ed99d93a9981": 1790493691,
+  "abe28e372e3ef63c": 1790493691,
   "b0f7a36a0c5be5d5": 1790339205,
   "b2e57a4f8b45e908": 1789617285,
   "b38b6f07e22f4918": 1790396466,
@@ -300,9 +302,7 @@
   "ffb761108f502988": 1789655046,
   "ffee9f83075ee4c1": 1790311747
  },
- "failures": {
-  "tiendas": 1
- },
+ "failures": {},
  "last_failure_notice": null,
  "store_list": {
   "fetched_at": 1790490371,
@@ -2516,7 +2516,7 @@
     "farianaturals-mt-enc"
    ]
   ],
-  "next_start": 297,
+  "next_start": 337,
   "sources": {
    "city": "lima",
    "types": [
@@ -2529,5 +2529,5 @@
    "market": true
   }
  },
- "saved_at": 1790491883
+ "saved_at": 1790493691
 }
