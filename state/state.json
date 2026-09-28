@@ -317,7 +317,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1790490371,
+  "fetched_at": 1790577046,
   "stores": [
    [
     278,
@@ -468,6 +468,10 @@
     "elclubdecata-market"
    ],
    [
+    19244,
+    "hierba-y-luisa"
+   ],
+   [
     19466,
     "avinka-market"
    ],
@@ -546,6 +550,10 @@
    [
     29756,
     "floreria-bloom-floristeria"
+   ],
+   [
+    30355,
+    "turbo"
    ],
    [
     30356,
@@ -670,6 +678,10 @@
    [
     36657,
     "esikape-mt-enc"
+   ],
+   [
+    36825,
+    "frutasyverdurasluciana-mt-nc"
    ],
    [
     36835,
@@ -864,10 +876,6 @@
     "beerlandersmsquecervezas-mt-nc"
    ],
    [
-    45005,
-    "baliq"
-   ],
-   [
     45403,
     "magiapefloreriayregalos-mt-enc"
    ],
@@ -996,10 +1004,6 @@
     "crisol-rappimall"
    ],
    [
-    49785,
-    "healthcorp-mt-nc"
-   ],
-   [
     49878,
     "thehange-mt-enc"
    ],
@@ -1094,6 +1098,10 @@
    [
     53131,
     "lopezarevalohnossac-mt-enc"
+   ],
+   [
+    53200,
+    "healthcorp-mt-nc"
    ],
    [
     53301,
@@ -1318,6 +1326,10 @@
    [
     59872,
     "chupetabrava-mt-nc"
+   ],
+   [
+    60064,
+    "chillygeek-mt-enc"
    ],
    [
     60116,
@@ -1572,6 +1584,10 @@
     "youroutletperusac-mt-enc"
    ],
    [
+    67001,
+    "freshgreen-mt-nc"
+   ],
+   [
     67010,
     "beemovilsac-mt-enc"
    ],
@@ -1674,10 +1690,6 @@
    [
     69734,
     "greenssperu-mt-nc"
-   ],
-   [
-    69772,
-    "el-hongo-licores-nc"
    ],
    [
     69774,
@@ -1786,10 +1798,6 @@
    [
     73151,
     "detallitoslima-mt-enc"
-   ],
-   [
-    73522,
-    "turbo-lacestasuper-multibrand-nc"
    ],
    [
     73748,
@@ -1926,10 +1934,6 @@
    [
     77594,
     "darkloy-mt-enc"
-   ],
-   [
-    78073,
-    "labarraembotellada-mt-nc"
    ],
    [
     78427,
@@ -2248,10 +2252,6 @@
     "inversionesrodalexia-mt-enc"
    ],
    [
-    101936,
-    "ofertienda-mt-enc"
-   ],
-   [
     102003,
     "adcpremiumbrands-mt-nc"
    ],
@@ -2526,9 +2526,13 @@
    [
     112348,
     "farianaturals-mt-enc"
+   ],
+   [
+    112485,
+    "10437786581-mt-enc"
    ]
   ],
-  "next_start": 369,
+  "next_start": 411,
   "sources": {
    "city": "lima",
    "types": [
@@ -2541,5 +2545,5 @@
    "market": true
   }
  },
- "saved_at": 1790574564
+ "saved_at": 1790577046
 }
