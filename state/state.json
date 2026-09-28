@@ -308,7 +308,9 @@
   "ffb761108f502988": 1789655046,
   "ffee9f83075ee4c1": 1790311747
  },
- "failures": {},
+ "failures": {
+  "tiendas": 1
+ },
  "last_failure_notice": null,
  "store_list": {
   "fetched_at": 1790490371,
@@ -2522,7 +2524,7 @@
     "farianaturals-mt-enc"
    ]
   ],
-  "next_start": 127,
+  "next_start": 129,
   "sources": {
    "city": "lima",
    "types": [
@@ -2535,5 +2537,5 @@
    "market": true
   }
  },
- "saved_at": 1790562162
+ "saved_at": 1790563749
 }
