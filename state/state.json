@@ -335,9 +335,7 @@
   "ffb761108f502988": 1789655046,
   "ffee9f83075ee4c1": 1790311747
  },
- "failures": {
-  "restaurantes": 1
- },
+ "failures": {},
  "last_failure_notice": null,
  "store_list": {
   "fetched_at": 1790577046,
@@ -2555,7 +2553,7 @@
     "10437786581-mt-enc"
    ]
   ],
-  "next_start": 111,
+  "next_start": 151,
   "sources": {
    "city": "lima",
    "types": [
@@ -2568,5 +2566,5 @@
    "market": true
   }
  },
- "saved_at": 1790639261
+ "saved_at": 1790641770
 }
