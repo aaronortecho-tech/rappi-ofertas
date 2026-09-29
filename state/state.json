@@ -340,7 +340,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1790577046,
+  "fetched_at": 1790664868,
   "stores": [
    [
     278,
@@ -599,8 +599,8 @@
     "yumigumi-mt-enc"
    ],
    [
-    31773,
-    "detallitosdeliverylima-mt-enc"
+    31656,
+    "green-supply-enc"
    ],
    [
     32392,
@@ -703,10 +703,6 @@
     "esikape-mt-enc"
    ],
    [
-    36825,
-    "frutasyverdurasluciana-mt-nc"
-   ],
-   [
     36835,
     "carnicerialomazos-mt-nc"
    ],
@@ -717,6 +713,10 @@
    [
     36936,
     "makemusic-mt-enc"
+   ],
+   [
+    37064,
+    "petuniaflorerias-mt-enc"
    ],
    [
     37185,
@@ -823,6 +823,10 @@
     "fluyebottlepe-mt-enc"
    ],
    [
+    41918,
+    "damour-mt-enc"
+   ],
+   [
     42505,
     "dcalima-mt-enc"
    ],
@@ -897,6 +901,10 @@
    [
     44948,
     "beerlandersmsquecervezas-mt-nc"
+   ],
+   [
+    45005,
+    "baliq"
    ],
    [
     45403,
@@ -1061,6 +1069,10 @@
    [
     50880,
     "wwtradingsac-mt-enc"
+   ],
+   [
+    50944,
+    "damour-regalos-enc"
    ],
    [
     51272,
@@ -1499,6 +1511,10 @@
     "chupilcapersac-mt-enc"
    ],
    [
+    64069,
+    "isok-mt-enc"
+   ],
+   [
     64125,
     "gastronomiasinlimitessrl-mt-enc"
    ],
@@ -1607,10 +1623,6 @@
     "youroutletperusac-mt-enc"
    ],
    [
-    67001,
-    "freshgreen-mt-nc"
-   ],
-   [
     67010,
     "beemovilsac-mt-enc"
    ],
@@ -1711,8 +1723,8 @@
     "la-canasteria-mt-licores-nc"
    ],
    [
-    69734,
-    "greenssperu-mt-nc"
+    69772,
+    "el-hongo-licores-nc"
    ],
    [
     69774,
@@ -1745,6 +1757,10 @@
    [
     70147,
     "sarhidregalos-mt-enc"
+   ],
+   [
+    70378,
+    "curvastudio-mt-enc"
    ],
    [
     71108,
@@ -1821,6 +1837,10 @@
    [
     73151,
     "detallitoslima-mt-enc"
+   ],
+   [
+    73522,
+    "turbo-lacestasuper-multibrand-nc"
    ],
    [
     73748,
@@ -2063,10 +2083,6 @@
     "beconfort-mt-enc"
    ],
    [
-    86547,
-    "miradaksmica-mt-enc"
-   ],
-   [
     86712,
     "orcapsac-express-nc"
    ],
@@ -2137,6 +2153,10 @@
    [
     89252,
     "distribuidoraluzdeesperanz-mt-nc"
+   ],
+   [
+    89452,
+    "miradaksmica-mt-enc"
    ],
    [
     89741,
@@ -2275,6 +2295,10 @@
     "inversionesrodalexia-mt-enc"
    ],
    [
+    101748,
+    "kalafloristeriaydetalles-mt-enc"
+   ],
+   [
     102003,
     "adcpremiumbrands-mt-nc"
    ],
@@ -2393,6 +2417,10 @@
    [
     106813,
     "naturistayesoterismo-mt-enc"
+   ],
+   [
+    106963,
+    "libreragf-mt-enc"
    ],
    [
     107079,
@@ -2549,13 +2577,9 @@
    [
     112348,
     "farianaturals-mt-enc"
-   ],
-   [
-    112485,
-    "10437786581-mt-enc"
    ]
   ],
-  "next_start": 78,
+  "next_start": 118,
   "sources": {
    "city": "lima",
    "types": [
@@ -2568,5 +2592,5 @@
    "market": true
   }
  },
- "saved_at": 1790663300
+ "saved_at": 1790664868
 }
