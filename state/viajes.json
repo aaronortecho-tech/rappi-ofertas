@@ -2,12 +2,10 @@
  "version": 1,
  "started_at": null,
  "seen": {},
- "failures": {
-  "JetSMART/tarifas desde Lima": 2
- },
+ "failures": {},
  "last_failure_notice": 1790551417,
  "store_list": {},
- "saved_at": 1790679265,
+ "saved_at": 1790681194,
  "history": {
   "45e494479f289b17": [
    [
@@ -5961,8 +5959,7 @@
   ]
  },
  "cursors": {
-  "travelpayouts": 1790661241,
-  "JetSMART/portada-sin-tarifas": 2
+  "travelpayouts": 1790661241
  },
  "flight_alerts": {},
  "datos": {
