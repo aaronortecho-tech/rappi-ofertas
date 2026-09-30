@@ -346,7 +346,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1790664868,
+  "fetched_at": 1790751280,
   "stores": [
    [
     278,
@@ -609,6 +609,10 @@
     "green-supply-enc"
    ],
    [
+    31773,
+    "detallitosdeliverylima-mt-enc"
+   ],
+   [
     32392,
     "kallma-farmacia-enc"
    ],
@@ -707,6 +711,10 @@
    [
     36657,
     "esikape-mt-enc"
+   ],
+   [
+    36825,
+    "frutasyverdurasluciana-mt-nc"
    ],
    [
     36835,
@@ -1369,10 +1377,6 @@
     "chupetabrava-mt-nc"
    ],
    [
-    60064,
-    "chillygeek-mt-enc"
-   ],
-   [
     60116,
     "almabonitapereirl-mt-enc"
    ],
@@ -1629,6 +1633,10 @@
     "youroutletperusac-mt-enc"
    ],
    [
+    67001,
+    "freshgreen-mt-nc"
+   ],
+   [
     67010,
     "beemovilsac-mt-enc"
    ],
@@ -1731,10 +1739,6 @@
    [
     69772,
     "el-hongo-licores-nc"
-   ],
-   [
-    69774,
-    "alkosac-express-nc"
    ],
    [
     69788,
@@ -1983,6 +1987,10 @@
    [
     77594,
     "darkloy-mt-enc"
+   ],
+   [
+    78073,
+    "labarraembotellada-mt-nc"
    ],
    [
     78427,
@@ -2293,6 +2301,10 @@
     "adah-mt-enc"
    ],
    [
+    101360,
+    "farianaturals-mt-enc"
+   ],
+   [
     101537,
     "floraltrendy-mt-enc"
    ],
@@ -2303,6 +2315,10 @@
    [
     101748,
     "kalafloristeriaydetalles-mt-enc"
+   ],
+   [
+    101936,
+    "ofertienda-mt-enc"
    ],
    [
     102003,
@@ -2425,10 +2441,6 @@
     "naturistayesoterismo-mt-enc"
    ],
    [
-    106963,
-    "libreragf-mt-enc"
-   ],
-   [
     107079,
     "lafloreria-mt-enc"
    ],
@@ -2549,10 +2561,6 @@
     "mifarma-dermocosmeticos-nc"
    ],
    [
-    110729,
-    "wize-mt-enc"
-   ],
-   [
     110745,
     "mifarma-ecomm-belleza-nc"
    ],
@@ -2563,29 +2571,9 @@
    [
     110860,
     "betnucci-mt-enc"
-   ],
-   [
-    110973,
-    "amorelindope-mt-enc"
-   ],
-   [
-    111236,
-    "distribuidoracuatrobocas-mt-nc"
-   ],
-   [
-    111650,
-    "artisan-nc"
-   ],
-   [
-    112206,
-    "bamboostore-mt-enc"
-   ],
-   [
-    112348,
-    "farianaturals-mt-enc"
    ]
   ],
-  "next_start": 321,
+  "next_start": 363,
   "sources": {
    "city": "lima",
    "types": [
@@ -2598,5 +2586,5 @@
    "market": true
   }
  },
- "saved_at": 1790749734
+ "saved_at": 1790751280
 }
