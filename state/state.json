@@ -13,7 +13,7 @@
   "0627b7c0df0e8dad": 1790609141,
   "0730a6435dec6ad2": 1790270469,
   "079504d6fe8ed0d1": 1790639261,
-  "094af7942f2566a6": 1789648025,
+  "094af7942f2566a6": 1790771551,
   "0afb4d405b0654a2": 1790765499,
   "0b0c258269b4c8e1": 1789899631,
   "0b53f86a66494b01": 1790466305,
@@ -344,7 +344,7 @@
   "ffee9f83075ee4c1": 1790311747
  },
  "failures": {
-  "tiendas": 1
+  "tiendas": 2
  },
  "last_failure_notice": null,
  "store_list": {
@@ -2575,7 +2575,7 @@
     "betnucci-mt-enc"
    ]
   ],
-  "next_start": 168,
+  "next_start": 173,
   "sources": {
    "city": "lima",
    "types": [
@@ -2588,5 +2588,5 @@
    "market": true
   }
  },
- "saved_at": 1790769044
+ "saved_at": 1790771551
 }
