@@ -2,12 +2,14 @@
  "version": 1,
  "started_at": null,
  "seen": {
-  "1e19a4d76aae91ed": 1790815523
+  "1e19a4d76aae91ed": 1790815523,
+  "8b777c8ee7b68c30": 1790837012,
+  "c2346d5c93966279": 1790837012
  },
  "failures": {},
  "last_failure_notice": null,
  "store_list": {},
- "saved_at": 1790815523,
+ "saved_at": 1790837012,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -646,7 +648,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Lima",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Bmw 330-Ci 2001",
      "p": [
@@ -656,7 +658,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886735": {
@@ -800,7 +802,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Ica",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Mitsubishi L200 2009",
      "p": [
@@ -810,7 +812,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886719": {
@@ -875,7 +877,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Surquillo",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Jetour X70 2023",
      "p": [
@@ -889,7 +891,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1886715": {
@@ -1083,7 +1085,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Magdalena del Mar",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Bmw 218I Gran Coupe 2025",
      "p": [
@@ -1093,7 +1095,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886707": {
@@ -2900,7 +2902,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Santiago de Surco",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Subaru Forester 2023",
      "p": [
@@ -2910,7 +2912,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886608": {
@@ -3264,17 +3266,21 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Isidro",
-     "pub": "Publicado hace una semana",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Mazda 3 Sport 2018",
      "p": [
       [
        20714,
        15900.0
+      ],
+      [
+       20727,
+       14900.0
       ]
      ],
      "f": 20714,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1886593": {
@@ -3688,7 +3694,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1886573": {
@@ -3763,7 +3769,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1886570": {
@@ -3830,7 +3836,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Lima",
-     "pub": "Publicado hace una semana",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Toyota Corolla Cross 2026",
      "p": [
@@ -3840,7 +3846,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1886567": {
@@ -3988,7 +3994,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Borja",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Subaru Impreza Sport 2015",
      "p": [
@@ -4002,7 +4008,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886560": {
@@ -4562,7 +4568,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1886532": {
@@ -7086,17 +7092,21 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Piura",
-     "pub": "Publicado hace una semana",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Mazda New Bt-50 2023",
      "p": [
       [
        20714,
        26000.0
+      ],
+      [
+       20727,
+       23000.0
       ]
      ],
      "f": 20714,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886408": {
@@ -7845,7 +7855,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886355": {
@@ -7945,7 +7955,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886351": {
@@ -8045,7 +8055,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886346": {
@@ -8307,7 +8317,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886335": {
@@ -8806,7 +8816,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1886304": {
@@ -9085,7 +9095,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886293": {
@@ -9100,7 +9110,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Los Olivos",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace unos días",
      "flags": [
       "gnv"
      ],
@@ -9116,7 +9126,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1886292": {
@@ -9141,7 +9151,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886291": {
@@ -9449,7 +9459,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886277": {
@@ -9557,7 +9567,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886267": {
@@ -9607,7 +9617,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886265": {
@@ -9704,10 +9714,14 @@
       [
        20715,
        47900.0
+      ],
+      [
+       20727,
+       47000.0
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886260": {
@@ -9782,7 +9796,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886256": {
@@ -9963,7 +9977,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886248": {
@@ -10188,7 +10202,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886238": {
@@ -10340,7 +10354,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886226": {
@@ -10598,7 +10612,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886205": {
@@ -10825,7 +10839,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886194": {
@@ -10875,7 +10889,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886192": {
@@ -10975,7 +10989,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886187": {
@@ -11129,7 +11143,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1886178": {
@@ -11310,7 +11324,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886171": {
@@ -11364,7 +11378,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886169": {
@@ -12130,7 +12144,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886133": {
@@ -12290,7 +12304,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886118": {
@@ -12337,10 +12351,14 @@
       [
        20715,
        6000.0
+      ],
+      [
+       20727,
+       6200.0
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886114": {
@@ -12440,7 +12458,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886110": {
@@ -12569,7 +12587,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886105": {
@@ -12594,7 +12612,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886104": {
@@ -12748,7 +12766,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886097": {
@@ -12802,7 +12820,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886095": {
@@ -12881,7 +12899,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886855": {
@@ -13127,7 +13145,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Arequipa",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Geely Cityray 2027",
      "p": [
@@ -13137,7 +13155,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886845": {
@@ -13177,7 +13195,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Molina",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Nissan Sentra 2019",
      "p": [
@@ -13187,7 +13205,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886843": {
@@ -13383,7 +13401,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Lince",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Audi Q5 2019",
      "p": [
@@ -13393,7 +13411,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886834": {
@@ -13460,7 +13478,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Punta Hermosa",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [
       "glp"
      ],
@@ -13472,7 +13490,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886831": {
@@ -13587,7 +13605,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Martin de Porres",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Ford Ecosport 2020",
      "p": [
@@ -13597,7 +13615,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886826": {
@@ -14091,7 +14109,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Victoria",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Chery Tiggo 7 Pro 2023",
      "p": [
@@ -14101,7 +14119,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886806": {
@@ -14295,7 +14313,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Martin de Porres",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [
       "gnv"
      ],
@@ -14307,7 +14325,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886797": {
@@ -14347,7 +14365,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Isidro",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Kia Cerato 2012",
      "p": [
@@ -14357,7 +14375,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886795": {
@@ -14522,7 +14540,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Lima",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Honda Pilot 2015",
      "p": [
@@ -14532,7 +14550,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1886787": {
@@ -14757,7 +14775,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Isidro",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Subaru Xv 2016",
      "p": [
@@ -14767,7 +14785,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886777": {
@@ -15279,7 +15297,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1886083": {
@@ -15456,7 +15474,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886076": {
@@ -15618,7 +15636,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886066": {
@@ -15899,7 +15917,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886051": {
@@ -16098,10 +16116,14 @@
       [
        20715,
        12000.0
+      ],
+      [
+       20727,
+       11500.0
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886041": {
@@ -16463,7 +16485,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1886022": {
@@ -16488,7 +16510,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886021": {
@@ -16800,7 +16822,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1886006": {
@@ -16854,7 +16876,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1886004": {
@@ -17364,7 +17386,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1885983": {
@@ -18638,7 +18660,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1885927": {
@@ -18815,7 +18837,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1885909": {
@@ -20058,7 +20080,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1885842": {
@@ -20535,7 +20557,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1885820": {
@@ -20797,7 +20819,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1885806": {
@@ -20897,7 +20919,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1885802": {
@@ -22296,7 +22318,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1885674": {
@@ -22500,7 +22522,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1885663": {
@@ -22706,7 +22728,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1885652": {
@@ -23041,7 +23063,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1885634": {
@@ -23758,7 +23780,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Isidro",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Ford Maverick 2023",
      "p": [
@@ -23768,7 +23790,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1886887": {
@@ -24062,7 +24084,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Molina",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Toyota Rav4 2022",
      "p": [
@@ -24072,7 +24094,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1886872": {
@@ -24239,7 +24261,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Surquillo",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Porsche Cayenne 2018",
      "p": [
@@ -24249,7 +24271,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1886864": {
@@ -28101,10 +28123,14 @@
       [
        20716,
        19900.0
+      ],
+      [
+       20727,
+       18900.0
       ]
      ],
      "f": 20716,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1885407": {
@@ -53798,7 +53824,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Trujillo",
-     "pub": "Publicado hoy",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Mercedes-Benz Cla 180 Coupe 2017",
      "p": [
@@ -53808,7 +53834,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887247": {
@@ -53848,7 +53874,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Miraflores",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Subaru Xv 2018",
      "p": [
@@ -53858,7 +53884,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887245": {
@@ -53977,7 +54003,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Santiago de Surco",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [
       "siniestro"
      ],
@@ -53986,10 +54012,14 @@
       [
        20719,
        7000.0
+      ],
+      [
+       20727,
+       7500.0
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887240": {
@@ -54133,7 +54163,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Molina",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [
       "gnv"
      ],
@@ -54145,7 +54175,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887233": {
@@ -54160,7 +54190,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Molina",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Nissan Qashqai 2020",
      "p": [
@@ -54170,7 +54200,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887230": {
@@ -54210,17 +54240,21 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Arequipa",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Hyundai New Elantra 2017",
      "p": [
       [
        20719,
        13200.0
+      ],
+      [
+       20727,
+       12500.0
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887228": {
@@ -54260,7 +54294,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Lima",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Volkswagen Gol Confort Sedan 2021",
      "p": [
@@ -54270,7 +54304,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887226": {
@@ -54336,12 +54370,12 @@
      "mo": "207 compact",
      "v": "trendy",
      "a": 2012,
-     "km": 115700,
+     "km": 117000,
      "mon": "USD",
      "vend": "particular",
      "tienda": "",
      "dist": "Pueblo Libre",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Peugeot 207 Compact 2012",
      "p": [
@@ -54351,7 +54385,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887223": {
@@ -54568,7 +54602,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Santiago de Surco",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Peugeot 307 2007",
      "p": [
@@ -54578,7 +54612,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887213": {
@@ -54672,7 +54706,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Trujillo",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Bmw 118I 2020",
      "p": [
@@ -54682,7 +54716,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887209": {
@@ -54801,7 +54835,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Cerro Colorado",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Peugeot 2008 2020",
      "p": [
@@ -54811,7 +54845,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887204": {
@@ -54953,7 +54987,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Surquillo",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Chevrolet Captiva 2008",
      "p": [
@@ -54963,7 +54997,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887197": {
@@ -54978,7 +55012,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Molina",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Chevrolet Captiva 2026",
      "p": [
@@ -54988,7 +55022,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887196": {
@@ -55055,7 +55089,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Pueblo Libre",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [
       "glp"
      ],
@@ -55067,7 +55101,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887193": {
@@ -55159,7 +55193,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Lima",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [
       "glp"
      ],
@@ -55171,7 +55205,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887187": {
@@ -55211,7 +55245,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Ica",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Haval Dargo 2024",
      "p": [
@@ -55221,7 +55255,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887185": {
@@ -55290,7 +55324,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Ica",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Kia Sorento 2022",
      "p": [
@@ -55300,7 +55334,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887181": {
@@ -55344,7 +55378,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Juan de Lurigancho",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Chevrolet N400 2023",
      "p": [
@@ -55354,7 +55388,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887179": {
@@ -55419,7 +55453,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Santiago de Surco",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [
       "glp"
      ],
@@ -55431,7 +55465,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887176": {
@@ -55496,17 +55530,21 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Borja",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Volkswagen T-Cross 2023",
      "p": [
       [
        20719,
        17500.0
+      ],
+      [
+       20727,
+       16900.0
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887173": {
@@ -55521,7 +55559,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Callao",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [
       "glp"
      ],
@@ -55533,7 +55571,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887172": {
@@ -55548,7 +55586,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Molina",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Porsche Cayenne 2013",
      "p": [
@@ -55558,7 +55596,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887170": {
@@ -55573,7 +55611,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Lima",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Hyundai I20 2018",
      "p": [
@@ -55583,7 +55621,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887169": {
@@ -55598,17 +55636,21 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Molina",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Volvo V40 2019",
      "p": [
       [
        20719,
        12900.0
+      ],
+      [
+       20727,
+       12700.0
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887168": {
@@ -55703,7 +55745,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Lima",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [
       "chocado"
      ],
@@ -55715,7 +55757,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887164": {
@@ -55780,7 +55822,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Villa El Salvador",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Suzuki Fronx 2025",
      "p": [
@@ -55790,7 +55832,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887161": {
@@ -55859,7 +55901,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Santiago de Surco",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [
       "glp"
      ],
@@ -55871,7 +55913,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887158": {
@@ -55911,7 +55953,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Lurigancho-Chosica",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [
       "choque"
      ],
@@ -55923,7 +55965,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887156": {
@@ -55963,7 +56005,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Surquillo",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Honda Cr-V 2012",
      "p": [
@@ -55973,7 +56015,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887153": {
@@ -56038,7 +56080,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Punta",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Subaru Xv 2014",
      "p": [
@@ -56048,7 +56090,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887149": {
@@ -56063,7 +56105,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Miguel",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Mazda 3 2022",
      "p": [
@@ -56073,7 +56115,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887148": {
@@ -56167,7 +56209,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Los Olivos",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Toyota Rav4 2025",
      "p": [
@@ -56177,7 +56219,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887143": {
@@ -56217,7 +56259,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Santiago de Surco",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Kia Sorento 2013",
      "p": [
@@ -56227,7 +56269,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887141": {
@@ -56342,7 +56384,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Ate",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Hyundai H-1 2010",
      "p": [
@@ -56352,7 +56394,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20719,
+     "r": 20727,
      "x": 20727
     },
     "1887135": {
@@ -59321,7 +59363,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Victoria",
-     "pub": "Publicado hace un mes",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Audi Q3 Sportback 2026",
      "p": [
@@ -59331,7 +59373,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1883654": {
@@ -60533,7 +60575,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Los Olivos",
-     "pub": "Publicado hace un mes",
+     "pub": "Publicado hace unos días",
      "flags": [],
      "nombre": "Mazda 3 2017",
      "p": [
@@ -60543,7 +60585,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1883557": {
@@ -60920,7 +60962,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1883478": {
@@ -61070,7 +61112,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1883460": {
@@ -61172,7 +61214,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1883431": {
@@ -61400,10 +61442,14 @@
       [
        20720,
        8900.0
+      ],
+      [
+       20727,
+       7900.0
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1883406": {
@@ -61453,7 +61499,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1883403": {
@@ -61600,10 +61646,14 @@
       [
        20720,
        33990.0
+      ],
+      [
+       20727,
+       31990.0
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1883370": {
@@ -61856,7 +61906,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1883331": {
@@ -61981,7 +62031,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1883303": {
@@ -62306,7 +62356,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1883178": {
@@ -62406,7 +62456,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1883159": {
@@ -62506,7 +62556,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1883116": {
@@ -63208,7 +63258,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882988": {
@@ -63308,7 +63358,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882969": {
@@ -63380,10 +63430,14 @@
       [
        20720,
        26900.0
+      ],
+      [
+       20727,
+       23900.0
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882961": {
@@ -63483,7 +63537,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882940": {
@@ -63505,10 +63559,14 @@
       [
        20720,
        18490.0
+      ],
+      [
+       20727,
+       15990.0
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882933": {
@@ -63608,7 +63666,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882927": {
@@ -64470,12 +64528,12 @@
      "x": 20726
     },
     "1887311": {
-     "u": "https://neoauto.com/auto/nuevo/jeep-wrangler-2027-1887311",
+     "u": "https://neoauto.com/auto/nuevo/jeep-wrangler-2025-1887311",
      "t": "nuevo",
      "m": "jeep",
      "mo": "wrangler",
      "v": "",
-     "a": 2027,
+     "a": 2025,
      "km": 0,
      "mon": "USD",
      "vend": "particular",
@@ -64483,7 +64541,7 @@
      "dist": "Lima",
      "pub": "",
      "flags": [],
-     "nombre": "Jeep Wrangler 2027",
+     "nombre": "Jeep Wrangler 2025",
      "p": [
       [
        20720,
@@ -64491,7 +64549,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1887310": {
@@ -64556,7 +64614,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Victoria",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Mercedes-Benz Amg Cle 53 4Matic+ 2025",
      "p": [
@@ -64566,7 +64624,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1887307": {
@@ -65022,12 +65080,12 @@
      "x": 20727
     },
     "1887285": {
-     "u": "https://neoauto.com/auto/nuevo/ram-v700-2027-1887285",
+     "u": "https://neoauto.com/auto/nuevo/ram-v700-2024-1887285",
      "t": "nuevo",
      "m": "ram",
      "mo": "v700",
      "v": "",
-     "a": 2027,
+     "a": 2024,
      "km": 0,
      "mon": "USD",
      "vend": "particular",
@@ -65035,7 +65093,7 @@
      "dist": "Lima",
      "pub": "",
      "flags": [],
-     "nombre": "Ram V700 2027",
+     "nombre": "Ram V700 2024",
      "p": [
       [
        20720,
@@ -65043,7 +65101,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1887284": {
@@ -65072,12 +65130,12 @@
      "x": 20727
     },
     "1887282": {
-     "u": "https://neoauto.com/auto/nuevo/ram-700-2027-1887282",
+     "u": "https://neoauto.com/auto/nuevo/ram-700-2026-1887282",
      "t": "nuevo",
      "m": "ram",
      "mo": "700",
      "v": "",
-     "a": 2027,
+     "a": 2026,
      "km": 0,
      "mon": "USD",
      "vend": "particular",
@@ -65085,7 +65143,7 @@
      "dist": "Lima",
      "pub": "",
      "flags": [],
-     "nombre": "Ram 700 2027",
+     "nombre": "Ram 700 2026",
      "p": [
       [
        20720,
@@ -65093,7 +65151,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1887281": {
@@ -65741,7 +65799,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Victoria",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Mini Hatch Jcw 2019",
      "p": [
@@ -65751,7 +65809,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1887253": {
@@ -66837,7 +66895,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882707": {
@@ -66912,7 +66970,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882696": {
@@ -66952,7 +67010,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Los Olivos",
-     "pub": "Publicado hace más de un mes",
+     "pub": "Publicado hace unos días",
      "flags": [],
      "nombre": "Mazda Cx-5 2015",
      "p": [
@@ -66962,7 +67020,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882694": {
@@ -67012,7 +67070,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882677": {
@@ -67262,7 +67320,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882616": {
@@ -67377,7 +67435,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Los Olivos",
-     "pub": "Publicado hace más de un mes",
+     "pub": "Publicado hace unos días",
      "flags": [],
      "nombre": "Mazda 2 2024",
      "p": [
@@ -67387,7 +67445,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882581": {
@@ -67662,7 +67720,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882559": {
@@ -67687,7 +67745,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882557": {
@@ -67712,7 +67770,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882556": {
@@ -67864,7 +67922,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882526": {
@@ -67964,7 +68022,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882505": {
@@ -68214,7 +68272,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882453": {
@@ -68239,7 +68297,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882450": {
@@ -68389,7 +68447,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20720,
+     "r": 20727,
      "x": 20727
     },
     "1882429": {
