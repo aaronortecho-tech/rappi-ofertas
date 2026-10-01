@@ -343,7 +343,9 @@
   "ffb761108f502988": 1789655046,
   "ffee9f83075ee4c1": 1790311747
  },
- "failures": {},
+ "failures": {
+  "tiendas": 1
+ },
  "last_failure_notice": null,
  "store_list": {
   "fetched_at": 1790751280,
@@ -2573,7 +2575,7 @@
     "betnucci-mt-enc"
    ]
   ],
-  "next_start": 223,
+  "next_start": 226,
   "sources": {
    "city": "lima",
    "types": [
@@ -2586,5 +2588,5 @@
    "market": true
   }
  },
- "saved_at": 1790825088
+ "saved_at": 1790826704
 }
