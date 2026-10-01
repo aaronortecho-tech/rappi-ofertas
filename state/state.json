@@ -334,7 +334,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1790751280,
+  "fetched_at": 1790837771,
   "stores": [
    [
     278,
@@ -701,10 +701,6 @@
     "esikape-mt-enc"
    ],
    [
-    36825,
-    "frutasyverdurasluciana-mt-nc"
-   ],
-   [
     36835,
     "carnicerialomazos-mt-nc"
    ],
@@ -821,10 +817,6 @@
     "bexoperu-mt-enc"
    ],
    [
-    41908,
-    "fluyebottlepe-mt-enc"
-   ],
-   [
     41918,
     "damour-mt-enc"
    ],
@@ -871,10 +863,6 @@
    [
     43792,
     "elementojadeflorerayregal-mt-enc"
-   ],
-   [
-    43961,
-    "wilsongx-mt-enc"
    ],
    [
     44082,
@@ -1109,10 +1097,6 @@
     "donregalosrl-mt-enc"
    ],
    [
-    52073,
-    "carameliz-mt-enc"
-   ],
-   [
     52215,
     "supermercadosholipe-mt-nc"
    ],
@@ -1331,10 +1315,6 @@
    [
     58980,
     "neufertcorporation-mt-enc"
-   ],
-   [
-    59339,
-    "elmundodekimstore-mt-enc"
    ],
    [
     59359,
@@ -1621,10 +1601,6 @@
     "youroutletperusac-mt-enc"
    ],
    [
-    67001,
-    "freshgreen-mt-nc"
-   ],
-   [
     67010,
     "beemovilsac-mt-enc"
    ],
@@ -1833,10 +1809,6 @@
     "stanley-mt-enc"
    ],
    [
-    73151,
-    "detallitoslima-mt-enc"
-   ],
-   [
     73522,
     "turbo-lacestasuper-multibrand-nc"
    ],
@@ -1977,8 +1949,16 @@
     "darkloy-mt-enc"
    ],
    [
-    78073,
-    "labarraembotellada-mt-nc"
+    77741,
+    "tambo"
+   ],
+   [
+    77776,
+    "tambo-licores"
+   ],
+   [
+    77789,
+    "tambo-market"
    ],
    [
     78427,
@@ -2117,6 +2097,10 @@
     "vapebubbastoresmok-cigar-enc"
    ],
    [
+    87583,
+    "detallitoslima-mt-enc"
+   ],
+   [
     87610,
     "innova-health"
    ],
@@ -2127,10 +2111,6 @@
    [
     88172,
     "somoscase-mt-enc"
-   ],
-   [
-    88222,
-    "polar-enc"
    ],
    [
     88550,
@@ -2179,10 +2159,6 @@
    [
     92808,
     "dermotiendape-mt-enc"
-   ],
-   [
-    92898,
-    "soltechsurco-mt-enc"
    ],
    [
     94047,
@@ -2287,10 +2263,6 @@
    [
     101357,
     "adah-mt-enc"
-   ],
-   [
-    101360,
-    "farianaturals-mt-enc"
    ],
    [
     101537,
@@ -2549,6 +2521,10 @@
     "mifarma-dermocosmeticos-nc"
    ],
    [
+    110729,
+    "wize-mt-enc"
+   ],
+   [
     110745,
     "mifarma-ecomm-belleza-nc"
    ],
@@ -2559,9 +2535,37 @@
    [
     110860,
     "betnucci-mt-enc"
+   ],
+   [
+    110973,
+    "amorelindope-mt-enc"
+   ],
+   [
+    111236,
+    "distribuidoracuatrobocas-mt-nc"
+   ],
+   [
+    111650,
+    "artisan-nc"
+   ],
+   [
+    112206,
+    "bamboostore-mt-enc"
+   ],
+   [
+    113051,
+    "girenesshop-mt-enc"
+   ],
+   [
+    113287,
+    "almavida-mt-enc"
+   ],
+   [
+    113368,
+    "nabilahome-mt-enc"
    ]
   ],
-  "next_start": 426,
+  "next_start": 461,
   "sources": {
    "city": "lima",
    "types": [
@@ -2574,5 +2578,5 @@
    "market": true
   }
  },
- "saved_at": 1790836272
+ "saved_at": 1790837771
 }
