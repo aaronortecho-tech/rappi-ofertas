@@ -2,10 +2,12 @@
  "version": 1,
  "started_at": null,
  "seen": {},
- "failures": {},
+ "failures": {
+  "JetSMART/tarifas desde Lima": 1
+ },
  "last_failure_notice": 1790760492,
  "store_list": {},
- "saved_at": 1790859570,
+ "saved_at": 1790861497,
  "history": {
   "45e494479f289b17": [
    [
@@ -6927,7 +6929,8 @@
   ]
  },
  "cursors": {
-  "travelpayouts": 1790839816
+  "travelpayouts": 1790861497,
+  "JetSMART/portada-sin-tarifas": 1
  },
  "flight_alerts": {},
  "datos": {
@@ -9484,6 +9487,14 @@
     "e8769be94281caa2": [
      20727,
      15.992
+    ],
+    "acaafe4cab284420": [
+     20727,
+     13.442
+    ],
+    "3216c9288ae4b690": [
+     20727,
+     8.869
     ]
    },
    "Travelpayouts|USD|ida-vuelta|largo": {
@@ -9616,7 +9627,7 @@
      5.732
     ],
     "196fd6f8cd95ab74": [
-     20726,
+     20727,
      4.194
     ],
     "a1c3e928340bfffa": [
@@ -9654,6 +9665,14 @@
     "20fb1241562e6370": [
      20727,
      5.54
+    ],
+    "52f1c65b68c6bedf": [
+     20727,
+     5.063
+    ],
+    "57228920411b9efa": [
+     20727,
+     5.387
     ]
    },
    "Travelpayouts|USD|ida-vuelta|regional": {
