@@ -225,7 +225,7 @@
   "a02b004a42e7feb5": 1790047321,
   "a19b04db84f94745": 1790389246,
   "a1c5cfe6eb4f839b": 1790605585,
-  "a1eda53e65f9da8c": 1790256258,
+  "a1eda53e65f9da8c": 1790925916,
   "a21edc23c1b5939a": 1790857847,
   "a244e18781fbed03": 1790706446,
   "a255060b405458e8": 1789806106,
@@ -349,7 +349,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1790837771,
+  "fetched_at": 1790925916,
   "stores": [
    [
     278,
@@ -832,6 +832,10 @@
     "bexoperu-mt-enc"
    ],
    [
+    41908,
+    "fluyebottlepe-mt-enc"
+   ],
+   [
     41918,
     "damour-mt-enc"
    ],
@@ -878,6 +882,10 @@
    [
     43792,
     "elementojadeflorerayregal-mt-enc"
+   ],
+   [
+    43961,
+    "wilsongx-mt-enc"
    ],
    [
     44082,
@@ -1112,6 +1120,10 @@
     "donregalosrl-mt-enc"
    ],
    [
+    52073,
+    "carameliz-mt-enc"
+   ],
+   [
     52215,
     "supermercadosholipe-mt-nc"
    ],
@@ -1214,6 +1226,10 @@
    [
     55430,
     "fincafoodssac-mt-nc"
+   ],
+   [
+    55445,
+    "rizoslindosperu-mt-enc"
    ],
    [
     55535,
@@ -1330,6 +1346,14 @@
    [
     58980,
     "neufertcorporation-mt-enc"
+   ],
+   [
+    59032,
+    "vebldetalle-mt-enc"
+   ],
+   [
+    59339,
+    "elmundodekimstore-mt-enc"
    ],
    [
     59359,
@@ -1502,10 +1526,6 @@
    [
     63789,
     "chupilcapersac-mt-enc"
-   ],
-   [
-    64069,
-    "isok-mt-enc"
    ],
    [
     64125,
@@ -2128,6 +2148,10 @@
     "somoscase-mt-enc"
    ],
    [
+    88222,
+    "polar-enc"
+   ],
+   [
     88550,
     "soxogame-mt-enc"
    ],
@@ -2280,6 +2304,10 @@
     "adah-mt-enc"
    ],
    [
+    101360,
+    "farianaturals-mt-enc"
+   ],
+   [
     101537,
     "floraltrendy-mt-enc"
    ],
@@ -2290,10 +2318,6 @@
    [
     101748,
     "kalafloristeriaydetalles-mt-enc"
-   ],
-   [
-    101936,
-    "ofertienda-mt-enc"
    ],
    [
     102003,
@@ -2540,7 +2564,7 @@
     "wize-mt-enc"
    ],
    [
-    110745,
+    110747,
     "mifarma-ecomm-belleza-nc"
    ],
    [
@@ -2554,6 +2578,10 @@
    [
     110973,
     "amorelindope-mt-enc"
+   ],
+   [
+    110995,
+    "zyncper-mt-enc"
    ],
    [
     111236,
@@ -2578,9 +2606,13 @@
    [
     113368,
     "nabilahome-mt-enc"
+   ],
+   [
+    113476,
+    "merlotexpress-mt-nc"
    ]
   ],
-  "next_start": 91,
+  "next_start": 131,
   "sources": {
    "city": "lima",
    "types": [
@@ -2593,5 +2625,5 @@
    "market": true
   }
  },
- "saved_at": 1790924121
+ "saved_at": 1790925916
 }
