@@ -79,6 +79,7 @@
   "315c2480fba130b4": 1790673908,
   "3199f33f9a36c5ab": 1790574564,
   "31b68d0f3d4e5e6d": 1790915060,
+  "31ceacb721da6cd4": 1790963361,
   "31d68195c8dd4ed6": 1790612782,
   "31e845c19e19eeb7": 1790045253,
   "32f2d75fb743e687": 1790135258,
@@ -345,9 +346,7 @@
   "feca2675617a7558": 1790614277,
   "ffee9f83075ee4c1": 1790311747
  },
- "failures": {
-  "tiendas": 1
- },
+ "failures": {},
  "last_failure_notice": null,
  "store_list": {
   "fetched_at": 1790925916,
@@ -2613,7 +2612,7 @@
     "merlotexpress-mt-nc"
    ]
   ],
-  "next_start": 355,
+  "next_start": 395,
   "sources": {
    "city": "lima",
    "types": [
@@ -2626,5 +2625,5 @@
    "market": true
   }
  },
- "saved_at": 1790961834
+ "saved_at": 1790963361
 }
