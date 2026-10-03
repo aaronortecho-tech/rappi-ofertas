@@ -44,7 +44,7 @@
   "1a7b465d9248c88a": 1790909379,
   "1a9644d37c0a2ad1": 1790673908,
   "1b1419ce826294c7": 1790379948,
-  "1b3e1e540e0433f3": 1790365613,
+  "1b3e1e540e0433f3": 1791013879,
   "1b40b546fc929334": 1790864803,
   "1b9d283138bbee0e": 1790879351,
   "1c8315827dffc3fb": 1790396466,
@@ -156,7 +156,7 @@
   "64ea350c4db32faf": 1790415951,
   "64f76b88f94d5ee6": 1790875439,
   "65497f4c49581810": 1791010977,
-  "661ff04d8eb63458": 1790365613,
+  "661ff04d8eb63458": 1791013879,
   "66584b8d463362ee": 1790614277,
   "66e7f412676de37c": 1790927475,
   "68194af26ae48666": 1790864803,
@@ -170,7 +170,7 @@
   "6ef1b7aa39cdcfb0": 1791001423,
   "706aa0ede7bc462a": 1790731401,
   "723af81ed5494625": 1790911444,
-  "73651033c20ee028": 1790365613,
+  "73651033c20ee028": 1791013879,
   "73e4f37d9ef4b2ff": 1790081470,
   "7618f90f2e5bc432": 1791003007,
   "76573e4dc2dddc07": 1790918563,
@@ -189,7 +189,7 @@
   "804948147ebd39fc": 1790605585,
   "809ba9d5935d4ef2": 1790482917,
   "80a5f74bbbc6c3ed": 1790657402,
-  "8105916f14f38830": 1790365613,
+  "8105916f14f38830": 1791013879,
   "81483705598dcc78": 1790877130,
   "81ef1af7d2d9d5dd": 1790871850,
   "82d6e9014466690c": 1790614277,
@@ -327,7 +327,7 @@
   "dc5db50592cd8381": 1790981360,
   "dc8bcf7d812d47d8": 1790603549,
   "dc8c937be558b6e9": 1790529581,
-  "dd3c30c202232f45": 1790365613,
+  "dd3c30c202232f45": 1791013879,
   "de52794d16b2566d": 1791003007,
   "de9083361529aed5": 1790704197,
   "deaf381b61915431": 1790699168,
@@ -379,7 +379,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1790925916,
+  "fetched_at": 1791013879,
   "stores": [
    [
     278,
@@ -638,10 +638,6 @@
     "yumigumi-mt-enc"
    ],
    [
-    31656,
-    "green-supply-enc"
-   ],
-   [
     31773,
     "detallitosdeliverylima-mt-enc"
    ],
@@ -836,6 +832,10 @@
    [
     40987,
     "regalosconmagia-mt-enc"
+   ],
+   [
+    41066,
+    "bienah-mt-enc"
    ],
    [
     41093,
@@ -1382,10 +1382,6 @@
     "vebldetalle-mt-enc"
    ],
    [
-    59339,
-    "elmundodekimstore-mt-enc"
-   ],
-   [
     59359,
     "typsac-mt-nc"
    ],
@@ -1558,6 +1554,10 @@
     "chupilcapersac-mt-enc"
    ],
    [
+    64069,
+    "isok-mt-enc"
+   ],
+   [
     64125,
     "gastronomiasinlimitessrl-mt-enc"
    ],
@@ -1576,10 +1576,6 @@
    [
     64473,
     "20609793806-mt-enc"
-   ],
-   [
-    64493,
-    "rosettaperu-mt-enc"
    ],
    [
     64509,
@@ -1802,10 +1798,6 @@
     "curvastudio-mt-enc"
    ],
    [
-    71108,
-    "matiartesanalsac-mt-enc"
-   ],
-   [
     71235,
     "frutossecosysnacks-mt-nc"
    ],
@@ -1866,16 +1858,16 @@
     "20610546677-mt-enc"
    ],
    [
+    72955,
+    "soltechsurco-mt-enc"
+   ],
+   [
     73071,
     "freshmart-express-nc"
    ],
    [
     73106,
     "stanley-mt-enc"
-   ],
-   [
-    73522,
-    "turbo-lacestasuper-multibrand-nc"
    ],
    [
     73748,
@@ -2026,6 +2018,10 @@
     "tambo-market"
    ],
    [
+    78073,
+    "labarraembotellada-mt-nc"
+   ],
+   [
     78427,
     "cannahealing-mt-nc"
    ],
@@ -2108,14 +2104,6 @@
    [
     85367,
     "lalucirnaga-mt-nc"
-   ],
-   [
-    85437,
-    "eljardnbyrosetta-mt-enc"
-   ],
-   [
-    86259,
-    "tiendamaniacos-mt-enc"
    ],
    [
     86266,
@@ -2226,10 +2214,6 @@
     "meeplia-mt-enc"
    ],
    [
-    92808,
-    "dermotiendape-mt-enc"
-   ],
-   [
     94047,
     "delifrance-exclusivos-nc"
    ],
@@ -2306,6 +2290,10 @@
     "abrazarte-mt-enc"
    ],
    [
+    100865,
+    "allnet-mt-enc"
+   ],
+   [
     100913,
     "latabernadebaco-mt-enc"
    ],
@@ -2332,10 +2320,6 @@
    [
     101357,
     "adah-mt-enc"
-   ],
-   [
-    101360,
-    "farianaturals-mt-enc"
    ],
    [
     101537,
@@ -2642,7 +2626,7 @@
     "merlotexpress-mt-nc"
    ]
   ],
-  "next_start": 331,
+  "next_start": 370,
   "sources": {
    "city": "lima",
    "types": [
@@ -2655,5 +2639,5 @@
    "market": true
   }
  },
- "saved_at": 1791012249
+ "saved_at": 1791013879
 }
