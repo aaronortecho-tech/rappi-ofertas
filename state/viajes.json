@@ -5,7 +5,7 @@
  "failures": {},
  "last_failure_notice": 1790760492,
  "store_list": {},
- "saved_at": 1791016050,
+ "saved_at": 1791017845,
  "history": {
   "45e494479f289b17": [
    [
@@ -8596,10 +8596,16 @@
     20729,
     572.48
    ]
+  ],
+  "4595886a391cb6fb": [
+   [
+    20729,
+    507.58
+   ]
   ]
  },
  "cursors": {
-  "travelpayouts": 1790994781
+  "travelpayouts": 1791017845
  },
  "flight_alerts": {},
  "datos": {
@@ -9456,6 +9462,10 @@
     "c9c6c95807ddea67": [
      20729,
      18.243
+    ],
+    "4595886a391cb6fb": [
+     20729,
+     20.617
     ]
    },
    "JetSMART|PEN|nacional": {
@@ -12156,6 +12166,10 @@
     "09f7f4789367e346": [
      20729,
      8.225
+    ],
+    "1e1390e42e5eedf5": [
+     20729,
+     4.707
     ]
    },
    "Travelpayouts|USD|ida-vuelta|medio": {
