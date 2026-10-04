@@ -2,7 +2,6 @@
  "version": 1,
  "started_at": 1789617285,
  "seen": {
-  "018741cc8125e731": 1789899631,
   "01c85a9b31fc361c": 1790360623,
   "02f638c8182fa980": 1790490371,
   "02fc54f698659558": 1790778520,
@@ -15,7 +14,6 @@
   "094af7942f2566a6": 1790771551,
   "09ee5ddb9eb2222a": 1790880792,
   "0afb4d405b0654a2": 1790765499,
-  "0b0c258269b4c8e1": 1789899631,
   "0b53f86a66494b01": 1790466305,
   "0b57ab10a2fc50f1": 1791001423,
   "0b8939cfc7212c87": 1790212814,
@@ -104,11 +102,9 @@
   "3ae8926519dcbd5b": 1790819387,
   "3af26dc3e2f258ab": 1790911444,
   "3ba6d16b8f861dc0": 1790904211,
-  "3c5a2423aa8fc9ad": 1789899631,
   "3d156172cab72554": 1790904211,
   "3d9e9f1069f55277": 1791038126,
   "3dbb26aa73227fb8": 1790428789,
-  "3de09dfe7314eeca": 1789899631,
   "3def24c18cd89338": 1791001423,
   "3e7dbe34a3155822": 1790639261,
   "3ea306fc9f18dc73": 1789964540,
@@ -218,7 +214,6 @@
   "8b7a0c1bd54ad91e": 1791003007,
   "8cb8f3beeeaafe46": 1790954749,
   "8ddc3a42cc4ebc43": 1790673908,
-  "8e9a0c1779c2bba1": 1789899631,
   "8ec9659b8e72aba4": 1791003007,
   "8f1ace4ff74875f1": 1790894956,
   "8fd3c35c2eb6de85": 1790529581,
@@ -287,13 +282,11 @@
   "bd6c2a135e2678c5": 1790639261,
   "bdf1eb99fd790483": 1790740225,
   "be2889354e42435d": 1791052679,
-  "be8d990b06560dd1": 1789899631,
   "bf9aa378016f81bd": 1790360623,
   "c13c010b35fe89cf": 1790178522,
   "c18f6e77c03a3470": 1790951183,
   "c1cdde046ec24cdb": 1791003007,
   "c205131c599e05e1": 1790913051,
-  "c33b43b9f0733ccf": 1789899631,
   "c5dd8b9451c3aa53": 1790915060,
   "c5efc9960f1051ad": 1790639261,
   "c5f4f32c52f28a97": 1790951183,
@@ -342,7 +335,6 @@
   "deaf381b61915431": 1790699168,
   "dfa1192259cb074a": 1790875439,
   "e02badd2d531e482": 1790981360,
-  "e03ed83d415126d2": 1789899631,
   "e05c039aeba23fb8": 1790951183,
   "e2522ad8f02b6b1b": 1791038126,
   "e29ce4b5bac9007b": 1790673908,
@@ -389,7 +381,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1791013879,
+  "fetched_at": 1791111217,
   "stores": [
    [
     278,
@@ -518,10 +510,6 @@
    [
     15330,
     "proshopper-peru-hogar"
-   ],
-   [
-    15704,
-    "disenzo"
    ],
    [
     16343,
@@ -692,10 +680,6 @@
     "florescasa"
    ],
    [
-    34315,
-    "bmlicores-mt-nc"
-   ],
-   [
     34401,
     "forever-rosatel"
    ],
@@ -790,10 +774,6 @@
    [
     39130,
     "yenilu-mt-enc"
-   ],
-   [
-    39188,
-    "tecnodrome-mt-enc"
    ],
    [
     39260,
@@ -1196,10 +1176,6 @@
     "techside-mt-enc"
    ],
    [
-    53314,
-    "disenzo-home"
-   ],
-   [
     53327,
     "bar-premium-super-nc"
    ],
@@ -1336,10 +1312,6 @@
     "importacionestmpereirl-mt-enc"
    ],
    [
-    57870,
-    "disenzo-express-nc"
-   ],
-   [
     57872,
     "biokamari-mt-enc"
    ],
@@ -1390,6 +1362,10 @@
    [
     59032,
     "vebldetalle-mt-enc"
+   ],
+   [
+    59339,
+    "elmundodekimstore-mt-enc"
    ],
    [
     59359,
@@ -1772,8 +1748,8 @@
     "la-canasteria-mt-licores-nc"
    ],
    [
-    69772,
-    "el-hongo-licores-nc"
+    69734,
+    "greenssperu-mt-nc"
    ],
    [
     69788,
@@ -2028,8 +2004,8 @@
     "tambo-market"
    ],
    [
-    78073,
-    "labarraembotellada-mt-nc"
+    77836,
+    "colagenomarinoperdrasanvi-mt-enc"
    ],
    [
     78427,
@@ -2134,14 +2110,6 @@
    [
     86820,
     "orcapsac-market-nc"
-   ],
-   [
-    87215,
-    "8bro-super-nc"
-   ],
-   [
-    87304,
-    "8bro-express-nc"
    ],
    [
     87438,
@@ -2256,10 +2224,6 @@
     "listo-openallnight-nc"
    ],
    [
-    97838,
-    "a18lab-mt-enc"
-   ],
-   [
     97880,
     "capsulapesrl-mt-enc"
    ],
@@ -2342,10 +2306,6 @@
    [
     101748,
     "kalafloristeriaydetalles-mt-enc"
-   ],
-   [
-    102003,
-    "adcpremiumbrands-mt-nc"
    ],
    [
     102034,
@@ -2474,10 +2434,6 @@
    [
     107246,
     "mundoorquidea-mt-enc"
-   ],
-   [
-    107452,
-    "turbo"
    ],
    [
     107644,
@@ -2636,7 +2592,7 @@
     "merlotexpress-mt-nc"
    ]
   ],
-  "next_start": 209,
+  "next_start": 245,
   "sources": {
    "city": "lima",
    "types": [
@@ -2649,5 +2605,5 @@
    "market": true
   }
  },
- "saved_at": 1791088158
+ "saved_at": 1791111217
 }
