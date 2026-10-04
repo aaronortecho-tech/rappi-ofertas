@@ -16,12 +16,13 @@
   "b589ee200bb64ce2": 1789973117,
   "b7f0d67d5c55dcd5": 1789756695,
   "c6c3a599fee042c4": 1789756695,
-  "dab6be76e0d72bc4": 1790923590
+  "dab6be76e0d72bc4": 1790923590,
+  "ee9b507969f96bf9": 1791072036
  },
  "failures": {},
  "last_failure_notice": null,
  "store_list": {},
- "saved_at": 1791044059,
+ "saved_at": 1791072036,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -31,6 +32,7 @@
     "1415": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/vista-brasil-magdalena-1415",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Magdalena Del Mar",
      "nombre": "VISTA BRASIL",
      "marca": "GRUPO MG",
@@ -74,12 +76,13 @@
        20714
       ]
      },
-     "r": 20714,
-     "x": 20729
+     "r": 20730,
+     "x": 20730
     },
     "1418": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/allegro-loft-1418",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "San Miguel",
      "nombre": "Allegro Loft",
      "marca": "URBANA PERÚ",
@@ -101,12 +104,13 @@
        20714
       ]
      },
-     "r": 20714,
-     "x": 20729
+     "r": 20730,
+     "x": 20730
     },
     "1631": {
      "u": "https://nexoinmobiliario.pe/departamentos/barranco/aspiria-1631",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Barranco",
      "nombre": "ASPIRIA",
      "marca": "GRUPO T&C",
@@ -118,13 +122,7 @@
        82.96,
        3,
        "PEN",
-       664806.0
-      ],
-      "Modelo TIPO 6": [
-       41.77,
-       1,
-       "PEN",
-       364088.0
+       663010.0
       ],
       "Modelo TIPO 7": [
        41.75,
@@ -137,23 +135,12 @@
        1,
        "PEN",
        366500.0
-      ],
-      "Modelo TIPO 1": [
-       58.79,
-       2,
-       "PEN",
-       520518.0
       ]
      },
      "primero": {
       "Modelo TIPO 3": [
        "PEN",
        664806.0,
-       20714
-      ],
-      "Modelo TIPO 6": [
-       "PEN",
-       364088.0,
        20714
       ],
       "Modelo TIPO 7": [
@@ -165,19 +152,15 @@
        "PEN",
        366500.0,
        20714
-      ],
-      "Modelo TIPO 1": [
-       "PEN",
-       520518.0,
-       20714
       ]
      },
-     "r": 20714,
-     "x": 20729
+     "r": 20730,
+     "x": 20730
     },
     "1654": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/aliaga-garden-1654",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Magdalena Del Mar",
      "nombre": "ALIAGA GARDEN",
      "marca": "EVERGRAN GRUPO INMOBILIARIO",
@@ -197,12 +180,6 @@
        "PEN",
        758450.0
       ],
-      "Modelo 9A": [
-       83.26,
-       3,
-       "PEN",
-       692000.0
-      ],
       "Modelo 11A - Piso Par": [
        90.65,
        3,
@@ -221,23 +198,19 @@
        758450.0,
        20714
       ],
-      "Modelo 9A": [
-       "PEN",
-       692000.0,
-       20714
-      ],
       "Modelo 11A - Piso Par": [
        "PEN",
        753500.0,
        20714
       ]
      },
-     "r": 20714,
-     "x": 20729
+     "r": 20730,
+     "x": 20730
     },
     "1693": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/mar-de-plata-ii-san-miguel-1693",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "San Miguel",
      "nombre": "MAR DE PLATA II",
      "marca": "GRUPO MG",
@@ -314,12 +287,13 @@
        20714
       ]
      },
-     "r": 20714,
-     "x": 20729
+     "r": 20730,
+     "x": 20730
     },
     "1866": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/los-pinos-iii-santa-beatriz-1866",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Cercado De Lima",
      "nombre": "LOS PINOS III -SANTA BEATRIZ",
      "marca": "GRUPO MG",
@@ -341,12 +315,13 @@
        20714
       ]
      },
-     "r": 20714,
-     "x": 20729
+     "r": 20730,
+     "x": 20730
     },
     "1867": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/vista-verde-santa-beatriz-1867",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Cercado De Lima",
      "nombre": "VISTA VERDE",
      "marca": "GRUPO MG",
@@ -489,12 +464,13 @@
        20714
       ]
      },
-     "r": 20714,
-     "x": 20729
+     "r": 20730,
+     "x": 20730
     },
     "1918": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/muvin-1918",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Lince",
      "nombre": "MUVIN",
      "marca": "COSAPI",
@@ -538,12 +514,13 @@
        20714
       ]
      },
-     "r": 20714,
-     "x": 20729
+     "r": 20730,
+     "x": 20730
     },
     "1940": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/monterosso-1940",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Jesus Maria",
      "nombre": "MONTEROSSO",
      "marca": "TORATTO GRUPO INMOBILIARIO",
@@ -565,8 +542,8 @@
        20714
       ]
      },
-     "r": 20714,
-     "x": 20729
+     "r": 20730,
+     "x": 20730
     },
     "1974": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/invent-chorrillos-1974",
@@ -659,7 +636,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "1976": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/simplicity-1976",
@@ -697,7 +674,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "1988": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/arequipa-1988",
@@ -724,7 +701,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "1993": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/s14-apartments-1993",
@@ -762,7 +739,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2056": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/invent-juan-de-aliaga-2056",
@@ -888,7 +865,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2064": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/toscana-2064",
@@ -937,7 +914,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2077": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/canaval-185-2077",
@@ -986,7 +963,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2079": {
      "u": "https://nexoinmobiliario.pe/departamentos/brena/maz-etapa-1-2079",
@@ -1024,7 +1001,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2115": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/alborada-san-miguel-2115",
@@ -1139,7 +1116,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2140": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/venezia-2140",
@@ -1177,7 +1154,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2150": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/giardini-2150",
@@ -1204,7 +1181,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2192": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/tree-san-isidro-2192",
@@ -1341,7 +1318,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2194": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/elant-fase-2-2194",
@@ -1401,7 +1378,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2198": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/amalfi-2198",
@@ -1505,7 +1482,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2199": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/livorno-2199",
@@ -1554,7 +1531,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2216": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/savia-2216",
@@ -1614,7 +1591,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2264": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/all-san-isidro-2264",
@@ -1740,7 +1717,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2295": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/residencial-real-2295",
@@ -1778,7 +1755,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2297": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/roof-garden-barrenechea-2297",
@@ -1937,7 +1914,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2308": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/smart-a-santa-beatriz-2308",
@@ -1986,7 +1963,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2313": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/mate-2313",
@@ -2046,7 +2023,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2324": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/park-living-2324",
@@ -2084,7 +2061,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2361": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/paseo-de-la-arboleda-6-2361",
@@ -2232,7 +2209,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2370": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/samay-2370",
@@ -2369,7 +2346,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2378": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/balboa-2378",
@@ -2418,7 +2395,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2387": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/bongo-condominio-2387",
@@ -2456,7 +2433,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2393": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/lombardia-2393",
@@ -2582,7 +2559,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2411": {
      "u": "https://nexoinmobiliario.pe/departamentos/bellavista/terrazas-de-bellavista-2411",
@@ -2686,7 +2663,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2417": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/piknik-park-2417",
@@ -2724,7 +2701,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2430": {
      "u": "https://nexoinmobiliario.pe/departamentos/barranco/patria-2430",
@@ -2773,7 +2750,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2436": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/ativa-fase-1-2436",
@@ -2844,7 +2821,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2438": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/inspiria-2438",
@@ -2904,7 +2881,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2445": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/bolivar-1209-2445",
@@ -2953,7 +2930,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2476": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/eco-style-2476",
@@ -3002,7 +2979,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2487": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/libertad-2487",
@@ -3243,7 +3220,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2494": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/proyecto-vanguardia-2494",
@@ -3347,7 +3324,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2506": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/ocean-avenue-2506",
@@ -3396,7 +3373,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2507": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/flamingo-2507",
@@ -3522,7 +3499,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2509": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/centrik-2509",
@@ -3582,7 +3559,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2570": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/henko-2570",
@@ -3653,7 +3630,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2578": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/ramon-zavala-ii-2578",
@@ -3724,7 +3701,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2588": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/mandra-2588",
@@ -3806,7 +3783,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2617": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/pardo-669-2617",
@@ -3899,7 +3876,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2621": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/basadre-1310-2621",
@@ -3948,7 +3925,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2652": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/larco-791-2652",
@@ -3986,7 +3963,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2660": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/alto-alborada-2660",
@@ -4024,7 +4001,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2661": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/palm-living-2661",
@@ -4128,7 +4105,7 @@
       ]
      },
      "r": 20714,
-     "x": 20729
+     "x": 20730
     },
     "2688": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/gracia-2688",
@@ -4254,7 +4231,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2695": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/blue-2695",
@@ -4369,7 +4346,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2698": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/hara-etapa-5-2698",
@@ -4561,7 +4538,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2706": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/high-line-2706",
@@ -4698,7 +4675,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2715": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/central-park-2715",
@@ -4802,7 +4779,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2726": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/residencial-capri-2726",
@@ -4895,7 +4872,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2728": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/monte-real-2728",
@@ -4993,7 +4970,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2741": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/quatro-cor-tower-2741",
@@ -5042,7 +5019,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2743": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/arnaldo-living-2743",
@@ -5124,7 +5101,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2744": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/alborada-ii-san-miguel-2744",
@@ -5217,7 +5194,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2745": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/salaverry-2431-2745",
@@ -5310,7 +5287,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2747": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/ciudaris-i-quarzo-2747",
@@ -5337,7 +5314,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2749": {
      "u": "https://nexoinmobiliario.pe/departamentos/brena/gran-plaza-loreto-2749",
@@ -5375,7 +5352,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2759": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/residencial-valenti-2759",
@@ -5446,7 +5423,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2763": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/belisario-967-2763",
@@ -5484,7 +5461,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2764": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/san-felipe-1190-2764",
@@ -5566,7 +5543,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2767": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/ciudaris-i-iconik-park-2767",
@@ -5593,7 +5570,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2769": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/patio-la-paz-2769",
@@ -5862,7 +5839,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2774": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/faisanes-343-2774",
@@ -5922,7 +5899,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2775": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/park-prado-2775",
@@ -5982,7 +5959,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2795": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/reducto-1421-2795",
@@ -6141,7 +6118,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2796": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/family-apartments-2796",
@@ -6179,7 +6156,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2798": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/founder-2798",
@@ -6283,7 +6260,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2800": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/derby-182-2800",
@@ -6414,7 +6391,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2815": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/tower-27-2815",
@@ -6441,7 +6418,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2819": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/aliaga-750-2819",
@@ -6578,7 +6555,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2825": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/gran-central-colonial-2-2825",
@@ -6627,7 +6604,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2830": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/entrenos-2830",
@@ -6687,7 +6664,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2837": {
      "u": "https://nexoinmobiliario.pe/departamentos/brena/momen-2837",
@@ -6780,7 +6757,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2846": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/san-felipe-towers-2846",
@@ -6840,7 +6817,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2847": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/zendai-fase-1-2847",
@@ -6999,7 +6976,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2855": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/visum-2855",
@@ -7081,7 +7058,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2861": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/mixxo-2861",
@@ -7141,7 +7118,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2877": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/torre-tale-primavera-etapa-i-2877",
@@ -7465,7 +7442,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2886": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/olive-2886",
@@ -7536,7 +7513,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2888": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/duetto-846-fase-ii-2888",
@@ -7585,7 +7562,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2893": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/campo-marte-2893",
@@ -7645,7 +7622,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2894": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/patriotas-san-miguel-2894",
@@ -7705,7 +7682,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2905": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/bravo-san-borja-2905",
@@ -7754,7 +7731,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2907": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/alto-lima-park-2907",
@@ -7792,7 +7769,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2910": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/serena-2910",
@@ -7841,7 +7818,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2911": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/residencial-real-etapa-2-2911",
@@ -7890,7 +7867,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2912": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/nueva-metropolis-2912",
@@ -8093,7 +8070,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2918": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/aliaga-garden-etapa-2-2918",
@@ -8142,7 +8119,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2920": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/abstract-2920",
@@ -8169,7 +8146,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2947": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/los-gorriones-5-2947",
@@ -8229,7 +8206,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2948": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/vittorie-2948",
@@ -8267,7 +8244,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2951": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/pardo-coast-2951",
@@ -8338,7 +8315,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2953": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/arteco-elysee-2953",
@@ -8387,7 +8364,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2955": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/parque-castilla-2955",
@@ -8551,7 +8528,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2958": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/aura-apartments-2958",
@@ -8600,7 +8577,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2960": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/lum-2960",
@@ -8627,7 +8604,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "2965": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/santorini-2965",
@@ -9028,7 +9005,7 @@
       ]
      },
      "r": 20715,
-     "x": 20729
+     "x": 20730
     },
     "1646": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/liri-pueblo-libre-1646",
@@ -9055,7 +9032,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "2858": {
      "u": "https://nexoinmobiliario.pe/departamentos/brena/palmer-2858",
@@ -9115,7 +9092,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "2990": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/friendz-2-2990",
@@ -9208,7 +9185,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "2996": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/albamar-arenales-2996",
@@ -9235,7 +9212,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "2998": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/preminenza-2998",
@@ -9405,7 +9382,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3001": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/quatro-urban-tower-3-3001",
@@ -9531,7 +9508,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3004": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/mf-work-living-apartments-3004",
@@ -9580,7 +9557,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3008": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/amatista-3008",
@@ -9728,7 +9705,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3009": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/checor-los-lirios-3009",
@@ -9843,7 +9820,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3017": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/ascenza-3017",
@@ -9925,7 +9902,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3025": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/centrix-28-3025",
@@ -10502,7 +10479,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3029": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/midgo-3029",
@@ -10540,7 +10517,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3030": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/lookfeel-etapa-2-3030",
@@ -10666,7 +10643,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3034": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/concepto-family-too-3034",
@@ -10715,7 +10692,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3036": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/edificio-piana-3036",
@@ -10742,7 +10719,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3045": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/residencial-casanova-3045",
@@ -10846,7 +10823,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3053": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/minimal-3053",
@@ -10983,7 +10960,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3103": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/gran-guardia-peruana-3103",
@@ -11021,7 +10998,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3119": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/hercelles-3119",
@@ -11180,7 +11157,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3165": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/albamar-o2-3165",
@@ -11415,7 +11392,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3175": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/caserta-3175",
@@ -11453,7 +11430,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3177": {
      "u": "https://nexoinmobiliario.pe/departamentos/brena/las-magnolias-casa-club-3177",
@@ -11513,7 +11490,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3180": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/mum-363-3180",
@@ -12068,7 +12045,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3186": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/helio-santa-beatriz-3186",
@@ -12194,7 +12171,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3198": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/hernandez-1273-3198",
@@ -12287,7 +12264,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3202": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/quatro-supra-tower-3202",
@@ -12457,7 +12434,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3203": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/condominio-villalegre-3203",
@@ -12781,7 +12758,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3209": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/tulipan-3209",
@@ -12852,7 +12829,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3210": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/orquidea-3210",
@@ -12912,7 +12889,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3211": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/las-praderas-3211",
@@ -13236,7 +13213,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3212": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/mendiburu-1290-3212",
@@ -13340,7 +13317,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3215": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/urban-heights-3215",
@@ -13433,7 +13410,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3217": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/roosevelt-64-3217",
@@ -13504,7 +13481,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3219": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/taller-3219",
@@ -13663,7 +13640,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3220": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/concepto-one-place-3220",
@@ -13690,7 +13667,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3222": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/ativa-fase-2-3222",
@@ -13772,7 +13749,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3223": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/paseo-jazmines-3223",
@@ -13810,7 +13787,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3224": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/magna-3224",
@@ -13903,7 +13880,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3233": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/arbora-3233",
@@ -13974,7 +13951,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3235": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/ako-3235",
@@ -14034,7 +14011,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3238": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/la-rosa-park-3238",
@@ -14088,7 +14065,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3241": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/residencial-sukha-3241",
@@ -14148,7 +14125,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3245": {
      "u": "https://nexoinmobiliario.pe/departamentos/los-olivos/gran-olivo-etapa-2-3245",
@@ -14285,7 +14262,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3250": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/albamar-parktown-3250",
@@ -14367,7 +14344,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3251": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/proyecto-libertad-3251",
@@ -14427,7 +14404,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3252": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/lienzo-park-live-3252",
@@ -14454,7 +14431,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3256": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/dolce-mare-3256",
@@ -14525,7 +14502,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3257": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/central-site-3257",
@@ -14574,7 +14551,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3258": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/albamar-oasis-3258",
@@ -14612,7 +14589,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3273": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/mar-de-grau-3273",
@@ -14672,7 +14649,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3274": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/magnolia-3274",
@@ -14710,7 +14687,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3281": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/irigoyen-128-3281",
@@ -14770,7 +14747,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3282": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/residencial-orion-3282",
@@ -14868,7 +14845,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3298": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/cool-living-3298",
@@ -14994,7 +14971,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3305": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/belalba-3305",
@@ -15230,7 +15207,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3310": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-bartolo/miramar-etapa-iii-3310",
@@ -15449,7 +15426,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3312": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/arteco-dumont-3312",
@@ -15487,7 +15464,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3316": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/pop-3316",
@@ -15547,7 +15524,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3318": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/gaviotas-3318",
@@ -16223,7 +16200,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3322": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/avellana-3322",
@@ -16514,7 +16491,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3323": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/aramburu-living-3323",
@@ -16574,7 +16551,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3324": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/edificio-fenix-3324",
@@ -16634,7 +16611,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3325": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/edificio-sialia-3325",
@@ -16793,7 +16770,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3326": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/masias-3326",
@@ -16853,7 +16830,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3328": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/vernazza-3328",
@@ -16935,7 +16912,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3330": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/beside-3330",
@@ -16984,7 +16961,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3331": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/high-life-3331",
@@ -17044,7 +17021,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3336": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/prada-3336",
@@ -17126,7 +17103,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3338": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/empire-3338",
@@ -17307,7 +17284,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3339": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/guisse-1060-3339",
@@ -17367,7 +17344,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3340": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/tommy-3340",
@@ -17449,7 +17426,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3342": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/alborada-iii-san-miguel-3342",
@@ -17641,7 +17618,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3343": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/edificio-ugarteche-3343",
@@ -17679,7 +17656,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3345": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/oceanika-3345",
@@ -17827,7 +17804,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3346": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/kauri-3346",
@@ -17980,7 +17957,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3348": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/sucre-45-3348",
@@ -18040,7 +18017,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3358": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/central-home-chacarilla-3358",
@@ -18166,7 +18143,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3360": {
      "u": "https://nexoinmobiliario.pe/departamentos/barranco/horne-3360",
@@ -18347,7 +18324,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3362": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/edificio-blend-3362",
@@ -18473,7 +18450,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3370": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/suma-los-geranios-124-3370",
@@ -18588,7 +18565,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3371": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/nuova-vita-3371",
@@ -18626,7 +18603,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3375": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/escudero-3375",
@@ -18719,7 +18696,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3376": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/naxos-3376",
@@ -18768,7 +18745,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3378": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/altavista-aranibar-3378",
@@ -18861,7 +18838,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3379": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/ciudaris-i-monet-3379",
@@ -19047,7 +19024,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3384": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/zentro-3384",
@@ -19107,7 +19084,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3385": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/albamar-re-3385",
@@ -19244,7 +19221,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3390": {
      "u": "https://nexoinmobiliario.pe/departamentos/comas/residencial-seiss-3390",
@@ -19381,7 +19358,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3391": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/aster-reducto-3391",
@@ -19485,7 +19462,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3392": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/cross-3392",
@@ -19589,7 +19566,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3394": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/vision-prado-3394",
@@ -19671,7 +19648,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3395": {
      "u": "https://nexoinmobiliario.pe/departamentos/rimac/las-lomas-residencial-ecoamigable-3395",
@@ -19967,7 +19944,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3398": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/alicanto-3398",
@@ -20060,7 +20037,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3399": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/top-life-juan-de-aliaga-3399",
@@ -20153,7 +20130,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3403": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/aliaga-442-3403",
@@ -20279,7 +20256,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3406": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/albamar-match-3406",
@@ -20394,7 +20371,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3410": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/glam-3410",
@@ -20520,7 +20497,7 @@
       ]
      },
      "r": 20716,
-     "x": 20729
+     "x": 20730
     },
     "3197": {
      "u": "https://nexoinmobiliario.pe/departamentos/arequipa/luzzo-cerro-colorado-3197",
@@ -20569,8 +20546,8 @@
        20717
       ]
      },
-     "r": 20729,
-     "x": 20729
+     "r": 20730,
+     "x": 20730
     },
     "3512": {
      "u": "https://nexoinmobiliario.pe/departamentos/arequipa/condominio-club-los-parques-2da-etapa-3512",
@@ -20608,8 +20585,8 @@
        20717
       ]
      },
-     "r": 20729,
-     "x": 20729
+     "r": 20730,
+     "x": 20730
     },
     "3513": {
      "u": "https://nexoinmobiliario.pe/departamentos/cusco/lumine-3513",
@@ -20691,8 +20668,8 @@
        20717
       ]
      },
-     "r": 20729,
-     "x": 20729
+     "r": 20730,
+     "x": 20730
     },
     "3549": {
      "u": "https://nexoinmobiliario.pe/departamentos/arequipa/casaparq-aqp-f-3549",
@@ -20758,8 +20735,8 @@
        20717
       ]
      },
-     "r": 20729,
-     "x": 20729
+     "r": 20730,
+     "x": 20730
     },
     "3963": {
      "u": "https://nexoinmobiliario.pe/departamentos/arequipa/casaparq-aqp-g-3963",
@@ -20808,8 +20785,8 @@
        20717
       ]
      },
-     "r": 20729,
-     "x": 20729
+     "r": 20730,
+     "x": 20730
     },
     "4123": {
      "u": "https://nexoinmobiliario.pe/departamentos/arequipa/condominio-a-etapa-5-4123",
@@ -20891,8 +20868,8 @@
        20717
       ]
      },
-     "r": 20729,
-     "x": 20729
+     "r": 20730,
+     "x": 20730
     },
     "4241": {
      "u": "https://nexoinmobiliario.pe/departamentos/arequipa/condominio-club-los-parques-3era-etapa-4241",
@@ -20963,8 +20940,8 @@
        20717
       ]
      },
-     "r": 20729,
-     "x": 20729
+     "r": 20730,
+     "x": 20730
     },
     "4334": {
      "u": "https://nexoinmobiliario.pe/departamentos/arequipa/casaparq-collection-arequipa-4334",
@@ -21024,8 +21001,8 @@
        20717
       ]
      },
-     "r": 20729,
-     "x": 20729
+     "r": 20730,
+     "x": 20730
     },
     "3412": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/via-cadiz-3412",
@@ -21064,7 +21041,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3413": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/concepto-unity-park-3413",
@@ -21136,7 +21113,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3414": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/neo-lloque-3414",
@@ -21230,7 +21207,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3415": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/perez-walk-3415",
@@ -21346,7 +21323,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3416": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/brick-reducto-894-3416",
@@ -21374,7 +21351,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3422": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/top-living-3422",
@@ -21490,7 +21467,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3423": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/ecoamira-3423",
@@ -21595,7 +21572,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3425": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/alameda-san-miguel-3425",
@@ -21777,7 +21754,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3426": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/eco-style-etapa-2-3426",
@@ -21827,7 +21804,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3427": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/costazul-3427",
@@ -21932,7 +21909,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3429": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/viridian-3429",
@@ -22048,7 +22025,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3430": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/azul-condominio-3430",
@@ -22098,7 +22075,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3434": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/faisanes-iii-3434",
@@ -22368,7 +22345,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3437": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/aster-basadre-3437",
@@ -22407,7 +22384,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3445": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-molina/sunny-park-la-molina-3445",
@@ -22534,7 +22511,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3452": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/qantua-fase-2-3452",
@@ -22606,7 +22583,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3453": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/cedro-33-3453",
@@ -22788,7 +22765,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3454": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/brera-3454",
@@ -22838,7 +22815,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3455": {
      "u": "https://nexoinmobiliario.pe/departamentos/brena/del-parque-centro-lite-3455",
@@ -22888,7 +22865,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3456": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/bosco-3456",
@@ -22927,7 +22904,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3461": {
      "u": "https://nexoinmobiliario.pe/departamentos/bellavista/alto-bellavista-etapa-2-3461",
@@ -22966,7 +22943,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3464": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/casaparq-monterrico-iii-view-3464",
@@ -23027,7 +23004,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3466": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/evolution-3466",
@@ -23099,7 +23076,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3469": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/mural-lince-3469",
@@ -23270,7 +23247,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3470": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/catalina-sky-3470",
@@ -23408,7 +23385,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3472": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/cannelle-3472",
@@ -23447,7 +23424,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3473": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/brisa-miraflores-3473",
@@ -23580,7 +23557,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3476": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/element-3476",
@@ -23839,7 +23816,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3477": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/monte-sierpe-3477",
@@ -23889,7 +23866,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3480": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/more-3480",
@@ -24038,7 +24015,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3482": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/landart-3482",
@@ -24110,7 +24087,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3485": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/alejandria-3485",
@@ -24259,7 +24236,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3487": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/francisco-del-castillo-252-3487",
@@ -24337,7 +24314,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3491": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/centrium-santa-beatriz-3491",
@@ -24541,7 +24518,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3496": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/ingreen-3496",
@@ -24624,7 +24601,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3497": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/florece-etapa-2-3497",
@@ -24718,7 +24695,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3500": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/talara702-3500",
@@ -24801,7 +24778,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3503": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/luna-3503",
@@ -24906,7 +24883,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3508": {
      "u": "https://nexoinmobiliario.pe/departamentos/brena/vida-varela-3508",
@@ -24956,7 +24933,7 @@
       ]
      },
      "r": 20717,
-     "x": 20729
+     "x": 20730
     },
     "3509": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/del-rio-294-3509",
@@ -25017,7 +24994,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3510": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/edificio-calamo-3510",
@@ -25155,7 +25132,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3511": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/ascend-3511",
@@ -25227,7 +25204,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3517": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/medina-3517",
@@ -25343,7 +25320,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3524": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/affinity-3524",
@@ -25481,7 +25458,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3525": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/aliaga-491-3525",
@@ -25520,7 +25497,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3527": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/lambayeque-197-3527",
@@ -25603,7 +25580,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3528": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/atahualpa-448-3528",
@@ -25642,7 +25619,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3530": {
      "u": "https://nexoinmobiliario.pe/departamentos/barranco/preston-3530",
@@ -25703,7 +25680,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3535": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/quinta-villa-3535",
@@ -25808,7 +25785,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3537": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/serie-18-3537",
@@ -25847,7 +25824,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3538": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/dulanto-pueblo-libre-3538",
@@ -25996,7 +25973,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3539": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/delamar-3539",
@@ -26079,7 +26056,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3543": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/link-3543",
@@ -26349,7 +26326,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3544": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/lumina-3544",
@@ -26410,7 +26387,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3547": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/pardo-1453-3547",
@@ -26537,7 +26514,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3551": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/antonia-3551",
@@ -26631,7 +26608,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3552": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/bernales-442-3552",
@@ -26692,7 +26669,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3553": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/parkview-3553",
@@ -27160,7 +27137,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3555": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/olaya-535-3555",
@@ -27265,7 +27242,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3561": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/marsano-park-3561",
@@ -27359,7 +27336,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3565": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/infinite-3565",
@@ -27475,7 +27452,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3567": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/mont-3567",
@@ -27514,7 +27491,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3575": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/28-de-julio-360-3575",
@@ -27674,7 +27651,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3577": {
      "u": "https://nexoinmobiliario.pe/departamentos/ate/residencial-salamanca-de-monterrico-19-3577",
@@ -27713,7 +27690,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3578": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/loto-3578",
@@ -27906,7 +27883,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3579": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/pino-3579",
@@ -27989,7 +27966,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3581": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/vivum-3581",
@@ -28061,7 +28038,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3582": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/saranti-3582",
@@ -28210,7 +28187,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3585": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/nuvo-3585",
@@ -28326,7 +28303,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3587": {
      "u": "https://nexoinmobiliario.pe/departamentos/brena/maz-etapa-2-3587",
@@ -28574,7 +28551,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3589": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/beyond-3589",
@@ -28657,7 +28634,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3590": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/torre-marsano-28-3590",
@@ -28817,7 +28794,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3591": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/casa-del-parque-3591",
@@ -28867,7 +28844,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3592": {
      "u": "https://nexoinmobiliario.pe/departamentos/brena/ativo-3592",
@@ -29027,7 +29004,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3593": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/monument-3593",
@@ -29308,7 +29285,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3595": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/pacifico-299-3595",
@@ -29391,7 +29368,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3596": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/salaverry-3596",
@@ -29452,7 +29429,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3598": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/inspira-2-3598",
@@ -30129,7 +30106,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3600": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/ciudaris-olive-park-3600",
@@ -30190,7 +30167,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3601": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/via-alegro-3601",
@@ -30240,7 +30217,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3602": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/aurora-4-3602",
@@ -30334,7 +30311,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3604": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/milano-park-3604",
@@ -30362,7 +30339,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3606": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/boulevard-3606",
@@ -30401,7 +30378,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3607": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/free-3607",
@@ -30869,7 +30846,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3608": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/villaran-3608",
@@ -31238,7 +31215,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3610": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/villa-alba-3610",
@@ -31475,7 +31452,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3619": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/bosqo-3619",
@@ -31602,7 +31579,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3620": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/simpli-life-3620",
@@ -31663,7 +31640,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3621": {
      "u": "https://nexoinmobiliario.pe/departamentos/bellavista/pazea-3621",
@@ -31878,7 +31855,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3622": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/residencial-nueva-costanera-3622",
@@ -31961,7 +31938,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3623": {
      "u": "https://nexoinmobiliario.pe/departamentos/barranco/vibrant-3623",
@@ -32044,7 +32021,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3627": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/ingenieros-943-3627",
@@ -32116,7 +32093,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3631": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/ten-apartments-3631",
@@ -33332,7 +33309,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3632": {
      "u": "https://nexoinmobiliario.pe/departamentos/carabayllo/lomas-de-carabayllo-etapa-5-3632",
@@ -33371,7 +33348,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3635": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/itaca-3635",
@@ -33454,7 +33431,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3637": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/torre-germania-3637",
@@ -34054,7 +34031,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3639": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/live-apts-3639",
@@ -34225,7 +34202,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3640": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/560-place-3640",
@@ -34363,7 +34340,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3642": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/acacias-3642",
@@ -34523,7 +34500,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3647": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/movento-3647",
@@ -34606,7 +34583,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3648": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/riva-3648",
@@ -34887,7 +34864,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3653": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/bellaterra-3653",
@@ -34926,7 +34903,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3659": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/kava-3659",
@@ -35141,7 +35118,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3660": {
      "u": "https://nexoinmobiliario.pe/departamentos/comas/cinnco-mambo-etapa-ii-departamento-en-comas-3660",
@@ -35213,7 +35190,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3661": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/elant-fase-3-3661",
@@ -35417,7 +35394,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3663": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/albamar-miralba-3663",
@@ -35577,7 +35554,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3664": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/catleya-3664",
@@ -35748,7 +35725,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3665": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/fortiva-3665",
@@ -36128,7 +36105,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3666": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/park-orquideas-3666",
@@ -36244,7 +36221,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3668": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/foresta-san-borja-3668",
@@ -36272,7 +36249,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3672": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/lumo-3672",
@@ -36333,7 +36310,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3677": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/beli-465-3677",
@@ -36460,7 +36437,7 @@
       ]
      },
      "r": 20718,
-     "x": 20729
+     "x": 20730
     },
     "3678": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/edificio-incentric-3678",
@@ -36862,7 +36839,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3679": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/quatro-vista-tower-3679",
@@ -36989,7 +36966,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3680": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/living-soho-3680",
@@ -37094,7 +37071,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3681": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-luis/lasso-ii-3681",
@@ -37221,7 +37198,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3682": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/atria-3682",
@@ -37370,7 +37347,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3683": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/albamar-aura-3683",
@@ -37464,7 +37441,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3684": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/albamar-bea-3684",
@@ -37591,7 +37568,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3685": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/novo-4-surquillo-3685",
@@ -37685,7 +37662,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3686": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/el-olivar-3686",
@@ -37856,7 +37833,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3687": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/millennium-magdalena-3687",
@@ -37939,7 +37916,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3690": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/capadocia-3690",
@@ -38110,7 +38087,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3693": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/roble-3693",
@@ -38215,7 +38192,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3697": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/gran-manzano-3697",
@@ -38507,7 +38484,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3722": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/monte-carmelo-551-3722",
@@ -38645,7 +38622,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3724": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/sauce-zen-3724",
@@ -38860,7 +38837,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3729": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/bilancia-3729",
@@ -39042,7 +39019,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3730": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/nicaragua-153-3730",
@@ -39136,7 +39113,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3735": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/prad-3735",
@@ -39263,7 +39240,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3736": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/modena-3736",
@@ -39412,7 +39389,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3737": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/nova-colonial-cercado-de-lima-3737",
@@ -39561,7 +39538,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3739": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/bran-3739",
@@ -39600,7 +39577,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3744": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/rafael-3744",
@@ -39639,7 +39616,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3745": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/edem-3745",
@@ -39810,7 +39787,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3746": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/capri-santa-catalina-3746",
@@ -39987,7 +39964,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3751": {
      "u": "https://nexoinmobiliario.pe/departamentos/ate/los-algarrobos-de-salamanca-3751",
@@ -40026,7 +40003,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3752": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/elite-14-3752",
@@ -40065,7 +40042,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3753": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/larco-1036-atemporal-flats-miraflores-3753",
@@ -40148,7 +40125,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3755": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/pardo-664-3755",
@@ -40319,7 +40296,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3768": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/edificio-el-molino-3768",
@@ -40430,7 +40407,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3770": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/jardines-de-monte-real-3770",
@@ -40656,7 +40633,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3776": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/von-3776",
@@ -40794,7 +40771,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "3777": {
      "u": "https://nexoinmobiliario.pe/departamentos/santa-anita/gran-jardin-ticino-2-3777",
@@ -40844,7 +40821,7 @@
       ]
      },
      "r": 20719,
-     "x": 20729
+     "x": 20730
     },
     "2241": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/morar-2241",
@@ -40872,7 +40849,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3780": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/torre-luxor-3780",
@@ -41010,7 +40987,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3781": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/albamar-brisana-3781",
@@ -41203,7 +41180,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3782": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/villa-convivium-3-3782",
@@ -41429,7 +41406,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3784": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/bugambilias-3784",
@@ -41600,7 +41577,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3787": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/barrio-verde-2-3787",
@@ -41727,7 +41704,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3788": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/tempus-la-paz-1227-miraflores-3788",
@@ -41887,7 +41864,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3790": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/bellagio-3790",
@@ -41992,7 +41969,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3791": {
      "u": "https://nexoinmobiliario.pe/departamentos/rimac/pradera-del-rimac-etapa-5-3791",
@@ -42064,7 +42041,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3793": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/liberalia-3793",
@@ -42279,7 +42256,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3794": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/green-nova-3794",
@@ -42439,7 +42416,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3795": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/floresta-living-444-3795",
@@ -42478,7 +42455,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3796": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/luma-san-miguel-3796",
@@ -42748,7 +42725,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3797": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/huiracocha-jesus-maria-3797",
@@ -42842,7 +42819,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3801": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/buenavista-panama-5110-3801",
@@ -43024,7 +43001,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3802": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/vive-olivar-3802",
@@ -43140,7 +43117,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3803": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/gran-guardia-peruana-etapa-2-3803",
@@ -43190,7 +43167,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3804": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/castello-3804",
@@ -43306,7 +43283,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3805": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/hub-encalada-3805",
@@ -43411,7 +43388,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3806": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/edificio-matisse-3806",
@@ -43461,7 +43438,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3807": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/arteco-jardines-3807",
@@ -43544,7 +43521,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3809": {
      "u": "https://nexoinmobiliario.pe/departamentos/barranco/grau-10-3809",
@@ -43803,7 +43780,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3811": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/serie-20-3811",
@@ -43875,7 +43852,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3813": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/condominio-libertad-2515-3813",
@@ -44035,7 +44012,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3814": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/lumen-3814",
@@ -44140,7 +44117,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3816": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/mareia-3816",
@@ -44223,7 +44200,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3817": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/vista-park-3817",
@@ -44295,7 +44272,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3818": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/naara-3818",
@@ -44422,7 +44399,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3819": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/casaparq-monterrico-iv-3819",
@@ -44472,7 +44449,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3820": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/la-marina-3420-3820",
@@ -44698,7 +44675,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3823": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/nara-3823",
@@ -44792,7 +44769,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "873": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/medis-873",
@@ -44820,7 +44797,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "2788": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/residencial-brio-2788",
@@ -44848,7 +44825,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3825": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/aramburu-park-3825",
@@ -45679,7 +45656,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3826": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/quatro-bio-430-3826",
@@ -45839,7 +45816,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3827": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/alameda-central-condominio-torre-7-3827",
@@ -45977,7 +45954,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3828": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/eccolo-3828",
@@ -46247,7 +46224,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3829": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/ciudaris-i-tuliv-3829",
@@ -46363,7 +46340,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3831": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/bonsai-3831",
@@ -46468,7 +46445,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3834": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/casa-de-osma-3834",
@@ -46881,7 +46858,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3835": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/salaverry-district-3835",
@@ -47789,7 +47766,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3836": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/altive-3836",
@@ -47993,7 +47970,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3838": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/venecia-3838",
@@ -48120,7 +48097,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3841": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/qantua-fase-3-3841",
@@ -48324,7 +48301,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3842": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/avila-park-3842",
@@ -48385,7 +48362,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3848": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-juan-de-lurigancho/los-parques-de-san-juan-torre-3-3848",
@@ -48606,7 +48583,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3851": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/san-borja-sur-1170-3851",
@@ -48700,7 +48677,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3852": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/ascent-3852",
@@ -48849,7 +48826,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3854": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/madison-park-3854",
@@ -49075,7 +49052,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3855": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/bromelia-3855",
@@ -49180,7 +49157,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3856": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/centriqo-club-condomino-ecoamigable-torre-6-3856",
@@ -49362,7 +49339,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3857": {
      "u": "https://nexoinmobiliario.pe/departamentos/brena/bonavista-condominio-3857",
@@ -49720,7 +49697,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3858": {
      "u": "https://nexoinmobiliario.pe/departamentos/ate/residencial-los-saucos-recaudadores-32-3858",
@@ -49759,7 +49736,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3859": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/matera-3859",
@@ -50095,7 +50072,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3860": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/maio-3860",
@@ -50145,7 +50122,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3864": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/catalina-view-3864",
@@ -50382,7 +50359,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3865": {
      "u": "https://nexoinmobiliario.pe/departamentos/brena/arteco-atelier-3865",
@@ -50465,7 +50442,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3866": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/bloom-3866",
@@ -50625,7 +50602,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3874": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/azara-3874",
@@ -50664,7 +50641,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3877": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/cedros-park-3877",
@@ -50912,7 +50889,7 @@
       ]
      },
      "r": 20720,
-     "x": 20729
+     "x": 20730
     },
     "3878": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/creta-3878",
@@ -51050,7 +51027,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3882": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/sanmi-3882",
@@ -51100,7 +51077,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3886": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/villa-elenia-3886",
@@ -51348,7 +51325,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3891": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/zendai-fase-2-3891",
@@ -51475,7 +51452,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3892": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/costanova-3892",
@@ -51778,7 +51755,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3895": {
      "u": "https://nexoinmobiliario.pe/departamentos/callao/alto-metro-park-3895",
@@ -51839,7 +51816,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3896": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/concepto-ocean-breath-3896",
@@ -51911,7 +51888,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3897": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/icaro-164-chorrillos-3897",
@@ -52082,7 +52059,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3898": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/twins-3898",
@@ -52319,7 +52296,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3899": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/allure-jesus-maria-3899",
@@ -52512,7 +52489,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3900": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/torre-napoles-3900",
@@ -52672,7 +52649,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3902": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/inca-ripac-3902",
@@ -52876,7 +52853,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3903": {
      "u": "https://nexoinmobiliario.pe/departamentos/carabayllo/valles-de-santa-maria-3903",
@@ -52904,7 +52881,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3904": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/pasaje-118-surco-3904",
@@ -52987,7 +52964,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3906": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/seika-3906",
@@ -53037,7 +53014,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3908": {
      "u": "https://nexoinmobiliario.pe/departamentos/barranco/roots-3908",
@@ -53208,7 +53185,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3909": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/malena-family-apartments-3909",
@@ -53445,7 +53422,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3911": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/lucca-3911",
@@ -53572,7 +53549,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3912": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/flat-belisario-3912",
@@ -53732,7 +53709,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3913": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/catalina-park-3913",
@@ -54200,7 +54177,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3914": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/open-marsano-3914",
@@ -54327,7 +54304,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3916": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/portofino-3916",
@@ -54498,7 +54475,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3917": {
      "u": "https://nexoinmobiliario.pe/departamentos/comas/cuattro-mambo-etapa-iii-3917",
@@ -54647,7 +54624,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3918": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/numa-3918",
@@ -54741,7 +54718,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3919": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/hub-3919",
@@ -54802,7 +54779,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3923": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/malaga-257-3923",
@@ -54841,7 +54818,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3924": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/residencial-santa-susana-3924",
@@ -54935,7 +54912,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3925": {
      "u": "https://nexoinmobiliario.pe/departamentos/brena/residencial-recuay-3925",
@@ -55062,7 +55039,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3926": {
      "u": "https://nexoinmobiliario.pe/departamentos/independencia/gran-parque-norte-etapa-1-3926",
@@ -55112,7 +55089,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3927": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/olivo-3927",
@@ -55228,7 +55205,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3929": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/salaverry-563-3929",
@@ -55333,7 +55310,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3931": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/ezena-4-3931",
@@ -55708,7 +55685,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3934": {
      "u": "https://nexoinmobiliario.pe/departamentos/barranco/atreo-apartments-3934",
@@ -55879,7 +55856,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3936": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/natural-urban-3936",
@@ -56083,7 +56060,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3937": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/eleva-155-3937",
@@ -56166,7 +56143,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3940": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/matiz-3940",
@@ -56403,7 +56380,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3942": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/eucalipto-3942",
@@ -56673,7 +56650,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3944": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/mora-3944",
@@ -56789,7 +56766,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3945": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/vizuale-3-3945",
@@ -56850,7 +56827,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3946": {
      "u": "https://nexoinmobiliario.pe/departamentos/barranco/the-muse-3946",
@@ -57307,7 +57284,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3949": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/alto-rospigliosi-3949",
@@ -57346,7 +57323,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3950": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/noa-3950",
@@ -57451,7 +57428,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3951": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/andalucia-3951",
@@ -57534,7 +57511,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3952": {
      "u": "https://nexoinmobiliario.pe/departamentos/barranco/residencial-panama-280-3952",
@@ -58090,7 +58067,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3953": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/albamar-flex-3953",
@@ -58239,7 +58216,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3954": {
      "u": "https://nexoinmobiliario.pe/departamentos/brena/albamar-quadra-3954",
@@ -58377,7 +58354,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3955": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/velasco-astete-3955",
@@ -58548,7 +58525,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3956": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/capital-3956",
@@ -58653,7 +58630,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3957": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/polo-park-3957",
@@ -58791,7 +58768,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3959": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/milos-3959",
@@ -58929,7 +58906,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3960": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/jardines-de-santa-beatriz-tercera-etapa-3960",
@@ -59089,7 +59066,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3962": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/maytacapac1248-3962",
@@ -59161,7 +59138,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3965": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/vertice-3965",
@@ -59321,7 +59298,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3968": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/bosquia-living-3968",
@@ -59404,7 +59381,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3973": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/essenza-117-3973",
@@ -59531,7 +59508,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3975": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/the-summit-3975",
@@ -59691,7 +59668,7 @@
       ]
      },
      "r": 20721,
-     "x": 20729
+     "x": 20730
     },
     "3976": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/west-prado-3976",
@@ -59763,7 +59740,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "3978": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/lima-15-3978",
@@ -59923,7 +59900,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "3979": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/t23-3979",
@@ -60050,7 +60027,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "3981": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/versia-3981",
@@ -60155,7 +60132,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "3985": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/stellia-3985",
@@ -60271,7 +60248,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "3986": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/the-brickell-tower-3986",
@@ -60387,7 +60364,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "3989": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/condominio-solaris-3989",
@@ -60965,7 +60942,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "3990": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/zentra-3990",
@@ -61136,7 +61113,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "3991": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/vianova-3991",
@@ -61208,7 +61185,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "3992": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/park-55-3992",
@@ -61379,7 +61356,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "3994": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/blend-3994",
@@ -61462,7 +61439,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "3995": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/parque-martinelli-3995",
@@ -61545,7 +61522,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "3997": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/von-leonard-3997",
@@ -61606,7 +61583,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "3998": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/edificio-magda-3998",
@@ -61887,7 +61864,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "4000": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/capuli-4000",
@@ -62102,7 +62079,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "4001": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/rdc-525-surco-4001",
@@ -62207,7 +62184,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "4002": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/edificio-new-limit-4002",
@@ -62543,7 +62520,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "4003": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/edificio-nitoa-6-4003",
@@ -62692,7 +62669,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "4004": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/montelier-4004",
@@ -62896,7 +62873,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "4005": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/galicia-park-4005",
@@ -62968,7 +62945,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "4006": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/aster-costanera-4006",
@@ -63095,7 +63072,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "4007": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/salaverry-i-4007",
@@ -63299,7 +63276,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "4010": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/tinto-4010",
@@ -63415,7 +63392,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "4011": {
      "u": "https://nexoinmobiliario.pe/departamentos/barranco/indigo-4011",
@@ -63520,7 +63497,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "4012": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/parque-fatima-4012",
@@ -63713,7 +63690,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "4015": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/veronese-4015",
@@ -63807,7 +63784,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "4022": {
      "u": "https://nexoinmobiliario.pe/departamentos/lurin/valles-de-lurin-4022",
@@ -63846,7 +63823,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "4023": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-luis/tracciato-4023",
@@ -63940,7 +63917,7 @@
       ]
      },
      "r": 20722,
-     "x": 20729
+     "x": 20730
     },
     "2779": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/central-apartments-la-mar-2779",
@@ -63968,7 +63945,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4025": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/liv-360-4025",
@@ -64183,7 +64160,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4026": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/cristobal-4026",
@@ -64266,7 +64243,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4028": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/lyra-4028",
@@ -64459,7 +64436,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4029": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/residencial-verona-4029",
@@ -64696,7 +64673,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4031": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/nazca-4031",
@@ -64922,7 +64899,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4032": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/lumiere-4032",
@@ -64983,7 +64960,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4033": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/arboria-4033",
@@ -65121,7 +65098,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4036": {
      "u": "https://nexoinmobiliario.pe/departamentos/independencia/nueva-independencia-torre-2-4036",
@@ -65336,7 +65313,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4039": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/montecarlo-4039",
@@ -65430,7 +65407,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4041": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/sucre-1005-4041",
@@ -65568,7 +65545,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4044": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/tasca-4044",
@@ -65662,7 +65639,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4045": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/almendra-4045",
@@ -65723,7 +65700,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4046": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/alonso-4046",
@@ -65795,7 +65772,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4047": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/parque-el-rosal-2-4047",
@@ -65944,7 +65921,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4048": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/prado-harmony-4048",
@@ -66192,7 +66169,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4052": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/esparq-170-4052",
@@ -66275,7 +66252,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4053": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/danaus-surquillo-4053",
@@ -66600,7 +66577,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4054": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/dimora-park-4054",
@@ -66661,7 +66638,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4055": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/flat-jose-leal-4055",
@@ -66810,7 +66787,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4056": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/javier-prado-oeste-2168-4056",
@@ -66937,7 +66914,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4057": {
      "u": "https://nexoinmobiliario.pe/departamentos/barranco/bustamante-175-4057",
@@ -67130,7 +67107,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4060": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/dorue-etapa-2-4060",
@@ -67268,7 +67245,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4062": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/torre-magno-4062",
@@ -67362,7 +67339,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4065": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/prime-santa-cruz-4065",
@@ -67533,7 +67510,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4068": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/impettu-4068",
@@ -67605,7 +67582,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4069": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/legacy-4069",
@@ -67809,7 +67786,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4070": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/prada-park-4070",
@@ -67925,7 +67902,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4071": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-juan-de-lurigancho/gran-bosque-ciruelo-4071",
@@ -67975,7 +67952,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4073": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/alto-alborada-etapa-2-4073",
@@ -68014,7 +67991,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4075": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/concepto-unity-park-etapa-2-4075",
@@ -68086,7 +68063,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4076": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/boheme-4076",
@@ -68301,7 +68278,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4078": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/living-residencia-club-4078",
@@ -68461,7 +68438,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4079": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/coruna-living-park-4079",
@@ -68588,7 +68565,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4080": {
      "u": "https://nexoinmobiliario.pe/departamentos/brena/del-parque-centro-iv-4080",
@@ -68671,7 +68648,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4081": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/beeland-4081",
@@ -68732,7 +68709,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4083": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/amazonika-4083",
@@ -68980,7 +68957,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4084": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/be-happy-4084",
@@ -69107,7 +69084,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4085": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/parque-la-coruna-4085",
@@ -69135,7 +69112,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4086": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/albamar-alma-4086",
@@ -69229,7 +69206,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4087": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/qantua-fase-4-4087",
@@ -69488,7 +69465,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4088": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/albamar-move-4088",
@@ -69626,7 +69603,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4090": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/marsano-2669-4090",
@@ -69819,7 +69796,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4092": {
      "u": "https://nexoinmobiliario.pe/departamentos/brena/albamar-gran-cornejo-4092",
@@ -69935,7 +69912,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4096": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/bosque-real-4096",
@@ -70128,7 +70105,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4097": {
      "u": "https://nexoinmobiliario.pe/departamentos/ate/condominio-villa-nova-santa-clara-ate-4097",
@@ -70244,7 +70221,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4099": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/ancora-4099",
@@ -70338,7 +70315,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4101": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/plaza-bertello-4101",
@@ -70454,7 +70431,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4102": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/aurora-loft21-4102",
@@ -70581,7 +70558,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4104": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/orquideas-4104",
@@ -70829,7 +70806,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4105": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/castilla-park-4105",
@@ -70934,7 +70911,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4107": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/gastonia-park-4107",
@@ -70973,7 +70950,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4108": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/copenhague-4108",
@@ -71133,7 +71110,7 @@
       ]
      },
      "r": 20723,
-     "x": 20729
+     "x": 20730
     },
     "4113": {
      "u": "https://nexoinmobiliario.pe/departamentos/barranco/the-beat-4113",
@@ -71216,7 +71193,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4114": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/almagro-260-4114",
@@ -71332,7 +71309,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4116": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/guardia-civil-sur-314-4116",
@@ -71756,7 +71733,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4118": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/apartamentos-essenziale-miraflores-4118",
@@ -71949,7 +71926,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4119": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-bartolo/salina-4119",
@@ -72054,7 +72031,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4120": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/amber-park-4120",
@@ -72104,7 +72081,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4125": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/ativa-fase-3-4125",
@@ -72187,7 +72164,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4127": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/parque-mochica-2-4127",
@@ -72226,7 +72203,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4128": {
      "u": "https://nexoinmobiliario.pe/departamentos/barranco/urban-mood-apartments-4128",
@@ -72463,7 +72440,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4129": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/polo-springs-4129",
@@ -72568,7 +72545,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4130": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/aura-4130",
@@ -72695,7 +72672,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4135": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/mirahome-4135",
@@ -72778,7 +72755,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4138": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/lucerna-4138",
@@ -72839,7 +72816,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4140": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/park-living-4140",
@@ -72955,7 +72932,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4142": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/sky-house-4142",
@@ -73170,7 +73147,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4143": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/las-begonias-4143",
@@ -73297,7 +73274,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4145": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/montero-rosas-1080-4145",
@@ -73963,7 +73940,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4146": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/benavides-1361-4146",
@@ -74233,7 +74210,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4148": {
      "u": "https://nexoinmobiliario.pe/departamentos/brena/torre-arica-4148",
@@ -74547,7 +74524,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4149": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/llums-family-style-4149",
@@ -74685,7 +74662,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4150": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/oceano-atlantico-394-4150",
@@ -74801,7 +74778,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4151": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/mar-del-sur-193-4151",
@@ -74961,7 +74938,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4152": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/parque-monte-carmelo-4152",
@@ -75110,7 +75087,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4153": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/vivienne-by-vive-4153",
@@ -75358,7 +75335,7 @@
       ]
      },
      "r": 20724,
-     "x": 20729
+     "x": 20730
     },
     "4154": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/sienna-4154",
@@ -75529,7 +75506,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4155": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/chacaltana-361-4155",
@@ -75667,7 +75644,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4156": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/ibiza-4156",
@@ -75959,7 +75936,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4158": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/greta-4158",
@@ -76097,7 +76074,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4159": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/malecon-grau-501-4159",
@@ -76411,7 +76388,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4160": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/hub-living-4160",
@@ -76560,7 +76537,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4161": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/residencial-green-life-etapa-2-4161",
@@ -76698,7 +76675,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4162": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/residencial-villa-fatima-4162",
@@ -76803,7 +76780,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4165": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/edificio-inprime-4165",
@@ -76875,7 +76852,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4166": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/oli-all-inclusive-vive-pueblo-libre-4166",
@@ -76958,7 +76935,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4168": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/peralta-124-4168",
@@ -77052,7 +77029,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4172": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/cordova-4172",
@@ -77267,7 +77244,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4174": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/zegarra-920-4174",
@@ -77350,7 +77327,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4175": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/parque-central-722-4175",
@@ -77763,7 +77740,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4179": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/parque-bahamonde-4179",
@@ -77945,7 +77922,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4182": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/canela-4182",
@@ -78083,7 +78060,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4183": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/dibos-728-4183",
@@ -78177,7 +78154,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4184": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/the-standard-4184",
@@ -78315,7 +78292,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4187": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/las-leyendas-de-cuba-4187",
@@ -78596,7 +78573,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4188": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/marena-4188",
@@ -78855,7 +78832,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4192": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/nova-living-4192",
@@ -79158,7 +79135,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "2281": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/nobel-2281",
@@ -79197,7 +79174,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4194": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/vivapark-150-4194",
@@ -79346,7 +79323,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4197": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/kai-4197",
@@ -79495,7 +79472,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4198": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/vizuale-5-4198",
@@ -79600,7 +79577,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4201": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/la-castellana-863-4201",
@@ -79705,7 +79682,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4202": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/parque-casuarinas-4202",
@@ -79832,7 +79809,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4203": {
      "u": "https://nexoinmobiliario.pe/departamentos/ate/residencial-los-algarrobos-ii-4203",
@@ -79959,7 +79936,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4207": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/intihuatana-449-4207",
@@ -80086,7 +80063,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4208": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/gran-central-colonial-2-etapa-2-4208",
@@ -80136,7 +80113,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4209": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/sevilla-4209",
@@ -80263,7 +80240,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4210": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/libertador-4210",
@@ -80346,7 +80323,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4212": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/alvia-4212",
@@ -80473,7 +80450,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4214": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/proyecto-menta-4214",
@@ -80644,7 +80621,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4218": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/skyline-4218",
@@ -80892,7 +80869,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4219": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/glorieta-4219",
@@ -80975,7 +80952,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4220": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/condominio-los-bosques-4220",
@@ -81740,7 +81717,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4221": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/magdalena-park-plaza-4221",
@@ -81845,7 +81822,7 @@
       ]
      },
      "r": 20725,
-     "x": 20729
+     "x": 20730
     },
     "4223": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/saenz-4223",
@@ -82038,7 +82015,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4224": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/prime-4224",
@@ -82154,7 +82131,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4225": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/cedro-33-bloque-b-4225",
@@ -82325,7 +82302,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4226": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/torre-bolivar-4226",
@@ -82727,7 +82704,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4228": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/san-martin-4228",
@@ -82942,7 +82919,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4230": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/sq2-work-living-apartments-4230",
@@ -83047,7 +83024,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4231": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/lookfeel-etapa-3-4231",
@@ -83251,7 +83228,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4237": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/magdalena-view-4237",
@@ -83378,7 +83355,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4238": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/palacios-406-4238",
@@ -83439,7 +83416,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4239": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/parque-osores-4239",
@@ -83511,7 +83488,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4242": {
      "u": "https://nexoinmobiliario.pe/departamentos/brena/los-parques-de-brena-club-residencial-4242",
@@ -83638,7 +83615,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4246": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/unico-canevaro-4246",
@@ -83919,7 +83896,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4248": {
      "u": "https://nexoinmobiliario.pe/departamentos/comas/los-geranios-2-conjunto-residencial-4248",
@@ -84035,7 +84012,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4250": {
      "u": "https://nexoinmobiliario.pe/departamentos/comas/los-lirios-villa-residencial-4250",
@@ -84261,7 +84238,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4251": {
      "u": "https://nexoinmobiliario.pe/departamentos/comas/cerezos-club-residencial-4251",
@@ -84487,7 +84464,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4252": {
      "u": "https://nexoinmobiliario.pe/departamentos/comas/magnolias-club-residencial-4252",
@@ -84614,7 +84591,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4115": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/alue-4115",
@@ -84675,7 +84652,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4256": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/melgar-440-4256",
@@ -84736,7 +84713,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4258": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/gala-4258",
@@ -84885,7 +84862,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4260": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/bugambilias-bloque-b-4260",
@@ -85210,7 +85187,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4261": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/montero-200-4261",
@@ -85326,7 +85303,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4262": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/mondrian-4262",
@@ -85475,7 +85452,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4265": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/domingo-orue-915-4265",
@@ -85536,7 +85513,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4266": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/andiamo-4266",
@@ -85740,7 +85717,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4268": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/vertyce-4268",
@@ -85933,7 +85910,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4269": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/florencia-4269",
@@ -85994,7 +85971,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4270": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/linum-4270",
@@ -86187,7 +86164,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4272": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-bartolo/malecon-san-bartolo-4272",
@@ -86545,7 +86522,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4273": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/armoni-ii-4273",
@@ -86865,7 +86842,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4282": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/sevilla-4282",
@@ -86959,7 +86936,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4284": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/karpathos-4284",
@@ -87097,7 +87074,7 @@
       ]
      },
      "r": 20726,
-     "x": 20729
+     "x": 20730
     },
     "4290": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/centric-plaza-4290",
@@ -87235,7 +87212,7 @@
       ]
      },
      "r": 20727,
-     "x": 20729
+     "x": 20730
     },
     "4291": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/park-harrison-4291",
@@ -87461,7 +87438,7 @@
       ]
      },
      "r": 20727,
-     "x": 20729
+     "x": 20730
     },
     "4297": {
      "u": "https://nexoinmobiliario.pe/departamentos/santa-anita/gran-jardin-ticino-2-etapa-2-4297",
@@ -87533,7 +87510,7 @@
       ]
      },
      "r": 20727,
-     "x": 20729
+     "x": 20730
     },
     "4298": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/leguia-860-4298",
@@ -87704,7 +87681,7 @@
       ]
      },
      "r": 20727,
-     "x": 20729
+     "x": 20730
     },
     "4299": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/lima-41-4299",
@@ -88271,7 +88248,7 @@
       ]
      },
      "r": 20727,
-     "x": 20729
+     "x": 20730
     },
     "4302": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/visora-4302",
@@ -88706,7 +88683,7 @@
       ]
      },
      "r": 20727,
-     "x": 20729
+     "x": 20730
     },
     "4303": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/scena-4303",
@@ -88866,7 +88843,7 @@
       ]
      },
      "r": 20727,
-     "x": 20729
+     "x": 20730
     },
     "4310": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/essenza-4310",
@@ -88971,7 +88948,7 @@
       ]
      },
      "r": 20727,
-     "x": 20729
+     "x": 20730
     },
     "4312": {
      "u": "https://nexoinmobiliario.pe/departamentos/ate/madri-living-4312",
@@ -89417,7 +89394,7 @@
       ]
      },
      "r": 20727,
-     "x": 20729
+     "x": 20730
     },
     "4313": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/silicce-4313",
@@ -89445,7 +89422,7 @@
       ]
      },
      "r": 20727,
-     "x": 20729
+     "x": 20730
     },
     "4315": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-martin-de-porres/proyecto-san-amadeo-4315",
@@ -90903,7 +90880,7 @@
       ]
      },
      "r": 20727,
-     "x": 20729
+     "x": 20730
     },
     "4316": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/catalina-living-4316",
@@ -91074,7 +91051,7 @@
       ]
      },
      "r": 20727,
-     "x": 20729
+     "x": 20730
     },
     "4317": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/jardines-de-rosenblat-4317",
@@ -91366,7 +91343,7 @@
       ]
      },
      "r": 20727,
-     "x": 20729
+     "x": 20730
     },
     "4321": {
      "u": "https://nexoinmobiliario.pe/departamentos/santa-anita/oasis-condominio-club-4321",
@@ -91834,7 +91811,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4322": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/tribal-4322",
@@ -91950,7 +91927,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4323": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/quatro-moa-401-4323",
@@ -92121,7 +92098,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4325": {
      "u": "https://nexoinmobiliario.pe/departamentos/surquillo/the-new-york-tower-4325",
@@ -92182,7 +92159,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4326": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/javier-prado-oeste-1121-4326",
@@ -92243,7 +92220,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4327": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/union-sq-park-4327",
@@ -92337,7 +92314,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4328": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/canal-street-4328",
@@ -92431,7 +92408,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4335": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/albamar-essence-4335",
@@ -92547,7 +92524,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4336": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/cricket-living-4336",
@@ -92674,7 +92651,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4337": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/serie-22-4337",
@@ -92790,7 +92767,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4338": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/anora-4338",
@@ -92873,7 +92850,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4340": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/vista-verde-ii-4340",
@@ -92978,7 +92955,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4341": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/le-chatelet-4341",
@@ -93039,7 +93016,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4343": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/grand-magdalena-4343",
@@ -93243,7 +93220,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4344": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/edificio-prime-4344",
@@ -93403,7 +93380,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4345": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/montaire-4345",
@@ -93508,7 +93485,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4347": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/residencial-konekta-4347",
@@ -93569,7 +93546,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4349": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/park-life-4349",
@@ -93718,7 +93695,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4351": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/parque-navarra-4351",
@@ -93834,7 +93811,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4353": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/sofia-4353",
@@ -93906,7 +93883,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4354": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/lurent-4354",
@@ -94440,7 +94417,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4356": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/valencia-4356",
@@ -94743,7 +94720,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4358": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/linden-park-4358",
@@ -94837,7 +94814,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4359": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/carrara-4359",
@@ -94975,7 +94952,7 @@
       ]
      },
      "r": 20728,
-     "x": 20729
+     "x": 20730
     },
     "4364": {
      "u": "https://nexoinmobiliario.pe/casas/lima/alameda-vista-verde-4364",
@@ -95003,7 +94980,7 @@
       ]
      },
      "r": 20729,
-     "x": 20729
+     "x": 20730
     },
     "4366": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/liguria-4366",
@@ -95229,7 +95206,7 @@
       ]
      },
      "r": 20729,
-     "x": 20729
+     "x": 20730
     },
     "4368": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/signe-4368",
@@ -95389,7 +95366,7 @@
       ]
      },
      "r": 20729,
-     "x": 20729
+     "x": 20730
     },
     "4374": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/pardo-451-4374",
@@ -95791,7 +95768,7 @@
       ]
      },
      "r": 20729,
-     "x": 20729
+     "x": 20730
     },
     "4375": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/merida-128-4375",
@@ -95951,7 +95928,7 @@
       ]
      },
      "r": 20729,
-     "x": 20729
+     "x": 20730
     },
     "4376": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/coruna-park-4376",
@@ -96056,7 +96033,7 @@
       ]
      },
      "r": 20729,
-     "x": 20729
+     "x": 20730
     },
     "4378": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/hatuey-205-4378",
@@ -96227,7 +96204,7 @@
       ]
      },
      "r": 20729,
-     "x": 20729
+     "x": 20730
     },
     "4379": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/villarreal-337-4379",
@@ -96343,7 +96320,7 @@
       ]
      },
      "r": 20729,
-     "x": 20729
+     "x": 20730
     },
     "4380": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/lord-nelson-124-4380",
@@ -96492,7 +96469,7 @@
       ]
      },
      "r": 20729,
-     "x": 20729
+     "x": 20730
     },
     "4381": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/cesar-vallejo-1176-4381",
@@ -96663,7 +96640,7 @@
       ]
      },
      "r": 20729,
-     "x": 20729
+     "x": 20730
     },
     "4384": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/catalina-sky-etapa-2-4384",
@@ -96944,10 +96921,303 @@
       ]
      },
      "r": 20729,
-     "x": 20729
+     "x": 20730
+    },
+    "4387": {
+     "u": "https://nexoinmobiliario.pe/departamentos/ate/residencial-salamanca-de-monterrico-20-4387",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Ate",
+     "nombre": "Residencial Salamanca de Monterrico 20",
+     "marca": "EFICAXX GRUPO INMOBILIARIO",
+     "lat": -12.07799,
+     "lng": -76.98463,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo TIPO 1 A": [
+       64.85,
+       3,
+       "PEN",
+       420000.0
+      ],
+      "Modelo TIPO 1 B": [
+       62.45,
+       2,
+       "PEN",
+       410000.0
+      ],
+      "Modelo TIPO 2": [
+       50.33,
+       2,
+       "PEN",
+       350000.0
+      ],
+      "Modelo TIPO 3": [
+       46.88,
+       2,
+       "PEN",
+       330000.0
+      ],
+      "Modelo TIPO 4": [
+       57.14,
+       3,
+       "PEN",
+       415000.0
+      ],
+      "Modelo TIPO 5": [
+       53.35,
+       2,
+       "PEN",
+       375000.0
+      ],
+      "Modelo TIPO 6": [
+       42.35,
+       2,
+       "PEN",
+       285000.0
+      ],
+      "Modelo 1105": [
+       126.59,
+       3,
+       "PEN",
+       750000.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 1 A": [
+       "PEN",
+       420000.0,
+       20730
+      ],
+      "Modelo TIPO 1 B": [
+       "PEN",
+       410000.0,
+       20730
+      ],
+      "Modelo TIPO 2": [
+       "PEN",
+       350000.0,
+       20730
+      ],
+      "Modelo TIPO 3": [
+       "PEN",
+       330000.0,
+       20730
+      ],
+      "Modelo TIPO 4": [
+       "PEN",
+       415000.0,
+       20730
+      ],
+      "Modelo TIPO 5": [
+       "PEN",
+       375000.0,
+       20730
+      ],
+      "Modelo TIPO 6": [
+       "PEN",
+       285000.0,
+       20730
+      ],
+      "Modelo 1105": [
+       "PEN",
+       750000.0,
+       20730
+      ]
+     },
+     "r": 20730,
+     "x": 20730
+    },
+    "4389": {
+     "u": "https://nexoinmobiliario.pe/departamentos/miraflores/1200-larco-4389",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Miraflores",
+     "nombre": "1200 Larco",
+     "marca": "EDIFICA",
+     "lat": -12.12989,
+     "lng": -77.02996,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo TIPO 2": [
+       68.03,
+       2,
+       "PEN",
+       834752.0
+      ],
+      "Modelo TIPO 3": [
+       71.27,
+       2,
+       "PEN",
+       839144.0
+      ],
+      "Modelo TIPO 4": [
+       93.84,
+       3,
+       "PEN",
+       1000124.0
+      ],
+      "Modelo TIPO 5": [
+       68.41,
+       2,
+       "PEN",
+       689344.0
+      ],
+      "Modelo TIPO 6": [
+       94.44,
+       3,
+       "PEN",
+       1028346.0
+      ],
+      "Modelo TIPO 7": [
+       68.79,
+       2,
+       "PEN",
+       886905.0
+      ],
+      "Modelo TIPO 8": [
+       68.02,
+       2,
+       "PEN",
+       885678.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 2": [
+       "PEN",
+       834752.0,
+       20730
+      ],
+      "Modelo TIPO 3": [
+       "PEN",
+       839144.0,
+       20730
+      ],
+      "Modelo TIPO 4": [
+       "PEN",
+       1000124.0,
+       20730
+      ],
+      "Modelo TIPO 5": [
+       "PEN",
+       689344.0,
+       20730
+      ],
+      "Modelo TIPO 6": [
+       "PEN",
+       1028346.0,
+       20730
+      ],
+      "Modelo TIPO 7": [
+       "PEN",
+       886905.0,
+       20730
+      ],
+      "Modelo TIPO 8": [
+       "PEN",
+       885678.0,
+       20730
+      ]
+     },
+     "r": 20730,
+     "x": 20730
+    },
+    "4398": {
+     "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/claveles-4398",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Cercado De Lima",
+     "nombre": "Claveles",
+     "marca": "ABRIL GRUPO INMOBILIARIO",
+     "lat": -12.07676,
+     "lng": -77.03626,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo CLV-201AL1501": [
+       55.85,
+       2,
+       "PEN",
+       415424.0
+      ],
+      "Modelo CLV-202AL1502": [
+       68.52,
+       3,
+       "PEN",
+       518305.0
+      ],
+      "Modelo CLV-203": [
+       54.75,
+       2,
+       "PEN",
+       446356.0
+      ],
+      "Modelo CLV-204-305AL1505": [
+       54.32,
+       2,
+       "PEN",
+       438285.0
+      ],
+      "Modelo CLV-205-306AL1506": [
+       56.59,
+       2,
+       "PEN",
+       420929.0
+      ],
+      "Modelo CLV-303AL1503": [
+       40.74,
+       1,
+       "PEN",
+       328714.0
+      ],
+      "Modelo CLV-304AL1504": [
+       54.23,
+       2,
+       "PEN",
+       437559.0
+      ]
+     },
+     "primero": {
+      "Modelo CLV-201AL1501": [
+       "PEN",
+       415424.0,
+       20730
+      ],
+      "Modelo CLV-202AL1502": [
+       "PEN",
+       518305.0,
+       20730
+      ],
+      "Modelo CLV-203": [
+       "PEN",
+       446356.0,
+       20730
+      ],
+      "Modelo CLV-204-305AL1505": [
+       "PEN",
+       438285.0,
+       20730
+      ],
+      "Modelo CLV-205-306AL1506": [
+       "PEN",
+       420929.0,
+       20730
+      ],
+      "Modelo CLV-303AL1503": [
+       "PEN",
+       328714.0,
+       20730
+      ],
+      "Modelo CLV-304AL1504": [
+       "PEN",
+       437559.0,
+       20730
+      ]
+     },
+     "r": 20730,
+     "x": 20730
     }
    },
-   "ultima": 1791010433
+   "ultima": 1791072036
   },
   "scotiabank": {
    "filas": {
@@ -111233,7 +111503,7 @@
      "lng": -77.08536,
      "mon": "USD",
      "monto": 155000.0,
-     "mant": 72.4,
+     "mant": 72.16,
      "anio": "",
      "dorm": "3",
      "zona": "San Miguel",
@@ -111247,7 +111517,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "san-miguel"
     },
     "194203564": {
@@ -111328,7 +111598,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "san-miguel"
     },
     "194138828": {
@@ -111445,13 +111715,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 666.0,
+     "usd": 664.0,
      "area": 70.0,
      "lat": -12.07743,
      "lng": -77.09341,
      "mon": "PEN",
      "monto": 2300.0,
-     "mant": 52.12,
+     "mant": 51.97,
      "anio": "",
      "dorm": "2",
      "zona": "San Miguel",
@@ -111459,10 +111729,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-de-departamento-2-dormitorios-san-miguel-–-70-m²-con-cochera-26021-/194220012",
      "flags": [],
      "p": [
-      [
-       20715,
-       681.0
-      ],
       [
        20716,
        682.0
@@ -111490,10 +111756,14 @@
       [
        20728,
        666.0
+      ],
+      [
+       20730,
+       664.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "san-miguel"
     },
     "194188001": {
@@ -111551,13 +111821,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 666.0,
+     "usd": 664.0,
      "area": 70.0,
      "lat": -12.07743,
      "lng": -77.09341,
      "mon": "PEN",
      "monto": 2300.0,
-     "mant": 52.12,
+     "mant": 51.97,
      "anio": "",
      "dorm": "2",
      "zona": "San Miguel",
@@ -111566,10 +111836,6 @@
      "flags": [],
      "p": [
       [
-       20715,
-       681.0
-      ],
-      [
        20716,
        682.0
       ],
@@ -111596,23 +111862,27 @@
       [
        20728,
        666.0
+      ],
+      [
+       20730,
+       664.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "san-miguel"
     },
     "194242838": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 666.0,
+     "usd": 664.0,
      "area": 70.0,
      "lat": -12.07743,
      "lng": -77.09341,
      "mon": "PEN",
      "monto": 2300.0,
-     "mant": 52.12,
+     "mant": 51.97,
      "anio": "",
      "dorm": "2",
      "zona": "San Miguel",
@@ -111621,10 +111891,6 @@
      "flags": [],
      "p": [
       [
-       20715,
-       681.0
-      ],
-      [
        20716,
        682.0
       ],
@@ -111651,23 +111917,27 @@
       [
        20728,
        666.0
+      ],
+      [
+       20730,
+       664.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "san-miguel"
     },
     "194267289": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 608.0,
+     "usd": 606.0,
      "area": 70.0,
      "lat": -12.07485,
      "lng": -77.10025,
      "mon": "PEN",
      "monto": 2100.0,
-     "mant": 52.12,
+     "mant": 51.97,
      "anio": "",
      "dorm": "2",
      "zona": "San Miguel",
@@ -111675,10 +111945,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-de-departamento-2-dormitorios-san-miguel-–-70-m²-con-cochera-/194267289",
      "flags": [],
      "p": [
-      [
-       20718,
-       622.0
-      ],
       [
        20719,
        621.0
@@ -111706,10 +111972,14 @@
       [
        20728,
        608.0
+      ],
+      [
+       20730,
+       606.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "san-miguel"
     },
     "194201607": {
@@ -111830,7 +112100,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santa-anita"
     },
     "194208223": {
@@ -111857,14 +112127,14 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santa-maria-del-mar"
     },
     "194277936": {
      "op": "alquiler",
      "tipo": "casas",
      "ciudad": "lima",
-     "usd": 1448.0,
+     "usd": 1443.0,
      "area": 200.0,
      "lat": -11.81751,
      "lng": -77.15843,
@@ -111878,10 +112148,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-de-edificio-comercial-santa-rosa/194277936",
      "flags": [],
      "p": [
-      [
-       20720,
-       1481.0
-      ],
       [
        20722,
        1476.0
@@ -111909,10 +112175,14 @@
       [
        20728,
        1448.0
+      ],
+      [
+       20730,
+       1443.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santa-rosa"
     },
     "194147927": {
@@ -112028,7 +112298,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 175779.0,
+     "usd": 175200.0,
      "area": 69.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -112042,10 +112312,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194221003",
      "flags": [],
      "p": [
-      [
-       20720,
-       179826.0
-      ],
       [
        20722,
        179152.0
@@ -112073,10 +112339,14 @@
       [
        20728,
        175779.0
+      ],
+      [
+       20730,
+       175200.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194234841": {
@@ -112103,7 +112373,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194182133": {
@@ -112192,7 +112462,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 109464.0,
+     "usd": 109103.0,
      "area": 41.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -112206,10 +112476,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220803",
      "flags": [],
      "p": [
-      [
-       20720,
-       111984.0
-      ],
       [
        20722,
        111564.0
@@ -112237,10 +112503,14 @@
       [
        20728,
        109464.0
+      ],
+      [
+       20730,
+       109103.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194223561": {
@@ -112267,7 +112537,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194197018": {
@@ -112352,7 +112622,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194193168": {
@@ -112414,7 +112684,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 188810.0,
+     "usd": 188188.0,
      "area": 74.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -112428,10 +112698,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220929",
      "flags": [],
      "p": [
-      [
-       20720,
-       193158.0
-      ],
       [
        20722,
        192433.0
@@ -112459,10 +112725,14 @@
       [
        20728,
        188810.0
+      ],
+      [
+       20730,
+       188188.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194192415": {
@@ -112524,7 +112794,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 148268.0,
+     "usd": 147780.0,
      "area": 55.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -112538,10 +112808,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220157",
      "flags": [],
      "p": [
-      [
-       20720,
-       151682.0
-      ],
       [
        20722,
        151113.0
@@ -112569,10 +112835,14 @@
       [
        20728,
        148268.0
+      ],
+      [
+       20730,
+       147780.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194223553": {
@@ -112599,7 +112869,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194204483": {
@@ -112735,14 +113005,14 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194220029": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 107437.0,
+     "usd": 107082.0,
      "area": 40.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -112756,10 +113026,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220029",
      "flags": [],
      "p": [
-      [
-       20720,
-       109910.0
-      ],
       [
        20722,
        109498.0
@@ -112787,17 +113053,21 @@
       [
        20728,
        107437.0
+      ],
+      [
+       20730,
+       107082.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194215084": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 126260.0,
+     "usd": 125844.0,
      "area": 40.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -112811,10 +113081,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194215084",
      "flags": [],
      "p": [
-      [
-       20720,
-       129167.0
-      ],
       [
        20722,
        128682.0
@@ -112842,10 +113108,14 @@
       [
        20728,
        126260.0
+      ],
+      [
+       20730,
+       125844.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194193446": {
@@ -113037,7 +113307,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194147928": {
@@ -113099,7 +113369,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194200568": {
@@ -113456,7 +113726,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194192234": {
@@ -113518,7 +113788,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 177227.0,
+     "usd": 176643.0,
      "area": 68.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -113532,10 +113802,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220112",
      "flags": [],
      "p": [
-      [
-       20720,
-       181308.0
-      ],
       [
        20722,
        180627.0
@@ -113563,17 +113829,21 @@
       [
        20728,
        177227.0
+      ],
+      [
+       20730,
+       176643.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194221067": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 193733.0,
+     "usd": 193095.0,
      "area": 76.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -113587,10 +113857,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194221067",
      "flags": [],
      "p": [
-      [
-       20720,
-       198194.0
-      ],
       [
        20722,
        197451.0
@@ -113618,10 +113884,14 @@
       [
        20728,
        193733.0
+      ],
+      [
+       20730,
+       193095.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194197020": {
@@ -113655,27 +113925,31 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 280000.0,
+     "usd": 289000.0,
      "area": 118.0,
      "lat": -12.02426,
      "lng": -77.03191,
      "mon": "USD",
-     "monto": 280000.0,
-     "mant": 86.88,
+     "monto": 289000.0,
+     "mant": 86.59,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
-     "titulo": "Departamento ocasion cerca Simon Salguero  altura 21 de BenavidesSurco",
+     "titulo": "Departamento Ocasion Cerca Simon Salguero  Altura 21 De Benavidessurco",
      "u": "https://www.infocasas.com.pe/departamento-ocasion-cerca-simon-salguero-altura-21-de-benavidessurco/194261552",
      "flags": [],
      "p": [
       [
        20715,
        280000.0
+      ],
+      [
+       20730,
+       289000.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194202761": {
@@ -113709,7 +113983,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 209371.0,
+     "usd": 208681.0,
      "area": 70.0,
      "lat": -12.09615,
      "lng": -76.97235,
@@ -113723,10 +113997,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194219810",
      "flags": [],
      "p": [
-      [
-       20720,
-       214192.0
-      ],
       [
        20722,
        213388.0
@@ -113754,10 +114024,14 @@
       [
        20728,
        209371.0
+      ],
+      [
+       20730,
+       208681.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194192189": {
@@ -113819,7 +114093,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 124916.0,
+     "usd": 124504.0,
      "area": 77.0,
      "lat": -12.1446,
      "lng": -77.01843,
@@ -113833,10 +114107,6 @@
      "u": "https://www.infocasas.com.pe/venta-depa-frente-parque-en-surco-dpt-502-60911621/194249807",
      "flags": [],
      "p": [
-      [
-       20718,
-       127813.0
-      ],
       [
        20719,
        127649.0
@@ -113864,10 +114134,14 @@
       [
        20728,
        124916.0
+      ],
+      [
+       20730,
+       124504.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194187555": {
@@ -113949,14 +114223,14 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194219997": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 132920.0,
+     "usd": 132482.0,
      "area": 44.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -113970,10 +114244,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194219997",
      "flags": [],
      "p": [
-      [
-       20720,
-       135981.0
-      ],
       [
        20722,
        135471.0
@@ -114001,17 +114271,21 @@
       [
        20728,
        132920.0
+      ],
+      [
+       20730,
+       132482.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194221168": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 157825.0,
+     "usd": 157304.0,
      "area": 66.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -114025,10 +114299,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194221168",
      "flags": [],
      "p": [
-      [
-       20719,
-       161277.0
-      ],
       [
        20720,
        161459.0
@@ -114056,10 +114326,14 @@
       [
        20728,
        157825.0
+      ],
+      [
+       20730,
+       157304.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194234801": {
@@ -114086,14 +114360,14 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194220064": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 164485.0,
+     "usd": 163943.0,
      "area": 66.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -114107,10 +114381,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220064",
      "flags": [],
      "p": [
-      [
-       20720,
-       168272.0
-      ],
       [
        20722,
        167641.0
@@ -114138,17 +114408,21 @@
       [
        20728,
        164485.0
+      ],
+      [
+       20730,
+       163943.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194219874": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 180992.0,
+     "usd": 180395.0,
      "area": 62.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -114162,10 +114436,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194219874",
      "flags": [],
      "p": [
-      [
-       20720,
-       185159.0
-      ],
       [
        20722,
        184464.0
@@ -114193,17 +114463,21 @@
       [
        20728,
        180992.0
+      ],
+      [
+       20730,
+       180395.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194219943": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 190548.0,
+     "usd": 189920.0,
      "area": 65.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -114217,10 +114491,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194219943",
      "flags": [],
      "p": [
-      [
-       20719,
-       194717.0
-      ],
       [
        20720,
        194935.0
@@ -114248,10 +114518,14 @@
       [
        20728,
        190548.0
+      ],
+      [
+       20730,
+       189920.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194270587": {
@@ -114278,20 +114552,20 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194222054": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 217190.0,
+     "usd": 216474.0,
      "area": 100.0,
      "lat": -12.12298,
      "lng": -76.98567,
      "mon": "PEN",
      "monto": 750000.0,
-     "mant": 115.83,
+     "mant": 115.45,
      "anio": "",
      "dorm": "2",
      "zona": "Santiago De Surco",
@@ -114299,10 +114573,6 @@
      "u": "https://www.infocasas.com.pe/venta-lindo-departamento-flat-–-surco-limite-con-miraflores-urb-aurora/194222054",
      "flags": [],
      "p": [
-      [
-       20720,
-       222191.0
-      ],
       [
        20722,
        221357.0
@@ -114330,10 +114600,14 @@
       [
        20728,
        217190.0
+      ],
+      [
+       20730,
+       216474.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194213142": {
@@ -114495,14 +114769,14 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194220261": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 197498.0,
+     "usd": 196847.0,
      "area": 77.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -114516,10 +114790,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220261",
      "flags": [],
      "p": [
-      [
-       20720,
-       202045.0
-      ],
       [
        20722,
        201287.0
@@ -114547,10 +114817,14 @@
       [
        20728,
        197498.0
+      ],
+      [
+       20730,
+       196847.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194192740": {
@@ -114666,7 +114940,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 189969.0,
+     "usd": 189343.0,
      "area": 60.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -114680,10 +114954,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194215111",
      "flags": [],
      "p": [
-      [
-       20720,
-       194343.0
-      ],
       [
        20722,
        193614.0
@@ -114711,17 +114981,21 @@
       [
        20728,
        189969.0
+      ],
+      [
+       20730,
+       189343.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194220235": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 111780.0,
+     "usd": 111412.0,
      "area": 41.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -114735,10 +115009,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220235",
      "flags": [],
      "p": [
-      [
-       20716,
-       114532.0
-      ],
       [
        20718,
        114373.0
@@ -114766,10 +115036,14 @@
       [
        20728,
        111780.0
+      ],
+      [
+       20730,
+       111412.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194200610": {
@@ -114961,7 +115235,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194208238": {
@@ -115015,14 +115289,14 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194221512": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 273949.0,
+     "usd": 273046.0,
      "area": 88.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -115036,10 +115310,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194221512",
      "flags": [],
      "p": [
-      [
-       20720,
-       280256.0
-      ],
       [
        20722,
        279205.0
@@ -115067,10 +115337,14 @@
       [
        20728,
        273949.0
+      ],
+      [
+       20730,
+       273046.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194194381": {
@@ -115132,7 +115406,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 167381.0,
+     "usd": 166829.0,
      "area": 61.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -115146,10 +115420,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220825",
      "flags": [],
      "p": [
-      [
-       20719,
-       171043.0
-      ],
       [
        20720,
        171235.0
@@ -115177,10 +115447,14 @@
       [
        20728,
        167381.0
+      ],
+      [
+       20730,
+       166829.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194270615": {
@@ -115572,7 +115846,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194209285": {
@@ -115599,7 +115873,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194270607": {
@@ -115626,7 +115900,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194194313": {
@@ -115743,7 +116017,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 115255.0,
+     "usd": 114876.0,
      "area": 43.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -115757,10 +116031,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194221128",
      "flags": [],
      "p": [
-      [
-       20719,
-       117777.0
-      ],
       [
        20720,
        117909.0
@@ -115788,17 +116058,21 @@
       [
        20728,
        115255.0
+      ],
+      [
+       20730,
+       114876.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194211040": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 121337.0,
+     "usd": 120937.0,
      "area": 40.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -115812,10 +116086,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194211040",
      "flags": [],
      "p": [
-      [
-       20719,
-       123991.0
-      ],
       [
        20720,
        124130.0
@@ -115843,10 +116113,14 @@
       [
        20728,
        121337.0
+      ],
+      [
+       20730,
+       120937.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194197025": {
@@ -115900,7 +116174,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194270585": {
@@ -115927,7 +116201,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194170969": {
@@ -116016,7 +116290,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 165064.0,
+     "usd": 164520.0,
      "area": 49.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -116030,10 +116304,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194221470",
      "flags": [],
      "p": [
-      [
-       20720,
-       168865.0
-      ],
       [
        20722,
        168231.0
@@ -116061,10 +116331,14 @@
       [
        20728,
        165064.0
+      ],
+      [
+       20730,
+       164520.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194193296": {
@@ -116126,7 +116400,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 194313.0,
+     "usd": 193672.0,
      "area": 66.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -116140,10 +116414,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194219733",
      "flags": [],
      "p": [
-      [
-       20720,
-       198787.0
-      ],
       [
        20722,
        198041.0
@@ -116171,17 +116441,21 @@
       [
        20728,
        194313.0
+      ],
+      [
+       20730,
+       193672.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194211139": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 232248.0,
+     "usd": 231483.0,
      "area": 106.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -116195,10 +116469,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194211139",
      "flags": [],
      "p": [
-      [
-       20719,
-       237329.0
-      ],
       [
        20720,
        237596.0
@@ -116226,10 +116496,14 @@
       [
        20728,
        232248.0
+      ],
+      [
+       20730,
+       231483.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194256166": {
@@ -116256,7 +116530,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194270592": {
@@ -116283,7 +116557,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194193658": {
@@ -116351,7 +116625,7 @@
      "lng": -77.01005,
      "mon": "USD",
      "monto": 138000.0,
-     "mant": 66.6,
+     "mant": 66.39,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -116367,7 +116641,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194270617": {
@@ -116499,7 +116773,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194230177": {
@@ -116580,7 +116854,7 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 521.0,
+     "usd": 520.0,
      "area": 80.0,
      "lat": -12.16034,
      "lng": -76.98729,
@@ -116621,23 +116895,27 @@
       [
        20728,
        521.0
+      ],
+      [
+       20730,
+       520.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194226960": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 753.0,
+     "usd": 750.0,
      "area": 112.0,
      "lat": -12.09718,
      "lng": -77.03258,
      "mon": "PEN",
      "monto": 2600.0,
-     "mant": 72.37,
+     "mant": 72.19,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -116645,10 +116923,6 @@
      "u": "https://www.infocasas.com.pe/alquila-dpto-sin-amoblar-amplio-de-112m²-en-2do-piso-surco-–-incluye-cochera/194226960",
      "flags": [],
      "p": [
-      [
-       20719,
-       769.0
-      ],
       [
        20720,
        770.0
@@ -116676,10 +116950,14 @@
       [
        20728,
        753.0
+      ],
+      [
+       20730,
+       750.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194279137": {
@@ -116692,7 +116970,7 @@
      "lng": -76.96675,
      "mon": "USD",
      "monto": 3500.0,
-     "mant": 463.16,
+     "mant": 462.04,
      "anio": "",
      "dorm": "4",
      "zona": "Santiago De Surco",
@@ -116706,20 +116984,20 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194223003": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 550.0,
+     "usd": 548.0,
      "area": 60.0,
      "lat": -12.13525,
      "lng": -77.00655,
      "mon": "PEN",
      "monto": 1900.0,
-     "mant": 72.37,
+     "mant": 72.19,
      "anio": "",
      "dorm": "2",
      "zona": "Santiago De Surco",
@@ -116727,10 +117005,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-de-departamento-para-vivienda-u-oficina/194223003",
      "flags": [],
      "p": [
-      [
-       20718,
-       563.0
-      ],
       [
        20719,
        562.0
@@ -116758,10 +117032,14 @@
       [
        20728,
        550.0
+      ],
+      [
+       20730,
+       548.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194249809": {
@@ -116798,7 +117076,7 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 579.0,
+     "usd": 577.0,
      "area": 95.0,
      "lat": -12.14687,
      "lng": -76.98442,
@@ -116812,10 +117090,6 @@
      "u": "https://www.infocasas.com.pe/dep-reformado-1ª-planta-parking-2-dorm-estudio-cocina-patio/194241757",
      "flags": [],
      "p": [
-      [
-       20716,
-       712.0
-      ],
       [
        20718,
        711.0
@@ -116843,10 +117117,14 @@
       [
        20728,
        579.0
+      ],
+      [
+       20730,
+       577.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194204195": {
@@ -116900,7 +117178,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194216391": {
@@ -116927,7 +117205,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194147970": {
@@ -117278,7 +117556,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "surquillo"
     },
     "194176350": {
@@ -117359,13 +117637,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 811.0,
+     "usd": 808.0,
      "area": 59.0,
      "lat": -12.11843,
      "lng": -77.0157,
      "mon": "PEN",
      "monto": 2800.0,
-     "mant": 57.93,
+     "mant": 57.71,
      "anio": "",
      "dorm": "2",
      "zona": "Surquillo",
@@ -117373,10 +117651,6 @@
      "u": "https://www.infocasas.com.pe/departameto-barrio-medico-2-dorm-amoblado/194269506",
      "flags": [],
      "p": [
-      [
-       20719,
-       829.0
-      ],
       [
        20720,
        830.0
@@ -117404,10 +117678,14 @@
       [
        20728,
        811.0
+      ],
+      [
+       20730,
+       808.0
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "surquillo"
     },
     "194167465": {
@@ -117500,7 +117778,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "villa-maria-del-triunfo"
     },
     "194221865": {
@@ -117527,7 +117805,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20728,
+     "r": 20730,
      "dist": "villa-maria-del-triunfo"
     },
     "194147651": {
@@ -117820,7 +118098,7 @@
      "lng": -76.9683,
      "mon": "USD",
      "monto": 525000.0,
-     "mant": 275.11,
+     "mant": 274.2,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -117834,7 +118112,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194283322": {
@@ -117847,7 +118125,7 @@
      "lng": -76.9683,
      "mon": "USD",
      "monto": 2000.0,
-     "mant": 289.47,
+     "mant": 288.77,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -117861,7 +118139,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194267250": {
@@ -117888,7 +118166,7 @@
       ]
      ],
      "f": 20717,
-     "r": 20729,
+     "r": 20730,
      "dist": "arequipa"
     },
     "194267338": {
@@ -117915,7 +118193,7 @@
       ]
      ],
      "f": 20717,
-     "r": 20729,
+     "r": 20730,
      "dist": "arequipa"
     },
     "194267564": {
@@ -117942,7 +118220,7 @@
       ]
      ],
      "f": 20717,
-     "r": 20729,
+     "r": 20730,
      "dist": "arequipa"
     },
     "194267610": {
@@ -117969,7 +118247,7 @@
       ]
      ],
      "f": 20717,
-     "r": 20729,
+     "r": 20730,
      "dist": "arequipa"
     },
     "194212252": {
@@ -117996,7 +118274,7 @@
       ]
      ],
      "f": 20717,
-     "r": 20729,
+     "r": 20730,
      "dist": "arequipa"
     },
     "194206492": {
@@ -118036,7 +118314,7 @@
      "lng": -71.96199,
      "mon": "USD",
      "monto": 150000.0,
-     "mant": 31.76,
+     "mant": 31.74,
      "anio": "",
      "dorm": "4",
      "zona": "Wanchaq",
@@ -118050,7 +118328,7 @@
       ]
      ],
      "f": 20717,
-     "r": 20729,
+     "r": 20730,
      "dist": "cuzco"
     },
     "194289862": {
@@ -118167,7 +118445,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 150332.0,
+     "usd": 149836.0,
      "area": 67.0,
      "lat": -12.10986,
      "lng": -77.0185,
@@ -118181,10 +118459,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-surquillo-lima-lima/194288118",
      "flags": [],
      "p": [
-      [
-       20720,
-       153793.0
-      ],
       [
        20722,
        153216.0
@@ -118212,10 +118486,14 @@
       [
        20728,
        150332.0
+      ],
+      [
+       20730,
+       149836.0
       ]
      ],
      "f": 20718,
-     "r": 20728,
+     "r": 20730,
      "dist": "surquillo"
     },
     "194289463": {
@@ -118517,7 +118795,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20729,
+     "r": 20730,
      "dist": "arequipa"
     },
     "194296408": {
@@ -118544,7 +118822,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20729,
+     "r": 20730,
      "dist": "arequipa"
     },
     "194296460": {
@@ -118571,7 +118849,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20729,
+     "r": 20730,
      "dist": "arequipa"
     },
     "194296277": {
@@ -118598,7 +118876,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20729,
+     "r": 20730,
      "dist": "arequipa"
     },
     "194296198": {
@@ -118625,7 +118903,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20729,
+     "r": 20730,
      "dist": "arequipa"
     },
     "194296249": {
@@ -118652,7 +118930,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20729,
+     "r": 20730,
      "dist": "arequipa"
     },
     "194296345": {
@@ -118679,7 +118957,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20729,
+     "r": 20730,
      "dist": "arequipa"
     },
     "194296079": {
@@ -118692,7 +118970,7 @@
      "lng": -71.55376,
      "mon": "USD",
      "monto": 330000.0,
-     "mant": 37.54,
+     "mant": 37.51,
      "anio": "",
      "dorm": "4",
      "zona": "Yanahuara",
@@ -118706,7 +118984,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20729,
+     "r": 20730,
      "dist": "arequipa"
     },
     "194296364": {
@@ -118733,7 +119011,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20729,
+     "r": 20730,
      "dist": "arequipa"
     },
     "194294512": {
@@ -118870,7 +119148,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20728,
+     "r": 20730,
      "dist": "villa-maria-del-triunfo"
     },
     "194307765": {
@@ -118947,13 +119225,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 492.0,
+     "usd": 491.0,
      "area": 45.0,
      "lat": -12.08526,
      "lng": -77.09698,
      "mon": "PEN",
      "monto": 1700.0,
-     "mant": 55.02,
+     "mant": 54.85,
      "anio": "",
      "dorm": "1",
      "zona": "San Miguel",
@@ -118984,10 +119262,14 @@
       [
        20728,
        492.0
+      ],
+      [
+       20730,
+       491.0
       ]
      ],
      "f": 20720,
-     "r": 20728,
+     "r": 20730,
      "dist": "san-miguel"
     },
     "194310348": {
@@ -119014,7 +119296,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20728,
+     "r": 20730,
      "dist": "surquillo"
     },
     "194310502": {
@@ -119258,7 +119540,7 @@
      "lng": -77.0956,
      "mon": "USD",
      "monto": 89000.0,
-     "mant": 26.07,
+     "mant": 25.99,
      "anio": "",
      "dorm": "3",
      "zona": "San Martin De Porres",
@@ -119272,7 +119554,7 @@
       ]
      ],
      "f": 20721,
-     "r": 20728,
+     "r": 20730,
      "dist": "san-martin-de-porres"
     },
     "194317366": {
@@ -119380,13 +119662,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 550.0,
+     "usd": 548.0,
      "area": 74.0,
      "lat": -12.14412,
      "lng": -77.01249,
      "mon": "PEN",
      "monto": 1900.0,
-     "mant": 52.11,
+     "mant": 51.98,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -119405,10 +119687,14 @@
       [
        20728,
        550.0
+      ],
+      [
+       20730,
+       548.0
       ]
      ],
      "f": 20724,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194324860": {
@@ -119435,7 +119721,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20728,
+     "r": 20730,
      "dist": "san-miguel"
     },
     "194327021": {
@@ -119462,20 +119748,20 @@
       ]
      ],
      "f": 20725,
-     "r": 20728,
+     "r": 20730,
      "dist": "san-miguel"
     },
     "194329328": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 550.0,
+     "usd": 548.0,
      "area": 62.0,
      "lat": -12.08448,
      "lng": -77.07961,
      "mon": "PEN",
      "monto": 1900.0,
-     "mant": 86.87,
+     "mant": 86.61,
      "anio": "",
      "dorm": "2",
      "zona": "San Miguel",
@@ -119494,10 +119780,14 @@
       [
        20728,
        550.0
+      ],
+      [
+       20730,
+       548.0
       ]
      ],
      "f": 20725,
-     "r": 20728,
+     "r": 20730,
      "dist": "san-miguel"
     },
     "194327138": {
@@ -119630,7 +119920,7 @@
      "lng": -77.07717,
      "mon": "USD",
      "monto": 600.0,
-     "mant": 50.67,
+     "mant": 50.52,
      "anio": "",
      "dorm": "2",
      "zona": "San Miguel",
@@ -119644,7 +119934,7 @@
       ]
      ],
      "f": 20726,
-     "r": 20728,
+     "r": 20730,
      "dist": "san-miguel"
     },
     "194331148": {
@@ -119671,14 +119961,14 @@
       ]
      ],
      "f": 20726,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194330909": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 825.0,
+     "usd": 823.0,
      "area": 153.0,
      "lat": -12.12249,
      "lng": -76.97658,
@@ -119703,10 +119993,14 @@
       [
        20728,
        825.0
+      ],
+      [
+       20730,
+       823.0
       ]
      ],
      "f": 20726,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194335650": {
@@ -119814,14 +120108,14 @@
       ]
      ],
      "f": 20727,
-     "r": 20728,
+     "r": 20730,
      "dist": "san-miguel"
     },
     "194335805": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 117283.0,
+     "usd": 116896.0,
      "area": 62.0,
      "lat": -12.08575,
      "lng": -77.09293,
@@ -119842,23 +120136,27 @@
       [
        20728,
        117283.0
+      ],
+      [
+       20730,
+       116896.0
       ]
      ],
      "f": 20727,
-     "r": 20728,
+     "r": 20730,
      "dist": "san-miguel"
     },
     "194340255": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 136106.0,
+     "usd": 135657.0,
      "area": 80.0,
      "lat": -12.07905,
      "lng": -77.09395,
      "mon": "PEN",
      "monto": 470000.0,
-     "mant": 89.77,
+     "mant": 89.48,
      "anio": "",
      "dorm": "3",
      "zona": "San Miguel",
@@ -119873,10 +120171,14 @@
       [
        20728,
        136106.0
+      ],
+      [
+       20730,
+       135657.0
       ]
      ],
      "f": 20727,
-     "r": 20728,
+     "r": 20730,
      "dist": "san-miguel"
     },
     "194336940": {
@@ -119889,7 +120191,7 @@
      "lng": -76.99193,
      "mon": "USD",
      "monto": 383000.0,
-     "mant": 130.31,
+     "mant": 129.88,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -119903,7 +120205,7 @@
       ]
      ],
      "f": 20727,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194338089": {
@@ -120123,7 +120425,7 @@
       ]
      ],
      "f": 20728,
-     "r": 20728,
+     "r": 20730,
      "dist": "san-miguel"
     },
     "194347177": {
@@ -120150,7 +120452,7 @@
       ]
      ],
      "f": 20728,
-     "r": 20728,
+     "r": 20730,
      "dist": "santiago-de-surco"
     },
     "194349076": {
@@ -120262,8 +120564,8 @@
      "dist": "san-isidro"
     }
    },
-   "tc": 3.463203463203463,
-   "turno": 136,
+   "tc": 3.4653465346534653,
+   "turno": 2,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -120290,39 +120592,39 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 48,
-     "fuera_ciudad": 0,
-     "momento": 1791044059
+     "validos": 91,
+     "fuera_ciudad": 1,
+     "momento": 1791072036
     },
     "arequipa": {
      "paginas": 4,
-     "validos": 15,
+     "validos": 14,
      "fuera_ciudad": 2,
-     "momento": 1791044059
+     "momento": 1791072036
     },
     "cusco": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1791044059
+     "momento": 1791072036
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 1,
-     "momento": 1791044059
+     "momento": 1791072036
     },
     "trujillo": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1791044059
+     "momento": 1791072036
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1791044059
+     "momento": 1791072036
     }
    }
   }
