@@ -382,7 +382,9 @@
   "feca2675617a7558": 1790614277,
   "ffee9f83075ee4c1": 1790311747
  },
- "failures": {},
+ "failures": {
+  "tiendas": 1
+ },
  "last_failure_notice": null,
  "store_list": {
   "fetched_at": 1791111217,
@@ -2596,7 +2598,7 @@
     "merlotexpress-mt-nc"
    ]
   ],
-  "next_start": 173,
+  "next_start": 212,
   "sources": {
    "city": "lima",
    "types": [
@@ -2609,5 +2611,5 @@
    "market": true
   }
  },
- "saved_at": 1791167034
+ "saved_at": 1791168697
 }
