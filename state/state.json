@@ -391,7 +391,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1791111217,
+  "fetched_at": 1791199484,
   "stores": [
    [
     278,
@@ -448,10 +448,6 @@
    [
     10278,
     "rosatel-market"
-   ],
-   [
-    10279,
-    "rosatel-home"
    ],
    [
     10939,
@@ -606,6 +602,18 @@
     "turbo"
    ],
    [
+    27359,
+    "turbo-express-home"
+   ],
+   [
+    27360,
+    "turbo-express-liquor"
+   ],
+   [
+    27361,
+    "turbo-licores-home"
+   ],
+   [
     27986,
     "turbo"
    ],
@@ -660,10 +668,6 @@
    [
     33171,
     "turbo"
-   ],
-   [
-    33246,
-    "tailoy-express-nc"
    ],
    [
     33261,
@@ -786,6 +790,10 @@
     "yenilu-mt-enc"
    ],
    [
+    39188,
+    "tecnodrome-mt-enc"
+   ],
+   [
     39260,
     "kebar-mt-nc"
    ],
@@ -894,10 +902,6 @@
     "dcaseperu-mt-enc"
    ],
    [
-    43179,
-    "lumpet-express-nc"
-   ],
-   [
     43237,
     "lecoreane-mt-enc"
    ],
@@ -944,10 +948,6 @@
    [
     44948,
     "beerlandersmsquecervezas-mt-nc"
-   ],
-   [
-    45005,
-    "baliq"
    ],
    [
     45403,
@@ -1550,10 +1550,6 @@
     "chupilcapersac-mt-enc"
    ],
    [
-    64069,
-    "isok-mt-enc"
-   ],
-   [
     64125,
     "gastronomiasinlimitessrl-mt-enc"
    ],
@@ -1572,6 +1568,10 @@
    [
     64473,
     "20609793806-mt-enc"
+   ],
+   [
+    64493,
+    "rosettaperu-mt-enc"
    ],
    [
     64509,
@@ -1646,12 +1646,40 @@
     "distribuidoramoraviasac-mt-nc"
    ],
    [
+    66656,
+    "turbo-carnes-nc"
+   ],
+   [
+    66683,
+    "turbo-fruver-nc"
+   ],
+   [
+    66707,
+    "turbo-licores-nc"
+   ],
+   [
     66724,
     "20612986771-mt-enc"
    ],
    [
     66752,
     "grupopraizsac-mt-enc"
+   ],
+   [
+    66760,
+    "turbo-express-mascotas-nc"
+   ],
+   [
+    66786,
+    "turbo-express-licores-nc"
+   ],
+   [
+    66863,
+    "turbo-bebidas-nc"
+   ],
+   [
+    66887,
+    "turbo-market-nc"
    ],
    [
     66950,
@@ -1852,10 +1880,6 @@
    [
     72868,
     "20610546677-mt-enc"
-   ],
-   [
-    72955,
-    "soltechsurco-mt-enc"
    ],
    [
     73071,
@@ -2102,6 +2126,10 @@
     "lalucirnaga-mt-nc"
    ],
    [
+    85437,
+    "eljardnbyrosetta-mt-enc"
+   ],
+   [
     86266,
     "japydetalles-mt-enc"
    ],
@@ -2120,10 +2148,6 @@
    [
     86820,
     "orcapsac-market-nc"
-   ],
-   [
-    87438,
-    "vapebubbastores-express-enc"
    ],
    [
     87453,
@@ -2184,10 +2208,6 @@
    [
     89452,
     "miradaksmica-mt-enc"
-   ],
-   [
-    89741,
-    "mujuplast-mt-enc"
    ],
    [
     92077,
@@ -2446,6 +2466,10 @@
     "mundoorquidea-mt-enc"
    ],
    [
+    107452,
+    "turbo"
+   ],
+   [
     107644,
     "reserva21-mt-nc"
    ],
@@ -2582,6 +2606,10 @@
     "artisan-nc"
    ],
    [
+    112189,
+    "adanagreen-mt-enc"
+   ],
+   [
     112206,
     "bamboostore-mt-enc"
    ],
@@ -2602,7 +2630,7 @@
     "merlotexpress-mt-nc"
    ]
   ],
-  "next_start": 252,
+  "next_start": 292,
   "sources": {
    "city": "lima",
    "types": [
@@ -2615,5 +2643,5 @@
    "market": true
   }
  },
- "saved_at": 1791197555
+ "saved_at": 1791199484
 }
