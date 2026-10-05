@@ -1,3 +1,4 @@
+from conftest import seed_value
 from dataclasses import replace
 
 import pytest
@@ -83,6 +84,7 @@ def test_current_seller_survives_unverifiable_equivalent(tmp_path):
     fresh = offer(source='Sodimac', seller='B', url='https://example.org/fresh')
     state = CatalogState()
     state.datos['cola_hogar'] = {old.history_key: {'oferta': asdict(old), 'visto': NOW-3600}}
+    seed_value(state, [old, fresh], NOW)
     path = tmp_path/'home.json'; state.save(path, NOW-60)
     phone = Phone()
     assert run_group('hogar', now=NOW, scanner=lambda s,n: ([fresh], []),

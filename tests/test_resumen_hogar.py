@@ -17,6 +17,12 @@ class Phone:
 
 
 def run(path, when, deals, phone):
+    # Explicit comparable prices isolate scheduling from the evidence gate.
+    state = CatalogState.load(path)
+    for deal in deals:
+        if deal.history_key not in state.history:
+            state.history[deal.history_key] = [[int(NOW//86400)-i, 150.] for i in range(1,8)]
+    state.save(path, when-1)
     # Estas pruebas aíslan el programador; la revalidación real se prueba en test_home_validation.
     return run_group('hogar', now=when, scanner=lambda s, n: (list(deals), []), notifier=phone, state_path=path,
                      validator=lambda selected, *args: (selected, {}))
@@ -26,7 +32,7 @@ def seed_history(path, deals):
     state = CatalogState.load(path)
     day = int(NOW // 86400)
     for deal in deals:
-        state.history[deal.history_key] = [[day - d, 200.] for d in (3, 2, 1)]
+        state.history[deal.history_key] = [[day - d, 200.] for d in range(1,8)]
     state.save(path, NOW - 60)
 
 
@@ -42,11 +48,11 @@ def test_summary_every_three_hours_urgent_now_and_nothing_lost(tmp_path, monkeyp
     text = '\n'.join(phone.messages)
     assert 'Producto 3' in text and 'Producto 2' not in text and 'Producto 1' not in text   # solo la urgente
     phone.messages.clear()
-    run(path, NOW + 2 * 3600, [item(2, price=90.0)], phone)  # reaparece más barato: queda el último precio
+    run(path, NOW + 2 * 3600, [item(2, price=95.0)], phone)  # reaparece más barato: queda el último precio
     assert phone.messages == []
     run(path, NOW + 3 * 3600 + 60, [], phone)               # resumen: sale aunque esta ronda no la haya visto
     text = '\n'.join(phone.messages)
-    assert 'Producto 2' in text and 'S/ 90.00' in text and 'S/ 100.00' not in text and 'Producto 3' not in text
+    assert 'Producto 2' in text and 'S/ 95.00' in text and 'S/ 100.00' not in text and 'Producto 3' not in text
 
 
 def test_what_does_not_fit_waits_for_the_next_summary(tmp_path, monkeypatch):
@@ -56,12 +62,12 @@ def test_what_does_not_fit_waits_for_the_next_summary(tmp_path, monkeypatch):
     many = [item(n, pct=60 + n % 15) for n in range(30)]
     run(path, NOW, many, phone)
     first = sum(m.count('🛒') for m in phone.messages)
-    assert first == 24
+    assert first == 5
     state = CatalogState.load(path)
-    assert len(state.datos['cola_hogar']) == 6              # guardadas en la memoria, no perdidas
+    assert len(state.datos['cola_hogar']) == 25              # guardadas en la memoria, no perdidas
     phone.messages.clear()
     run(path, NOW + 3 * 3600 + 60, many, phone)
-    assert sum(m.count('🛒') for m in phone.messages) == 6
+    assert sum(m.count('🛒') for m in phone.messages) == 5
 
 
 def test_same_product_turning_urgent_keeps_only_the_latest_price(tmp_path, monkeypatch):
@@ -84,10 +90,10 @@ def test_urgent_overflow_is_kept_and_sent_next_round(tmp_path, monkeypatch):
     phone = Phone()
     seed_history(path, [item(n, pct=85) for n in range(30)])
     run(path, NOW, [item(n, pct=85) for n in range(30)], phone)
-    assert sum(m.count('🛒') for m in phone.messages) == 24
+    assert sum(m.count('🛒') for m in phone.messages) == 5
     phone.messages.clear()
     run(path, NOW + 1800, [], phone)                         # no reaparecen, igual salen: estaban guardadas
-    assert sum(m.count('🛒') for m in phone.messages) == 6
+    assert sum(m.count('🛒') for m in phone.messages) == 5
 
 
 def test_failed_summary_is_retried_next_round_and_says_when_it_was_seen(tmp_path, monkeypatch):

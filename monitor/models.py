@@ -17,6 +17,10 @@ class Offer:
     available: bool = True
     pro_only: bool = False
     viral: bool = False
+    price_verified: bool = True
+    verified_days: int = 0
+    savings: float = 0.0
+    value_id: str = ""
 
 
 @dataclass

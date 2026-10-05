@@ -14,10 +14,11 @@ from .browser import RappiBrowser
 from .config import Config, ConfigError
 from .http import HttpClient
 from .models import Alert, ScanResult
-from .notify import Notifier, OVERFLOW_SHOWN
+from .notify import Notifier
 from .scan import scan_chains, scan_restaurants, scan_stores
 from .state import State, offer_key
 from .privacy import PrivateFormatter
+from .value import filter_rappi, MAX_RESULTS, mark_value
 
 FAILURES_BEFORE_NOTICE = 3
 
@@ -58,7 +59,8 @@ def item_keys(alert: Alert) -> list[tuple[str, object]]:
     keys: list[tuple[str, object]] = []
     for offer in alert.offers:
         ident = offer.name.lower() if alert.kind == "cadena" else offer.product_id
-        keys.append((offer_key("o", alert.kind, alert.store_id, ident, offer.pct), offer))
+        key = offer_key('verified', offer.value_id, offer.price) if offer.value_id else offer_key("o", alert.kind, alert.store_id, ident, offer.pct)
+        keys.append((key, offer))
     if alert.store_wide_text:
         keys.append((offer_key("w", alert.store_id, alert.store_wide_pct), "store_wide"))
     if alert.announced_text:
@@ -101,7 +103,7 @@ def summarize(results: list[ScanResult], cfg: Config) -> str:
         if result.error:
             parts.append(f"{result.name}: falló ({result.error})")
         else:
-            parts.append(f"{count_text(result)}, {len(result.alerts)} con -{cfg.min_discount}% o más")
+            parts.append(f"{count_text(result)}, {len(result.alerts)} con ahorro comprobado")
     return "; ".join(parts) or "no se revisó nada"
 
 
@@ -114,13 +116,13 @@ def test_message(results: list[ScanResult], cfg: Config, alerts: list[Alert]) ->
         else:
             lines.append(f"✅ {count_text(result).capitalize()}.")
     if alerts:
-        lines.append(f"Ahora mismo hay {len(alerts)} locales con -{cfg.min_discount}% o más:")
+        lines.append(f"Ahora mismo hay {len(alerts)} locales con ahorro comprobado antes de cargos:")
         for alert in sorted(alerts, key=lambda a: -a.best_pct)[:5]:
             lines.append(f"• -{alert.best_pct}% {alert.store_name}")
     else:
         top = sorted((item for r in results for item in r.top_offers), key=lambda item: -item[0])[:3]
         lines.append("No se puede confirmar si hay ofertas en las secciones que fallaron."
-                     if problems else f"Ahora no hay nada con -{cfg.min_discount}% o más.")
+                     if problems else "Ahora no hay rebajas con evidencia suficiente (20% y S/ 10 antes de cargos).")
         if top:
             lines.append("Lo mejor que vi:")
             lines.extend(f"• -{pct}% {name} ({store})" for pct, name, store in top)
@@ -145,24 +147,29 @@ def run(cfg: Config, args: argparse.Namespace, log: logging.Logger, now: float |
 
     do_restaurants = cfg.check_restaurants and not args.solo_tiendas
     do_stores = cfg.check_stores and not args.solo_restaurantes
-    log.info("Monitor de ofertas Rappi %s · mínimo -%d%%%s", __version__, cfg.min_discount,
+    log.info("Monitor de ofertas Rappi %s · ahorro real mínimo %d%% y S/ 10%s", __version__, 20,
              "" if cfg.custom_location else " · ubicación por defecto")
 
     results: list[ScanResult] = []
+    # Collect real prices even without a promotional badge; the evidence gate decides.
+    scan_cfg = replace(cfg, min_discount=0)
     if do_restaurants:
-        restaurants = scan_restaurants(cfg, browser_factory, http, log)
+        restaurants = scan_restaurants(scan_cfg, browser_factory, http, log)
         results.append(restaurants)
         if not restaurants.blocked and (restaurants.error or cfg.chains_always):
             if restaurants.error:
                 log.warning("Restaurantes: %s. Se revisan cadenas conocidas como respaldo.", restaurants.error)
-            results.append(scan_chains(cfg, http, log))
+            results.append(scan_chains(scan_cfg, http, log))
     if do_stores:
         if any(result.blocked for result in results):
             results.append(ScanResult("tiendas", error="ronda detenida por bloqueo de Rappi", blocked=True))
         else:
-            results.append(scan_stores(cfg, http, state, now, log))
+            results.append(scan_stores(scan_cfg, http, state, now, log))
 
     for result in results:
+        result.alerts, rejected = filter_rappi(result.alerts, state, now)
+        result.top_offers = []  # unverified badges do not belong in test notifications either
+        result.notes.append('Filtro de ahorro real: ' + str(rejected))
         if result.error:
             result.error = privacy.redact(result.error)
         for note in result.notes:
@@ -178,42 +185,42 @@ def run(cfg: Config, args: argparse.Namespace, log: logging.Logger, now: float |
         if fresh is not None:
             pending.append((fresh, keys))
 
+    # Five products overall, not five stores with an unlimited number of products.
+    ranked = sorted(((offer.savings, offer.pct, i, offer) for i, (a, _) in enumerate(pending)
+                     for offer in a.offers), key=lambda row: (-row[1], -row[0]))[:MAX_RESULTS]
+    selected = {(i, offer.value_id) for _, _, i, offer in ranked}
+    limited = []
+    for i, (alert, _) in enumerate(pending):
+        offers = [o for o in alert.offers if (i, o.value_id) in selected]
+        if offers:
+            alert = replace(alert, offers=offers)
+            limited.append((alert, [key for key, _ in item_keys(alert)]))
+    pending = limited
+
     sent = 0
     delivery_failed = False
-    overflow_sent = 0
-    overflow: list[tuple[Alert, list[str]]] = []
     for alert, keys in pending:
         if sent >= cfg.max_alerts_per_run:
-            overflow.append((alert, keys))
             continue
         if notifier.send_alert(alert, now):
             sent += 1
             if not args.sin_enviar:
                 for key in keys:
                     state.mark_seen(key, now)
+                for offer in alert.offers:
+                    mark_value(state, offer.value_id, offer.price, now)
             if cfg.verbose:
                 log.info("Aviso: -%d%% %s", alert.best_pct, alert.store_name)
         else:
             delivery_failed = True
-    if overflow and notifier.send_overflow([alert for alert, _ in overflow], now):
-        # Solo los locales que el resumen alcanzó a mostrar; el resto vuelve a salir en la ronda siguiente.
-        shown = overflow[:OVERFLOW_SHOWN]
-        overflow_sent = len(shown)
-        if not args.sin_enviar:
-            for _, keys in shown:
-                for key in keys:
-                    state.mark_seen(key, now)
-    if overflow and not overflow_sent:
-        delivery_failed = True
-    log.info("Avisos nuevos: %d enviados%s", sent,
-             f" + resumen de {overflow_sent} más" if overflow_sent else "")
+    log.info("Avisos nuevos: %d enviados", sent)
 
     # ---- mensajes del sistema -------------------------------------------
     if state.first_run and not args.sin_enviar:
         welcome_sent = notifier.send(
             "✅ Monitor de ofertas activado",
-            f"Te avisaré cuando haya descuentos de -{cfg.min_discount}% o más en Rappi. "
-            f"Los de -{cfg.alarm_from}% o más llegan como alarma.",
+            "Te avisaré de rebajas comprobadas de al menos 20% y S/ 10 frente al historial. "
+            "Envío/cargos por confirmar. Al inicio se reúne historial; máximo cinco productos por ronda.",
             priority=3, tags=["white_check_mark"],
         )
         if welcome_sent:
@@ -251,7 +258,7 @@ def run(cfg: Config, args: argparse.Namespace, log: logging.Logger, now: float |
     if not args.sin_enviar and state.save(state_path, now):
         log.info("Memoria actualizada")
 
-    _write_step_summary(results, cfg, sent + overflow_sent)
+    _write_step_summary(results, cfg, sent)
     if delivery_failed:
         log.error("No se pudieron entregar todas las notificaciones a ntfy.")
         return 1
@@ -271,7 +278,7 @@ def _write_step_summary(results: list[ScanResult], cfg: Config, alerts: int) -> 
     for result in results:
         status = f"⚠️ {result.error}" if result.error else "✅"
         lines.append(f"| {result.name} | {result.checked} | {len(result.alerts)} | {status} |")
-    lines += ["", f"Descuento mínimo: -{cfg.min_discount}% · Avisos enviados: {alerts}", ""]
+    lines += ["", f"Ahorro comprobado mínimo: 20% y S/ 10 antes de cargos · Avisos enviados: {alerts}", ""]
     try:
         with open(path, "a", encoding="utf-8") as handle:
             handle.write("\n".join(lines))

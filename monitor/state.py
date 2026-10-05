@@ -45,6 +45,10 @@ class State:
         self.last_failure_notice: int | None = _int_or_none(data.get("last_failure_notice"))
         stores = data.get("store_list")
         self.store_list: dict = stores if isinstance(stores, dict) else {}
+        self.price_history = data.get('price_history', {})
+        if not isinstance(self.price_history, dict): self.price_history = {}
+        self.value_notices = data.get('value_notices', {})
+        if not isinstance(self.value_notices, dict): self.value_notices = {}
         self._original = self._serialize(include_saved_at=False)
 
     # ------------------------------------------------------------------
@@ -71,6 +75,8 @@ class State:
             # Copia: si la instantánea compartiera el diccionario, cambiar el cursor de tiendas
             # también cambiaría la instantánea y la memoria nunca se guardaría.
             "store_list": deepcopy(self.store_list),
+            "price_history": deepcopy(self.price_history),
+            "value_notices": deepcopy(self.value_notices),
         }
         if include_saved_at:
             data["saved_at"] = self.saved_at
@@ -116,6 +122,11 @@ class State:
         self.seen[key] = int(now)
 
     def prune(self, now: float, keep_hours: float) -> None:
+        from .value import prune_history, day_at
+        self.price_history = prune_history(self.price_history, day_at(now))
+        self.value_notices = {k: v for k, v in self.value_notices.items()
+                              if isinstance(v, dict) and isinstance(v.get('time'), (int, float))
+                              and now - 30 * 86400 <= v['time'] <= now}
         limit = now - keep_hours * 3600
         self.seen = {k: v for k, v in self.seen.items() if v >= limit}
 

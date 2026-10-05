@@ -31,7 +31,7 @@ def category_of(product):
     return None
 
 
-def parse_products(raw, source, domain):
+def parse_products(raw, source, domain, *, include_regular=False):
     from .catalogs import Deal
     products = json.loads(raw)
     if not isinstance(products, list): raise ValueError('El catálogo no es una lista VTEX')
@@ -54,11 +54,11 @@ def parse_products(raw, source, domain):
                     regular = Decimal(str(offer.get('ListPrice')))
                     stock = Decimal(str(offer.get('AvailableQuantity')))
                     if not all(n.is_finite() for n in (price, regular, stock)): continue
-                    if price < 10 or regular <= price or stock <= 0 or offer.get('IsAvailable') is False: continue
+                    if price < 10 or regular <= 0 or (regular <= price and not include_regular) or stock <= 0 or offer.get('IsAvailable') is False: continue
                     pct = int(((1 - price / regular) * 100).to_integral_value(rounding=ROUND_FLOOR))
                 except (InvalidOperation, ValueError, TypeError): continue
                 # Referencias extremas requieren verificación adicional; no producir alarmas engañosas.
-                if not 60 <= pct < 95: continue
+                if not include_regular and not 60 <= pct < 95: continue
                 deals.append(Deal(source, normalized(name), name, url, pct, float(price),
                                   float(regular), str(seller.get('sellerName') or source),
                                   'Precio publicado; confirmar stock y envío en Lima', category))
@@ -78,7 +78,7 @@ def scan_vtex(state, now, http_factory=HttpClient, sources=None):
             rules = RobotFileParser(); rules.parse(robots.splitlines())
             if not rules.can_fetch(client.user_agent, base + PATH):
                 raise ValueError('robots.txt no permite consultar el catálogo')
-            found, count = parse_products(client.get(base + PATH), source, domain)
+            found, count = parse_products(client.get(base + PATH), source, domain, include_regular=True)
             for deal in found:
                 deal.check_url = base + PATH
                 # Un marketplace compartido no genera avisos repetidos por tienda.

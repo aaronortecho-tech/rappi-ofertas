@@ -1,3 +1,4 @@
+from conftest import seed_value
 from dataclasses import asdict, replace
 from urllib.parse import urlencode
 import json
@@ -21,6 +22,7 @@ def sample():
 
 def memory(deals):
     state = CatalogState()
+    seed_value(state, deals, NOW)
     state.datos['cola_hogar'] = {d.history_key: {'oferta': asdict(d), 'visto': NOW-3600} for d in deals}
     return state
 
@@ -144,6 +146,7 @@ def test_progressive_selection_fills_after_24_unverifiable_candidates(tmp_path):
     old = [replace(sample(), identity=f'old{i}', name=f'Antigua {i}', pct=90, check_url='') for i in range(24)]
     fresh = replace(sample(), identity='fresh', name='Oferta nueva', pct=60)
     state = memory(old)
+    seed_value(state, [fresh], NOW)
     path = tmp_path/'home.json'; state.save(path,NOW-60)
     class Phone:
         cfg=Config()

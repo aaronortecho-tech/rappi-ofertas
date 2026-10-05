@@ -76,6 +76,8 @@ def scan_restaurants(
                 stores, cfg.min_discount, cfg.rappi_pro, cfg.max_distance_km
             )
             result.notes.append(
+                f"{len(stores)} restaurantes con promo; {len(candidates)} candidatos para comparar precios"
+                if cfg.min_discount == 0 else
                 f"{len(stores)} restaurantes con promo; {len(candidates)} anuncian -{cfg.min_discount}% o más"
             )
             if len(candidates) > cfg.max_candidates:
@@ -108,11 +110,11 @@ def _check_restaurant(cfg, browser, http, candidate, result: ScanResult, log) ->
     except Exception as exc:  # noqa: BLE001
         log.debug("Menú en vivo no disponible para %s: %s", candidate.store_id, exc)
     if menu is not None:
-        _, offers = parse_restaurant_live(menu, cfg.rappi_pro)
+        _, offers = parse_restaurant_live(menu, cfg.rappi_pro, include_regular=cfg.min_discount == 0)
     else:
         try:
             html = http.get(url)
-            _, offers = parse_restaurant_page(extract_next_data(html))
+            _, offers = parse_restaurant_page(extract_next_data(html), include_regular=cfg.min_discount == 0)
         except (Blocked, BudgetExceeded):
             raise
         except Exception as exc:  # noqa: BLE001
@@ -230,7 +232,7 @@ def scan_stores(cfg: Config, http, state: State, now: float, log: logging.Logger
             if data is None:
                 continue
             read_ok += 1
-            name, offers = parse_store_page(data)
+            name, offers = parse_store_page(data, include_regular=cfg.min_discount == 0)
             store_name = name or slug.replace("-", " ").title()
             is_market = any(word in f"{slug} {store_name}".lower()
                             for word in ("turbo", "rappi-market", "rappi market"))
@@ -246,7 +248,7 @@ def scan_stores(cfg: Config, http, state: State, now: float, log: logging.Logger
                         if extra is None:
                             home_failed += 1
                             continue
-                        _, extra_offers = parse_store_page(extra)
+                        _, extra_offers = parse_store_page(extra, include_regular=cfg.min_discount == 0)
                         home_checked += 1
                         for offer in extra_offers:
                             previous = merged.get(offer.product_id)
@@ -292,10 +294,17 @@ def _scan_chain(cfg: Config, http, chain: str, result: ScanResult) -> None:
     chain_name = chain.split("-", 1)[-1].replace("-", " ").title()
     for store_id, slug in branches:
         page = http.get(f"{cfg.base_url}/restaurantes/{store_id}-{slug}")
-        info, offers = parse_restaurant_page(extract_next_data(page))
+        info, offers = parse_restaurant_page(extract_next_data(page), include_regular=cfg.min_discount == 0)
         if info:
             result.checked += 1
         result.remember_top(offers, info.get("name") or chain_name)
+        if cfg.min_discount == 0:
+            # Preserve branch identity: never compare a chain's cheapest branch with another.
+            selected = good_offers(offers, cfg)
+            if selected:
+                result.alerts.append(Alert('restaurante', str(store_id), info.get('name') or chain_name,
+                                           f'{cfg.base_url}/restaurantes/{store_id}-{slug}', offers=selected))
+            continue
         for offer in good_offers(offers, cfg):
             key = offer.name.lower()
             if key not in best or offer.pct > best[key].pct:

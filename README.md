@@ -1,5 +1,11 @@
 # Monitor de ofertas de Rappi
 
+> **Actualización vigente (4/10/2026):** Rappi y hogar exigen ahorro comprobado,
+> no el descuento tachado. Rappi: 20% y S/ 10; hogar: 15% y S/ 50, antes de cargos.
+> Máximo cinco productos; sin evidencia suficiente no hay alerta. Las reglas de
+> [OFERTAS_REALES.md](OFERTAS_REALES.md) reemplazan las menciones antiguas de
+> umbrales 60/80%, 24 productos y alertas sin historial de esas dos categorías.
+
 ## Grupos de avisos
 
 El proyecto mantiene cinco temas independientes de ntfy. Los nombres reales de los temas se guardan exclusivamente como secretos de GitHub.

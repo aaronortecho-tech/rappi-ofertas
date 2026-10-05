@@ -72,6 +72,12 @@ class Deal:
     check_url: str = ""     # catálogo público donde se observó; no entra en claves
     confidence: str = "published"
     rank: float = 0.0       # orden dentro del resumen de hogar; tampoco entra en la clave
+    value_reference: float | None = None
+    value_savings: float = 0.0
+    value_pct: int = 0
+    value_days: int = 0
+    value_id: str = ""
+    value_basis: str = "historial"
 
     @property
     def key(self):
@@ -147,7 +153,7 @@ def money(raw):
     except InvalidOperation: return None
 
 
-def retail_products(html, source, category):
+def retail_products(html, source, category, *, include_regular=False):
     data = extract_next_data(html)
     pp = (data or {}).get("props", {}).get("pageProps", {})
     products = pp.get("results")
@@ -176,12 +182,14 @@ def retail_products(html, source, category):
             if amount is not None and amount > 0: amounts[entry.get("type")] = amount
         regular = amounts.get("normalPrice")
         standard = min((amounts[k] for k in ("internetPrice", "eventPrice") if k in amounts), default=None)
-        if regular is None or regular <= 0: continue
+        if regular is None or regular <= 0:
+            if not include_regular or standard is None: continue
+            regular = standard
         variants = [(standard, "Precio web; confirmar stock y envío")]
         if amounts.get("cmrPrice") is not None:
             variants.append((amounts['cmrPrice'], "Requiere tarjeta CMR; confirmar condiciones y envío"))
         for price, condition in variants:
-            if price is None or price >= regular: continue
+            if price is None or (price >= regular and not include_regular): continue
             # No redondear 59.6% a 60%: el usuario pidió al menos el umbral.
             pct = int(((1 - price / regular) * 100).to_integral_value(rounding=ROUND_FLOOR))
             result.append(Deal(source, str(item.get("skuId") or item.get("productId")),
@@ -202,9 +210,9 @@ def scan_retail(state, now, http_factory=HttpClient, sources=None):
         products = []
         cursor_key = offer_key(source, category)
         try:
-            query = {"f.range.derived.variant.discount": "60% dcto y más"}
+            query = {}
             html = client.get(base + "?" + urlencode(query))
-            products, count, pagination = retail_products(html, source, category)
+            products, count, pagination = retail_products(html, source, category, include_regular=True)
             for deal in products: deal.check_url = base + "?" + urlencode(query)
             checked += count
             pages = max(1, math.ceil(pagination.get("count", 0) / max(1, pagination.get("perPage", 48))))
@@ -212,7 +220,7 @@ def scan_retail(state, now, http_factory=HttpClient, sources=None):
             page = page if isinstance(page, int) and 2 <= page <= pages else 2
             if pages >= 2:
                 query["page"] = page
-                more, count, _ = retail_products(client.get(base + "?" + urlencode(query)), source, category)
+                more, count, _ = retail_products(client.get(base + "?" + urlencode(query)), source, category, include_regular=True)
                 for deal in more: deal.check_url = base + "?" + urlencode(query)
                 products += more; checked += count
                 state.cursors[cursor_key] = page + 1 if count and page < pages else 2
@@ -228,7 +236,6 @@ def scan_retail(state, now, http_factory=HttpClient, sources=None):
     chosen = {}
     for deal in deals.values():
         state.observe(deal, now)
-        if deal.pct < 60: continue
         key = (deal.identity, deal.seller.lower())
         old = chosen.get(key)
         if old is None or (old.condition.startswith("Requiere") and not deal.condition.startswith("Requiere")):
@@ -347,6 +354,15 @@ def scan_travel(state, now, http_factory=HttpClient):
 
 
 def deal_text(deal):
+    if deal.value_reference is not None:
+        reference = (f"Habitual observado: S/ {deal.value_reference:,.2f} · {deal.value_days} días"
+                     if deal.value_basis == 'historial' else
+                     f"Menor precio comparable observado: S/ {deal.value_reference:,.2f}")
+        return (f"🛒 {deal.name}\nPrecio: S/ {deal.price:,.2f}\n"
+                f"Ahorro antes de cargos: S/ {deal.value_savings:,.2f} ({deal.value_pct}%)\n"
+                f"{reference}\n"
+                f"{deal.source} · {deal.seller}\nEnvío/cargos por confirmar\n"
+                f"{deal.condition}\n{deal.note}\n{deal.url}")
     if deal.reference_kind == 'flight_history':
         return (f"Caída observada: {deal.pct}% · {deal.source} · {deal.name}\n"
                 f"Ahora desde {deal.currency} {deal.price:,.2f}\n"
@@ -393,6 +409,12 @@ def min_savings():
 
 def quality(state, deal, now):
     """Prioriza evidencia propia; el precio tachado aporta solo una señal secundaria."""
+    if deal.value_reference is not None:
+        from .value import catalog_value
+        verified, reason = catalog_value(deal, state, now)
+        if reason: return 0, '', reason
+        deal.confidence = 'historical'
+        return verified.rank, 'Rebaja comprobada frente a precios observados', None
     today = int(now // 86400)
     before = {d: p for d, p in state.history.get(deal.history_key, []) if today - 30 <= d < today}
     savings = (deal.regular or 0) - (deal.price or 0)
@@ -413,6 +435,8 @@ def quality(state, deal, now):
 
 
 def home_urgent(deal):
+    if deal.value_reference is not None:
+        return deal.value_pct >= 40
     return deal.pct >= URGENT_HOME_PCT and deal.confidence == 'historical'
 
 
@@ -487,7 +511,8 @@ def home_queue_selection(normal, current, limit):
     kept = []
     for category, quota in quotas.items():
         candidates = [d for d in normal if d.category == category]
-        historical = [d for d in candidates if d.confidence == 'historical'][:quota]
+        historical = sorted([d for d in candidates if d.confidence == 'historical'],
+                            key=lambda d: d.value_reference is not None and d.history_key not in current)[:quota]
         recent = [d for d in candidates if d.history_key in current and d.confidence != 'historical']
         chosen = historical + recent[:min(max(1, quota // 3), quota - len(historical))]
         keys = {d.history_key for d in chosen}
@@ -514,7 +539,7 @@ def hold_home(state, deals, now):
             continue
         deal.rank, deal.note, reason = quality(state, deal, now)
         if reason:
-            queue.pop(key, None); stats[reason] += 1
+            queue.pop(key, None); stats[reason] = stats.get(reason, 0) + 1
             continue
         if deal.note.startswith('Precio estable'): stats['historial_estable'] += 1
         if key not in queue: stats['entradas'] += 1
@@ -580,6 +605,9 @@ def deliver(deals, state, notifier, now, group, dry_run=False, *, delivered=None
                 if delivered is not None: delivered.extend(batch)
                 for deal in batch:
                     state.mark_seen(deal.key, now)
+                    if deal.value_id:
+                        from .value import mark_value
+                        mark_value(state, deal.value_id, deal.price, now)
                     if group == 'hogar': state.mark_seen(home_notice_key(deal), now)
         else: failed = True
     return sent, failed
@@ -609,10 +637,25 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
     digest, stats = False, {}
     if group == 'hogar':
         from .home_validation import validate, record_metrics
+        from .value import filter_catalog, set_market, MAX_RESULTS
         observations = deals
+        set_market(state, observations)
+        deals, rejected = filter_catalog(deals, state, now)
+        # Reevaluate the old queue on upgrade; published percentages cannot bypass the gate.
+        queue = state.datos.setdefault('cola_hogar', {})
+        for key, entry in list(queue.items()):
+            checked, _ = filter_catalog([Deal(**entry['oferta'])], state, now)
+            if checked: entry['oferta'] = asdict(checked[0])
+            else: queue.pop(key)
         deals, digest, stats = hold_home(state, deals, now)
+        stats['descartes_valor_real'] = rejected
         selected = home_order(deals, keep_alternatives=True, observations=observations)
-        deals, checks = (validator or validate)(selected, state, now, observations, reports)
+        if validator:
+            deals, checks = validator(selected, state, now, observations, reports)
+        else:
+            deals, checks = validate(selected, state, now, observations, reports, max_confirmed=MAX_RESULTS)
+        deals, _ = filter_catalog(deals, state, now)
+        deals = home_order(deals)[:MAX_RESULTS]
         stats.update(checks)
         stats['candidatas_disponibles'] = len(selected)
         stats['seleccionadas'] = checks.get('consideradas', len(selected))
@@ -660,6 +703,10 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
     if test:
         lines = ([f"{len(deals)} oportunidades · {sent} enviadas. Las primeras semanas solo junta comparables."]
                  if group in SLOW_GROUPS else [f"Mínimo: {cfg.min_discount}% · {found} ofertas válidas · {sent} enviadas" + (" ahora (el resto va en el resumen cada 3 horas)." if group == "hogar" else ".")])
+        if group == 'hogar':
+            lines = [f"{found} precios observados · {sent} ofertas enviadas.",
+                     'Ahorro comprobado mínimo: 15% y S/ 50 antes de cargos. Envío/cargos por confirmar.',
+                     'Sin historial o comparables suficientes, la oferta no genera alerta.']
         lines += [f"{'⚠️' if error else '✅'} {name}: {error or str(count) + ' revisados'}" for name, count, error in reports]
         lines.append(UNAVAILABLE[group])
         if group == 'viajes': lines.append('Diners: descuentos explícitos de 50%. JetSMART/SKY: caídas de 50% del precio publicado desde Lima, frente al mínimo observado en al menos 3 días previos (ventana de 30 días), o 50% bajo lo normal por kilómetro en su tramo de distancia (con al menos 20 tarifas del tramo). Al inicio solo se construye historial. No son tarifas garantizadas en vivo; revisar tasas y equipaje.')
@@ -669,7 +716,8 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
     summary = os.environ.get('GITHUB_STEP_SUMMARY')
     if summary:
         with open(summary, 'a', encoding='utf-8') as f:
-            f.write(f"### {group}\n\nUmbral: {cfg.min_discount}% · Ofertas: {found} · Enviadas: {sent}\n\n")
+            threshold = '15% y S/ 50 de ahorro comprobado antes de cargos' if group == 'hogar' else f'{cfg.min_discount}%'
+            f.write(f"### {group}\n\nUmbral: {threshold} · Observaciones: {found} · Enviadas: {sent}\n\n")
             for name, count, error in reports: f.write(f"- {name}: {count} revisados; {error or 'OK'}\n")
             if group == 'hogar': f.write('\nSelección y validación: ' + json.dumps(stats, ensure_ascii=False) + '\n')
             f.write('\nFuentes no activadas: ' + UNAVAILABLE[group] + '\n\n')

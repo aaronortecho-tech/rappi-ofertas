@@ -230,12 +230,13 @@ def test_full_run_against_fake_rappi(server, tmp_path):
     )
     out = proc.stdout
     assert proc.returncode == 0, out + proc.stderr
-    assert "Restaurantes: 3 restaurantes con promo; 3 anuncian -60% o más" in out
-    # El local 1 no tiene menú en vivo: se usa su página pública.
-    assert "-70% en Local 1" in out and "Gran Dúo Cheesy" in out
-    assert "hasta -65% en Local 3" in out and "no vi el producto en la web" in out
-    assert "Descuento en toda la carta: 60% Off" in out
-    assert "-65% en Wong" in out and "6x Nieto Senetiner" in out
+    assert "Restaurantes: 3 restaurantes con promo; 3 candidatos para comparar precios" in out
+    # Prices are collected, but first-run badges must not produce notifications.
+    assert 'Filtro de ahorro real' in out
+    assert 'historial insuficiente' in out
+    assert 'Ahora no hay rebajas con evidencia suficiente' in out
+    assert 'hasta -65% en Local 3' not in out
+    assert 'Descuento en toda la carta: 60% Off' not in out
     assert "Prueba del monitor de Rappi" in out
     assert "-12.0977" not in out  # la ubicación no aparece en los registros
     assert not (tmp_path / "state.json").exists()

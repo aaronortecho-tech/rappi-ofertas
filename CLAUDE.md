@@ -1,5 +1,15 @@
 # Monitor de ofertas de Rappi: guía para Claude Code
 
+## Cambio autorizado vigente: ahorro comprobado (4/10/2026)
+
+Leer OFERTAS_REALES.md. Reemplaza instrucciones antiguas de esta guía sobre
+umbrales publicados de Rappi/hogar, urgencia 80%, cupos de 24 y admitir ofertas
+sin historial. La petición explícita del usuario es eliminar descuentos inflados:
+15% y S/ 50 en hogar; 20% y S/ 10 en Rappi, con referencia observada verificable.
+El usuario eligió mostrar ahorro antes de cargos con «Envío/cargos por confirmar».
+No modificar autos/inmuebles/viajes. No quitar el filtro de evidencia para llenar
+cupos. No sustituir pruebas de falsos descuentos por aceptación del precio tachado.
+
 Este proyecto es un script de Python que corre en GitHub Actions cada 30 minutos. Busca descuentos altos en Perú y avisa al celular del usuario por ntfy, en cinco grupos con temas separados: `comida` (Rappi, Turbo, Tambo, Makro), `hogar`, `viajes`, `autos` e `inmuebles`. En ejecución no usa Claude. Claude Code solo interviene para instalarlo y para arreglarlo cuando Rappi cambie su web. El usuario habla español y no es programador, así que explícale cada paso en palabras simples.
 
 ## Estructura

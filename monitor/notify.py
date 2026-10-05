@@ -28,6 +28,12 @@ def _short(text: str, limit: int) -> str:
 
 
 def offer_line(offer: Offer) -> str:
+    if offer.verified_days:
+        condition = '\nRequiere Rappi Pro' if offer.pro_only else ''
+        return (f"🛒 {_short(offer.name, 90)}\nPrecio: {format_price(offer.price)}\n"
+                f"Ahorro antes de cargos: {format_price(offer.savings)} ({offer.pct}%)\n"
+                f"Habitual observado: {format_price(offer.regular_price)} · {offer.verified_days} días\n"
+                f"Envío/cargos por confirmar{condition}")
     line = f"🛒 {_short(offer.name, 90)}\n💰 {format_price(offer.price)}  |  -{offer.pct}%"
     if offer.regular_price:
         line += f"\nAntes: {format_price(offer.regular_price)}"

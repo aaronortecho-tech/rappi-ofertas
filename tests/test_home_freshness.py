@@ -1,3 +1,4 @@
+from conftest import seed_value
 from dataclasses import asdict, replace
 
 import pytest
@@ -33,7 +34,8 @@ class Phone:
 def test_urgent_alone_does_not_postpone_normal_summary(tmp_path):
     normal, urgent = item('normal'), item('urgent', pct=80, regular=500.)
     state = memory([normal])
-    state.history[urgent.history_key] = [[NOW//86400-i, 200.] for i in (1, 2, 3)]
+    seed_value(state, [normal], NOW)
+    state.history[urgent.history_key] = [[NOW//86400-i, 200.] for i in range(1,8)]
     path = tmp_path/'home.json'; state.save(path, NOW-60)
     phone = Phone()
     run_group('hogar', now=NOW, scanner=lambda s,n: ([urgent], []), notifier=phone, state_path=path)
@@ -62,12 +64,13 @@ def test_uncommitted_normal_delivery_does_not_advance_clock(tmp_path, dry_run, o
 def test_current_candidate_survives_full_stale_queue_and_is_sent(tmp_path):
     old = [item(f'old{i}', pct=90, regular=1000.) for i in range(300)]
     fresh = item('fresh')
-    path = tmp_path/'home.json'; memory(old).save(path, NOW-60)
+    state = memory(old); seed_value(state, old + [fresh], NOW)
+    path = tmp_path/'home.json'; state.save(path, NOW-60)
     phone = Phone()
     run_group('hogar', now=NOW, scanner=lambda s,n: ([fresh], []), notifier=phone, state_path=path)
     saved = CatalogState.load(path); stats = saved.datos['ultima_ronda_hogar']
     assert len(phone.messages) == 1 and 'Producto fresh' in phone.messages[0]
-    assert stats['recientes_rescatadas'] == 1
+    assert stats['recientes_conservadas'] == 1
     assert stats['observadas_ronda_enviadas'] == 1 and stats['consultas_extra'] == 0
     assert len(saved.datos['cola_hogar']) == 299
 

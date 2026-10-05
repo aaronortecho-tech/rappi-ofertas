@@ -10,6 +10,11 @@ sys.path.insert(0, str(ROOT))
 
 from monitor.config import Config  # noqa: E402
 
+def seed_value(state, deals, now, factor=1.5):
+    for deal in deals:
+        state.history[deal.history_key] = [[int(now//86400)-i, max(deal.price*factor, deal.price+50)] for i in range(1,8)]
+
+
 BASE = "https://www.rappi.com.pe"
 
 

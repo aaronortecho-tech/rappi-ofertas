@@ -1,3 +1,4 @@
+from conftest import seed_value
 import json
 from datetime import date
 from dataclasses import replace
@@ -143,6 +144,7 @@ def test_topics_stay_separate_and_failed_delivery_is_not_marked(monkeypatch, tmp
         cfg = Config(ntfy_topic='test-' + group)
         http = FakeHttp(); notifier = Notifier(cfg, http)
         path = tmp_path / (group + '.json')
+        seed = CatalogState(); seed_value(seed, [deal], NOW); seed.save(path, NOW-60)
         scanner = lambda state, now: ([deal], [('Prueba', 1, None)])
         assert run_group(group, now=NOW, scanner=scanner, notifier=notifier, state_path=path, test=True) == 0
         assert all(p['topic'] == 'test-' + group for _, p, _ in http.posts)

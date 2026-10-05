@@ -102,7 +102,7 @@ def _clean_name(value: Any) -> str:
 # Tiendas (supermercados, farmacias, licorerías…)
 # --------------------------------------------------------------------------
 
-def parse_store_page(next_data: dict | None) -> tuple[str | None, list[Offer]]:
+def parse_store_page(next_data: dict | None, *, include_regular=False) -> tuple[str | None, list[Offer]]:
     """Productos de una página de tienda (por ejemplo /tiendas/62365-wong/ofertas)."""
     page_props = _page_props(next_data)
     store_name = page_props.get("storeName")
@@ -117,7 +117,7 @@ def parse_store_page(next_data: dict | None) -> tuple[str | None, list[Offer]]:
         price = _num(node.get("price"))
         regular = _num(node.get("real_price"))
         pct = discount_pct(price, regular)
-        if pct == 0:
+        if pct == 0 and not include_regular:
             continue
         product_id = str(node.get("product_id") or node.get("id"))
         _keep_best(
@@ -161,7 +161,7 @@ def store_home_paths(html: str | None, store_id: int) -> list[str]:
 # Restaurantes
 # --------------------------------------------------------------------------
 
-def parse_restaurant_page(next_data: dict | None) -> tuple[dict, list[Offer]]:
+def parse_restaurant_page(next_data: dict | None, *, include_regular=False) -> tuple[dict, list[Offer]]:
     """Menú de la página pública de un restaurante (/restaurantes/<id>-<nombre>)."""
     page_props = _page_props(next_data)
     store = None
@@ -196,15 +196,20 @@ def parse_restaurant_page(next_data: dict | None) -> tuple[dict, list[Offer]]:
             regular = _num(product.get("realPrice"))
             pct = discount_pct(price, regular)
             pro_only = bool(product.get("isDiscountPrimeExclusive"))
+            verified = True
             if pct == 0:
                 listed = _num(product.get("discountInPercent")) or 0
                 if listed <= 0 or listed > 100:
+                    if include_regular and price is not None:
+                        _keep_best(offers, Offer(str(product.get('id')), _clean_name(product.get('name')),
+                                               price, regular, 0, product.get('isAvailable') is not False))
                     continue
                 # El descuento existe pero el precio mostrado no lo refleja
                 # (suele pasar con descuentos exclusivos de Rappi Pro).
                 pct = _round_half_up(listed)
                 regular = price
                 price = round(price * (1 - pct / 100), 2) if price is not None else None
+                verified = False
             _keep_best(
                 offers,
                 Offer(
@@ -215,12 +220,13 @@ def parse_restaurant_page(next_data: dict | None) -> tuple[dict, list[Offer]]:
                     pct=pct,
                     available=product.get("isAvailable") is not False,
                     pro_only=pro_only,
+                    price_verified=verified,
                 ),
             )
     return info, list(offers.values())
 
 
-def parse_restaurant_live(data: Any, include_pro: bool) -> tuple[dict, list[Offer]]:
+def parse_restaurant_live(data: Any, include_pro: bool, *, include_regular=False) -> tuple[dict, list[Offer]]:
     """Menú en vivo de un restaurante (respuesta de restaurants-bus/store/id/<id>/)."""
     if not isinstance(data, dict):
         return {}, []
@@ -240,6 +246,7 @@ def parse_restaurant_live(data: Any, include_pro: bool) -> tuple[dict, list[Offe
             regular = _num(product.get("real_price"))
             discounts = product.get("discounts")
             best: tuple[int, float | None, bool, bool] | None = None
+            best_verified = False
             for discount in discounts or []:
                 if not isinstance(discount, dict):
                     continue
@@ -249,17 +256,20 @@ def parse_restaurant_live(data: Any, include_pro: bool) -> tuple[dict, list[Offe
                 if not pro_only and discount.get("apply_to_user") is False:
                     continue
                 price = _num(discount.get("price"))
+                verified = price is not None
                 pct = discount_pct(price, regular) if price is not None else 0
                 if pct == 0 and discount.get("type") in (None, "global_offer", "percentage"):
                     value = _num(discount.get("value")) or 0
                     if 0 < value < 100 and regular:
                         pct = _round_half_up(value)
                         price = round(regular * (1 - pct / 100), 2)
+                        verified = False
                 if pct <= 0:
                     continue
                 candidate = (pct, price, pro_only, bool(discount.get("is_viral_deal")))
                 if best is None or pct > best[0]:
                     best = candidate
+                    best_verified = verified
             if best is None and not discounts:
                 # Algunos productos solo traen el porcentaje (sin detalle que
                 # diga si es exclusivo de Rappi Pro).
@@ -270,7 +280,13 @@ def parse_restaurant_live(data: Any, include_pro: bool) -> tuple[dict, list[Offe
                     pct = reduced or _round_half_up(listed)
                     price = base if reduced else round(regular * (1 - pct / 100), 2)
                     best = (pct, price, False, False)
+                    best_verified = bool(reduced)
             if best is None:
+                base = _num(product.get('price'))
+                if include_regular and not discounts and base is not None:
+                    _keep_best(offers, Offer(str(product.get('product_id') or product.get('id')),
+                                           _clean_name(product.get('name')), base, regular, 0,
+                                           product.get('in_schedule') is not False))
                 continue
             pct, price, pro_only, viral = best
             product_id = str(product.get("product_id") or product.get("id"))
@@ -285,6 +301,7 @@ def parse_restaurant_live(data: Any, include_pro: bool) -> tuple[dict, list[Offe
                     available=product.get("in_schedule") is not False,
                     pro_only=pro_only,
                     viral=viral,
+                    price_verified=best_verified,
                 ),
             )
     return info, list(offers.values())

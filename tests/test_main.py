@@ -28,38 +28,25 @@ def titles(http):
     return [payload["title"] for _, payload, _ in http.posts]
 
 
-def test_first_run_sends_alerts_and_welcome_then_dedupes(cfg, store_pages, tmp_path):
+def test_first_run_collects_prices_without_unverified_alerts(cfg, store_pages, tmp_path):
     cfg.store_batch = 10
     code, http, _ = make_run(cfg, store_pages)
-    assert code == 0
-    sent = titles(http)
-    assert sent[:4] == [
-        "🚨 hasta -100% en Fridays Óvalo Gutiérrez",
-        "🔥 -70% en Big Cheese Pizza - Miraflores",
-        "🔥 hasta -66% en Chinawok Larco Miraflores",
-        "🔥 -65% en Wong",
-    ]
-    assert sent[-1] == "✅ Monitor de ofertas activado"
-    saved = json.loads((tmp_path / "state.json").read_text(encoding="utf-8"))
-    assert saved["started_at"] == int(NOON) and len(saved["seen"]) == 7
-
-    # Una hora después, las mismas ofertas no se repiten.
-    code, http, _ = make_run(cfg, store_pages, now=NOON + 3600)
-    assert code == 0 and http.posts == []
+    assert code == 0 and titles(http) == ['✅ Monitor de ofertas activado']
+    saved = State.load(cfg.state_path)
+    assert saved.price_history and not saved.seen
+    code, http, _ = make_run(cfg, store_pages, now=NOON+3600)
+    assert code == 0 and not http.posts
 
 
-def test_new_offer_in_same_store_is_sent_alone(cfg, store_pages):
-    cfg.store_batch = 10
+
+def test_new_discount_badge_without_history_is_not_sent(cfg, store_pages):
     make_run(cfg, store_pages)
     browser = FakeBrowser()
-    menu = browser.menus[23402]
-    menu["corridors"][0]["products"][2]["discounts"] = [
-        {"type": "global_offer", "value": 80, "price": 4.98, "apply_to_user": True}
-    ]
-    code, http, _ = make_run(cfg, store_pages, browser=browser, now=NOON + 600)
-    assert titles(http) == ["🚨 -80% en Big Cheese Pizza - Miraflores"]
-    assert http.posts[0][1]["message"].startswith("🛒 Flash 4en1\n💰 S/ 4.98  |  -80%")
-    assert http.posts[0][1]["priority"] == 5
+    browser.menus[23402]['corridors'][0]['products'][2]['discounts'] = [
+        {'type': 'global_offer', 'value': 80, 'price': 4.98, 'apply_to_user': True}]
+    code, http, _ = make_run(cfg, store_pages, browser=browser, now=NOON+600)
+    assert code == 0 and not http.posts
+
 
 
 def test_test_mode_and_dry_run_do_not_touch_memory(cfg, store_pages, tmp_path, capsys):
@@ -71,7 +58,7 @@ def test_test_mode_and_dry_run_do_not_touch_memory(cfg, store_pages, tmp_path, c
     assert test_payload["title"] == "🧪 Prueba del monitor de Rappi"
     assert "✅ 7 restaurantes revisados." in test_payload["message"]
     assert "falta tu ubicación" in test_payload["message"]
-    assert "Fridays" in capsys.readouterr().out
+    assert "Fridays" not in capsys.readouterr().out
 
 
 def test_test_mode_without_deals_shows_best_seen(cfg, store_pages):
@@ -79,18 +66,14 @@ def test_test_mode_without_deals_shows_best_seen(cfg, store_pages):
     cfg.check_stores = False
     code, http, _ = make_run(cfg, store_pages, argv=["--prueba"], browser=FakeBrowser(stores=[]))
     message = http.posts[-1][1]["message"]
-    assert "Ahora no hay nada con -99% o más." in message
+    assert "Ahora no hay rebajas con evidencia suficiente (20% y S/ 10 antes de cargos)." in message
 
 
-def test_overflow_summary(cfg, store_pages):
+def test_no_overflow_summary_for_unverified_offers(cfg, store_pages):
     cfg.max_alerts_per_run = 2
-    cfg.store_batch = 10
     code, http, _ = make_run(cfg, store_pages)
-    sent = titles(http)
-    assert sent[2] == "🔥 2 locales más con descuentos altos"
-    assert "-66% Chinawok" in http.posts[2][1]["message"]
-    code, http, _ = make_run(cfg, store_pages, now=NOON + 60)
-    assert http.posts == []  # el resumen también cuenta como avisado
+    assert code == 0 and titles(http) == ['✅ Monitor de ofertas activado']
+
 
 
 def test_failure_notice_after_three_rounds_once_a_day(cfg, store_pages, tmp_path):
@@ -184,14 +167,6 @@ def test_browser_block_stops_all_rappi_sections(cfg, store_pages):
     assert "🧪 Prueba del monitor de Rappi" in titles(http)
 
 
-def test_overflow_only_marks_the_venues_it_showed(cfg, store_pages, monkeypatch):
-    import monitor.main as main_module
-    import monitor.notify as notify_module
-    monkeypatch.setattr(main_module, "OVERFLOW_SHOWN", 1)
-    monkeypatch.setattr(notify_module, "OVERFLOW_SHOWN", 1)
-    cfg.max_alerts_per_run = 2
-    cfg.store_batch = 10
-    code, http, _ = make_run(cfg, store_pages)
-    assert "…y 1 locales más" in http.posts[2][1]["message"]
-    code, http, _ = make_run(cfg, store_pages, now=NOON + 60)
-    assert len(http.posts) == 1  # el local que no cupo en el resumen vuelve a salir
+def test_unverified_offers_are_not_marked_as_delivered(cfg, store_pages):
+    make_run(cfg, store_pages)
+    assert not State.load(cfg.state_path).seen

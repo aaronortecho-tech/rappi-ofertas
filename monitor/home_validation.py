@@ -23,13 +23,13 @@ def allowed_url(deal):
         query = parse_qs(parsed.query)
         if parsed.netloc != base_parts.netloc or parsed.path != base_parts.path: continue
         if set(query) - {'f.range.derived.variant.discount', 'page'}: continue
-        if query.get('f.range.derived.variant.discount') != ['60% dcto y más']: continue
+        if 'f.range.derived.variant.discount' in query and query['f.range.derived.variant.discount'] != ['60% dcto y más']: continue
         if 'page' in query and (len(query['page']) != 1 or not query['page'][0].isdigit()): continue
         return True
     return False
 
 
-def validate(selected, state, now, observations, reports, http_factory=HttpClient):
+def validate(selected, state, now, observations, reports, http_factory=HttpClient, *, max_confirmed=MAX_CONFIRMED):
     from .catalogs import retail_products, quality, home_notice_key
     from .vtex import parse_products
     queue = state.datos.setdefault('cola_hogar', {})
@@ -49,7 +49,7 @@ def validate(selected, state, now, observations, reports, http_factory=HttpClien
         return client.get(url)
 
     for old in selected:
-        if len(accepted) >= MAX_CONFIRMED: break
+        if len(accepted) >= max_confirmed: break
         stats['consideradas'] += 1
         if home_notice_key(old) in accepted_keys:
             stats['equivalentes_omitidas'] += 1
@@ -75,9 +75,9 @@ def validate(selected, state, now, observations, reports, http_factory=HttpClien
                         raw = fetch(client, url)
                         if raw is not None:
                             if old.source in ('Falabella', 'Sodimac'):
-                                found, _, _ = retail_products(raw, old.source, old.category)
+                                found, _, _ = retail_products(raw, old.source, old.category, include_regular=True)
                             else:
-                                found, _ = parse_products(raw, old.source, host)
+                                found, _ = parse_products(raw, old.source, host, include_regular=True)
                             cache[url] = found
                 except Exception:
                     # También si fue 403/429: nunca volver a consultar la fuente en esta ronda.
@@ -89,12 +89,20 @@ def validate(selected, state, now, observations, reports, http_factory=HttpClien
             continue  # no estar en esa página no demuestra agotamiento; esperar nueva observación
         fresh = replace(fresh, check_url=fresh.check_url or old.check_url)
         state.observe(fresh, now)
+        if old.value_reference is not None:
+            from .value import catalog_value
+            verified, reason = catalog_value(fresh, state, now)
+            if reason:
+                stats['cambiadas'] += 1
+                queue.pop(old.history_key, None)
+                continue
+            fresh = verified
         fresh.rank, fresh.note, reason = quality(state, fresh, now)
-        changed = fresh.price != old.price or fresh.pct < 60 or fresh.currency != old.currency
+        changed = fresh.price != old.price or (fresh.pct < 60 and old.value_reference is None) or fresh.currency != old.currency
         if changed or reason:
             stats['cambiadas'] += 1
             queue.pop(old.history_key, None)
-            if not reason and fresh.pct >= 60:
+            if not reason and (fresh.pct >= 60 or fresh.value_reference is not None):
                 queue[fresh.history_key] = {'oferta': asdict(fresh), 'visto': int(now)}
             continue  # reevaluar el precio nuevo en la próxima ronda, nunca enviar el anterior
         queue[fresh.history_key] = {'oferta': asdict(fresh), 'visto': int(now)}
@@ -108,7 +116,7 @@ def validate(selected, state, now, observations, reports, http_factory=HttpClien
         stats['confirmadas_ronda' if from_round else 'revalidadas'] += 1
     stats['consultas_extra'] = max(stats['consultas_extra'], sum(getattr(c, 'requests_made', 0) for c in clients.values()))
     stats['fuentes_sin_relectura'] = sorted(unavailable)
-    stats['cupo_completo'] = len(accepted) >= MAX_CONFIRMED
+    stats['cupo_completo'] = len(accepted) >= max_confirmed
     return accepted, stats
 
 
