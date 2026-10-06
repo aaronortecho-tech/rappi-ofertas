@@ -7,7 +7,7 @@
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1791327177,
+ "saved_at": 1791329153,
  "history": {
   "8bb961ea1b4e3be9": [
    [
@@ -11111,7 +11111,7 @@
   ]
  },
  "cursors": {
-  "travelpayouts": 1791305809
+  "travelpayouts": 1791329153
  },
  "flight_alerts": {},
  "datos": {
@@ -15070,7 +15070,7 @@
      5.958
     ],
     "2e43b5ad1e2134cd": [
-     20729,
+     20732,
      9.812
     ],
     "321a4d3ac07c3ef8": [
@@ -15100,6 +15100,18 @@
     "b5eb0b86bb7687b1": [
      20732,
      5.76
+    ],
+    "7e6e59025b7d65aa": [
+     20732,
+     6.529
+    ],
+    "e0f0865ed65113c3": [
+     20732,
+     7.263
+    ],
+    "6c0b92a08e0cfecd": [
+     20732,
+     7.376
     ]
    },
    "Travelpayouts|USD|ida-vuelta|largo": {
@@ -15346,6 +15358,14 @@
     "df6d169287ab8751": [
      20732,
      5.074
+    ],
+    "ce86db62a68e9c3b": [
+     20732,
+     5.207
+    ],
+    "c664139e8c66d693": [
+     20732,
+     5.106
     ]
    },
    "Travelpayouts|USD|ida-vuelta|regional": {
@@ -15556,6 +15576,10 @@
     "b8b0e6034317adfe": [
      20732,
      5.686
+    ],
+    "03ac3ce5d1b45722": [
+     20732,
+     11.149
     ]
    },
    "Travelpayouts|USD|ida-vuelta|medio": {
