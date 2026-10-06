@@ -15,7 +15,7 @@
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1791290593,
+ "saved_at": 1791312069,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -39059,7 +39059,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Miraflores",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Mercedes-Benz Gle 400 4Matic 2017",
      "p": [
@@ -39069,7 +39069,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884837": {
@@ -39701,7 +39701,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Lima",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Land Rover Range Rover Evoque 2023",
      "p": [
@@ -39711,7 +39711,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884780": {
@@ -39851,7 +39851,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Isidro",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Chery Tiggo 8 2023",
      "p": [
@@ -39861,7 +39861,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884764": {
@@ -40032,7 +40032,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Molina",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Subaru Forester 2023",
      "p": [
@@ -40042,7 +40042,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884736": {
@@ -40107,7 +40107,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Surquillo",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Peugeot Partner 2023",
      "p": [
@@ -40117,7 +40117,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884731": {
@@ -40207,7 +40207,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Santiago de Surco",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Honda Hr-V 2021",
      "p": [
@@ -40217,7 +40217,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884725": {
@@ -40232,7 +40232,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Molina",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Bmw X3 2015",
      "p": [
@@ -40242,7 +40242,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884724": {
@@ -40622,7 +40622,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Surquillo",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Jeep Grand Cherokee L 2022",
      "p": [
@@ -40632,7 +40632,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884703": {
@@ -40901,7 +40901,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Lurigancho-Chosica",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Lexus Nx 2019",
      "p": [
@@ -40911,7 +40911,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884691": {
@@ -41101,7 +41101,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Santiago de Surco",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Honda Cr-V 2024",
      "p": [
@@ -41111,7 +41111,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884682": {
@@ -41228,7 +41228,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Santiago de Surco",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Bmw Ix2 2024",
      "p": [
@@ -41239,10 +41239,14 @@
       [
        20725,
        59800.0
+      ],
+      [
+       20732,
+       49000.0
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884675": {
@@ -41361,7 +41365,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Isidro",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Volkswagen Tiguan Allspace 2018",
      "p": [
@@ -41375,7 +41379,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884668": {
@@ -42301,7 +42305,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Isidro",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Subaru Wrx 2022",
      "p": [
@@ -42311,7 +42315,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884586": {
@@ -42757,7 +42761,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Molina",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace más de un mes",
      "flags": [
       "glp"
      ],
@@ -42769,7 +42773,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884555": {
@@ -42971,7 +42975,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Isidro",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Mazda Cx-9 2017",
      "p": [
@@ -42981,7 +42985,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884538": {
@@ -43046,17 +43050,21 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Isidro",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace unos días",
      "flags": [],
      "nombre": "Bmw 550I 2012",
      "p": [
       [
        20718,
        24900.0
+      ],
+      [
+       20732,
+       23900.0
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884532": {
@@ -43121,7 +43129,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Isidro",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Ford F-150 Raptor 2020",
      "p": [
@@ -43131,7 +43139,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884526": {
@@ -43918,7 +43926,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Miraflores",
-     "pub": "Publicado hace una semana",
+     "pub": "Publicado hace más de una semana",
      "flags": [
       "glp"
      ],
@@ -43930,7 +43938,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887131": {
@@ -43977,10 +43985,14 @@
       [
        20718,
        28000.0
+      ],
+      [
+       20732,
+       27000.0
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887128": {
@@ -44108,10 +44120,14 @@
       [
        20718,
        54900.0
+      ],
+      [
+       20732,
+       53900.0
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887123": {
@@ -44503,10 +44519,14 @@
       [
        20725,
        14000.0
+      ],
+      [
+       20732,
+       13000.0
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887096": {
@@ -44660,7 +44680,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Surquillo",
-     "pub": "Publicado hace una semana",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Volkswagen Taos 2026",
      "p": [
@@ -44670,7 +44690,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887088": {
@@ -44710,7 +44730,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Molina",
-     "pub": "Publicado hace una semana",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Lexus Es 2024",
      "p": [
@@ -44720,7 +44740,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887086": {
@@ -45115,7 +45135,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887068": {
@@ -45698,7 +45718,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Borja",
-     "pub": "Publicado hace una semana",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Volkswagen Jetta 2018",
      "p": [
@@ -45708,7 +45728,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887044": {
@@ -45914,7 +45934,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887033": {
@@ -46376,7 +46396,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887014": {
@@ -46441,7 +46461,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Ate",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace unos días",
      "flags": [],
      "nombre": "Mazda Cx-9 2026",
      "p": [
@@ -46451,7 +46471,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887011": {
@@ -46986,7 +47006,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1886754": {
@@ -47510,7 +47530,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Santiago de Surco",
-     "pub": "Publicado hace un mes",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Toyota C-Hr 2022",
      "p": [
@@ -47520,7 +47540,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884463": {
@@ -47585,7 +47605,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Isidro",
-     "pub": "Publicado hace un mes",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Mercedes-Benz E-200 2022",
      "p": [
@@ -47595,7 +47615,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884456": {
@@ -47689,7 +47709,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Borja",
-     "pub": "Publicado hace un mes",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Chevrolet Tracker 2015",
      "p": [
@@ -47699,7 +47719,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884451": {
@@ -48222,17 +48242,21 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Isidro",
-     "pub": "Publicado hace un mes",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Jeep Compass 2025",
      "p": [
       [
        20718,
        27900.0
+      ],
+      [
+       20732,
+       26900.0
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884418": {
@@ -48638,7 +48662,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884389": {
@@ -48975,7 +48999,7 @@
       ]
      ],
      "f": 20718,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1884361": {
@@ -109555,7 +109579,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1868094": {
@@ -109605,7 +109629,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1867973": {
@@ -109630,7 +109654,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1867964": {
@@ -109655,7 +109679,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1867804": {
@@ -109830,7 +109854,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1867738": {
@@ -110030,7 +110054,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1867578": {
@@ -110180,7 +110204,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1867411": {
@@ -110205,7 +110229,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1867357": {
@@ -110230,7 +110254,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1867356": {
@@ -110340,7 +110364,7 @@
      "mo": "kardian",
      "v": "",
      "a": 2026,
-     "km": 8500,
+     "km": 9500,
      "mon": "USD",
      "vend": "particular",
      "tienda": "",
@@ -110352,10 +110376,14 @@
       [
        20725,
        15490.0
+      ],
+      [
+       20732,
+       15290.0
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1867065": {
@@ -110405,7 +110433,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1867055": {
@@ -110555,7 +110583,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1866889": {
@@ -110705,7 +110733,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1866805": {
@@ -110730,7 +110758,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1866795": {
@@ -110780,7 +110808,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1866727": {
@@ -110882,7 +110910,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1866460": {
@@ -110957,7 +110985,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1866139": {
@@ -111057,7 +111085,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1865956": {
@@ -111082,7 +111110,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1865887": {
@@ -111132,7 +111160,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1865773": {
@@ -111209,7 +111237,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1865647": {
@@ -111259,7 +111287,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1865421": {
@@ -111409,7 +111437,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1865146": {
@@ -111431,10 +111459,14 @@
       [
        20725,
        21900.0
+      ],
+      [
+       20732,
+       21500.0
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1865108": {
@@ -111459,7 +111491,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1865068": {
@@ -111531,10 +111563,14 @@
       [
        20725,
        106991.0
+      ],
+      [
+       20732,
+       89991.0
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1864789": {
@@ -111559,7 +111595,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1864731": {
@@ -111584,7 +111620,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1864480": {
@@ -111634,7 +111670,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1864350": {
@@ -111659,7 +111695,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1864304": {
@@ -111761,7 +111797,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1863945": {
@@ -111811,7 +111847,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1863837": {
@@ -111886,7 +111922,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1863598": {
@@ -112011,7 +112047,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1862858": {
@@ -112086,7 +112122,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1861925": {
@@ -112136,7 +112172,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1861484": {
@@ -112336,7 +112372,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1859849": {
@@ -112413,7 +112449,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1859390": {
@@ -112488,7 +112524,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1859062": {
@@ -112538,7 +112574,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1858827": {
@@ -112613,7 +112649,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1857682": {
@@ -112690,7 +112726,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1856176": {
@@ -112765,7 +112801,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1854738": {
@@ -112790,7 +112826,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1854568": {
@@ -112815,7 +112851,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1854234": {
@@ -112890,7 +112926,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1853646": {
@@ -112942,7 +112978,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1853114": {
@@ -113119,7 +113155,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1851744": {
@@ -113194,7 +113230,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1850402": {
@@ -113244,7 +113280,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1849584": {
@@ -113269,7 +113305,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1849454": {
@@ -113569,7 +113605,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1845965": {
@@ -113594,7 +113630,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1845659": {
@@ -113619,7 +113655,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1845348": {
@@ -113671,7 +113707,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1844565": {
@@ -113696,7 +113732,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1844127": {
@@ -113721,7 +113757,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1843117": {
@@ -113771,7 +113807,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1841471": {
@@ -113871,7 +113907,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1840003": {
@@ -113896,7 +113932,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1839769": {
@@ -113921,7 +113957,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1839155": {
@@ -114086,17 +114122,21 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Isidro",
-     "pub": "Publicado hace unos días",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Land Rover Range Rover Sport 2020",
      "p": [
       [
        20725,
        68900.0
+      ],
+      [
+       20732,
+       67900.0
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1836876": {
@@ -114248,7 +114288,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1834717": {
@@ -114400,7 +114440,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1831287": {
@@ -114425,7 +114465,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1830923": {
@@ -114450,7 +114490,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1830789": {
@@ -114794,7 +114834,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Santiago de Surco",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Bmw X3 20I 2017",
      "p": [
@@ -114804,7 +114844,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887783": {
@@ -115525,7 +115565,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Isidro",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Jeep Cherokee Longitude 2024",
      "p": [
@@ -115535,7 +115575,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887739": {
@@ -115827,17 +115867,21 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Santiago de Surco",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Volkswagen Jetta 2017",
      "p": [
       [
        20725,
        13600.0
+      ],
+      [
+       20732,
+       13000.0
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887726": {
@@ -116229,7 +116273,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Miguel",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Mercedes-Benz Gle 400 4Matic 2017",
      "p": [
@@ -116239,7 +116283,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887707": {
@@ -116254,7 +116298,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Miguel",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [
       "glp"
      ],
@@ -116266,7 +116310,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887706": {
@@ -116306,7 +116350,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Isidro",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Volvo Xc-40 2020",
      "p": [
@@ -116316,7 +116360,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887704": {
@@ -116481,7 +116525,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Victoria",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Toyota Corolla Cross 2024",
      "p": [
@@ -116491,7 +116535,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887697": {
@@ -116833,7 +116877,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Molina",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Land Rover Defender 2024",
      "p": [
@@ -116843,7 +116887,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1887681": {
@@ -116886,17 +116930,21 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Santiago de Surco",
-     "pub": "Publicado ayer",
+     "pub": "Publicado hace más de una semana",
      "flags": [],
      "nombre": "Mercedes-Benz Cla 200 Coupe 2024",
      "p": [
       [
        20725,
        36500.0
+      ],
+      [
+       20732,
+       36000.0
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1880511": {
@@ -117040,7 +117088,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Isidro",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado hace un mes",
      "flags": [],
      "nombre": "Bmw 320I 2017",
      "p": [
@@ -117050,7 +117098,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1828230": {
@@ -117275,7 +117323,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1823299": {
@@ -117300,7 +117348,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1821583": {
@@ -117350,7 +117398,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1817685": {
@@ -117400,7 +117448,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1815552": {
@@ -117652,7 +117700,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1793582": {
@@ -117702,7 +117750,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1783736": {
@@ -117777,7 +117825,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1780736": {
@@ -118085,7 +118133,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1747435": {
@@ -118150,17 +118198,21 @@
      "vend": "particular",
      "tienda": "",
      "dist": "Santiago de Surco",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado ayer",
      "flags": [],
      "nombre": "Bmw 530I 2018",
      "p": [
       [
        20725,
        37000.0
+      ],
+      [
+       20732,
+       36000.0
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1743708": {
@@ -118235,7 +118287,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1733057": {
@@ -118260,7 +118312,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1726273": {
@@ -118335,7 +118387,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1722209": {
@@ -118360,7 +118412,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1718653": {
@@ -118627,7 +118679,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "La Molina",
-     "pub": "Publicado hace un mes",
+     "pub": "Publicado hace más de un mes",
      "flags": [],
      "nombre": "Bmw 320I 2014",
      "p": [
@@ -118637,7 +118689,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1708108": {
@@ -118737,7 +118789,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1702785": {
@@ -119024,7 +119076,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1672950": {
@@ -119049,7 +119101,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1662274": {
@@ -119089,7 +119141,7 @@
      "vend": "particular",
      "tienda": "",
      "dist": "San Isidro",
-     "pub": "Publicado hace más de una semana",
+     "pub": "Publicado ayer",
      "flags": [],
      "nombre": "Bmw 750Li 2017",
      "p": [
@@ -119099,7 +119151,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1629247": {
@@ -119221,10 +119273,14 @@
       [
        20725,
        15499.0
+      ],
+      [
+       20732,
+       15900.0
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1563358": {
@@ -119249,7 +119305,7 @@
       ]
      ],
      "f": 20725,
-     "r": 20725,
+     "r": 20732,
      "x": 20732
     },
     "1515587": {
@@ -135984,6 +136040,485 @@
       [
        20732,
        9300.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1888394": {
+     "u": "https://neoauto.com/auto/usado/dfsk-glory-2022-1888394",
+     "t": "usado",
+     "m": "dfsk",
+     "mo": "glory",
+     "v": "",
+     "a": 2022,
+     "km": 50908,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado ayer",
+     "flags": [
+      "glp"
+     ],
+     "nombre": "Dfsk Glory 2022",
+     "p": [
+      [
+       20732,
+       10200.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1888392": {
+     "u": "https://neoauto.com/auto/usado/toyota-hilux-2024-1888392",
+     "t": "usado",
+     "m": "toyota",
+     "mo": "hilux",
+     "v": "sr 4x4",
+     "a": 2024,
+     "km": 62000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Toyota Hilux 2024",
+     "p": [
+      [
+       20732,
+       32900.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1888391": {
+     "u": "https://neoauto.com/auto/seminuevo/toyota-rav4-2025-1888391",
+     "t": "seminuevo",
+     "m": "toyota",
+     "mo": "rav4",
+     "v": "hybrid 2.5 4x2 full d-lux cvt",
+     "a": 2025,
+     "km": 24980,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "La Molina",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Toyota Rav4 2025",
+     "p": [
+      [
+       20732,
+       36500.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1888390": {
+     "u": "https://neoauto.com/auto/usado/mitsubishi-montero-sport-2024-1888390",
+     "t": "usado",
+     "m": "mitsubishi",
+     "mo": "montero sport",
+     "v": "3.0 v6 gls 4x4",
+     "a": 2024,
+     "km": null,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Barranco",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Mitsubishi Montero Sport 2024",
+     "p": [
+      [
+       20732,
+       39800.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1888389": {
+     "u": "https://neoauto.com/auto/usado/toyota-rav4-2017-1888389",
+     "t": "usado",
+     "m": "toyota",
+     "mo": "rav4",
+     "v": "",
+     "a": 2017,
+     "km": 120000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Jesus Maria",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Toyota Rav4 2017",
+     "p": [
+      [
+       20732,
+       19300.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1888388": {
+     "u": "https://neoauto.com/auto/usado/chery-tiggo-7-pro-2023-1888388",
+     "t": "usado",
+     "m": "chery",
+     "mo": "tiggo 7 pro",
+     "v": "1.5t cvt lux",
+     "a": 2023,
+     "km": null,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Barranco",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Chery Tiggo 7 Pro 2023",
+     "p": [
+      [
+       20732,
+       13900.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1888387": {
+     "u": "https://neoauto.com/auto/usado/volkswagen-jetta-gli-2016-1888387",
+     "t": "usado",
+     "m": "volkswagen",
+     "mo": "jetta gli",
+     "v": "gli",
+     "a": 2016,
+     "km": 73000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Volkswagen Jetta Gli 2016",
+     "p": [
+      [
+       20732,
+       15300.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1888386": {
+     "u": "https://neoauto.com/auto/usado/chery-tiggo-4-pro-2023-1888386",
+     "t": "usado",
+     "m": "chery",
+     "mo": "tiggo 4 pro",
+     "v": "1.5 cvt",
+     "a": 2023,
+     "km": 61000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Barranco",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Chery Tiggo 4 Pro 2023",
+     "p": [
+      [
+       20732,
+       12300.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1888385": {
+     "u": "https://neoauto.com/auto/usado/renault-koleos-2017-1888385",
+     "t": "usado",
+     "m": "renault",
+     "mo": "koleos",
+     "v": "privilege-tope de gama",
+     "a": 2017,
+     "km": 90000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Piura",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Renault Koleos 2017",
+     "p": [
+      [
+       20732,
+       16500.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1888384": {
+     "u": "https://neoauto.com/auto/usado/citroen-berlingo-2024-1888384",
+     "t": "usado",
+     "m": "citroen",
+     "mo": "berlingo",
+     "v": "",
+     "a": 2024,
+     "km": 66432,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Ate",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Citroen Berlingo 2024",
+     "p": [
+      [
+       20732,
+       15000.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1888383": {
+     "u": "https://neoauto.com/auto/seminuevo/toyota-corolla-cross-2026-1888383",
+     "t": "seminuevo",
+     "m": "toyota",
+     "mo": "corolla cross",
+     "v": "1.8 premium cvt",
+     "a": 2026,
+     "km": 18062,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "La Molina",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Toyota Corolla Cross 2026",
+     "p": [
+      [
+       20732,
+       33000.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1888382": {
+     "u": "https://neoauto.com/auto/usado/dfsk-glory-580-2023-1888382",
+     "t": "usado",
+     "m": "dfsk",
+     "mo": "glory 580",
+     "v": "cvt confort",
+     "a": 2023,
+     "km": 21500,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Chorrillos",
+     "pub": "Publicado ayer",
+     "flags": [
+      "gnv"
+     ],
+     "nombre": "Dfsk Glory 580 2023",
+     "p": [
+      [
+       20732,
+       16500.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1888381": {
+     "u": "https://neoauto.com/auto/seminuevo/audi-q3-sportback-2026-1888381",
+     "t": "seminuevo",
+     "m": "audi",
+     "mo": "q3 sportback",
+     "v": "dynamic tfsi 110 kw s tronic",
+     "a": 2026,
+     "km": 2000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Santiago de Surco",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Audi Q3 Sportback 2026",
+     "p": [
+      [
+       20732,
+       47900.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1888380": {
+     "u": "https://neoauto.com/auto/seminuevo/toyota-corolla-cross-2026-1888380",
+     "t": "seminuevo",
+     "m": "toyota",
+     "mo": "corolla cross",
+     "v": "hybrid 1.8 premium cvt",
+     "a": 2026,
+     "km": 5027,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "La Molina",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Toyota Corolla Cross 2026",
+     "p": [
+      [
+       20732,
+       33500.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1888379": {
+     "u": "https://neoauto.com/auto/seminuevo/subaru-xv-2022-1888379",
+     "t": "seminuevo",
+     "m": "subaru",
+     "mo": "xv",
+     "v": "1.6i awd cvt",
+     "a": 2022,
+     "km": 43913,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "La Molina",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Subaru Xv 2022",
+     "p": [
+      [
+       20732,
+       19900.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1888378": {
+     "u": "https://neoauto.com/auto/usado/bmw-528-i-2013-1888378",
+     "t": "usado",
+     "m": "bmw",
+     "mo": "528-i",
+     "v": "",
+     "a": 2013,
+     "km": 65000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "La Molina",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Bmw 528-I 2013",
+     "p": [
+      [
+       20732,
+       15000.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1883291": {
+     "u": "https://neoauto.com/auto/usado/lexus-rx-350-2026-1883291",
+     "t": "usado",
+     "m": "lexus",
+     "mo": "rx 350",
+     "v": "luxury",
+     "a": 2026,
+     "km": 500,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Miraflores",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Lexus Rx 350 2026",
+     "p": [
+      [
+       20732,
+       80000.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1883290": {
+     "u": "https://neoauto.com/auto/usado/honda-odyssey-2025-1883290",
+     "t": "usado",
+     "m": "honda",
+     "mo": "odyssey",
+     "v": "elite",
+     "a": 2025,
+     "km": 3000,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Miraflores",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Honda Odyssey 2025",
+     "p": [
+      [
+       20732,
+       61700.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "x": 20732
+    },
+    "1859022": {
+     "u": "https://neoauto.com/auto/usado/jac-js6-2020-1859022",
+     "t": "usado",
+     "m": "jac",
+     "mo": "js6",
+     "v": "t6 4x2 comfort diesel",
+     "a": 2020,
+     "km": 70400,
+     "mon": "USD",
+     "vend": "particular",
+     "tienda": "",
+     "dist": "Punta Hermosa",
+     "pub": "Publicado ayer",
+     "flags": [],
+     "nombre": "Jac Js6 2020",
+     "p": [
+      [
+       20732,
+       12000.0
       ]
      ],
      "f": 20732,

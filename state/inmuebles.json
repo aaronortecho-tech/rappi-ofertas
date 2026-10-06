@@ -3,6 +3,7 @@
  "started_at": null,
  "seen": {
   "183e5f878abc3a86": 1789821586,
+  "196bf457c5db078e": 1791312305,
   "3024761f3ad8ae15": 1791247855,
   "30f95cd6f1e2824a": 1790361594,
   "3a2f629c0d337823": 1790340170,
@@ -26,7 +27,7 @@
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1791290824,
+ "saved_at": 1791312305,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -3336,6 +3337,7 @@
     "2506": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/ocean-avenue-2506",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Pueblo Libre",
      "nombre": "OCEAN AVENUE",
      "marca": "SERVIPRO",
@@ -3379,12 +3381,13 @@
        20714
       ]
      },
-     "r": 20714,
+     "r": 20732,
      "x": 20732
     },
     "2507": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/flamingo-2507",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Jesus Maria",
      "nombre": "FLAMINGO",
      "marca": "GRUPO TyC",
@@ -3505,12 +3508,13 @@
        20714
       ]
      },
-     "r": 20714,
+     "r": 20732,
      "x": 20732
     },
     "2509": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/centrik-2509",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Miraflores",
      "nombre": "CENTRIK",
      "marca": "INMOBILIARIA ARES",
@@ -3565,12 +3569,13 @@
        20714
       ]
      },
-     "r": 20714,
+     "r": 20732,
      "x": 20732
     },
     "2570": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/henko-2570",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Miraflores",
      "nombre": "HENKO",
      "marca": "CONSTRUCTORA INARCO",
@@ -3636,12 +3641,13 @@
        20714
       ]
      },
-     "r": 20714,
+     "r": 20732,
      "x": 20732
     },
     "2578": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/ramon-zavala-ii-2578",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Miraflores",
      "nombre": "RAMON ZAVALA II",
      "marca": "INMOBILIARIA DIEGAL",
@@ -3707,12 +3713,13 @@
        20714
       ]
      },
-     "r": 20714,
+     "r": 20732,
      "x": 20732
     },
     "2588": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/mandra-2588",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Miraflores",
      "nombre": "MANDRA",
      "marca": "GRUPO TyC",
@@ -3720,12 +3727,6 @@
      "lng": -77.0505,
      "etapa": "inmediata",
      "modelos": {
-      "Modelo Tipo 19": [
-       75.64,
-       1,
-       "PEN",
-       534650.0
-      ],
       "Modelo Tipo 6": [
        83.09,
        2,
@@ -3758,11 +3759,6 @@
       ]
      },
      "primero": {
-      "Modelo Tipo 19": [
-       "PEN",
-       534650.0,
-       20714
-      ],
       "Modelo Tipo 6": [
        "PEN",
        722204.0,
@@ -3789,12 +3785,13 @@
        20714
       ]
      },
-     "r": 20714,
+     "r": 20732,
      "x": 20732
     },
     "2617": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/pardo-669-2617",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Miraflores",
      "nombre": "PARDO 669",
      "marca": "V&V GRUPO INMOBILIARIO",
@@ -3882,12 +3879,13 @@
        20714
       ]
      },
-     "r": 20714,
+     "r": 20732,
      "x": 20732
     },
     "2621": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/basadre-1310-2621",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "San Isidro",
      "nombre": "Basadre 1310",
      "marca": "FUNDAMENTA",
@@ -3899,19 +3897,37 @@
        111.71,
        1,
        "PEN",
-       1131273.0
+       1033600.0
+      ],
+      "Modelo TIPOLOGIA 10": [
+       76.71,
+       1,
+       "PEN",
+       803000.0
+      ],
+      "Modelo TIPOLOGIA 12": [
+       214.7,
+       2,
+       "PEN",
+       1895000.0
+      ],
+      "Modelo TIPOLOGIA 13": [
+       317.44,
+       2,
+       "PEN",
+       2642918.0
       ],
       "Modelo TIPOLOGIA 15": [
        238.42,
        1,
        "PEN",
-       2161000.0
+       1955000.0
       ],
       "Modelo TIPOLOGIA 16": [
        152.41,
        1,
        "PEN",
-       1415154.0
+       1256200.0
       ]
      },
      "primero": {
@@ -3929,14 +3945,30 @@
        "PEN",
        1415154.0,
        20714
+      ],
+      "Modelo TIPOLOGIA 10": [
+       "PEN",
+       803000.0,
+       20732
+      ],
+      "Modelo TIPOLOGIA 12": [
+       "PEN",
+       1895000.0,
+       20732
+      ],
+      "Modelo TIPOLOGIA 13": [
+       "PEN",
+       2642918.0,
+       20732
       ]
      },
-     "r": 20714,
+     "r": 20732,
      "x": 20732
     },
     "2652": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/larco-791-2652",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Miraflores",
      "nombre": "LARCO 791",
      "marca": "V&V GRUPO INMOBILIARIO",
@@ -3969,12 +4001,13 @@
        20714
       ]
      },
-     "r": 20714,
+     "r": 20732,
      "x": 20732
     },
     "2660": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/alto-alborada-2660",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Cercado De Lima",
      "nombre": "Alto Alborada",
      "marca": "IMAGINA",
@@ -4007,12 +4040,13 @@
        20714
       ]
      },
-     "r": 20714,
+     "r": 20732,
      "x": 20732
     },
     "2661": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-isidro/palm-living-2661",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "San Isidro",
      "nombre": "PALM LIVING",
      "marca": "GRUPO T&C",
@@ -4030,13 +4064,7 @@
        45.67,
        1,
        "PEN",
-       377265.0
-      ],
-      "Modelo TIPO 2": [
-       70.8,
-       2,
-       "PEN",
-       664880.0
+       379021.0
       ],
       "Modelo TIPO 4": [
        79.99,
@@ -4056,11 +4084,17 @@
        "PEN",
        400232.0
       ],
-      "Modelo TIPO 15": [
-       56.56,
+      "Modelo TIPO 12": [
+       74.93,
        2,
        "PEN",
-       494142.0
+       669001.0
+      ],
+      "Modelo TIPO 14B": [
+       80.51,
+       3,
+       "PEN",
+       724116.0
       ],
       "Modelo TIPO 18": [
        57.28,
@@ -4080,11 +4114,6 @@
        377265.0,
        20714
       ],
-      "Modelo TIPO 2": [
-       "PEN",
-       664880.0,
-       20714
-      ],
       "Modelo TIPO 4": [
        "PEN",
        710758.0,
@@ -4100,18 +4129,23 @@
        400232.0,
        20714
       ],
-      "Modelo TIPO 15": [
-       "PEN",
-       494142.0,
-       20714
-      ],
       "Modelo TIPO 18": [
        "PEN",
        419604.0,
        20714
+      ],
+      "Modelo TIPO 12": [
+       "PEN",
+       669001.0,
+       20732
+      ],
+      "Modelo TIPO 14B": [
+       "PEN",
+       724116.0,
+       20732
       ]
      },
-     "r": 20714,
+     "r": 20732,
      "x": 20732
     },
     "2688": {
@@ -20527,7 +20561,7 @@
        66.55,
        3,
        "PEN",
-       294973.0
+       320478.0
       ],
       "Modelo T12": [
        132.71,
@@ -97222,9 +97256,103 @@
      },
      "r": 20730,
      "x": 20732
+    },
+    "4390": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/arteco-beacon-4390",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "San Miguel",
+     "nombre": "Arteco | Beacon",
+     "marca": "ARTECO",
+     "lat": -12.08017,
+     "lng": -77.076,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo Atípico": [
+       62.53,
+       2,
+       "PEN",
+       424000.0
+      ],
+      "Modelo Tipo 2": [
+       65.59,
+       3,
+       "PEN",
+       438000.0
+      ],
+      "Modelo Tipo 3": [
+       54.73,
+       2,
+       "PEN",
+       359000.0
+      ],
+      "Modelo Tipo 4": [
+       54.16,
+       2,
+       "PEN",
+       347000.0
+      ],
+      "Modelo Tipo 5": [
+       68.77,
+       3,
+       "PEN",
+       439000.0
+      ],
+      "Modelo Tipo 1": [
+       54.19,
+       2,
+       "PEN",
+       392000.0
+      ],
+      "Modelo Duplex": [
+       121.18,
+       3,
+       "PEN",
+       729000.0
+      ]
+     },
+     "primero": {
+      "Modelo Atípico": [
+       "PEN",
+       424000.0,
+       20732
+      ],
+      "Modelo Tipo 2": [
+       "PEN",
+       438000.0,
+       20732
+      ],
+      "Modelo Tipo 3": [
+       "PEN",
+       359000.0,
+       20732
+      ],
+      "Modelo Tipo 4": [
+       "PEN",
+       347000.0,
+       20732
+      ],
+      "Modelo Tipo 5": [
+       "PEN",
+       439000.0,
+       20732
+      ],
+      "Modelo Tipo 1": [
+       "PEN",
+       392000.0,
+       20732
+      ],
+      "Modelo Duplex": [
+       "PEN",
+       729000.0,
+       20732
+      ]
+     },
+     "r": 20732,
+     "x": 20732
     }
    },
-   "ultima": 1791247855
+   "ultima": 1791312305
   },
   "scotiabank": {
    "filas": {
@@ -99785,7 +99913,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194278340": {
@@ -99922,20 +100050,20 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194227796": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 173521.0,
+     "usd": 173922.0,
      "area": 75.0,
      "lat": -12.08249,
      "lng": -77.05061,
      "mon": "PEN",
      "monto": 600000.0,
-     "mant": 95.44,
+     "mant": 95.66,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -99943,10 +100071,6 @@
      "u": "https://www.infocasas.com.pe/exclusivo-departamento-en-venta-–-jesus-maria-cerca-de-el-olivar-ref-837-/194227796",
      "flags": [],
      "p": [
-      [
-       20721,
-       177086.0
-      ],
       [
        20722,
        176893.0
@@ -99974,10 +100098,14 @@
       [
        20730,
        173521.0
+      ],
+      [
+       20732,
+       173922.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194147982": {
@@ -100011,13 +100139,13 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 173521.0,
+     "usd": 173922.0,
      "area": 75.0,
      "lat": -12.08249,
      "lng": -77.05061,
      "mon": "PEN",
      "monto": 600000.0,
-     "mant": 95.44,
+     "mant": 95.66,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -100025,10 +100153,6 @@
      "u": "https://www.infocasas.com.pe/exclusivo-departamento-en-venta-–-jesus-maria-cerca-de-el-olivar-ref-837-/194258861",
      "flags": [],
      "p": [
-      [
-       20720,
-       177553.0
-      ],
       [
        20721,
        177086.0
@@ -100056,10 +100180,14 @@
       [
        20730,
        173521.0
+      ],
+      [
+       20732,
+       173922.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194256159": {
@@ -100086,7 +100214,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194254308": {
@@ -100113,7 +100241,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194240826": {
@@ -100140,7 +100268,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194176369": {
@@ -100420,13 +100548,13 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 315230.0,
+     "usd": 315959.0,
      "area": 142.0,
      "lat": -12.08249,
      "lng": -77.05061,
      "mon": "PEN",
      "monto": 1090000.0,
-     "mant": 86.76,
+     "mant": 86.96,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -100434,10 +100562,6 @@
      "u": "https://www.infocasas.com.pe/duplex-de-estreno-en-venta-–-entrega-inmediata-–-jesus-mariaref-863-/194227764",
      "flags": [],
      "p": [
-      [
-       20721,
-       321706.0
-      ],
       [
        20722,
        321355.0
@@ -100465,10 +100589,14 @@
       [
        20730,
        315230.0
+      ],
+      [
+       20732,
+       315959.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194176371": {
@@ -100607,7 +100735,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194176376": {
@@ -101043,7 +101171,7 @@
      "lng": -77.05039,
      "mon": "USD",
      "monto": 245000.0,
-     "mant": 130.14,
+     "mant": 130.44,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -101061,7 +101189,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194208235": {
@@ -101478,13 +101606,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 694.0,
+     "usd": 696.0,
      "area": 66.0,
      "lat": -12.08182,
      "lng": -77.04837,
      "mon": "PEN",
      "monto": 2400.0,
-     "mant": 83.85,
+     "mant": 84.02,
      "anio": "",
      "dorm": "2",
      "zona": "Jesus Maria",
@@ -101492,10 +101620,6 @@
      "u": "https://www.infocasas.com.pe/alquilo-departamento-2-dormitorios-amoblado-frente-a-canal-2/194254246",
      "flags": [],
      "p": [
-      [
-       20720,
-       710.0
-      ],
       [
        20721,
        708.0
@@ -101523,23 +101647,27 @@
       [
        20730,
        694.0
+      ],
+      [
+       20732,
+       696.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194221835": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 752.0,
+     "usd": 754.0,
      "area": 75.0,
      "lat": -12.08249,
      "lng": -77.05061,
      "mon": "PEN",
      "monto": 2600.0,
-     "mant": 95.41,
+     "mant": 95.61,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -101547,10 +101675,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-alquiler-sin-muebles-–-jesus-maria-ref-24020-/194221835",
      "flags": [],
      "p": [
-      [
-       20720,
-       769.0
-      ],
       [
        20721,
        767.0
@@ -101578,10 +101702,14 @@
       [
        20730,
        752.0
+      ],
+      [
+       20732,
+       754.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194190067": {
@@ -101643,7 +101771,7 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 1170.0,
+     "usd": 1172.0,
      "area": 102.0,
      "lat": -12.08001,
      "lng": -77.05061,
@@ -101657,10 +101785,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-depa-amoblado-en-jesus-maria-dpt-1702-60911611/194249806",
      "flags": [],
      "p": [
-      [
-       20721,
-       1194.0
-      ],
       [
        20722,
        1192.0
@@ -101688,10 +101812,14 @@
       [
        20730,
        1170.0
+      ],
+      [
+       20732,
+       1172.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194254769": {
@@ -101765,7 +101893,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194179231": {
@@ -101850,13 +101978,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 665.0,
+     "usd": 667.0,
      "area": 58.0,
      "lat": -12.08315,
      "lng": -77.05225,
      "mon": "PEN",
      "monto": 2300.0,
-     "mant": 72.28,
+     "mant": 72.43,
      "anio": "",
      "dorm": "1",
      "zona": "Jesus Maria",
@@ -101864,10 +101992,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-de-departamento-de-1-dormitorio-–-jesus-maria/194237281",
      "flags": [],
      "p": [
-      [
-       20717,
-       682.0
-      ],
       [
        20719,
        681.0
@@ -101895,23 +102019,27 @@
       [
        20730,
        665.0
+      ],
+      [
+       20732,
+       667.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194250439": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 925.0,
+     "usd": 928.0,
      "area": 110.0,
      "lat": -12.08348,
      "lng": -77.05303,
      "mon": "PEN",
      "monto": 3200.0,
-     "mant": 95.41,
+     "mant": 95.61,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -101919,10 +102047,6 @@
      "u": "https://www.infocasas.com.pe/alquilo-departamento-100m2-jesus-maria-cerca-del-cc-real-plaza-salaverry/194250439",
      "flags": [],
      "p": [
-      [
-       20720,
-       947.0
-      ],
       [
        20721,
        944.0
@@ -101950,10 +102074,14 @@
       [
        20730,
        925.0
+      ],
+      [
+       20732,
+       928.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194164444": {
@@ -101995,13 +102123,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 723.0,
+     "usd": 725.0,
      "area": 75.0,
      "lat": -12.08249,
      "lng": -77.05061,
      "mon": "PEN",
      "monto": 2500.0,
-     "mant": 72.28,
+     "mant": 72.43,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -102009,10 +102137,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-alquiler-sin-muebles-–-jesus-maria-ref-24020-/194266167",
      "flags": [],
      "p": [
-      [
-       20720,
-       740.0
-      ],
       [
        20721,
        738.0
@@ -102040,23 +102164,27 @@
       [
        20730,
        723.0
+      ],
+      [
+       20732,
+       725.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194254227": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 752.0,
+     "usd": 754.0,
      "area": 75.0,
      "lat": -12.10236,
      "lng": -77.16996,
      "mon": "PEN",
      "monto": 2600.0,
-     "mant": 95.41,
+     "mant": 95.61,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -102064,10 +102192,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-alquiler-sin-muebles-–-jesus-maria-ref-24020/194254227",
      "flags": [],
      "p": [
-      [
-       20720,
-       769.0
-      ],
       [
        20721,
        767.0
@@ -102095,23 +102219,27 @@
       [
        20730,
        752.0
+      ],
+      [
+       20732,
+       754.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194246601": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 723.0,
+     "usd": 725.0,
      "area": 72.0,
      "lat": -12.07487,
      "lng": -77.047,
      "mon": "PEN",
      "monto": 2500.0,
-     "mant": 86.74,
+     "mant": 86.92,
      "anio": "",
      "dorm": "2",
      "zona": "Jesus Maria",
@@ -102119,10 +102247,6 @@
      "u": "https://www.infocasas.com.pe/tv-lindo-depa-con-balcon-de-2-dorm-en-av-cuba-cerca-a-la-parroquia-san-jose/194246601",
      "flags": [],
      "p": [
-      [
-       20720,
-       740.0
-      ],
       [
        20721,
        738.0
@@ -102150,10 +102274,14 @@
       [
        20730,
        723.0
+      ],
+      [
+       20732,
+       725.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194202631": {
@@ -102187,13 +102315,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 578.0,
+     "usd": 579.0,
      "area": 45.0,
      "lat": -12.08325,
      "lng": -77.02944,
      "mon": "PEN",
      "monto": 1999.0,
-     "mant": 43.37,
+     "mant": 43.45,
      "anio": "",
      "dorm": "Mono",
      "zona": "La Molina",
@@ -102201,10 +102329,6 @@
      "u": "https://www.infocasas.com.pe/alquilo-departamento-1-dormitorio-cerca-a-wong-camacho/194254007",
      "flags": [],
      "p": [
-      [
-       20719,
-       592.0
-      ],
       [
        20721,
        590.0
@@ -102232,10 +102356,14 @@
       [
        20730,
        578.0
+      ],
+      [
+       20732,
+       579.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "la-molina"
     },
     "194256153": {
@@ -102262,7 +102390,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "la-molina"
     },
     "194145100": {
@@ -102687,7 +102815,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "la-victoria"
     },
     "194204484": {
@@ -102900,7 +103028,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "lince"
     },
     "194147978": {
@@ -103298,7 +103426,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "lince"
     },
     "194216388": {
@@ -103325,7 +103453,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "lince"
     },
     "194246529": {
@@ -103338,7 +103466,7 @@
      "lng": -76.84209,
      "mon": "USD",
      "monto": 105000.0,
-     "mant": 43.38,
+     "mant": 43.48,
      "anio": "",
      "dorm": "3",
      "zona": "Lurin",
@@ -103356,7 +103484,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "lurin"
     },
     "194149567": {
@@ -103517,7 +103645,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "magdalena-del-mar"
     },
     "194132422": {
@@ -103675,7 +103803,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "magdalena-del-mar"
     },
     "194185062": {
@@ -103927,7 +104055,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "magdalena-del-mar"
     },
     "194132433": {
@@ -104268,7 +104396,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "magdalena-del-mar"
     },
     "194213157": {
@@ -104385,7 +104513,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194234835": {
@@ -104412,7 +104540,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194208927": {
@@ -104466,7 +104594,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194137512": {
@@ -104519,7 +104647,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20730,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194132407": {
@@ -104579,7 +104707,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 515011.0,
+     "usd": 516201.0,
      "area": 183.0,
      "lat": -12.12295,
      "lng": -77.04008,
@@ -104593,10 +104721,6 @@
      "u": "https://www.infocasas.com.pe/venta-depa-frente-al-mar-en-miraflores-dpto-801-6091476/194234845",
      "flags": [],
      "p": [
-      [
-       20721,
-       525590.0
-      ],
       [
        20722,
        525017.0
@@ -104624,10 +104748,14 @@
       [
        20730,
        515011.0
+      ],
+      [
+       20732,
+       516201.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194202755": {
@@ -104681,7 +104809,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194234825": {
@@ -104708,7 +104836,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194181458": {
@@ -104789,7 +104917,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194202757": {
@@ -104870,7 +104998,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194213153": {
@@ -104910,7 +105038,7 @@
      "lng": -77.03685,
      "mon": "USD",
      "monto": 125000.0,
-     "mant": 95.44,
+     "mant": 95.66,
      "anio": "",
      "dorm": "2",
      "zona": "Miraflores",
@@ -104928,7 +105056,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194274599": {
@@ -104955,7 +105083,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194191214": {
@@ -105089,7 +105217,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194270599": {
@@ -105116,7 +105244,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194203657": {
@@ -105223,7 +105351,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194181456": {
@@ -105306,7 +105434,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194223560": {
@@ -105333,7 +105461,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194176364": {
@@ -105414,7 +105542,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194172777": {
@@ -105468,7 +105596,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194240829": {
@@ -105495,7 +105623,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194234844": {
@@ -105522,7 +105650,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194215355": {
@@ -105562,7 +105690,7 @@
      "lng": -77.01698,
      "mon": "USD",
      "monto": 185000.0,
-     "mant": 86.76,
+     "mant": 86.96,
      "anio": "",
      "dorm": "2",
      "zona": "Miraflores",
@@ -105576,14 +105704,14 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263096": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 413722.0,
+     "usd": 414678.0,
      "area": 122.0,
      "lat": -12.1271,
      "lng": -77.02552,
@@ -105597,10 +105725,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-1102-60993752/194263096",
      "flags": [],
      "p": [
-      [
-       20721,
-       422221.0
-      ],
       [
        20722,
        421760.0
@@ -105628,10 +105752,14 @@
       [
        20730,
        413722.0
+      ],
+      [
+       20732,
+       414678.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263079": {
@@ -105658,7 +105786,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263101": {
@@ -105685,7 +105813,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263083": {
@@ -105712,7 +105840,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263087": {
@@ -105739,7 +105867,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263091": {
@@ -105766,14 +105894,14 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263092": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 319672.0,
+     "usd": 320411.0,
      "area": 87.0,
      "lat": -12.1271,
      "lng": -77.02552,
@@ -105787,10 +105915,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-204-60993758/194263092",
      "flags": [],
      "p": [
-      [
-       20721,
-       326239.0
-      ],
       [
        20722,
        325883.0
@@ -105818,10 +105942,14 @@
       [
        20730,
        319672.0
+      ],
+      [
+       20732,
+       320411.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263095": {
@@ -105848,7 +105976,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263099": {
@@ -105875,14 +106003,14 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263084": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 332342.0,
+     "usd": 333110.0,
      "area": 102.0,
      "lat": -12.1271,
      "lng": -77.02552,
@@ -105896,10 +106024,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-502-al-802-60993749/194263084",
      "flags": [],
      "p": [
-      [
-       20721,
-       339169.0
-      ],
       [
        20722,
        338799.0
@@ -105927,17 +106051,21 @@
       [
        20730,
        332342.0
+      ],
+      [
+       20732,
+       333110.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263100": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 430778.0,
+     "usd": 431773.0,
      "area": 125.0,
      "lat": -12.1271,
      "lng": -77.02552,
@@ -105951,10 +106079,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-1101-60993751/194263100",
      "flags": [],
      "p": [
-      [
-       20721,
-       439627.0
-      ],
       [
        20722,
        439147.0
@@ -105982,17 +106106,21 @@
       [
        20730,
        430778.0
+      ],
+      [
+       20732,
+       431773.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263078": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 250475.0,
+     "usd": 251054.0,
      "area": 84.0,
      "lat": -12.1271,
      "lng": -77.02552,
@@ -106006,10 +106134,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-504-704-60993747/194263078",
      "flags": [],
      "p": [
-      [
-       20721,
-       255620.0
-      ],
       [
        20722,
        255341.0
@@ -106037,10 +106161,14 @@
       [
        20730,
        250475.0
+      ],
+      [
+       20732,
+       251054.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263089": {
@@ -106067,7 +106195,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263093": {
@@ -106094,14 +106222,14 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263102": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 422007.0,
+     "usd": 422981.0,
      "area": 138.0,
      "lat": -12.1271,
      "lng": -77.02552,
@@ -106115,10 +106243,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-1104-60993754/194263102",
      "flags": [],
      "p": [
-      [
-       20721,
-       430675.0
-      ],
       [
        20722,
        430206.0
@@ -106146,10 +106270,14 @@
       [
        20730,
        422007.0
+      ],
+      [
+       20732,
+       422981.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263075": {
@@ -106176,14 +106304,14 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263080": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 259734.0,
+     "usd": 260334.0,
      "area": 87.0,
      "lat": -12.1271,
      "lng": -77.02552,
@@ -106197,10 +106325,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-304-al-404-60993745/194263080",
      "flags": [],
      "p": [
-      [
-       20721,
-       265069.0
-      ],
       [
        20722,
        264780.0
@@ -106228,17 +106352,21 @@
       [
        20730,
        259734.0
+      ],
+      [
+       20732,
+       260334.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263076": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 255835.0,
+     "usd": 256426.0,
      "area": 84.0,
      "lat": -12.1271,
      "lng": -77.02552,
@@ -106252,10 +106380,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-503-al-803-60993746/194263076",
      "flags": [],
      "p": [
-      [
-       20721,
-       261091.0
-      ],
       [
        20722,
        260806.0
@@ -106283,10 +106407,14 @@
       [
        20730,
        255835.0
+      ],
+      [
+       20732,
+       256426.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263077": {
@@ -106313,14 +106441,14 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263082": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 255348.0,
+     "usd": 255938.0,
      "area": 92.0,
      "lat": -12.1271,
      "lng": -77.02552,
@@ -106334,10 +106462,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-401-60993750/194263082",
      "flags": [],
      "p": [
-      [
-       20721,
-       260593.0
-      ],
       [
        20722,
        260309.0
@@ -106365,17 +106489,21 @@
       [
        20730,
        255348.0
+      ],
+      [
+       20732,
+       255938.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263086": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 358657.0,
+     "usd": 359485.0,
      "area": 108.0,
      "lat": -12.1271,
      "lng": -77.02552,
@@ -106389,10 +106517,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-902-al-1002-60993756/194263086",
      "flags": [],
      "p": [
-      [
-       20721,
-       366024.0
-      ],
       [
        20722,
        365625.0
@@ -106420,10 +106544,14 @@
       [
        20730,
        358657.0
+      ],
+      [
+       20732,
+       359485.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263073": {
@@ -106450,14 +106578,14 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263074": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 240242.0,
+     "usd": 240797.0,
      "area": 80.0,
      "lat": -12.1271,
      "lng": -77.02552,
@@ -106471,10 +106599,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-303-al-403-60993744/194263074",
      "flags": [],
      "p": [
-      [
-       20721,
-       245177.0
-      ],
       [
        20722,
        244909.0
@@ -106502,10 +106626,14 @@
       [
        20730,
        240242.0
+      ],
+      [
+       20732,
+       240797.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263085": {
@@ -106532,14 +106660,14 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263094": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 375713.0,
+     "usd": 376581.0,
      "area": 87.0,
      "lat": -12.1271,
      "lng": -77.02552,
@@ -106553,10 +106681,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-901-al-1001-60993755/194263094",
      "flags": [],
      "p": [
-      [
-       20721,
-       383430.0
-      ],
       [
        20722,
        383012.0
@@ -106584,10 +106708,14 @@
       [
        20730,
        375713.0
+      ],
+      [
+       20732,
+       376581.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263097": {
@@ -106614,14 +106742,14 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263098": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 377662.0,
+     "usd": 378534.0,
      "area": 120.0,
      "lat": -12.1271,
      "lng": -77.02552,
@@ -106635,10 +106763,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-1103-60993753/194263098",
      "flags": [],
      "p": [
-      [
-       20721,
-       385420.0
-      ],
       [
        20722,
        384999.0
@@ -106666,10 +106790,14 @@
       [
        20730,
        377662.0
+      ],
+      [
+       20732,
+       378534.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263081": {
@@ -106696,14 +106824,14 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263088": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 298718.0,
+     "usd": 299408.0,
      "area": 80.0,
      "lat": -12.1271,
      "lng": -77.02552,
@@ -106717,10 +106845,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-203-60993757/194263088",
      "flags": [],
      "p": [
-      [
-       20721,
-       304855.0
-      ],
       [
        20722,
        304522.0
@@ -106748,17 +106872,21 @@
       [
        20730,
        298718.0
+      ],
+      [
+       20732,
+       299408.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194263090": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 327469.0,
+     "usd": 328226.0,
      "area": 113.0,
      "lat": -12.1271,
      "lng": -77.02552,
@@ -106772,10 +106900,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-miraflores-dpto-501-al-801-60993748/194263090",
      "flags": [],
      "p": [
-      [
-       20721,
-       334196.0
-      ],
       [
        20722,
        333832.0
@@ -106803,10 +106927,14 @@
       [
        20730,
        327469.0
+      ],
+      [
+       20732,
+       328226.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194269363": {
@@ -106819,7 +106947,7 @@
      "lng": -77.02091,
      "mon": "USD",
      "monto": 265000.0,
-     "mant": 159.06,
+     "mant": 159.43,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -106833,7 +106961,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194269362": {
@@ -106846,7 +106974,7 @@
      "lng": -77.02091,
      "mon": "USD",
      "monto": 265000.0,
-     "mant": 159.06,
+     "mant": 159.43,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -106860,7 +106988,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194269315": {
@@ -106873,7 +107001,7 @@
      "lng": -77.02091,
      "mon": "USD",
      "monto": 265000.0,
-     "mant": 144.6,
+     "mant": 144.94,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -106887,7 +107015,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194269311": {
@@ -106900,7 +107028,7 @@
      "lng": -77.02091,
      "mon": "USD",
      "monto": 265000.0,
-     "mant": 144.6,
+     "mant": 144.94,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -106914,7 +107042,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194269314": {
@@ -106927,7 +107055,7 @@
      "lng": -77.02091,
      "mon": "USD",
      "monto": 265000.0,
-     "mant": 144.6,
+     "mant": 144.94,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -106941,7 +107069,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194269361": {
@@ -106954,7 +107082,7 @@
      "lng": -77.02091,
      "mon": "USD",
      "monto": 265000.0,
-     "mant": 159.06,
+     "mant": 159.43,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -106968,7 +107096,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194269313": {
@@ -106981,7 +107109,7 @@
      "lng": -77.02091,
      "mon": "USD",
      "monto": 265000.0,
-     "mant": 144.6,
+     "mant": 144.94,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -106995,7 +107123,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194269312": {
@@ -107008,7 +107136,7 @@
      "lng": -77.02091,
      "mon": "USD",
      "monto": 265000.0,
-     "mant": 144.6,
+     "mant": 144.94,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -107022,7 +107150,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194230724": {
@@ -107049,7 +107177,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194221889": {
@@ -107062,7 +107190,7 @@
      "lng": -77.03135,
      "mon": "USD",
      "monto": 2500.0,
-     "mant": 439.01,
+     "mant": 439.92,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -107076,7 +107204,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194197012": {
@@ -107185,7 +107313,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194219857": {
@@ -107212,14 +107340,14 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194249804": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 1041.0,
+     "usd": 1044.0,
      "area": 70.0,
      "lat": -12.1152,
      "lng": -77.0433,
@@ -107233,10 +107361,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-depa-en-miraflores-dpt-802-60911601/194249804",
      "flags": [],
      "p": [
-      [
-       20721,
-       1063.0
-      ],
       [
        20722,
        1061.0
@@ -107264,10 +107388,14 @@
       [
        20730,
        1041.0
+      ],
+      [
+       20732,
+       1044.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194250526": {
@@ -107584,7 +107712,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194154562": {
@@ -107638,7 +107766,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194181450": {
@@ -117916,13 +118044,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 535.0,
+     "usd": 536.0,
      "area": 55.0,
      "lat": -12.06486,
      "lng": -77.04195,
      "mon": "PEN",
      "monto": 1850.0,
-     "mant": 37.59,
+     "mant": 37.66,
      "anio": "",
      "dorm": "1",
      "zona": "Jesus Maria",
@@ -117930,10 +118058,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-de-departamento-sin-amoblar-de-1-dormitorio-–-jesus-maria/194282869",
      "flags": [],
      "p": [
-      [
-       20720,
-       547.0
-      ],
       [
        20721,
        546.0
@@ -117961,10 +118085,14 @@
       [
        20730,
        535.0
+      ],
+      [
+       20732,
+       536.0
       ]
      ],
      "f": 20716,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194283666": {
@@ -117977,7 +118105,7 @@
      "lng": -77.04071,
      "mon": "USD",
      "monto": 318000.0,
-     "mant": 144.6,
+     "mant": 144.94,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -117991,20 +118119,20 @@
       ]
      ],
      "f": 20716,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194283045": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 1446.0,
+     "usd": 1449.0,
      "area": 83.0,
      "lat": -12.11855,
      "lng": -77.04267,
      "mon": "PEN",
      "monto": 5000.0,
-     "mant": 101.22,
+     "mant": 101.43,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -118012,10 +118140,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-departamento-en-mirafloresav-sta-cruz-y-av-pardo/194283045",
      "flags": [],
      "p": [
-      [
-       20721,
-       1476.0
-      ],
       [
        20722,
        1474.0
@@ -118043,10 +118167,14 @@
       [
        20730,
        1446.0
+      ],
+      [
+       20732,
+       1449.0
       ]
      ],
      "f": 20716,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194282584": {
@@ -118329,7 +118457,7 @@
      "lng": -71.96199,
      "mon": "USD",
      "monto": 150000.0,
-     "mant": 31.9,
+     "mant": 31.88,
      "anio": "",
      "dorm": "4",
      "zona": "Wanchaq",
@@ -118350,7 +118478,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 300119.0,
+     "usd": 300813.0,
      "area": 110.0,
      "lat": -12.13015,
      "lng": -77.02157,
@@ -118364,10 +118492,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-miraflores-lima/194289862",
      "flags": [],
      "p": [
-      [
-       20721,
-       306284.0
-      ],
       [
        20722,
        305950.0
@@ -118395,17 +118519,21 @@
       [
        20730,
        300119.0
+      ],
+      [
+       20732,
+       300813.0
       ]
      ],
      "f": 20718,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194289844": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 272674.0,
+     "usd": 273304.0,
      "area": 117.0,
      "lat": -12.12825,
      "lng": -77.00512,
@@ -118419,10 +118547,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-miraflores/194289844",
      "flags": [],
      "p": [
-      [
-       20720,
-       279323.0
-      ],
       [
        20721,
        278275.0
@@ -118450,10 +118574,14 @@
       [
        20730,
        272674.0
+      ],
+      [
+       20732,
+       273304.0
       ]
      ],
      "f": 20718,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194288118": {
@@ -118515,7 +118643,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 283418.0,
+     "usd": 284073.0,
      "area": 130.0,
      "lat": -12.08977,
      "lng": -77.02726,
@@ -118529,10 +118657,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-duplex-en-lince/194289463",
      "flags": [],
      "p": [
-      [
-       20721,
-       289240.0
-      ],
       [
        20722,
        288924.0
@@ -118560,17 +118684,21 @@
       [
        20730,
        283418.0
+      ],
+      [
+       20732,
+       284073.0
       ]
      ],
      "f": 20719,
-     "r": 20731,
+     "r": 20732,
      "dist": "lince"
     },
     "194289393": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 214010.0,
+     "usd": 214504.0,
      "area": 112.0,
      "lat": -12.08201,
      "lng": -77.03931,
@@ -118584,10 +118712,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-lince-lima-lima/194289393",
      "flags": [],
      "p": [
-      [
-       20721,
-       218406.0
-      ],
       [
        20722,
        218167.0
@@ -118615,23 +118739,27 @@
       [
        20730,
        214010.0
+      ],
+      [
+       20732,
+       214504.0
       ]
      ],
      "f": 20719,
-     "r": 20731,
+     "r": 20732,
      "dist": "lince"
     },
     "194292060": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 636.0,
+     "usd": 638.0,
      "area": 39.0,
      "lat": -12.09245,
      "lng": -77.06259,
      "mon": "PEN",
      "monto": 2200.0,
-     "mant": 72.26,
+     "mant": 72.5,
      "anio": "",
      "dorm": "1",
      "zona": "Magdalena Del Mar",
@@ -118639,10 +118767,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-de-departamento-de-estreno-–-orrantia-magdalena/194292060",
      "flags": [],
      "p": [
-      [
-       20720,
-       741.0
-      ],
       [
        20721,
        738.0
@@ -118670,17 +118794,21 @@
       [
        20730,
        636.0
+      ],
+      [
+       20732,
+       638.0
       ]
      ],
      "f": 20719,
-     "r": 20731,
+     "r": 20732,
      "dist": "magdalena-del-mar"
     },
     "194293161": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 185993.0,
+     "usd": 186423.0,
      "area": 78.0,
      "lat": -12.12584,
      "lng": -77.0237,
@@ -118694,10 +118822,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-miraflores/194293161",
      "flags": [],
      "p": [
-      [
-       20721,
-       189814.0
-      ],
       [
        20722,
        189607.0
@@ -118725,17 +118849,21 @@
       [
        20730,
        185993.0
+      ],
+      [
+       20732,
+       186423.0
       ]
      ],
      "f": 20719,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194292914": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 169183.0,
+     "usd": 169574.0,
      "area": 61.0,
      "lat": -12.11025,
      "lng": -77.04991,
@@ -118749,10 +118877,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-miraflores/194292914",
      "flags": [],
      "p": [
-      [
-       20721,
-       172659.0
-      ],
       [
        20722,
        172470.0
@@ -118780,10 +118904,14 @@
       [
        20730,
        169183.0
+      ],
+      [
+       20732,
+       169574.0
       ]
      ],
      "f": 20719,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194296552": {
@@ -118985,7 +119113,7 @@
      "lng": -71.55376,
      "mon": "USD",
      "monto": 330000.0,
-     "mant": 37.7,
+     "mant": 37.67,
      "anio": "",
      "dorm": "4",
      "zona": "Yanahuara",
@@ -119245,7 +119373,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20731,
+     "r": 20732,
      "dist": "la-molina"
     },
     "194308373": {
@@ -119354,20 +119482,20 @@
       ]
      ],
      "f": 20721,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194309738": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 492.0,
+     "usd": 493.0,
      "area": 46.0,
      "lat": -12.08313,
      "lng": -77.02561,
      "mon": "PEN",
      "monto": 1700.0,
-     "mant": 52.09,
+     "mant": 52.2,
      "anio": "",
      "dorm": "Mono",
      "zona": "La Victoria",
@@ -119394,10 +119522,14 @@
       [
        20729,
        492.0
+      ],
+      [
+       20732,
+       493.0
       ]
      ],
      "f": 20721,
-     "r": 20731,
+     "r": 20732,
      "dist": "la-victoria"
     },
     "194310529": {
@@ -119424,7 +119556,7 @@
       ]
      ],
      "f": 20721,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194309762": {
@@ -119437,7 +119569,7 @@
      "lng": -77.03577,
      "mon": "USD",
      "monto": 298000.0,
-     "mant": 144.6,
+     "mant": 144.94,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -119453,7 +119585,7 @@
       ]
      ],
      "f": 20721,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194309690": {
@@ -119466,7 +119598,7 @@
      "lng": -77.02696,
      "mon": "USD",
      "monto": 270000.0,
-     "mant": 187.98,
+     "mant": 188.42,
      "anio": "",
      "dorm": "2",
      "zona": "Miraflores",
@@ -119480,20 +119612,20 @@
       ]
      ],
      "f": 20721,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194313727": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 1041.0,
+     "usd": 1044.0,
      "area": 180.0,
      "lat": -12.12249,
      "lng": -77.03135,
      "mon": "PEN",
      "monto": 3600.0,
-     "mant": 80.98,
+     "mant": 81.14,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -119501,10 +119633,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-de-triplex-semi-amoblado-–-3-dormitorios-y-cochera-–-miraflores/194313727",
      "flags": [],
      "p": [
-      [
-       20721,
-       1063.0
-      ],
       [
        20722,
        1061.0
@@ -119532,10 +119660,14 @@
       [
        20730,
        1041.0
+      ],
+      [
+       20732,
+       1044.0
       ]
      ],
      "f": 20721,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194312531": {
@@ -119865,7 +119997,7 @@
       ]
      ],
      "f": 20726,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194328541": {
@@ -120359,7 +120491,7 @@
      "lng": -77.0545,
      "mon": "USD",
      "monto": 92000.0,
-     "mant": 43.38,
+     "mant": 43.48,
      "anio": "",
      "dorm": "2",
      "zona": "Jesus Maria",
@@ -120373,7 +120505,7 @@
       ]
      ],
      "f": 20728,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194339251": {
@@ -120400,7 +120532,7 @@
       ]
      ],
      "f": 20728,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194344181": {
@@ -120427,7 +120559,7 @@
       ]
      ],
      "f": 20728,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194342993": {
@@ -120440,7 +120572,7 @@
      "lng": -77.0092,
      "mon": "USD",
      "monto": 340000.0,
-     "mant": 271.85,
+     "mant": 272.48,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -120454,7 +120586,7 @@
       ]
      ],
      "f": 20728,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194339572": {
@@ -120562,7 +120694,7 @@
       ]
      ],
      "f": 20729,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194347826": {
@@ -120656,7 +120788,7 @@
      "lng": -77.05111,
      "mon": "USD",
      "monto": 170000.0,
-     "mant": 69.41,
+     "mant": 69.57,
      "anio": "",
      "dorm": "2",
      "zona": "Jesus Maria",
@@ -120670,20 +120802,20 @@
       ]
      ],
      "f": 20730,
-     "r": 20731,
+     "r": 20732,
      "dist": "jesus-maria"
     },
     "194354655": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 868.0,
+     "usd": 870.0,
      "area": 60.0,
      "lat": -12.09141,
      "lng": -77.05795,
      "mon": "PEN",
      "monto": 3000.0,
-     "mant": 57.81,
+     "mant": 58.0,
      "anio": "",
      "dorm": "2",
      "zona": "Magdalena Del Mar",
@@ -120694,10 +120826,14 @@
       [
        20730,
        868.0
+      ],
+      [
+       20732,
+       870.0
       ]
      ],
      "f": 20730,
-     "r": 20731,
+     "r": 20732,
      "dist": "magdalena-del-mar"
     },
     "194354430": {
@@ -120751,7 +120887,7 @@
       ]
      ],
      "f": 20731,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194355797": {
@@ -120764,7 +120900,7 @@
      "lng": -77.01698,
      "mon": "USD",
      "monto": 1100.0,
-     "mant": 161.95,
+     "mant": 162.29,
      "anio": "",
      "dorm": "2",
      "zona": "Miraflores",
@@ -120778,7 +120914,7 @@
       ]
      ],
      "f": 20731,
-     "r": 20731,
+     "r": 20732,
      "dist": "miraflores"
     },
     "194360114": {
@@ -120888,10 +121024,253 @@
      "f": 20732,
      "r": 20732,
      "dist": "cercado-de-lima"
+    },
+    "194362184": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 266681.0,
+     "area": 204.0,
+     "lat": -12.08116,
+     "lng": -77.04774,
+     "mon": "PEN",
+     "monto": 920000.0,
+     "mant": 144.94,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DUPLEX 204M2 JESUS MARIA",
+     "u": "https://www.infocasas.com.pe/venta-duplex-204m2-jesus-maria/194362184",
+     "flags": [],
+     "p": [
+      [
+       20732,
+       266681.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "dist": "jesus-maria"
+    },
+    "194364018": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 267472.0,
+     "area": 204.0,
+     "lat": -12.08116,
+     "lng": -77.04774,
+     "mon": "PEN",
+     "monto": 920000.0,
+     "mant": 144.94,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Jesus Maria",
+     "titulo": "VENTA DE DEPARTAMENTO DUPLEX EN JESUS MARIA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-duplex-en-jesus-maria/194364018",
+     "flags": [],
+     "p": [
+      [
+       20732,
+       267472.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "dist": "jesus-maria"
+    },
+    "194363898": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 887.0,
+     "area": 69.0,
+     "lat": -12.07728,
+     "lng": -77.038,
+     "mon": "PEN",
+     "monto": 3050.0,
+     "mant": 57.95,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "ALQUILER DE DEPARTAMENTO JESÚS MARÍA",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-jesus-maria/194363898",
+     "flags": [],
+     "p": [
+      [
+       20732,
+       887.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "dist": "jesus-maria"
+    },
+    "194364127": {
+     "op": "venta",
+     "tipo": "casas",
+     "ciudad": "lima",
+     "usd": 1073000.0,
+     "area": 337.0,
+     "lat": -12.0761,
+     "lng": -76.92849,
+     "mon": "USD",
+     "monto": 1073000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "La Molina",
+     "titulo": "VENTA DE CASA EN RINCONADA ALTA LA MOLINA",
+     "u": "https://www.infocasas.com.pe/venta-de-casa-en-rinconada-alta-la-molina/194364127",
+     "flags": [],
+     "p": [
+      [
+       20732,
+       1073000.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "dist": "la-molina"
+    },
+    "194362919": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 135000.0,
+     "area": 76.0,
+     "lat": -12.09102,
+     "lng": -77.0714,
+     "mon": "USD",
+     "monto": 135000.0,
+     "mant": 37.68,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DE DEPARTAMENTO MAGDALENA DEL MAR",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-magdalena-del-mar/194362919",
+     "flags": [],
+     "p": [
+      [
+       20732,
+       135000.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "dist": "magdalena-del-mar"
+    },
+    "194362256": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 135000.0,
+     "area": 76.0,
+     "lat": -12.09102,
+     "lng": -77.0714,
+     "mon": "USD",
+     "monto": 135000.0,
+     "mant": 37.68,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DPTO 76M2 MAGDALENA DEL MAR",
+     "u": "https://www.infocasas.com.pe/venta-dpto-76m2-magdalena-del-mar/194362256",
+     "flags": [],
+     "p": [
+      [
+       20732,
+       135000.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "dist": "magdalena-del-mar"
+    },
+    "194363728": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 200000.0,
+     "area": 146.0,
+     "lat": -12.096,
+     "lng": -77.05971,
+     "mon": "USD",
+     "monto": 200000.0,
+     "mant": 57.97,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Magdalena Del Mar",
+     "titulo": "VENTA DE DEPARTAMENTO EN MAGDALENA DEL MAR - LIMA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-magdalena-del-mar-lima/194363728",
+     "flags": [],
+     "p": [
+      [
+       20732,
+       200000.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "dist": "magdalena-del-mar"
+    },
+    "194360029": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 600.0,
+     "area": 55.0,
+     "lat": -12.13525,
+     "lng": -77.0539,
+     "mon": "USD",
+     "monto": 600.0,
+     "mant": 0.29,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Miraflores",
+     "titulo": "Alquilo Departamento 1 Dorm. mas Estudio Amoblado Miraflores (Ref: 22002)",
+     "u": "https://www.infocasas.com.pe/alquilo-departamento-1-dorm-mas-estudio-amoblado-miraflores-ref-22002-/194360029",
+     "flags": [],
+     "p": [
+      [
+       20732,
+       600.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "dist": "miraflores"
+    },
+    "194362074": {
+     "op": "venta",
+     "tipo": "casas",
+     "ciudad": "trujillo",
+     "usd": 300000.0,
+     "area": 160.0,
+     "lat": -8.12564,
+     "lng": -79.03914,
+     "mon": "USD",
+     "monto": 300000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Trujillo",
+     "titulo": "VENTA DE CASA",
+     "u": "https://www.infocasas.com.pe/venta-de-casa/194362074",
+     "flags": [],
+     "p": [
+      [
+       20732,
+       300000.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "dist": "la-libertad/trujillo"
     }
    },
-   "tc": 3.4482758620689653,
-   "turno": 48,
+   "tc": 3.43980343980344,
+   "turno": 85,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -120918,39 +121297,39 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 23,
-     "fuera_ciudad": 1,
-     "momento": 1791290824
+     "validos": 131,
+     "fuera_ciudad": 0,
+     "momento": 1791312305
     },
     "arequipa": {
      "paginas": 4,
      "validos": 13,
      "fuera_ciudad": 2,
-     "momento": 1791290824
+     "momento": 1791312305
     },
     "cusco": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1791290824
+     "momento": 1791312305
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 1,
-     "momento": 1791290824
+     "momento": 1791312305
     },
     "trujillo": {
      "paginas": 4,
-     "validos": 0,
+     "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1791290824
+     "momento": 1791312305
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1791290824
+     "momento": 1791312305
     }
    }
   }
