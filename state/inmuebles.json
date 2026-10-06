@@ -26,7 +26,7 @@
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1791269281,
+ "saved_at": 1791290824,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -98036,7 +98036,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "barranco"
     },
     "194190451": {
@@ -98070,7 +98070,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 100630.0,
+     "usd": 100862.0,
      "area": 42.0,
      "lat": -12.15011,
      "lng": -77.01834,
@@ -98084,10 +98084,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-barranco-dpto-704-al-1104-a-60988613/194245577",
      "flags": [],
      "p": [
-      [
-       20722,
-       102697.0
-      ],
       [
        20723,
        102462.0
@@ -98115,10 +98111,14 @@
       [
        20731,
        100630.0
+      ],
+      [
+       20732,
+       100862.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "barranco"
     },
     "194263072": {
@@ -98145,7 +98145,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "barranco"
     },
     "194270594": {
@@ -98172,7 +98172,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "barranco"
     },
     "194234815": {
@@ -98199,20 +98199,20 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "barranco"
     },
     "194228564": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 868.0,
+     "usd": 870.0,
      "area": 56.0,
      "lat": -12.14308,
      "lng": -77.02201,
      "mon": "PEN",
      "monto": 3000.0,
-     "mant": 101.27,
+     "mant": 101.5,
      "anio": "",
      "dorm": "2",
      "zona": "Barranco",
@@ -98220,10 +98220,6 @@
      "u": "https://www.infocasas.com.pe/departamento-amoblado-en-barranco/194228564",
      "flags": [],
      "p": [
-      [
-       20721,
-       889.0
-      ],
       [
        20722,
        885.0
@@ -98251,10 +98247,14 @@
       [
        20731,
        868.0
+      ],
+      [
+       20732,
+       870.0
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "barranco"
     },
     "194160698": {
@@ -98362,7 +98362,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "barranco"
     },
     "194197011": {
@@ -98470,7 +98470,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "cercado-de-lima"
     },
     "194223566": {
@@ -98497,7 +98497,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "cercado-de-lima"
     },
     "194234828": {
@@ -98524,7 +98524,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "cercado-de-lima"
     },
     "194147963": {
@@ -98605,7 +98605,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "cercado-de-lima"
     },
     "194181454": {
@@ -98768,7 +98768,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "cercado-de-lima"
     },
     "194176351": {
@@ -99120,7 +99120,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "cercado-de-lima"
     },
     "194137518": {
@@ -99576,7 +99576,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "chorrillos"
     },
     "194167045": {
@@ -99630,7 +99630,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "cieneguilla"
     },
     "194175034": {
@@ -99704,7 +99704,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "comas"
     },
     "194221475": {
@@ -99731,7 +99731,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "comas"
     },
     "194221474": {
@@ -99758,7 +99758,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
+     "r": 20732,
      "dist": "comas"
     },
     "194254452": {
@@ -119170,7 +119170,7 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 347.0,
+     "usd": 348.0,
      "area": 67.0,
      "lat": -12.05119,
      "lng": -77.00702,
@@ -119211,10 +119211,14 @@
       [
        20731,
        347.0
+      ],
+      [
+       20732,
+       348.0
       ]
      ],
      "f": 20720,
-     "r": 20731,
+     "r": 20732,
      "dist": "el-agustino"
     },
     "194304007": {
@@ -119598,7 +119602,7 @@
      "lng": -77.02359,
      "mon": "USD",
      "monto": 375000.0,
-     "mant": 257.39,
+     "mant": 257.98,
      "anio": "",
      "dorm": "2",
      "zona": "Barranco",
@@ -119612,7 +119616,7 @@
       ]
      ],
      "f": 20722,
-     "r": 20731,
+     "r": 20732,
      "dist": "barranco"
     },
     "194321245": {
@@ -120299,20 +120303,20 @@
       ]
      ],
      "f": 20727,
-     "r": 20731,
+     "r": 20732,
      "dist": "carabayllo"
     },
     "194340845": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 76639.0,
+     "usd": 76816.0,
      "area": 68.0,
      "lat": -12.05506,
      "lng": -76.97816,
      "mon": "PEN",
      "monto": 265000.0,
-     "mant": 43.38,
+     "mant": 43.48,
      "anio": "",
      "dorm": "3",
      "zona": "El Agustino",
@@ -120335,10 +120339,14 @@
       [
        20731,
        76639.0
+      ],
+      [
+       20732,
+       76816.0
       ]
      ],
      "f": 20728,
-     "r": 20731,
+     "r": 20732,
      "dist": "el-agustino"
     },
     "194339225": {
@@ -120853,10 +120861,37 @@
      "f": 20732,
      "r": 20732,
      "dist": "santiago-de-surco"
+    },
+    "194359156": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 142372.0,
+     "area": 73.0,
+     "lat": -12.06753,
+     "lng": -77.0708,
+     "mon": "USD",
+     "monto": 142372.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DE DEPARTAMENTO EN EL CERCADO DE LIMA - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-el-cercado-de-lima-entrega-inmediata/194359156",
+     "flags": [],
+     "p": [
+      [
+       20732,
+       142372.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "dist": "cercado-de-lima"
     }
    },
    "tc": 3.4482758620689653,
-   "turno": 8,
+   "turno": 48,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -120883,39 +120918,39 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 67,
+     "validos": 23,
      "fuera_ciudad": 1,
-     "momento": 1791269281
+     "momento": 1791290824
     },
     "arequipa": {
      "paginas": 4,
      "validos": 13,
      "fuera_ciudad": 2,
-     "momento": 1791269281
+     "momento": 1791290824
     },
     "cusco": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1791269281
+     "momento": 1791290824
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 1,
-     "momento": 1791269281
+     "momento": 1791290824
     },
     "trujillo": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1791269281
+     "momento": 1791290824
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1791269281
+     "momento": 1791290824
     }
    }
   }
