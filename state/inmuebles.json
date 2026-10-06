@@ -26,7 +26,7 @@
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1791247855,
+ "saved_at": 1791269281,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -97983,8 +97983,8 @@
       ]
      ],
      "f": 20714,
-     "r": 20731,
-     "dist": "pueblo-libre"
+     "r": 20732,
+     "dist": "ate"
     },
     "194140720": {
      "op": "venta",
@@ -112115,7 +112115,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santa-anita"
     },
     "194208223": {
@@ -112149,7 +112149,7 @@
      "op": "alquiler",
      "tipo": "casas",
      "ciudad": "lima",
-     "usd": 1446.0,
+     "usd": 1449.0,
      "area": 200.0,
      "lat": -11.81751,
      "lng": -77.15843,
@@ -112163,10 +112163,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-de-edificio-comercial-santa-rosa/194277936",
      "flags": [],
      "p": [
-      [
-       20723,
-       1474.0
-      ],
       [
        20724,
        1472.0
@@ -112194,10 +112190,14 @@
       [
        20731,
        1446.0
+      ],
+      [
+       20732,
+       1449.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santa-rosa"
     },
     "194147927": {
@@ -112313,7 +112313,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 175546.0,
+     "usd": 175951.0,
      "area": 69.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -112327,10 +112327,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194221003",
      "flags": [],
      "p": [
-      [
-       20723,
-       178956.0
-      ],
       [
        20724,
        178741.0
@@ -112358,10 +112354,14 @@
       [
        20731,
        175546.0
+      ],
+      [
+       20732,
+       175951.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194234841": {
@@ -112388,7 +112388,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194182133": {
@@ -112477,7 +112477,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 109318.0,
+     "usd": 109571.0,
      "area": 41.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -112491,10 +112491,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220803",
      "flags": [],
      "p": [
-      [
-       20723,
-       111442.0
-      ],
       [
        20724,
        111308.0
@@ -112522,10 +112518,14 @@
       [
        20731,
        109318.0
+      ],
+      [
+       20732,
+       109571.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194223561": {
@@ -112552,7 +112552,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194197018": {
@@ -112637,7 +112637,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194193168": {
@@ -112699,7 +112699,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 188560.0,
+     "usd": 188995.0,
      "area": 74.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -112713,10 +112713,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220929",
      "flags": [],
      "p": [
-      [
-       20723,
-       192223.0
-      ],
       [
        20724,
        191992.0
@@ -112744,10 +112740,14 @@
       [
        20731,
        188560.0
+      ],
+      [
+       20732,
+       188995.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194192415": {
@@ -112809,7 +112809,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 148071.0,
+     "usd": 148414.0,
      "area": 55.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -112823,10 +112823,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220157",
      "flags": [],
      "p": [
-      [
-       20723,
-       150948.0
-      ],
       [
        20724,
        150767.0
@@ -112854,10 +112850,14 @@
       [
        20731,
        148071.0
+      ],
+      [
+       20732,
+       148414.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194223553": {
@@ -112884,7 +112884,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194204483": {
@@ -113027,7 +113027,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 107294.0,
+     "usd": 107542.0,
      "area": 40.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -113041,10 +113041,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220029",
      "flags": [],
      "p": [
-      [
-       20723,
-       109379.0
-      ],
       [
        20724,
        109247.0
@@ -113072,10 +113068,14 @@
       [
        20731,
        107294.0
+      ],
+      [
+       20732,
+       107542.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194215084": {
@@ -113322,7 +113322,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194147928": {
@@ -113384,7 +113384,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194200568": {
@@ -113741,7 +113741,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194192234": {
@@ -113803,7 +113803,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 176992.0,
+     "usd": 177401.0,
      "area": 68.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -113817,10 +113817,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220112",
      "flags": [],
      "p": [
-      [
-       20723,
-       180430.0
-      ],
       [
        20724,
        180214.0
@@ -113848,17 +113844,21 @@
       [
        20731,
        176992.0
+      ],
+      [
+       20732,
+       177401.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194221067": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 193476.0,
+     "usd": 193923.0,
      "area": 76.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -113872,10 +113872,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194221067",
      "flags": [],
      "p": [
-      [
-       20723,
-       197235.0
-      ],
       [
        20724,
        196998.0
@@ -113903,10 +113899,14 @@
       [
        20731,
        193476.0
+      ],
+      [
+       20732,
+       193923.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194197020": {
@@ -113946,7 +113946,7 @@
      "lng": -77.03191,
      "mon": "USD",
      "monto": 289000.0,
-     "mant": 86.76,
+     "mant": 86.96,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -113964,7 +113964,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194202761": {
@@ -113998,7 +113998,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 209093.0,
+     "usd": 209576.0,
      "area": 70.0,
      "lat": -12.09615,
      "lng": -76.97235,
@@ -114012,10 +114012,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194219810",
      "flags": [],
      "p": [
-      [
-       20723,
-       213155.0
-      ],
       [
        20724,
        212899.0
@@ -114043,10 +114039,14 @@
       [
        20731,
        209093.0
+      ],
+      [
+       20732,
+       209576.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194192189": {
@@ -114108,7 +114108,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 124750.0,
+     "usd": 125038.0,
      "area": 77.0,
      "lat": -12.1446,
      "lng": -77.01843,
@@ -114122,10 +114122,6 @@
      "u": "https://www.infocasas.com.pe/venta-depa-frente-parque-en-surco-dpt-502-60911621/194249807",
      "flags": [],
      "p": [
-      [
-       20720,
-       127792.0
-      ],
       [
        20723,
        127174.0
@@ -114153,10 +114149,14 @@
       [
        20731,
        124750.0
+      ],
+      [
+       20732,
+       125038.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194187555": {
@@ -114238,14 +114238,14 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194219997": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 132744.0,
+     "usd": 133050.0,
      "area": 44.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -114259,10 +114259,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194219997",
      "flags": [],
      "p": [
-      [
-       20723,
-       135323.0
-      ],
       [
        20724,
        135160.0
@@ -114290,17 +114286,21 @@
       [
        20731,
        132744.0
+      ],
+      [
+       20732,
+       133050.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194221168": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 157615.0,
+     "usd": 157979.0,
      "area": 66.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -114314,10 +114314,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194221168",
      "flags": [],
      "p": [
-      [
-       20722,
-       160853.0
-      ],
       [
        20724,
        160484.0
@@ -114345,10 +114341,14 @@
       [
        20731,
        157615.0
+      ],
+      [
+       20732,
+       157979.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194234801": {
@@ -114375,14 +114375,14 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194220064": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 164267.0,
+     "usd": 164646.0,
      "area": 66.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -114396,10 +114396,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220064",
      "flags": [],
      "p": [
-      [
-       20723,
-       167458.0
-      ],
       [
        20724,
        167257.0
@@ -114427,17 +114423,21 @@
       [
        20731,
        164267.0
+      ],
+      [
+       20732,
+       164646.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194219874": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 180751.0,
+     "usd": 181169.0,
      "area": 62.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -114451,10 +114451,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194219874",
      "flags": [],
      "p": [
-      [
-       20723,
-       184263.0
-      ],
       [
        20724,
        184042.0
@@ -114482,17 +114478,21 @@
       [
        20731,
        180751.0
+      ],
+      [
+       20732,
+       181169.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194219943": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 190295.0,
+     "usd": 190735.0,
      "area": 65.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -114506,10 +114506,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194219943",
      "flags": [],
      "p": [
-      [
-       20722,
-       194204.0
-      ],
       [
        20723,
        193992.0
@@ -114537,10 +114533,14 @@
       [
        20731,
        190295.0
+      ],
+      [
+       20732,
+       190735.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194270587": {
@@ -114567,20 +114567,20 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194222054": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 216902.0,
+     "usd": 217403.0,
      "area": 100.0,
      "lat": -12.12298,
      "lng": -76.98567,
      "mon": "PEN",
      "monto": 750000.0,
-     "mant": 115.68,
+     "mant": 115.95,
      "anio": "",
      "dorm": "2",
      "zona": "Santiago De Surco",
@@ -114588,10 +114588,6 @@
      "u": "https://www.infocasas.com.pe/venta-lindo-departamento-flat-–-surco-limite-con-miraflores-urb-aurora/194222054",
      "flags": [],
      "p": [
-      [
-       20723,
-       221116.0
-      ],
       [
        20724,
        220850.0
@@ -114619,10 +114615,14 @@
       [
        20731,
        216902.0
+      ],
+      [
+       20732,
+       217403.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194213142": {
@@ -114784,14 +114784,14 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194220261": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 197236.0,
+     "usd": 197691.0,
      "area": 77.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -114805,10 +114805,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220261",
      "flags": [],
      "p": [
-      [
-       20723,
-       201068.0
-      ],
       [
        20724,
        200826.0
@@ -114836,10 +114832,14 @@
       [
        20731,
        197236.0
+      ],
+      [
+       20732,
+       197691.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194192740": {
@@ -115010,7 +115010,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 111632.0,
+     "usd": 111890.0,
      "area": 41.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -115024,10 +115024,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220235",
      "flags": [],
      "p": [
-      [
-       20720,
-       114354.0
-      ],
       [
        20724,
        113664.0
@@ -115055,10 +115051,14 @@
       [
        20731,
        111632.0
+      ],
+      [
+       20732,
+       111890.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194200610": {
@@ -115250,7 +115250,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194208238": {
@@ -115304,14 +115304,14 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194221512": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 273585.0,
+     "usd": 274217.0,
      "area": 88.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -115325,10 +115325,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194221512",
      "flags": [],
      "p": [
-      [
-       20723,
-       278901.0
-      ],
       [
        20724,
        278565.0
@@ -115356,10 +115352,14 @@
       [
        20731,
        273585.0
+      ],
+      [
+       20732,
+       274217.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194194381": {
@@ -115421,7 +115421,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 167159.0,
+     "usd": 167545.0,
      "area": 61.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -115435,10 +115435,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194220825",
      "flags": [],
      "p": [
-      [
-       20722,
-       170593.0
-      ],
       [
        20724,
        170202.0
@@ -115466,10 +115462,14 @@
       [
        20731,
        167159.0
+      ],
+      [
+       20732,
+       167545.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194270615": {
@@ -115861,7 +115861,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194209285": {
@@ -115915,7 +115915,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194194313": {
@@ -116032,7 +116032,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 115102.0,
+     "usd": 115368.0,
      "area": 43.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -116046,10 +116046,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194221128",
      "flags": [],
      "p": [
-      [
-       20723,
-       117339.0
-      ],
       [
        20724,
        117198.0
@@ -116077,10 +116073,14 @@
       [
        20731,
        115102.0
+      ],
+      [
+       20732,
+       115368.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194211040": {
@@ -116189,7 +116189,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194270585": {
@@ -116216,7 +116216,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194170969": {
@@ -116305,7 +116305,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 164845.0,
+     "usd": 165226.0,
      "area": 49.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -116319,10 +116319,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194221470",
      "flags": [],
      "p": [
-      [
-       20723,
-       168048.0
-      ],
       [
        20724,
        167846.0
@@ -116350,10 +116346,14 @@
       [
        20731,
        164845.0
+      ],
+      [
+       20732,
+       165226.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194193296": {
@@ -116415,7 +116415,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 194055.0,
+     "usd": 194503.0,
      "area": 66.0,
      "lat": -12.09617,
      "lng": -76.97232,
@@ -116429,10 +116429,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-santiago-de-surco/194219733",
      "flags": [],
      "p": [
-      [
-       20723,
-       197825.0
-      ],
       [
        20724,
        197587.0
@@ -116460,10 +116456,14 @@
       [
        20731,
        194055.0
+      ],
+      [
+       20732,
+       194503.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194211139": {
@@ -116545,7 +116545,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194270592": {
@@ -116572,7 +116572,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194193658": {
@@ -116640,7 +116640,7 @@
      "lng": -77.01005,
      "mon": "USD",
      "monto": 138000.0,
-     "mant": 66.52,
+     "mant": 66.67,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -116656,7 +116656,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194270617": {
@@ -116788,7 +116788,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194230177": {
@@ -116924,13 +116924,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 752.0,
+     "usd": 754.0,
      "area": 112.0,
      "lat": -12.09718,
      "lng": -77.03258,
      "mon": "PEN",
      "monto": 2600.0,
-     "mant": 72.28,
+     "mant": 72.46,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -116938,10 +116938,6 @@
      "u": "https://www.infocasas.com.pe/alquila-dpto-sin-amoblar-amplio-de-112m²-en-2do-piso-surco-–-incluye-cochera/194226960",
      "flags": [],
      "p": [
-      [
-       20722,
-       767.0
-      ],
       [
        20724,
        766.0
@@ -116969,10 +116965,14 @@
       [
        20731,
        752.0
+      ],
+      [
+       20732,
+       754.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194279137": {
@@ -116985,7 +116985,7 @@
      "lng": -76.96675,
      "mon": "USD",
      "monto": 3500.0,
-     "mant": 462.6,
+     "mant": 463.72,
      "anio": "",
      "dorm": "4",
      "zona": "Santiago De Surco",
@@ -116999,20 +116999,20 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194223003": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 549.0,
+     "usd": 551.0,
      "area": 60.0,
      "lat": -12.13525,
      "lng": -77.00655,
      "mon": "PEN",
      "monto": 1900.0,
-     "mant": 72.28,
+     "mant": 72.46,
      "anio": "",
      "dorm": "2",
      "zona": "Santiago De Surco",
@@ -117020,10 +117020,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-de-departamento-para-vivienda-u-oficina/194223003",
      "flags": [],
      "p": [
-      [
-       20720,
-       563.0
-      ],
       [
        20722,
        561.0
@@ -117051,10 +117047,14 @@
       [
        20731,
        549.0
+      ],
+      [
+       20732,
+       551.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194249809": {
@@ -117139,7 +117139,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194204195": {
@@ -117220,7 +117220,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194147970": {
@@ -117571,7 +117571,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "surquillo"
     },
     "194176350": {
@@ -117652,24 +117652,20 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 810.0,
+     "usd": 812.0,
      "area": 59.0,
      "lat": -12.11843,
      "lng": -77.0157,
      "mon": "PEN",
      "monto": 2800.0,
-     "mant": 57.86,
+     "mant": 58.0,
      "anio": "",
      "dorm": "2",
      "zona": "Surquillo",
-     "titulo": "DEPARTAMETO BARRIO MEDICO 2 DORM. AMOBLADO",
+     "titulo": "Departameto Barrio Medico 2 Dorm. Amoblado",
      "u": "https://www.infocasas.com.pe/departameto-barrio-medico-2-dorm-amoblado/194269506",
      "flags": [],
      "p": [
-      [
-       20722,
-       826.0
-      ],
       [
        20723,
        825.0
@@ -117697,10 +117693,14 @@
       [
        20731,
        810.0
+      ],
+      [
+       20732,
+       812.0
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "surquillo"
     },
     "194167465": {
@@ -117793,7 +117793,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "villa-maria-del-triunfo"
     },
     "194221865": {
@@ -117820,7 +117820,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20731,
+     "r": 20732,
      "dist": "villa-maria-del-triunfo"
     },
     "194147651": {
@@ -118113,7 +118113,7 @@
      "lng": -76.9683,
      "mon": "USD",
      "monto": 525000.0,
-     "mant": 274.74,
+     "mant": 275.38,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -118127,7 +118127,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194283322": {
@@ -118140,7 +118140,7 @@
      "lng": -76.9683,
      "mon": "USD",
      "monto": 2000.0,
-     "mant": 289.12,
+     "mant": 289.82,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -118154,7 +118154,7 @@
       ]
      ],
      "f": 20716,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194267250": {
@@ -118329,7 +118329,7 @@
      "lng": -71.96199,
      "mon": "USD",
      "monto": 150000.0,
-     "mant": 31.84,
+     "mant": 31.9,
      "anio": "",
      "dorm": "4",
      "zona": "Wanchaq",
@@ -118460,7 +118460,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 150132.0,
+     "usd": 150479.0,
      "area": 67.0,
      "lat": -12.10986,
      "lng": -77.0185,
@@ -118474,10 +118474,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-surquillo-lima-lima/194288118",
      "flags": [],
      "p": [
-      [
-       20723,
-       153049.0
-      ],
       [
        20724,
        152865.0
@@ -118505,10 +118501,14 @@
       [
        20731,
        150132.0
+      ],
+      [
+       20732,
+       150479.0
       ]
      ],
      "f": 20718,
-     "r": 20731,
+     "r": 20732,
      "dist": "surquillo"
     },
     "194289463": {
@@ -118985,7 +118985,7 @@
      "lng": -71.55376,
      "mon": "USD",
      "monto": 330000.0,
-     "mant": 37.62,
+     "mant": 37.7,
      "anio": "",
      "dorm": "4",
      "zona": "Yanahuara",
@@ -119163,7 +119163,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20731,
+     "r": 20732,
      "dist": "villa-maria-del-triunfo"
     },
     "194307765": {
@@ -119323,7 +119323,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20731,
+     "r": 20732,
      "dist": "surquillo"
     },
     "194310502": {
@@ -119697,13 +119697,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 549.0,
+     "usd": 551.0,
      "area": 74.0,
      "lat": -12.14412,
      "lng": -77.01249,
      "mon": "PEN",
      "monto": 1900.0,
-     "mant": 52.04,
+     "mant": 52.17,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -119730,10 +119730,14 @@
       [
        20731,
        549.0
+      ],
+      [
+       20732,
+       551.0
       ]
      ],
      "f": 20724,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194324860": {
@@ -120008,14 +120012,14 @@
       ]
      ],
      "f": 20726,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194330909": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 824.0,
+     "usd": 826.0,
      "area": 153.0,
      "lat": -12.12249,
      "lng": -76.97658,
@@ -120048,10 +120052,14 @@
       [
        20731,
        824.0
+      ],
+      [
+       20732,
+       826.0
       ]
      ],
      "f": 20726,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194335650": {
@@ -120250,7 +120258,7 @@
      "lng": -76.99193,
      "mon": "USD",
      "monto": 383000.0,
-     "mant": 130.14,
+     "mant": 130.44,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -120264,7 +120272,7 @@
       ]
      ],
      "f": 20727,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194338089": {
@@ -120519,7 +120527,7 @@
       ]
      ],
      "f": 20728,
-     "r": 20731,
+     "r": 20732,
      "dist": "santiago-de-surco"
     },
     "194349076": {
@@ -120818,10 +120826,37 @@
      "f": 20732,
      "r": 20732,
      "dist": "san-borja"
+    },
+    "194360200": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 350000.0,
+     "area": 178.0,
+     "lat": -12.22396,
+     "lng": -77.07604,
+     "mon": "USD",
+     "monto": 350000.0,
+     "mant": 260.88,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "EXCLUSIVO DEPARTAMENTO DE 178.80 M² – 3 DORMITORIOS,",
+     "u": "https://www.infocasas.com.pe/exclusivo-departamento-de-17880-m²-–-3-dormitorios-/194360200",
+     "flags": [],
+     "p": [
+      [
+       20732,
+       350000.0
+      ]
+     ],
+     "f": 20732,
+     "r": 20732,
+     "dist": "santiago-de-surco"
     }
    },
-   "tc": 3.4552845528455283,
-   "turno": 142,
+   "tc": 3.4482758620689653,
+   "turno": 8,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -120848,39 +120883,39 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 51,
-     "fuera_ciudad": 0,
-     "momento": 1791247855
+     "validos": 67,
+     "fuera_ciudad": 1,
+     "momento": 1791269281
     },
     "arequipa": {
      "paginas": 4,
      "validos": 13,
      "fuera_ciudad": 2,
-     "momento": 1791247855
+     "momento": 1791269281
     },
     "cusco": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1791247855
+     "momento": 1791269281
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 1,
-     "momento": 1791247855
+     "momento": 1791269281
     },
     "trujillo": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1791247855
+     "momento": 1791269281
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1791247855
+     "momento": 1791269281
     }
    }
   }
