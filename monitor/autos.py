@@ -242,6 +242,39 @@ def evaluate(ads, ad_id, medians, new_medians, rate, day, today_year):
                    'El aviso no dice su versión: comparado con todas las versiones del modelo', facts]
 
 
+def reading_queue(listed, ads, budget, rate, now, today_year):
+    """Reserve 2/3 for rereads, split between promising ads and the oldest prices."""
+    day = int(now // 86400)
+    low, high = price_range()
+    medians = market(ads, rate, day, today_year)
+    newcomers = sorted((i for i in listed if i not in ads), key=int, reverse=True)
+    checked = lambda i: ads[i].get('checked_at', ads[i].get('r', 0)*86400)
+    known = sorted((i for i in listed if i in ads), key=lambda i: (checked(i), i))
+    promising = []
+    for ident in known:
+        r = ads[ident]
+        if checked(ident) > now - 86400 or anomalies(r, today_year): continue
+        price = usd(r, rate)
+        if not low <= price <= high: continue
+        version = (r['v'],) if r.get('v') else ()
+        ref = medians.get((r['m'], r['mo'], r['a'], *version))
+        prices = [usd(r, rate, p) for _, p in r['p']]
+        drop = len(prices)>1 and price <= max(prices[:-1])*0.95
+        near = ref and ref[0]*0.55 <= price <= ref[0]*0.95
+        if drop or near: promising.append(ident)
+    rereads = min(len(known), budget*2//3)
+    priority = promising[:rereads//2]
+    priority_set = set(priority)
+    selected = priority + [i for i in known if i not in priority_set][:rereads-len(priority)]
+    chosen = set(selected)
+    queue = selected + newcomers[:budget-len(selected)]
+    chosen.update(queue)
+    queue += [i for i in known+newcomers if i not in chosen]
+    queue = queue[:budget]
+    return queue, {'prioritarias':len(priority), 'relecturas':sum(i in ads for i in queue),
+                   'nuevas':sum(i not in ads for i in queue)}
+
+
 def scan_autos(state, now, http_factory=HttpClient):
     from .catalogs import Deal
     rate, budget = settings()
@@ -261,12 +294,8 @@ def scan_autos(state, now, http_factory=HttpClient):
         if len(listed) < 500: raise ValueError(f'Mapas del sitio con muy pocos avisos ({len(listed)}); ¿cambió el formato?')
         for ad_id in listed:
             if ad_id in ads: ads[ad_id]['x'] = day
-        # Primero los avisos nuevos (los más recientes antes), después los leídos hace más tiempo.
-        queue = sorted((i for i in listed if i not in ads), key=int, reverse=True)
-        known = sorted((i for i in listed if i in ads), key=lambda i: ads[i].get('r', 0))
-        # Reservar un tercio para precios conocidos; el inventario nuevo no debe impedir releerlos.
-        rereads = min(len(known), budget // 3)
-        queue = queue[:budget - rereads] + known[:rereads] + queue[budget - rereads:] + known[rereads:]
+        queue, selection = reading_queue(listed, ads, budget, rate, now, today_year)
+        state.datos['neoauto']['seleccion_lecturas'] = dict(selection, momento=int(now))
         for ad_id in queue[:budget]:
             url = listed[ad_id]
             if '?' in url or not rules.can_fetch(client.user_agent, url): continue
@@ -277,6 +306,7 @@ def scan_autos(state, now, http_factory=HttpClient):
             try: _, parsed = parse_ad(html, url)
             except ValueError: failed += 1; continue
             update_record(ads, ad_id, parsed, day)
+            ads[ad_id]['checked_at'] = int(now)
             fresh.add(ad_id)
         if read >= 20 and failed > read * 0.3:
             raise ValueError(f'{failed} de {read} avisos no se pudieron leer; revisar el lector')

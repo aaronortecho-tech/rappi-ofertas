@@ -5,6 +5,7 @@ on:
     paths:
       - "monitor/**"
       - "tests/**"
+      - "scripts/**"
       - "requirements*.txt"
       - ".github/workflows/pruebas.yml"
   workflow_dispatch:

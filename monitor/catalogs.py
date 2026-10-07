@@ -6,7 +6,7 @@ from __future__ import annotations
 
 import argparse
 from copy import deepcopy
-from dataclasses import asdict, dataclass, replace
+from dataclasses import asdict, dataclass, field, replace
 from datetime import datetime, date
 from decimal import Decimal, InvalidOperation, ROUND_FLOOR
 from html.parser import HTMLParser
@@ -50,7 +50,7 @@ RETAIL_SOURCES = [(shop, category, base + path)
                   for category, path in CATEGORIES]
 
 
-STABLE_KINDS = {"flight_distance", "autos", "inmuebles"}
+STABLE_KINDS = {"flight_distance", "flight_history", "flight_route", "autos", "inmuebles"}
 
 
 @dataclass
@@ -78,13 +78,15 @@ class Deal:
     value_days: int = 0
     value_id: str = ""
     value_basis: str = "historial"
+    flight_context: dict = field(default_factory=dict)
 
     @property
     def key(self):
         if self.reference_kind in STABLE_KINDS:
             # El porcentaje de estas señales se recalcula con medianas que cambian cada ronda:
             # no debe volver a avisar el mismo precio solo porque varió la referencia.
-            return offer_key(self.reference_kind, self.source, self.identity, self.price)
+            kind = 'flight_history' if self.reference_kind == 'flight_route' else self.reference_kind
+            return offer_key(kind, self.source, self.identity, self.price)
         scope = "retail" if self.source in ("Falabella", "Sodimac") else ("vtex" if self.source in {name for name, _ in VTEX_SOURCES} else self.source)
         return offer_key("catalog", scope, self.identity, self.seller.lower(),
                          self.price, self.pct, self.condition)
@@ -137,12 +139,10 @@ class CatalogState(State):
                               and now - 7 * 86400 <= v["created"] <= now}
         self.flight_alerts = dict(sorted(self.flight_alerts.items(), key=lambda kv: kv[1]["created"])[-2000:])
         day = int(now // 86400)
-        self.history = {k: [r for r in rows if r[0] >= day - 30]
-                        for k, rows in self.history.items() if isinstance(rows, list)}
-        self.history = {k: v for k, v in self.history.items() if v}
-        # Memoria acotada: no acumular cientos de miles de productos en git.
-        recent = sorted(self.history, key=lambda k: self.history[k][-1][0])[-12000:]
-        self.history = {k: self.history[k] for k in recent}
+        from .value import prune_history
+        self.history = prune_history(self.history, day)
+        from .flight_value import prune_routes
+        prune_routes(self, now)
 
 
 def money(raw):
@@ -366,7 +366,7 @@ def deal_text(deal):
     if deal.reference_kind == 'flight_history':
         return (f"Caída observada: {deal.pct}% · {deal.source} · {deal.name}\n"
                 f"Ahora desde {deal.currency} {deal.price:,.2f}\n"
-                f"Mínimo previo observado (ventana de 30 días): {deal.currency} {deal.regular:,.2f}\n"
+                f"Mediana previa observada (ventana de 30 días): {deal.currency} {deal.regular:,.2f}\n"
                 f"Comparación basada en al menos 3 días previos, no descuento anunciado.\n"
                 f"{deal.condition}\n{deal.url}")
     if deal.reference_kind == 'flight_distance':
@@ -375,6 +375,12 @@ def deal_text(deal):
                 f"Lo habitual en ese tramo: ~{deal.currency} {deal.regular:,.2f}\n"
                 f"{deal.source} · medida en centavos por km, no descuento anunciado\n"
                 f"{deal.condition}\n{deal.url}")
+    if deal.reference_kind == 'flight_route':
+        return (f"✈️ {deal.name}\nTarifa publicada: {deal.currency} {deal.price:,.2f}\n"
+                f"{deal.pct}% bajo tarifas comparables de la misma ruta · "
+                f"ahorro de referencia: {deal.currency} {deal.regular-deal.price:,.2f}\n"
+                f"Mediana comparable: {deal.currency} {deal.regular:,.2f}\n"
+                f"{deal.note}\n{deal.condition}\n{deal.url}")
     if deal.reference_kind in ('autos', 'inmuebles'):
         # El texto lo arma el propio grupo: cada uno explica su criterio.
         return deal.condition + "\n" + deal.url
@@ -579,7 +585,8 @@ def hold_home(state, deals, now):
 def deliver(deals, state, notifier, now, group, dry_run=False, *, delivered=None):
     pending = [d for d in deals if state.is_new(d.key, now, 1440 if group in SLOW_GROUPS else 168)]
     if group == 'hogar': pending = [d for d in pending if home_is_new(state, d, now)]
-    pending.sort(key=lambda d: (-d.pct, d.source, d.name))
+    pending.sort(key=lambda d: (-(d.value_pct if d.value_reference is not None else d.pct), d.source, d.name))
+    if group in ('comida', 'viajes'): pending = pending[:5]
     if group == 'hogar': pending = home_order(pending)
     sent, failed = 0, False
     # Máximo 8 mensajes: una oferta detallada por mensaje de viaje,
@@ -635,6 +642,11 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
     deals, reports = scanner(state, now)
     found = len(deals)
     digest, stats = False, {}
+    if group == 'comida':
+        from .value import filter_catalog, MAX_RESULTS
+        deals, rejected = filter_catalog(deals, state, now)
+        deals = sorted(deals, key=lambda d: (-d.rank, d.name))[:MAX_RESULTS]
+        log.info('comida: filtro de ahorro real %s', json.dumps(rejected, ensure_ascii=False))
     if group == 'hogar':
         from .home_validation import validate, record_metrics
         from .value import filter_catalog, set_market, MAX_RESULTS
@@ -693,7 +705,7 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
         log.info('hogar: validación y selección %s', json.dumps(stats, ensure_ascii=False))
     for name, count, error in reports:
         log.info('%s: %d revisados · %s', name, count, error or 'OK')
-    log.info("%s: %d ofertas cumplen el mínimo; %d enviadas", group, found, sent)
+    log.info("%s: %d observaciones/candidatas; %d enviadas", group, found, sent)
     problems = [name for name, count, error in reports if state.record_result(name, not error) >= 3]
     if problems and state.can_notify_failure(now) and not dry_run and not collect_only:
         if notifier.send('⚠️ Monitor de ' + group + ': revisión incompleta',
@@ -709,7 +721,12 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
                      'Sin historial o comparables suficientes, la oferta no genera alerta.']
         lines += [f"{'⚠️' if error else '✅'} {name}: {error or str(count) + ' revisados'}" for name, count, error in reports]
         lines.append(UNAVAILABLE[group])
-        if group == 'viajes': lines.append('Diners: descuentos explícitos de 50%. JetSMART/SKY: caídas de 50% del precio publicado desde Lima, frente al mínimo observado en al menos 3 días previos (ventana de 30 días), o 50% bajo lo normal por kilómetro en su tramo de distancia (con al menos 20 tarifas del tramo). Al inicio solo se construye historial. No son tarifas garantizadas en vivo; revisar tasas y equipaje.')
+        if group == 'comida':
+            lines = [f'{found} precios observados · {sent} ofertas enviadas.',
+                     'Ahorro comprobado: 20% y S/ 10 por presentación, con 7 días previos. Envío/cargos por confirmar.'] + lines[1:]
+        if group == 'viajes':
+            lines[0] = f'{found} candidatas · {sent} enviadas.'
+            lines.append('Diners: beneficios explícitos de 50%. Vuelos: 25% y S/ 80 o USD 25 bajo la mediana de 3 días previos; alternativas solo de la misma ruta y condiciones publicadas, con 5 fechas y 3 días previos. Sin comparaciones entre rutas por kilómetro. Confirmar tasas, equipaje y precio final.')
         if not notifier.send('🧪 Prueba de ' + TITLES[group], '\n'.join(lines), priority=3): failed = True
     state.prune(now, 24 * 60 if group in SLOW_GROUPS else 336)
     if not dry_run: state.save(state_path, now)
@@ -717,9 +734,17 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
     if summary:
         with open(summary, 'a', encoding='utf-8') as f:
             threshold = '15% y S/ 50 de ahorro comprobado antes de cargos' if group == 'hogar' else f'{cfg.min_discount}%'
+            if group == 'comida': threshold = '20% y S/ 10 comprobados por presentación; 7 días previos'
+            if group == 'viajes': threshold = 'Vuelos: 25% y S/ 80 o USD 25; Diners: beneficio explícito 50%'
             f.write(f"### {group}\n\nUmbral: {threshold} · Observaciones: {found} · Enviadas: {sent}\n\n")
             for name, count, error in reports: f.write(f"- {name}: {count} revisados; {error or 'OK'}\n")
             if group == 'hogar': f.write('\nSelección y validación: ' + json.dumps(stats, ensure_ascii=False) + '\n')
+            if group == 'inmuebles':
+                f.write('\nCobertura por ciudad (no garantiza comparables por microzona):\n')
+                for city, coverage in state.datos.get('cobertura_ciudades', {}).items():
+                    f.write(f'- {city}: {json.dumps(coverage, ensure_ascii=False)}\n')
+            if group == 'autos':
+                f.write('\nSelección de lecturas: ' + json.dumps(state.datos.get('neoauto', {}).get('seleccion_lecturas', {}), ensure_ascii=False) + '\n')
             f.write('\nFuentes no activadas: ' + UNAVAILABLE[group] + '\n\n')
     # Una revisión incompleta cuenta para el aviso al celular (3 seguidas), pero no vuelve roja la ronda.
     return 1 if failed or any(error and not error.startswith(INCOMPLETE) for _, _, error in reports) else 0

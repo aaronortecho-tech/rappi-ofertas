@@ -64,4 +64,30 @@ def test_food_uses_original_topic_and_separate_memory(monkeypatch,tmp_path):
     n=Notifier()
     assert run_group('comida',test=True,notifier=n,state_path=tmp_path/'comida.json',
         scanner=lambda state,now:([],[('Tambo',5,None)]))==0
-    assert 'Comida y bazar' in n.sent[-1][0] and '60%' in n.sent[-1][1]
+    assert 'Comida y bazar' in n.sent[-1][0] and '20%' in n.sent[-1][1]
+
+
+def test_non_promotional_observations_build_history_and_inflated_badges_do_not_pass():
+    from monitor.value import filter_catalog
+    now = 1800000000
+    class HTTP:
+        user_agent='Mozilla/5.0'
+        def __init__(self,**kw): pass
+        def get(self,url):
+            if url.endswith('robots.txt'): return 'User-agent: *\nDisallow: /checkout'
+            return (FIX/('tambo.html' if 'tambo' in url else 'makro.json')).read_text(encoding='utf-8')
+    state=CatalogState()
+    for offset in range(7,0,-1):
+        observations,_=scan_convenience(state,now-offset*86400,HTTP)
+        assert observations
+    observed,_=scan_convenience(state,now,HTTP)
+    assert not filter_catalog(observed,state,now)[0]
+    assert all(len(rows)>=7 for rows in state.history.values())
+    from dataclasses import replace
+    item=observed[0]
+    # Seven actual prior prices, independent of the advertised discount.
+    state.history[item.history_key]=[[int(now//86400)-d,100] for d in range(1,8)]
+    assert not filter_catalog([replace(item,price=100,regular=500,pct=80)],state,now)[0]
+    actual=filter_catalog([replace(item,price=80,regular=80,pct=0)],state,now)[0]
+    assert len(actual)==1 and actual[0].value_savings==20
+    assert 'Envío/cargos por confirmar' in deal_text(actual[0])

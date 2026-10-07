@@ -35,6 +35,21 @@ def judge(ads, ad_id):
     return evaluate(ads, ad_id, market(ads, RATE, DAY), new_car_market(ads, RATE, DAY), RATE, DAY, 2026)
 
 
+def test_reading_queue_preserves_budget_prioritizes_promising_and_oldest():
+    from monitor.autos import reading_queue
+    now=(DAY+1)*86400
+    ads=fleet()
+    for record in ads.values(): record['checked_at']=now-2*86400
+    ads['1']=car(18000); ads['1']['checked_at']=now-86401
+    ads['2']=car(20000); ads['2']['checked_at']=now-10*86400
+    listed={**{k:URL for k in ads}, **{str(i):URL for i in range(90000,90100)}}
+    queue,stats=reading_queue(listed,ads,12,RATE,now,2026)
+    assert len(queue)==len(set(queue))==12
+    assert '1' in queue[:4] and '2' in queue[:8]
+    assert stats['relecturas']==8 and stats['nuevas']==4
+    assert all(i not in ads for i in queue[8:])
+
+
 def test_real_ad_page_reads_structured_data_without_personal_names():
     ad_id, record = parse_ad(page(), URL)
     assert ad_id == '1885383' and record['precio'] == 29000 and record['mon'] == 'USD'

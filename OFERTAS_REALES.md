@@ -1,7 +1,43 @@
 # Filtro de ahorro comprobado — 4 de octubre de 2026
 
 Estas reglas reemplazan los umbrales publicados de 60/80% para Rappi y hogar.
-Autos, inmuebles, viajes y el lector separado de Tambo/Makro conservan sus reglas.
+Ampliación autorizada el 6/10/2026 tras la auditoría: también aplica a Tambo/Makro;
+viajes cambia su referencia y autos/inmuebles mejoran seguimiento y cobertura.
+
+## Correcciones de la auditoría (6/10/2026)
+
+- **Historial:** capacidad de 50 000 identidades por memoria; se priorizan las
+  observadas en los últimos siete días y con varios días acumulados. Los nuevos
+  productos no expulsan historiales útiles por empatar el último día. Ventana de
+  30 días y desempate determinista. `recuperar-historial.yml` recupera precios
+  reales de commits desde el 4/10 y del ancla anterior al fallo; conserva el mínimo
+  por día y no cambia avisos, cursores ni fechas. Se ejecuta manualmente una vez.
+- **Tambo/Makro:** se registran todos los precios disponibles de la muestra, aunque
+  no tengan promoción. Alertas solo con siete días anteriores, al menos 20% y
+  S/ 10 de ahorro por la misma presentación/vendedor. Cinco productos por ronda.
+  Sin comparación por unidad cuando falta tamaño estructurado. La presentación
+  incluye el nombre para separar cambios de pack. Necesita formar historial real.
+- **Vuelos:** al menos 25% y S/ 80 o USD 25 por debajo de la mediana del mismo
+  itinerario en tres días previos (último dato de hace siete días o menos).
+  Alternativamente, cinco fechas distintas y tres días previos de la misma ruta,
+  fuente, aerolínea, moneda, escalas y condiciones publicadas; mismo mes, grupo de
+  anticipación, tipo de viaje y duración. No se usan bandas por kilómetro para
+  generar alertas. Datos sin escalas informadas no sirven para comparar fechas.
+  Las tarifas en caché y condiciones no publicadas siguen requiriendo confirmación
+  final; no se presumen equipaje ni tarifa en vivo. Cinco avisos por ronda; el
+  mismo precio no vuelve a avisarse por cambiar la mediana o tipo de referencia.
+  Diners mantiene su filtro independiente de beneficios explícitos del 50%.
+- **Autos:** dos tercios del presupuesto para relecturas: la mitad de ese cupo
+  prioriza anuncios con posible valor o bajada y al menos 24 h desde su lectura;
+  el resto rota por antigüedad. Un tercio busca nuevos. Los cupos vacantes se
+  reutilizan; se conserva el máximo de 150 y todos los filtros de oportunidad.
+- **Inmuebles:** resumen de cobertura real por ciudad, ventas, alquileres y
+  proyectos; indica falta de datos para rentabilidad. La suficiencia se sigue
+  evaluando por microzona para cada anuncio, nunca por el total de la ciudad.
+- **Rappi:** el contador informa menús consultados, no candidatos descubiertos.
+  Se mantienen límites de consultas y permisos de cada fuente.
+
+## Reglas de ahorro comprobado
 
 - **Hogar:** ahorro de al menos 15% y S/ 50 contra la mediana de precios observados
   en siete días distintos dentro de los últimos 30; debe haber una observación

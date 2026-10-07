@@ -49,15 +49,15 @@ def test_no_alert_on_first_read_or_short_history():
     history(state, deal, count=2)
     assert observe_flight(state, replace(deal, price=100), NOW) is None
 
-def test_exact_threshold_minimum_not_peak_and_not_rounded_up():
+def test_exact_threshold_median_not_peak_and_not_rounded_up():
     deal = fare(); state = CatalogState(); history(state, deal)
-    assert observe_flight(state, replace(deal, price=200.01), NOW) is None
-    alert = observe_flight(state, replace(deal, price=200), NOW)
-    assert alert and alert.pct == 50 and alert.regular == 400
-    # One historical low prevents a misleading comparison against an earlier high.
+    assert observe_flight(state, replace(deal, price=300.01), NOW) is None
+    alert = observe_flight(state, replace(deal, price=300), NOW)
+    assert alert and alert.pct == 25 and alert.regular == 400
+    # One outlier does not define the typical observed price.
     state = CatalogState(); history(state, deal)
     state.observe(replace(deal, price=150), NOW - 86400)
-    assert observe_flight(state, replace(deal, price=100), NOW) is None
+    assert observe_flight(state, replace(deal, price=100), NOW).regular == 400
 
 def test_stale_history_and_different_itinerary_are_not_comparable():
     state = CatalogState(); deal = fare(); history(state, deal)

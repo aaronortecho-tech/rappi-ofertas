@@ -89,9 +89,9 @@ def scan_restaurants(
                 if number and cfg.request_delay > 0:
                     time.sleep(cfg.request_delay)  # consultas espaciadas también en el navegador
                 alert = _check_restaurant(cfg, browser, http, candidate, result, log)
+                result.checked += 1
                 if alert is not None:
                     result.alerts.append(alert)
-            result.checked = len(stores)
     except Exception as exc:  # noqa: BLE001 - se informa y se sigue con las tiendas
         result.error = _error_text(exc)
         result.blocked = isinstance(exc, Blocked)

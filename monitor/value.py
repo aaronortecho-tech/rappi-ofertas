@@ -14,6 +14,7 @@ from .state import offer_key
 WINDOW = 30
 MIN_DAYS = 7
 MAX_RESULTS = 5
+HISTORY_LIMIT = 50000
 
 
 def day_at(now):
@@ -58,10 +59,16 @@ def remember(history, key, price, day):
     history[key] = sorted(values.items())
 
 
-def prune_history(history, day):
+def prune_history(history, day, limit=HISTORY_LIMIT):
     cleaned = {k: sorted(clean_rows(v, day).items()) for k, v in history.items()}
     cleaned = {k: v for k, v in cleaned.items() if v}
-    return dict(sorted(cleaned.items(), key=lambda kv: kv[1][-1][0])[-12000:])
+    # Keep repeat observations long enough to mature. A deterministic key tie-break
+    # selects a stable discovery sample instead of evicting today's known products
+    # whenever a new page is appended. Inactive rows lose priority after a week.
+    def priority(item):
+        key, rows = item
+        return (rows[-1][0] >= day - 7, min(len(rows), MIN_DAYS), rows[-1][0], key)
+    return dict(sorted(cleaned.items(), key=priority)[-limit:])
 
 
 def rappi_identity(alert, offer):
@@ -119,10 +126,12 @@ def catalog_value(deal, state, now):
         return None, 'identidad no verificable'
     if deal.condition.startswith('Requiere'):
         return None, 'condición de acceso sin confirmar'
+    food = deal.source in ('Tambo', 'Makro')
+    pct_min, cash_min = (20, 10) if food else (15, 50)
     result, reason = evidence(state.history.get(deal.history_key, []), deal.price,
-                              int(now // 86400), 15, 50)
+                              int(now // 86400), pct_min, cash_min)
     basis = 'historial'
-    peers = getattr(state, 'value_market', {}).get(market_key(deal), [])
+    peers = [] if food else getattr(state, 'value_market', {}).get(market_key(deal), [])
     peers = [p for p in peers if p.seller.casefold() != deal.seller.casefold()
              and p.history_key != deal.history_key]
     sellers = {p.seller.casefold() for p in peers if p.seller not in ('', 'No informado')}
@@ -134,7 +143,7 @@ def catalog_value(deal, state, now):
         reference = min(result[0], market) if result else market
         days = result[3] if result else 0
         checked, reason = evidence([[int(now // 86400)-d, reference] for d in range(1, 8)],
-                                   deal.price, int(now // 86400), 15, 50)
+                                   deal.price, int(now // 86400), pct_min, cash_min)
         result = (*checked[:3], days) if checked else None
     if not result:
         return None, reason

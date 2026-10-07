@@ -229,3 +229,11 @@ Tambo y Makro se revisan cada 30 minutos en el grupo original de comida/bazar (`
 Los avisos separan nombre, precio/descuento y precio anterior en líneas distintas, con espacio entre productos. Se prioriza texto legible en la app móvil: la negrita Markdown está documentada para la web, no se garantiza en el teléfono. No se cambian umbrales ni se reenvían ofertas antiguas solo por cambiar el formato.
 
 Prueba manual de tiendas directas: `python -m monitor.catalogs --grupo comida --sin-enviar --prueba`. En GitHub Actions puede elegirse `grupo=comida` para probar solo ese tema.
+
+## Actualización del 6/10/2026
+
+Corregida la retención de precios para conservar historiales útiles y recuperar
+observaciones reales guardadas. Tambo/Makro exigen 20% y S/ 10 de ahorro observado;
+vuelos exigen 25% y S/ 80 o USD 25 frente a referencias comparables. Autos prioriza
+relecturas e inmuebles muestra cobertura por ciudad. Las reglas actuales están en
+[OFERTAS_REALES.md](OFERTAS_REALES.md) y prevalecen sobre los umbrales antiguos.

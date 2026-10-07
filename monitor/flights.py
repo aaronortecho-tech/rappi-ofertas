@@ -146,6 +146,9 @@ def jetsmart_fares(html, today):
                      'Solo ida, por persona. Tasas incluidas según la portada; equipaje y extras no confirmados. '
                      'Tarifa publicada desde, sujeta a disponibilidad; confirmar precio final y condiciones en la aerolínea.')
         deal = snapshot('JetSMART', identity, f'Lima (LIM) → {place(destination)} ({destination})', price, 'PEN', condition, JET_URL)
+        deal.flight_context = {'depart':str(row['date'])[:10], 'destination':destination,
+                               'airline':str(row['cc']), 'service':str(row['c']),
+                               'taxes':'included', 'stops':row.get('stops')}
         old = found.get(deal.identity)
         if old is None or price < old.price: found[deal.identity] = deal
     return list(found.values())
@@ -185,6 +188,9 @@ def sky_fares(html, today):
             if row.get('promoCode'): condition += ' Código: ' + str(row['promoCode'])
             deal = snapshot('SKY', identity, f"Lima (LIM) → {row.get('destinationCity') or destination} ({destination})",
                             price, currency, condition, SKY_URL)
+            deal.flight_context = {'depart':str(row['departureDate'])[:10], 'destination':destination,
+                                   'airline':'SKY', 'service':json.dumps([row.get('travelClass'),row.get('brandedFareClass'),row.get('promoCode')]),
+                                   'taxes':'extra', 'stops':row.get('stops')}
             old = found.get(deal.identity)
             if old is None or price < old.price: found[deal.identity] = deal
     return list(found.values())
@@ -197,15 +203,16 @@ def observe_flight(state, deal, now):
                 and isinstance(r[0], int) and day - 30 <= r[0] < day
                 and isinstance(r[1], (int, float)) and amount(r[1]) is not None}
     # Tres días distintos como mínimo: una sola observación alta no define una buena oferta.
-    baseline = min(previous.values()) if len(previous) >= 3 else None
+    baseline = statistics.median(previous.values()) if len(previous) >= 3 and max(previous)>=day-7 else None
     pending_key = offer_key('flight-drop', deal.history_key, deal.price)
     saved = state.flight_alerts.get(pending_key, {})
     if saved.get('created', 0) >= now - 7 * 86400 and amount(saved.get('reference')):
         baseline = saved['reference']
     state.observe(deal, now)
     if baseline is None: return None
-    pct = int(((1 - Decimal(str(deal.price)) / Decimal(str(baseline))) * 100).to_integral_value(rounding=ROUND_FLOOR))
-    if not 50 <= pct < 100: return None
+    from .flight_value import savings
+    pct = savings(deal.price, baseline, deal.currency)
+    if pct is None: return None
     deal.pct, deal.regular, deal.previous_min = pct, baseline, baseline
     if not saved or saved.get('created', 0) < now - 7 * 86400:
         state.flight_alerts[pending_key] = {'reference': baseline, 'created': now}
@@ -256,11 +263,11 @@ def scan_flights(state, now, http_factory=HttpClient, sources=None):
             for deal in observations:
                 plain = replace(deal)
                 alert = observe_flight(state, deal, now)
-                # La banda por distancia se alimenta siempre; si ya hubo caída histórica
-                # no se manda un segundo aviso del mismo vuelo.
-                km = distance_km('LIM', destination_code(plain) or '')
-                cheap = observe_distance(state, plain, now, f'{name}|{plain.currency}', km) if km else None
-                if alert or cheap: deals.append(alert or cheap)
+                # Alimentar comparables de ruta aunque ya haya caída histórica,
+                # sin mandar un segundo aviso del mismo vuelo.
+                from .flight_value import observe_route
+                comparable = observe_route(state, plain, now)
+                if alert or comparable: deals.append(alert or comparable)
         except Exception as exc:
             error = 'acceso bloqueado; no se insiste' if isinstance(exc, Blocked) else type(exc).__name__ + ': ' + str(exc)[:140]
         reports.append((name + '/tarifas desde Lima', count, error))
@@ -309,6 +316,9 @@ def travelpayouts_directions(payload, today, now):
         fares.append(Deal('Travelpayouts', offer_key('flight-tp', *identity), f'Lima (LIM) → {place(destination)} ({destination})',
                           aviasales_link('LIM', destination, depart, back), 0, price=price, condition=condition,
                           category='Vuelos', currency='USD', reference_kind='flight_history'))
+        fares[-1].flight_context = {'depart':depart,'back':back,'destination':destination,
+                                   'airline':str(row.get('airline') or ''),'service':'cached-unspecified',
+                                   'taxes':'unconfirmed','stops':stops}
     return fares
 
 
@@ -335,11 +345,10 @@ def scan_travelpayouts(state, now, token=None, http_factory=HttpClient):
         fares = travelpayouts_directions(json.loads(client.get(f'{TP_API}/v1/city-directions?{query}', headers=headers) or 'null'), today, now)
         count = len(fares)
         for deal in fares:
-            km = distance_km('LIM', destination_code(deal) or '')
-            round_trip = 'Ida y vuelta' in deal.condition
-            cheap = observe_distance(state, deal, now, 'Travelpayouts|USD|' + ('ida-vuelta' if round_trip else 'ida'),
-                                     km, 2 if round_trip else 1) if km else None
-            if cheap: deals.append(cheap)
+            from .flight_value import observe_route
+            historical = observe_flight(state, replace(deal), now)
+            comparable = observe_route(state, deal, now)
+            if historical or comparable: deals.append(historical or comparable)
         deals.sort(key=lambda d: -d.pct)
         for deal in deals[:TP_CONFIRM]:
             match = re.search(r'salida (\d{4}-\d{2})-\d{2}', deal.condition)

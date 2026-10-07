@@ -15,7 +15,7 @@ def test_scan_restaurants_uses_live_menu_and_flags_announced_deals(cfg):
     http = FakeHttp()
     result = scan_restaurants(cfg, lambda: browser, http, LOG)
     assert result.error is None
-    assert result.checked == 7
+    assert result.checked == 3  # opened menus, not all seven discovery candidates
     assert browser.closed
     alerts = {alert.store_id: alert for alert in result.alerts}
     assert set(alerts) == {"1792", "23402", "632"}

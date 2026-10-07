@@ -311,6 +311,14 @@ def scan_inmuebles(state, now, http_factory=HttpClient):
                                        len(store), *counts)
     for city, (label, _) in CITIES.items():
         city_rows = [v for v in listings.values() if listing_city(v) == city]
+        sales = sum(v['op'] == 'venta' for v in city_rows)
+        rentals = sum(v['op'] == 'alquiler' for v in city_rows)
+        status = ('sin datos' if not city_rows else
+                  'insuficiente para rentabilidad' if min(sales, rentals) < MIN_COMPARABLES else
+                  'con datos; comparables por microzona pendientes de cada aviso')
+        state.datos.setdefault('cobertura_ciudades', {})[city] = {
+            'ciudad': label, 'ventas': sales, 'alquileres': rentals, 'estado': status,
+            'proyectos':sum(listing_city(v)==city for v in store.values()), 'momento':int(now)}
         coverage = state.datos['infocasas'].get('ultima_cobertura', {}).get(city, {})
         logging.getLogger('catalogs').info('Inmuebles/%s: %d ventas y %d alquileres; %d proyectos; '
                                          '%d páginas y %d avisos válidos en esta ronda', label,
@@ -318,4 +326,5 @@ def scan_inmuebles(state, now, http_factory=HttpClient):
                                          sum(v['op'] == 'alquiler' for v in city_rows),
                                          sum(listing_city(v) == city for v in store.values()),
                                          coverage.get('paginas', 0), coverage.get('validos', 0))
+        logging.getLogger('catalogs').info('Cobertura/%s: %s', label, status)
     return sorted(deals, key=lambda d: -d.pct), reports + more  # límite después de deduplicar

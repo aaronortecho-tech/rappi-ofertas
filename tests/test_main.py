@@ -56,7 +56,7 @@ def test_test_mode_and_dry_run_do_not_touch_memory(cfg, store_pages, tmp_path, c
     assert not (tmp_path / "state.json").exists()
     test_payload = notifier.printed[-1]
     assert test_payload["title"] == "🧪 Prueba del monitor de Rappi"
-    assert "✅ 7 restaurantes revisados." in test_payload["message"]
+    assert "✅ 7 restaurantes revisados." in test_payload["message"]  # value collection opens all seven
     assert "falta tu ubicación" in test_payload["message"]
     assert "Fridays" not in capsys.readouterr().out
 
