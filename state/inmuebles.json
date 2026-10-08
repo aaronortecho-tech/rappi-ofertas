@@ -27,7 +27,7 @@
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1791463810,
+ "saved_at": 1791485210,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -5981,6 +5981,7 @@
     "2795": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/reducto-1421-2795",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Miraflores",
      "nombre": "Reducto 1421",
      "marca": "PIONERO INMOBILIARIA",
@@ -6134,12 +6135,13 @@
        20715
       ]
      },
-     "r": 20715,
+     "r": 20734,
      "x": 20734
     },
     "2796": {
      "u": "https://nexoinmobiliario.pe/departamentos/la-victoria/family-apartments-2796",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "La Victoria",
      "nombre": "Family Apartments",
      "marca": "HL DESARROLLOS INMOBILIARIOS",
@@ -6172,12 +6174,13 @@
        20715
       ]
      },
-     "r": 20715,
+     "r": 20734,
      "x": 20734
     },
     "2798": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/founder-2798",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Miraflores",
      "nombre": "Founder",
      "marca": "ALERCES INMOBILIARIA",
@@ -6213,7 +6216,7 @@
        82.93,
        3,
        "PEN",
-       713000.0
+       677895.0
       ],
       "Modelo x01": [
        84.44,
@@ -6276,7 +6279,7 @@
        20715
       ]
      },
-     "r": 20715,
+     "r": 20734,
      "x": 20734
     },
     "2800": {
@@ -6309,6 +6312,7 @@
     "2805": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/florencia-2805",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Pueblo Libre",
      "nombre": "Florencia",
      "marca": "PAZ",
@@ -6332,7 +6336,7 @@
        82.26,
        2,
        "PEN",
-       589000.0
+       579000.0
       ],
       "Modelo 2": [
        70.98,
@@ -6407,12 +6411,13 @@
        20715
       ]
      },
-     "r": 20715,
+     "r": 20734,
      "x": 20734
     },
     "2815": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/tower-27-2815",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Lince",
      "nombre": "TOWER 27",
      "marca": "TRIADA",
@@ -6424,7 +6429,7 @@
        67.79,
        3,
        "PEN",
-       535000.0
+       555500.0
       ]
      },
      "primero": {
@@ -6434,12 +6439,13 @@
        20715
       ]
      },
-     "r": 20715,
+     "r": 20734,
      "x": 20734
     },
     "2819": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/aliaga-750-2819",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Magdalena Del Mar",
      "nombre": "ALIAGA 750",
      "marca": "V&V GRUPO INMOBILIARIO",
@@ -6447,12 +6453,6 @@
      "lng": -77.05774,
      "etapa": "en construcción",
      "modelos": {
-      "Modelo 203": [
-       40.36,
-       1,
-       "PEN",
-       420000.0
-      ],
       "Modelo 206": [
        70.15,
        2,
@@ -6482,6 +6482,12 @@
        3,
        "PEN",
        817000.0
+      ],
+      "Modelo Tipo 5": [
+       71.84,
+       3,
+       "PEN",
+       690000.0
       ],
       "Modelo Tipo 6": [
        63.3,
@@ -6515,11 +6521,6 @@
       ]
      },
      "primero": {
-      "Modelo 203": [
-       "PEN",
-       420000.0,
-       20715
-      ],
       "Modelo 206": [
        "PEN",
        602000.0,
@@ -6569,14 +6570,20 @@
        "PEN",
        471000.0,
        20715
+      ],
+      "Modelo Tipo 5": [
+       "PEN",
+       690000.0,
+       20734
       ]
      },
-     "r": 20715,
+     "r": 20734,
      "x": 20734
     },
     "2825": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/gran-central-colonial-2-2825",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Cercado De Lima",
      "nombre": "Gran Central Colonial 2",
      "marca": "LOS PORTALES DEPARTAMENTOS",
@@ -6590,17 +6597,11 @@
        "PEN",
        354607.0
       ],
-      "Modelo 3D+S": [
-       70.31,
-       3,
-       "PEN",
-       481245.0
-      ],
       "Modelo 2D": [
        51.17,
        2,
        "PEN",
-       312180.0
+       315747.0
       ]
      },
      "primero": {
@@ -6609,23 +6610,19 @@
        354607.0,
        20715
       ],
-      "Modelo 3D+S": [
-       "PEN",
-       481245.0,
-       20715
-      ],
       "Modelo 2D": [
        "PEN",
        312180.0,
        20715
       ]
      },
-     "r": 20715,
+     "r": 20734,
      "x": 20734
     },
     "2830": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/entrenos-2830",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Magdalena Del Mar",
      "nombre": "Entrenos",
      "marca": "PROMSAL",
@@ -6643,7 +6640,7 @@
        59.89,
        2,
        "PEN",
-       417667.0
+       429502.0
       ],
       "Modelo X4": [
        70.68,
@@ -6680,12 +6677,13 @@
        20715
       ]
      },
-     "r": 20715,
+     "r": 20734,
      "x": 20734
     },
     "2837": {
      "u": "https://nexoinmobiliario.pe/departamentos/brena/momen-2837",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Brena",
      "nombre": "MOMEN",
      "marca": "COSAPI",
@@ -6693,12 +6691,6 @@
      "lng": -77.05265,
      "etapa": "en construcción",
      "modelos": {
-      "Modelo X06": [
-       53.21,
-       2,
-       "PEN",
-       317911.0
-      ],
       "Modelo X01": [
        71.32,
        3,
@@ -6717,12 +6709,6 @@
        "PEN",
        487723.0
       ],
-      "Modelo X07": [
-       63.83,
-       2,
-       "PEN",
-       363774.0
-      ],
       "Modelo X08": [
        63.06,
        2,
@@ -6737,11 +6723,6 @@
       ]
      },
      "primero": {
-      "Modelo X06": [
-       "PEN",
-       317911.0,
-       20715
-      ],
       "Modelo X01": [
        "PEN",
        411606.0,
@@ -6757,11 +6738,6 @@
        487723.0,
        20715
       ],
-      "Modelo X07": [
-       "PEN",
-       363774.0,
-       20715
-      ],
       "Modelo X08": [
        "PEN",
        366284.0,
@@ -6773,7 +6749,7 @@
        20715
       ]
      },
-     "r": 20715,
+     "r": 20734,
      "x": 20734
     },
     "2846": {
@@ -20756,11 +20732,11 @@
      "x": 20734
     },
     "3963": {
-     "u": "https://nexoinmobiliario.pe/departamentos/arequipa/casaparq-aqp-g-3963",
+     "u": "https://nexoinmobiliario.pe/departamentos/arequipa/casaparq-arequipa-g-3963",
      "tipo": "departamentos",
      "ciudad": "arequipa",
      "dist": "Arequipa",
-     "nombre": "Casaparq AQP",
+     "nombre": "Casaparq Arequipa",
      "marca": "CISSAC",
      "lat": -16.37356,
      "lng": -71.55431,
@@ -20802,7 +20778,7 @@
        20717
       ]
      },
-     "r": 20733,
+     "r": 20734,
      "x": 20734
     },
     "4123": {
@@ -97461,7 +97437,7 @@
      "x": 20734
     }
    },
-   "ultima": 1791420713
+   "ultima": 1791485210
   },
   "scotiabank": {
    "filas": {
@@ -98707,7 +98683,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "cercado-de-lima"
     },
     "194223566": {
@@ -98734,7 +98710,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "cercado-de-lima"
     },
     "194234828": {
@@ -98761,7 +98737,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "cercado-de-lima"
     },
     "194147963": {
@@ -98842,7 +98818,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "cercado-de-lima"
     },
     "194181454": {
@@ -99005,7 +98981,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "cercado-de-lima"
     },
     "194176351": {
@@ -99357,7 +99333,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "cercado-de-lima"
     },
     "194137518": {
@@ -99813,7 +99789,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "chorrillos"
     },
     "194167045": {
@@ -99867,7 +99843,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "cieneguilla"
     },
     "194175034": {
@@ -100022,7 +99998,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194278340": {
@@ -100159,7 +100135,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194227796": {
@@ -100323,7 +100299,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194254308": {
@@ -100350,7 +100326,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194240826": {
@@ -100377,7 +100353,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194176369": {
@@ -100657,13 +100633,13 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 316896.0,
+     "usd": 316631.0,
      "area": 142.0,
      "lat": -12.08249,
      "lng": -77.05061,
      "mon": "PEN",
      "monto": 1090000.0,
-     "mant": 87.22,
+     "mant": 87.15,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -100671,10 +100647,6 @@
      "u": "https://www.infocasas.com.pe/duplex-de-estreno-en-venta-–-entrega-inmediata-–-jesus-mariaref-863-/194227764",
      "flags": [],
      "p": [
-      [
-       20723,
-       320969.0
-      ],
       [
        20725,
        320746.0
@@ -100702,10 +100674,14 @@
       [
        20733,
        316896.0
+      ],
+      [
+       20734,
+       316631.0
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194176371": {
@@ -100844,7 +100820,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194176376": {
@@ -101280,7 +101256,7 @@
      "lng": -77.05039,
      "mon": "USD",
      "monto": 245000.0,
-     "mant": 130.83,
+     "mant": 130.72,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -101298,7 +101274,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194208235": {
@@ -101715,13 +101691,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 698.0,
+     "usd": 697.0,
      "area": 66.0,
      "lat": -12.08182,
      "lng": -77.04837,
      "mon": "PEN",
      "monto": 2400.0,
-     "mant": 84.33,
+     "mant": 84.18,
      "anio": "",
      "dorm": "2",
      "zona": "Jesus Maria",
@@ -101729,10 +101705,6 @@
      "u": "https://www.infocasas.com.pe/alquilo-departamento-2-dormitorios-amoblado-frente-a-canal-2/194254246",
      "flags": [],
      "p": [
-      [
-       20723,
-       707.0
-      ],
       [
        20725,
        706.0
@@ -101760,10 +101732,14 @@
       [
        20733,
        698.0
+      ],
+      [
+       20734,
+       697.0
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194221835": {
@@ -101880,7 +101856,7 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 1176.0,
+     "usd": 1175.0,
      "area": 102.0,
      "lat": -12.08001,
      "lng": -77.05061,
@@ -101894,10 +101870,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-depa-amoblado-en-jesus-maria-dpt-1702-60911611/194249806",
      "flags": [],
      "p": [
-      [
-       20723,
-       1191.0
-      ],
       [
        20725,
        1190.0
@@ -101925,10 +101897,14 @@
       [
        20733,
        1176.0
+      ],
+      [
+       20734,
+       1175.0
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194254769": {
@@ -102002,7 +101978,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194179231": {
@@ -102087,13 +102063,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 669.0,
+     "usd": 668.0,
      "area": 58.0,
      "lat": -12.08315,
      "lng": -77.05225,
      "mon": "PEN",
      "monto": 2300.0,
-     "mant": 72.7,
+     "mant": 72.57,
      "anio": "",
      "dorm": "1",
      "zona": "Jesus Maria",
@@ -102101,10 +102077,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-de-departamento-de-1-dormitorio-–-jesus-maria/194237281",
      "flags": [],
      "p": [
-      [
-       20721,
-       679.0
-      ],
       [
        20722,
        678.0
@@ -102132,10 +102104,14 @@
       [
        20733,
        669.0
+      ],
+      [
+       20734,
+       668.0
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194250439": {
@@ -102342,13 +102318,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 727.0,
+     "usd": 726.0,
      "area": 72.0,
      "lat": -12.07487,
      "lng": -77.047,
      "mon": "PEN",
      "monto": 2500.0,
-     "mant": 87.24,
+     "mant": 87.08,
      "anio": "",
      "dorm": "2",
      "zona": "Jesus Maria",
@@ -102356,10 +102332,6 @@
      "u": "https://www.infocasas.com.pe/tv-lindo-depa-con-balcon-de-2-dorm-en-av-cuba-cerca-a-la-parroquia-san-jose/194246601",
      "flags": [],
      "p": [
-      [
-       20722,
-       737.0
-      ],
       [
        20723,
        736.0
@@ -102387,10 +102359,14 @@
       [
        20733,
        727.0
+      ],
+      [
+       20734,
+       726.0
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194202631": {
@@ -102472,7 +102448,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "la-molina"
     },
     "194256153": {
@@ -102499,7 +102475,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20733,
+     "r": 20734,
      "dist": "la-molina"
     },
     "194145100": {
@@ -118153,13 +118129,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 538.0,
+     "usd": 537.0,
      "area": 55.0,
      "lat": -12.06486,
      "lng": -77.04195,
      "mon": "PEN",
      "monto": 1850.0,
-     "mant": 37.8,
+     "mant": 37.74,
      "anio": "",
      "dorm": "1",
      "zona": "Jesus Maria",
@@ -118167,10 +118143,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-de-departamento-sin-amoblar-de-1-dormitorio-–-jesus-maria/194282869",
      "flags": [],
      "p": [
-      [
-       20722,
-       545.0
-      ],
       [
        20725,
        544.0
@@ -118198,10 +118170,14 @@
       [
        20733,
        538.0
+      ],
+      [
+       20734,
+       537.0
       ]
      ],
      "f": 20716,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194283666": {
@@ -118566,7 +118542,7 @@
      "lng": -71.96199,
      "mon": "USD",
      "monto": 150000.0,
-     "mant": 31.95,
+     "mant": 31.97,
      "anio": "",
      "dorm": "4",
      "zona": "Wanchaq",
@@ -119222,7 +119198,7 @@
      "lng": -71.55376,
      "mon": "USD",
      "monto": 330000.0,
-     "mant": 37.76,
+     "mant": 37.78,
      "anio": "",
      "dorm": "4",
      "zona": "Yanahuara",
@@ -119455,7 +119431,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20733,
+     "r": 20734,
      "dist": "el-agustino"
     },
     "194304007": {
@@ -119482,7 +119458,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20733,
+     "r": 20734,
      "dist": "la-molina"
     },
     "194308373": {
@@ -119591,7 +119567,7 @@
       ]
      ],
      "f": 20721,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194309738": {
@@ -120592,20 +120568,20 @@
       ]
      ],
      "f": 20727,
-     "r": 20733,
+     "r": 20734,
      "dist": "carabayllo"
     },
     "194340845": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 77044.0,
+     "usd": 76979.0,
      "area": 68.0,
      "lat": -12.05506,
      "lng": -76.97816,
      "mon": "PEN",
      "monto": 265000.0,
-     "mant": 43.61,
+     "mant": 43.57,
      "anio": "",
      "dorm": "3",
      "zona": "El Agustino",
@@ -120636,10 +120612,14 @@
       [
        20733,
        77044.0
+      ],
+      [
+       20734,
+       76979.0
       ]
      ],
      "f": 20728,
-     "r": 20733,
+     "r": 20734,
      "dist": "el-agustino"
     },
     "194339225": {
@@ -120652,7 +120632,7 @@
      "lng": -77.0545,
      "mon": "USD",
      "monto": 92000.0,
-     "mant": 43.61,
+     "mant": 43.57,
      "anio": "",
      "dorm": "2",
      "zona": "Jesus Maria",
@@ -120666,7 +120646,7 @@
       ]
      ],
      "f": 20728,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194339251": {
@@ -120693,7 +120673,7 @@
       ]
      ],
      "f": 20728,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194344181": {
@@ -120855,7 +120835,7 @@
       ]
      ],
      "f": 20729,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194347826": {
@@ -120949,7 +120929,7 @@
      "lng": -77.05111,
      "mon": "USD",
      "monto": 170000.0,
-     "mant": 69.78,
+     "mant": 69.72,
      "anio": "",
      "dorm": "2",
      "zona": "Jesus Maria",
@@ -120963,7 +120943,7 @@
       ]
      ],
      "f": 20730,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194354655": {
@@ -121187,20 +121167,20 @@
       ]
      ],
      "f": 20732,
-     "r": 20733,
+     "r": 20734,
      "dist": "cercado-de-lima"
     },
     "194362184": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 267472.0,
+     "usd": 267248.0,
      "area": 204.0,
      "lat": -12.08116,
      "lng": -77.04774,
      "mon": "PEN",
      "monto": 920000.0,
-     "mant": 145.37,
+     "mant": 145.24,
      "anio": "",
      "dorm": "4",
      "zona": "Jesus Maria",
@@ -121215,23 +121195,27 @@
       [
        20733,
        267472.0
+      ],
+      [
+       20734,
+       267248.0
       ]
      ],
      "f": 20732,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194364018": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 267472.0,
+     "usd": 267248.0,
      "area": 204.0,
      "lat": -12.08116,
      "lng": -77.04774,
      "mon": "PEN",
      "monto": 920000.0,
-     "mant": 145.37,
+     "mant": 145.24,
      "anio": "",
      "dorm": "4",
      "zona": "Jesus Maria",
@@ -121242,23 +121226,27 @@
       [
        20732,
        267472.0
+      ],
+      [
+       20734,
+       267248.0
       ]
      ],
      "f": 20732,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194363898": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 887.0,
+     "usd": 886.0,
      "area": 69.0,
      "lat": -12.07728,
      "lng": -77.038,
      "mon": "PEN",
      "monto": 3050.0,
-     "mant": 58.16,
+     "mant": 58.05,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -121269,10 +121257,14 @@
       [
        20732,
        887.0
+      ],
+      [
+       20734,
+       886.0
       ]
      ],
      "f": 20732,
-     "r": 20733,
+     "r": 20734,
      "dist": "jesus-maria"
     },
     "194364127": {
@@ -121299,7 +121291,7 @@
       ]
      ],
      "f": 20732,
-     "r": 20733,
+     "r": 20734,
      "dist": "la-molina"
     },
     "194362919": {
@@ -121713,7 +121705,7 @@
     }
    },
    "tc": 3.43980343980344,
-   "turno": 15,
+   "turno": 55,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -121740,39 +121732,39 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 50,
-     "fuera_ciudad": 0,
-     "momento": 1791463810
+     "validos": 38,
+     "fuera_ciudad": 1,
+     "momento": 1791485210
     },
     "arequipa": {
      "paginas": 4,
      "validos": 13,
      "fuera_ciudad": 2,
-     "momento": 1791463810
+     "momento": 1791485210
     },
     "cusco": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1791463810
+     "momento": 1791485210
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 1,
-     "momento": 1791463810
+     "momento": 1791485210
     },
     "trujillo": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1791463810
+     "momento": 1791485210
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1791463810
+     "momento": 1791485210
     }
    }
   },
@@ -121783,7 +121775,7 @@
     "alquileres": 131,
     "estado": "con datos; comparables por microzona pendientes de cada aviso",
     "proyectos": 713,
-    "momento": 1791463810
+    "momento": 1791485210
    },
    "arequipa": {
     "ciudad": "Arequipa",
@@ -121791,7 +121783,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 8,
-    "momento": 1791463810
+    "momento": 1791485210
    },
    "cusco": {
     "ciudad": "Cusco",
@@ -121799,7 +121791,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 1,
-    "momento": 1791463810
+    "momento": 1791485210
    },
    "cajamarca": {
     "ciudad": "Cajamarca",
@@ -121807,7 +121799,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1791463810
+    "momento": 1791485210
    },
    "trujillo": {
     "ciudad": "Trujillo",
@@ -121815,7 +121807,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1791463810
+    "momento": 1791485210
    },
    "huaraz": {
     "ciudad": "Huaraz",
@@ -121823,7 +121815,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1791463810
+    "momento": 1791485210
    }
   }
  }
