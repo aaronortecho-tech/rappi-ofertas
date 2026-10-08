@@ -1,5 +1,14 @@
 # Monitor de ofertas de Rappi: guía para Claude Code
 
+## Factoring (8/10/2026)
+
+Leer FACTORING.md antes de modificar `monitor/factoring.py`. El usuario exige
+datos completos: no avisar a partir de anuncios públicos ni completar datos
+faltantes por suposición. Mantener separado de los filtros de ofertas y guardar
+perfil, cartera y fichas solo en archivos privados ignorados o secretos. Nunca
+automatizar inversiones. La conexión privada a Prestamype no está implementada;
+el paquete revisado es una entrada manual, no una API oficial.
+
 ## Cambio autorizado vigente: ahorro comprobado y auditoría (6/10/2026)
 
 Leer OFERTAS_REALES.md. Reemplaza instrucciones antiguas de esta guía sobre

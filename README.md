@@ -8,7 +8,11 @@
 
 ## Grupos de avisos
 
-El proyecto mantiene cinco temas independientes de ntfy. Los nombres reales de los temas se guardan exclusivamente como secretos de GitHub.
+El proyecto mantiene cinco grupos de ofertas y un sexto monitor de **factoring**,
+con temas independientes de ntfy. Los nombres reales se guardan como secretos.
+Factoring solo avisa con fichas completas revisadas; inicialmente está a la
+espera de ese acceso. La lectura pública no activa alertas. Ver
+[criterios, evidencia y operación de factoring](FACTORING.md).
 
 | Grupo | Fuentes activas | Mínimo | Secreto |
 |---|---|---|---|

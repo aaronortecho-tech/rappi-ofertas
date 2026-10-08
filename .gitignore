@@ -7,3 +7,5 @@ venv/
 .env.*
 !.env.example
 state/.state-*.json
+.private/
+*factoring-private*.json
