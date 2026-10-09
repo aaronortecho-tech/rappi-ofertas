@@ -27,7 +27,7 @@
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1791550071,
+ "saved_at": 1791571495,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -98133,7 +98133,7 @@
      "valor": 1218200.0
     }
    },
-   "ultima": 1790966643
+   "ultima": 1791571495
   },
   "infocasas": {
    "avisos": {
@@ -98204,8 +98204,8 @@
      "anio": "",
      "dorm": "3",
      "zona": "Barranco",
-     "titulo": "Venta Departamento dúplex en Barranco 3 habitaciones",
-     "u": "https://www.infocasas.com.pe/venta-departamento-duplex-en-barranco-3-habitaciones/194245568",
+     "titulo": "Venta Departamento dúplex en Barranco 3 habitaciones a 2 cuadras de 28 de julio ",
+     "u": "https://www.infocasas.com.pe/venta-departamento-duplex-en-barranco-3-habitaciones-a-2-cuadras-de-28-de-julio-y-alicorp/194245568",
      "flags": [],
      "p": [
       [
@@ -98214,7 +98214,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20734,
+     "r": 20735,
      "dist": "barranco"
     },
     "194190451": {
@@ -98248,7 +98248,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 101077.0,
+     "usd": 101111.0,
      "area": 42.0,
      "lat": -12.15011,
      "lng": -77.01834,
@@ -98262,10 +98262,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-barranco-dpto-704-al-1104-a-60988613/194245577",
      "flags": [],
      "p": [
-      [
-       20726,
-       101134.0
-      ],
       [
        20727,
        101026.0
@@ -98293,10 +98289,14 @@
       [
        20734,
        101077.0
+      ],
+      [
+       20735,
+       101111.0
       ]
      ],
      "f": 20714,
-     "r": 20734,
+     "r": 20735,
      "dist": "barranco"
     },
     "194263072": {
@@ -98350,7 +98350,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20734,
+     "r": 20735,
      "dist": "barranco"
     },
     "194234815": {
@@ -98377,20 +98377,20 @@
       ]
      ],
      "f": 20714,
-     "r": 20734,
+     "r": 20735,
      "dist": "barranco"
     },
     "194228564": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 871.0,
+     "usd": 872.0,
      "area": 56.0,
      "lat": -12.14308,
      "lng": -77.02201,
      "mon": "PEN",
      "monto": 3000.0,
-     "mant": 101.62,
+     "mant": 101.73,
      "anio": "",
      "dorm": "2",
      "zona": "Barranco",
@@ -98398,10 +98398,6 @@
      "u": "https://www.infocasas.com.pe/departamento-amoblado-en-barranco/194228564",
      "flags": [],
      "p": [
-      [
-       20726,
-       872.0
-      ],
       [
        20727,
        871.0
@@ -98429,10 +98425,14 @@
       [
        20734,
        871.0
+      ],
+      [
+       20735,
+       872.0
       ]
      ],
      "f": 20714,
-     "r": 20734,
+     "r": 20735,
      "dist": "barranco"
     },
     "194160698": {
@@ -98540,7 +98540,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20734,
+     "r": 20735,
      "dist": "barranco"
     },
     "194197011": {
@@ -98648,7 +98648,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20734,
+     "r": 20735,
      "dist": "cercado-de-lima"
     },
     "194223566": {
@@ -98702,7 +98702,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20734,
+     "r": 20735,
      "dist": "cercado-de-lima"
     },
     "194147963": {
@@ -98783,7 +98783,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20734,
+     "r": 20735,
      "dist": "cercado-de-lima"
     },
     "194181454": {
@@ -99298,7 +99298,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20734,
+     "r": 20735,
      "dist": "cercado-de-lima"
     },
     "194137518": {
@@ -99754,7 +99754,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20734,
+     "r": 20735,
      "dist": "chorrillos"
     },
     "194167045": {
@@ -99808,7 +99808,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20734,
+     "r": 20735,
      "dist": "cieneguilla"
     },
     "194175034": {
@@ -118511,7 +118511,7 @@
      "lng": -71.96199,
      "mon": "USD",
      "monto": 150000.0,
-     "mant": 31.98,
+     "mant": 31.96,
      "anio": "",
      "dorm": "4",
      "zona": "Wanchaq",
@@ -119167,7 +119167,7 @@
      "lng": -71.55376,
      "mon": "USD",
      "monto": 330000.0,
-     "mant": 37.79,
+     "mant": 37.77,
      "anio": "",
      "dorm": "4",
      "zona": "Yanahuara",
@@ -119345,7 +119345,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20734,
+     "r": 20735,
      "dist": "villa-maria-del-triunfo"
     },
     "194307765": {
@@ -119792,7 +119792,7 @@
      "lng": -77.02359,
      "mon": "USD",
      "monto": 375000.0,
-     "mant": 258.53,
+     "mant": 258.62,
      "anio": "",
      "dorm": "2",
      "zona": "Barranco",
@@ -119806,7 +119806,7 @@
       ]
      ],
      "f": 20722,
-     "r": 20734,
+     "r": 20735,
      "dist": "barranco"
     },
     "194321245": {
@@ -120545,7 +120545,7 @@
       ]
      ],
      "f": 20727,
-     "r": 20734,
+     "r": 20735,
      "dist": "carabayllo"
     },
     "194340845": {
@@ -121148,7 +121148,7 @@
       ]
      ],
      "f": 20732,
-     "r": 20734,
+     "r": 20735,
      "dist": "cercado-de-lima"
     },
     "194362184": {
@@ -123064,10 +123064,1144 @@
      "f": 20735,
      "r": 20735,
      "dist": "cuzco"
+    },
+    "194379456": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 109669.0,
+     "area": 63.0,
+     "lat": -12.17534,
+     "lng": -77.00181,
+     "mon": "USD",
+     "monto": 109669.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Chorrillos",
+     "titulo": "Departamento en Chorrillos de 3 dormitorios ubicado en Chorrillo cerca a Plaza L",
+     "u": "https://www.infocasas.com.pe/departamento-en-chorrillos-de-3-dormitorios-ubicado-en-chorrillo-cerca-a-plaza-lima-sur/194379456",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       109669.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "chorrillos"
+    },
+    "194379566": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 1100.0,
+     "area": 70.0,
+     "lat": -12.38436,
+     "lng": -76.78585,
+     "mon": "USD",
+     "monto": 1100.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "ALQUILO Departamento AMOBLADO en San Bartolo + COCHERA",
+     "u": "https://www.infocasas.com.pe/alquilo-departamento-amoblado-en-san-bartolo-cochera/194379566",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       1100.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "ate"
+    },
+    "194379418": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 138000.0,
+     "area": 42.0,
+     "lat": -12.13734,
+     "lng": -77.02238,
+     "mon": "USD",
+     "monto": 138000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Barranco",
+     "titulo": "Se vende departamento frente al estadio chipoco con cochera",
+     "u": "https://www.infocasas.com.pe/se-vende-departamento-frente-al-estadio-chipoco-con-cochera/194379418",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       138000.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "barranco"
+    },
+    "194379606": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 160000.0,
+     "area": 74.0,
+     "lat": -12.13686,
+     "lng": -77.01852,
+     "mon": "USD",
+     "monto": 160000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Barranco",
+     "titulo": "VENTA DEPARTAMENTO BARRANCO - DPTO 803 (609-1164-1)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-barranco-dpto-803-60911641/194379606",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       160000.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "barranco"
+    },
+    "194379607": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 159008.0,
+     "area": 74.0,
+     "lat": -12.13686,
+     "lng": -77.01852,
+     "mon": "PEN",
+     "monto": 547200.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Barranco",
+     "titulo": "VENTA DEPARTAMENTO BARRANCO - DPTO 803 (609-1164-1)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-barranco-dpto-803-60911641/194379607",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       159008.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "barranco"
+    },
+    "194379505": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 201557.0,
+     "area": 83.0,
+     "lat": -12.13939,
+     "lng": -77.01936,
+     "mon": "USD",
+     "monto": 201557.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Barranco",
+     "titulo": "Departamento de 3 dormitorios en el corazón de Barranco",
+     "u": "https://www.infocasas.com.pe/departamento-de-3-dormitorios-en-el-corazon-de-barranco/194379505",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       201557.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "barranco"
+    },
+    "194379468": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 650.0,
+     "area": 41.0,
+     "lat": -12.15303,
+     "lng": -77.02263,
+     "mon": "USD",
+     "monto": 650.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Barranco",
+     "titulo": "ALQUILER DEPARTAMENTO 41m2  1 DORMITORIO EN DOWNTOWN BARRANCO CON ESTACIONAMIENT",
+     "u": "https://www.infocasas.com.pe/alquiler-departamento-41m2-1-dormitorio-en-downtown-barranco-con-estacionamiento/194379468",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       650.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "barranco"
+    },
+    "194379564": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 650.0,
+     "area": 42.0,
+     "lat": -12.13958,
+     "lng": -77.01809,
+     "mon": "USD",
+     "monto": 650.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Barranco",
+     "titulo": "Se alquila departamento con vista a la ciudad cerca al metropolitano",
+     "u": "https://www.infocasas.com.pe/se-alquila-departamento-con-vista-a-la-ciudad-cerca-al-metropolitano/194379564",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       650.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "barranco"
+    },
+    "194379545": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 720.0,
+     "area": 39.0,
+     "lat": -12.14037,
+     "lng": -77.02255,
+     "mon": "USD",
+     "monto": 720.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Barranco",
+     "titulo": "SE ALQUILA DEPARTAMENTO VISTA AL MAR AMOBLADO FRENTE AL ESTADIO CHIPOCO",
+     "u": "https://www.infocasas.com.pe/se-alquila-departamento-vista-al-mar-amoblado-frente-al-estadio-chipoco/194379545",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       720.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "barranco"
+    },
+    "194379424": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 700.0,
+     "area": 40.0,
+     "lat": -12.13965,
+     "lng": -77.02309,
+     "mon": "USD",
+     "monto": 700.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "Mono",
+     "zona": "Barranco",
+     "titulo": "Se alquila departamento con vista al mar",
+     "u": "https://www.infocasas.com.pe/se-alquila-departamento-con-vista-al-mar/194379424",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       700.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "barranco"
+    },
+    "194379152": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 785.0,
+     "area": 49.0,
+     "lat": -12.13954,
+     "lng": -77.02289,
+     "mon": "PEN",
+     "monto": 2700.0,
+     "mant": 69.76,
+     "anio": "",
+     "dorm": "Mono",
+     "zona": "Barranco",
+     "titulo": "DPTO EN BARRANCO: 49 M2, 1 HBIT, 1 BAÑ, 1 ESTAC, S/ 2,700",
+     "u": "https://www.infocasas.com.pe/dpto-en-barranco-49-m2-1-hbit-1-bañ-1-estac-s-2700/194379152",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       785.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "barranco"
+    },
+    "194379482": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 101820.0,
+     "area": 63.0,
+     "lat": -12.06414,
+     "lng": -77.05043,
+     "mon": "USD",
+     "monto": 101820.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Breña",
+     "titulo": "Departamento en primer piso Breña vista interna dentro de condominio a pocas cua",
+     "u": "https://www.infocasas.com.pe/departamento-en-primer-piso-breña-vista-interna-dentro-de-condominio-a-pocas-cuadras-de-la-rambla/194379482",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       101820.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "brena"
+    },
+    "194379403": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 75000.0,
+     "area": 67.0,
+     "lat": -11.87775,
+     "lng": -77.03715,
+     "mon": "USD",
+     "monto": 75000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Carabayllo",
+     "titulo": "URBANIZACION SANTO DOMINGO ETAPA 12 CARABAYLLO DEPARTAMENTO PRIMER PISO.",
+     "u": "https://www.infocasas.com.pe/urbanizacion-santo-domingo-etapa-12-carabayllo-departamento-primer-piso/194379403",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       75000.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "carabayllo"
+    },
+    "194379610": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 124371.0,
+     "area": 59.0,
+     "lat": -12.07618,
+     "lng": -77.09993,
+     "mon": "PEN",
+     "monto": 428000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO SAN MIGUEL - DPTO 602 (609-1165-5)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-602-60911655/194379610",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       124371.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379612": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 139481.0,
+     "area": 66.0,
+     "lat": -12.07618,
+     "lng": -77.09993,
+     "mon": "PEN",
+     "monto": 480000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO SAN MIGUEL - DPTO 204 AL 1204 (609-1165-2)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-204-al-1204-60911652/194379612",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       139481.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379644": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 105643.0,
+     "area": 51.0,
+     "lat": -12.07532,
+     "lng": -77.03386,
+     "mon": "PEN",
+     "monto": 363551.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO SANTA BEATRIZ - DPTO 502 AL 1302 (609-1165-23)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-502-al-1302-609116523/194379644",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       105643.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379608": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 115362.0,
+     "area": 53.0,
+     "lat": -12.07618,
+     "lng": -77.09993,
+     "mon": "PEN",
+     "monto": 397000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO SAN MIGUEL - DPTO 1903, 2003 (609-1165-3)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-1903-2003-60911653/194379608",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       115362.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379637": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 81036.0,
+     "area": 40.0,
+     "lat": -12.07532,
+     "lng": -77.03386,
+     "mon": "PEN",
+     "monto": 278870.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO SANTA BEATRIZ - DPTO 308 AL 1508 (609-1165-18)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-308-al-1508-609116518/194379637",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       81036.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379640": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 97512.0,
+     "area": 49.0,
+     "lat": -12.07532,
+     "lng": -77.03386,
+     "mon": "PEN",
+     "monto": 335570.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO SANTA BEATRIZ - DPTO 404 AL 1504 (609-1165-20)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-404-al-1504-609116520/194379640",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       97512.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379596": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 140579.0,
+     "area": 67.0,
+     "lat": -12.07892,
+     "lng": -77.10114,
+     "mon": "PEN",
+     "monto": 483780.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO EN SAN MIGUEL - DPTO TIPO 1 (609-1163-10)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-miguel-dpto-tipo-1-609116310/194379596",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       140579.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379392": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 139551.0,
+     "area": 72.0,
+     "lat": -12.07672,
+     "lng": -77.09838,
+     "mon": "USD",
+     "monto": 139551.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Cercado De Lima",
+     "titulo": "Flat de 3 dormitorios de estreno San Miguel - a pocos minutos de la UPC",
+     "u": "https://www.infocasas.com.pe/flat-de-3-dormitorios-de-estreno-san-miguel-a-pocos-minutos-de-la-upc/194379392",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       139551.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379634": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 80376.0,
+     "area": 40.0,
+     "lat": -12.07532,
+     "lng": -77.03386,
+     "mon": "PEN",
+     "monto": 276602.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO SANTA BEATRIZ - DPTO 305 AL 1505 (609-1165-17)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-305-al-1505-609116517/194379634",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       80376.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379609": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 120012.0,
+     "area": 56.0,
+     "lat": -12.07618,
+     "lng": -77.09993,
+     "mon": "PEN",
+     "monto": 413000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO SAN MIGUEL - DPTO 803 (609-1165-4)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-803-60911654/194379609",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       120012.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379643": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 102290.0,
+     "area": 51.0,
+     "lat": -12.07532,
+     "lng": -77.03386,
+     "mon": "PEN",
+     "monto": 352013.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO SANTA BEATRIZ - DPTO 401 AL 1401 (609-1165-22)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-401-al-1401-609116522/194379643",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       102290.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379391": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 121259.0,
+     "area": 61.0,
+     "lat": -12.07672,
+     "lng": -77.09838,
+     "mon": "USD",
+     "monto": 121259.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "Flat de 2 dormitorios de estreno San Miguel - a pocos minutos de la UPC",
+     "u": "https://www.infocasas.com.pe/flat-de-2-dormitorios-de-estreno-san-miguel-a-pocos-minutos-de-la-upc/194379391",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       121259.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379646": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 192881.0,
+     "area": 92.0,
+     "lat": -12.07532,
+     "lng": -77.03386,
+     "mon": "PEN",
+     "monto": 663768.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO SANTA BEATRIZ - DPTO 1502 (609-1165-25)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-1502-609116525/194379646",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       192881.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379638": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 80212.0,
+     "area": 40.0,
+     "lat": -12.07532,
+     "lng": -77.03386,
+     "mon": "PEN",
+     "monto": 276035.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO SANTA BEATRIZ - DPTO 309 AL 1509 (609-1165-16)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-309-al-1509-609116516/194379638",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       80212.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379595": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 116095.0,
+     "area": 51.0,
+     "lat": -12.07892,
+     "lng": -77.10114,
+     "mon": "PEN",
+     "monto": 399520.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO EN SAN MIGUEL - DPTO TIPO 2 (609-1163-9)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-miguel-dpto-tipo-2-60911639/194379595",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       116095.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379442": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 264743.0,
+     "area": 123.0,
+     "lat": -12.09154,
+     "lng": -77.08281,
+     "mon": "USD",
+     "monto": 264743.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Cercado De Lima",
+     "titulo": "Duplex de 4 dorm con terraza en Bertolotto cerca al parque media luna",
+     "u": "https://www.infocasas.com.pe/duplex-de-4-dorm-con-terraza-en-bertolotto-cerca-al-parque-media-luna/194379442",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       264743.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379636": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 80376.0,
+     "area": 40.0,
+     "lat": -12.07532,
+     "lng": -77.03386,
+     "mon": "PEN",
+     "monto": 276602.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO SANTA BEATRIZ - DPTO 307 AL 1507 (609-1165-15)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-307-al-1507-609116515/194379636",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       80376.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379641": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 99077.0,
+     "area": 50.0,
+     "lat": -12.07532,
+     "lng": -77.03386,
+     "mon": "PEN",
+     "monto": 340956.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO SANTA BEATRIZ - DPTO 310 AL 1510 (609-1165-21)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-310-al-1510-609116521/194379641",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       99077.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379639": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 87489.0,
+     "area": 43.0,
+     "lat": -12.07532,
+     "lng": -77.03386,
+     "mon": "PEN",
+     "monto": 301077.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO SANTA BEATRIZ - DPTO 306 AL 1506 (609-1165-19)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-306-al-1506-609116519/194379639",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       87489.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194381040": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 105000.0,
+     "area": 57.0,
+     "lat": -12.06517,
+     "lng": -77.03728,
+     "mon": "USD",
+     "monto": 105000.0,
+     "mant": 72.65,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "Venta De Departamento De 2 Dormitorios – Av. Arequipa Cdra. 13 – Cercado De Lima",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-de-2-dormitorios-–-av-arequipa-cdra-13-–-cercado-de-lima/194381040",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       105000.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379594": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 71577.0,
+     "area": 32.0,
+     "lat": -12.07892,
+     "lng": -77.10114,
+     "mon": "PEN",
+     "monto": 246320.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO EN SAN MIGUEL - DPTO TIPO 3 (609-1163-8)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-miguel-dpto-tipo-3-60911638/194379594",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       71577.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379645": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 190135.0,
+     "area": 90.0,
+     "lat": -12.07532,
+     "lng": -77.03386,
+     "mon": "PEN",
+     "monto": 654318.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO SANTA BEATRIZ - DPTO 1501 (609-1165-24)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-1501-609116524/194379645",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       190135.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379611": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 138609.0,
+     "area": 66.0,
+     "lat": -12.07618,
+     "lng": -77.09993,
+     "mon": "PEN",
+     "monto": 477000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO SAN MIGUEL - DPTO 1201 AL 2001 (609-1165-1)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-1201-al-2001-60911651/194379611",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       138609.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379407": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 645.0,
+     "area": 62.0,
+     "lat": -12.07648,
+     "lng": -77.09956,
+     "mon": "USD",
+     "monto": 645.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Cercado De Lima",
+     "titulo": "ALQUILER DPTO DE ESTRENO PISO 15 ALT CDRA 35 AV LA MARINA",
+     "u": "https://www.infocasas.com.pe/alquiler-dpto-de-estreno-piso-15-alt-cdra-35-av-la-marina/194379407",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       645.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cercado-de-lima"
+    },
+    "194379457": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 114553.0,
+     "area": 59.0,
+     "lat": -12.17534,
+     "lng": -77.00181,
+     "mon": "USD",
+     "monto": 114553.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Chorrillos",
+     "titulo": "Departamento en Chorrillos de 2 dormitorios con estudio ubicado en Chorrillo cer",
+     "u": "https://www.infocasas.com.pe/departamento-en-chorrillos-de-2-dormitorios-con-estudio-ubicado-en-chorrillo-cerca-a-plaza-lima-sur/194379457",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       114553.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "chorrillos"
+    },
+    "194379447": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 130000.0,
+     "area": 84.0,
+     "lat": -12.2031,
+     "lng": -77.0084,
+     "mon": "USD",
+     "monto": 130000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Chorrillos",
+     "titulo": "calle islas virgenes  1XX - SE VENDE DPTO EN PRIMER PISO LOS CEDROS 3 DORM 1 COC",
+     "u": "https://www.infocasas.com.pe/calle-islas-virgenes-1xx-se-vende-dpto-en-primer-piso-los-cedros-3-dorm-1-cochera-cerca-av-alamed/194379447",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       130000.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "chorrillos"
+    },
+    "194379437": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 222900.0,
+     "area": 96.0,
+     "lat": -12.15799,
+     "lng": -77.02333,
+     "mon": "USD",
+     "monto": 222900.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Chorrillos",
+     "titulo": "Se vende Moderno departamento en malecón Costa Sur con excelente ubicación frent",
+     "u": "https://www.infocasas.com.pe/se-vende-moderno-departamento-en-malecon-costa-sur-con-excelente-ubicacion-frente-al-mar-chorrillos/194379437",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       222900.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "chorrillos"
+    },
+    "194379549": {
+     "op": "venta",
+     "tipo": "casas",
+     "ciudad": "lima",
+     "usd": 360000.0,
+     "area": 400.0,
+     "lat": -12.06929,
+     "lng": -76.75944,
+     "mon": "USD",
+     "monto": 360000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Cieneguilla",
+     "titulo": "Venta Casa en 3ra etapa Cieneguilla con piscina y parrilla - 9 dorm - 3 estacion",
+     "u": "https://www.infocasas.com.pe/venta-casa-en-3ra-etapa-cieneguilla-con-piscina-y-parrilla-9-dorm-3-estacionamientos/194379549",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       360000.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cieneguilla"
+    },
+    "194379473": {
+     "op": "venta",
+     "tipo": "casas",
+     "ciudad": "lima",
+     "usd": 525000.0,
+     "area": 332.0,
+     "lat": -12.11197,
+     "lng": -76.81962,
+     "mon": "USD",
+     "monto": 525000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Cieneguilla",
+     "titulo": "Casa en venta con piscina privada en la Quebrada, Cieneguilla",
+     "u": "https://www.infocasas.com.pe/casa-en-venta-con-piscina-privada-en-la-quebrada-cieneguilla/194379473",
+     "flags": [],
+     "p": [
+      [
+       20735,
+       525000.0
+      ]
+     ],
+     "f": 20735,
+     "r": 20735,
+     "dist": "cieneguilla"
     }
    },
    "tc": 3.43980343980344,
-   "turno": 170,
+   "turno": 37,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -123094,50 +124228,50 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 92,
+     "validos": 59,
      "fuera_ciudad": 1,
-     "momento": 1791550071
+     "momento": 1791571495
     },
     "arequipa": {
      "paginas": 4,
      "validos": 16,
      "fuera_ciudad": 2,
-     "momento": 1791550071
+     "momento": 1791571495
     },
     "cusco": {
      "paginas": 4,
      "validos": 4,
      "fuera_ciudad": 0,
-     "momento": 1791550071
+     "momento": 1791571495
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 4,
-     "momento": 1791550071
+     "momento": 1791571495
     },
     "trujillo": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1791550071
+     "momento": 1791571495
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1791550071
+     "momento": 1791571495
     }
    }
   },
   "cobertura_ciudades": {
    "lima": {
     "ciudad": "Lima",
-    "ventas": 555,
-    "alquileres": 145,
+    "ventas": 590,
+    "alquileres": 152,
     "estado": "con datos; comparables por microzona pendientes de cada aviso",
     "proyectos": 713,
-    "momento": 1791550071
+    "momento": 1791571495
    },
    "arequipa": {
     "ciudad": "Arequipa",
@@ -123145,7 +124279,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 8,
-    "momento": 1791550071
+    "momento": 1791571495
    },
    "cusco": {
     "ciudad": "Cusco",
@@ -123153,7 +124287,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 1,
-    "momento": 1791550071
+    "momento": 1791571495
    },
    "cajamarca": {
     "ciudad": "Cajamarca",
@@ -123161,7 +124295,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1791550071
+    "momento": 1791571495
    },
    "trujillo": {
     "ciudad": "Trujillo",
@@ -123169,7 +124303,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1791550071
+    "momento": 1791571495
    },
    "huaraz": {
     "ciudad": "Huaraz",
@@ -123177,7 +124311,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1791550071
+    "momento": 1791571495
    }
   }
  }
