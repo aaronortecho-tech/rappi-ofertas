@@ -7,13 +7,13 @@
   "c68c0f3e8a729681": 1791335015
  },
  "failures": {
-  "JetSMART/tarifas desde Lima": 92
+  "JetSMART/tarifas desde Lima": 93
  },
  "last_failure_notice": 1791577605,
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1791642348,
+ "saved_at": 1791644008,
  "history": {
   "00925d02c13b6b71": [
    [
@@ -6801,6 +6801,12 @@
     183.64
    ]
   ],
+  "2f3487f73c6516d4": [
+   [
+    20736,
+    121.0
+   ]
+  ],
   "3e0f44bb8ea41ab3": [
    [
     20736,
@@ -6829,6 +6835,12 @@
    [
     20736,
     100.24
+   ]
+  ],
+  "a07245de4cc29e5f": [
+   [
+    20736,
+    659.0
    ]
   ],
   "a322e08a3a474580": [
@@ -13739,8 +13751,8 @@
   ]
  },
  "cursors": {
-  "travelpayouts": 1791620858,
-  "JetSMART/portada-sin-tarifas": 92
+  "travelpayouts": 1791644008,
+  "JetSMART/portada-sin-tarifas": 93
  },
  "flight_alerts": {
   "bc01e1845a439560": {
@@ -18777,6 +18789,28 @@
       [
        20736,
        267.0
+      ]
+     ]
+    }
+   },
+   "82b87eaabed5d702": {
+    "a07245de4cc29e5f": {
+     "depart": "2026-11-02",
+     "prices": [
+      [
+       20736,
+       659.0
+      ]
+     ]
+    }
+   },
+   "87ce607d9363583f": {
+    "2f3487f73c6516d4": {
+     "depart": "2026-10-22",
+     "prices": [
+      [
+       20736,
+       121.0
       ]
      ]
     }
