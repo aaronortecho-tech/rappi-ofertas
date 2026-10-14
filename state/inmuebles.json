@@ -13,6 +13,7 @@
   "497e2c48582ba605": 1791593538,
   "5388d5519085601e": 1790210611,
   "5ff894a504fe96f5": 1789929478,
+  "665d99be163511fe": 1791983319,
   "6fa845a64a22adf2": 1790902017,
   "73ebd11ea4a17888": 1791679889,
   "7899853533dd9392": 1791226033,
@@ -20,8 +21,10 @@
   "7ae842b10c47498b": 1791874471,
   "8335513f6725f81a": 1790297036,
   "859c5aa06ce0f2a1": 1790232174,
+  "909635d2b72d80a0": 1791983319,
   "938fd580a23c120a": 1790297036,
   "983b8fb47c6c3fe4": 1789756695,
+  "a6a032f0be5099dc": 1791983319,
   "b589ee200bb64ce2": 1789973117,
   "b7f0d67d5c55dcd5": 1789756695,
   "c6c3a599fee042c4": 1789756695,
@@ -33,7 +36,7 @@
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1791961915,
+ "saved_at": 1791983319,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -17542,6 +17545,7 @@
     "3346": {
      "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/kauri-3346",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Pueblo Libre",
      "nombre": "Kaurí",
      "marca": "ABRIL GRUPO INMOBILIARIO",
@@ -17549,12 +17553,6 @@
      "lng": -77.06834,
      "etapa": "en construcción",
      "modelos": {
-      "Modelo KAU - 211, 312 AL 2012": [
-       54.49,
-       2,
-       "PEN",
-       367769.0
-      ],
       "Modelo KAU - 212, 313 AL 2013": [
        55.14,
        2,
@@ -17587,11 +17585,6 @@
       ]
      },
      "primero": {
-      "Modelo KAU - 211, 312 AL 2012": [
-       "PEN",
-       367769.0,
-       20716
-      ],
       "Modelo KAU - 212, 313 AL 2013": [
        "PEN",
        349159.0,
@@ -17618,8 +17611,8 @@
        20716
       ]
      },
-     "r": 20716,
-     "x": 20721
+     "r": 20740,
+     "x": 20740
     },
     "3347": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/maximo-abril-3347",
@@ -18757,6 +18750,7 @@
     "3385": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/albamar-re-3385",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Cercado De Lima",
      "nombre": "Albamar | Re+",
      "marca": "ALBAMAR GRUPO INMOBILIARIO",
@@ -18792,7 +18786,7 @@
        44.94,
        2,
        "PEN",
-       253400.0
+       234000.0
       ],
       "Modelo MODELO 6": [
        31.39,
@@ -18801,10 +18795,10 @@
        189000.0
       ],
       "Modelo MODELO 7": [
-       63.15,
-       3,
+       58.62,
+       2,
        "PEN",
-       301700.0
+       315600.0
       ],
       "Modelo MODELO 8": [
        63.72,
@@ -18816,7 +18810,7 @@
        56.7,
        2,
        "PEN",
-       276200.0
+       285900.0
       ],
       "Modelo MODELO 10": [
        48.81,
@@ -18888,12 +18882,13 @@
        20716
       ]
      },
-     "r": 20716,
+     "r": 20740,
      "x": 20740
     },
     "3390": {
      "u": "https://nexoinmobiliario.pe/departamentos/comas/residencial-seiss-3390",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Comas",
      "nombre": "RESIDENCIAL SEISS",
      "marca": "LIDER",
@@ -18905,13 +18900,13 @@
        54.06,
        2,
        "PEN",
-       282200.0
+       248300.0
       ],
       "Modelo M02": [
        56.88,
        2,
        "PEN",
-       286700.0
+       285400.0
       ],
       "Modelo T03": [
        57.42,
@@ -19025,12 +19020,13 @@
        20716
       ]
      },
-     "r": 20716,
+     "r": 20740,
      "x": 20740
     },
     "3391": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/aster-reducto-3391",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Miraflores",
      "nombre": "ASTER REDUCTO",
      "marca": "ASTER HOMES",
@@ -19042,7 +19038,7 @@
        82.73,
        3,
        "PEN",
-       765910.0
+       809318.0
       ],
       "Modelo X02": [
        82.59,
@@ -19129,12 +19125,13 @@
        20716
       ]
      },
-     "r": 20716,
+     "r": 20740,
      "x": 20740
     },
     "3392": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/cross-3392",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Lince",
      "nombre": "Cross",
      "marca": "GRANADERO INMOBILIARIA",
@@ -19233,12 +19230,13 @@
        20716
       ]
      },
-     "r": 20716,
+     "r": 20740,
      "x": 20740
     },
     "3394": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-borja/vision-prado-3394",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "San Borja",
      "nombre": "VISIÓN PRADO",
      "marca": "INMOVISION",
@@ -19251,12 +19249,6 @@
        2,
        "PEN",
        505319.0
-      ],
-      "Modelo X02": [
-       67.45,
-       3,
-       "PEN",
-       574043.0
       ],
       "Modelo X03-I": [
        50.23,
@@ -19289,11 +19281,6 @@
        505319.0,
        20716
       ],
-      "Modelo X02": [
-       "PEN",
-       574043.0,
-       20716
-      ],
       "Modelo X03-I": [
        "PEN",
        420183.0,
@@ -19315,7 +19302,7 @@
        20716
       ]
      },
-     "r": 20716,
+     "r": 20740,
      "x": 20740
     },
     "3395": {
@@ -19392,6 +19379,7 @@
     "3397": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/zircon-3397",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Jesus Maria",
      "nombre": "Zircon",
      "marca": "MARTE",
@@ -19409,7 +19397,7 @@
        62.21,
        1,
        "PEN",
-       552502.0
+       563552.0
       ],
       "Modelo Tipo 8": [
        55.28,
@@ -19427,7 +19415,7 @@
        70.86,
        1,
        "PEN",
-       559298.0
+       570484.0
       ],
       "Modelo Tipo 2": [
        75.64,
@@ -19451,7 +19439,7 @@
        41.17,
        1,
        "PEN",
-       313988.0
+       321230.0
       ],
       "Modelo Tipo 6": [
        52.91,
@@ -19463,7 +19451,7 @@
        56.6,
        2,
        "PEN",
-       436460.0
+       438462.0
       ],
       "Modelo Tipo 10": [
        61.13,
@@ -19475,13 +19463,7 @@
        51.43,
        1,
        "PEN",
-       378384.0
-      ],
-      "Modelo Tipo 1": [
-       78.36,
-       3,
-       "PEN",
-       795811.0
+       418448.0
       ],
       "Modelo Tipo 9B": [
        60.04,
@@ -19580,11 +19562,6 @@
        378384.0,
        20716
       ],
-      "Modelo Tipo 1": [
-       "PEN",
-       795811.0,
-       20716
-      ],
       "Modelo Tipo 9B": [
        "PEN",
        436887.0,
@@ -19611,12 +19588,13 @@
        20716
       ]
      },
-     "r": 20716,
+     "r": 20740,
      "x": 20740
     },
     "3398": {
      "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/alicanto-3398",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Jesus Maria",
      "nombre": "Alicanto",
      "marca": "Cygnus Grupo Inmobiliario",
@@ -19628,54 +19606,43 @@
        65.65,
        2,
        "PEN",
-       523552.0
-      ],
-      "Modelo Tipo 102": [
-       82.6,
-       3,
-       "PEN",
-       735814.0
+       547310.0
       ],
       "Modelo Tipo 202": [
        70.58,
        3,
        "PEN",
-       583052.0
+       579077.0
       ],
       "Modelo Tipo 3": [
        39.97,
        1,
        "PEN",
-       330600.0
+       345627.0
+      ],
+      "Modelo Tipo 4": [
+       52.61,
+       2,
+       "PEN",
+       443000.0
+      ],
+      "Modelo Tipo 5": [
+       53.96,
+       2,
+       "PEN",
+       461358.0
       ],
       "Modelo Tipo 1": [
        78.23,
        3,
        "PEN",
        573885.0
-      ],
-      "Modelo Tipo 2": [
-       81.63,
-       3,
-       "PEN",
-       573027.0
-      ],
-      "Modelo Tipo 1601": [
-       154.03,
-       3,
-       "PEN",
-       1037359.0
       ]
      },
      "primero": {
       "Modelo Tipo 101": [
        "PEN",
        523552.0,
-       20716
-      ],
-      "Modelo Tipo 102": [
-       "PEN",
-       735814.0,
        20716
       ],
       "Modelo Tipo 202": [
@@ -19693,23 +19660,24 @@
        573885.0,
        20716
       ],
-      "Modelo Tipo 2": [
+      "Modelo Tipo 4": [
        "PEN",
-       573027.0,
-       20716
+       443000.0,
+       20740
       ],
-      "Modelo Tipo 1601": [
+      "Modelo Tipo 5": [
        "PEN",
-       1037359.0,
-       20716
+       461358.0,
+       20740
       ]
      },
-     "r": 20716,
+     "r": 20740,
      "x": 20740
     },
     "3399": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/top-life-juan-de-aliaga-3399",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Magdalena Del Mar",
      "nombre": "TOP LIFE JUAN DE ALIAGA",
      "marca": "Val Grupo Inmobiliario",
@@ -19797,12 +19765,13 @@
        20716
       ]
      },
-     "r": 20716,
+     "r": 20740,
      "x": 20740
     },
     "3403": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/aliaga-442-3403",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Magdalena Del Mar",
      "nombre": "ALIAGA 442",
      "marca": "Vive+ Grupo inmobiliario",
@@ -19810,29 +19779,11 @@
      "lng": -77.05934,
      "etapa": "inmediata",
      "modelos": {
-      "Modelo T 12B": [
-       71.67,
+      "Modelo T 12D": [
+       74.45,
        3,
        "PEN",
-       583000.0
-      ],
-      "Modelo T 17A": [
-       94.13,
-       3,
-       "PEN",
-       829812.0
-      ],
-      "Modelo T 18C": [
-       100.27,
-       3,
-       "PEN",
-       868000.0
-      ],
-      "Modelo T 17C": [
-       97.55,
-       3,
-       "PEN",
-       902000.0
+       626000.0
       ],
       "Modelo T 16C": [
        78.41,
@@ -19844,7 +19795,7 @@
        43.88,
        1,
        "PEN",
-       480000.0
+       466225.0
       ],
       "Modelo T 14C": [
        74.99,
@@ -19858,12 +19809,6 @@
        "PEN",
        584000.0
       ],
-      "Modelo T 9A": [
-       67.12,
-       2,
-       "PEN",
-       574000.0
-      ],
       "Modelo T 14B": [
        73.48,
        3,
@@ -19872,26 +19817,6 @@
       ]
      },
      "primero": {
-      "Modelo T 12B": [
-       "PEN",
-       583000.0,
-       20716
-      ],
-      "Modelo T 17A": [
-       "PEN",
-       829812.0,
-       20716
-      ],
-      "Modelo T 18C": [
-       "PEN",
-       868000.0,
-       20716
-      ],
-      "Modelo T 17C": [
-       "PEN",
-       902000.0,
-       20716
-      ],
       "Modelo T 16C": [
        "PEN",
        703000.0,
@@ -19912,23 +19837,24 @@
        584000.0,
        20716
       ],
-      "Modelo T 9A": [
-       "PEN",
-       574000.0,
-       20716
-      ],
       "Modelo T 14B": [
        "PEN",
        670000.0,
        20716
+      ],
+      "Modelo T 12D": [
+       "PEN",
+       626000.0,
+       20740
       ]
      },
-     "r": 20716,
+     "r": 20740,
      "x": 20740
     },
     "3406": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/albamar-match-3406",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "San Miguel",
      "nombre": "Albamar | Match",
      "marca": "ALBAMAR GRUPO INMOBILIARIO",
@@ -19941,6 +19867,12 @@
        2,
        "PEN",
        365900.0
+      ],
+      "Modelo TIPO 1B": [
+       42.02,
+       1,
+       "PEN",
+       277500.0
       ],
       "Modelo TIPO 2B": [
        77.91,
@@ -19958,7 +19890,7 @@
        34.89,
        1,
        "PEN",
-       269200.0
+       270000.0
       ],
       "Modelo TIPO 2": [
        57.87,
@@ -20036,14 +19968,20 @@
        "PEN",
        381800.0,
        20716
+      ],
+      "Modelo TIPO 1B": [
+       "PEN",
+       277500.0,
+       20740
       ]
      },
-     "r": 20716,
+     "r": 20740,
      "x": 20740
     },
     "3410": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/glam-3410",
      "tipo": "departamentos",
+     "ciudad": "lima",
      "dist": "Santiago De Surco",
      "nombre": "GLAM",
      "marca": "F INMOBILIARIA",
@@ -20055,31 +19993,31 @@
        108.72,
        3,
        "PEN",
-       886200.0
+       841890.0
       ],
       "Modelo TD-X13": [
        115.54,
        3,
        "PEN",
-       992800.0
+       943160.0
       ],
       "Modelo TD-X14": [
        107.13,
        3,
        "PEN",
-       893700.0
+       849015.0
       ],
       "Modelo TD-X15": [
        100.38,
        3,
        "PEN",
-       830100.0
+       792680.0
       ],
       "Modelo TD-X16": [
        89.55,
        3,
        "PEN",
-       726700.0
+       702240.0
       ],
       "Modelo TD-X17": [
        49.56,
@@ -20091,7 +20029,7 @@
        99.19,
        3,
        "PEN",
-       817400.0
+       776530.0
       ],
       "Modelo TD-X20": [
        81.11,
@@ -20103,13 +20041,13 @@
        56.12,
        1,
        "PEN",
-       458660.0
+       478800.0
       ],
       "Modelo TD-X35": [
        106.76,
        3,
        "PEN",
-       885300.0
+       841035.0
       ]
      },
      "primero": {
@@ -20164,7 +20102,7 @@
        20716
       ]
      },
-     "r": 20716,
+     "r": 20740,
      "x": 20740
     },
     "3197": {
@@ -20683,32 +20621,32 @@
      "lng": -76.99109,
      "etapa": "inmediata",
      "modelos": {
-      "Modelo TD-X05": [
-       82.51,
-       2,
-       "PEN",
-       677540.0
-      ],
       "Modelo TD-X06": [
        162.61,
        3,
        "PEN",
-       1192155.0
+       1154508.0
+      ],
+      "Modelo TD-X08": [
+       216.51,
+       3,
+       "PEN",
+       1127000.0
       ]
      },
      "primero": {
-      "Modelo TD-X05": [
-       "PEN",
-       677540.0,
-       20717
-      ],
       "Modelo TD-X06": [
        "PEN",
        1192155.0,
        20717
+      ],
+      "Modelo TD-X08": [
+       "PEN",
+       1127000.0,
+       20740
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3413": {
@@ -20726,31 +20664,31 @@
        40.01,
        1,
        "PEN",
-       373772.0
+       384400.0
       ],
       "Modelo 3 Dormitorios + Cocina": [
        74.26,
        3,
        "PEN",
-       699818.0
+       641300.0
       ],
       "Modelo 2 Dormitorios + Kitchenette": [
        50.51,
        2,
        "PEN",
-       475594.0
+       477500.0
       ],
       "Modelo 3 Dormitorios + Kitchenette": [
        64.77,
        3,
        "PEN",
-       628474.0
+       557000.0
       ],
       "Modelo 1.5 Dormitorio + Kitchenette": [
        45.47,
        2,
        "PEN",
-       420616.0
+       429200.0
       ]
      },
      "primero": {
@@ -20780,7 +20718,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3414": {
@@ -20798,7 +20736,7 @@
        67.9,
        3,
        "PEN",
-       547900.0
+       552400.0
       ],
       "Modelo TD-X09": [
        64.96,
@@ -20835,6 +20773,24 @@
        3,
        "PEN",
        530200.0
+      ],
+      "Modelo TD-X14": [
+       49.22,
+       2,
+       "PEN",
+       397000.0
+      ],
+      "Modelo TD-X03": [
+       39.35,
+       1,
+       "PEN",
+       315600.0
+      ],
+      "Modelo TD-X04": [
+       64.32,
+       3,
+       "PEN",
+       517000.0
       ]
      },
      "primero": {
@@ -20872,9 +20828,24 @@
        "PEN",
        530200.0,
        20717
+      ],
+      "Modelo TD-X14": [
+       "PEN",
+       397000.0,
+       20740
+      ],
+      "Modelo TD-X03": [
+       "PEN",
+       315600.0,
+       20740
+      ],
+      "Modelo TD-X04": [
+       "PEN",
+       517000.0,
+       20740
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3415": {
@@ -20888,17 +20859,29 @@
      "lng": -77.05955,
      "etapa": "en construcción",
      "modelos": {
+      "Modelo TD-X03-201": [
+       42.81,
+       1,
+       "PEN",
+       370600.0
+      ],
       "Modelo TD-X03-1": [
        43.02,
        1,
        "PEN",
-       378400.0
+       366800.0
       ],
       "Modelo TD-X03-2": [
        42.65,
        1,
        "PEN",
        367200.0
+      ],
+      "Modelo TD-X03-3": [
+       42.29,
+       1,
+       "PEN",
+       367700.0
       ],
       "Modelo TD-X04-202": [
        80.48,
@@ -20988,9 +20971,19 @@
        "PEN",
        559300.0,
        20717
+      ],
+      "Modelo TD-X03-201": [
+       "PEN",
+       370600.0,
+       20740
+      ],
+      "Modelo TD-X03-3": [
+       "PEN",
+       367700.0,
+       20740
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3416": {
@@ -21018,7 +21011,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3422": {
@@ -21032,75 +21025,53 @@
      "lng": -77.06925,
      "etapa": "en construcción",
      "modelos": {
-      "Modelo TIPO 6": [
-       66.5,
-       3,
-       "PEN",
-       425000.0
-      ],
       "Modelo TIPO 5": [
        69.5,
        3,
        "PEN",
-       462900.0
-      ],
-      "Modelo TIPO 1804": [
-       107.5,
-       3,
-       "PEN",
-       683125.0
+       494175.0
       ],
       "Modelo TIPO 4": [
        75.2,
        3,
        "PEN",
-       483000.0
+       513080.0
       ],
       "Modelo TIPO 3": [
        75.5,
        3,
        "PEN",
-       479715.0
+       506140.0
       ],
       "Modelo TIPO 1": [
        69.0,
        3,
        "PEN",
-       456350.0
+       473600.0
       ],
       "Modelo TIPO 6B": [
        66.5,
        2,
        "PEN",
-       425000.0
+       464900.0
       ],
       "Modelo TIPO 5B": [
        66.5,
        2,
        "PEN",
-       425000.0
+       448275.0
       ],
       "Modelo TIPO DUPLEX 2003": [
        150.0,
        3,
        "PEN",
-       1008700.0
+       994700.0
       ]
      },
      "primero": {
-      "Modelo TIPO 6": [
-       "PEN",
-       425000.0,
-       20717
-      ],
       "Modelo TIPO 5": [
        "PEN",
        462900.0,
-       20717
-      ],
-      "Modelo TIPO 1804": [
-       "PEN",
-       683125.0,
        20717
       ],
       "Modelo TIPO 4": [
@@ -21134,7 +21105,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3423": {
@@ -21152,49 +21123,49 @@
        38.8,
        1,
        "PEN",
-       199000.0
+       259052.0
       ],
       "Modelo X04": [
        53.05,
        2,
        "PEN",
-       331460.0
+       375740.0
       ],
       "Modelo X05": [
        40.45,
        1,
        "PEN",
-       245000.0
+       276307.0
       ],
-      "Modelo 1203": [
-       37.7,
+      "Modelo X01A": [
+       77.0,
+       3,
+       "PEN",
+       515038.0
+      ],
+      "Modelo X01B": [
+       44.35,
        1,
        "PEN",
-       223000.0
+       324120.0
       ],
       "Modelo X03A": [
        32.7,
        1,
        "PEN",
-       223000.0
-      ],
-      "Modelo X02B": [
-       70.1,
-       2,
-       "PEN",
-       399000.0
+       237360.0
       ],
       "Modelo X03B": [
        34.0,
        1,
        "PEN",
-       228000.0
+       246200.0
       ],
       "Modelo 1604": [
        91.55,
        2,
        "PEN",
-       424000.0
+       450591.0
       ]
      },
      "primero": {
@@ -21213,19 +21184,9 @@
        245000.0,
        20717
       ],
-      "Modelo 1203": [
-       "PEN",
-       223000.0,
-       20717
-      ],
       "Modelo X03A": [
        "PEN",
        223000.0,
-       20717
-      ],
-      "Modelo X02B": [
-       "PEN",
-       399000.0,
        20717
       ],
       "Modelo X03B": [
@@ -21237,9 +21198,19 @@
        "PEN",
        424000.0,
        20717
+      ],
+      "Modelo X01A": [
+       "PEN",
+       515038.0,
+       20740
+      ],
+      "Modelo X01B": [
+       "PEN",
+       324120.0,
+       20740
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3425": {
@@ -21301,12 +21272,6 @@
        "PEN",
        296000.0
       ],
-      "Modelo X08-A": [
-       58.18,
-       2,
-       "PEN",
-       371000.0
-      ],
       "Modelo X09-A": [
        50.53,
        2,
@@ -21323,7 +21288,7 @@
        42.57,
        1,
        "PEN",
-       252000.0
+       253000.0
       ],
       "Modelo X08-B": [
        60.89,
@@ -21385,11 +21350,6 @@
        296000.0,
        20717
       ],
-      "Modelo X08-A": [
-       "PEN",
-       371000.0,
-       20717
-      ],
       "Modelo X09-A": [
        "PEN",
        325000.0,
@@ -21421,7 +21381,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3426": {
@@ -21439,19 +21399,19 @@
        37.09,
        1,
        "PEN",
-       380200.0
+       399900.0
       ],
       "Modelo 3": [
        49.07,
        1,
        "PEN",
-       444394.0
+       437900.0
       ],
       "Modelo 4": [
        39.78,
        1,
        "PEN",
-       375000.0
+       395000.0
       ]
      },
      "primero": {
@@ -21471,7 +21431,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3427": {
@@ -21576,7 +21536,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3429": {
@@ -21692,7 +21652,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3430": {
@@ -21722,7 +21682,7 @@
        74.42,
        3,
        "PEN",
-       405000.0
+       415000.0
       ]
      },
      "primero": {
@@ -21742,7 +21702,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3434": {
@@ -22012,7 +21972,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3437": {
@@ -22051,7 +22011,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3445": {
@@ -22178,7 +22138,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3452": {
@@ -22208,7 +22168,7 @@
        60.4,
        2,
        "PEN",
-       515093.0
+       555317.0
       ],
       "Modelo 1 - I": [
        41.39,
@@ -22250,7 +22210,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3453": {
@@ -22432,7 +22392,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3454": {
@@ -22482,7 +22442,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3455": {
@@ -22496,31 +22456,20 @@
      "lng": -77.0534,
      "etapa": "en construcción",
      "modelos": {
-      "Modelo Prime Lite": [
-       68.4,
-       3,
-       "PEN",
-       406464.0
-      ],
       "Modelo Urban Lite": [
        55.1,
        2,
        "PEN",
-       343560.0
+       363560.0
       ],
       "Modelo Lite Brisa": [
        74.96,
        2,
        "PEN",
-       425345.0
+       445345.0
       ]
      },
      "primero": {
-      "Modelo Prime Lite": [
-       "PEN",
-       406464.0,
-       20717
-      ],
       "Modelo Urban Lite": [
        "PEN",
        343560.0,
@@ -22532,7 +22481,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3456": {
@@ -22571,7 +22520,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3461": {
@@ -22589,13 +22538,13 @@
        72.45,
        3,
        "PEN",
-       421700.0
+       429700.0
       ],
       "Modelo 3D+C": [
        63.97,
        3,
        "PEN",
-       360100.0
+       362200.0
       ]
      },
      "primero": {
@@ -22610,7 +22559,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3464": {
@@ -22622,31 +22571,31 @@
      "marca": "CISSAC",
      "lat": -12.10585,
      "lng": -76.97855,
-     "etapa": "en construcción",
+     "etapa": "inmediata",
      "modelos": {
       "Modelo VIEW COLLECTION": [
        78.1,
        3,
        "PEN",
-       694000.0
+       719000.0
       ],
       "Modelo BASICO": [
        124.86,
        2,
        "PEN",
-       786500.0
+       811500.0
       ],
       "Modelo VIEW CONFORT": [
        77.54,
        3,
        "PEN",
-       714000.0
+       724000.0
       ],
       "Modelo VIEW PLUS": [
-       77.54,
+       78.0,
        3,
        "PEN",
-       699000.0
+       730000.0
       ]
      },
      "primero": {
@@ -22671,7 +22620,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3466": {
@@ -22743,7 +22692,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3469": {
@@ -22827,7 +22776,7 @@
        22.89,
        1,
        "PEN",
-       210962.0
+       212962.0
       ],
       "Modelo 14": [
        40.61,
@@ -22914,7 +22863,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3470": {
@@ -22980,7 +22929,7 @@
        58.72,
        2,
        "PEN",
-       349689.0
+       353035.0
       ],
       "Modelo 10A": [
        75.1,
@@ -23052,7 +23001,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3472": {
@@ -23070,13 +23019,13 @@
        46.92,
        1,
        "PEN",
-       381600.0
+       382500.0
       ],
       "Modelo CNL-X08": [
        66.45,
        2,
        "PEN",
-       502200.0
+       503100.0
       ]
      },
      "primero": {
@@ -23091,7 +23040,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3473": {
@@ -23224,7 +23173,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3476": {
@@ -23242,91 +23191,79 @@
        30.72,
        1,
        "PEN",
-       284164.0
+       294058.0
       ],
       "Modelo 2A": [
        28.91,
        1,
        "PEN",
-       292893.0
+       296752.0
       ],
       "Modelo 6A": [
        39.87,
        1,
        "PEN",
-       344143.0
-      ],
-      "Modelo 10A": [
-       48.94,
-       1,
-       "PEN",
-       351783.0
+       350148.0
       ],
       "Modelo 3B": [
        36.43,
        1,
        "PEN",
-       349582.0
+       353078.0
       ],
       "Modelo 4A": [
        39.87,
        1,
        "PEN",
-       344143.0
+       362967.0
       ],
       "Modelo 5B": [
        39.87,
        1,
        "PEN",
-       347950.0
+       374149.0
       ],
-      "Modelo 9B": [
-       38.28,
+      "Modelo 11B": [
+       41.67,
        1,
        "PEN",
-       365282.0
-      ],
-      "Modelo 10B": [
-       40.13,
-       1,
-       "PEN",
-       344625.0
-      ],
-      "Modelo 11C": [
-       41.41,
-       1,
-       "PEN",
-       343948.0
+       334061.0
       ],
       "Modelo 1B": [
        30.31,
        1,
        "PEN",
-       297102.0
+       302019.0
+      ],
+      "Modelo 15A": [
+       85.21,
+       2,
+       "PEN",
+       586123.0
       ],
       "Modelo 16A": [
        57.43,
        2,
        "PEN",
-       498327.0
+       499591.0
       ],
       "Modelo 11D": [
        41.14,
        1,
        "PEN",
-       345635.0
+       349091.0
       ],
       "Modelo 14B": [
        38.27,
        1,
        "PEN",
-       360538.0
+       364049.0
       ],
       "Modelo 17A": [
        57.22,
        2,
        "PEN",
-       492122.0
+       497030.0
       ],
       "Modelo 18A": [
        77.95,
@@ -23387,11 +23324,6 @@
        344143.0,
        20717
       ],
-      "Modelo 10A": [
-       "PEN",
-       351783.0,
-       20717
-      ],
       "Modelo 3B": [
        "PEN",
        349582.0,
@@ -23405,21 +23337,6 @@
       "Modelo 5B": [
        "PEN",
        347950.0,
-       20717
-      ],
-      "Modelo 9B": [
-       "PEN",
-       365282.0,
-       20717
-      ],
-      "Modelo 10B": [
-       "PEN",
-       344625.0,
-       20717
-      ],
-      "Modelo 11C": [
-       "PEN",
-       343948.0,
        20717
       ],
       "Modelo 1B": [
@@ -23481,9 +23398,19 @@
        "PEN",
        367594.0,
        20717
+      ],
+      "Modelo 11B": [
+       "PEN",
+       334061.0,
+       20740
+      ],
+      "Modelo 15A": [
+       "PEN",
+       586123.0,
+       20740
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3477": {
@@ -23497,12 +23424,6 @@
      "lng": -76.98678,
      "etapa": "inmediata",
      "modelos": {
-      "Modelo x102": [
-       103.92,
-       2,
-       "PEN",
-       839000.0
-      ],
       "Modelo X01": [
        107.37,
        2,
@@ -23517,11 +23438,6 @@
       ]
      },
      "primero": {
-      "Modelo x102": [
-       "PEN",
-       839000.0,
-       20717
-      ],
       "Modelo X01": [
        "PEN",
        862000.0,
@@ -23533,7 +23449,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3480": {
@@ -23682,7 +23598,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3482": {
@@ -23700,7 +23616,7 @@
        75.0,
        3,
        "PEN",
-       542592.0
+       580000.0
       ],
       "Modelo X04": [
        57.81,
@@ -23708,23 +23624,17 @@
        "PEN",
        430265.0
       ],
-      "Modelo T2": [
-       70.25,
-       3,
-       "PEN",
-       524904.0
-      ],
       "Modelo T5": [
        78.47,
        2,
        "PEN",
-       520408.0
+       530000.0
       ],
       "Modelo T6": [
        63.88,
        2,
        "PEN",
-       469590.0
+       470000.0
       ]
      },
      "primero": {
@@ -23738,11 +23648,6 @@
        430265.0,
        20717
       ],
-      "Modelo T2": [
-       "PEN",
-       524904.0,
-       20717
-      ],
       "Modelo T5": [
        "PEN",
        520408.0,
@@ -23754,7 +23659,7 @@
        20717
       ]
      },
-     "r": 20717,
+     "r": 20740,
      "x": 20740
     },
     "3485": {
@@ -103403,9 +103308,214 @@
      },
      "r": 20740,
      "x": 20740
+    },
+    "2405": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-martin-de-porres/feliciti-f3-2405",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "San Martin De Porres",
+     "nombre": "FELICITI",
+     "marca": "ARQUIMIA",
+     "lat": -11.93024,
+     "lng": -77.07064,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo TIPO C": [
+       50.0,
+       2,
+       "PEN",
+       210500.0
+      ],
+      "Modelo TIPO A": [
+       50.0,
+       2,
+       "PEN",
+       212700.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO C": [
+       "PEN",
+       210500.0,
+       20740
+      ],
+      "Modelo TIPO A": [
+       "PEN",
+       212700.0,
+       20740
+      ]
+     },
+     "r": 20740,
+     "x": 20740
+    },
+    "3947": {
+     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/miami-3947",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Santiago De Surco",
+     "nombre": "MIAMI",
+     "marca": "DECAL INMOBILIARIA",
+     "lat": -12.12506,
+     "lng": -76.97957,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo TIPO A": [
+       100.17,
+       1,
+       "USD",
+       184500.0
+      ],
+      "Modelo TIPO B": [
+       123.37,
+       1,
+       "USD",
+       205500.0
+      ],
+      "Modelo TIPO C": [
+       131.3,
+       1,
+       "USD",
+       231600.0
+      ],
+      "Modelo TIPO D": [
+       179.97,
+       3,
+       "USD",
+       288800.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO A": [
+       "USD",
+       184500.0,
+       20740
+      ],
+      "Modelo TIPO B": [
+       "USD",
+       205500.0,
+       20740
+      ],
+      "Modelo TIPO C": [
+       "USD",
+       231600.0,
+       20740
+      ],
+      "Modelo TIPO D": [
+       "USD",
+       288800.0,
+       20740
+      ]
+     },
+     "r": 20740,
+     "x": 20740
+    },
+    "4348": {
+     "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/residencial-vista-plaza-condominio-ecoamigable-4348",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Pueblo Libre",
+     "nombre": "Residencial Vista Plaza Condominio Ecoamigable",
+     "marca": "BESCO",
+     "lat": -12.07681,
+     "lng": -77.07915,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo TORRE 1 - FLAT -TIPO 1": [
+       65.0,
+       2,
+       "PEN",
+       331100.0
+      ],
+      "Modelo TORRE 1 - FLAT -TIPO 2": [
+       71.0,
+       2,
+       "PEN",
+       348500.0
+      ],
+      "Modelo TORRE 1 - FLAT -TIPO 3": [
+       71.0,
+       3,
+       "PEN",
+       359600.0
+      ],
+      "Modelo TORRE 1 - FLAT -TIPO 4": [
+       65.0,
+       2,
+       "PEN",
+       330700.0
+      ],
+      "Modelo TORRE 1 - FLAT -TIPO 5": [
+       65.0,
+       2,
+       "PEN",
+       320700.0
+      ],
+      "Modelo TORRE 1 - FLAT -TIPO 6": [
+       52.0,
+       2,
+       "PEN",
+       272200.0
+      ],
+      "Modelo TORRE 1 - FLAT -TIPO 7": [
+       52.0,
+       2,
+       "PEN",
+       268200.0
+      ],
+      "Modelo TORRE 1 - FLAT -TIPO 8": [
+       65.0,
+       2,
+       "PEN",
+       334700.0
+      ]
+     },
+     "primero": {
+      "Modelo TORRE 1 - FLAT -TIPO 1": [
+       "PEN",
+       331100.0,
+       20740
+      ],
+      "Modelo TORRE 1 - FLAT -TIPO 2": [
+       "PEN",
+       348500.0,
+       20740
+      ],
+      "Modelo TORRE 1 - FLAT -TIPO 3": [
+       "PEN",
+       359600.0,
+       20740
+      ],
+      "Modelo TORRE 1 - FLAT -TIPO 4": [
+       "PEN",
+       330700.0,
+       20740
+      ],
+      "Modelo TORRE 1 - FLAT -TIPO 5": [
+       "PEN",
+       320700.0,
+       20740
+      ],
+      "Modelo TORRE 1 - FLAT -TIPO 6": [
+       "PEN",
+       272200.0,
+       20740
+      ],
+      "Modelo TORRE 1 - FLAT -TIPO 7": [
+       "PEN",
+       268200.0,
+       20740
+      ],
+      "Modelo TORRE 1 - FLAT -TIPO 8": [
+       "PEN",
+       334700.0,
+       20740
+      ]
+     },
+     "r": 20740,
+     "x": 20740
     }
    },
-   "ultima": 1791940089
+   "ultima": 1791983319
   },
   "scotiabank": {
    "filas": {
@@ -105757,7 +105867,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20739,
+     "r": 20740,
      "dist": "chorrillos"
     },
     "194167045": {
@@ -105966,7 +106076,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194278340": {
@@ -106247,12 +106357,12 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 110250.0,
+     "usd": 109500.0,
      "area": 40.0,
      "lat": -12.07039,
      "lng": -77.04015,
      "mon": "USD",
-     "monto": 110250.0,
+     "monto": 109500.0,
      "mant": 0.0,
      "anio": "",
      "dorm": "1",
@@ -106268,10 +106378,14 @@
       [
        20736,
        110250.0
+      ],
+      [
+       20740,
+       109500.0
       ]
      ],
      "f": 20714,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194254308": {
@@ -106298,7 +106412,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194240826": {
@@ -106792,7 +106906,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194176376": {
@@ -107228,7 +107342,7 @@
      "lng": -77.05039,
      "mon": "USD",
      "monto": 245000.0,
-     "mant": 130.64,
+     "mant": 130.48,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -107246,7 +107360,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194208235": {
@@ -108447,7 +108561,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-molina"
     },
     "194145100": {
@@ -124129,13 +124243,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 537.0,
+     "usd": 536.0,
      "area": 55.0,
      "lat": -12.06486,
      "lng": -77.04195,
      "mon": "PEN",
      "monto": 1850.0,
-     "mant": 37.72,
+     "mant": 37.66,
      "anio": "",
      "dorm": "1",
      "zona": "Jesus Maria",
@@ -124143,10 +124257,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-de-departamento-sin-amoblar-de-1-dormitorio-–-jesus-maria/194282869",
      "flags": [],
      "p": [
-      [
-       20729,
-       536.0
-      ],
       [
        20730,
        535.0
@@ -124174,10 +124284,14 @@
       [
        20739,
        537.0
+      ],
+      [
+       20740,
+       536.0
       ]
      ],
      "f": 20716,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194283666": {
@@ -124728,7 +124842,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 284516.0,
+     "usd": 284148.0,
      "area": 130.0,
      "lat": -12.08977,
      "lng": -77.02726,
@@ -124742,10 +124856,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-duplex-en-lince/194289463",
      "flags": [],
      "p": [
-      [
-       20729,
-       282859.0
-      ],
       [
        20730,
        283418.0
@@ -124773,17 +124883,21 @@
       [
        20739,
        284516.0
+      ],
+      [
+       20740,
+       284148.0
       ]
      ],
      "f": 20719,
-     "r": 20739,
+     "r": 20740,
      "dist": "lince"
     },
     "194289393": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 214838.0,
+     "usd": 214561.0,
      "area": 112.0,
      "lat": -12.08201,
      "lng": -77.03931,
@@ -124797,10 +124911,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-lince-lima-lima/194289393",
      "flags": [],
      "p": [
-      [
-       20729,
-       213588.0
-      ],
       [
        20730,
        214010.0
@@ -124828,10 +124938,14 @@
       [
        20739,
        214838.0
+      ],
+      [
+       20740,
+       214561.0
       ]
      ],
      "f": 20719,
-     "r": 20739,
+     "r": 20740,
      "dist": "lince"
     },
     "194292060": {
@@ -125198,7 +125312,7 @@
      "lng": -71.55376,
      "mon": "USD",
      "monto": 330000.0,
-     "mant": 37.7,
+     "mant": 37.69,
      "anio": "",
      "dorm": "4",
      "zona": "Yanahuara",
@@ -125431,7 +125545,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20739,
+     "r": 20740,
      "dist": "el-agustino"
     },
     "194304007": {
@@ -125458,7 +125572,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-molina"
     },
     "194308373": {
@@ -125567,20 +125681,20 @@
       ]
      ],
      "f": 20721,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194309738": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 494.0,
+     "usd": 493.0,
      "area": 46.0,
      "lat": -12.08313,
      "lng": -77.02561,
      "mon": "PEN",
      "monto": 1700.0,
-     "mant": 52.31,
+     "mant": 52.2,
      "anio": "",
      "dorm": "Mono",
      "zona": "La Victoria",
@@ -125588,10 +125702,6 @@
      "u": "https://www.infocasas.com.pe/alquilo-mini-dpto-en-santa-catalina-/194309738",
      "flags": [],
      "p": [
-      [
-       20722,
-       501.0
-      ],
       [
        20725,
        500.0
@@ -125619,10 +125729,14 @@
       [
        20739,
        494.0
+      ],
+      [
+       20740,
+       493.0
       ]
      ],
      "f": 20721,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-victoria"
     },
     "194310529": {
@@ -126611,13 +126725,13 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 76935.0,
+     "usd": 76836.0,
      "area": 68.0,
      "lat": -12.05506,
      "lng": -76.97816,
      "mon": "PEN",
      "monto": 265000.0,
-     "mant": 43.55,
+     "mant": 43.49,
      "anio": "",
      "dorm": "3",
      "zona": "El Agustino",
@@ -126625,10 +126739,6 @@
      "u": "https://www.infocasas.com.pe/condominio-los-nogales-dpto-en-venta/194340845",
      "flags": [],
      "p": [
-      [
-       20731,
-       76639.0
-      ],
       [
        20732,
        76816.0
@@ -126656,10 +126766,14 @@
       [
        20739,
        76935.0
+      ],
+      [
+       20740,
+       76836.0
       ]
      ],
      "f": 20728,
-     "r": 20739,
+     "r": 20740,
      "dist": "el-agustino"
     },
     "194339225": {
@@ -126672,7 +126786,7 @@
      "lng": -77.0545,
      "mon": "USD",
      "monto": 92000.0,
-     "mant": 43.55,
+     "mant": 43.49,
      "anio": "",
      "dorm": "2",
      "zona": "Jesus Maria",
@@ -126686,7 +126800,7 @@
       ]
      ],
      "f": 20728,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194339251": {
@@ -126713,7 +126827,7 @@
       ]
      ],
      "f": 20728,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194344181": {
@@ -126875,7 +126989,7 @@
       ]
      ],
      "f": 20729,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194347826": {
@@ -126969,7 +127083,7 @@
      "lng": -77.05111,
      "mon": "USD",
      "monto": 170000.0,
-     "mant": 69.68,
+     "mant": 69.59,
      "anio": "",
      "dorm": "2",
      "zona": "Jesus Maria",
@@ -126983,7 +127097,7 @@
       ]
      ],
      "f": 20730,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194354655": {
@@ -127226,13 +127340,13 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 267096.0,
+     "usd": 266751.0,
      "area": 204.0,
      "lat": -12.08116,
      "lng": -77.04774,
      "mon": "PEN",
      "monto": 920000.0,
-     "mant": 145.16,
+     "mant": 144.97,
      "anio": "",
      "dorm": "4",
      "zona": "Jesus Maria",
@@ -127267,23 +127381,27 @@
       [
        20739,
        267096.0
+      ],
+      [
+       20740,
+       266751.0
       ]
      ],
      "f": 20732,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194364018": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 267096.0,
+     "usd": 266751.0,
      "area": 204.0,
      "lat": -12.08116,
      "lng": -77.04774,
      "mon": "PEN",
      "monto": 920000.0,
-     "mant": 145.16,
+     "mant": 144.97,
      "anio": "",
      "dorm": "4",
      "zona": "Jesus Maria",
@@ -127314,23 +127432,27 @@
       [
        20739,
        267096.0
+      ],
+      [
+       20740,
+       266751.0
       ]
      ],
      "f": 20732,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194363898": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 885.0,
+     "usd": 884.0,
      "area": 69.0,
      "lat": -12.07728,
      "lng": -77.038,
      "mon": "PEN",
      "monto": 3050.0,
-     "mant": 58.03,
+     "mant": 57.95,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -127353,10 +127475,14 @@
       [
        20739,
        885.0
+      ],
+      [
+       20740,
+       884.0
       ]
      ],
      "f": 20732,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194364127": {
@@ -127383,7 +127509,7 @@
       ]
      ],
      "f": 20732,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-molina"
     },
     "194362919": {
@@ -129193,12 +129319,12 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "arequipa",
-     "usd": 277000.0,
+     "usd": 309000.0,
      "area": 168.0,
      "lat": -16.40159,
      "lng": -71.53105,
      "mon": "USD",
-     "monto": 277000.0,
+     "monto": 309000.0,
      "mant": 0.0,
      "anio": "",
      "dorm": "3",
@@ -129210,6 +129336,10 @@
       [
        20735,
        277000.0
+      ],
+      [
+       20740,
+       309000.0
       ]
      ],
      "f": 20735,
@@ -130756,7 +130886,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20739,
+     "r": 20740,
      "dist": "cieneguilla"
     },
     "194379473": {
@@ -130783,7 +130913,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20739,
+     "r": 20740,
      "dist": "cieneguilla"
     },
     "194379332": {
@@ -130810,7 +130940,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194379490": {
@@ -130837,7 +130967,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194379515": {
@@ -130854,8 +130984,8 @@
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
-     "titulo": "Se vende impecable departamento de 3 dormitorios, 1 cochera, alt cd 3 Av. San Fe",
-     "u": "https://www.infocasas.com.pe/se-vende-impecable-departamento-de-3-dormitorios-1-cochera-alt-cd-3-av-san-felipe-jesus-maria/194379515",
+     "titulo": "Se vende impecable departamento de 3 dormitorios, 1 cochera, Jesús María, a un p",
+     "u": "https://www.infocasas.com.pe/se-vende-impecable-departamento-de-3-dormitorios-1-cochera-jesus-maria-a-un-paso-de-san-isidro/194379515",
      "flags": [],
      "p": [
       [
@@ -130864,7 +130994,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194379441": {
@@ -130891,7 +131021,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194379481": {
@@ -130918,7 +131048,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194379483": {
@@ -130972,7 +131102,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194379365": {
@@ -130999,7 +131129,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-molina"
     },
     "194379328": {
@@ -131026,14 +131156,14 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-molina"
     },
     "194379598": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 108220.0,
+     "usd": 108081.0,
      "area": 51.0,
      "lat": -12.08786,
      "lng": -77.01864,
@@ -131058,10 +131188,14 @@
       [
        20739,
        108220.0
+      ],
+      [
+       20740,
+       108081.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-victoria"
     },
     "194379455": {
@@ -131088,14 +131222,14 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-victoria"
     },
     "194379597": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 92308.0,
+     "usd": 92189.0,
      "area": 44.0,
      "lat": -12.08786,
      "lng": -77.01864,
@@ -131120,17 +131254,21 @@
       [
        20739,
        92308.0
+      ],
+      [
+       20740,
+       92189.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-victoria"
     },
     "194379621": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 106722.0,
+     "usd": 106584.0,
      "area": 48.0,
      "lat": -12.08806,
      "lng": -77.01408,
@@ -131155,10 +131293,14 @@
       [
        20739,
        106722.0
+      ],
+      [
+       20740,
+       106584.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-victoria"
     },
     "194379453": {
@@ -131185,7 +131327,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-victoria"
     },
     "194379443": {
@@ -131212,14 +131354,14 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-victoria"
     },
     "194379619": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 86342.0,
+     "usd": 86230.0,
      "area": 40.0,
      "lat": -12.08806,
      "lng": -77.01408,
@@ -131244,17 +131386,21 @@
       [
        20739,
        86342.0
+      ],
+      [
+       20740,
+       86230.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-victoria"
     },
     "194379623": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 105358.0,
+     "usd": 105222.0,
      "area": 49.0,
      "lat": -12.08806,
      "lng": -77.01408,
@@ -131279,17 +131425,21 @@
       [
        20739,
        105358.0
+      ],
+      [
+       20740,
+       105222.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-victoria"
     },
     "194379620": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 87590.0,
+     "usd": 87477.0,
      "area": 40.0,
      "lat": -12.08806,
      "lng": -77.01408,
@@ -131314,17 +131464,21 @@
       [
        20739,
        87590.0
+      ],
+      [
+       20740,
+       87477.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-victoria"
     },
     "194379624": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 130674.0,
+     "usd": 130505.0,
      "area": 62.0,
      "lat": -12.08806,
      "lng": -77.01408,
@@ -131349,17 +131503,21 @@
       [
        20739,
        130674.0
+      ],
+      [
+       20740,
+       130505.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-victoria"
     },
     "194379599": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 139912.0,
+     "usd": 139731.0,
      "area": 64.0,
      "lat": -12.08786,
      "lng": -77.01864,
@@ -131384,17 +131542,21 @@
       [
        20739,
        139912.0
+      ],
+      [
+       20740,
+       139731.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-victoria"
     },
     "194379622": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 105155.0,
+     "usd": 105019.0,
      "area": 49.0,
      "lat": -12.08806,
      "lng": -77.01408,
@@ -131419,10 +131581,14 @@
       [
        20739,
        105155.0
+      ],
+      [
+       20740,
+       105019.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-victoria"
     },
     "194379493": {
@@ -131449,7 +131615,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-victoria"
     },
     "194379427": {
@@ -131476,7 +131642,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "lince"
     },
     "194379423": {
@@ -131503,7 +131669,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20740,
      "dist": "lince"
     },
     "194379420": {
@@ -135804,7 +135970,7 @@
       ]
      ],
      "f": 20737,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194385216": {
@@ -135813,8 +135979,8 @@
      "ciudad": "lima",
      "usd": 243478.0,
      "area": 89.0,
-     "lat": -12.07299,
-     "lng": -77.05026,
+     "lat": -12.08451,
+     "lng": -77.04814,
      "mon": "USD",
      "monto": 243478.0,
      "mant": 0.0,
@@ -135831,7 +135997,7 @@
       ]
      ],
      "f": 20737,
-     "r": 20739,
+     "r": 20740,
      "dist": "jesus-maria"
     },
     "194385219": {
@@ -135858,7 +136024,7 @@
       ]
      ],
      "f": 20737,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-molina"
     },
     "194385220": {
@@ -135885,7 +136051,7 @@
       ]
      ],
      "f": 20737,
-     "r": 20739,
+     "r": 20740,
      "dist": "la-molina"
     },
     "194385221": {
@@ -135912,7 +136078,7 @@
       ]
      ],
      "f": 20737,
-     "r": 20739,
+     "r": 20740,
      "dist": "lince"
     },
     "194385209": {
@@ -136440,13 +136606,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 581.0,
+     "usd": 580.0,
      "area": 87.0,
      "lat": -12.16844,
      "lng": -77.0,
      "mon": "PEN",
      "monto": 2000.0,
-     "mant": 55.2,
+     "mant": 55.1,
      "anio": "",
      "dorm": "3",
      "zona": "Chorrillos",
@@ -136457,10 +136623,14 @@
       [
        20739,
        581.0
+      ],
+      [
+       20740,
+       580.0
       ]
      ],
      "f": 20739,
-     "r": 20739,
+     "r": 20740,
      "dist": "chorrillos"
     },
     "194390528": {
@@ -136487,7 +136657,7 @@
       ]
      ],
      "f": 20739,
-     "r": 20739,
+     "r": 20740,
      "dist": "lince"
     },
     "194393422": {
@@ -136514,7 +136684,7 @@
       ]
      ],
      "f": 20739,
-     "r": 20739,
+     "r": 20740,
      "dist": "lince"
     },
     "194393418": {
@@ -136948,10 +137118,37 @@
      "f": 20740,
      "r": 20740,
      "dist": "cercado-de-lima"
+    },
+    "194394972": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 284148.0,
+     "area": 130.0,
+     "lat": -12.08948,
+     "lng": -77.02468,
+     "mon": "PEN",
+     "monto": 980000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Lince",
+     "titulo": "VENTA DE DEPARTAMENTO EN LINCE - ENTREGA INMEDIATA",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-en-lince-entrega-inmediata/194394972",
+     "flags": [],
+     "p": [
+      [
+       20740,
+       284148.0
+      ]
+     ],
+     "f": 20740,
+     "r": 20740,
+     "dist": "lince"
     }
    },
    "tc": 3.4482758620689653,
-   "turno": 29,
+   "turno": 69,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -136978,50 +137175,50 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 53,
+     "validos": 57,
      "fuera_ciudad": 0,
-     "momento": 1791961915
+     "momento": 1791983319
     },
     "arequipa": {
      "paginas": 4,
      "validos": 16,
      "fuera_ciudad": 0,
-     "momento": 1791961915
+     "momento": 1791983319
     },
     "cusco": {
      "paginas": 4,
      "validos": 3,
      "fuera_ciudad": 0,
-     "momento": 1791961915
+     "momento": 1791983319
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 4,
-     "momento": 1791961915
+     "momento": 1791983319
     },
     "trujillo": {
      "paginas": 4,
      "validos": 2,
      "fuera_ciudad": 0,
-     "momento": 1791961915
+     "momento": 1791983319
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1791961915
+     "momento": 1791983319
     }
    }
   },
   "cobertura_ciudades": {
    "lima": {
     "ciudad": "Lima",
-    "ventas": 763,
+    "ventas": 764,
     "alquileres": 187,
     "estado": "con datos; comparables por microzona pendientes de cada aviso",
-    "proyectos": 759,
-    "momento": 1791961915
+    "proyectos": 762,
+    "momento": 1791983319
    },
    "arequipa": {
     "ciudad": "Arequipa",
@@ -137029,7 +137226,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 8,
-    "momento": 1791961915
+    "momento": 1791983319
    },
    "cusco": {
     "ciudad": "Cusco",
@@ -137037,7 +137234,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 1,
-    "momento": 1791961915
+    "momento": 1791983319
    },
    "cajamarca": {
     "ciudad": "Cajamarca",
@@ -137045,7 +137242,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1791961915
+    "momento": 1791983319
    },
    "trujillo": {
     "ciudad": "Trujillo",
@@ -137053,7 +137250,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1791961915
+    "momento": 1791983319
    },
    "huaraz": {
     "ciudad": "Huaraz",
@@ -137061,7 +137258,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1791961915
+    "momento": 1791983319
    }
   }
  }
