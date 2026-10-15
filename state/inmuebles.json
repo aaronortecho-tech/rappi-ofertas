@@ -31,14 +31,12 @@
   "dab6be76e0d72bc4": 1790923590,
   "ee9b507969f96bf9": 1791072036
  },
- "failures": {
-  "Infocasas/avisos recientes": 1
- },
+ "failures": {},
  "last_failure_notice": null,
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1792004794,
+ "saved_at": 1792026345,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -114592,7 +114590,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20739,
+     "r": 20741,
      "dist": "punta-hermosa"
     },
     "194216392": {
@@ -114671,13 +114669,13 @@
      "ciudad": "lima",
      "usd": 340000.0,
      "area": 410.0,
-     "lat": -12.31312,
-     "lng": -76.83656,
+     "lat": -12.31239,
+     "lng": -76.83905,
      "mon": "USD",
      "monto": 340000.0,
      "mant": 0.0,
      "anio": "",
-     "dorm": "3",
+     "dorm": "5",
      "zona": "Punta Hermosa",
      "titulo": "Venta de casa 410m2 construidos con potencial de inversión vista al mar Playa El",
      "u": "https://www.infocasas.com.pe/venta-de-casa-410m2-construidos-con-potencial-de-inversion-vista-al-mar-playa-el-silencio/194256165",
@@ -114689,7 +114687,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20739,
+     "r": 20741,
      "dist": "punta-hermosa"
     },
     "194190453": {
@@ -114743,7 +114741,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20739,
+     "r": 20741,
      "dist": "punta-negra"
     },
     "194277391": {
@@ -114774,7 +114772,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20739,
+     "r": 20741,
      "dist": "punta-negra"
     },
     "194268509": {
@@ -114801,7 +114799,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20739,
+     "r": 20741,
      "dist": "rimac"
     },
     "194135834": {
@@ -116664,7 +116662,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 324087.0,
+     "usd": 323667.0,
      "area": 120.0,
      "lat": -12.10626,
      "lng": -76.98972,
@@ -116678,10 +116676,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-san-borja-dpto-201-al-501-609106767/194263103",
      "flags": [],
      "p": [
-      [
-       20729,
-       322200.0
-      ],
       [
        20730,
        322836.0
@@ -116709,10 +116703,14 @@
       [
        20739,
        324087.0
+      ],
+      [
+       20741,
+       323667.0
       ]
      ],
      "f": 20715,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194256155": {
@@ -116739,7 +116737,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194182203": {
@@ -117040,7 +117038,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194245570": {
@@ -117558,7 +117556,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194245569": {
@@ -124220,7 +124218,7 @@
      "lng": -77.03697,
      "mon": "USD",
      "monto": 1300.0,
-     "mant": 130.64,
+     "mant": 130.5,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -124238,7 +124236,7 @@
       ]
      ],
      "f": 20715,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194282869": {
@@ -124510,7 +124508,7 @@
       ]
      ],
      "f": 20717,
-     "r": 20740,
+     "r": 20741,
      "dist": "arequipa"
     },
     "194267338": {
@@ -124537,7 +124535,7 @@
       ]
      ],
      "f": 20717,
-     "r": 20740,
+     "r": 20741,
      "dist": "arequipa"
     },
     "194267564": {
@@ -124564,7 +124562,7 @@
       ]
      ],
      "f": 20717,
-     "r": 20740,
+     "r": 20741,
      "dist": "arequipa"
     },
     "194267610": {
@@ -124591,7 +124589,7 @@
       ]
      ],
      "f": 20717,
-     "r": 20740,
+     "r": 20741,
      "dist": "arequipa"
     },
     "194212252": {
@@ -125139,7 +125137,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20740,
+     "r": 20741,
      "dist": "arequipa"
     },
     "194296408": {
@@ -125166,7 +125164,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20740,
+     "r": 20741,
      "dist": "arequipa"
     },
     "194296460": {
@@ -125193,7 +125191,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20740,
+     "r": 20741,
      "dist": "arequipa"
     },
     "194296277": {
@@ -125220,7 +125218,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20740,
+     "r": 20741,
      "dist": "arequipa"
     },
     "194296198": {
@@ -125247,7 +125245,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20740,
+     "r": 20741,
      "dist": "arequipa"
     },
     "194296249": {
@@ -125274,7 +125272,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20740,
+     "r": 20741,
      "dist": "arequipa"
     },
     "194296345": {
@@ -125301,7 +125299,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20740,
+     "r": 20741,
      "dist": "arequipa"
     },
     "194296079": {
@@ -125314,7 +125312,7 @@
      "lng": -71.55376,
      "mon": "USD",
      "monto": 330000.0,
-     "mant": 37.69,
+     "mant": 37.66,
      "anio": "",
      "dorm": "4",
      "zona": "Yanahuara",
@@ -125328,7 +125326,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20740,
+     "r": 20741,
      "dist": "arequipa"
     },
     "194296364": {
@@ -125355,20 +125353,20 @@
       ]
      ],
      "f": 20719,
-     "r": 20740,
+     "r": 20741,
      "dist": "arequipa"
     },
     "194294512": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 1103.0,
+     "usd": 1102.0,
      "area": 60.0,
      "lat": -12.09301,
      "lng": -77.02629,
      "mon": "PEN",
      "monto": 3800.0,
-     "mant": 101.61,
+     "mant": 101.5,
      "anio": "",
      "dorm": "2",
      "zona": "San Isidro",
@@ -125376,10 +125374,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-de-departamento-amoblado-de-2-dormitorios-–-san-isidro/194294512",
      "flags": [],
      "p": [
-      [
-       20727,
-       1103.0
-      ],
       [
        20728,
        1100.0
@@ -125407,23 +125401,27 @@
       [
        20739,
        1103.0
+      ],
+      [
+       20741,
+       1102.0
       ]
      ],
      "f": 20719,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194294735": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 832.0,
+     "usd": 831.0,
      "area": 118.0,
      "lat": -12.10046,
      "lng": -77.02988,
      "mon": "PEN",
      "monto": 2865.0,
-     "mant": 53.71,
+     "mant": 53.65,
      "anio": "",
      "dorm": "2",
      "zona": "San Isidro",
@@ -125431,10 +125429,6 @@
      "u": "https://www.infocasas.com.pe/alquilo-departamento-en-san-isidro/194294735",
      "flags": [],
      "p": [
-      [
-       20728,
-       830.0
-      ],
       [
        20729,
        827.0
@@ -125462,10 +125456,14 @@
       [
        20739,
        832.0
+      ],
+      [
+       20741,
+       831.0
       ]
      ],
      "f": 20719,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194292936": {
@@ -125903,7 +125901,7 @@
       ]
      ],
      "f": 20721,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194309721": {
@@ -125916,7 +125914,7 @@
      "lng": -77.0956,
      "mon": "USD",
      "monto": 89000.0,
-     "mant": 26.13,
+     "mant": 26.1,
      "anio": "",
      "dorm": "3",
      "zona": "San Martin De Porres",
@@ -125930,7 +125928,7 @@
       ]
      ],
      "f": 20721,
-     "r": 20740,
+     "r": 20741,
      "dist": "san-martin-de-porres"
     },
     "194317366": {
@@ -125984,20 +125982,20 @@
       ]
      ],
      "f": 20722,
-     "r": 20739,
+     "r": 20741,
      "dist": "rimac"
     },
     "194319363": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 929.0,
+     "usd": 928.0,
      "area": 70.0,
      "lat": -12.09486,
      "lng": -77.02236,
      "mon": "PEN",
      "monto": 3200.0,
-     "mant": 116.12,
+     "mant": 116.0,
      "anio": "",
      "dorm": "2",
      "zona": "San Isidro",
@@ -126005,10 +126003,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-departamento-amoblado-de-2-dormitorios-–-san-isidro/194319363",
      "flags": [],
      "p": [
-      [
-       20727,
-       929.0
-      ],
       [
        20728,
        927.0
@@ -126036,10 +126030,14 @@
       [
        20739,
        929.0
+      ],
+      [
+       20741,
+       928.0
       ]
      ],
      "f": 20722,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194322563": {
@@ -126312,7 +126310,7 @@
       ]
      ],
      "f": 20726,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194330595": {
@@ -126339,7 +126337,7 @@
       ]
      ],
      "f": 20726,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194333993": {
@@ -126488,7 +126486,7 @@
      "lng": -77.00208,
      "mon": "USD",
      "monto": 359000.0,
-     "mant": 145.16,
+     "mant": 144.97,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -126502,7 +126500,7 @@
       ]
      ],
      "f": 20727,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194338931": {
@@ -126529,7 +126527,7 @@
       ]
      ],
      "f": 20727,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194339196": {
@@ -127004,7 +127002,7 @@
      "lng": -77.06117,
      "mon": "USD",
      "monto": 226000.0,
-     "mant": 101.61,
+     "mant": 101.48,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -127018,7 +127016,7 @@
       ]
      ],
      "f": 20729,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194348125": {
@@ -127031,7 +127029,7 @@
      "lng": -77.1449,
      "mon": "USD",
      "monto": 245000.0,
-     "mant": 101.61,
+     "mant": 101.48,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -127045,7 +127043,7 @@
       ]
      ],
      "f": 20729,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194347016": {
@@ -127072,7 +127070,7 @@
       ]
      ],
      "f": 20729,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194351611": {
@@ -127163,7 +127161,7 @@
      "lng": -77.00322,
      "mon": "USD",
      "monto": 359000.0,
-     "mant": 145.16,
+     "mant": 144.97,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -127177,7 +127175,7 @@
       ]
      ],
      "f": 20730,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194357136": {
@@ -127244,7 +127242,7 @@
      "lng": -77.00208,
      "mon": "USD",
      "monto": 245000.0,
-     "mant": 101.61,
+     "mant": 101.48,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -127258,7 +127256,7 @@
       ]
      ],
      "f": 20732,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194360082": {
@@ -127271,7 +127269,7 @@
      "lng": -77.0558,
      "mon": "USD",
      "monto": 226000.0,
-     "mant": 101.61,
+     "mant": 101.48,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -127285,7 +127283,7 @@
       ]
      ],
      "f": 20732,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194360200": {
@@ -127650,7 +127648,7 @@
       ]
      ],
      "f": 20732,
-     "r": 20740,
+     "r": 20741,
      "dist": "la-libertad/trujillo"
     },
     "194364144": {
@@ -127845,7 +127843,7 @@
      "lng": -77.00208,
      "mon": "USD",
      "monto": 226000.0,
-     "mant": 101.61,
+     "mant": 101.48,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -127859,7 +127857,7 @@
       ]
      ],
      "f": 20734,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194370958": {
@@ -127886,7 +127884,7 @@
       ]
      ],
      "f": 20734,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194367907": {
@@ -127967,7 +127965,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20740,
+     "r": 20741,
      "dist": "san-luis"
     },
     "194379713": {
@@ -127994,14 +127992,14 @@
       ]
      ],
      "f": 20735,
-     "r": 20740,
+     "r": 20741,
      "dist": "san-martin-de-porres"
     },
     "194379712": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 74032.0,
+     "usd": 73936.0,
      "area": 66.0,
      "lat": -12.03286,
      "lng": -77.04984,
@@ -128030,10 +128028,14 @@
       [
        20740,
        74032.0
+      ],
+      [
+       20741,
+       73936.0
       ]
      ],
      "f": 20735,
-     "r": 20740,
+     "r": 20741,
      "dist": "san-martin-de-porres"
     },
     "194379323": {
@@ -129318,7 +129320,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20740,
+     "r": 20741,
      "dist": "arequipa"
     },
     "194379550": {
@@ -129349,7 +129351,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20740,
+     "r": 20741,
      "dist": "arequipa"
     },
     "194379461": {
@@ -129376,7 +129378,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20740,
+     "r": 20741,
      "dist": "arequipa"
     },
     "194379531": {
@@ -129403,7 +129405,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20740,
+     "r": 20741,
      "dist": "cuzco"
     },
     "194379528": {
@@ -129430,7 +129432,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20740,
+     "r": 20741,
      "dist": "cuzco"
     },
     "194379529": {
@@ -129457,7 +129459,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20740,
+     "r": 20741,
      "dist": "cuzco"
     },
     "194379456": {
@@ -129511,8 +129513,8 @@
       ]
      ],
      "f": 20735,
-     "r": 20740,
-     "dist": "ate"
+     "r": 20741,
+     "dist": "san-bartolo"
     },
     "194379418": {
      "op": "venta",
@@ -134611,7 +134613,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "punta-hermosa"
     },
     "194379484": {
@@ -134638,7 +134640,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "punta-hermosa"
     },
     "194379400": {
@@ -134665,7 +134667,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-bartolo"
     },
     "194379452": {
@@ -134692,7 +134694,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-bartolo"
     },
     "194379325": {
@@ -134719,7 +134721,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-bartolo"
     },
     "194383231": {
@@ -134732,7 +134734,7 @@
      "lng": -77.0449,
      "mon": "USD",
      "monto": 245000.0,
-     "mant": 101.61,
+     "mant": 101.48,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -134746,14 +134748,14 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379575": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 566099.0,
+     "usd": 565367.0,
      "area": 196.0,
      "lat": -12.10626,
      "lng": -76.98972,
@@ -134778,10 +134780,14 @@
       [
        20739,
        566099.0
+      ],
+      [
+       20741,
+       565367.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379366": {
@@ -134808,7 +134814,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379525": {
@@ -134835,7 +134841,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194385212": {
@@ -134862,14 +134868,14 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379570": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 301064.0,
+     "usd": 300675.0,
      "area": 123.0,
      "lat": -12.10626,
      "lng": -76.98972,
@@ -134894,17 +134900,21 @@
       [
        20739,
        301064.0
+      ],
+      [
+       20741,
+       300675.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379573": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 414348.0,
+     "usd": 413812.0,
      "area": 142.0,
      "lat": -12.10626,
      "lng": -76.98972,
@@ -134929,10 +134939,14 @@
       [
        20739,
        414348.0
+      ],
+      [
+       20741,
+       413812.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379530": {
@@ -134959,7 +134973,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379532": {
@@ -134986,7 +135000,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379508": {
@@ -135013,7 +135027,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379454": {
@@ -135040,7 +135054,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379479": {
@@ -135067,7 +135081,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379507": {
@@ -135094,7 +135108,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379411": {
@@ -135121,14 +135135,14 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379569": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 320341.0,
+     "usd": 319927.0,
      "area": 121.0,
      "lat": -12.10626,
      "lng": -76.98972,
@@ -135153,17 +135167,21 @@
       [
        20739,
        320341.0
+      ],
+      [
+       20741,
+       319927.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379568": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 320196.0,
+     "usd": 319782.0,
      "area": 121.0,
      "lat": -12.10626,
      "lng": -76.98972,
@@ -135188,17 +135206,21 @@
       [
        20739,
        320196.0
+      ],
+      [
+       20741,
+       319782.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379571": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 362874.0,
+     "usd": 362404.0,
      "area": 124.0,
      "lat": -12.10626,
      "lng": -76.98972,
@@ -135223,17 +135245,21 @@
       [
        20739,
        362874.0
+      ],
+      [
+       20741,
+       362404.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379572": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 348909.0,
+     "usd": 348458.0,
      "area": 117.0,
      "lat": -12.10626,
      "lng": -76.98972,
@@ -135258,10 +135284,14 @@
       [
        20739,
        348909.0
+      ],
+      [
+       20741,
+       348458.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194382381": {
@@ -135274,7 +135304,7 @@
      "lng": -77.04975,
      "mon": "USD",
      "monto": 226000.0,
-     "mant": 101.61,
+     "mant": 101.48,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -135288,7 +135318,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194385213": {
@@ -135315,7 +135345,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379526": {
@@ -135342,14 +135372,14 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379574": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 529954.0,
+     "usd": 529269.0,
      "area": 169.0,
      "lat": -12.10626,
      "lng": -76.98972,
@@ -135374,17 +135404,21 @@
       [
        20739,
        529954.0
+      ],
+      [
+       20741,
+       529269.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379576": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 692418.0,
+     "usd": 691523.0,
      "area": 212.0,
      "lat": -12.10626,
      "lng": -76.98972,
@@ -135409,10 +135443,14 @@
       [
        20739,
        692418.0
+      ],
+      [
+       20741,
+       691523.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379459": {
@@ -135439,14 +135477,14 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194382459": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 1016.0,
+     "usd": 1015.0,
      "area": 100.0,
      "lat": -12.09288,
      "lng": -76.99047,
@@ -135467,17 +135505,21 @@
       [
        20739,
        1016.0
+      ],
+      [
+       20741,
+       1015.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194379647": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 263614.0,
+     "usd": 263273.0,
      "area": 104.0,
      "lat": -12.09061,
      "lng": -77.02095,
@@ -135502,10 +135544,14 @@
       [
        20739,
        263614.0
+      ],
+      [
+       20741,
+       263273.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194379544": {
@@ -135532,14 +135578,14 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194379615": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 450725.0,
+     "usd": 450142.0,
      "area": 180.0,
      "lat": -12.09602,
      "lng": -77.04722,
@@ -135564,17 +135610,21 @@
       [
        20739,
        450725.0
+      ],
+      [
+       20741,
+       450142.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194379650": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 307048.0,
+     "usd": 306651.0,
      "area": 110.0,
      "lat": -12.09061,
      "lng": -77.02095,
@@ -135599,10 +135649,14 @@
       [
        20739,
        307048.0
+      ],
+      [
+       20741,
+       306651.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194379390": {
@@ -135629,7 +135683,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194379616": {
@@ -135656,7 +135710,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194379562": {
@@ -135673,8 +135727,8 @@
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
-     "titulo": "Departamento venta 3 dorms. San Isidro zona Golf",
-     "u": "https://www.infocasas.com.pe/departamento-venta-3-dorms-san-isidro-zona-golf/194379562",
+     "titulo": "Departamento venta 3 dorms. San Isidro zona Golf listo para habitar",
+     "u": "https://www.infocasas.com.pe/departamento-venta-3-dorms-san-isidro-zona-golf-listo-para-habitar/194379562",
      "flags": [],
      "p": [
       [
@@ -135683,14 +135737,14 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194379651": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 657770.0,
+     "usd": 656919.0,
      "area": 174.0,
      "lat": -12.09061,
      "lng": -77.02095,
@@ -135715,17 +135769,21 @@
       [
        20739,
        657770.0
+      ],
+      [
+       20741,
+       656919.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194379648": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 370634.0,
+     "usd": 370154.0,
      "area": 133.0,
      "lat": -12.09061,
      "lng": -77.02095,
@@ -135750,17 +135808,21 @@
       [
        20739,
        370634.0
+      ],
+      [
+       20741,
+       370154.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194379649": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 369545.0,
+     "usd": 369067.0,
      "area": 133.0,
      "lat": -12.09061,
      "lng": -77.02095,
@@ -135785,10 +135847,14 @@
       [
        20739,
        369545.0
+      ],
+      [
+       20741,
+       369067.0
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194379444": {
@@ -135815,7 +135881,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194379449": {
@@ -135842,7 +135908,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194385223": {
@@ -135869,7 +135935,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20740,
+     "r": 20741,
      "dist": "san-juan-de-miraflores"
     },
     "194383775": {
@@ -136622,7 +136688,7 @@
       ]
      ],
      "f": 20738,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-borja"
     },
     "194391086": {
@@ -136757,7 +136823,7 @@
       ]
      ],
      "f": 20739,
-     "r": 20740,
+     "r": 20741,
      "dist": "la-libertad/trujillo"
     },
     "194391493": {
@@ -137058,7 +137124,7 @@
       ]
      ],
      "f": 20739,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194395107": {
@@ -137085,7 +137151,7 @@
       ]
      ],
      "f": 20739,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194393419": {
@@ -137112,7 +137178,7 @@
       ]
      ],
      "f": 20739,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194393420": {
@@ -137139,7 +137205,7 @@
       ]
      ],
      "f": 20739,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194392916": {
@@ -137152,7 +137218,7 @@
      "lng": -77.03993,
      "mon": "USD",
      "monto": 1100.0,
-     "mant": 72.58,
+     "mant": 72.5,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -137166,7 +137232,7 @@
       ]
      ],
      "f": 20739,
-     "r": 20739,
+     "r": 20741,
      "dist": "san-isidro"
     },
     "194393410": {
@@ -137465,10 +137531,658 @@
      "f": 20740,
      "r": 20740,
      "dist": "pueblo-libre"
+    },
+    "194398849": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 242477.0,
+     "area": 116.0,
+     "lat": -12.39036,
+     "lng": -76.77932,
+     "mon": "PEN",
+     "monto": 836280.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 603 (609-1169-9)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-603-60911699/194398849",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       242477.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194398834": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 178056.0,
+     "area": 84.0,
+     "lat": -12.39036,
+     "lng": -76.77932,
+     "mon": "PEN",
+     "monto": 614100.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 203 (609-1169-4)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-203-60911694/194398834",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       178056.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194398853": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 281689.0,
+     "area": 125.0,
+     "lat": -12.39036,
+     "lng": -76.77932,
+     "mon": "PEN",
+     "monto": 971520.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 601 (609-1169-7)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-601-60911697/194398853",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       281689.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194398839": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 166800.0,
+     "area": 88.0,
+     "lat": -12.39036,
+     "lng": -76.77932,
+     "mon": "USD",
+     "monto": 166800.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 301 AL 501 (609-1169-1)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-301-al-501-60911691/194398839",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       166800.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194398832": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 159450.0,
+     "area": 84.0,
+     "lat": -12.39036,
+     "lng": -76.77932,
+     "mon": "PEN",
+     "monto": 549930.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO  303 AL 503 (609-1169-3)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-303-al-503-60911693/194398832",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       159450.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194398833": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 178000.0,
+     "area": 84.0,
+     "lat": -12.39036,
+     "lng": -76.77932,
+     "mon": "USD",
+     "monto": 178000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 203 (609-1169-4)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-203-60911694/194398833",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       178000.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194398851": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 259682.0,
+     "area": 125.0,
+     "lat": -12.39036,
+     "lng": -76.77932,
+     "mon": "PEN",
+     "monto": 895620.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 602 (609-1169-8)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-602-60911698/194398851",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       259682.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194398850": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 259600.0,
+     "area": 125.0,
+     "lat": -12.39036,
+     "lng": -76.77932,
+     "mon": "USD",
+     "monto": 259600.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 602 (609-1169-8)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-602-60911698/194398850",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       259600.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194398846": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 189400.0,
+     "area": 88.0,
+     "lat": -12.39036,
+     "lng": -76.77932,
+     "mon": "USD",
+     "monto": 189400.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 201 (609-1169-6)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-201-60911696/194398846",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       189400.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194398841": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 166853.0,
+     "area": 88.0,
+     "lat": -12.39036,
+     "lng": -76.77932,
+     "mon": "PEN",
+     "monto": 575460.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 301 AL 501 (609-1169-1)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-301-al-501-60911691/194398841",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       166853.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194398837": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 166000.0,
+     "area": 87.0,
+     "lat": -12.39036,
+     "lng": -76.77932,
+     "mon": "USD",
+     "monto": 166000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 302 AL 502 (609-1169-2)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-302-al-502-60911692/194398837",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       166000.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194398838": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 166052.0,
+     "area": 87.0,
+     "lat": -12.39036,
+     "lng": -76.77932,
+     "mon": "PEN",
+     "monto": 572700.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 302 AL 502 (609-1169-2)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-302-al-502-60911692/194398838",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       166052.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194398836": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 179557.0,
+     "area": 87.0,
+     "lat": -12.39036,
+     "lng": -76.77932,
+     "mon": "PEN",
+     "monto": 619275.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 202 (609-1169-5)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-202-60911695/194398836",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       179557.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194398847": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 189460.0,
+     "area": 88.0,
+     "lat": -12.39036,
+     "lng": -76.77932,
+     "mon": "PEN",
+     "monto": 653430.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 201 (609-1169-6)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-201-60911696/194398847",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       189460.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194398848": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 242400.0,
+     "area": 116.0,
+     "lat": -12.39036,
+     "lng": -76.77932,
+     "mon": "USD",
+     "monto": 242400.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 603 (609-1169-9)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-603-60911699/194398848",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       242400.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194398852": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 281600.0,
+     "area": 125.0,
+     "lat": -12.39036,
+     "lng": -76.77932,
+     "mon": "USD",
+     "monto": 281600.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 601 (609-1169-7)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-601-60911697/194398852",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       281600.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194398831": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 159400.0,
+     "area": 84.0,
+     "lat": -12.39036,
+     "lng": -76.77932,
+     "mon": "USD",
+     "monto": 159400.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO  303 AL 503 (609-1169-3)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-303-al-503-60911693/194398831",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       159400.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194398835": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 179500.0,
+     "area": 87.0,
+     "lat": -12.39036,
+     "lng": -76.77932,
+     "mon": "USD",
+     "monto": 179500.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "VENTA DEPARTAMENTO EN SAN BARTOLO - DPTO 202 (609-1169-5)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-bartolo-dpto-202-60911695/194398835",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       179500.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194399761": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 1000.0,
+     "area": 89.0,
+     "lat": -12.38578,
+     "lng": -76.78628,
+     "mon": "USD",
+     "monto": 1000.0,
+     "mant": 139.17,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Bartolo",
+     "titulo": "Departamento En Alquiler En San Bartolo",
+     "u": "https://www.infocasas.com.pe/departamento-en-alquiler-en-san-bartolo/194399761",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       1000.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-bartolo"
+    },
+    "194403217": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 226000.0,
+     "area": 93.0,
+     "lat": -12.1727,
+     "lng": -77.08282,
+     "mon": "USD",
+     "monto": 226000.0,
+     "mant": 101.48,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "DEPARTAMENTO DE ESTRENO DE 93 M² CON COCHERA EN SAN BORJA ref 876",
+     "u": "https://www.infocasas.com.pe/departamento-de-estreno-de-93-m²-con-cochera-en-san-borja-ref-876-/194403217",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       226000.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-borja"
+    },
+    "194403259": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 245000.0,
+     "area": 94.0,
+     "lat": -12.15264,
+     "lng": -77.11397,
+     "mon": "USD",
+     "monto": 245000.0,
+     "mant": 101.48,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "DEPARTAMENTO DE 94 M² CON BALCÓN Y COCHERA – SAN BORJA Ref 877",
+     "u": "https://www.infocasas.com.pe/departamento-de-94-m²-con-balcon-y-cochera-–-san-borja-ref-877/194403259",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       245000.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-borja"
+    },
+    "194398960": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 1250.0,
+     "area": 114.0,
+     "lat": -12.09704,
+     "lng": -77.03394,
+     "mon": "USD",
+     "monto": 1250.0,
+     "mant": 145.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "ALQUILO DEPARTAMENTO DE ESTRENO SAN ISIDRO - CORPAC",
+     "u": "https://www.infocasas.com.pe/alquilo-departamento-de-estreno-san-isidro-corpac/194398960",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       1250.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-isidro"
+    },
+    "194398959": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 1250.0,
+     "area": 114.0,
+     "lat": -12.09704,
+     "lng": -77.03394,
+     "mon": "USD",
+     "monto": 1250.0,
+     "mant": 145.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "ALQUILO DEPARTAMENTO DE ESTRENO SAN ISIDRO - CORPAC",
+     "u": "https://www.infocasas.com.pe/alquilo-departamento-de-estreno-san-isidro-corpac/194398959",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       1250.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-isidro"
+    },
+    "194398814": {
+     "op": "venta",
+     "tipo": "casas",
+     "ciudad": "lima",
+     "usd": 1210000.0,
+     "area": 230.0,
+     "lat": -12.10451,
+     "lng": -77.05598,
+     "mon": "USD",
+     "monto": 1210000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "San Isidro",
+     "titulo": "Casa en San Isidro",
+     "u": "https://www.infocasas.com.pe/casa-en-san-isidro/194398814",
+     "flags": [],
+     "p": [
+      [
+       20741,
+       1210000.0
+      ]
+     ],
+     "f": 20741,
+     "r": 20741,
+     "dist": "san-isidro"
     }
    },
    "tc": 3.4482758620689653,
-   "turno": 99,
+   "turno": 138,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -137494,21 +138208,51 @@
    },
    "ultima_cobertura": {
     "lima": {
-     "paginas": 36,
-     "validos": 179,
+     "paginas": 40,
+     "validos": 105,
      "fuera_ciudad": 0,
-     "momento": 1792004794
+     "momento": 1792026345
+    },
+    "arequipa": {
+     "paginas": 4,
+     "validos": 16,
+     "fuera_ciudad": 0,
+     "momento": 1792026345
+    },
+    "cusco": {
+     "paginas": 4,
+     "validos": 3,
+     "fuera_ciudad": 0,
+     "momento": 1792026345
+    },
+    "cajamarca": {
+     "paginas": 4,
+     "validos": 0,
+     "fuera_ciudad": 4,
+     "momento": 1792026345
+    },
+    "trujillo": {
+     "paginas": 4,
+     "validos": 2,
+     "fuera_ciudad": 0,
+     "momento": 1792026345
+    },
+    "huaraz": {
+     "paginas": 4,
+     "validos": 0,
+     "fuera_ciudad": 0,
+     "momento": 1792026345
     }
    }
   },
   "cobertura_ciudades": {
    "lima": {
     "ciudad": "Lima",
-    "ventas": 768,
-    "alquileres": 189,
+    "ventas": 789,
+    "alquileres": 192,
     "estado": "con datos; comparables por microzona pendientes de cada aviso",
     "proyectos": 762,
-    "momento": 1792004794
+    "momento": 1792026345
    },
    "arequipa": {
     "ciudad": "Arequipa",
@@ -137516,7 +138260,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 8,
-    "momento": 1792004794
+    "momento": 1792026345
    },
    "cusco": {
     "ciudad": "Cusco",
@@ -137524,7 +138268,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 1,
-    "momento": 1792004794
+    "momento": 1792026345
    },
    "cajamarca": {
     "ciudad": "Cajamarca",
@@ -137532,7 +138276,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1792004794
+    "momento": 1792026345
    },
    "trujillo": {
     "ciudad": "Trujillo",
@@ -137540,7 +138284,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1792004794
+    "momento": 1792026345
    },
    "huaraz": {
     "ciudad": "Huaraz",
@@ -137548,7 +138292,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1792004794
+    "momento": 1792026345
    }
   }
  }
