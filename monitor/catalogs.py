@@ -707,10 +707,20 @@ def run_group(group, *, dry_run=False, test=False, now=None, scanner=None, notif
         log.info('%s: %d revisados · %s', name, count, error or 'OK')
     log.info("%s: %d observaciones/candidatas; %d enviadas", group, found, sent)
     problems = [name for name, count, error in reports if state.record_result(name, not error) >= 3]
+    if group == 'viajes':
+        # An intermittent good response must not re-arm the same incident.
+        incidents = state.datos.setdefault('incidentes_viajes', {})
+        for name, count, error in reports:
+            incident = incidents.setdefault(name, {'avisado': False, 'buenas': 0})
+            incident['buenas'] = 0 if error or count == 0 else incident.get('buenas', 0) + 1
+            if incident['buenas'] >= 6: incident['avisado'] = False
+        problems = [name for name in problems if not incidents[name].get('avisado')]
     if problems and state.can_notify_failure(now) and not dry_run and not collect_only:
         if notifier.send('⚠️ Monitor de ' + group + ': revisión incompleta',
                          'No se pudo revisar: ' + ', '.join(problems) + '. Consulta GitHub Actions.', priority=3):
             state.last_failure_notice = int(now)
+            if group == 'viajes':
+                for name in problems: incidents[name]['avisado'] = True
         else: failed = True
     if test:
         lines = ([f"{len(deals)} oportunidades · {sent} enviadas. Las primeras semanas solo junta comparables."]

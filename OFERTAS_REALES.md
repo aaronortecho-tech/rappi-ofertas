@@ -39,6 +39,24 @@ viajes cambia su referencia y autos/inmuebles mejoran seguimiento y cobertura.
 
 ## Reglas de ahorro comprobado
 
+### Ampliación de vuelos del 14/10/2026
+
+- Se añade `aviasales/v3/prices_for_dates`, documentado oficialmente en
+  https://support.travelpayouts.com/hc/en-us/articles/203956163-Aviasales-Data-API.
+  Consulta desde Lima todos los destinos, hasta 1.000 resultados por mes, para
+  el mes actual y los dos siguientes. Alterna ida e ida/vuelta cada seis horas:
+  tres consultas adicionales por ronda elegible, máximo cinco solicitudes con
+  reintentos. No garantiza exhaustividad ni tarifas en vivo. Mercado US y USD.
+- Conserva aerolínea, aeropuertos y escalas de regreso en los comparables; no
+  reutiliza el historial de city-directions como si fuera la misma muestra.
+  Mantiene tres días previos y los umbrales de ahorro existentes. La nueva muestra
+  necesita acumular historial. No se consulta el nuevo lector tras un bloqueo
+  informado por el lector antiguo en esa ronda.
+- Los fallos de viajes notifican una vez por incidente después de tres fallos.
+  Se requieren seis lecturas consecutivas con datos para permitir un nuevo aviso
+  de esa fuente; una respuesta buena aislada no rearma la alarma. Los errores
+  siguen visibles en los registros y los fallos de entrega se reintentan.
+
 - **Hogar:** ahorro de al menos 15% y S/ 50 contra la mediana de precios observados
   en siete días distintos dentro de los últimos 30; debe haber una observación
   en los siete días anteriores. Se guarda el mínimo de cada día, nunca el tachado.

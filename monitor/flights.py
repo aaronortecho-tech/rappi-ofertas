@@ -368,4 +368,77 @@ def scan_trips(state, now):
     benefits, reports = scan_travel(state, now)
     flights, extra = scan_flights(state, now)
     discovered, more = scan_travelpayouts(state, now)
-    return benefits + flights + discovered, reports + extra + more
+    expanded, coverage = ([], []) if any(error and 'bloqueado' in error for _, _, error in more) else scan_flight_dates(state, now)
+    return benefits + flights + discovered + expanded, reports + extra + more + coverage
+
+
+def dated_fares(payload, today, one_way):
+    """V3 cache: keep airports, flight time and return stops separate."""
+    if (not isinstance(payload, dict) or payload.get('success') is not True
+            or not isinstance(payload.get('data'), list)
+            or payload.get('currency', '').lower() != 'usd'):
+        raise ValueError('Respuesta de fechas o moneda no reconocida')
+    found = {}
+    for row in payload['data']:
+        if not isinstance(row, dict) or row.get('origin') != 'LIM': continue
+        dest = row.get('destination', '')
+        depart, back = row.get('departure_at', ''), row.get('return_at') or ''
+        stops, back_stops = row.get('transfers'), row.get('return_transfers')
+        if not isinstance(depart, str) or not isinstance(back, str): continue
+        if not future_day(depart, today) or bool(back) == one_way: continue
+        if back and (not future_day(back, today) or back[:10] <= depart[:10]): continue
+        if not re.fullmatch('[A-Z]{3}', str(dest)): continue
+        if type(stops) is not int or stops < 0: continue
+        if back and (type(back_stops) is not int or back_stops < 0): continue
+        if not all(row.get(k) for k in ('airline', 'flight_number', 'origin_airport', 'destination_airport')): continue
+        price = amount(row.get('price'))
+        if not price: continue
+        service = json.dumps([row['origin_airport'], row['destination_airport'], back_stops if back else None])
+        identity = ['dates-v3', dest, depart, back, row['airline'], str(row['flight_number']), service, stops]
+        condition = (f"{'Solo ida' if one_way else 'Ida y vuelta'}: salida {depart}"
+                     + (f', regreso {back}' if back else '')
+                     + f" · aerolínea {row['airline']} · {stops} escala(s) de ida"
+                     + (f' y {back_stops} de vuelta' if back else '')
+                     + '. Tarifa en caché de búsquedas de otros usuarios, no precio en vivo. '
+                       'Tasas, equipaje y precio final por confirmar.')
+        deal = snapshot('Travelpayouts fechas', identity, f'Lima (LIM) → {place(dest)} ({dest})',
+                        price, 'USD', condition, aviasales_link('LIM', dest, depart, back))
+        deal.flight_context = dict(depart=depart, back=back, destination=dest,
+                                   airline=row['airline'], service=service,
+                                   taxes='unconfirmed', stops=stops)
+        if deal.identity not in found or price < found[deal.identity].price:
+            found[deal.identity] = deal
+    return list(found.values())
+
+
+def scan_flight_dates(state, now, token=None, http_factory=HttpClient):
+    """Three month-wide queries, all destinations; alternate one-way/return."""
+    token = (token if token is not None else os.environ.get('TRAVELPAYOUTS_TOKEN', '')).strip()
+    if not token or now - state.cursors.get('tp_dates_attempt', 0) < TP_EVERY: return [], []
+    state.cursors['tp_dates_attempt'] = int(now)
+    today = datetime.fromtimestamp(now, LIMA).date()
+    one_way = state.cursors.get('tp_dates_round', 0) % 2 == 0
+    client = http_factory(delay=1.5, timeout=25, max_requests=5)
+    deals, count, error = [], 0, None
+    try:
+        for offset in range(3):
+            month = today.year * 12 + today.month - 1 + offset
+            query = urlencode(dict(origin='LIM', currency='usd', market='us',
+                                   departure_at=f'{month//12:04}-{month%12+1:02}',
+                                   unique='false', sorting='route', limit=1000, page=1,
+                                   one_way=str(one_way).lower()))
+            payload = json.loads(client.get(f'{TP_API}/aviasales/v3/prices_for_dates?{query}',
+                                           headers={'X-Access-Token': token}) or 'null')
+            observations = dated_fares(payload, today, one_way)
+            count += len(observations)
+            for deal in observations:
+                from .flight_value import observe_route
+                historical = observe_flight(state, replace(deal), now)
+                comparable = observe_route(state, deal, now)
+                if historical or comparable: deals.append(historical or comparable)
+        state.cursors['tp_dates_round'] = state.cursors.get('tp_dates_round', 0) + 1
+    except Exception as exc:
+        error = 'acceso bloqueado; no se insiste' if isinstance(exc, Blocked) else type(exc).__name__ + ': revisión de fechas fallida'
+    state.datos['cobertura_fechas'] = {'observadas': count, 'candidatas': len(deals),
+                                     'solo_ida': one_way, 'revisado': int(now), 'error': bool(error)}
+    return deals, [('Travelpayouts/fechas desde Lima', count, error)]
