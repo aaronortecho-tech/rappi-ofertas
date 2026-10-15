@@ -6,14 +6,12 @@
   "84e11cfb6cb23cef": 1791419822,
   "c68c0f3e8a729681": 1791335015
  },
- "failures": {
-  "JetSMART/tarifas desde Lima": 1
- },
+ "failures": {},
  "last_failure_notice": 1791925736,
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1792082524,
+ "saved_at": 1792084453,
  "history": {
   "00925d02c13b6b71": [
    [
@@ -17913,8 +17911,7 @@
  "cursors": {
   "travelpayouts": 1792068649,
   "tp_dates_attempt": 1792068649,
-  "tp_dates_round": 3,
-  "JetSMART/portada-sin-tarifas": 1
+  "tp_dates_round": 3
  },
  "flight_alerts": {},
  "datos": {
@@ -27811,15 +27808,15 @@
   "incidentes_viajes": {
    "Diners/viajes": {
     "avisado": false,
-    "buenas": 29
+    "buenas": 30
    },
    "JetSMART/tarifas desde Lima": {
     "avisado": false,
-    "buenas": 0
+    "buenas": 1
    },
    "SKY/tarifas desde Lima": {
     "avisado": false,
-    "buenas": 29
+    "buenas": 30
    },
    "Travelpayouts/fechas desde Lima": {
     "avisado": false,
