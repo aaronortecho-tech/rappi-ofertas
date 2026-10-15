@@ -6,14 +6,12 @@
   "84e11cfb6cb23cef": 1791419822,
   "c68c0f3e8a729681": 1791335015
  },
- "failures": {
-  "JetSMART/tarifas desde Lima": 1
- },
+ "failures": {},
  "last_failure_notice": 1791925736,
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1792037516,
+ "saved_at": 1792039134,
  "history": {
   "00925d02c13b6b71": [
    [
@@ -8461,32 +8459,6 @@
     290.21
    ]
   ],
-  "208242618cb1b9e0": [
-   [
-    20714,
-    208.42
-   ],
-   [
-    20715,
-    208.42
-   ],
-   [
-    20716,
-    208.42
-   ],
-   [
-    20717,
-    208.19
-   ],
-   [
-    20718,
-    208.19
-   ],
-   [
-    20719,
-    208.35
-   ]
-  ],
   "237ffeddefee5735": [
    [
     20719,
@@ -12957,20 +12929,6 @@
     304.36
    ]
   ],
-  "f343a4a1f5df633f": [
-   [
-    20718,
-    204.38
-   ],
-   [
-    20719,
-    204.38
-   ],
-   [
-    20740,
-    210.16
-   ]
-  ],
   "febbb9207ce49efa": [
    [
     20732,
@@ -14095,6 +14053,24 @@
    [
     20741,
     3357.0
+   ]
+  ],
+  "f343a4a1f5df633f": [
+   [
+    20718,
+    204.38
+   ],
+   [
+    20719,
+    204.38
+   ],
+   [
+    20740,
+    210.16
+   ],
+   [
+    20741,
+    209.61
    ]
   ],
   "fdf6d062ec8f75cd": [
@@ -16123,6 +16099,36 @@
     64.52
    ]
   ],
+  "208242618cb1b9e0": [
+   [
+    20714,
+    208.42
+   ],
+   [
+    20715,
+    208.42
+   ],
+   [
+    20716,
+    208.42
+   ],
+   [
+    20717,
+    208.19
+   ],
+   [
+    20718,
+    208.19
+   ],
+   [
+    20719,
+    208.35
+   ],
+   [
+    20741,
+    213.68
+   ]
+  ],
   "47f5cbd249298577": [
    [
     20735,
@@ -16289,8 +16295,7 @@
  "cursors": {
   "travelpayouts": 1792025303,
   "tp_dates_attempt": 1792022617,
-  "tp_dates_round": 1,
-  "JetSMART/portada-sin-tarifas": 1
+  "tp_dates_round": 1
  },
  "flight_alerts": {},
  "datos": {
@@ -23647,15 +23652,15 @@
   "incidentes_viajes": {
    "Diners/viajes": {
     "avisado": false,
-    "buenas": 8
+    "buenas": 9
    },
    "JetSMART/tarifas desde Lima": {
     "avisado": false,
-    "buenas": 0
+    "buenas": 1
    },
    "SKY/tarifas desde Lima": {
     "avisado": false,
-    "buenas": 8
+    "buenas": 9
    },
    "Travelpayouts/fechas desde Lima": {
     "avisado": false,
