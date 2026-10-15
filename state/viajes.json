@@ -6,14 +6,12 @@
   "84e11cfb6cb23cef": 1791419822,
   "c68c0f3e8a729681": 1791335015
  },
- "failures": {
-  "JetSMART/tarifas desde Lima": 2
- },
+ "failures": {},
  "last_failure_notice": 1791925736,
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1792079090,
+ "saved_at": 1792080741,
  "history": {
   "00925d02c13b6b71": [
    [
@@ -8671,32 +8669,6 @@
     208.95
    ]
   ],
-  "6ba84dbafd69fe8f": [
-   [
-    20726,
-    212.25
-   ],
-   [
-    20727,
-    213.19
-   ],
-   [
-    20728,
-    212.99
-   ],
-   [
-    20729,
-    212.99
-   ],
-   [
-    20730,
-    212.99
-   ],
-   [
-    20731,
-    212.99
-   ]
-  ],
   "123b7c8324190986": [
    [
     20719,
@@ -10375,12 +10347,6 @@
    [
     20740,
     484.0
-   ]
-  ],
-  "257718d385b67fc7": [
-   [
-    20740,
-    205.54
    ]
   ],
   "2846a57adff56b03": [
@@ -13235,6 +13201,16 @@
    [
     20741,
     229.95
+   ]
+  ],
+  "257718d385b67fc7": [
+   [
+    20740,
+    205.54
+   ],
+   [
+    20741,
+    205.0
    ]
   ],
   "2648b7af2b18be7b": [
@@ -17531,6 +17507,36 @@
     217.74
    ]
   ],
+  "6ba84dbafd69fe8f": [
+   [
+    20726,
+    212.25
+   ],
+   [
+    20727,
+    213.19
+   ],
+   [
+    20728,
+    212.99
+   ],
+   [
+    20729,
+    212.99
+   ],
+   [
+    20730,
+    212.99
+   ],
+   [
+    20731,
+    212.99
+   ],
+   [
+    20741,
+    213.12
+   ]
+  ],
   "8408a2edffefee72": [
    [
     20735,
@@ -17905,8 +17911,7 @@
  "cursors": {
   "travelpayouts": 1792068649,
   "tp_dates_attempt": 1792068649,
-  "tp_dates_round": 3,
-  "JetSMART/portada-sin-tarifas": 2
+  "tp_dates_round": 3
  },
  "flight_alerts": {},
  "datos": {
@@ -27803,15 +27808,15 @@
   "incidentes_viajes": {
    "Diners/viajes": {
     "avisado": false,
-    "buenas": 27
+    "buenas": 28
    },
    "JetSMART/tarifas desde Lima": {
     "avisado": false,
-    "buenas": 0
+    "buenas": 1
    },
    "SKY/tarifas desde Lima": {
     "avisado": false,
-    "buenas": 27
+    "buenas": 28
    },
    "Travelpayouts/fechas desde Lima": {
     "avisado": false,
