@@ -11,7 +11,7 @@
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1792031983,
+ "saved_at": 1792033706,
  "history": {
   "00925d02c13b6b71": [
    [
@@ -10681,12 +10681,6 @@
     217.74
    ]
   ],
-  "3cb07de404f659e7": [
-   [
-    20740,
-    205.54
-   ]
-  ],
   "3e66bcabc1550535": [
    [
     20740,
@@ -10699,22 +10693,10 @@
     225.88
    ]
   ],
-  "43002e467fbbdc87": [
-   [
-    20740,
-    574.3
-   ]
-  ],
   "435109d6bf83e589": [
    [
     20740,
     575.81
-   ]
-  ],
-  "58bd1f7b2bf50324": [
-   [
-    20740,
-    230.55
    ]
   ],
   "5dd98e1fba495edc": [
@@ -12089,6 +12071,26 @@
     109.0
    ]
   ],
+  "3cb07de404f659e7": [
+   [
+    20740,
+    205.54
+   ],
+   [
+    20741,
+    205.54
+   ]
+  ],
+  "43002e467fbbdc87": [
+   [
+    20740,
+    574.3
+   ],
+   [
+    20741,
+    574.3
+   ]
+  ],
   "49b7652f550b93dc": [
    [
     20740,
@@ -12107,6 +12109,16 @@
    [
     20741,
     217.74
+   ]
+  ],
+  "58bd1f7b2bf50324": [
+   [
+    20740,
+    230.55
+   ],
+   [
+    20741,
+    229.95
    ]
   ],
   "5f3efbfd2d54c24b": [
@@ -23632,15 +23644,15 @@
   "incidentes_viajes": {
    "Diners/viajes": {
     "avisado": false,
-    "buenas": 5
+    "buenas": 6
    },
    "JetSMART/tarifas desde Lima": {
     "avisado": false,
-    "buenas": 4
+    "buenas": 5
    },
    "SKY/tarifas desde Lima": {
     "avisado": false,
-    "buenas": 5
+    "buenas": 6
    },
    "Travelpayouts/fechas desde Lima": {
     "avisado": false,
