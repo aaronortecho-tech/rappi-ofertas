@@ -40,7 +40,7 @@
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1792156275,
+ "saved_at": 1792177321,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -104026,7 +104026,7 @@
      "valor": 1218200.0
     }
    },
-   "ultima": 1791571495
+   "ultima": 1792177321
   },
   "infocasas": {
    "avisos": {
@@ -104243,7 +104243,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20741,
+     "r": 20742,
      "dist": "barranco"
     },
     "194234815": {
@@ -105171,12 +105171,12 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 794.0,
+     "usd": 740.0,
      "area": 58.0,
      "lat": -12.08957,
      "lng": -77.0832,
      "mon": "USD",
-     "monto": 794.0,
+     "monto": 740.0,
      "mant": 0.0,
      "anio": "",
      "dorm": "2",
@@ -105188,10 +105188,14 @@
       [
        20714,
        794.0
+      ],
+      [
+       20742,
+       740.0
       ]
      ],
      "f": 20714,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194137518": {
@@ -105647,7 +105651,7 @@
       ]
      ],
      "f": 20714,
-     "r": 20741,
+     "r": 20742,
      "dist": "chorrillos"
     },
     "194167045": {
@@ -125100,7 +125104,7 @@
      "lng": -71.55376,
      "mon": "USD",
      "monto": 330000.0,
-     "mant": 37.81,
+     "mant": 37.83,
      "anio": "",
      "dorm": "4",
      "zona": "Yanahuara",
@@ -125278,7 +125282,7 @@
       ]
      ],
      "f": 20719,
-     "r": 20741,
+     "r": 20742,
      "dist": "villa-maria-del-triunfo"
     },
     "194307765": {
@@ -125729,7 +125733,7 @@
      "lng": -77.02359,
      "mon": "USD",
      "monto": 375000.0,
-     "mant": 258.54,
+     "mant": 258.84,
      "anio": "",
      "dorm": "2",
      "zona": "Barranco",
@@ -125743,7 +125747,7 @@
       ]
      ],
      "f": 20722,
-     "r": 20741,
+     "r": 20742,
      "dist": "barranco"
     },
     "194321245": {
@@ -126506,7 +126510,7 @@
       ]
      ],
      "f": 20727,
-     "r": 20741,
+     "r": 20742,
      "dist": "carabayllo"
     },
     "194340845": {
@@ -127129,7 +127133,7 @@
       ]
      ],
      "f": 20732,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194362184": {
@@ -129382,7 +129386,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "chorrillos"
     },
     "194379566": {
@@ -129410,7 +129414,7 @@
      ],
      "f": 20735,
      "r": 20742,
-     "dist": "san-bartolo"
+     "dist": "ate"
     },
     "194379418": {
      "op": "venta",
@@ -129436,7 +129440,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "barranco"
     },
     "194379606": {
@@ -129463,14 +129467,14 @@
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "barranco"
     },
     "194379607": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 158959.0,
+     "usd": 159141.0,
      "area": 74.0,
      "lat": -12.13686,
      "lng": -77.01852,
@@ -129503,10 +129507,14 @@
       [
        20741,
        158959.0
+      ],
+      [
+       20742,
+       159141.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "barranco"
     },
     "194379505": {
@@ -129533,7 +129541,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "barranco"
     },
     "194379468": {
@@ -129560,7 +129568,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "barranco"
     },
     "194379564": {
@@ -129587,7 +129595,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "barranco"
     },
     "194379545": {
@@ -129614,7 +129622,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "barranco"
     },
     "194379424": {
@@ -129641,20 +129649,20 @@
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "barranco"
     },
     "194379152": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 784.0,
+     "usd": 785.0,
      "area": 49.0,
      "lat": -12.13954,
      "lng": -77.02289,
      "mon": "PEN",
      "monto": 2700.0,
-     "mant": 69.69,
+     "mant": 69.78,
      "anio": "",
      "dorm": "Mono",
      "zona": "Barranco",
@@ -129677,10 +129685,14 @@
       [
        20741,
        784.0
+      ],
+      [
+       20742,
+       785.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "barranco"
     },
     "194379482": {
@@ -129707,7 +129719,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "brena"
     },
     "194379403": {
@@ -129734,14 +129746,14 @@
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "carabayllo"
     },
     "194379610": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 124332.0,
+     "usd": 124474.0,
      "area": 59.0,
      "lat": -12.07618,
      "lng": -77.09993,
@@ -129778,17 +129790,21 @@
       [
        20741,
        124332.0
+      ],
+      [
+       20742,
+       124474.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379612": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 139438.0,
+     "usd": 139597.0,
      "area": 66.0,
      "lat": -12.07618,
      "lng": -77.09993,
@@ -129825,17 +129841,21 @@
       [
        20741,
        139438.0
+      ],
+      [
+       20742,
+       139597.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379644": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 105610.0,
+     "usd": 105731.0,
      "area": 51.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -129872,17 +129892,21 @@
       [
        20741,
        105610.0
+      ],
+      [
+       20742,
+       105731.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379608": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 115327.0,
+     "usd": 115459.0,
      "area": 53.0,
      "lat": -12.07618,
      "lng": -77.09993,
@@ -129919,17 +129943,21 @@
       [
        20741,
        115327.0
+      ],
+      [
+       20742,
+       115459.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379637": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 81011.0,
+     "usd": 81103.0,
      "area": 40.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -129966,17 +129994,21 @@
       [
        20741,
        81011.0
+      ],
+      [
+       20742,
+       81103.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379640": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 97482.0,
+     "usd": 97593.0,
      "area": 49.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -130013,17 +130045,21 @@
       [
        20741,
        97482.0
+      ],
+      [
+       20742,
+       97593.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379596": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 140536.0,
+     "usd": 140697.0,
      "area": 67.0,
      "lat": -12.07892,
      "lng": -77.10114,
@@ -130060,10 +130096,14 @@
       [
        20741,
        140536.0
+      ],
+      [
+       20742,
+       140697.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379392": {
@@ -130090,14 +130130,14 @@
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379634": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 80352.0,
+     "usd": 80444.0,
      "area": 40.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -130134,17 +130174,21 @@
       [
        20741,
        80352.0
+      ],
+      [
+       20742,
+       80444.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379609": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 119975.0,
+     "usd": 120112.0,
      "area": 56.0,
      "lat": -12.07618,
      "lng": -77.09993,
@@ -130181,17 +130225,21 @@
       [
        20741,
        119975.0
+      ],
+      [
+       20742,
+       120112.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379643": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 102258.0,
+     "usd": 102375.0,
      "area": 51.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -130228,10 +130276,14 @@
       [
        20741,
        102258.0
+      ],
+      [
+       20742,
+       102375.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379391": {
@@ -130258,14 +130310,14 @@
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379646": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 192822.0,
+     "usd": 193042.0,
      "area": 92.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -130302,17 +130354,21 @@
       [
        20741,
        192822.0
+      ],
+      [
+       20742,
+       193042.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379638": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 80187.0,
+     "usd": 80279.0,
      "area": 40.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -130349,17 +130405,21 @@
       [
        20741,
        80187.0
+      ],
+      [
+       20742,
+       80279.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379595": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 116059.0,
+     "usd": 116192.0,
      "area": 51.0,
      "lat": -12.07892,
      "lng": -77.10114,
@@ -130396,10 +130456,14 @@
       [
        20741,
        116059.0
+      ],
+      [
+       20742,
+       116192.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379442": {
@@ -130426,14 +130490,14 @@
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379636": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 80352.0,
+     "usd": 80444.0,
      "area": 40.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -130470,17 +130534,21 @@
       [
        20741,
        80352.0
+      ],
+      [
+       20742,
+       80444.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379641": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 99046.0,
+     "usd": 99160.0,
      "area": 50.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -130517,17 +130585,21 @@
       [
        20741,
        99046.0
+      ],
+      [
+       20742,
+       99160.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379639": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 87462.0,
+     "usd": 87562.0,
      "area": 43.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -130564,10 +130636,14 @@
       [
        20741,
        87462.0
+      ],
+      [
+       20742,
+       87562.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194381040": {
@@ -130580,7 +130656,7 @@
      "lng": -77.03728,
      "mon": "USD",
      "monto": 105000.0,
-     "mant": 72.62,
+     "mant": 72.71,
      "anio": "",
      "dorm": "2",
      "zona": "Cercado De Lima",
@@ -130594,14 +130670,14 @@
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379594": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 71555.0,
+     "usd": 71637.0,
      "area": 32.0,
      "lat": -12.07892,
      "lng": -77.10114,
@@ -130638,17 +130714,21 @@
       [
        20741,
        71555.0
+      ],
+      [
+       20742,
+       71637.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379645": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 190077.0,
+     "usd": 190294.0,
      "area": 90.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -130685,17 +130765,21 @@
       [
        20741,
        190077.0
+      ],
+      [
+       20742,
+       190294.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379611": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 138567.0,
+     "usd": 138725.0,
      "area": 66.0,
      "lat": -12.07618,
      "lng": -77.09993,
@@ -130732,10 +130816,14 @@
       [
        20741,
        138567.0
+      ],
+      [
+       20742,
+       138725.0
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194379407": {
@@ -130789,7 +130877,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "chorrillos"
     },
     "194379447": {
@@ -130816,7 +130904,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "chorrillos"
     },
     "194379437": {
@@ -130847,7 +130935,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20741,
+     "r": 20742,
      "dist": "chorrillos"
     },
     "194379549": {
@@ -136368,7 +136456,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20741,
+     "r": 20742,
      "dist": "brena"
     },
     "194385237": {
@@ -136395,7 +136483,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20741,
+     "r": 20742,
      "dist": "brena"
     },
     "194385215": {
@@ -136770,7 +136858,7 @@
       ]
      ],
      "f": 20738,
-     "r": 20741,
+     "r": 20742,
      "dist": "barranco"
     },
     "194387510": {
@@ -136797,7 +136885,7 @@
       ]
      ],
      "f": 20738,
-     "r": 20741,
+     "r": 20742,
      "dist": "barranco"
     },
     "194387506": {
@@ -137078,13 +137166,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 581.0,
+     "usd": 582.0,
      "area": 87.0,
      "lat": -12.16844,
      "lng": -77.0,
      "mon": "PEN",
      "monto": 2000.0,
-     "mant": 55.2,
+     "mant": 55.29,
      "anio": "",
      "dorm": "3",
      "zona": "Chorrillos",
@@ -137103,10 +137191,14 @@
       [
        20741,
        581.0
+      ],
+      [
+       20742,
+       582.0
       ]
      ],
      "f": 20739,
-     "r": 20741,
+     "r": 20742,
      "dist": "chorrillos"
     },
     "194390528": {
@@ -137573,14 +137665,14 @@
       ]
      ],
      "f": 20740,
-     "r": 20741,
+     "r": 20742,
      "dist": "barranco"
     },
     "194394632": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 137027.0,
+     "usd": 137184.0,
      "area": 66.0,
      "lat": -12.07548,
      "lng": -77.03677,
@@ -137601,10 +137693,14 @@
       [
        20741,
        137027.0
+      ],
+      [
+       20742,
+       137184.0
       ]
      ],
      "f": 20740,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194394972": {
@@ -138413,7 +138509,7 @@
      "lng": -77.03394,
      "mon": "USD",
      "monto": 1250.0,
-     "mant": 145.47,
+     "mant": 145.36,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -138428,7 +138524,7 @@
      ],
      "f": 20741,
      "r": 20742,
-     "dist": "san-isidro"
+     "dist": "ate"
     },
     "194398959": {
      "op": "alquiler",
@@ -138440,7 +138536,7 @@
      "lng": -77.03394,
      "mon": "USD",
      "monto": 1250.0,
-     "mant": 145.47,
+     "mant": 145.36,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -138455,7 +138551,7 @@
      ],
      "f": 20741,
      "r": 20742,
-     "dist": "san-isidro"
+     "dist": "ate"
     },
     "194398814": {
      "op": "venta",
@@ -138566,7 +138662,7 @@
       ]
      ],
      "f": 20741,
-     "r": 20741,
+     "r": 20742,
      "dist": "cercado-de-lima"
     },
     "194404363": {
@@ -138919,10 +139015,118 @@
      "f": 20742,
      "r": 20742,
      "dist": "surquillo"
+    },
+    "194409982": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 86470.0,
+     "area": 35.0,
+     "lat": -12.08007,
+     "lng": -77.09749,
+     "mon": "USD",
+     "monto": 86470.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Cercado De Lima",
+     "titulo": "Departamento de 1 dormitorio en venta ubicado en San Miguel a minutos de la UPC",
+     "u": "https://www.infocasas.com.pe/departamento-de-1-dormitorio-en-venta-ubicado-en-san-miguel-a-minutos-de-la-upc/194409982",
+     "flags": [],
+     "p": [
+      [
+       20742,
+       86470.0
+      ]
+     ],
+     "f": 20742,
+     "r": 20742,
+     "dist": "cercado-de-lima"
+    },
+    "194409976": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 95000.0,
+     "area": 41.0,
+     "lat": -12.08247,
+     "lng": -77.10375,
+     "mon": "USD",
+     "monto": 95000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Cercado De Lima",
+     "titulo": "Venta de Dpto en Condominio Panoramic | 41m², 1 cochera, Piso 13, Torre D",
+     "u": "https://www.infocasas.com.pe/venta-de-dpto-en-condominio-panoramic-41m²-1-cochera-piso-13-torre-d/194409976",
+     "flags": [],
+     "p": [
+      [
+       20742,
+       95000.0
+      ]
+     ],
+     "f": 20742,
+     "r": 20742,
+     "dist": "cercado-de-lima"
+    },
+    "194409989": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 166253.0,
+     "area": 80.0,
+     "lat": -12.09409,
+     "lng": -77.07822,
+     "mon": "PEN",
+     "monto": 571656.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Cercado De Lima",
+     "titulo": "VENTA DEPARTAMENTO EN SAN MIGUEL - DPT 1705 C (609-396-433)",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-san-miguel-dpt-1705-c-609396433/194409989",
+     "flags": [],
+     "p": [
+      [
+       20742,
+       166253.0
+      ]
+     ],
+     "f": 20742,
+     "r": 20742,
+     "dist": "cercado-de-lima"
+    },
+    "194409983": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 215000.0,
+     "area": 142.0,
+     "lat": -12.16722,
+     "lng": -77.02727,
+     "mon": "USD",
+     "monto": 215000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Chorrillos",
+     "titulo": "Venta Departamento Chorrillos 3 habitaciones a una cuadra del Malecon con cocher",
+     "u": "https://www.infocasas.com.pe/venta-departamento-chorrillos-3-habitaciones-a-una-cuadra-del-malecon-con-cochera/194409983",
+     "flags": [],
+     "p": [
+      [
+       20742,
+       215000.0
+      ]
+     ],
+     "f": 20742,
+     "r": 20742,
+     "dist": "chorrillos"
     }
    },
    "tc": 3.43980343980344,
-   "turno": 165,
+   "turno": 32,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -138949,50 +139153,50 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 93,
-     "fuera_ciudad": 1,
-     "momento": 1792156275
+     "validos": 61,
+     "fuera_ciudad": 0,
+     "momento": 1792177321
     },
     "arequipa": {
      "paginas": 4,
      "validos": 16,
      "fuera_ciudad": 0,
-     "momento": 1792156275
+     "momento": 1792177321
     },
     "cusco": {
      "paginas": 4,
      "validos": 3,
      "fuera_ciudad": 0,
-     "momento": 1792156275
+     "momento": 1792177321
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 4,
-     "momento": 1792156275
+     "momento": 1792177321
     },
     "trujillo": {
      "paginas": 4,
      "validos": 2,
      "fuera_ciudad": 0,
-     "momento": 1792156275
+     "momento": 1792177321
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1792156275
+     "momento": 1792177321
     }
    }
   },
   "cobertura_ciudades": {
    "lima": {
     "ciudad": "Lima",
-    "ventas": 800,
+    "ventas": 804,
     "alquileres": 197,
     "estado": "con datos; comparables por microzona pendientes de cada aviso",
     "proyectos": 765,
-    "momento": 1792156275
+    "momento": 1792177321
    },
    "arequipa": {
     "ciudad": "Arequipa",
@@ -139000,7 +139204,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 8,
-    "momento": 1792156275
+    "momento": 1792177321
    },
    "cusco": {
     "ciudad": "Cusco",
@@ -139008,7 +139212,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 1,
-    "momento": 1792156275
+    "momento": 1792177321
    },
    "cajamarca": {
     "ciudad": "Cajamarca",
@@ -139016,7 +139220,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1792156275
+    "momento": 1792177321
    },
    "trujillo": {
     "ciudad": "Trujillo",
@@ -139024,7 +139228,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1792156275
+    "momento": 1792177321
    },
    "huaraz": {
     "ciudad": "Huaraz",
@@ -139032,7 +139236,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1792156275
+    "momento": 1792177321
    }
   }
  }
