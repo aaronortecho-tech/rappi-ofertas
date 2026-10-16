@@ -8,13 +8,13 @@
   "c68c0f3e8a729681": 1791335015
  },
  "failures": {
-  "JetSMART/tarifas desde Lima": 32
+  "JetSMART/tarifas desde Lima": 33
  },
  "last_failure_notice": 1792096750,
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1792154988,
+ "saved_at": 1792158438,
  "history": {
   "00925d02c13b6b71": [
    [
@@ -11434,6 +11434,12 @@
     1090.0
    ]
   ],
+  "05924cef70d6f2f4": [
+   [
+    20742,
+    68.0
+   ]
+  ],
   "0758c0595ea9b885": [
    [
     20742,
@@ -11488,6 +11494,12 @@
     450.0
    ]
   ],
+  "30f672c1904b85b8": [
+   [
+    20742,
+    61.0
+   ]
+  ],
   "32b50def40e73f42": [
    [
     20742,
@@ -11522,6 +11534,12 @@
    [
     20742,
     196.0
+   ]
+  ],
+  "4ee400eb9a27f882": [
+   [
+    20742,
+    237.0
    ]
   ],
   "5713e7ebedd9d8d9": [
@@ -11602,6 +11620,12 @@
     2198.0
    ]
   ],
+  "9526f167a8e54567": [
+   [
+    20742,
+    242.0
+   ]
+  ],
   "9e8a0b2bcff2a553": [
    [
     20742,
@@ -11674,10 +11698,22 @@
     431.0
    ]
   ],
+  "c5ba002f8b4168ad": [
+   [
+    20742,
+    61.0
+   ]
+  ],
   "c957a3411ceab069": [
    [
     20742,
     113.0
+   ]
+  ],
+  "cac08c76f3f5b509": [
+   [
+    20742,
+    1369.0
    ]
   ],
   "cdf4e5fd6f063cc6": [
@@ -11696,6 +11732,12 @@
    [
     20742,
     485.0
+   ]
+  ],
+  "d4be2c0612294843": [
+   [
+    20742,
+    911.0
    ]
   ],
   "d6ac314801834def": [
@@ -19704,10 +19746,10 @@
   ]
  },
  "cursors": {
-  "travelpayouts": 1792136653,
-  "tp_dates_attempt": 1792136653,
-  "tp_dates_round": 6,
-  "JetSMART/portada-sin-tarifas": 32
+  "travelpayouts": 1792158438,
+  "tp_dates_attempt": 1792158438,
+  "tp_dates_round": 7,
+  "JetSMART/portada-sin-tarifas": 33
  },
  "flight_alerts": {
   "bf75e278669c528d": {
@@ -25728,6 +25770,15 @@
       ]
      ]
     },
+    "c5ba002f8b4168ad": {
+     "depart": "2026-11-12",
+     "prices": [
+      [
+       20742,
+       61.0
+      ]
+     ]
+    },
     "2c2aad4d3c27fe4c": {
      "depart": "2026-11-20",
      "prices": [
@@ -25920,6 +25971,15 @@
       [
        20741,
        68.0
+      ]
+     ]
+    },
+    "30f672c1904b85b8": {
+     "depart": "2026-10-30",
+     "prices": [
+      [
+       20742,
+       61.0
       ]
      ]
     },
@@ -27127,6 +27187,17 @@
      ]
     }
    },
+   "3d5aaf6c6207e0ac": {
+    "9526f167a8e54567": {
+     "depart": "2026-10-27",
+     "prices": [
+      [
+       20742,
+       242.0
+      ]
+     ]
+    }
+   },
    "3ed871681a42ad7f": {
     "e7d3cb8f9c256e5c": {
      "depart": "2026-10-16",
@@ -27244,6 +27315,28 @@
       [
        20742,
        64.0
+      ]
+     ]
+    }
+   },
+   "5787ac7ca714d380": {
+    "05924cef70d6f2f4": {
+     "depart": "2026-10-31",
+     "prices": [
+      [
+       20742,
+       68.0
+      ]
+     ]
+    }
+   },
+   "5a92b804a56c90aa": {
+    "a18cad4c438f850d": {
+     "depart": "2026-11-30",
+     "prices": [
+      [
+       20742,
+       860.0
       ]
      ]
     }
@@ -27380,6 +27473,17 @@
      ]
     }
    },
+   "8e574753180f5469": {
+    "cac08c76f3f5b509": {
+     "depart": "2026-11-10",
+     "prices": [
+      [
+       20742,
+       1369.0
+      ]
+     ]
+    }
+   },
    "91c2780453c1f45e": {
     "89c5e3223ad893c8": {
      "depart": "2026-12-04",
@@ -27409,6 +27513,17 @@
       [
        20742,
        1759.0
+      ]
+     ]
+    }
+   },
+   "a35d3bef612afc2f": {
+    "4ee400eb9a27f882": {
+     "depart": "2026-10-25",
+     "prices": [
+      [
+       20742,
+       237.0
       ]
      ]
     }
@@ -27453,6 +27568,17 @@
       [
        20742,
        1224.0
+      ]
+     ]
+    }
+   },
+   "dedcbd06f91bc136": {
+    "d4be2c0612294843": {
+     "depart": "2026-11-07",
+     "prices": [
+      [
+       20742,
+       911.0
       ]
      ]
     }
@@ -31535,16 +31661,16 @@
    }
   },
   "cobertura_fechas": {
-   "observadas": 238,
+   "observadas": 72,
    "candidatas": 0,
-   "solo_ida": false,
-   "revisado": 1792136653,
+   "solo_ida": true,
+   "revisado": 1792158438,
    "error": false
   },
   "incidentes_viajes": {
    "Diners/viajes": {
     "avisado": false,
-    "buenas": 66
+    "buenas": 67
    },
    "JetSMART/tarifas desde Lima": {
     "avisado": true,
@@ -31552,15 +31678,15 @@
    },
    "SKY/tarifas desde Lima": {
     "avisado": false,
-    "buenas": 66
+    "buenas": 67
    },
    "Travelpayouts/fechas desde Lima": {
     "avisado": false,
-    "buenas": 6
+    "buenas": 7
    },
    "Travelpayouts/destinos desde Lima": {
     "avisado": false,
-    "buenas": 6
+    "buenas": 7
    }
   }
  }
