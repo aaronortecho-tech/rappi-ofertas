@@ -45,12 +45,14 @@
   "decca52c8310226c": 1792270100,
   "ee9b507969f96bf9": 1791072036
  },
- "failures": {},
+ "failures": {
+  "Infocasas/avisos recientes": 1
+ },
  "last_failure_notice": null,
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1792339411,
+ "saved_at": 1792357099,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -141010,40 +141012,10 @@
    },
    "ultima_cobertura": {
     "lima": {
-     "paginas": 40,
-     "validos": 114,
-     "fuera_ciudad": 0,
-     "momento": 1792339411
-    },
-    "arequipa": {
-     "paginas": 4,
-     "validos": 14,
-     "fuera_ciudad": 0,
-     "momento": 1792339411
-    },
-    "cusco": {
-     "paginas": 4,
+     "paginas": 0,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1792339411
-    },
-    "cajamarca": {
-     "paginas": 4,
-     "validos": 0,
-     "fuera_ciudad": 6,
-     "momento": 1792339411
-    },
-    "trujillo": {
-     "paginas": 4,
-     "validos": 2,
-     "fuera_ciudad": 0,
-     "momento": 1792339411
-    },
-    "huaraz": {
-     "paginas": 4,
-     "validos": 0,
-     "fuera_ciudad": 0,
-     "momento": 1792339411
+     "momento": 1792357099
     }
    }
   },
@@ -141054,7 +141026,7 @@
     "alquileres": 205,
     "estado": "con datos; comparables por microzona pendientes de cada aviso",
     "proyectos": 766,
-    "momento": 1792339411
+    "momento": 1792357099
    },
    "arequipa": {
     "ciudad": "Arequipa",
@@ -141062,7 +141034,7 @@
     "alquileres": 1,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 8,
-    "momento": 1792339411
+    "momento": 1792357099
    },
    "cusco": {
     "ciudad": "Cusco",
@@ -141070,7 +141042,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 1,
-    "momento": 1792339411
+    "momento": 1792357099
    },
    "cajamarca": {
     "ciudad": "Cajamarca",
@@ -141078,7 +141050,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1792339411
+    "momento": 1792357099
    },
    "trujillo": {
     "ciudad": "Trujillo",
@@ -141086,7 +141058,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1792339411
+    "momento": 1792357099
    },
    "huaraz": {
     "ciudad": "Huaraz",
@@ -141094,7 +141066,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1792339411
+    "momento": 1792357099
    }
   }
  }
