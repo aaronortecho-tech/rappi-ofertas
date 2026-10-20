@@ -9,13 +9,14 @@
   "c68c0f3e8a729681": 1791335015
  },
  "failures": {
-  "JetSMART/tarifas desde Lima": 87
+  "Diners/viajes": 1,
+  "JetSMART/tarifas desde Lima": 88
  },
  "last_failure_notice": 1792096750,
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1792523589,
+ "saved_at": 1792534614,
  "history": {
   "0596c51a33588fe7": [
    [
@@ -731,12 +732,6 @@
     459.66
    ]
   ],
-  "6b12c4f9cb5679e0": [
-   [
-    20721,
-    221.76
-   ]
-  ],
   "74a1e057311ae17c": [
    [
     20721,
@@ -789,12 +784,6 @@
    [
     20721,
     212.32
-   ]
-  ],
-  "f3511608fa97c896": [
-   [
-    20721,
-    160.04
    ]
   ],
   "f357a06bb25f32bb": [
@@ -2403,12 +2392,6 @@
    [
     20737,
     535.0
-   ]
-  ],
-  "063e78da36e94503": [
-   [
-    20738,
-    185.39
    ]
   ],
   "1700b95bcc7678ed": [
@@ -12487,6 +12470,12 @@
     212.0
    ]
   ],
+  "19a519c8cc47105f": [
+   [
+    20746,
+    52.72
+   ]
+  ],
   "1fbd539430d0e7b4": [
    [
     20746,
@@ -12557,6 +12546,12 @@
    [
     20746,
     462.0
+   ]
+  ],
+  "4dc2f05d7feead55": [
+   [
+    20746,
+    160.04
    ]
   ],
   "5000388602ba2594": [
@@ -12737,6 +12732,18 @@
    [
     20746,
     1230.0
+   ]
+  ],
+  "becb1b3146ee331f": [
+   [
+    20746,
+    38.56
+   ]
+  ],
+  "c069ba134d2ff4cf": [
+   [
+    20746,
+    51.54
    ]
   ],
   "c07590b4563c2a69": [
@@ -14453,6 +14460,16 @@
     52.72
    ]
   ],
+  "063e78da36e94503": [
+   [
+    20738,
+    185.39
+   ],
+   [
+    20746,
+    189.54
+   ]
+  ],
   "0868c0864628e6e5": [
    [
     20745,
@@ -14703,6 +14720,16 @@
     117.0
    ]
   ],
+  "6b12c4f9cb5679e0": [
+   [
+    20721,
+    221.76
+   ],
+   [
+    20746,
+    227.66
+   ]
+  ],
   "91fefcafb7d134ba": [
    [
     20733,
@@ -14871,6 +14898,16 @@
    [
     20746,
     1900.0
+   ]
+  ],
+  "f3511608fa97c896": [
+   [
+    20721,
+    160.04
+   ],
+   [
+    20746,
+    189.54
    ]
   ],
   "fb7ae59e696585ba": [
@@ -25422,7 +25459,7 @@
   "travelpayouts": 1792523589,
   "tp_dates_attempt": 1792523589,
   "tp_dates_round": 19,
-  "JetSMART/portada-sin-tarifas": 87
+  "JetSMART/portada-sin-tarifas": 88
  },
  "flight_alerts": {
   "bf75e278669c528d": {
@@ -44125,7 +44162,7 @@
   "incidentes_viajes": {
    "Diners/viajes": {
     "avisado": false,
-    "buenas": 121
+    "buenas": 0
    },
    "JetSMART/tarifas desde Lima": {
     "avisado": true,
@@ -44133,7 +44170,7 @@
    },
    "SKY/tarifas desde Lima": {
     "avisado": false,
-    "buenas": 121
+    "buenas": 122
    },
    "Travelpayouts/fechas desde Lima": {
     "avisado": false,
