@@ -62,7 +62,7 @@
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1792603619,
+ "saved_at": 1792619663,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -124978,7 +124978,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 284304.0,
+     "usd": 284299.0,
      "area": 130.0,
      "lat": -12.08977,
      "lng": -77.02726,
@@ -124992,10 +124992,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-duplex-en-lince/194289463",
      "flags": [],
      "p": [
-      [
-       20736,
-       284774.0
-      ],
       [
        20737,
        285742.0
@@ -125023,17 +125019,21 @@
       [
        20746,
        284304.0
+      ],
+      [
+       20747,
+       284299.0
       ]
      ],
      "f": 20719,
-     "r": 20746,
+     "r": 20747,
      "dist": "lince"
     },
     "194289393": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 214678.0,
+     "usd": 214674.0,
      "area": 112.0,
      "lat": -12.08201,
      "lng": -77.03931,
@@ -125047,10 +125047,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-lince-lima-lima/194289393",
      "flags": [],
      "p": [
-      [
-       20736,
-       215033.0
-      ],
       [
        20737,
        215764.0
@@ -125078,10 +125074,14 @@
       [
        20746,
        214678.0
+      ],
+      [
+       20747,
+       214674.0
       ]
      ],
      "f": 20719,
-     "r": 20746,
+     "r": 20747,
      "dist": "lince"
     },
     "194292060": {
@@ -125681,7 +125681,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20746,
+     "r": 20747,
      "dist": "el-agustino"
     },
     "194304007": {
@@ -125708,7 +125708,7 @@
       ]
      ],
      "f": 20720,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-molina"
     },
     "194308373": {
@@ -125817,7 +125817,7 @@
       ]
      ],
      "f": 20721,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194309738": {
@@ -125872,7 +125872,7 @@
       ]
      ],
      "f": 20721,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-victoria"
     },
     "194310529": {
@@ -126861,7 +126861,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 76878.0,
+     "usd": 76877.0,
      "area": 68.0,
      "lat": -12.05506,
      "lng": -76.97816,
@@ -126875,10 +126875,6 @@
      "u": "https://www.infocasas.com.pe/condominio-los-nogales-dpto-en-venta/194340845",
      "flags": [],
      "p": [
-      [
-       20738,
-       77267.0
-      ],
       [
        20739,
        76935.0
@@ -126906,10 +126902,14 @@
       [
        20746,
        76878.0
+      ],
+      [
+       20747,
+       76877.0
       ]
      ],
      "f": 20728,
-     "r": 20746,
+     "r": 20747,
      "dist": "el-agustino"
     },
     "194339225": {
@@ -126936,7 +126936,7 @@
       ]
      ],
      "f": 20728,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194339251": {
@@ -126963,7 +126963,7 @@
       ]
      ],
      "f": 20728,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194344181": {
@@ -127125,7 +127125,7 @@
       ]
      ],
      "f": 20729,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194347826": {
@@ -127219,7 +127219,7 @@
      "lng": -77.05111,
      "mon": "USD",
      "monto": 170000.0,
-     "mant": 69.63,
+     "mant": 69.62,
      "anio": "",
      "dorm": "2",
      "zona": "Jesus Maria",
@@ -127233,7 +127233,7 @@
       ]
      ],
      "f": 20730,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194354655": {
@@ -131494,7 +131494,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20746,
+     "r": 20747,
      "dist": "cieneguilla"
     },
     "194379473": {
@@ -131521,7 +131521,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20746,
+     "r": 20747,
      "dist": "cieneguilla"
     },
     "194379332": {
@@ -131548,7 +131548,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194379490": {
@@ -131575,7 +131575,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194379515": {
@@ -131602,7 +131602,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194379441": {
@@ -131629,7 +131629,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194379481": {
@@ -131656,7 +131656,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194379483": {
@@ -131710,7 +131710,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194379365": {
@@ -131737,7 +131737,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-molina"
     },
     "194379328": {
@@ -131764,14 +131764,14 @@
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-molina"
     },
     "194379598": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 108140.0,
+     "usd": 108138.0,
      "area": 51.0,
      "lat": -12.08786,
      "lng": -77.01864,
@@ -131785,10 +131785,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-santa-catalina-dpto-tipo-a1-60911636/194379598",
      "flags": [],
      "p": [
-      [
-       20736,
-       108319.0
-      ],
       [
        20737,
        108687.0
@@ -131816,10 +131812,14 @@
       [
        20746,
        108140.0
+      ],
+      [
+       20747,
+       108138.0
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-victoria"
     },
     "194379455": {
@@ -131846,14 +131846,14 @@
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-victoria"
     },
     "194379597": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 92239.0,
+     "usd": 92237.0,
      "area": 44.0,
      "lat": -12.08786,
      "lng": -77.01864,
@@ -131867,10 +131867,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-santa-catalina-dpto-tipo-4-60911635/194379597",
      "flags": [],
      "p": [
-      [
-       20736,
-       92392.0
-      ],
       [
        20737,
        92706.0
@@ -131898,17 +131894,21 @@
       [
        20746,
        92239.0
+      ],
+      [
+       20747,
+       92237.0
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-victoria"
     },
     "194379621": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 106643.0,
+     "usd": 106641.0,
      "area": 48.0,
      "lat": -12.08806,
      "lng": -77.01408,
@@ -131922,10 +131922,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-santa-catalina-dpto-203-al-603-609116528/194379621",
      "flags": [],
      "p": [
-      [
-       20736,
-       106819.0
-      ],
       [
        20737,
        107182.0
@@ -131953,10 +131949,14 @@
       [
        20746,
        106643.0
+      ],
+      [
+       20747,
+       106641.0
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-victoria"
     },
     "194379453": {
@@ -131983,7 +131983,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-victoria"
     },
     "194379443": {
@@ -132010,14 +132010,14 @@
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-victoria"
     },
     "194379619": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 86277.0,
+     "usd": 86276.0,
      "area": 40.0,
      "lat": -12.08806,
      "lng": -77.01408,
@@ -132031,10 +132031,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-santa-catalina-dpto-201-al-1401-609116527/194379619",
      "flags": [],
      "p": [
-      [
-       20736,
-       86420.0
-      ],
       [
        20737,
        86714.0
@@ -132062,17 +132058,21 @@
       [
        20746,
        86277.0
+      ],
+      [
+       20747,
+       86276.0
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-victoria"
     },
     "194379623": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 105279.0,
+     "usd": 105278.0,
      "area": 49.0,
      "lat": -12.08806,
      "lng": -77.01408,
@@ -132086,10 +132086,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-santa-catalina-dpto-202-al-1202-609116529/194379623",
      "flags": [],
      "p": [
-      [
-       20736,
-       105453.0
-      ],
       [
        20737,
        105812.0
@@ -132117,17 +132113,21 @@
       [
        20746,
        105279.0
+      ],
+      [
+       20747,
+       105278.0
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-victoria"
     },
     "194379620": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 87525.0,
+     "usd": 87523.0,
      "area": 40.0,
      "lat": -12.08806,
      "lng": -77.01408,
@@ -132141,10 +132141,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-santa-catalina-dpto-208-al-908-609116526/194379620",
      "flags": [],
      "p": [
-      [
-       20736,
-       87670.0
-      ],
       [
        20737,
        87968.0
@@ -132172,17 +132168,21 @@
       [
        20746,
        87525.0
+      ],
+      [
+       20747,
+       87523.0
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-victoria"
     },
     "194379624": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 130577.0,
+     "usd": 130574.0,
      "area": 62.0,
      "lat": -12.08806,
      "lng": -77.01408,
@@ -132196,10 +132196,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-santa-catalina-dpto-1105-al-1605-609116530/194379624",
      "flags": [],
      "p": [
-      [
-       20736,
-       130792.0
-      ],
       [
        20737,
        131237.0
@@ -132227,17 +132223,21 @@
       [
        20746,
        130577.0
+      ],
+      [
+       20747,
+       130574.0
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-victoria"
     },
     "194379599": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 139808.0,
+     "usd": 139805.0,
      "area": 64.0,
      "lat": -12.08786,
      "lng": -77.01864,
@@ -132251,10 +132251,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-santa-catalina-dpto-tipo-5-60911637/194379599",
      "flags": [],
      "p": [
-      [
-       20736,
-       140039.0
-      ],
       [
        20737,
        140515.0
@@ -132282,17 +132278,21 @@
       [
        20746,
        139808.0
+      ],
+      [
+       20747,
+       139805.0
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-victoria"
     },
     "194379622": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 105076.0,
+     "usd": 105074.0,
      "area": 49.0,
      "lat": -12.08806,
      "lng": -77.01408,
@@ -132306,10 +132306,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-santa-catalina-dpto-1303-al-1603-609116531/194379622",
      "flags": [],
      "p": [
-      [
-       20736,
-       105250.0
-      ],
       [
        20737,
        105608.0
@@ -132337,10 +132333,14 @@
       [
        20746,
        105076.0
+      ],
+      [
+       20747,
+       105074.0
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-victoria"
     },
     "194379493": {
@@ -132367,7 +132367,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-victoria"
     },
     "194379427": {
@@ -132394,7 +132394,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "lince"
     },
     "194379423": {
@@ -132421,7 +132421,7 @@
       ]
      ],
      "f": 20736,
-     "r": 20746,
+     "r": 20747,
      "dist": "lince"
     },
     "194379420": {
@@ -137818,7 +137818,7 @@
       ]
      ],
      "f": 20737,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194385216": {
@@ -137849,7 +137849,7 @@
       ]
      ],
      "f": 20737,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194385219": {
@@ -137876,7 +137876,7 @@
       ]
      ],
      "f": 20737,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-molina"
     },
     "194385220": {
@@ -137903,7 +137903,7 @@
       ]
      ],
      "f": 20737,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-molina"
     },
     "194385221": {
@@ -138569,7 +138569,7 @@
       ]
      ],
      "f": 20739,
-     "r": 20746,
+     "r": 20747,
      "dist": "lince"
     },
     "194393422": {
@@ -139095,7 +139095,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 284304.0,
+     "usd": 284299.0,
      "area": 130.0,
      "lat": -12.08948,
      "lng": -77.02468,
@@ -139128,10 +139128,14 @@
       [
        20746,
        284304.0
+      ],
+      [
+       20747,
+       284299.0
       ]
      ],
      "f": 20740,
-     "r": 20746,
+     "r": 20747,
      "dist": "lince"
     },
     "194398828": {
@@ -140245,7 +140249,7 @@
       ]
      ],
      "f": 20741,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194404362": {
@@ -140272,14 +140276,14 @@
       ]
      ],
      "f": 20741,
-     "r": 20746,
+     "r": 20747,
      "dist": "lince"
     },
     "194400410": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 214678.0,
+     "usd": 214674.0,
      "area": 112.0,
      "lat": -12.0832,
      "lng": -77.04446,
@@ -140308,10 +140312,14 @@
       [
        20746,
        214678.0
+      ],
+      [
+       20747,
+       214674.0
       ]
      ],
      "f": 20741,
-     "r": 20746,
+     "r": 20747,
      "dist": "lince"
     },
     "194404358": {
@@ -140756,7 +140764,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 145691.0,
+     "usd": 145689.0,
      "area": 76.0,
      "lat": -12.07694,
      "lng": -77.05501,
@@ -140785,17 +140793,21 @@
       [
        20746,
        145691.0
+      ],
+      [
+       20747,
+       145689.0
       ]
      ],
      "f": 20743,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194414155": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 266897.0,
+     "usd": 266893.0,
      "area": 204.0,
      "lat": -12.08116,
      "lng": -77.04774,
@@ -140820,10 +140832,14 @@
       [
        20746,
        266897.0
+      ],
+      [
+       20747,
+       266893.0
       ]
      ],
      "f": 20743,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194415911": {
@@ -140850,14 +140866,14 @@
       ]
      ],
      "f": 20743,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194409987": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 143312.0,
+     "usd": 143310.0,
      "area": 77.0,
      "lat": -12.07694,
      "lng": -77.05501,
@@ -140886,10 +140902,14 @@
       [
        20746,
        143312.0
+      ],
+      [
+       20747,
+       143310.0
       ]
      ],
      "f": 20743,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194412341": {
@@ -140920,7 +140940,7 @@
       ]
      ],
      "f": 20743,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194414215": {
@@ -140947,7 +140967,7 @@
       ]
      ],
      "f": 20743,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-molina"
     },
     "194410746": {
@@ -140974,7 +140994,7 @@
       ]
      ],
      "f": 20743,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-victoria"
     },
     "194410851": {
@@ -141001,7 +141021,7 @@
       ]
      ],
      "f": 20743,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-victoria"
     },
     "194411119": {
@@ -141507,7 +141527,7 @@
       ]
      ],
      "f": 20744,
-     "r": 20746,
+     "r": 20747,
      "dist": "lince"
     },
     "194419958": {
@@ -141777,7 +141797,7 @@
       ]
      ],
      "f": 20746,
-     "r": 20746,
+     "r": 20747,
      "dist": "jesus-maria"
     },
     "194425043": {
@@ -141804,7 +141824,7 @@
       ]
      ],
      "f": 20746,
-     "r": 20746,
+     "r": 20747,
      "dist": "la-molina"
     },
     "194425797": {
@@ -141831,7 +141851,7 @@
       ]
      ],
      "f": 20746,
-     "r": 20746,
+     "r": 20747,
      "dist": "lince"
     },
     "194430546": {
@@ -142211,10 +142231,91 @@
      "f": 20747,
      "r": 20747,
      "dist": "barranco"
+    },
+    "194437342": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 320.0,
+     "area": 50.0,
+     "lat": -11.9273,
+     "lng": -77.05828,
+     "mon": "PEN",
+     "monto": 1100.0,
+     "mant": 0.29,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Comas",
+     "titulo": "Alquiler De Departamento Amoblado – Condominio Los Girasoles, Comas",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-amoblado-–-condominio-los-girasoles-comas/194437342",
+     "flags": [],
+     "p": [
+      [
+       20747,
+       320.0
+      ]
+     ],
+     "f": 20747,
+     "r": 20747,
+     "dist": "comas"
+    },
+    "194437348": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 61075.0,
+     "area": 64.0,
+     "lat": -12.03617,
+     "lng": -76.9929,
+     "mon": "PEN",
+     "monto": 210000.0,
+     "mant": 58.02,
+     "anio": "",
+     "dorm": "3",
+     "zona": "El Agustino",
+     "titulo": "Departamento En Venta En El Agustino | 64.14 M²",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-el-agustino-6414-m²/194437348",
+     "flags": [],
+     "p": [
+      [
+       20747,
+       61075.0
+      ]
+     ],
+     "f": 20747,
+     "r": 20747,
+     "dist": "el-agustino"
+    },
+    "194432993": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 316210.0,
+     "area": 142.0,
+     "lat": -12.03474,
+     "lng": -77.15815,
+     "mon": "PEN",
+     "monto": 1090000.0,
+     "mant": 87.03,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Jesus Maria",
+     "titulo": "DÚPLEX DE ESTRENO EN VENTA – ENTREGA INMEDIATA – JESÚS MARÍA(Ref: 863)",
+     "u": "https://www.infocasas.com.pe/duplex-de-estreno-en-venta-–-entrega-inmediata-–-jesus-mariaref-863-/194432993",
+     "flags": [],
+     "p": [
+      [
+       20747,
+       316210.0
+      ]
+     ],
+     "f": 20747,
+     "r": 20747,
+     "dist": "jesus-maria"
     }
    },
    "tc": 3.43980343980344,
-   "turno": 34,
+   "turno": 74,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -142243,48 +142344,48 @@
      "paginas": 40,
      "validos": 60,
      "fuera_ciudad": 0,
-     "momento": 1792603619
+     "momento": 1792619663
     },
     "arequipa": {
      "paginas": 4,
      "validos": 14,
      "fuera_ciudad": 0,
-     "momento": 1792603619
+     "momento": 1792619663
     },
     "cusco": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1792603619
+     "momento": 1792619663
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 5,
-     "momento": 1792603619
+     "momento": 1792619663
     },
     "trujillo": {
      "paginas": 4,
      "validos": 2,
      "fuera_ciudad": 0,
-     "momento": 1792603619
+     "momento": 1792619663
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1792603619
+     "momento": 1792619663
     }
    }
   },
   "cobertura_ciudades": {
    "lima": {
     "ciudad": "Lima",
-    "ventas": 838,
-    "alquileres": 213,
+    "ventas": 840,
+    "alquileres": 214,
     "estado": "con datos; comparables por microzona pendientes de cada aviso",
     "proyectos": 769,
-    "momento": 1792603619
+    "momento": 1792619663
    },
    "arequipa": {
     "ciudad": "Arequipa",
@@ -142292,7 +142393,7 @@
     "alquileres": 1,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 8,
-    "momento": 1792603619
+    "momento": 1792619663
    },
    "cusco": {
     "ciudad": "Cusco",
@@ -142300,7 +142401,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 1,
-    "momento": 1792603619
+    "momento": 1792619663
    },
    "cajamarca": {
     "ciudad": "Cajamarca",
@@ -142308,7 +142409,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1792603619
+    "momento": 1792619663
    },
    "trujillo": {
     "ciudad": "Trujillo",
@@ -142316,7 +142417,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1792603619
+    "momento": 1792619663
    },
    "huaraz": {
     "ciudad": "Huaraz",
@@ -142324,7 +142425,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1792603619
+    "momento": 1792619663
    }
   }
  }
