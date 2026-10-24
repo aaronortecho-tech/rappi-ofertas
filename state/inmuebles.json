@@ -67,12 +67,14 @@
   "faf236bd8f68a1b6": 1792449176,
   "fafc78c9b93aec7d": 1792840870
  },
- "failures": {},
+ "failures": {
+  "Infocasas/avisos recientes": 1
+ },
  "last_failure_notice": null,
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1792858137,
+ "saved_at": 1792875779,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -142018,7 +142020,7 @@
       ]
      ],
      "f": 20743,
-     "r": 20749,
+     "r": 20750,
      "dist": "punta-negra"
     },
     "194412472": {
@@ -144145,7 +144147,7 @@
       ]
      ],
      "f": 20749,
-     "r": 20749,
+     "r": 20750,
      "dist": "punta-negra"
     },
     "194448363": {
@@ -144690,7 +144692,7 @@
     }
    },
    "tc": 3.4313725490196076,
-   "turno": 104,
+   "turno": 107,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -144716,40 +144718,10 @@
    },
    "ultima_cobertura": {
     "lima": {
-     "paginas": 40,
-     "validos": 159,
+     "paginas": 3,
+     "validos": 2,
      "fuera_ciudad": 0,
-     "momento": 1792858137
-    },
-    "arequipa": {
-     "paginas": 4,
-     "validos": 6,
-     "fuera_ciudad": 0,
-     "momento": 1792858137
-    },
-    "cusco": {
-     "paginas": 4,
-     "validos": 0,
-     "fuera_ciudad": 0,
-     "momento": 1792858137
-    },
-    "cajamarca": {
-     "paginas": 4,
-     "validos": 0,
-     "fuera_ciudad": 4,
-     "momento": 1792858137
-    },
-    "trujillo": {
-     "paginas": 4,
-     "validos": 1,
-     "fuera_ciudad": 0,
-     "momento": 1792858137
-    },
-    "huaraz": {
-     "paginas": 4,
-     "validos": 0,
-     "fuera_ciudad": 0,
-     "momento": 1792858137
+     "momento": 1792875779
     }
    }
   },
@@ -144760,7 +144732,7 @@
     "alquileres": 230,
     "estado": "con datos; comparables por microzona pendientes de cada aviso",
     "proyectos": 774,
-    "momento": 1792858137
+    "momento": 1792875779
    },
    "arequipa": {
     "ciudad": "Arequipa",
@@ -144768,7 +144740,7 @@
     "alquileres": 1,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 8,
-    "momento": 1792858137
+    "momento": 1792875779
    },
    "cusco": {
     "ciudad": "Cusco",
@@ -144776,7 +144748,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 1,
-    "momento": 1792858137
+    "momento": 1792875779
    },
    "cajamarca": {
     "ciudad": "Cajamarca",
@@ -144784,7 +144756,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1792858137
+    "momento": 1792875779
    },
    "trujillo": {
     "ciudad": "Trujillo",
@@ -144792,7 +144764,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1792858137
+    "momento": 1792875779
    },
    "huaraz": {
     "ciudad": "Huaraz",
@@ -144800,7 +144772,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1792858137
+    "momento": 1792875779
    }
   }
  }
