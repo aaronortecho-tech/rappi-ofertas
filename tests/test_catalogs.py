@@ -229,3 +229,18 @@ def test_unknown_tail_stays_error_but_preserves_first_page():
                              sources=[('Falabella','Muebles','https://www.falabella.com.pe/muebles')])
     assert len(deals)==1 and reports[0][2]
     with pytest.raises(ValueError): retail_products('<script id="__NEXT_DATA__">{"props":{"pageProps":{"searchTerm":""}}}</script>','Falabella','Muebles')
+
+
+@pytest.mark.parametrize('domain,path,accepted', [
+    ('establecimientos.dinersclub.pe', '/modotravel/hotel', True),
+    ('establecimientos.dinersclub.pe.evil.example', '/modotravel/hotel', False),
+    ('establecimientos.dinersclub.pe', '/otra/hotel', False),
+])
+def test_diners_migrated_domain_keeps_link_scope(domain, path, accepted):
+    url = 'https://' + domain + path
+    html = '<a class="all__item" href="' + url + '"><span>Hotel</span><p>Hasta 22% de descuento</p></a>'
+    http = FakeHttp({DINERS_URL: html})
+    deals, reports = scan_travel(CatalogState(), NOW, http_factory=lambda **kw: http)
+    assert not deals
+    assert (reports[0][2] is None) == accepted
+    assert http.calls == [DINERS_URL]

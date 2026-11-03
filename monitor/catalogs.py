@@ -336,8 +336,11 @@ def scan_travel(state, now, http_factory=HttpClient):
         html = http.get(DINERS_URL)
         parser = DinersCards(); parser.feed(html or "")
         cards = [c for c in parser.cards if c['name'] and c['text']
-                 and urlsplit(c['url']).hostname == 'dinersclubperu.pe'
-                 and urlsplit(c['url']).path.startswith('/establecimientos/modotravel/')]
+                 and urlsplit(c['url']).scheme == 'https'
+                 and ((urlsplit(c['url']).hostname == 'dinersclubperu.pe'
+                       and urlsplit(c['url']).path.startswith('/establecimientos/modotravel/'))
+                      or (urlsplit(c['url']).hostname == 'establecimientos.dinersclub.pe'
+                          and urlsplit(c['url']).path.startswith('/modotravel/')))]
         if not cards: raise ValueError("no se encontraron promociones Diners")
         deals = []
         today = datetime.fromtimestamp(now, LIMA).date()
