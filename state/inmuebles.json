@@ -105,7 +105,7 @@
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1793822302,
+ "saved_at": 1793862333,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -133698,7 +133698,7 @@
       ]
      ],
      "f": 20732,
-     "r": 20761,
+     "r": 20762,
      "dist": "la-libertad/trujillo"
     },
     "194364144": {
@@ -135582,7 +135582,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20761,
+     "r": 20762,
      "dist": "arequipa"
     },
     "194379550": {
@@ -135613,7 +135613,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20761,
+     "r": 20762,
      "dist": "arequipa"
     },
     "194379461": {
@@ -135748,7 +135748,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "chorrillos"
     },
     "194379566": {
@@ -135802,7 +135802,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20759,
+     "r": 20762,
      "dist": "barranco"
     },
     "194379606": {
@@ -135829,14 +135829,14 @@
       ]
      ],
      "f": 20735,
-     "r": 20759,
+     "r": 20762,
      "dist": "barranco"
     },
     "194379607": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 158293.0,
+     "usd": 158589.0,
      "area": 74.0,
      "lat": -12.13686,
      "lng": -77.01852,
@@ -135850,10 +135850,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-barranco-dpto-803-609-1164-1/194379607",
      "flags": [],
      "p": [
-      [
-       20747,
-       158743.0
-      ],
       [
        20748,
        159143.0
@@ -135881,10 +135877,14 @@
       [
        20759,
        158293.0
+      ],
+      [
+       20762,
+       158589.0
       ]
      ],
      "f": 20735,
-     "r": 20759,
+     "r": 20762,
      "dist": "barranco"
     },
     "194379505": {
@@ -135911,7 +135911,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20759,
+     "r": 20762,
      "dist": "barranco"
     },
     "194379468": {
@@ -135938,7 +135938,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20759,
+     "r": 20762,
      "dist": "barranco"
     },
     "194379564": {
@@ -135965,7 +135965,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20759,
+     "r": 20762,
      "dist": "barranco"
     },
     "194379545": {
@@ -135992,7 +135992,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20759,
+     "r": 20762,
      "dist": "barranco"
     },
     "194379424": {
@@ -136019,20 +136019,20 @@
       ]
      ],
      "f": 20735,
-     "r": 20759,
+     "r": 20762,
      "dist": "barranco"
     },
     "194379152": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 781.0,
+     "usd": 783.0,
      "area": 49.0,
      "lat": -12.13954,
      "lng": -77.02289,
      "mon": "PEN",
      "monto": 2700.0,
-     "mant": 69.42,
+     "mant": 69.6,
      "anio": "",
      "dorm": "Mono",
      "zona": "Barranco",
@@ -136040,10 +136040,6 @@
      "u": "https://www.infocasas.com.pe/dpto-en-barranco-49-m2-1-hbit-1-ban-1-estac-s-2700/194379152",
      "flags": [],
      "p": [
-      [
-       20745,
-       784.0
-      ],
       [
        20746,
        783.0
@@ -136071,10 +136067,14 @@
       [
        20759,
        781.0
+      ],
+      [
+       20762,
+       783.0
       ]
      ],
      "f": 20735,
-     "r": 20759,
+     "r": 20762,
      "dist": "barranco"
     },
     "194379482": {
@@ -136105,7 +136105,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20759,
+     "r": 20762,
      "dist": "brena"
     },
     "194379403": {
@@ -136132,14 +136132,14 @@
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "carabayllo"
     },
     "194379610": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 123449.0,
+     "usd": 124043.0,
      "area": 59.0,
      "lat": -12.07618,
      "lng": -77.09993,
@@ -136153,10 +136153,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-602-609-1165-5/194379610",
      "flags": [],
      "p": [
-      [
-       20747,
-       124163.0
-      ],
       [
        20749,
        124476.0
@@ -136184,17 +136180,21 @@
       [
        20760,
        123449.0
+      ],
+      [
+       20762,
+       124043.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379612": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 138447.0,
+     "usd": 139113.0,
      "area": 66.0,
      "lat": -12.07618,
      "lng": -77.09993,
@@ -136208,10 +136208,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-204-al-1204-609-1165-2/194379612",
      "flags": [],
      "p": [
-      [
-       20747,
-       139248.0
-      ],
       [
        20749,
        139599.0
@@ -136239,17 +136235,21 @@
       [
        20760,
        138447.0
+      ],
+      [
+       20762,
+       139113.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379644": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 104860.0,
+     "usd": 105364.0,
      "area": 51.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -136263,10 +136263,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-502-al-1302-609-1165-23/194379644",
      "flags": [],
      "p": [
-      [
-       20747,
-       105466.0
-      ],
       [
        20749,
        105732.0
@@ -136294,17 +136290,21 @@
       [
        20760,
        104860.0
+      ],
+      [
+       20762,
+       105364.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379608": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 114508.0,
+     "usd": 115058.0,
      "area": 53.0,
      "lat": -12.07618,
      "lng": -77.09993,
@@ -136318,10 +136318,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-1903-2003-609-1165-3/194379608",
      "flags": [],
      "p": [
-      [
-       20747,
-       115170.0
-      ],
       [
        20749,
        115460.0
@@ -136349,17 +136345,21 @@
       [
        20760,
        114508.0
+      ],
+      [
+       20762,
+       115058.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379637": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 80435.0,
+     "usd": 80822.0,
      "area": 40.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -136373,10 +136373,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-308-al-1508-609-1165-18/194379637",
      "flags": [],
      "p": [
-      [
-       20747,
-       80900.0
-      ],
       [
        20749,
        81104.0
@@ -136404,17 +136400,21 @@
       [
        20760,
        80435.0
+      ],
+      [
+       20762,
+       80822.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379640": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 96789.0,
+     "usd": 97255.0,
      "area": 49.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -136428,10 +136428,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-404-al-1504-609-1165-20/194379640",
      "flags": [],
      "p": [
-      [
-       20747,
-       97349.0
-      ],
       [
        20749,
        97594.0
@@ -136459,17 +136455,21 @@
       [
        20760,
        96789.0
+      ],
+      [
+       20762,
+       97255.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379596": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 139538.0,
+     "usd": 140209.0,
      "area": 67.0,
      "lat": -12.07892,
      "lng": -77.10114,
@@ -136483,10 +136483,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-san-miguel-dpto-tipo-1-609-1163-10/194379596",
      "flags": [],
      "p": [
-      [
-       20747,
-       140345.0
-      ],
       [
        20749,
        140698.0
@@ -136514,10 +136510,14 @@
       [
        20760,
        139538.0
+      ],
+      [
+       20762,
+       140209.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379392": {
@@ -136544,14 +136544,14 @@
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379634": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 79781.0,
+     "usd": 80165.0,
      "area": 40.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -136565,10 +136565,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-305-al-1505-609-1165-17/194379634",
      "flags": [],
      "p": [
-      [
-       20747,
-       80242.0
-      ],
       [
        20749,
        80445.0
@@ -136596,17 +136592,21 @@
       [
        20760,
        79781.0
+      ],
+      [
+       20762,
+       80165.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379609": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 119122.0,
+     "usd": 119695.0,
      "area": 56.0,
      "lat": -12.07618,
      "lng": -77.09993,
@@ -136620,10 +136620,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-803-609-1165-4/194379609",
      "flags": [],
      "p": [
-      [
-       20747,
-       119812.0
-      ],
       [
        20749,
        120113.0
@@ -136651,17 +136647,21 @@
       [
        20760,
        119122.0
+      ],
+      [
+       20762,
+       119695.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379643": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 101532.0,
+     "usd": 102020.0,
      "area": 51.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -136675,10 +136675,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-401-al-1401-609-1165-22/194379643",
      "flags": [],
      "p": [
-      [
-       20747,
-       102119.0
-      ],
       [
        20749,
        102376.0
@@ -136706,10 +136702,14 @@
       [
        20760,
        101532.0
+      ],
+      [
+       20762,
+       102020.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379391": {
@@ -136736,14 +136736,14 @@
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379646": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 191452.0,
+     "usd": 192373.0,
      "area": 92.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -136757,10 +136757,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-1502-609-1165-25/194379646",
      "flags": [],
      "p": [
-      [
-       20747,
-       192559.0
-      ],
       [
        20749,
        193044.0
@@ -136788,17 +136784,21 @@
       [
        20760,
        191452.0
+      ],
+      [
+       20762,
+       192373.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379638": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 79617.0,
+     "usd": 80000.0,
      "area": 40.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -136812,10 +136812,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-309-al-1509-609-1165-16/194379638",
      "flags": [],
      "p": [
-      [
-       20747,
-       80078.0
-      ],
       [
        20749,
        80280.0
@@ -136843,17 +136839,21 @@
       [
        20760,
        79617.0
+      ],
+      [
+       20762,
+       80000.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379595": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 115234.0,
+     "usd": 115788.0,
      "area": 51.0,
      "lat": -12.07892,
      "lng": -77.10114,
@@ -136867,10 +136867,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-san-miguel-dpto-tipo-2-609-1163-9/194379595",
      "flags": [],
      "p": [
-      [
-       20747,
-       115901.0
-      ],
       [
        20749,
        116193.0
@@ -136898,10 +136894,14 @@
       [
        20760,
        115234.0
+      ],
+      [
+       20762,
+       115788.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379442": {
@@ -136928,14 +136928,14 @@
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379636": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 79781.0,
+     "usd": 80165.0,
      "area": 40.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -136949,10 +136949,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-307-al-1507-609-1165-15/194379636",
      "flags": [],
      "p": [
-      [
-       20747,
-       80242.0
-      ],
       [
        20749,
        80445.0
@@ -136980,17 +136976,21 @@
       [
        20760,
        79781.0
+      ],
+      [
+       20762,
+       80165.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379641": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 98343.0,
+     "usd": 98816.0,
      "area": 50.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -137004,10 +137004,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-310-al-1510-609-1165-21/194379641",
      "flags": [],
      "p": [
-      [
-       20747,
-       98912.0
-      ],
       [
        20749,
        99161.0
@@ -137035,17 +137031,21 @@
       [
        20760,
        98343.0
+      ],
+      [
+       20762,
+       98816.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379639": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 86840.0,
+     "usd": 87258.0,
      "area": 43.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -137059,10 +137059,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-306-al-1506-609-1165-19/194379639",
      "flags": [],
      "p": [
-      [
-       20747,
-       87343.0
-      ],
       [
        20749,
        87563.0
@@ -137090,10 +137086,14 @@
       [
        20760,
        86840.0
+      ],
+      [
+       20762,
+       87258.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194381040": {
@@ -137106,7 +137106,7 @@
      "lng": -77.03728,
      "mon": "USD",
      "monto": 105000.0,
-     "mant": 72.11,
+     "mant": 72.45,
      "anio": "",
      "dorm": "2",
      "zona": "Cercado De Lima",
@@ -137120,14 +137120,14 @@
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379594": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 71047.0,
+     "usd": 71388.0,
      "area": 32.0,
      "lat": -12.07892,
      "lng": -77.10114,
@@ -137141,10 +137141,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-san-miguel-dpto-tipo-3-609-1163-8/194379594",
      "flags": [],
      "p": [
-      [
-       20747,
-       71458.0
-      ],
       [
        20749,
        71638.0
@@ -137172,17 +137168,21 @@
       [
        20760,
        71047.0
+      ],
+      [
+       20762,
+       71388.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379645": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 188726.0,
+     "usd": 189634.0,
      "area": 90.0,
      "lat": -12.07532,
      "lng": -77.03386,
@@ -137196,10 +137196,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-santa-beatriz-dpto-1501-609-1165-24/194379645",
      "flags": [],
      "p": [
-      [
-       20747,
-       189818.0
-      ],
       [
        20749,
        190296.0
@@ -137227,17 +137223,21 @@
       [
        20760,
        188726.0
+      ],
+      [
+       20762,
+       189634.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379611": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 137582.0,
+     "usd": 138244.0,
      "area": 66.0,
      "lat": -12.07618,
      "lng": -77.09993,
@@ -137251,10 +137251,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-1201-al-2001-609-1165-1/194379611",
      "flags": [],
      "p": [
-      [
-       20747,
-       138378.0
-      ],
       [
        20749,
        138727.0
@@ -137282,10 +137278,14 @@
       [
        20760,
        137582.0
+      ],
+      [
+       20762,
+       138244.0
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194379407": {
@@ -137339,7 +137339,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "chorrillos"
     },
     "194379447": {
@@ -137370,7 +137370,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "chorrillos"
     },
     "194379437": {
@@ -137405,7 +137405,7 @@
       ]
      ],
      "f": 20735,
-     "r": 20760,
+     "r": 20762,
      "dist": "chorrillos"
     },
     "194379549": {
@@ -144259,7 +144259,7 @@
       ]
      ],
      "f": 20738,
-     "r": 20759,
+     "r": 20762,
      "dist": "barranco"
     },
     "194387506": {
@@ -144564,13 +144564,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 577.0,
+     "usd": 580.0,
      "area": 87.0,
      "lat": -12.16844,
      "lng": -77.0,
      "mon": "PEN",
      "monto": 2000.0,
-     "mant": 54.81,
+     "mant": 55.1,
      "anio": "",
      "dorm": "3",
      "zona": "Chorrillos",
@@ -144578,10 +144578,6 @@
      "u": "https://www.infocasas.com.pe/alquilo-departamento-3-dormitorios2-banos1-cochera-en-chorrillos/194391493",
      "flags": [],
      "p": [
-      [
-       20744,
-       581.0
-      ],
       [
        20746,
        580.0
@@ -144609,10 +144605,14 @@
       [
        20760,
        577.0
+      ],
+      [
+       20762,
+       580.0
       ]
      ],
      "f": 20739,
-     "r": 20760,
+     "r": 20762,
      "dist": "chorrillos"
     },
     "194390528": {
@@ -145131,14 +145131,14 @@
       ]
      ],
      "f": 20740,
-     "r": 20759,
+     "r": 20762,
      "dist": "barranco"
     },
     "194394632": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 136053.0,
+     "usd": 136708.0,
      "area": 66.0,
      "lat": -12.07548,
      "lng": -77.03677,
@@ -145152,10 +145152,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-el-cercado-de-lima-entrega-inmediata/194394632",
      "flags": [],
      "p": [
-      [
-       20747,
-       136840.0
-      ],
       [
        20749,
        137185.0
@@ -145183,10 +145179,14 @@
       [
        20760,
        136053.0
+      ],
+      [
+       20762,
+       136708.0
       ]
      ],
      "f": 20740,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194394972": {
@@ -146319,7 +146319,7 @@
      "lng": -77.03394,
      "mon": "USD",
      "monto": 1250.0,
-     "mant": 144.17,
+     "mant": 145.0,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -146333,8 +146333,8 @@
       ]
      ],
      "f": 20741,
-     "r": 20761,
-     "dist": "san-isidro"
+     "r": 20762,
+     "dist": "ate"
     },
     "194398959": {
      "op": "alquiler",
@@ -146346,7 +146346,7 @@
      "lng": -77.03394,
      "mon": "USD",
      "monto": 1250.0,
-     "mant": 144.17,
+     "mant": 145.0,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -146360,8 +146360,8 @@
       ]
      ],
      "f": 20741,
-     "r": 20761,
-     "dist": "san-isidro"
+     "r": 20762,
+     "dist": "ate"
     },
     "194398814": {
      "op": "venta",
@@ -146504,7 +146504,7 @@
       ]
      ],
      "f": 20741,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194404363": {
@@ -147033,14 +147033,14 @@
       ]
      ],
      "f": 20742,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194409989": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 164884.0,
+     "usd": 165677.0,
      "area": 80.0,
      "lat": -12.09409,
      "lng": -77.07822,
@@ -147054,10 +147054,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-san-miguel-dpt-1705-c-609-396-433/194409989",
      "flags": [],
      "p": [
-      [
-       20747,
-       165838.0
-      ],
       [
        20749,
        166255.0
@@ -147085,10 +147081,14 @@
       [
        20760,
        164884.0
+      ],
+      [
+       20762,
+       165677.0
       ]
      ],
      "f": 20742,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194409983": {
@@ -147119,7 +147119,7 @@
       ]
      ],
      "f": 20742,
-     "r": 20760,
+     "r": 20762,
      "dist": "chorrillos"
     },
     "194409988": {
@@ -147896,7 +147896,7 @@
       ]
      ],
      "f": 20743,
-     "r": 20761,
+     "r": 20762,
      "dist": "arequipa"
     },
     "194417143": {
@@ -147923,7 +147923,7 @@
       ]
      ],
      "f": 20743,
-     "r": 20761,
+     "r": 20762,
      "dist": "arequipa"
     },
     "194412642": {
@@ -148085,7 +148085,7 @@
       ]
      ],
      "f": 20745,
-     "r": 20759,
+     "r": 20762,
      "dist": "barranco"
     },
     "194425935": {
@@ -148835,7 +148835,7 @@
       ]
      ],
      "f": 20747,
-     "r": 20759,
+     "r": 20762,
      "dist": "barranco"
     },
     "194437342": {
@@ -149707,7 +149707,7 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 579.0,
+     "usd": 580.0,
      "area": 77.0,
      "lat": -12.05706,
      "lng": -77.04945,
@@ -149744,10 +149744,14 @@
       [
        20759,
        579.0
+      ],
+      [
+       20762,
+       580.0
       ]
      ],
      "f": 20748,
-     "r": 20759,
+     "r": 20762,
      "dist": "brena"
     },
     "194446511": {
@@ -150142,7 +150146,7 @@
       ]
      ],
      "f": 20749,
-     "r": 20761,
+     "r": 20762,
      "dist": "arequipa"
     },
     "194446506": {
@@ -150169,7 +150173,7 @@
       ]
      ],
      "f": 20749,
-     "r": 20761,
+     "r": 20762,
      "dist": "arequipa"
     },
     "194446505": {
@@ -150588,7 +150592,7 @@
       ]
      ],
      "f": 20750,
-     "r": 20759,
+     "r": 20762,
      "dist": "barranco"
     },
     "194446502": {
@@ -150619,7 +150623,7 @@
       ]
      ],
      "f": 20750,
-     "r": 20759,
+     "r": 20762,
      "dist": "barranco"
     },
     "194446503": {
@@ -150646,7 +150650,7 @@
       ]
      ],
      "f": 20750,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194446518": {
@@ -150673,7 +150677,7 @@
       ]
      ],
      "f": 20750,
-     "r": 20760,
+     "r": 20762,
      "dist": "chorrillos"
     },
     "194451347": {
@@ -151239,7 +151243,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 81021.0,
+     "usd": 81410.0,
      "area": 38.0,
      "lat": -12.07512,
      "lng": -77.08974,
@@ -151272,17 +151276,21 @@
       [
        20760,
        81021.0
+      ],
+      [
+       20762,
+       81410.0
       ]
      ],
      "f": 20751,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194451354": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 122468.0,
+     "usd": 123057.0,
      "area": 55.0,
      "lat": -12.07512,
      "lng": -77.08974,
@@ -151315,10 +151323,14 @@
       [
        20760,
        122468.0
+      ],
+      [
+       20762,
+       123057.0
       ]
      ],
      "f": 20751,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194451353": {
@@ -151345,7 +151357,7 @@
       ]
      ],
      "f": 20751,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194453728": {
@@ -151426,7 +151438,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 149895.0,
+     "usd": 150176.0,
      "area": 63.0,
      "lat": -12.13835,
      "lng": -77.01858,
@@ -151459,10 +151471,14 @@
       [
        20759,
        149895.0
+      ],
+      [
+       20762,
+       150176.0
       ]
      ],
      "f": 20752,
-     "r": 20759,
+     "r": 20762,
      "dist": "barranco"
     },
     "194461232": {
@@ -152196,14 +152212,14 @@
       ]
      ],
      "f": 20754,
-     "r": 20759,
+     "r": 20762,
      "dist": "villa-el-salvador"
     },
     "194463123": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 136226.0,
+     "usd": 136881.0,
      "area": 65.0,
      "lat": -12.07548,
      "lng": -77.03677,
@@ -152232,10 +152248,14 @@
       [
        20760,
        136226.0
+      ],
+      [
+       20762,
+       136881.0
       ]
      ],
      "f": 20754,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194462307": {
@@ -152761,7 +152781,7 @@
       ]
      ],
      "f": 20756,
-     "r": 20761,
+     "r": 20762,
      "dist": "la-libertad/trujillo"
     },
     "194482047": {
@@ -153861,14 +153881,14 @@
       ]
      ],
      "f": 20757,
-     "r": 20760,
-     "dist": "miraflores"
+     "r": 20762,
+     "dist": "ate"
     },
     "194482989": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 124846.0,
+     "usd": 125080.0,
      "area": 74.0,
      "lat": -12.06265,
      "lng": -77.04907,
@@ -153889,10 +153909,14 @@
       [
        20759,
        124846.0
+      ],
+      [
+       20762,
+       125080.0
       ]
      ],
      "f": 20757,
-     "r": 20759,
+     "r": 20762,
      "dist": "brena"
     },
     "194485407": {
@@ -153919,14 +153943,14 @@
       ]
      ],
      "f": 20757,
-     "r": 20760,
+     "r": 20762,
      "dist": "carabayllo"
     },
     "194482072": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 81493.0,
+     "usd": 81885.0,
      "area": 43.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -153947,17 +153971,21 @@
       [
        20760,
        81493.0
+      ],
+      [
+       20762,
+       81885.0
       ]
      ],
      "f": 20757,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194482074": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 96847.0,
+     "usd": 97313.0,
      "area": 52.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -153978,17 +154006,21 @@
       [
        20760,
        96847.0
+      ],
+      [
+       20762,
+       97313.0
       ]
      ],
      "f": 20757,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194486770": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 98330.0,
+     "usd": 98802.0,
      "area": 53.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -154009,17 +154041,21 @@
       [
        20760,
        98330.0
+      ],
+      [
+       20762,
+       98802.0
       ]
      ],
      "f": 20757,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194486771": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 98292.0,
+     "usd": 98765.0,
      "area": 53.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -154040,17 +154076,21 @@
       [
        20760,
        98292.0
+      ],
+      [
+       20762,
+       98765.0
       ]
      ],
      "f": 20757,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194482073": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 79644.0,
+     "usd": 80027.0,
      "area": 40.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -154071,17 +154111,21 @@
       [
        20760,
        79644.0
+      ],
+      [
+       20762,
+       80027.0
       ]
      ],
      "f": 20757,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194482071": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 74428.0,
+     "usd": 74786.0,
      "area": 40.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -154102,17 +154146,21 @@
       [
        20760,
        74428.0
+      ],
+      [
+       20762,
+       74786.0
       ]
      ],
      "f": 20757,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194486773": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 116238.0,
+     "usd": 116797.0,
      "area": 61.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -154133,23 +154181,27 @@
       [
        20760,
        116238.0
+      ],
+      [
+       20762,
+       116797.0
       ]
      ],
      "f": 20757,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194485569": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 577.0,
+     "usd": 580.0,
      "area": 87.0,
      "lat": -12.16885,
      "lng": -77.0004,
      "mon": "PEN",
      "monto": 2000.0,
-     "mant": 54.81,
+     "mant": 55.1,
      "anio": "",
      "dorm": "3",
      "zona": "Chorrillos",
@@ -154164,10 +154216,14 @@
       [
        20760,
        577.0
+      ],
+      [
+       20762,
+       580.0
       ]
      ],
      "f": 20757,
-     "r": 20760,
+     "r": 20762,
      "dist": "chorrillos"
     },
     "194486765": {
@@ -154421,7 +154477,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 129522.0,
+     "usd": 130145.0,
      "area": 73.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -154438,17 +154494,21 @@
       [
        20760,
        129522.0
+      ],
+      [
+       20762,
+       130145.0
       ]
      ],
      "f": 20760,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194489278": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 116238.0,
+     "usd": 116797.0,
      "area": 61.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -154465,17 +154525,21 @@
       [
        20760,
        116238.0
+      ],
+      [
+       20762,
+       116797.0
       ]
      ],
      "f": 20760,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194489282": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 129522.0,
+     "usd": 130145.0,
      "area": 67.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -154492,17 +154556,21 @@
       [
        20760,
        129522.0
+      ],
+      [
+       20762,
+       130145.0
       ]
      ],
      "f": 20760,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194489284": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 138527.0,
+     "usd": 139193.0,
      "area": 73.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -154519,17 +154587,21 @@
       [
        20760,
        138527.0
+      ],
+      [
+       20762,
+       139193.0
       ]
      ],
      "f": 20760,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194489281": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 127318.0,
+     "usd": 127930.0,
      "area": 67.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -154546,17 +154618,21 @@
       [
        20760,
        127318.0
+      ],
+      [
+       20762,
+       127930.0
       ]
      ],
      "f": 20760,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194489280": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 121439.0,
+     "usd": 122023.0,
      "area": 64.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -154573,17 +154649,21 @@
       [
        20760,
        121439.0
+      ],
+      [
+       20762,
+       122023.0
       ]
      ],
      "f": 20760,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194489279": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 115635.0,
+     "usd": 116191.0,
      "area": 61.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -154600,10 +154680,14 @@
       [
        20760,
        115635.0
+      ],
+      [
+       20762,
+       116191.0
       ]
      ],
      "f": 20760,
-     "r": 20760,
+     "r": 20762,
      "dist": "cercado-de-lima"
     },
     "194489911": {
@@ -155174,10 +155258,145 @@
      "f": 20761,
      "r": 20761,
      "dist": "surquillo"
+    },
+    "194496715": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 348.0,
+     "area": 59.0,
+     "lat": -11.9865,
+     "lng": -76.82096,
+     "mon": "PEN",
+     "monto": 1200.0,
+     "mant": 0.29,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Lurigancho",
+     "titulo": "Departamento En Alquiler En Ñaña | 3 Dormitorios + Cochera",
+     "u": "https://www.infocasas.com.pe/departamento-en-alquiler-en-nana-3-dormitorios-cochera/194496715",
+     "flags": [],
+     "p": [
+      [
+       20762,
+       348.0
+      ]
+     ],
+     "f": 20762,
+     "r": 20762,
+     "dist": "ate"
+    },
+    "194500463": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 1000.0,
+     "area": 60.0,
+     "lat": -12.13737,
+     "lng": -77.02234,
+     "mon": "USD",
+     "monto": 1000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Barranco",
+     "titulo": "Se alquila departamento dos dormitorios con vista al mar cerca al malecon",
+     "u": "https://www.infocasas.com.pe/se-alquila-departamento-dos-dormitorios-con-vista-al-mar-cerca-al-malecon/194500463",
+     "flags": [],
+     "p": [
+      [
+       20762,
+       1000.0
+      ]
+     ],
+     "f": 20762,
+     "r": 20762,
+     "dist": "barranco"
+    },
+    "194500453": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 770.0,
+     "area": 49.0,
+     "lat": -12.14392,
+     "lng": -77.02294,
+     "mon": "USD",
+     "monto": 770.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Barranco",
+     "titulo": "Departamento en Alquiler Duplex 1 hab con terraza",
+     "u": "https://www.infocasas.com.pe/departamento-en-alquiler-duplex-1-hab-con-terraza/194500453",
+     "flags": [],
+     "p": [
+      [
+       20762,
+       770.0
+      ]
+     ],
+     "f": 20762,
+     "r": 20762,
+     "dist": "barranco"
+    },
+    "194493450": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 150000.0,
+     "area": 206.0,
+     "lat": -12.06519,
+     "lng": -77.0412,
+     "mon": "USD",
+     "monto": 150000.0,
+     "mant": 0.29,
+     "anio": "",
+     "dorm": "4",
+     "zona": "Breña",
+     "titulo": "Departamento En Venta En Lima | 206 M² En Primer Piso",
+     "u": "https://www.infocasas.com.pe/departamento-en-venta-en-lima-206-m-en-primer-piso/194493450",
+     "flags": [],
+     "p": [
+      [
+       20762,
+       150000.0
+      ]
+     ],
+     "f": 20762,
+     "r": 20762,
+     "dist": "brena"
+    },
+    "194497795": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 383.0,
+     "area": 40.0,
+     "lat": -12.05663,
+     "lng": -77.04715,
+     "mon": "PEN",
+     "monto": 1320.0,
+     "mant": 52.2,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Breña",
+     "titulo": "Alquiler De Departamento De 40 M2 En Breña 2 Habitaciones 1 Baño, Departamento/C",
+     "u": "https://www.infocasas.com.pe/alquiler-de-departamento-de-40-m2-en-brena-2-habitaciones-1-bano-departamentoc/194497795",
+     "flags": [],
+     "p": [
+      [
+       20762,
+       383.0
+      ]
+     ],
+     "f": 20762,
+     "r": 20762,
+     "dist": "brena"
     }
    },
    "tc": 3.4653465346534653,
-   "turno": 164,
+   "turno": 30,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -155204,50 +155423,50 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 103,
+     "validos": 85,
      "fuera_ciudad": 0,
-     "momento": 1793822302
+     "momento": 1793862333
     },
     "arequipa": {
      "paginas": 4,
      "validos": 6,
      "fuera_ciudad": 0,
-     "momento": 1793822302
+     "momento": 1793862333
     },
     "cusco": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1793822302
+     "momento": 1793862333
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 4,
-     "momento": 1793822302
+     "momento": 1793862333
     },
     "trujillo": {
      "paginas": 4,
      "validos": 2,
      "fuera_ciudad": 0,
-     "momento": 1793822302
+     "momento": 1793862333
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1793822302
+     "momento": 1793862333
     }
    }
   },
   "cobertura_ciudades": {
    "lima": {
     "ciudad": "Lima",
-    "ventas": 981,
-    "alquileres": 270,
+    "ventas": 982,
+    "alquileres": 274,
     "estado": "con datos; comparables por microzona pendientes de cada aviso",
     "proyectos": 794,
-    "momento": 1793822302
+    "momento": 1793862333
    },
    "arequipa": {
     "ciudad": "Arequipa",
@@ -155255,7 +155474,7 @@
     "alquileres": 1,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 8,
-    "momento": 1793822302
+    "momento": 1793862333
    },
    "cusco": {
     "ciudad": "Cusco",
@@ -155263,7 +155482,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 1,
-    "momento": 1793822302
+    "momento": 1793862333
    },
    "cajamarca": {
     "ciudad": "Cajamarca",
@@ -155271,7 +155490,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1793822302
+    "momento": 1793862333
    },
    "trujillo": {
     "ciudad": "Trujillo",
@@ -155279,7 +155498,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1793822302
+    "momento": 1793862333
    },
    "huaraz": {
     "ciudad": "Huaraz",
@@ -155287,7 +155506,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1793822302
+    "momento": 1793862333
    }
   }
  }
