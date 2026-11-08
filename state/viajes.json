@@ -13,7 +13,7 @@
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1794143889,
+ "saved_at": 1794162615,
  "history": {
   "00527e7e5e0df713": [
    [
@@ -27013,6 +27013,12 @@
     192.0
    ]
   ],
+  "2e2d988c050bce0e": [
+   [
+    20765,
+    148.75
+   ]
+  ],
   "307cb0ed23af6afb": [
    [
     20765,
@@ -31795,20 +31801,6 @@
     1348.0
    ]
   ],
-  "9f0bdf76ea11b952": [
-   [
-    20760,
-    145.05
-   ],
-   [
-    20763,
-    144.67
-   ],
-   [
-    20764,
-    144.67
-   ]
-  ],
   "b90cc1bc3fec40e0": [
    [
     20762,
@@ -34377,6 +34369,24 @@
    [
     20765,
     76.32
+   ]
+  ],
+  "9f0bdf76ea11b952": [
+   [
+    20760,
+    145.05
+   ],
+   [
+    20763,
+    144.67
+   ],
+   [
+    20764,
+    144.67
+   ],
+   [
+    20765,
+    144.67
    ]
   ],
   "a63ae157bce04fa0": [
@@ -96592,15 +96602,15 @@
   "incidentes_viajes": {
    "Diners/viajes": {
     "avisado": false,
-    "buenas": 21
+    "buenas": 22
    },
    "JetSMART/tarifas desde Lima": {
     "avisado": false,
-    "buenas": 21
+    "buenas": 22
    },
    "SKY/tarifas desde Lima": {
     "avisado": false,
-    "buenas": 213
+    "buenas": 214
    },
    "Travelpayouts/fechas desde Lima": {
     "avisado": false,
