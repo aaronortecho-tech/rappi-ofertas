@@ -113,13 +113,13 @@
   "fafc78c9b93aec7d": 1792840870
  },
  "failures": {
-  "Nexo Inmobiliario/proyectos": 12
+  "Nexo Inmobiliario/proyectos": 13
  },
- "last_failure_notice": 1794426462,
+ "last_failure_notice": 1794514326,
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1794468578,
+ "saved_at": 1794514326,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -59846,7 +59846,7 @@
       ]
      },
      "r": 20755,
-     "x": 20767
+     "x": 20769
     },
     "3989": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/condominio-solaris-3989",
@@ -110869,6 +110869,299 @@
      },
      "r": 20767,
      "x": 20769
+    },
+    "4437": {
+     "u": "https://nexoinmobiliario.pe/departamentos/pueblo-libre/macadamia-4437",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Pueblo Libre",
+     "nombre": "Macadamia",
+     "marca": "ABRIL GRUPO INMOBILIARIO",
+     "lat": -12.07143,
+     "lng": -77.07813,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo X01": [
+       49.3,
+       2,
+       "PEN",
+       313200.0
+      ],
+      "Modelo X05": [
+       40.12,
+       1,
+       "PEN",
+       278100.0
+      ],
+      "Modelo X10": [
+       49.8,
+       2,
+       "PEN",
+       334800.0
+      ],
+      "Modelo X11": [
+       60.96,
+       3,
+       "PEN",
+       396900.0
+      ],
+      "Modelo X12": [
+       48.28,
+       2,
+       "PEN",
+       327600.0
+      ],
+      "Modelo X15": [
+       65.5,
+       3,
+       "PEN",
+       411300.0
+      ],
+      "Modelo X16": [
+       41.94,
+       1,
+       "PEN",
+       274500.0
+      ],
+      "Modelo X18": [
+       53.6,
+       2,
+       "PEN",
+       343800.0
+      ],
+      "Modelo X20": [
+       40.38,
+       1,
+       "PEN",
+       264600.0
+      ],
+      "Modelo X21": [
+       44.15,
+       2,
+       "PEN",
+       288900.0
+      ],
+      "Modelo X24": [
+       53.95,
+       2,
+       "PEN",
+       339300.0
+      ]
+     },
+     "primero": {
+      "Modelo X01": [
+       "PEN",
+       313200.0,
+       20769
+      ],
+      "Modelo X05": [
+       "PEN",
+       278100.0,
+       20769
+      ],
+      "Modelo X10": [
+       "PEN",
+       334800.0,
+       20769
+      ],
+      "Modelo X11": [
+       "PEN",
+       396900.0,
+       20769
+      ],
+      "Modelo X12": [
+       "PEN",
+       327600.0,
+       20769
+      ],
+      "Modelo X15": [
+       "PEN",
+       411300.0,
+       20769
+      ],
+      "Modelo X16": [
+       "PEN",
+       274500.0,
+       20769
+      ],
+      "Modelo X18": [
+       "PEN",
+       343800.0,
+       20769
+      ],
+      "Modelo X20": [
+       "PEN",
+       264600.0,
+       20769
+      ],
+      "Modelo X21": [
+       "PEN",
+       288900.0,
+       20769
+      ],
+      "Modelo X24": [
+       "PEN",
+       339300.0,
+       20769
+      ]
+     },
+     "r": 20769,
+     "x": 20769
+    },
+    "4448": {
+     "u": "https://nexoinmobiliario.pe/departamentos/surquillo/granada-4448",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Surquillo",
+     "nombre": "GRANADA",
+     "marca": "ABRIL GRUPO INMOBILIARIO",
+     "lat": -12.11196,
+     "lng": -77.01052,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo 1-X02": [
+       54.25,
+       2,
+       "PEN",
+       352000.0
+      ],
+      "Modelo 1-X03": [
+       40.37,
+       1,
+       "PEN",
+       277000.0
+      ],
+      "Modelo 1-X04": [
+       61.45,
+       3,
+       "PEN",
+       386000.0
+      ],
+      "Modelo 1-X11": [
+       51.65,
+       2,
+       "PEN",
+       343000.0
+      ],
+      "Modelo 1-X13": [
+       53.93,
+       2,
+       "PEN",
+       341000.0
+      ],
+      "Modelo 1-X14": [
+       53.75,
+       2,
+       "PEN",
+       340000.0
+      ],
+      "Modelo 2-X01": [
+       40.08,
+       1,
+       "PEN",
+       263000.0
+      ],
+      "Modelo 1-X06": [
+       62.38,
+       3,
+       "PEN",
+       392000.0
+      ],
+      "Modelo 2-X02": [
+       55.19,
+       2,
+       "PEN",
+       365000.0
+      ]
+     },
+     "primero": {
+      "Modelo 1-X02": [
+       "PEN",
+       352000.0,
+       20769
+      ],
+      "Modelo 1-X03": [
+       "PEN",
+       277000.0,
+       20769
+      ],
+      "Modelo 1-X04": [
+       "PEN",
+       386000.0,
+       20769
+      ],
+      "Modelo 1-X11": [
+       "PEN",
+       343000.0,
+       20769
+      ],
+      "Modelo 1-X13": [
+       "PEN",
+       341000.0,
+       20769
+      ],
+      "Modelo 1-X14": [
+       "PEN",
+       340000.0,
+       20769
+      ],
+      "Modelo 2-X01": [
+       "PEN",
+       263000.0,
+       20769
+      ],
+      "Modelo 1-X06": [
+       "PEN",
+       392000.0,
+       20769
+      ],
+      "Modelo 2-X02": [
+       "PEN",
+       365000.0,
+       20769
+      ]
+     },
+     "r": 20769,
+     "x": 20769
+    },
+    "4452": {
+     "u": "https://nexoinmobiliario.pe/departamentos/lince/geranios-328-4452",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Lince",
+     "nombre": "Geranios 328",
+     "marca": "Crearq Inmobiliaria",
+     "lat": -12.09051,
+     "lng": -77.02673,
+     "etapa": "inmediata",
+     "modelos": {
+      "Modelo TIPO 34": [
+       67.61,
+       2,
+       "PEN",
+       570000.0
+      ],
+      "Modelo TIPO 37": [
+       130.09,
+       2,
+       "PEN",
+       870000.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO 34": [
+       "PEN",
+       570000.0,
+       20769
+      ],
+      "Modelo TIPO 37": [
+       "PEN",
+       870000.0,
+       20769
+      ]
+     },
+     "r": 20769,
+     "x": 20769
     }
    },
    "ultima": 1793993830
@@ -146402,7 +146695,7 @@
      "lng": -77.03993,
      "mon": "USD",
      "monto": 1050.0,
-     "mant": 130.8,
+     "mant": 131.1,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -146420,7 +146713,7 @@
       ]
      ],
      "f": 20739,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-isidro"
     },
     "194393410": {
@@ -146474,7 +146767,7 @@
       ]
      ],
      "f": 20740,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194393415": {
@@ -147689,7 +147982,7 @@
      "lng": -77.03394,
      "mon": "USD",
      "monto": 1250.0,
-     "mant": 146.67,
+     "mant": 145.67,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -147703,8 +147996,8 @@
       ]
      ],
      "f": 20741,
-     "r": 20768,
-     "dist": "ate"
+     "r": 20769,
+     "dist": "san-isidro"
     },
     "194398959": {
      "op": "alquiler",
@@ -147716,7 +148009,7 @@
      "lng": -77.03394,
      "mon": "USD",
      "monto": 1250.0,
-     "mant": 146.67,
+     "mant": 145.67,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -147730,8 +148023,8 @@
       ]
      ],
      "f": 20741,
-     "r": 20768,
-     "dist": "ate"
+     "r": 20769,
+     "dist": "san-isidro"
     },
     "194398814": {
      "op": "venta",
@@ -147761,14 +148054,14 @@
       ]
      ],
      "f": 20741,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-isidro"
     },
     "194400553": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 100490.0,
+     "usd": 100725.0,
      "area": 53.0,
      "lat": -12.07709,
      "lng": -77.09877,
@@ -147782,10 +148075,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-miguel-entrega-inmediata/194400553",
      "flags": [],
      "p": [
-      [
-       20754,
-       100418.0
-      ],
       [
        20755,
        100292.0
@@ -147813,10 +148102,14 @@
       [
        20767,
        100490.0
+      ],
+      [
+       20769,
+       100725.0
       ]
      ],
      "f": 20741,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-miguel"
     },
     "194398822": {
@@ -148205,7 +148498,7 @@
       ]
      ],
      "f": 20742,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-isidro"
     },
     "194404353": {
@@ -148232,7 +148525,7 @@
       ]
      ],
      "f": 20742,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194404354": {
@@ -148294,14 +148587,14 @@
       ]
      ],
      "f": 20742,
-     "r": 20767,
+     "r": 20769,
      "dist": "surquillo"
     },
     "194406303": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 128110.0,
+     "usd": 128409.0,
      "area": 52.0,
      "lat": -12.1041,
      "lng": -77.01848,
@@ -148315,10 +148608,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-surquillo-entrega-inmediata/194406303",
      "flags": [],
      "p": [
-      [
-       20754,
-       128018.0
-      ],
       [
        20756,
        127760.0
@@ -148346,10 +148635,14 @@
       [
        20767,
        128110.0
+      ],
+      [
+       20769,
+       128409.0
       ]
      ],
      "f": 20742,
-     "r": 20767,
+     "r": 20769,
      "dist": "surquillo"
     },
     "194409982": {
@@ -149184,20 +149477,20 @@
       ]
      ],
      "f": 20743,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-miguel"
     },
     "194416400": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 698.0,
+     "usd": 699.0,
      "area": 79.0,
      "lat": -12.08166,
      "lng": -77.09407,
      "mon": "PEN",
      "monto": 2400.0,
-     "mant": 84.28,
+     "mant": 84.48,
      "anio": "",
      "dorm": "3",
      "zona": "San Miguel",
@@ -149205,10 +149498,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-de-departamento-3-dormitorios-en-san-miguel-condominio-los-prados/194416400",
      "flags": [],
      "p": [
-      [
-       20754,
-       697.0
-      ],
       [
        20755,
        696.0
@@ -149236,10 +149525,14 @@
       [
        20767,
        698.0
+      ],
+      [
+       20769,
+       699.0
       ]
      ],
      "f": 20743,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-miguel"
     },
     "194417142": {
@@ -149306,7 +149599,7 @@
      "lng": -77.05769,
      "mon": "USD",
      "monto": 350000.0,
-     "mant": 261.56,
+     "mant": 262.18,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -149320,7 +149613,7 @@
       ]
      ],
      "f": 20743,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194417145": {
@@ -150049,14 +150342,14 @@
       ]
      ],
      "f": 20747,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-isidro"
     },
     "194430328": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 124865.0,
+     "usd": 125157.0,
      "area": 67.0,
      "lat": -12.07969,
      "lng": -77.08178,
@@ -150070,10 +150363,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-miguel-entrega-inmediata/194430328",
      "flags": [],
      "p": [
-      [
-       20754,
-       124776.0
-      ],
       [
        20755,
        124619.0
@@ -150101,10 +150390,14 @@
       [
        20767,
        124865.0
+      ],
+      [
+       20769,
+       125157.0
       ]
      ],
      "f": 20747,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-miguel"
     },
     "194432970": {
@@ -151057,7 +151350,7 @@
       ]
      ],
      "f": 20748,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-luis"
     },
     "194438151": {
@@ -151070,7 +151363,7 @@
      "lng": -76.97351,
      "mon": "USD",
      "monto": 1000.0,
-     "mant": 101.69,
+     "mant": 101.89,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -151086,7 +151379,7 @@
       ]
      ],
      "f": 20748,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194437285": {
@@ -151729,14 +152022,14 @@
       ]
      ],
      "f": 20749,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-juan-de-miraflores"
     },
     "194449716": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 110790.0,
+     "usd": 111049.0,
      "area": 53.0,
      "lat": -12.07795,
      "lng": -77.09652,
@@ -151750,10 +152043,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-miguel-entrega-inmediata/194449716",
      "flags": [],
      "p": [
-      [
-       20754,
-       110711.0
-      ],
       [
        20755,
        110572.0
@@ -151781,10 +152070,14 @@
       [
        20767,
        110790.0
+      ],
+      [
+       20769,
+       111049.0
       ]
      ],
      "f": 20749,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-miguel"
     },
     "194446517": {
@@ -151811,7 +152104,7 @@
       ]
      ],
      "f": 20749,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194447897": {
@@ -151824,7 +152117,7 @@
      "lng": -76.99064,
      "mon": "USD",
      "monto": 98000.0,
-     "mant": 37.78,
+     "mant": 37.87,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -151838,7 +152131,7 @@
       ]
      ],
      "f": 20749,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194446498": {
@@ -151865,20 +152158,20 @@
       ]
      ],
      "f": 20749,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194447818": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 523.0,
+     "usd": 524.0,
      "area": 69.0,
      "lat": -12.14412,
      "lng": -77.01249,
      "mon": "PEN",
      "monto": 1800.0,
-     "mant": 72.64,
+     "mant": 72.78,
      "anio": "",
      "dorm": "2",
      "zona": "Santiago De Surco",
@@ -151886,10 +152179,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-departamento-en-surco/194447818",
      "flags": [],
      "p": [
-      [
-       20754,
-       523.0
-      ],
       [
        20756,
        522.0
@@ -151917,17 +152206,21 @@
       [
        20767,
        523.0
+      ],
+      [
+       20769,
+       524.0
       ]
      ],
      "f": 20749,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194446524": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 151010.0,
+     "usd": 151363.0,
      "area": 66.0,
      "lat": -12.11677,
      "lng": -77.00637,
@@ -151941,10 +152234,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-surquillo-dpto-603-609-963-6/194446524",
      "flags": [],
      "p": [
-      [
-       20754,
-       150902.0
-      ],
       [
        20756,
        150598.0
@@ -151972,10 +152261,14 @@
       [
        20767,
        151010.0
+      ],
+      [
+       20769,
+       151363.0
       ]
      ],
      "f": 20749,
-     "r": 20767,
+     "r": 20769,
      "dist": "surquillo"
     },
     "194446501": {
@@ -152371,20 +152664,20 @@
       ]
      ],
      "f": 20751,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-isidro"
     },
     "194453093": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 872.0,
+     "usd": 874.0,
      "area": 76.0,
      "lat": -12.09602,
      "lng": -77.05517,
      "mon": "PEN",
      "monto": 3000.0,
-     "mant": 101.73,
+     "mant": 101.97,
      "anio": "",
      "dorm": "2",
      "zona": "San Isidro",
@@ -152392,10 +152685,6 @@
      "u": "https://www.infocasas.com.pe/ocasion-esupendo-dpto-sin-muebles-san-isidro/194453093",
      "flags": [],
      "p": [
-      [
-       20751,
-       874.0
-      ],
       [
        20753,
        870.0
@@ -152423,10 +152712,14 @@
       [
        20767,
        872.0
+      ],
+      [
+       20769,
+       874.0
       ]
      ],
      "f": 20751,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-isidro"
     },
     "194453727": {
@@ -152453,14 +152746,14 @@
       ]
      ],
      "f": 20751,
-     "r": 20767,
+     "r": 20769,
      "dist": "santa-anita"
     },
     "194453731": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 144035.0,
+     "usd": 144372.0,
      "area": 102.0,
      "lat": -12.13209,
      "lng": -77.00514,
@@ -152474,10 +152767,6 @@
      "u": "https://www.infocasas.com.pe/venta-duplex-en-surco-dpt-402-609-1023-1-carla/194453731",
      "flags": [],
      "p": [
-      [
-       20754,
-       143932.0
-      ],
       [
        20756,
        143642.0
@@ -152505,10 +152794,14 @@
       [
        20767,
        144035.0
+      ],
+      [
+       20769,
+       144372.0
       ]
      ],
      "f": 20751,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194453730": {
@@ -152535,7 +152828,7 @@
       ]
      ],
      "f": 20751,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194451350": {
@@ -152566,7 +152859,7 @@
       ]
      ],
      "f": 20751,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194451346": {
@@ -152593,7 +152886,7 @@
       ]
      ],
      "f": 20751,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194451345": {
@@ -152647,7 +152940,7 @@
       ]
      ],
      "f": 20751,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194453729": {
@@ -152838,14 +153131,14 @@
       ]
      ],
      "f": 20752,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-isidro"
     },
     "194459722": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 139378.0,
+     "usd": 139704.0,
      "area": 59.0,
      "lat": -12.1041,
      "lng": -77.01848,
@@ -152859,10 +153152,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-surquillo-entrega-inmediata/194459722",
      "flags": [],
      "p": [
-      [
-       20754,
-       139278.0
-      ],
       [
        20756,
        138998.0
@@ -152890,10 +153179,14 @@
       [
        20767,
        139378.0
+      ],
+      [
+       20769,
+       139704.0
       ]
      ],
      "f": 20752,
-     "r": 20767,
+     "r": 20769,
      "dist": "surquillo"
     },
     "194459117": {
@@ -153327,7 +153620,7 @@
      "lng": -77.04342,
      "mon": "USD",
      "monto": 2200.0,
-     "mant": 261.6,
+     "mant": 262.2,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -153341,7 +153634,7 @@
       ]
      ],
      "f": 20753,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-isidro"
     },
     "194461794": {
@@ -153368,7 +153661,7 @@
       ]
      ],
      "f": 20753,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-juan-de-miraflores"
     },
     "194461795": {
@@ -153395,7 +153688,7 @@
       ]
      ],
      "f": 20753,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-martin-de-porres"
     },
     "194461796": {
@@ -153422,14 +153715,14 @@
       ]
      ],
      "f": 20753,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-martin-de-porres"
     },
     "194459440": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 100490.0,
+     "usd": 100725.0,
      "area": 53.0,
      "lat": -12.07709,
      "lng": -77.09877,
@@ -153443,10 +153736,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-miguel-entrega-inmediata/194459440",
      "flags": [],
      "p": [
-      [
-       20754,
-       100418.0
-      ],
       [
        20755,
        100292.0
@@ -153474,17 +153763,21 @@
       [
        20767,
        100490.0
+      ],
+      [
+       20769,
+       100725.0
       ]
      ],
      "f": 20754,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-miguel"
     },
     "194462954": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 95616.0,
+     "usd": 95840.0,
      "area": 48.0,
      "lat": -12.08808,
      "lng": -77.08452,
@@ -153498,10 +153791,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-miguel-entrega-inmediata/194462954",
      "flags": [],
      "p": [
-      [
-       20754,
-       95548.0
-      ],
       [
        20755,
        95428.0
@@ -153529,17 +153818,21 @@
       [
        20767,
        95616.0
+      ],
+      [
+       20769,
+       95840.0
       ]
      ],
      "f": 20754,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-miguel"
     },
     "194459583": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 95907.0,
+     "usd": 96131.0,
      "area": 47.0,
      "lat": -12.08808,
      "lng": -77.08452,
@@ -153553,10 +153846,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-miguel-entrega-inmediata/194459583",
      "flags": [],
      "p": [
-      [
-       20754,
-       95838.0
-      ],
       [
        20755,
        95718.0
@@ -153584,23 +153873,27 @@
       [
        20767,
        95907.0
+      ],
+      [
+       20769,
+       96131.0
       ]
      ],
      "f": 20754,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-miguel"
     },
     "194460800": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 334221.0,
+     "usd": 335003.0,
      "area": 115.0,
      "lat": -12.10326,
      "lng": -76.9662,
      "mon": "PEN",
      "monto": 1150000.0,
-     "mant": 116.25,
+     "mant": 116.52,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -153608,10 +153901,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-de-estreno-magna-haus-surco/194460800",
      "flags": [],
      "p": [
-      [
-       20754,
-       333982.0
-      ],
       [
        20756,
        333309.0
@@ -153639,10 +153928,14 @@
       [
        20767,
        334221.0
+      ],
+      [
+       20769,
+       335003.0
       ]
      ],
      "f": 20754,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194463772": {
@@ -153655,7 +153948,7 @@
      "lng": -76.98567,
      "mon": "USD",
      "monto": 350000.0,
-     "mant": 261.56,
+     "mant": 262.18,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -153669,7 +153962,7 @@
       ]
      ],
      "f": 20754,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194460406": {
@@ -153682,7 +153975,7 @@
      "lng": -76.9836,
      "mon": "USD",
      "monto": 1200.0,
-     "mant": 90.07,
+     "mant": 90.24,
      "anio": "",
      "dorm": "4",
      "zona": "Santiago De Surco",
@@ -153696,14 +153989,14 @@
       ]
      ],
      "f": 20754,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194464600": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 523.0,
+     "usd": 524.0,
      "area": 80.0,
      "lat": -12.16029,
      "lng": -76.98903,
@@ -153717,10 +154010,6 @@
      "u": "https://www.infocasas.com.pe/alquilo-departamento-de-estreno-80m2-en-3er-piso-surco-cerca-av-los-proceres/194464600",
      "flags": [],
      "p": [
-      [
-       20754,
-       523.0
-      ],
       [
        20756,
        522.0
@@ -153748,10 +154037,14 @@
       [
        20767,
        523.0
+      ],
+      [
+       20769,
+       524.0
       ]
      ],
      "f": 20754,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194461789": {
@@ -154275,7 +154568,7 @@
       ]
      ],
      "f": 20755,
-     "r": 20767,
+     "r": 20769,
      "dist": "santa-anita"
     },
     "194470554": {
@@ -154302,7 +154595,7 @@
       ]
      ],
      "f": 20756,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194472873": {
@@ -154329,14 +154622,14 @@
       ]
      ],
      "f": 20756,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194468470": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 139368.0,
+     "usd": 139694.0,
      "area": 59.0,
      "lat": -12.1041,
      "lng": -77.01848,
@@ -154377,10 +154670,14 @@
       [
        20767,
        139368.0
+      ],
+      [
+       20769,
+       139694.0
       ]
      ],
      "f": 20756,
-     "r": 20767,
+     "r": 20769,
      "dist": "surquillo"
     },
     "194480561": {
@@ -155458,7 +155755,7 @@
      "lng": -77.03677,
      "mon": "USD",
      "monto": 1300.0,
-     "mant": 130.8,
+     "mant": 131.1,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -155472,7 +155769,7 @@
       ]
      ],
      "f": 20757,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-isidro"
     },
     "194476913": {
@@ -155503,7 +155800,7 @@
       ]
      ],
      "f": 20757,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-juan-de-lurigancho"
     },
     "194487096": {
@@ -155516,7 +155813,7 @@
      "lng": -77.09341,
      "mon": "USD",
      "monto": 100000.0,
-     "mant": 23.25,
+     "mant": 23.3,
      "anio": "",
      "dorm": "2",
      "zona": "San Miguel",
@@ -155530,14 +155827,14 @@
       ]
      ],
      "f": 20757,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-miguel"
     },
     "194482862": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 136725.0,
+     "usd": 137045.0,
      "area": 66.0,
      "lat": -12.07795,
      "lng": -77.09652,
@@ -155574,10 +155871,14 @@
       [
        20767,
        136725.0
+      ],
+      [
+       20769,
+       137045.0
       ]
      ],
      "f": 20757,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-miguel"
     },
     "194486032": {
@@ -155604,7 +155905,7 @@
       ]
      ],
      "f": 20757,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-miguel"
     },
     "194485969": {
@@ -155617,7 +155918,7 @@
      "lng": -76.9816,
      "mon": "USD",
      "monto": 310000.0,
-     "mant": 87.19,
+     "mant": 87.39,
      "anio": "",
      "dorm": "4",
      "zona": "Santiago De Surco",
@@ -155631,7 +155932,7 @@
       ]
      ],
      "f": 20757,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194484525": {
@@ -155644,7 +155945,7 @@
      "lng": -76.95722,
      "mon": "USD",
      "monto": 149800.0,
-     "mant": 87.19,
+     "mant": 87.39,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -155658,7 +155959,7 @@
       ]
      ],
      "f": 20757,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194487345": {
@@ -156410,7 +156711,7 @@
       ]
      ],
      "f": 20759,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-isidro"
     },
     "194487901": {
@@ -156423,7 +156724,7 @@
      "lng": -77.082,
      "mon": "USD",
      "monto": 66000.0,
-     "mant": 20.34,
+     "mant": 20.39,
      "anio": "",
      "dorm": "Mono",
      "zona": "San Miguel",
@@ -156437,7 +156738,7 @@
       ]
      ],
      "f": 20759,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-miguel"
     },
     "194487785": {
@@ -156450,7 +156751,7 @@
      "lng": -76.96791,
      "mon": "USD",
      "monto": 239000.0,
-     "mant": 130.78,
+     "mant": 131.09,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -156464,7 +156765,7 @@
       ]
      ],
      "f": 20759,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194489283": {
@@ -157241,7 +157542,7 @@
      "lng": -76.9738,
      "mon": "USD",
      "monto": 50000.0,
-     "mant": 5.81,
+     "mant": 5.83,
      "anio": "",
      "dorm": "2",
      "zona": "San Juan De Miraflores",
@@ -157255,20 +157556,20 @@
       ]
      ],
      "f": 20761,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-juan-de-miraflores"
     },
     "194491363": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 138338.0,
+     "usd": 138662.0,
      "area": 76.0,
      "lat": -12.08929,
      "lng": -77.08112,
      "mon": "PEN",
      "monto": 476000.0,
-     "mant": 63.94,
+     "mant": 64.09,
      "anio": "",
      "dorm": "3",
      "zona": "San Miguel",
@@ -157291,10 +157592,14 @@
       [
        20767,
        138338.0
+      ],
+      [
+       20769,
+       138662.0
       ]
      ],
      "f": 20761,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-miguel"
     },
     "194499026": {
@@ -157307,7 +157612,7 @@
      "lng": -77.05834,
      "mon": "USD",
      "monto": 350000.0,
-     "mant": 261.56,
+     "mant": 262.18,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -157321,7 +157626,7 @@
       ]
      ],
      "f": 20761,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194500459": {
@@ -157348,7 +157653,7 @@
       ]
      ],
      "f": 20761,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194493858": {
@@ -157361,7 +157666,7 @@
      "lng": -77.00251,
      "mon": "USD",
      "monto": 125000.0,
-     "mant": 14.53,
+     "mant": 14.57,
      "anio": "",
      "dorm": "2",
      "zona": "Surquillo",
@@ -157375,7 +157680,7 @@
       ]
      ],
      "f": 20761,
-     "r": 20767,
+     "r": 20769,
      "dist": "surquillo"
     },
     "194494650": {
@@ -158302,7 +158607,7 @@
       ]
      ],
      "f": 20763,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-juan-de-lurigancho"
     },
     "194509191": {
@@ -158329,20 +158634,20 @@
       ]
      ],
      "f": 20763,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-martin-de-porres"
     },
     "194506867": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 727.0,
+     "usd": 728.0,
      "area": 55.0,
      "lat": -12.08683,
      "lng": -77.09081,
      "mon": "PEN",
      "monto": 2500.0,
-     "mant": 36.33,
+     "mant": 36.41,
      "anio": "",
      "dorm": "2",
      "zona": "San Miguel",
@@ -158361,10 +158666,14 @@
       [
        20767,
        727.0
+      ],
+      [
+       20769,
+       728.0
       ]
      ],
      "f": 20764,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-miguel"
     },
     "194506749": {
@@ -158391,7 +158700,7 @@
       ]
      ],
      "f": 20764,
-     "r": 20767,
+     "r": 20769,
      "dist": "santa-maria-del-mar"
     },
     "194506983": {
@@ -158418,7 +158727,7 @@
       ]
      ],
      "f": 20764,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194509611": {
@@ -158431,7 +158740,7 @@
      "lng": -77.00444,
      "mon": "USD",
      "monto": 145000.0,
-     "mant": 52.31,
+     "mant": 52.44,
      "anio": "",
      "dorm": "3",
      "zona": "Surquillo",
@@ -158449,7 +158758,7 @@
       ]
      ],
      "f": 20764,
-     "r": 20767,
+     "r": 20769,
      "dist": "surquillo"
     },
     "194517854": {
@@ -159048,7 +159357,7 @@
       ]
      ],
      "f": 20765,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-isidro"
     },
     "194517847": {
@@ -159075,7 +159384,7 @@
       ]
      ],
      "f": 20765,
-     "r": 20767,
+     "r": 20769,
      "dist": "san-isidro"
     },
     "194520304": {
@@ -159088,7 +159397,7 @@
      "lng": -76.99618,
      "mon": "USD",
      "monto": 249000.0,
-     "mant": 87.19,
+     "mant": 87.39,
      "anio": "",
      "dorm": "4",
      "zona": "Santiago De Surco",
@@ -159102,7 +159411,7 @@
       ]
      ],
      "f": 20765,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194520124": {
@@ -159129,7 +159438,7 @@
       ]
      ],
      "f": 20765,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194517861": {
@@ -159156,14 +159465,14 @@
       ]
      ],
      "f": 20765,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194517860": {
      "op": "venta",
      "tipo": "casas",
      "ciudad": "lima",
-     "usd": 4940654.0,
+     "usd": 4952211.0,
      "area": 870.0,
      "lat": -12.11516,
      "lng": -76.96485,
@@ -159184,10 +159493,14 @@
       [
        20767,
        4940654.0
+      ],
+      [
+       20769,
+       4952211.0
       ]
      ],
      "f": 20765,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194521095": {
@@ -159285,7 +159598,7 @@
      "lng": -77.00162,
      "mon": "USD",
      "monto": 105000.0,
-     "mant": 55.22,
+     "mant": 55.35,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -159299,7 +159612,7 @@
       ]
      ],
      "f": 20767,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194532011": {
@@ -159312,7 +159625,7 @@
      "lng": -76.9618,
      "mon": "USD",
      "monto": 555000.0,
-     "mant": 208.09,
+     "mant": 208.58,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -159326,7 +159639,7 @@
       ]
      ],
      "f": 20767,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194524144": {
@@ -159339,7 +159652,7 @@
      "lng": -77.01342,
      "mon": "USD",
      "monto": 105000.0,
-     "mant": 58.13,
+     "mant": 58.26,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -159353,7 +159666,7 @@
       ]
      ],
      "f": 20767,
-     "r": 20767,
+     "r": 20769,
      "dist": "santiago-de-surco"
     },
     "194528998": {
@@ -159895,10 +160208,145 @@
      "f": 20769,
      "r": 20769,
      "dist": "cajamarca"
+    },
+    "194536618": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 675.0,
+     "area": 90.0,
+     "lat": -12.10206,
+     "lng": -77.05672,
+     "mon": "USD",
+     "monto": 675.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "San Isidro",
+     "titulo": "ALQUILER DPTO. DE 90M2 A 5 MINUTOS DEL GOLF DE SAN ISIDRO",
+     "u": "https://www.infocasas.com.pe/alquiler-dpto-de-90m2-a-5-minutos-del-golf-de-san-isidro/194536618",
+     "flags": [],
+     "p": [
+      [
+       20769,
+       675.0
+      ]
+     ],
+     "f": 20769,
+     "r": 20769,
+     "dist": "san-isidro"
+    },
+    "194547386": {
+     "op": "venta",
+     "tipo": "casas",
+     "ciudad": "lima",
+     "usd": 1370000.0,
+     "area": 352.0,
+     "lat": -12.10499,
+     "lng": -77.0509,
+     "mon": "USD",
+     "monto": 1370000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "VENTA PENTHOUSE MODERNO EN SAN ISIDRO - DPT 6 (609-1136-2)",
+     "u": "https://www.infocasas.com.pe/venta-penthouse-moderno-en-san-isidro-dpt-6-609-1136-2/194547386",
+     "flags": [],
+     "p": [
+      [
+       20769,
+       1370000.0
+      ]
+     ],
+     "f": 20769,
+     "r": 20769,
+     "dist": "san-isidro"
+    },
+    "194547385": {
+     "op": "venta",
+     "tipo": "casas",
+     "ciudad": "lima",
+     "usd": 1360897.0,
+     "area": 352.0,
+     "lat": -12.10499,
+     "lng": -77.0509,
+     "mon": "PEN",
+     "monto": 4671700.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "VENTA PENTHOUSE MODERNO EN SAN ISIDRO - DPT 6 (609-1136-2)",
+     "u": "https://www.infocasas.com.pe/venta-penthouse-moderno-en-san-isidro-dpt-6-609-1136-2/194547385",
+     "flags": [],
+     "p": [
+      [
+       20769,
+       1360897.0
+      ]
+     ],
+     "f": 20769,
+     "r": 20769,
+     "dist": "san-isidro"
+    },
+    "194536634": {
+     "op": "alquiler",
+     "tipo": "casas",
+     "ciudad": "lima",
+     "usd": 3764.0,
+     "area": 300.0,
+     "lat": -12.09528,
+     "lng": -77.01383,
+     "mon": "PEN",
+     "monto": 12920.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "San Isidro",
+     "titulo": "Casa en CORPAC",
+     "u": "https://www.infocasas.com.pe/casa-en-corpac/194536634",
+     "flags": [],
+     "p": [
+      [
+       20769,
+       3764.0
+      ]
+     ],
+     "f": 20769,
+     "r": 20769,
+     "dist": "san-isidro"
+    },
+    "194536633": {
+     "op": "alquiler",
+     "tipo": "casas",
+     "ciudad": "lima",
+     "usd": 3800.0,
+     "area": 300.0,
+     "lat": -12.09528,
+     "lng": -77.01383,
+     "mon": "USD",
+     "monto": 3800.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "San Isidro",
+     "titulo": "Casa en CORPAC",
+     "u": "https://www.infocasas.com.pe/casa-en-corpac/194536633",
+     "flags": [],
+     "p": [
+      [
+       20769,
+       3800.0
+      ]
+     ],
+     "f": 20769,
+     "r": 20769,
+     "dist": "san-isidro"
     }
    },
-   "tc": 3.4328135120322854,
-   "turno": 121,
+   "tc": 3.4328201294301803,
+   "turno": 161,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -159925,50 +160373,50 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 96,
-     "fuera_ciudad": 1,
-     "momento": 1794468578
+     "validos": 84,
+     "fuera_ciudad": 0,
+     "momento": 1794514326
     },
     "arequipa": {
      "paginas": 4,
      "validos": 4,
      "fuera_ciudad": 0,
-     "momento": 1794468578
+     "momento": 1794514326
     },
     "cusco": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1794468578
+     "momento": 1794514326
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 3,
-     "momento": 1794468578
+     "momento": 1794514326
     },
     "trujillo": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1794468578
+     "momento": 1794514326
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1794468578
+     "momento": 1794514326
     }
    }
   },
   "cobertura_ciudades": {
    "lima": {
     "ciudad": "Lima",
-    "ventas": 1038,
-    "alquileres": 301,
+    "ventas": 1040,
+    "alquileres": 304,
     "estado": "con datos; comparables por microzona pendientes de cada aviso",
-    "proyectos": 798,
-    "momento": 1794468578
+    "proyectos": 801,
+    "momento": 1794514326
    },
    "arequipa": {
     "ciudad": "Arequipa",
@@ -159976,7 +160424,7 @@
     "alquileres": 1,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 8,
-    "momento": 1794468578
+    "momento": 1794514326
    },
    "cusco": {
     "ciudad": "Cusco",
@@ -159984,7 +160432,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 1,
-    "momento": 1794468578
+    "momento": 1794514326
    },
    "cajamarca": {
     "ciudad": "Cajamarca",
@@ -159992,7 +160440,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1794468578
+    "momento": 1794514326
    },
    "trujillo": {
     "ciudad": "Trujillo",
@@ -160000,7 +160448,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1794468578
+    "momento": 1794514326
    },
    "huaraz": {
     "ciudad": "Huaraz",
@@ -160008,7 +160456,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1794468578
+    "momento": 1794514326
    }
   }
  }
