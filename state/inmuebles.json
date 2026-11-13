@@ -113,13 +113,13 @@
   "fafc78c9b93aec7d": 1792840870
  },
  "failures": {
-  "Nexo Inmobiliario/proyectos": 14
+  "Nexo Inmobiliario/proyectos": 15
  },
  "last_failure_notice": 1794514326,
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1794553281,
+ "saved_at": 1794599797,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -111521,6 +111521,299 @@
      },
      "r": 20770,
      "x": 20770
+    },
+    "4426": {
+     "u": "https://nexoinmobiliario.pe/departamentos/punta-hermosa/la-fragata-4426",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Punta Hermosa",
+     "nombre": "LA FRAGATA",
+     "marca": "NOI INMOBILIARIA",
+     "lat": -12.33654,
+     "lng": -76.82667,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo A": [
+       95.45,
+       3,
+       "PEN",
+       899000.0
+      ],
+      "Modelo C": [
+       75.26,
+       2,
+       "PEN",
+       777000.0
+      ]
+     },
+     "primero": {
+      "Modelo A": [
+       "PEN",
+       899000.0,
+       20770
+      ],
+      "Modelo C": [
+       "PEN",
+       777000.0,
+       20770
+      ]
+     },
+     "r": 20770,
+     "x": 20770
+    },
+    "4454": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/pulse-escardo-340-4454",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "San Miguel",
+     "nombre": "PULSE ESCARDÓ 340",
+     "marca": "LIMMA GRUPO INMOBILIARIO",
+     "lat": -12.07979,
+     "lng": -77.0943,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo X01": [
+       53.03,
+       2,
+       "PEN",
+       347641.0
+      ],
+      "Modelo X02": [
+       63.12,
+       3,
+       "PEN",
+       385733.0
+      ],
+      "Modelo X03": [
+       54.57,
+       2,
+       "PEN",
+       323176.0
+      ],
+      "Modelo X04": [
+       40.48,
+       1,
+       "PEN",
+       260871.0
+      ],
+      "Modelo X05": [
+       40.79,
+       1,
+       "PEN",
+       260603.0
+      ]
+     },
+     "primero": {
+      "Modelo X01": [
+       "PEN",
+       347641.0,
+       20770
+      ],
+      "Modelo X02": [
+       "PEN",
+       385733.0,
+       20770
+      ],
+      "Modelo X03": [
+       "PEN",
+       323176.0,
+       20770
+      ],
+      "Modelo X04": [
+       "PEN",
+       260871.0,
+       20770
+      ],
+      "Modelo X05": [
+       "PEN",
+       260603.0,
+       20770
+      ]
+     },
+     "r": 20770,
+     "x": 20770
+    },
+    "4457": {
+     "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/via-real-4457",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Cercado De Lima",
+     "nombre": "Via Real",
+     "marca": "KALLPA",
+     "lat": -12.07529,
+     "lng": -77.03063,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo 1": [
+       75.0,
+       3,
+       "PEN",
+       675000.0
+      ],
+      "Modelo 2": [
+       46.0,
+       2,
+       "PEN",
+       296792.0
+      ],
+      "Modelo 3": [
+       46.0,
+       2,
+       "PEN",
+       296792.0
+      ],
+      "Modelo 4": [
+       46.0,
+       2,
+       "PEN",
+       295780.0
+      ],
+      "Modelo 5": [
+       46.0,
+       2,
+       "PEN",
+       295780.0
+      ],
+      "Modelo 6": [
+       46.0,
+       2,
+       "PEN",
+       294768.0
+      ],
+      "Modelo 7": [
+       46.0,
+       2,
+       "PEN",
+       294768.0
+      ],
+      "Modelo 8": [
+       46.0,
+       2,
+       "PEN",
+       293756.0
+      ],
+      "Modelo 9": [
+       46.0,
+       2,
+       "PEN",
+       293204.0
+      ],
+      "Modelo 10": [
+       46.0,
+       2,
+       "PEN",
+       292192.0
+      ],
+      "Modelo 11": [
+       46.0,
+       2,
+       "PEN",
+       291180.0
+      ],
+      "Modelo 12": [
+       46.0,
+       2,
+       "PEN",
+       290168.0
+      ],
+      "Modelo 13": [
+       46.0,
+       2,
+       "PEN",
+       289156.0
+      ],
+      "Modelo 14": [
+       46.0,
+       2,
+       "PEN",
+       288604.0
+      ],
+      "Modelo 15": [
+       46.0,
+       2,
+       "PEN",
+       287592.0
+      ]
+     },
+     "primero": {
+      "Modelo 1": [
+       "PEN",
+       675000.0,
+       20770
+      ],
+      "Modelo 2": [
+       "PEN",
+       296792.0,
+       20770
+      ],
+      "Modelo 3": [
+       "PEN",
+       296792.0,
+       20770
+      ],
+      "Modelo 4": [
+       "PEN",
+       295780.0,
+       20770
+      ],
+      "Modelo 5": [
+       "PEN",
+       295780.0,
+       20770
+      ],
+      "Modelo 6": [
+       "PEN",
+       294768.0,
+       20770
+      ],
+      "Modelo 7": [
+       "PEN",
+       294768.0,
+       20770
+      ],
+      "Modelo 8": [
+       "PEN",
+       293756.0,
+       20770
+      ],
+      "Modelo 9": [
+       "PEN",
+       293204.0,
+       20770
+      ],
+      "Modelo 10": [
+       "PEN",
+       292192.0,
+       20770
+      ],
+      "Modelo 11": [
+       "PEN",
+       291180.0,
+       20770
+      ],
+      "Modelo 12": [
+       "PEN",
+       290168.0,
+       20770
+      ],
+      "Modelo 13": [
+       "PEN",
+       289156.0,
+       20770
+      ],
+      "Modelo 14": [
+       "PEN",
+       288604.0,
+       20770
+      ],
+      "Modelo 15": [
+       "PEN",
+       287592.0,
+       20770
+      ]
+     },
+     "r": 20770,
+     "x": 20770
     }
    },
    "ultima": 1793993830
@@ -148580,14 +148873,14 @@
       ]
      ],
      "f": 20741,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194400410": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 217118.0,
+     "usd": 216957.0,
      "area": 112.0,
      "lat": -12.0832,
      "lng": -77.04446,
@@ -148601,10 +148894,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-lince-entrega-inmediata/194400410",
      "flags": [],
      "p": [
-      [
-       20754,
-       214910.0
-      ],
       [
        20756,
        214477.0
@@ -148632,10 +148921,14 @@
       [
        20768,
        217118.0
+      ],
+      [
+       20770,
+       216957.0
       ]
      ],
      "f": 20741,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194404358": {
@@ -149148,7 +149441,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 127660.0,
+     "usd": 127565.0,
      "area": 60.0,
      "lat": -12.07694,
      "lng": -77.05501,
@@ -149162,10 +149455,6 @@
      "u": "https://www.infocasas.com.pe/venta-depa-en-jesus-maria-dpt-405-609-396-822/194409988",
      "flags": [],
      "p": [
-      [
-       20754,
-       126361.0
-      ],
       [
        20756,
        126107.0
@@ -149193,10 +149482,14 @@
       [
        20768,
        127660.0
+      ],
+      [
+       20770,
+       127565.0
       ]
      ],
      "f": 20743,
-     "r": 20768,
+     "r": 20770,
      "dist": "jesus-maria"
     },
     "194414155": {
@@ -149278,7 +149571,7 @@
       ]
      ],
      "f": 20743,
-     "r": 20768,
+     "r": 20770,
      "dist": "jesus-maria"
     },
     "194409987": {
@@ -149422,7 +149715,7 @@
       ]
      ],
      "f": 20743,
-     "r": 20768,
+     "r": 20770,
      "dist": "la-victoria"
     },
     "194410851": {
@@ -149449,7 +149742,7 @@
       ]
      ],
      "f": 20743,
-     "r": 20768,
+     "r": 20770,
      "dist": "la-victoria"
     },
     "194411119": {
@@ -150249,7 +150542,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 260542.0,
+     "usd": 260348.0,
      "area": 150.0,
      "lat": -12.07496,
      "lng": -77.04104,
@@ -150263,10 +150556,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-jesus-maria-entrega-inmediata/194430462",
      "flags": [],
      "p": [
-      [
-       20754,
-       257892.0
-      ],
       [
        20756,
        257373.0
@@ -150294,10 +150583,14 @@
       [
        20768,
        260542.0
+      ],
+      [
+       20770,
+       260348.0
       ]
      ],
      "f": 20746,
-     "r": 20768,
+     "r": 20770,
      "dist": "jesus-maria"
     },
     "194425043": {
@@ -150324,7 +150617,7 @@
       ]
      ],
      "f": 20746,
-     "r": 20768,
+     "r": 20770,
      "dist": "la-molina"
     },
     "194425797": {
@@ -150912,20 +151205,20 @@
       ]
      ],
      "f": 20747,
-     "r": 20768,
+     "r": 20770,
      "dist": "comas"
     },
     "194437348": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 61615.0,
+     "usd": 61569.0,
      "area": 64.0,
      "lat": -12.03617,
      "lng": -76.9929,
      "mon": "PEN",
      "monto": 210000.0,
-     "mant": 58.68,
+     "mant": 58.64,
      "anio": "",
      "dorm": "3",
      "zona": "El Agustino",
@@ -150933,10 +151226,6 @@
      "u": "https://www.infocasas.com.pe/departamento-en-venta-en-el-agustino-6414-m/194437348",
      "flags": [],
      "p": [
-      [
-       20754,
-       60988.0
-      ],
       [
        20756,
        60865.0
@@ -150964,23 +151253,27 @@
       [
        20768,
        61615.0
+      ],
+      [
+       20770,
+       61569.0
       ]
      ],
      "f": 20747,
-     "r": 20768,
+     "r": 20770,
      "dist": "el-agustino"
     },
     "194432993": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 319809.0,
+     "usd": 319571.0,
      "area": 142.0,
      "lat": -12.03474,
      "lng": -77.15815,
      "mon": "PEN",
      "monto": 1090000.0,
-     "mant": 88.02,
+     "mant": 87.96,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -150988,10 +151281,6 @@
      "u": "https://www.infocasas.com.pe/duplex-de-estreno-en-venta-entrega-inmediata-jesus-mariaref-863/194432993",
      "flags": [],
      "p": [
-      [
-       20754,
-       316557.0
-      ],
       [
        20756,
        315919.0
@@ -151019,10 +151308,14 @@
       [
        20768,
        319809.0
+      ],
+      [
+       20770,
+       319571.0
       ]
      ],
      "f": 20747,
-     "r": 20768,
+     "r": 20770,
      "dist": "jesus-maria"
     },
     "194379413": {
@@ -151820,7 +152113,7 @@
       ]
      ],
      "f": 20749,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194446525": {
@@ -153613,7 +153906,7 @@
      "lng": -77.04928,
      "mon": "PEN",
      "monto": 1900.0,
-     "mant": 73.37,
+     "mant": 73.29,
      "anio": "",
      "dorm": "1",
      "zona": "Jesus Maria",
@@ -153655,7 +153948,7 @@
       ]
      ],
      "f": 20753,
-     "r": 20768,
+     "r": 20770,
      "dist": "jesus-maria"
     },
     "194457969": {
@@ -154524,7 +154817,7 @@
       ]
      ],
      "f": 20754,
-     "r": 20768,
+     "r": 20770,
      "dist": "comas"
     },
     "194467151": {
@@ -154551,7 +154844,7 @@
       ]
      ],
      "f": 20754,
-     "r": 20768,
+     "r": 20770,
      "dist": "jesus-maria"
     },
     "194461791": {
@@ -154578,7 +154871,7 @@
       ]
      ],
      "f": 20754,
-     "r": 20768,
+     "r": 20770,
      "dist": "la-molina"
     },
     "194465414": {
@@ -154591,7 +154884,7 @@
      "lng": -77.02909,
      "mon": "USD",
      "monto": 97000.0,
-     "mant": 57.21,
+     "mant": 57.17,
      "anio": "",
      "dorm": "1",
      "zona": "Lince",
@@ -154605,7 +154898,7 @@
       ]
      ],
      "f": 20754,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194461845": {
@@ -154632,7 +154925,7 @@
       ]
      ],
      "f": 20754,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194469372": {
@@ -154645,7 +154938,7 @@
      "lng": -77.07053,
      "mon": "USD",
      "monto": 83000.0,
-     "mant": 34.94,
+     "mant": 35.18,
      "anio": "",
      "dorm": "3",
      "zona": "Los Olivos",
@@ -154659,7 +154952,7 @@
       ]
      ],
      "f": 20754,
-     "r": 20768,
+     "r": 20770,
      "dist": "los-olivos"
     },
     "194470324": {
@@ -155090,20 +155383,20 @@
       ]
      ],
      "f": 20756,
-     "r": 20768,
+     "r": 20770,
      "dist": "jesus-maria"
     },
     "194477348": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 319809.0,
+     "usd": 319571.0,
      "area": 142.0,
      "lat": -12.12622,
      "lng": -77.09909,
      "mon": "PEN",
      "monto": 1090000.0,
-     "mant": 88.02,
+     "mant": 87.96,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -155138,10 +155431,14 @@
       [
        20768,
        319809.0
+      ],
+      [
+       20770,
+       319571.0
       ]
      ],
      "f": 20756,
-     "r": 20768,
+     "r": 20770,
      "dist": "jesus-maria"
     },
     "194474150": {
@@ -155154,7 +155451,7 @@
      "lng": -77.04774,
      "mon": "USD",
      "monto": 272000.0,
-     "mant": 146.7,
+     "mant": 146.59,
      "anio": "",
      "dorm": "4",
      "zona": "Jesus Maria",
@@ -155168,7 +155465,7 @@
       ]
      ],
      "f": 20756,
-     "r": 20768,
+     "r": 20770,
      "dist": "jesus-maria"
     },
     "194474607": {
@@ -155195,14 +155492,14 @@
       ]
      ],
      "f": 20756,
-     "r": 20768,
+     "r": 20770,
      "dist": "la-molina"
     },
     "194482058": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 120470.0,
+     "usd": 120380.0,
      "area": 56.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -155243,17 +155540,21 @@
       [
        20768,
        120470.0
+      ],
+      [
+       20770,
+       120380.0
       ]
      ],
      "f": 20756,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194482064": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 202179.0,
+     "usd": 202028.0,
      "area": 85.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -155294,17 +155595,21 @@
       [
        20768,
        202179.0
+      ],
+      [
+       20770,
+       202028.0
       ]
      ],
      "f": 20756,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194482055": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 100618.0,
+     "usd": 100543.0,
      "area": 41.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -155345,17 +155650,21 @@
       [
        20768,
        100618.0
+      ],
+      [
+       20770,
+       100543.0
       ]
      ],
      "f": 20756,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194482060": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 137818.0,
+     "usd": 137715.0,
      "area": 59.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -155396,17 +155705,21 @@
       [
        20768,
        137818.0
+      ],
+      [
+       20770,
+       137715.0
       ]
      ],
      "f": 20756,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194482068": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 215887.0,
+     "usd": 215726.0,
      "area": 91.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -155447,17 +155760,21 @@
       [
        20768,
        215887.0
+      ],
+      [
+       20770,
+       215726.0
       ]
      ],
      "f": 20756,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194482069": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 229383.0,
+     "usd": 229212.0,
      "area": 96.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -155498,17 +155815,21 @@
       [
        20768,
        229383.0
+      ],
+      [
+       20770,
+       229212.0
       ]
      ],
      "f": 20756,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194482053": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 98152.0,
+     "usd": 98078.0,
      "area": 40.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -155549,17 +155870,21 @@
       [
        20768,
        98152.0
+      ],
+      [
+       20770,
+       98078.0
       ]
      ],
      "f": 20756,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194482056": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 100160.0,
+     "usd": 100086.0,
      "area": 41.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -155600,17 +155925,21 @@
       [
        20768,
        100160.0
+      ],
+      [
+       20770,
+       100086.0
       ]
      ],
      "f": 20756,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194482057": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 124402.0,
+     "usd": 124309.0,
      "area": 52.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -155651,17 +155980,21 @@
       [
        20768,
        124402.0
+      ],
+      [
+       20770,
+       124309.0
       ]
      ],
      "f": 20756,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194482061": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 142041.0,
+     "usd": 141936.0,
      "area": 66.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -155702,17 +156035,21 @@
       [
        20768,
        142041.0
+      ],
+      [
+       20770,
+       141936.0
       ]
      ],
      "f": 20756,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194482062": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 145995.0,
+     "usd": 145886.0,
      "area": 66.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -155753,17 +156090,21 @@
       [
        20768,
        145995.0
+      ],
+      [
+       20770,
+       145886.0
       ]
      ],
      "f": 20756,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194482067": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 201405.0,
+     "usd": 201255.0,
      "area": 89.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -155804,10 +156145,14 @@
       [
        20768,
        201405.0
+      ],
+      [
+       20770,
+       201255.0
       ]
      ],
      "f": 20756,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194473601": {
@@ -156920,20 +157265,20 @@
       ]
      ],
      "f": 20758,
-     "r": 20768,
+     "r": 20770,
      "dist": "la-molina"
     },
     "194488878": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 719.0,
+     "usd": 718.0,
      "area": 70.0,
      "lat": -12.08198,
      "lng": -77.02566,
      "mon": "PEN",
      "monto": 2450.0,
-     "mant": 64.56,
+     "mant": 64.47,
      "anio": "",
      "dorm": "3",
      "zona": "La Victoria",
@@ -156964,10 +157309,14 @@
       [
        20768,
        719.0
+      ],
+      [
+       20770,
+       718.0
       ]
      ],
      "f": 20758,
-     "r": 20768,
+     "r": 20770,
      "dist": "la-victoria"
     },
     "194487518": {
@@ -157512,7 +157861,7 @@
       ]
      ],
      "f": 20760,
-     "r": 20768,
+     "r": 20770,
      "dist": "la-molina"
     },
     "194493597": {
@@ -158276,12 +158625,12 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 763.0,
+     "usd": 733.0,
      "area": 80.0,
      "lat": -12.07613,
      "lng": -77.0545,
      "mon": "PEN",
-     "monto": 2600.0,
+     "monto": 2500.0,
      "mant": 0.29,
      "anio": "",
      "dorm": "3",
@@ -158301,22 +158650,26 @@
       [
        20768,
        763.0
+      ],
+      [
+       20770,
+       733.0
       ]
      ],
      "f": 20762,
-     "r": 20768,
+     "r": 20770,
      "dist": "jesus-maria"
     },
     "194500444": {
      "op": "venta",
      "tipo": "casas",
      "ciudad": "lima",
-     "usd": 350000.0,
+     "usd": 370000.0,
      "area": 252.0,
      "lat": -12.06807,
      "lng": -76.93675,
      "mon": "USD",
-     "monto": 350000.0,
+     "monto": 370000.0,
      "mant": 0.0,
      "anio": "",
      "dorm": "5",
@@ -158328,10 +158681,14 @@
       [
        20762,
        350000.0
+      ],
+      [
+       20770,
+       370000.0
       ]
      ],
      "f": 20762,
-     "r": 20768,
+     "r": 20770,
      "dist": "la-molina"
     },
     "194500438": {
@@ -158358,7 +158715,7 @@
       ]
      ],
      "f": 20762,
-     "r": 20768,
+     "r": 20770,
      "dist": "la-molina"
     },
     "194500435": {
@@ -158385,7 +158742,7 @@
       ]
      ],
      "f": 20762,
-     "r": 20768,
+     "r": 20770,
      "dist": "la-molina"
     },
     "194500437": {
@@ -158412,7 +158769,7 @@
       ]
      ],
      "f": 20762,
-     "r": 20768,
+     "r": 20770,
      "dist": "la-molina"
     },
     "194506977": {
@@ -158439,7 +158796,7 @@
       ]
      ],
      "f": 20762,
-     "r": 20768,
+     "r": 20770,
      "dist": "la-victoria"
     },
     "194508766": {
@@ -158466,7 +158823,7 @@
       ]
      ],
      "f": 20762,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194500447": {
@@ -159312,20 +159669,20 @@
       ]
      ],
      "f": 20764,
-     "r": 20768,
+     "r": 20770,
      "dist": "chorrillos"
     },
     "194514988": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 587.0,
+     "usd": 586.0,
      "area": 61.0,
      "lat": -11.99254,
      "lng": -77.05763,
      "mon": "PEN",
      "monto": 2000.0,
-     "mant": 58.7,
+     "mant": 58.6,
      "anio": "",
      "dorm": "2",
      "zona": "Independencia",
@@ -159344,10 +159701,14 @@
       [
        20768,
        587.0
+      ],
+      [
+       20770,
+       586.0
       ]
      ],
      "f": 20764,
-     "r": 20768,
+     "r": 20770,
      "dist": "independencia"
     },
     "194515017": {
@@ -159374,20 +159735,20 @@
       ]
      ],
      "f": 20764,
-     "r": 20768,
+     "r": 20770,
      "dist": "la-victoria"
     },
     "194519236": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 728.0,
+     "usd": 733.0,
      "area": 72.0,
      "lat": -12.07628,
      "lng": -77.0347,
      "mon": "PEN",
      "monto": 2500.0,
-     "mant": 69.89,
+     "mant": 70.37,
      "anio": "",
      "dorm": "3",
      "zona": "Lince",
@@ -159406,10 +159767,14 @@
       [
        20768,
        728.0
+      ],
+      [
+       20770,
+       733.0
       ]
      ],
      "f": 20764,
-     "r": 20768,
+     "r": 20770,
      "dist": "lince"
     },
     "194517840": {
@@ -159926,13 +160291,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 763.0,
+     "usd": 762.0,
      "area": 57.0,
      "lat": -12.08112,
      "lng": -77.04875,
      "mon": "PEN",
      "monto": 2600.0,
-     "mant": 64.56,
+     "mant": 64.49,
      "anio": "",
      "dorm": "2",
      "zona": "Jesus Maria",
@@ -159947,10 +160312,14 @@
       [
        20768,
        763.0
+      ],
+      [
+       20770,
+       762.0
       ]
      ],
      "f": 20766,
-     "r": 20768,
+     "r": 20770,
      "dist": "jesus-maria"
     },
     "194519524": {
@@ -160951,10 +161320,37 @@
      "f": 20770,
      "r": 20770,
      "dist": "cercado-de-lima"
+    },
+    "194549314": {
+     "op": "alquiler",
+     "tipo": "casas",
+     "ciudad": "lima",
+     "usd": 2187.0,
+     "area": 96.0,
+     "lat": -12.18281,
+     "lng": -77.01094,
+     "mon": "PEN",
+     "monto": 7458.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Chorrillos",
+     "titulo": "Local comercial en alquiler en Chorrillos",
+     "u": "https://www.infocasas.com.pe/local-comercial-en-alquiler-en-chorrillos/194549314",
+     "flags": [],
+     "p": [
+      [
+       20770,
+       2187.0
+      ]
+     ],
+     "f": 20770,
+     "r": 20770,
+     "dist": "chorrillos"
     }
    },
-   "tc": 3.409090909090909,
-   "turno": 29,
+   "tc": 3.4106412005457027,
+   "turno": 69,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -160981,39 +161377,39 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 53,
+     "validos": 51,
      "fuera_ciudad": 0,
-     "momento": 1794553281
+     "momento": 1794599797
     },
     "arequipa": {
      "paginas": 4,
      "validos": 4,
      "fuera_ciudad": 0,
-     "momento": 1794553281
+     "momento": 1794599797
     },
     "cusco": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1794553281
+     "momento": 1794599797
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 3,
-     "momento": 1794553281
+     "momento": 1794599797
     },
     "trujillo": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1794553281
+     "momento": 1794599797
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1794553281
+     "momento": 1794599797
     }
    }
   },
@@ -161021,10 +161417,10 @@
    "lima": {
     "ciudad": "Lima",
     "ventas": 1043,
-    "alquileres": 308,
+    "alquileres": 309,
     "estado": "con datos; comparables por microzona pendientes de cada aviso",
-    "proyectos": 804,
-    "momento": 1794553281
+    "proyectos": 807,
+    "momento": 1794599797
    },
    "arequipa": {
     "ciudad": "Arequipa",
@@ -161032,7 +161428,7 @@
     "alquileres": 1,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 8,
-    "momento": 1794553281
+    "momento": 1794599797
    },
    "cusco": {
     "ciudad": "Cusco",
@@ -161040,7 +161436,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 1,
-    "momento": 1794553281
+    "momento": 1794599797
    },
    "cajamarca": {
     "ciudad": "Cajamarca",
@@ -161048,7 +161444,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1794553281
+    "momento": 1794599797
    },
    "trujillo": {
     "ciudad": "Trujillo",
@@ -161056,7 +161452,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1794553281
+    "momento": 1794599797
    },
    "huaraz": {
     "ciudad": "Huaraz",
@@ -161064,7 +161460,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1794553281
+    "momento": 1794599797
    }
   }
  }
