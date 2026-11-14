@@ -47,6 +47,7 @@
   "5e8617f205782b1e": 1792048385,
   "5ff894a504fe96f5": 1789929478,
   "64f0b02da57ce092": 1792946349,
+  "656fdefdd2f1924f": 1794680547,
   "65a40b24021c9302": 1793253917,
   "665d99be163511fe": 1791983319,
   "666e393df0176d46": 1792048385,
@@ -114,13 +115,13 @@
   "fafc78c9b93aec7d": 1792840870
  },
  "failures": {
-  "Nexo Inmobiliario/proyectos": 16
+  "Nexo Inmobiliario/proyectos": 17
  },
  "last_failure_notice": 1794638902,
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1794638902,
+ "saved_at": 1794680547,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -16518,7 +16519,7 @@
       ]
      },
      "r": 20762,
-     "x": 20770
+     "x": 20771
     },
     "3330": {
      "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/beside-3330",
@@ -59390,7 +59391,7 @@
       ]
      },
      "r": 20755,
-     "x": 20763
+     "x": 20771
     },
     "3981": {
      "u": "https://nexoinmobiliario.pe/departamentos/miraflores/versia-3981",
@@ -111982,6 +111983,370 @@
      },
      "r": 20771,
      "x": 20771
+    },
+    "4475": {
+     "u": "https://nexoinmobiliario.pe/departamentos/jesus-maria/villa-oliva-4475",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Jesus Maria",
+     "nombre": "Villa Oliva",
+     "marca": "GRUPO CARAL",
+     "lat": -12.07609,
+     "lng": -77.03706,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo 101": [
+       99.05,
+       3,
+       "PEN",
+       520999.0
+      ],
+      "Modelo 102": [
+       101.51,
+       3,
+       "PEN",
+       512658.0
+      ],
+      "Modelo 201": [
+       67.29,
+       3,
+       "PEN",
+       467714.0
+      ],
+      "Modelo 202": [
+       62.9,
+       3,
+       "PEN",
+       437200.0
+      ],
+      "Modelo 203": [
+       61.01,
+       2,
+       "PEN",
+       432412.0
+      ],
+      "Modelo X04": [
+       43.01,
+       1,
+       "PEN",
+       309919.0
+      ],
+      "Modelo X05 - FLEX": [
+       63.63,
+       3,
+       "PEN",
+       436972.0
+      ],
+      "Modelo X06- FLEX": [
+       64.24,
+       3,
+       "PEN",
+       441161.0
+      ],
+      "Modelo 207": [
+       80.2,
+       2,
+       "PEN",
+       432991.0
+      ],
+      "Modelo X07": [
+       58.22,
+       2,
+       "PEN",
+       388598.0
+      ],
+      "Modelo X01": [
+       71.03,
+       3,
+       "PEN",
+       498855.0
+      ],
+      "Modelo X02": [
+       67.92,
+       3,
+       "PEN",
+       477014.0
+      ],
+      "Modelo X03": [
+       63.75,
+       2,
+       "PEN",
+       456532.0
+      ],
+      "Modelo X04 - I": [
+       43.06,
+       1,
+       "PEN",
+       326439.0
+      ],
+      "Modelo 705": [
+       63.75,
+       2,
+       "PEN",
+       396188.0
+      ],
+      "Modelo X05 - I": [
+       53.7,
+       2,
+       "PEN",
+       400112.0
+      ],
+      "Modelo 706": [
+       64.24,
+       2,
+       "PEN",
+       399190.0
+      ],
+      "Modelo X06 - I": [
+       56.51,
+       2,
+       "PEN",
+       403142.0
+      ],
+      "Modelo X05 - II": [
+       55.37,
+       2,
+       "PEN",
+       396245.0
+      ],
+      "Modelo X06 - II": [
+       58.3,
+       2,
+       "PEN",
+       405536.0
+      ],
+      "Modelo X07 - I": [
+       58.96,
+       2,
+       "PEN",
+       421933.0
+      ]
+     },
+     "primero": {
+      "Modelo 101": [
+       "PEN",
+       520999.0,
+       20771
+      ],
+      "Modelo 102": [
+       "PEN",
+       512658.0,
+       20771
+      ],
+      "Modelo 201": [
+       "PEN",
+       467714.0,
+       20771
+      ],
+      "Modelo 202": [
+       "PEN",
+       437200.0,
+       20771
+      ],
+      "Modelo 203": [
+       "PEN",
+       432412.0,
+       20771
+      ],
+      "Modelo X04": [
+       "PEN",
+       309919.0,
+       20771
+      ],
+      "Modelo X05 - FLEX": [
+       "PEN",
+       436972.0,
+       20771
+      ],
+      "Modelo X06- FLEX": [
+       "PEN",
+       441161.0,
+       20771
+      ],
+      "Modelo 207": [
+       "PEN",
+       432991.0,
+       20771
+      ],
+      "Modelo X07": [
+       "PEN",
+       388598.0,
+       20771
+      ],
+      "Modelo X01": [
+       "PEN",
+       498855.0,
+       20771
+      ],
+      "Modelo X02": [
+       "PEN",
+       477014.0,
+       20771
+      ],
+      "Modelo X03": [
+       "PEN",
+       456532.0,
+       20771
+      ],
+      "Modelo X04 - I": [
+       "PEN",
+       326439.0,
+       20771
+      ],
+      "Modelo 705": [
+       "PEN",
+       396188.0,
+       20771
+      ],
+      "Modelo X05 - I": [
+       "PEN",
+       400112.0,
+       20771
+      ],
+      "Modelo 706": [
+       "PEN",
+       399190.0,
+       20771
+      ],
+      "Modelo X06 - I": [
+       "PEN",
+       403142.0,
+       20771
+      ],
+      "Modelo X05 - II": [
+       "PEN",
+       396245.0,
+       20771
+      ],
+      "Modelo X06 - II": [
+       "PEN",
+       405536.0,
+       20771
+      ],
+      "Modelo X07 - I": [
+       "PEN",
+       421933.0,
+       20771
+      ]
+     },
+     "r": 20771,
+     "x": 20771
+    },
+    "4476": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/arica-living-4476",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "San Miguel",
+     "nombre": "ARICA LIVING",
+     "marca": "CUMBRES ANDINAS",
+     "lat": -12.0919,
+     "lng": -77.07803,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo 101": [
+       48.32,
+       1,
+       "PEN",
+       290000.0
+      ],
+      "Modelo 103": [
+       95.66,
+       2,
+       "PEN",
+       467000.0
+      ],
+      "Modelo 2D.2": [
+       60.57,
+       2,
+       "PEN",
+       384000.0
+      ],
+      "Modelo 2D.1": [
+       61.6,
+       2,
+       "PEN",
+       383000.0
+      ],
+      "Modelo 3D": [
+       79.85,
+       3,
+       "PEN",
+       515000.0
+      ],
+      "Modelo 1D": [
+       71.8,
+       1,
+       "PEN",
+       450000.0
+      ],
+      "Modelo 202": [
+       93.47,
+       3,
+       "PEN",
+       607000.0
+      ],
+      "Modelo 601": [
+       71.8,
+       1,
+       "PEN",
+       436000.0
+      ],
+      "Modelo 603": [
+       57.68,
+       1,
+       "PEN",
+       355000.0
+      ]
+     },
+     "primero": {
+      "Modelo 101": [
+       "PEN",
+       290000.0,
+       20771
+      ],
+      "Modelo 103": [
+       "PEN",
+       467000.0,
+       20771
+      ],
+      "Modelo 2D.2": [
+       "PEN",
+       384000.0,
+       20771
+      ],
+      "Modelo 2D.1": [
+       "PEN",
+       383000.0,
+       20771
+      ],
+      "Modelo 3D": [
+       "PEN",
+       515000.0,
+       20771
+      ],
+      "Modelo 1D": [
+       "PEN",
+       450000.0,
+       20771
+      ],
+      "Modelo 202": [
+       "PEN",
+       607000.0,
+       20771
+      ],
+      "Modelo 601": [
+       "PEN",
+       436000.0,
+       20771
+      ],
+      "Modelo 603": [
+       "PEN",
+       355000.0,
+       20771
+      ]
+     },
+     "r": 20771,
+     "x": 20771
     }
    },
    "ultima": 1793993830
@@ -148775,7 +149140,7 @@
      "lng": -77.11397,
      "mon": "USD",
      "monto": 245000.0,
-     "mant": 101.96,
+     "mant": 102.84,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -148789,7 +149154,7 @@
       ]
      ],
      "f": 20741,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-borja"
     },
     "194398960": {
@@ -149188,7 +149553,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 146323.0,
+     "usd": 147584.0,
      "area": 45.0,
      "lat": -12.09133,
      "lng": -77.02725,
@@ -149202,10 +149567,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-isidro-entrega-inmediata/194406172",
      "flags": [],
      "p": [
-      [
-       20755,
-       145694.0
-      ],
       [
        20757,
        145111.0
@@ -149233,17 +149594,21 @@
       [
        20769,
        146323.0
+      ],
+      [
+       20771,
+       147584.0
       ]
      ],
      "f": 20742,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194406784": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 220781.0,
+     "usd": 222684.0,
      "area": 75.0,
      "lat": -12.09681,
      "lng": -77.02391,
@@ -149257,10 +149622,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-isidro-entrega-inmediata/194406784",
      "flags": [],
      "p": [
-      [
-       20755,
-       219832.0
-      ],
       [
        20757,
        218952.0
@@ -149288,10 +149649,14 @@
       [
        20769,
        220781.0
+      ],
+      [
+       20771,
+       222684.0
       ]
      ],
      "f": 20742,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194406385": {
@@ -149318,7 +149683,7 @@
       ]
      ],
      "f": 20742,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194404353": {
@@ -150243,7 +150608,7 @@
       ]
      ],
      "f": 20743,
-     "r": 20769,
+     "r": 20771,
      "dist": "punta-negra"
     },
     "194412472": {
@@ -150256,7 +150621,7 @@
      "lng": -77.06795,
      "mon": "USD",
      "monto": 245000.0,
-     "mant": 101.96,
+     "mant": 102.84,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -150270,7 +150635,7 @@
       ]
      ],
      "f": 20743,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-borja"
     },
     "194415903": {
@@ -150297,20 +150662,20 @@
       ]
      ],
      "f": 20743,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-miguel"
     },
     "194416400": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 699.0,
+     "usd": 705.0,
      "area": 79.0,
      "lat": -12.08166,
      "lng": -77.09407,
      "mon": "PEN",
      "monto": 2400.0,
-     "mant": 84.48,
+     "mant": 85.21,
      "anio": "",
      "dorm": "3",
      "zona": "San Miguel",
@@ -150318,10 +150683,6 @@
      "u": "https://www.infocasas.com.pe/alquiler-de-departamento-3-dormitorios-en-san-miguel-condominio-los-prados/194416400",
      "flags": [],
      "p": [
-      [
-       20755,
-       696.0
-      ],
       [
        20757,
        693.0
@@ -150349,10 +150710,14 @@
       [
        20769,
        699.0
+      ],
+      [
+       20771,
+       705.0
       ]
      ],
      "f": 20743,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-miguel"
     },
     "194417142": {
@@ -150541,7 +150906,7 @@
       ]
      ],
      "f": 20744,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-borja"
     },
     "194421714": {
@@ -150662,7 +151027,7 @@
      "lng": -77.04542,
      "mon": "USD",
      "monto": 226000.0,
-     "mant": 101.96,
+     "mant": 102.84,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -150676,7 +151041,7 @@
       ]
      ],
      "f": 20746,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-borja"
     },
     "194426981": {
@@ -150689,7 +151054,7 @@
      "lng": -77.03394,
      "mon": "USD",
      "monto": 220000.0,
-     "mant": 95.55,
+     "mant": 96.37,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -150703,7 +151068,7 @@
       ]
      ],
      "f": 20746,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194430462": {
@@ -151049,14 +151414,14 @@
       ]
      ],
      "f": 20747,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-borja"
     },
     "194430343": {
      "op": "alquiler",
      "tipo": "casas",
      "ciudad": "lima",
-     "usd": 4824.0,
+     "usd": 4866.0,
      "area": 400.0,
      "lat": -12.08881,
      "lng": -76.98721,
@@ -151070,10 +151435,6 @@
      "u": "https://www.infocasas.com.pe/casa-san-borja/194430343",
      "flags": [],
      "p": [
-      [
-       20753,
-       4803.0
-      ],
       [
        20757,
        4784.0
@@ -151101,10 +151462,14 @@
       [
        20769,
        4824.0
+      ],
+      [
+       20771,
+       4866.0
       ]
      ],
      "f": 20747,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-borja"
     },
     "194428239": {
@@ -151131,7 +151496,7 @@
       ]
      ],
      "f": 20747,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194428237": {
@@ -151162,14 +151527,14 @@
       ]
      ],
      "f": 20747,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194430328": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 125157.0,
+     "usd": 126236.0,
      "area": 67.0,
      "lat": -12.07969,
      "lng": -77.08178,
@@ -151183,10 +151548,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-miguel-entrega-inmediata/194430328",
      "flags": [],
      "p": [
-      [
-       20755,
-       124619.0
-      ],
       [
        20757,
        124120.0
@@ -151214,10 +151575,14 @@
       [
        20769,
        125157.0
+      ],
+      [
+       20771,
+       126236.0
       ]
      ],
      "f": 20747,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-miguel"
     },
     "194432970": {
@@ -151730,7 +152095,7 @@
       ]
      ],
      "f": 20748,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-bartolo"
     },
     "194440540": {
@@ -151757,7 +152122,7 @@
       ]
      ],
      "f": 20748,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-bartolo"
     },
     "194434074": {
@@ -151784,7 +152149,7 @@
       ]
      ],
      "f": 20748,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-borja"
     },
     "194440534": {
@@ -151811,14 +152176,14 @@
       ]
      ],
      "f": 20748,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194440531": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 776601.0,
+     "usd": 783294.0,
      "area": 227.0,
      "lat": -12.09825,
      "lng": -77.03902,
@@ -151832,10 +152197,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-san-isidro-dpto-201-al-301-609-1170-2/194440531",
      "flags": [],
      "p": [
-      [
-       20753,
-       773267.0
-      ],
       [
        20755,
        773263.0
@@ -151863,10 +152224,14 @@
       [
        20769,
        776601.0
+      ],
+      [
+       20771,
+       783294.0
       ]
      ],
      "f": 20748,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194440536": {
@@ -151893,14 +152258,14 @@
       ]
      ],
      "f": 20748,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194440537": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 715759.0,
+     "usd": 721927.0,
      "area": 167.0,
      "lat": -12.09825,
      "lng": -77.03902,
@@ -151914,10 +152279,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-san-isidro-dpto-s04-609-1170-3/194440537",
      "flags": [],
      "p": [
-      [
-       20755,
-       712682.0
-      ],
       [
        20757,
        709828.0
@@ -151945,10 +152306,14 @@
       [
        20769,
        715759.0
+      ],
+      [
+       20771,
+       721927.0
       ]
      ],
      "f": 20748,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194440532": {
@@ -151975,7 +152340,7 @@
       ]
      ],
      "f": 20748,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194438503": {
@@ -151988,7 +152353,7 @@
      "lng": -77.03394,
      "mon": "USD",
      "monto": 1150000.0,
-     "mant": 335.0,
+     "mant": 337.89,
      "anio": "",
      "dorm": "5",
      "zona": "San Isidro",
@@ -152002,7 +152367,7 @@
       ]
      ],
      "f": 20748,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194440538": {
@@ -152029,14 +152394,14 @@
       ]
      ],
      "f": 20748,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194440533": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 765309.0,
+     "usd": 771905.0,
      "area": 224.0,
      "lat": -12.09825,
      "lng": -77.03902,
@@ -152050,10 +152415,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-san-isidro-dpto-202-al-602-609-1170-1/194440533",
      "flags": [],
      "p": [
-      [
-       20755,
-       762020.0
-      ],
       [
        20757,
        758969.0
@@ -152081,17 +152442,21 @@
       [
        20769,
        765309.0
+      ],
+      [
+       20771,
+       771905.0
       ]
      ],
      "f": 20748,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194440535": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 707538.0,
+     "usd": 713635.0,
      "area": 161.0,
      "lat": -12.09825,
      "lng": -77.03902,
@@ -152105,10 +152470,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-san-isidro-dpto-s03-609-1170-4/194440535",
      "flags": [],
      "p": [
-      [
-       20755,
-       704496.0
-      ],
       [
        20757,
        701675.0
@@ -152136,10 +152497,14 @@
       [
        20769,
        707538.0
+      ],
+      [
+       20771,
+       713635.0
       ]
      ],
      "f": 20748,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194441091": {
@@ -152170,7 +152535,7 @@
       ]
      ],
      "f": 20748,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-luis"
     },
     "194438151": {
@@ -152734,7 +153099,7 @@
       ]
      ],
      "f": 20749,
-     "r": 20769,
+     "r": 20771,
      "dist": "punta-negra"
     },
     "194448363": {
@@ -152747,7 +153112,7 @@
      "lng": -77.08074,
      "mon": "USD",
      "monto": 226000.0,
-     "mant": 101.96,
+     "mant": 102.84,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -152761,7 +153126,7 @@
       ]
      ],
      "f": 20749,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-borja"
     },
     "194446509": {
@@ -152788,7 +153153,7 @@
       ]
      ],
      "f": 20749,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194446516": {
@@ -152842,14 +153207,14 @@
       ]
      ],
      "f": 20749,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-juan-de-miraflores"
     },
     "194449716": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 111049.0,
+     "usd": 112006.0,
      "area": 53.0,
      "lat": -12.07795,
      "lng": -77.09652,
@@ -152863,10 +153228,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-miguel-entrega-inmediata/194449716",
      "flags": [],
      "p": [
-      [
-       20755,
-       110572.0
-      ],
       [
        20757,
        110129.0
@@ -152894,10 +153255,14 @@
       [
        20769,
        111049.0
+      ],
+      [
+       20771,
+       112006.0
       ]
      ],
      "f": 20749,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-miguel"
     },
     "194446517": {
@@ -153409,7 +153774,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 239483.0,
+     "usd": 241547.0,
      "area": 72.0,
      "lat": -12.09133,
      "lng": -77.02725,
@@ -153423,10 +153788,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-isidro-entrega-inmediata/194449412",
      "flags": [],
      "p": [
-      [
-       20755,
-       238454.0
-      ],
       [
        20757,
        237499.0
@@ -153454,10 +153815,14 @@
       [
        20769,
        239483.0
+      ],
+      [
+       20771,
+       241547.0
       ]
      ],
      "f": 20751,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194450443": {
@@ -153484,20 +153849,20 @@
       ]
      ],
      "f": 20751,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194453093": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 874.0,
+     "usd": 881.0,
      "area": 76.0,
      "lat": -12.09602,
      "lng": -77.05517,
      "mon": "PEN",
      "monto": 3000.0,
-     "mant": 101.97,
+     "mant": 102.78,
      "anio": "",
      "dorm": "2",
      "zona": "San Isidro",
@@ -153505,10 +153870,6 @@
      "u": "https://www.infocasas.com.pe/ocasion-esupendo-dpto-sin-muebles-san-isidro/194453093",
      "flags": [],
      "p": [
-      [
-       20753,
-       870.0
-      ],
       [
        20757,
        867.0
@@ -153536,10 +153897,14 @@
       [
        20769,
        874.0
+      ],
+      [
+       20771,
+       881.0
       ]
      ],
      "f": 20751,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194453727": {
@@ -153951,7 +154316,7 @@
       ]
      ],
      "f": 20752,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194459722": {
@@ -154362,7 +154727,7 @@
      "lng": -77.05772,
      "mon": "USD",
      "monto": 175000.0,
-     "mant": 72.83,
+     "mant": 73.45,
      "anio": "",
      "dorm": "2",
      "zona": "San Isidro",
@@ -154376,14 +154741,14 @@
       ]
      ],
      "f": 20753,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194463333": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 138778.0,
+     "usd": 139974.0,
      "area": 45.0,
      "lat": -12.09133,
      "lng": -77.02725,
@@ -154397,10 +154762,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-isidro-entrega-inmediata/194463333",
      "flags": [],
      "p": [
-      [
-       20755,
-       138182.0
-      ],
       [
        20757,
        137629.0
@@ -154428,10 +154789,14 @@
       [
        20769,
        138778.0
+      ],
+      [
+       20771,
+       139974.0
       ]
      ],
      "f": 20753,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194459073": {
@@ -154444,7 +154809,7 @@
      "lng": -77.04342,
      "mon": "USD",
      "monto": 2200.0,
-     "mant": 262.2,
+     "mant": 264.3,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -154458,7 +154823,7 @@
       ]
      ],
      "f": 20753,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194461794": {
@@ -154485,7 +154850,7 @@
       ]
      ],
      "f": 20753,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-juan-de-miraflores"
     },
     "194461795": {
@@ -154512,7 +154877,7 @@
       ]
      ],
      "f": 20753,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-martin-de-porres"
     },
     "194461796": {
@@ -154539,14 +154904,14 @@
       ]
      ],
      "f": 20753,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-martin-de-porres"
     },
     "194459440": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 100725.0,
+     "usd": 101593.0,
      "area": 53.0,
      "lat": -12.07709,
      "lng": -77.09877,
@@ -154560,10 +154925,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-miguel-entrega-inmediata/194459440",
      "flags": [],
      "p": [
-      [
-       20755,
-       100292.0
-      ],
       [
        20757,
        99890.0
@@ -154591,17 +154952,21 @@
       [
        20769,
        100725.0
+      ],
+      [
+       20771,
+       101593.0
       ]
      ],
      "f": 20754,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-miguel"
     },
     "194462954": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 95840.0,
+     "usd": 96666.0,
      "area": 48.0,
      "lat": -12.08808,
      "lng": -77.08452,
@@ -154615,10 +154980,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-miguel-entrega-inmediata/194462954",
      "flags": [],
      "p": [
-      [
-       20755,
-       95428.0
-      ],
       [
        20757,
        95046.0
@@ -154646,17 +155007,21 @@
       [
        20769,
        95840.0
+      ],
+      [
+       20771,
+       96666.0
       ]
      ],
      "f": 20754,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-miguel"
     },
     "194459583": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 96131.0,
+     "usd": 96960.0,
      "area": 47.0,
      "lat": -12.08808,
      "lng": -77.08452,
@@ -154670,10 +155035,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-miguel-entrega-inmediata/194459583",
      "flags": [],
      "p": [
-      [
-       20755,
-       95718.0
-      ],
       [
        20757,
        95335.0
@@ -154701,10 +155062,14 @@
       [
        20769,
        96131.0
+      ],
+      [
+       20771,
+       96960.0
       ]
      ],
      "f": 20754,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-miguel"
     },
     "194460800": {
@@ -155273,7 +155638,7 @@
      "lng": -77.1139,
      "mon": "USD",
      "monto": 245000.0,
-     "mant": 101.96,
+     "mant": 102.84,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -155287,14 +155652,14 @@
       ]
      ],
      "f": 20755,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-borja"
     },
     "194468337": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 183086.0,
+     "usd": 184664.0,
      "area": 60.0,
      "lat": -12.09133,
      "lng": -77.02725,
@@ -155308,10 +155673,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-isidro-entrega-inmediata/194468337",
      "flags": [],
      "p": [
-      [
-       20755,
-       182299.0
-      ],
       [
        20757,
        181569.0
@@ -155339,10 +155700,14 @@
       [
        20769,
        183086.0
+      ],
+      [
+       20771,
+       184664.0
       ]
      ],
      "f": 20755,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194466058": {
@@ -155355,7 +155720,7 @@
      "lng": -77.07896,
      "mon": "USD",
      "monto": 220000.0,
-     "mant": 95.55,
+     "mant": 96.37,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -155369,7 +155734,7 @@
       ]
      ],
      "f": 20755,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194472872": {
@@ -156599,7 +156964,7 @@
       ]
      ],
      "f": 20757,
-     "r": 20769,
+     "r": 20771,
      "dist": "rimac"
     },
     "194478383": {
@@ -156639,7 +157004,7 @@
      "lng": -77.03677,
      "mon": "USD",
      "monto": 1300.0,
-     "mant": 131.1,
+     "mant": 132.15,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -156653,7 +157018,7 @@
       ]
      ],
      "f": 20757,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194476913": {
@@ -156684,7 +157049,7 @@
       ]
      ],
      "f": 20757,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-juan-de-lurigancho"
     },
     "194487096": {
@@ -156697,7 +157062,7 @@
      "lng": -77.09341,
      "mon": "USD",
      "monto": 100000.0,
-     "mant": 23.3,
+     "mant": 23.51,
      "anio": "",
      "dorm": "2",
      "zona": "San Miguel",
@@ -156711,14 +157076,14 @@
       ]
      ],
      "f": 20757,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-miguel"
     },
     "194482862": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 137045.0,
+     "usd": 138226.0,
      "area": 66.0,
      "lat": -12.07795,
      "lng": -77.09652,
@@ -156759,10 +157124,14 @@
       [
        20769,
        137045.0
+      ],
+      [
+       20771,
+       138226.0
       ]
      ],
      "f": 20757,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-miguel"
     },
     "194486032": {
@@ -156789,7 +157158,7 @@
       ]
      ],
      "f": 20757,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-miguel"
     },
     "194485969": {
@@ -157631,7 +158000,7 @@
       ]
      ],
      "f": 20759,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194487901": {
@@ -157644,7 +158013,7 @@
      "lng": -77.082,
      "mon": "USD",
      "monto": 66000.0,
-     "mant": 20.39,
+     "mant": 20.57,
      "anio": "",
      "dorm": "Mono",
      "zona": "San Miguel",
@@ -157658,7 +158027,7 @@
       ]
      ],
      "f": 20759,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-miguel"
     },
     "194487785": {
@@ -158421,7 +158790,7 @@
      "lng": -76.7816,
      "mon": "USD",
      "monto": 185000.0,
-     "mant": 87.39,
+     "mant": 88.06,
      "anio": "",
      "dorm": "2",
      "zona": "San Bartolo",
@@ -158435,7 +158804,7 @@
       ]
      ],
      "f": 20761,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-bartolo"
     },
     "194496747": {
@@ -158448,7 +158817,7 @@
      "lng": -77.0685,
      "mon": "USD",
      "monto": 226000.0,
-     "mant": 101.96,
+     "mant": 102.84,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -158462,7 +158831,7 @@
       ]
      ],
      "f": 20761,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-borja"
     },
     "194494658": {
@@ -158489,7 +158858,7 @@
       ]
      ],
      "f": 20761,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-borja"
     },
     "194492094": {
@@ -158502,7 +158871,7 @@
      "lng": -76.9738,
      "mon": "USD",
      "monto": 50000.0,
-     "mant": 5.83,
+     "mant": 5.88,
      "anio": "",
      "dorm": "2",
      "zona": "San Juan De Miraflores",
@@ -158516,20 +158885,20 @@
       ]
      ],
      "f": 20761,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-juan-de-miraflores"
     },
     "194491363": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 138662.0,
+     "usd": 139857.0,
      "area": 76.0,
      "lat": -12.08929,
      "lng": -77.08112,
      "mon": "PEN",
      "monto": 476000.0,
-     "mant": 64.09,
+     "mant": 64.64,
      "anio": "",
      "dorm": "3",
      "zona": "San Miguel",
@@ -158556,10 +158925,14 @@
       [
        20769,
        138662.0
+      ],
+      [
+       20771,
+       139857.0
       ]
      ],
      "f": 20761,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-miguel"
     },
     "194499026": {
@@ -159493,7 +159866,7 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 594.0,
+     "usd": 599.0,
      "area": 45.0,
      "lat": -12.0974,
      "lng": -77.00806,
@@ -159522,10 +159895,14 @@
       [
        20769,
        594.0
+      ],
+      [
+       20771,
+       599.0
       ]
      ],
      "f": 20763,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-borja"
     },
     "194500432": {
@@ -159552,7 +159929,7 @@
       ]
      ],
      "f": 20763,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-borja"
     },
     "194500446": {
@@ -159579,7 +159956,7 @@
       ]
      ],
      "f": 20763,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-juan-de-lurigancho"
     },
     "194509191": {
@@ -159606,20 +159983,20 @@
       ]
      ],
      "f": 20763,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-martin-de-porres"
     },
     "194506867": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 728.0,
+     "usd": 735.0,
      "area": 55.0,
      "lat": -12.08683,
      "lng": -77.09081,
      "mon": "PEN",
      "monto": 2500.0,
-     "mant": 36.41,
+     "mant": 36.73,
      "anio": "",
      "dorm": "2",
      "zona": "San Miguel",
@@ -159642,10 +160019,14 @@
       [
        20769,
        728.0
+      ],
+      [
+       20771,
+       735.0
       ]
      ],
      "f": 20764,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-miguel"
     },
     "194506749": {
@@ -160337,7 +160718,7 @@
       ]
      ],
      "f": 20765,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194517847": {
@@ -160364,7 +160745,7 @@
       ]
      ],
      "f": 20765,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194520304": {
@@ -161055,7 +161436,7 @@
       ]
      ],
      "f": 20769,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-borja"
     },
     "194531371": {
@@ -161068,7 +161449,7 @@
      "lng": -77.10043,
      "mon": "USD",
      "monto": 226000.0,
-     "mant": 101.96,
+     "mant": 102.84,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -161082,7 +161463,7 @@
       ]
      ],
      "f": 20769,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-borja"
     },
     "194536627": {
@@ -161099,8 +161480,8 @@
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
-     "titulo": "Departamento de estreno en San Borja / 3 dormitorios / flat / 1 estac / cerca al",
-     "u": "https://www.infocasas.com.pe/departamento-de-estreno-en-san-borja-y-3-dormitorios-y-flat-y-1-estac-y-cerca-al-parque-euler/194536627",
+     "titulo": "Departamento de estreno en San Borja / 3 dormitorios / flat / 1 estac /  107m2 y",
+     "u": "https://www.infocasas.com.pe/departamento-de-estreno-en-san-borja-y-3-dormitorios-y-flat-y-1-estac-y-107m2-y-110m2/194536627",
      "flags": [],
      "p": [
       [
@@ -161109,7 +161490,7 @@
       ]
      ],
      "f": 20769,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-borja"
     },
     "194531497": {
@@ -161122,7 +161503,7 @@
      "lng": -77.04789,
      "mon": "USD",
      "monto": 245000.0,
-     "mant": 101.96,
+     "mant": 102.84,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -161136,7 +161517,7 @@
       ]
      ],
      "f": 20769,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-borja"
     },
     "194536620": {
@@ -161163,7 +161544,7 @@
       ]
      ],
      "f": 20769,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194545826": {
@@ -161217,7 +161598,7 @@
       ]
      ],
      "f": 20769,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194547386": {
@@ -161244,14 +161625,14 @@
       ]
      ],
      "f": 20769,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194547385": {
      "op": "venta",
      "tipo": "casas",
      "ciudad": "lima",
-     "usd": 1360897.0,
+     "usd": 1372624.0,
      "area": 352.0,
      "lat": -12.10499,
      "lng": -77.0509,
@@ -161268,17 +161649,21 @@
       [
        20769,
        1360897.0
+      ],
+      [
+       20771,
+       1372624.0
       ]
      ],
      "f": 20769,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194536634": {
      "op": "alquiler",
      "tipo": "casas",
      "ciudad": "lima",
-     "usd": 3764.0,
+     "usd": 3796.0,
      "area": 300.0,
      "lat": -12.09528,
      "lng": -77.01383,
@@ -161295,10 +161680,14 @@
       [
        20769,
        3764.0
+      ],
+      [
+       20771,
+       3796.0
       ]
      ],
      "f": 20769,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194536633": {
@@ -161325,7 +161714,7 @@
       ]
      ],
      "f": 20769,
-     "r": 20769,
+     "r": 20771,
      "dist": "san-isidro"
     },
     "194536632": {
@@ -161732,10 +162121,334 @@
      "f": 20771,
      "r": 20771,
      "dist": "puente-piedra"
+    },
+    "194552829": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 60000.0,
+     "area": 70.0,
+     "lat": -12.02959,
+     "lng": -77.02583,
+     "mon": "USD",
+     "monto": 60000.0,
+     "mant": 38.16,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Rimac",
+     "titulo": "???? ¡el Hogar Seguro Y Activo Que Tu Familia Merece En Condominio Alcázar I! ✨",
+     "u": "https://www.infocasas.com.pe/el-hogar-seguro-y-activo-que-tu-familia-merece-en-condominio-alcazar-i/194552829",
+     "flags": [],
+     "p": [
+      [
+       20771,
+       60000.0
+      ]
+     ],
+     "f": 20771,
+     "r": 20771,
+     "dist": "rimac"
+    },
+    "194553012": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 580000.0,
+     "area": 220.0,
+     "lat": -12.10965,
+     "lng": -76.98738,
+     "mon": "USD",
+     "monto": 580000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "San Borja",
+     "titulo": "Duplex de284.80m2 con 4 hab   Estudio Chacarilla - San Borja - 2 cocheras parale",
+     "u": "https://www.infocasas.com.pe/duplex-de28480m2-con-4-hab-estudio-chacarilla-san-borja-2-cocheras-paralelas/194553012",
+     "flags": [],
+     "p": [
+      [
+       20771,
+       580000.0
+      ]
+     ],
+     "f": 20771,
+     "r": 20771,
+     "dist": "san-borja"
+    },
+    "194553014": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 390000.0,
+     "area": 162.0,
+     "lat": -12.10965,
+     "lng": -76.98738,
+     "mon": "USD",
+     "monto": 390000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "Flat de 162.40m2 de 3 Habitaciones Chacarilla - San Borja - 2 cocheras paralelas",
+     "u": "https://www.infocasas.com.pe/flat-de-16240m2-de-3-habitaciones-chacarilla-san-borja-2-cocheras-paralelas/194553014",
+     "flags": [],
+     "p": [
+      [
+       20771,
+       390000.0
+      ]
+     ],
+     "f": 20771,
+     "r": 20771,
+     "dist": "san-borja"
+    },
+    "194553013": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 450000.0,
+     "area": 210.0,
+     "lat": -12.10965,
+     "lng": -76.98738,
+     "mon": "USD",
+     "monto": 450000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "Flat de 210.10m2 3 Habitaciones  Chacarilla - San Borja - 2 cocheras paralelas",
+     "u": "https://www.infocasas.com.pe/flat-de-21010m2-3-habitaciones-chacarilla-san-borja-2-cocheras-paralelas/194553013",
+     "flags": [],
+     "p": [
+      [
+       20771,
+       450000.0
+      ]
+     ],
+     "f": 20771,
+     "r": 20771,
+     "dist": "san-borja"
+    },
+    "194547388": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 450000.0,
+     "area": 200.0,
+     "lat": -12.10937,
+     "lng": -76.98658,
+     "mon": "USD",
+     "monto": 450000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "Departamento en Chacarilla del Estanque - Pentagonito",
+     "u": "https://www.infocasas.com.pe/departamento-en-chacarilla-del-estanque-pentagonito/194547388",
+     "flags": [],
+     "p": [
+      [
+       20771,
+       450000.0
+      ]
+     ],
+     "f": 20771,
+     "r": 20771,
+     "dist": "san-borja"
+    },
+    "194555223": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 245000.0,
+     "area": 94.0,
+     "lat": -12.10691,
+     "lng": -77.11203,
+     "mon": "USD",
+     "monto": 245000.0,
+     "mant": 102.84,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "DEPARTAMENTO DE 94 M² CON BALCÓN Y COCHERA – SAN BORJA Ref 877",
+     "u": "https://www.infocasas.com.pe/departamento-de-94-m-con-balcon-y-cochera-san-borja-ref-877/194555223",
+     "flags": [],
+     "p": [
+      [
+       20771,
+       245000.0
+      ]
+     ],
+     "f": 20771,
+     "r": 20771,
+     "dist": "san-borja"
+    },
+    "194554681": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 226000.0,
+     "area": 93.0,
+     "lat": -12.0906,
+     "lng": -77.13892,
+     "mon": "USD",
+     "monto": 226000.0,
+     "mant": 102.84,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "DEPARTAMENTO DE ESTRENO DE 93 M² CON COCHERA EN SAN BORJA ref 876",
+     "u": "https://www.infocasas.com.pe/departamento-de-estreno-de-93-m-con-cochera-en-san-borja-ref-876/194554681",
+     "flags": [],
+     "p": [
+      [
+       20771,
+       226000.0
+      ]
+     ],
+     "f": 20771,
+     "r": 20771,
+     "dist": "san-borja"
+    },
+    "194547389": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 449540.0,
+     "area": 200.0,
+     "lat": -12.10937,
+     "lng": -76.98658,
+     "mon": "PEN",
+     "monto": 1530000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "Departamento en Chacarilla del Estanque - Pentagonito",
+     "u": "https://www.infocasas.com.pe/departamento-en-chacarilla-del-estanque-pentagonito/194547389",
+     "flags": [],
+     "p": [
+      [
+       20771,
+       449540.0
+      ]
+     ],
+     "f": 20771,
+     "r": 20771,
+     "dist": "san-borja"
+    },
+    "194553006": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 180000.0,
+     "area": 57.0,
+     "lat": -12.09607,
+     "lng": -77.05514,
+     "mon": "USD",
+     "monto": 180000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Isidro",
+     "titulo": "SE VENDE DEPARTAMENTO 2 DORMITORIOS 2 BAÑOS 1 COCHERA 1 DEPÓSITO",
+     "u": "https://www.infocasas.com.pe/se-vende-departamento-2-dormitorios-2-banos-1-cochera-1-deposito/194553006",
+     "flags": [],
+     "p": [
+      [
+       20771,
+       180000.0
+      ]
+     ],
+     "f": 20771,
+     "r": 20771,
+     "dist": "san-isidro"
+    },
+    "194547382": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 226000.0,
+     "area": 63.0,
+     "lat": -12.10821,
+     "lng": -77.05336,
+     "mon": "USD",
+     "monto": 226000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "San Isidro",
+     "titulo": "Venta de Departamento 2 Dormitorios - Vista parcial al mar",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-2-dormitorios-vista-parcial-al-mar/194547382",
+     "flags": [],
+     "p": [
+      [
+       20771,
+       226000.0
+      ]
+     ],
+     "f": 20771,
+     "r": 20771,
+     "dist": "san-isidro"
+    },
+    "194559030": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "arequipa",
+     "usd": 185000.0,
+     "area": 111.0,
+     "lat": -16.37928,
+     "lng": -71.55274,
+     "mon": "USD",
+     "monto": 185000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Cayma",
+     "titulo": "DEPARTAMENTO DE ESTRENO EN CAYMA | USD 185,000",
+     "u": "https://www.infocasas.com.pe/departamento-de-estreno-en-cayma-usd-185000/194559030",
+     "flags": [],
+     "p": [
+      [
+       20771,
+       185000.0
+      ]
+     ],
+     "f": 20771,
+     "r": 20771,
+     "dist": "arequipa"
+    },
+    "194559066": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "arequipa",
+     "usd": 210000.0,
+     "area": 133.0,
+     "lat": -16.38915,
+     "lng": -71.5489,
+     "mon": "USD",
+     "monto": 210000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Cayma",
+     "titulo": "VENTA DE DEPARTAMENTO A 2 CUADRAS DE MALL PLAZA CAYMA | USD 210,000",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-a-2-cuadras-de-mall-plaza-cayma-usd-210000/194559066",
+     "flags": [],
+     "p": [
+      [
+       20771,
+       210000.0
+      ]
+     ],
+     "f": 20771,
+     "r": 20771,
+     "dist": "arequipa"
     }
    },
-   "tc": 3.406813627254509,
-   "turno": 106,
+   "tc": 3.4034787898098395,
+   "turno": 145,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -161762,58 +162475,58 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 109,
-     "fuera_ciudad": 2,
-     "momento": 1794638902
+     "validos": 90,
+     "fuera_ciudad": 0,
+     "momento": 1794680547
     },
     "arequipa": {
      "paginas": 4,
-     "validos": 4,
+     "validos": 6,
      "fuera_ciudad": 0,
-     "momento": 1794638902
+     "momento": 1794680547
     },
     "cusco": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1794638902
+     "momento": 1794680547
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 3,
-     "momento": 1794638902
+     "momento": 1794680547
     },
     "trujillo": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1794638902
+     "momento": 1794680547
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1794638902
+     "momento": 1794680547
     }
    }
   },
   "cobertura_ciudades": {
    "lima": {
     "ciudad": "Lima",
-    "ventas": 1044,
+    "ventas": 1054,
     "alquileres": 315,
     "estado": "con datos; comparables por microzona pendientes de cada aviso",
-    "proyectos": 807,
-    "momento": 1794638902
+    "proyectos": 809,
+    "momento": 1794680547
    },
    "arequipa": {
     "ciudad": "Arequipa",
-    "ventas": 21,
+    "ventas": 23,
     "alquileres": 1,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 8,
-    "momento": 1794638902
+    "momento": 1794680547
    },
    "cusco": {
     "ciudad": "Cusco",
@@ -161821,7 +162534,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 1,
-    "momento": 1794638902
+    "momento": 1794680547
    },
    "cajamarca": {
     "ciudad": "Cajamarca",
@@ -161829,7 +162542,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1794638902
+    "momento": 1794680547
    },
    "trujillo": {
     "ciudad": "Trujillo",
@@ -161837,7 +162550,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1794638902
+    "momento": 1794680547
    },
    "huaraz": {
     "ciudad": "Huaraz",
@@ -161845,7 +162558,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1794638902
+    "momento": 1794680547
    }
   }
  }
