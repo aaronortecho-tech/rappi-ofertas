@@ -72,7 +72,6 @@
   "938fd580a23c120a": 1790297036,
   "942608035fa3c92a": 1794263731,
   "969cf39c3e269bc2": 1794032280,
-  "983b8fb47c6c3fe4": 1789756695,
   "988e5e6cd1218e8b": 1793656350,
   "9eec1fca81392719": 1793020990,
   "a496ef753d1f6815": 1792904445,
@@ -85,14 +84,12 @@
   "b19b3221d07962f6": 1793822302,
   "b589ee200bb64ce2": 1789973117,
   "b6ff1f34c2af4bd5": 1793426473,
-  "b7f0d67d5c55dcd5": 1789756695,
   "b8f4c684589adb82": 1794638902,
   "b9908e8216657727": 1792220799,
   "bbf2ba7dba72eb7f": 1792385942,
   "bd1d3f53016c3ec4": 1792776091,
   "c0c6371b9b025900": 1792904445,
   "c10c74e5cce74078": 1792270100,
-  "c6c3a599fee042c4": 1789756695,
   "c7779c7ad9612f20": 1794468578,
   "c89e3d396f7cc461": 1792156275,
   "c94a5096d29cd5fe": 1794340541,
@@ -116,13 +113,14 @@
   "fafc78c9b93aec7d": 1792840870
  },
  "failures": {
-  "Nexo Inmobiliario/proyectos": 23
+  "Infocasas/avisos recientes": 1,
+  "Nexo Inmobiliario/proyectos": 24
  },
  "last_failure_notice": 1794903155,
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1794903155,
+ "saved_at": 1794949779,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -39808,7 +39806,7 @@
        20720
       ]
      },
-     "r": 20752,
+     "r": 20774,
      "x": 20774
     },
     "3780": {
@@ -47322,7 +47320,7 @@
       ]
      },
      "r": 20754,
-     "x": 20771
+     "x": 20774
     },
     "3849": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/los-cerezos-3849",
@@ -113067,6 +113065,243 @@
      },
      "r": 20772,
      "x": 20774
+    },
+    "4460": {
+     "u": "https://nexoinmobiliario.pe/departamentos/lince/salaverry-2079-4460",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Lince",
+     "nombre": "Salaverry 2079",
+     "marca": "V&V GRUPO INMOBILIARIO",
+     "lat": -12.08502,
+     "lng": -77.04815,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo X201": [
+       60.45,
+       2,
+       "PEN",
+       535000.0
+      ],
+      "Modelo X02": [
+       40.9,
+       1,
+       "PEN",
+       354000.0
+      ],
+      "Modelo X03": [
+       59.3,
+       2,
+       "PEN",
+       508000.0
+      ],
+      "Modelo X04": [
+       41.85,
+       2,
+       "PEN",
+       367000.0
+      ],
+      "Modelo X05": [
+       42.2,
+       2,
+       "PEN",
+       370000.0
+      ],
+      "Modelo X06": [
+       57.45,
+       2,
+       "PEN",
+       500000.0
+      ],
+      "Modelo X07": [
+       42.25,
+       2,
+       "PEN",
+       370000.0
+      ],
+      "Modelo X08": [
+       74.3,
+       3,
+       "PEN",
+       614000.0
+      ],
+      "Modelo X09": [
+       70.6,
+       3,
+       "PEN",
+       591000.0
+      ],
+      "Modelo X10": [
+       40.0,
+       1,
+       "PEN",
+       359000.0
+      ],
+      "Modelo X12": [
+       40.0,
+       1,
+       "PEN",
+       363000.0
+      ],
+      "Modelo X13": [
+       43.7,
+       2,
+       "PEN",
+       379000.0
+      ],
+      "Modelo X213": [
+       47.85,
+       1,
+       "PEN",
+       425000.0
+      ],
+      "Modelo X01": [
+       51.75,
+       2,
+       "PEN",
+       408400.0
+      ],
+      "Modelo X11": [
+       51.7,
+       2,
+       "PEN",
+       408400.0
+      ],
+      "Modelo X14": [
+       40.0,
+       1,
+       "PEN",
+       352000.0
+      ],
+      "Modelo X1501": [
+       47.45,
+       1,
+       "PEN",
+       409000.0
+      ],
+      "Modelo X1514": [
+       44.45,
+       1,
+       "PEN",
+       400000.0
+      ],
+      "Modelo X1601": [
+       40.3,
+       1,
+       "PEN",
+       385000.0
+      ],
+      "Modelo X1701": [
+       40.3,
+       1,
+       "PEN",
+       385000.0
+      ]
+     },
+     "primero": {
+      "Modelo X201": [
+       "PEN",
+       535000.0,
+       20774
+      ],
+      "Modelo X02": [
+       "PEN",
+       354000.0,
+       20774
+      ],
+      "Modelo X03": [
+       "PEN",
+       508000.0,
+       20774
+      ],
+      "Modelo X04": [
+       "PEN",
+       367000.0,
+       20774
+      ],
+      "Modelo X05": [
+       "PEN",
+       370000.0,
+       20774
+      ],
+      "Modelo X06": [
+       "PEN",
+       500000.0,
+       20774
+      ],
+      "Modelo X07": [
+       "PEN",
+       370000.0,
+       20774
+      ],
+      "Modelo X08": [
+       "PEN",
+       614000.0,
+       20774
+      ],
+      "Modelo X09": [
+       "PEN",
+       591000.0,
+       20774
+      ],
+      "Modelo X10": [
+       "PEN",
+       359000.0,
+       20774
+      ],
+      "Modelo X12": [
+       "PEN",
+       363000.0,
+       20774
+      ],
+      "Modelo X13": [
+       "PEN",
+       379000.0,
+       20774
+      ],
+      "Modelo X213": [
+       "PEN",
+       425000.0,
+       20774
+      ],
+      "Modelo X01": [
+       "PEN",
+       408400.0,
+       20774
+      ],
+      "Modelo X11": [
+       "PEN",
+       408400.0,
+       20774
+      ],
+      "Modelo X14": [
+       "PEN",
+       352000.0,
+       20774
+      ],
+      "Modelo X1501": [
+       "PEN",
+       409000.0,
+       20774
+      ],
+      "Modelo X1514": [
+       "PEN",
+       400000.0,
+       20774
+      ],
+      "Modelo X1601": [
+       "PEN",
+       385000.0,
+       20774
+      ],
+      "Modelo X1701": [
+       "PEN",
+       385000.0,
+       20774
+      ]
+     },
+     "r": 20774,
+     "x": 20774
     }
    },
    "ultima": 1793993830
@@ -164506,40 +164741,10 @@
    },
    "ultima_cobertura": {
     "lima": {
-     "paginas": 40,
-     "validos": 53,
-     "fuera_ciudad": 1,
-     "momento": 1794903155
-    },
-    "arequipa": {
-     "paginas": 4,
-     "validos": 5,
-     "fuera_ciudad": 0,
-     "momento": 1794903155
-    },
-    "cusco": {
-     "paginas": 4,
+     "paginas": 0,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1794903155
-    },
-    "cajamarca": {
-     "paginas": 4,
-     "validos": 1,
-     "fuera_ciudad": 2,
-     "momento": 1794903155
-    },
-    "trujillo": {
-     "paginas": 4,
-     "validos": 1,
-     "fuera_ciudad": 0,
-     "momento": 1794903155
-    },
-    "huaraz": {
-     "paginas": 4,
-     "validos": 0,
-     "fuera_ciudad": 0,
-     "momento": 1794903155
+     "momento": 1794949779
     }
    }
   },
@@ -164549,8 +164754,8 @@
     "ventas": 1075,
     "alquileres": 333,
     "estado": "con datos; comparables por microzona pendientes de cada aviso",
-    "proyectos": 811,
-    "momento": 1794903155
+    "proyectos": 812,
+    "momento": 1794949779
    },
    "arequipa": {
     "ciudad": "Arequipa",
@@ -164558,7 +164763,7 @@
     "alquileres": 1,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 8,
-    "momento": 1794903155
+    "momento": 1794949779
    },
    "cusco": {
     "ciudad": "Cusco",
@@ -164566,7 +164771,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 1,
-    "momento": 1794903155
+    "momento": 1794949779
    },
    "cajamarca": {
     "ciudad": "Cajamarca",
@@ -164574,7 +164779,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1794903155
+    "momento": 1794949779
    },
    "trujillo": {
     "ciudad": "Trujillo",
@@ -164582,7 +164787,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1794903155
+    "momento": 1794949779
    },
    "huaraz": {
     "ciudad": "Huaraz",
@@ -164590,7 +164795,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1794903155
+    "momento": 1794949779
    }
   }
  }
