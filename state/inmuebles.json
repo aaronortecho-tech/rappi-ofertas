@@ -60,13 +60,11 @@
   "7dbaa3f3cf06868d": 1793399610,
   "7e139cf37e918500": 1793993830,
   "8265a93193858b61": 1793601063,
-  "8335513f6725f81a": 1790297036,
   "89ff3b2d8f6ff4fa": 1793734918,
   "8dc7946952c7398a": 1792449176,
   "8e50fc63c40b4d08": 1792603619,
   "909635d2b72d80a0": 1791983319,
   "92832c2d8e152f52": 1793948712,
-  "938fd580a23c120a": 1790297036,
   "942608035fa3c92a": 1794263731,
   "969cf39c3e269bc2": 1794032280,
   "988e5e6cd1218e8b": 1793656350,
@@ -113,13 +111,13 @@
   "fed3be03a3964ffa": 1795289628
  },
  "failures": {
-  "Nexo Inmobiliario/proyectos": 36
+  "Nexo Inmobiliario/proyectos": 37
  },
  "last_failure_notice": 1795478909,
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1795478909,
+ "saved_at": 1795515013,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -28037,7 +28035,7 @@
        20718
       ]
      },
-     "r": 20752,
+     "r": 20781,
      "x": 20781
     },
     "3598": {
@@ -28049,7 +28047,7 @@
      "marca": "SEMBRA INMOBILIARIA",
      "lat": -12.12592,
      "lng": -76.98026,
-     "etapa": "en planos",
+     "etapa": "en construcción",
      "modelos": {
       "Modelo B-102": [
        79.19,
@@ -28279,12 +28277,6 @@
        "PEN",
        540400.0
       ],
-      "Modelo A-104": [
-       67.95,
-       2,
-       "PEN",
-       537900.0
-      ],
       "Modelo A-106": [
        71.02,
        2,
@@ -28309,12 +28301,6 @@
        "PEN",
        591900.0
       ],
-      "Modelo A-304": [
-       70.31,
-       2,
-       "PEN",
-       560900.0
-      ],
       "Modelo A-305": [
        64.4,
        2,
@@ -28326,18 +28312,6 @@
        2,
        "PEN",
        585000.0
-      ],
-      "Modelo A-402": [
-       68.78,
-       2,
-       "PEN",
-       552900.0
-      ],
-      "Modelo A-404": [
-       64.29,
-       2,
-       "PEN",
-       518100.0
       ],
       "Modelo A-503": [
        70.74,
@@ -28567,11 +28541,6 @@
        540400.0,
        20718
       ],
-      "Modelo A-104": [
-       "PEN",
-       537900.0,
-       20718
-      ],
       "Modelo A-106": [
        "PEN",
        561000.0,
@@ -28592,11 +28561,6 @@
        591900.0,
        20718
       ],
-      "Modelo A-304": [
-       "PEN",
-       560900.0,
-       20718
-      ],
       "Modelo A-305": [
        "PEN",
        519000.0,
@@ -28605,16 +28569,6 @@
       "Modelo A-306": [
        "PEN",
        585000.0,
-       20718
-      ],
-      "Modelo A-402": [
-       "PEN",
-       552900.0,
-       20718
-      ],
-      "Modelo A-404": [
-       "PEN",
-       518100.0,
        20718
       ],
       "Modelo A-503": [
@@ -28648,7 +28602,7 @@
        20718
       ]
      },
-     "r": 20752,
+     "r": 20781,
      "x": 20781
     },
     "3600": {
@@ -28662,17 +28616,17 @@
      "lng": -77.05448,
      "etapa": "en construcción",
      "modelos": {
-      "Modelo Tipo 5": [
-       105.3,
-       3,
-       "PEN",
-       886000.0
-      ],
       "Modelo Tipo 4": [
        137.95,
        3,
        "PEN",
-       1102000.0
+       1152000.0
+      ],
+      "Modelo Tipo 5": [
+       105.3,
+       3,
+       "PEN",
+       936000.0
       ]
      },
      "primero": {
@@ -28687,7 +28641,7 @@
        20718
       ]
      },
-     "r": 20752,
+     "r": 20781,
      "x": 20781
     },
     "3601": {
@@ -155984,7 +155938,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 139806.0,
+     "usd": 138777.0,
      "area": 59.0,
      "lat": -12.1041,
      "lng": -77.01848,
@@ -155998,10 +155952,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-surquillo-entrega-inmediata/194459722",
      "flags": [],
      "p": [
-      [
-       20764,
-       139231.0
-      ],
       [
        20765,
        138937.0
@@ -156029,17 +155979,21 @@
       [
        20778,
        139806.0
+      ],
+      [
+       20781,
+       138777.0
       ]
      ],
      "f": 20752,
-     "r": 20778,
-     "dist": "surquillo"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194459117": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 151057.0,
+     "usd": 149945.0,
      "area": 63.0,
      "lat": -12.13835,
      "lng": -77.01858,
@@ -156053,10 +156007,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-barranco-entrega-inmediata/194459117",
      "flags": [],
      "p": [
-      [
-       20764,
-       150436.0
-      ],
       [
        20765,
        150117.0
@@ -156084,11 +156034,15 @@
       [
        20779,
        151057.0
+      ],
+      [
+       20781,
+       149945.0
       ]
      ],
      "f": 20752,
-     "r": 20779,
-     "dist": "barranco"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194461232": {
      "op": "alquiler",
@@ -156196,8 +156150,8 @@
       ]
      ],
      "f": 20753,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194427195": {
      "op": "venta",
@@ -156392,7 +156346,7 @@
      "lng": -77.05772,
      "mon": "USD",
      "monto": 175000.0,
-     "mant": 72.95,
+     "mant": 72.34,
      "anio": "",
      "dorm": "2",
      "zona": "San Isidro",
@@ -156407,13 +156361,13 @@
      ],
      "f": 20753,
      "r": 20781,
-     "dist": "san-isidro"
+     "dist": "carabayllo"
     },
     "194463333": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 139015.0,
+     "usd": 137858.0,
      "area": 45.0,
      "lat": -12.09133,
      "lng": -77.02725,
@@ -156427,10 +156381,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-isidro-entrega-inmediata/194463333",
      "flags": [],
      "p": [
-      [
-       20765,
-       138016.0
-      ],
       [
        20767,
        138455.0
@@ -156458,11 +156408,15 @@
       [
        20781,
        139015.0
+      ],
+      [
+       20781,
+       137858.0
       ]
      ],
      "f": 20753,
      "r": 20781,
-     "dist": "san-isidro"
+     "dist": "carabayllo"
     },
     "194459073": {
      "op": "alquiler",
@@ -156516,7 +156470,7 @@
      ],
      "f": 20753,
      "r": 20781,
-     "dist": "san-juan-de-miraflores"
+     "dist": "carabayllo"
     },
     "194461795": {
      "op": "venta",
@@ -156543,7 +156497,7 @@
      ],
      "f": 20753,
      "r": 20781,
-     "dist": "san-martin-de-porres"
+     "dist": "carabayllo"
     },
     "194461796": {
      "op": "venta",
@@ -156570,13 +156524,13 @@
      ],
      "f": 20753,
      "r": 20781,
-     "dist": "san-martin-de-porres"
+     "dist": "carabayllo"
     },
     "194459440": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 100897.0,
+     "usd": 100056.0,
      "area": 53.0,
      "lat": -12.07709,
      "lng": -77.09877,
@@ -156590,10 +156544,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-miguel-entrega-inmediata/194459440",
      "flags": [],
      "p": [
-      [
-       20765,
-       100172.0
-      ],
       [
        20767,
        100490.0
@@ -156621,17 +156571,21 @@
       [
        20781,
        100897.0
+      ],
+      [
+       20781,
+       100056.0
       ]
      ],
      "f": 20754,
      "r": 20781,
-     "dist": "san-miguel"
+     "dist": "carabayllo"
     },
     "194462954": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 96003.0,
+     "usd": 95204.0,
      "area": 48.0,
      "lat": -12.08808,
      "lng": -77.08452,
@@ -156645,10 +156599,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-miguel-entrega-inmediata/194462954",
      "flags": [],
      "p": [
-      [
-       20765,
-       95313.0
-      ],
       [
        20767,
        95616.0
@@ -156676,17 +156626,21 @@
       [
        20781,
        96003.0
+      ],
+      [
+       20781,
+       95204.0
       ]
      ],
      "f": 20754,
      "r": 20781,
-     "dist": "san-miguel"
+     "dist": "carabayllo"
     },
     "194459583": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 96295.0,
+     "usd": 95493.0,
      "area": 47.0,
      "lat": -12.08808,
      "lng": -77.08452,
@@ -156700,10 +156654,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-miguel-entrega-inmediata/194459583",
      "flags": [],
      "p": [
-      [
-       20765,
-       95603.0
-      ],
       [
        20767,
        95907.0
@@ -156731,23 +156681,27 @@
       [
        20781,
        96295.0
+      ],
+      [
+       20781,
+       95493.0
       ]
      ],
      "f": 20754,
      "r": 20781,
-     "dist": "san-miguel"
+     "dist": "carabayllo"
     },
     "194460800": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 335574.0,
+     "usd": 332780.0,
      "area": 115.0,
      "lat": -12.10326,
      "lng": -76.9662,
      "mon": "PEN",
      "monto": 1150000.0,
-     "mant": 116.72,
+     "mant": 115.75,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -156755,10 +156709,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-de-estreno-magna-haus-surco/194460800",
      "flags": [],
      "p": [
-      [
-       20765,
-       333162.0
-      ],
       [
        20767,
        334221.0
@@ -156786,11 +156736,15 @@
       [
        20781,
        335574.0
+      ],
+      [
+       20781,
+       332780.0
       ]
      ],
      "f": 20754,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194463772": {
      "op": "venta",
@@ -156802,7 +156756,7 @@
      "lng": -76.98567,
      "mon": "USD",
      "monto": 350000.0,
-     "mant": 262.62,
+     "mant": 260.44,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -156817,7 +156771,7 @@
      ],
      "f": 20754,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194460406": {
      "op": "alquiler",
@@ -156925,14 +156879,14 @@
       ]
      ],
      "f": 20754,
-     "r": 20778,
+     "r": 20781,
      "dist": "villa-el-salvador"
     },
     "194463123": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 137685.0,
+     "usd": 136671.0,
      "area": 65.0,
      "lat": -12.07548,
      "lng": -77.03677,
@@ -156946,10 +156900,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-cercado-de-lima-entrega-inmediata/194463123",
      "flags": [],
      "p": [
-      [
-       20764,
-       137118.0
-      ],
       [
        20765,
        136828.0
@@ -156977,11 +156927,15 @@
       [
        20779,
        137685.0
+      ],
+      [
+       20781,
+       136671.0
       ]
      ],
      "f": 20754,
-     "r": 20779,
-     "dist": "cercado-de-lima"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194462307": {
      "op": "alquiler",
@@ -157077,8 +157031,8 @@
       ]
      ],
      "f": 20754,
-     "r": 20779,
-     "dist": "la-molina"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194465414": {
      "op": "venta",
@@ -157090,7 +157044,7 @@
      "lng": -77.02909,
      "mon": "USD",
      "monto": 97000.0,
-     "mant": 56.9,
+     "mant": 56.43,
      "anio": "",
      "dorm": "1",
      "zona": "Lince",
@@ -157104,8 +157058,8 @@
       ]
      ],
      "f": 20754,
-     "r": 20779,
-     "dist": "lince"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194461845": {
      "op": "alquiler",
@@ -157171,7 +157125,7 @@
      "lng": -77.02817,
      "mon": "USD",
      "monto": 175000.0,
-     "mant": 58.36,
+     "mant": 57.87,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -157185,8 +157139,8 @@
       ]
      ],
      "f": 20755,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194470050": {
      "op": "venta",
@@ -157198,7 +157152,7 @@
      "lng": -77.03115,
      "mon": "USD",
      "monto": 143000.0,
-     "mant": 70.03,
+     "mant": 69.48,
      "anio": "",
      "dorm": "1",
      "zona": "Miraflores",
@@ -157216,8 +157170,8 @@
       ]
      ],
      "f": 20755,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194469051": {
      "op": "alquiler",
@@ -157250,7 +157204,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 314273.0,
+     "usd": 311655.0,
      "area": 151.0,
      "lat": -12.07128,
      "lng": -77.06312,
@@ -157264,10 +157218,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-pueblo-libre-entrega-inmediata/194468163",
      "flags": [],
      "p": [
-      [
-       20763,
-       312720.0
-      ],
       [
        20765,
        312014.0
@@ -157295,11 +157245,15 @@
       [
        20780,
        314273.0
+      ],
+      [
+       20781,
+       311655.0
       ]
      ],
      "f": 20755,
-     "r": 20780,
-     "dist": "pueblo-libre"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194471709": {
      "op": "venta",
@@ -157332,7 +157286,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 183399.0,
+     "usd": 181871.0,
      "area": 60.0,
      "lat": -12.09133,
      "lng": -77.02725,
@@ -157346,10 +157300,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-isidro-entrega-inmediata/194468337",
      "flags": [],
      "p": [
-      [
-       20765,
-       182080.0
-      ],
       [
        20767,
        182659.0
@@ -157377,11 +157327,15 @@
       [
        20781,
        183399.0
+      ],
+      [
+       20781,
+       181871.0
       ]
      ],
      "f": 20755,
      "r": 20781,
-     "dist": "san-isidro"
+     "dist": "carabayllo"
     },
     "194466058": {
      "op": "venta",
@@ -157393,7 +157347,7 @@
      "lng": -77.07896,
      "mon": "USD",
      "monto": 220000.0,
-     "mant": 95.71,
+     "mant": 94.91,
      "anio": "",
      "dorm": "3",
      "zona": "San Isidro",
@@ -157408,7 +157362,7 @@
      ],
      "f": 20755,
      "r": 20781,
-     "dist": "san-isidro"
+     "dist": "carabayllo"
     },
     "194472872": {
      "op": "venta",
@@ -157488,14 +157442,14 @@
       ]
      ],
      "f": 20756,
-     "r": 20778,
+     "r": 20781,
      "dist": "santiago-de-surco"
     },
     "194468470": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 139797.0,
+     "usd": 138767.0,
      "area": 59.0,
      "lat": -12.1041,
      "lng": -77.01848,
@@ -157509,10 +157463,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-surquillo-entrega-inmediata/194468470",
      "flags": [],
      "p": [
-      [
-       20764,
-       139221.0
-      ],
       [
        20765,
        138927.0
@@ -157540,11 +157490,15 @@
       [
        20778,
        139797.0
+      ],
+      [
+       20781,
+       138767.0
       ]
      ],
      "f": 20756,
-     "r": 20778,
-     "dist": "surquillo"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194480561": {
      "op": "venta",
@@ -157597,8 +157551,8 @@
       ]
      ],
      "f": 20756,
-     "r": 20779,
-     "dist": "jesus-maria"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194477348": {
      "op": "venta",
@@ -157665,7 +157619,7 @@
      "lng": -77.04774,
      "mon": "USD",
      "monto": 272000.0,
-     "mant": 145.9,
+     "mant": 144.69,
      "anio": "",
      "dorm": "4",
      "zona": "Jesus Maria",
@@ -157679,8 +157633,8 @@
       ]
      ],
      "f": 20756,
-     "r": 20779,
-     "dist": "jesus-maria"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194474607": {
      "op": "venta",
@@ -157713,7 +157667,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 119813.0,
+     "usd": 118815.0,
      "area": 56.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -157727,10 +157681,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-lince-dpto-206-al-806-609-893-106/194482058",
      "flags": [],
      "p": [
-      [
-       20764,
-       119204.0
-      ],
       [
        20766,
        118952.0
@@ -157758,17 +157708,21 @@
       [
        20779,
        119813.0
+      ],
+      [
+       20781,
+       118815.0
       ]
      ],
      "f": 20756,
-     "r": 20779,
-     "dist": "lince"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194482064": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 201077.0,
+     "usd": 199402.0,
      "area": 85.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -157782,10 +157736,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-lince-dpto-1106-609-893-114/194482064",
      "flags": [],
      "p": [
-      [
-       20764,
-       200055.0
-      ],
       [
        20766,
        199631.0
@@ -157813,17 +157763,21 @@
       [
        20779,
        201077.0
+      ],
+      [
+       20781,
+       199402.0
       ]
      ],
      "f": 20756,
-     "r": 20779,
-     "dist": "lince"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194482055": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 100069.0,
+     "usd": 99236.0,
      "area": 41.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -157837,10 +157791,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-lince-dpto-203-al-1103-609-893-107/194482055",
      "flags": [],
      "p": [
-      [
-       20764,
-       99561.0
-      ],
       [
        20766,
        99350.0
@@ -157868,17 +157818,21 @@
       [
        20779,
        100069.0
+      ],
+      [
+       20781,
+       99236.0
       ]
      ],
      "f": 20756,
-     "r": 20779,
-     "dist": "lince"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194482060": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 137066.0,
+     "usd": 135925.0,
      "area": 59.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -157892,10 +157846,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-lince-dpto-402-al-1102-609-893-105/194482060",
      "flags": [],
      "p": [
-      [
-       20764,
-       136370.0
-      ],
       [
        20766,
        136081.0
@@ -157923,17 +157873,21 @@
       [
        20779,
        137066.0
+      ],
+      [
+       20781,
+       135925.0
       ]
      ],
      "f": 20756,
-     "r": 20779,
-     "dist": "lince"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194482068": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 214710.0,
+     "usd": 212922.0,
      "area": 91.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -157947,10 +157901,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-lince-dpto-1104-609-893-113/194482068",
      "flags": [],
      "p": [
-      [
-       20764,
-       213619.0
-      ],
       [
        20766,
        213167.0
@@ -157978,17 +157928,21 @@
       [
        20779,
        214710.0
+      ],
+      [
+       20781,
+       212922.0
       ]
      ],
      "f": 20756,
-     "r": 20779,
-     "dist": "lince"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194482069": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 228133.0,
+     "usd": 226233.0,
      "area": 96.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -158002,10 +157956,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-lince-dpto-1107-609-893-115/194482069",
      "flags": [],
      "p": [
-      [
-       20764,
-       226973.0
-      ],
       [
        20766,
        226493.0
@@ -158033,17 +157983,21 @@
       [
        20779,
        228133.0
+      ],
+      [
+       20781,
+       226233.0
       ]
      ],
      "f": 20756,
-     "r": 20779,
-     "dist": "lince"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194482053": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 97617.0,
+     "usd": 96804.0,
      "area": 40.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -158057,10 +158011,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-lince-dpto-207-al-807-609-893-110/194482053",
      "flags": [],
      "p": [
-      [
-       20764,
-       97120.0
-      ],
       [
        20766,
        96915.0
@@ -158088,17 +158038,21 @@
       [
        20779,
        97617.0
+      ],
+      [
+       20781,
+       96804.0
       ]
      ],
      "f": 20756,
-     "r": 20779,
-     "dist": "lince"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194482056": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 99615.0,
+     "usd": 98785.0,
      "area": 41.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -158112,10 +158066,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-lince-dpto-201-al-1101-609-893-104/194482056",
      "flags": [],
      "p": [
-      [
-       20764,
-       99108.0
-      ],
       [
        20766,
        98899.0
@@ -158143,17 +158093,21 @@
       [
        20779,
        99615.0
+      ],
+      [
+       20781,
+       98785.0
       ]
      ],
      "f": 20756,
-     "r": 20779,
-     "dist": "lince"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194482057": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 123724.0,
+     "usd": 122693.0,
      "area": 52.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -158167,10 +158121,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-lince-dpto-208-al-608-609-893-111/194482057",
      "flags": [],
      "p": [
-      [
-       20764,
-       123095.0
-      ],
       [
        20766,
        122834.0
@@ -158198,17 +158148,21 @@
       [
        20779,
        123724.0
+      ],
+      [
+       20781,
+       122693.0
       ]
      ],
      "f": 20756,
-     "r": 20779,
-     "dist": "lince"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194482061": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 141267.0,
+     "usd": 140091.0,
      "area": 66.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -158222,10 +158176,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-lince-dpto-205-al-605-609-893-108/194482061",
      "flags": [],
      "p": [
-      [
-       20764,
-       140549.0
-      ],
       [
        20766,
        140252.0
@@ -158253,17 +158203,21 @@
       [
        20779,
        141267.0
+      ],
+      [
+       20781,
+       140091.0
       ]
      ],
      "f": 20756,
-     "r": 20779,
-     "dist": "lince"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194482062": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 145199.0,
+     "usd": 143990.0,
      "area": 66.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -158277,10 +158231,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-lince-dpto-305-al-705-609-893-109/194482062",
      "flags": [],
      "p": [
-      [
-       20764,
-       144461.0
-      ],
       [
        20766,
        144155.0
@@ -158308,17 +158258,21 @@
       [
        20779,
        145199.0
+      ],
+      [
+       20781,
+       143990.0
       ]
      ],
      "f": 20756,
-     "r": 20779,
-     "dist": "lince"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194482067": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 200308.0,
+     "usd": 198639.0,
      "area": 89.0,
      "lat": -12.08544,
      "lng": -77.04721,
@@ -158332,10 +158286,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-en-lince-dpto-1105-609-893-112/194482067",
      "flags": [],
      "p": [
-      [
-       20764,
-       199289.0
-      ],
       [
        20766,
        198868.0
@@ -158363,11 +158313,15 @@
       [
        20779,
        200308.0
+      ],
+      [
+       20781,
+       198639.0
       ]
      ],
      "f": 20756,
-     "r": 20779,
-     "dist": "lince"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194473601": {
      "op": "venta",
@@ -158379,7 +158333,7 @@
      "lng": -77.0714,
      "mon": "USD",
      "monto": 135000.0,
-     "mant": 37.93,
+     "mant": 37.62,
      "anio": "",
      "dorm": "3",
      "zona": "Magdalena Del Mar",
@@ -158393,8 +158347,8 @@
       ]
      ],
      "f": 20756,
-     "r": 20779,
-     "dist": "magdalena-del-mar"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194482051": {
      "op": "venta",
@@ -158420,8 +158374,8 @@
       ]
      ],
      "f": 20756,
-     "r": 20777,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194472874": {
      "op": "venta",
@@ -158447,14 +158401,14 @@
       ]
      ],
      "f": 20756,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194483120": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 181848.0,
+     "usd": 180333.0,
      "area": 75.0,
      "lat": -12.12766,
      "lng": -77.00753,
@@ -158468,10 +158422,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-miraflores-entrega-inmediata/194483120",
      "flags": [],
      "p": [
-      [
-       20763,
-       180949.0
-      ],
       [
        20764,
        180923.0
@@ -158499,11 +158449,15 @@
       [
        20779,
        181848.0
+      ],
+      [
+       20781,
+       180333.0
       ]
      ],
      "f": 20756,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194485100": {
      "op": "alquiler",
@@ -158610,8 +158564,8 @@
       ]
      ],
      "f": 20757,
-     "r": 20780,
-     "dist": "punta-hermosa"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194485533": {
      "op": "venta",
@@ -158637,8 +158591,8 @@
       ]
      ],
      "f": 20757,
-     "r": 20780,
-     "dist": "rimac"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194478383": {
      "op": "alquiler",
@@ -158756,7 +158710,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 137279.0,
+     "usd": 136136.0,
      "area": 66.0,
      "lat": -12.07795,
      "lng": -77.09652,
@@ -158770,10 +158724,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-miguel-entrega-inmediata/194482862",
      "flags": [],
      "p": [
-      [
-       20765,
-       136292.0
-      ],
       [
        20767,
        136725.0
@@ -158801,11 +158751,15 @@
       [
        20781,
        137279.0
+      ],
+      [
+       20781,
+       136136.0
       ]
      ],
      "f": 20757,
      "r": 20781,
-     "dist": "san-miguel"
+     "dist": "carabayllo"
     },
     "194486032": {
      "op": "venta",
@@ -158844,7 +158798,7 @@
      "lng": -76.9816,
      "mon": "USD",
      "monto": 310000.0,
-     "mant": 87.54,
+     "mant": 86.81,
      "anio": "",
      "dorm": "4",
      "zona": "Santiago De Surco",
@@ -158859,7 +158813,7 @@
      ],
      "f": 20757,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194484525": {
      "op": "venta",
@@ -158871,7 +158825,7 @@
      "lng": -76.95722,
      "mon": "USD",
      "monto": 149800.0,
-     "mant": 87.54,
+     "mant": 86.81,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -158886,7 +158840,7 @@
      ],
      "f": 20757,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194487345": {
      "op": "venta",
@@ -158989,7 +158943,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 125937.0,
+     "usd": 124888.0,
      "area": 74.0,
      "lat": -12.06265,
      "lng": -77.04907,
@@ -159003,10 +158957,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-brena-por-entregar-31-de-enero-del-2027/194482989",
      "flags": [],
      "p": [
-      [
-       20764,
-       125296.0
-      ],
       [
        20765,
        125032.0
@@ -159034,11 +158984,15 @@
       [
        20779,
        125937.0
+      ],
+      [
+       20781,
+       124888.0
       ]
      ],
      "f": 20757,
-     "r": 20779,
-     "dist": "brena"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194485407": {
      "op": "venta",
@@ -159071,7 +159025,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 82446.0,
+     "usd": 81759.0,
      "area": 43.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -159085,10 +159039,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-305-al-1305-a-609-893-97/194482072",
      "flags": [],
      "p": [
-      [
-       20764,
-       82027.0
-      ],
       [
        20765,
        81853.0
@@ -159116,11 +159066,15 @@
       [
        20779,
        82446.0
+      ],
+      [
+       20781,
+       81759.0
       ]
      ],
      "f": 20757,
-     "r": 20779,
-     "dist": "cercado-de-lima"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194482074": {
      "op": "venta",
@@ -159181,7 +159135,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 99479.0,
+     "usd": 98651.0,
      "area": 53.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -159195,10 +159149,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-204-al-1304-b-609-893-98/194486770",
      "flags": [],
      "p": [
-      [
-       20762,
-       98802.0
-      ],
       [
        20764,
        98973.0
@@ -159226,17 +159176,21 @@
       [
        20779,
        99479.0
+      ],
+      [
+       20781,
+       98651.0
       ]
      ],
      "f": 20757,
-     "r": 20779,
-     "dist": "cercado-de-lima"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194486771": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 99441.0,
+     "usd": 98613.0,
      "area": 53.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -159250,10 +159204,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-201-al-1301-a-609-893-91/194486771",
      "flags": [],
      "p": [
-      [
-       20764,
-       98936.0
-      ],
       [
        20765,
        98727.0
@@ -159281,17 +159231,21 @@
       [
        20779,
        99441.0
+      ],
+      [
+       20781,
+       98613.0
       ]
      ],
      "f": 20757,
-     "r": 20779,
-     "dist": "cercado-de-lima"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194482073": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 80575.0,
+     "usd": 79904.0,
      "area": 40.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -159305,10 +159259,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-403-al-1203-a-609-893-94/194482073",
      "flags": [],
      "p": [
-      [
-       20764,
-       80165.0
-      ],
       [
        20765,
        79996.0
@@ -159336,17 +159286,21 @@
       [
        20779,
        80575.0
+      ],
+      [
+       20781,
+       79904.0
       ]
      ],
      "f": 20757,
-     "r": 20779,
-     "dist": "cercado-de-lima"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194482071": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 75298.0,
+     "usd": 74671.0,
      "area": 40.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -159360,10 +159314,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-303-al-1303-a-609-893-93/194482071",
      "flags": [],
      "p": [
-      [
-       20764,
-       74915.0
-      ],
       [
        20765,
        74757.0
@@ -159391,17 +159341,21 @@
       [
        20779,
        75298.0
+      ],
+      [
+       20781,
+       74671.0
       ]
      ],
      "f": 20757,
-     "r": 20779,
-     "dist": "cercado-de-lima"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194486773": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 117597.0,
+     "usd": 116618.0,
      "area": 61.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -159415,10 +159369,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-304-al-1304-a-609-893-95/194486773",
      "flags": [],
      "p": [
-      [
-       20764,
-       116999.0
-      ],
       [
        20765,
        116752.0
@@ -159446,11 +159396,15 @@
       [
        20779,
        117597.0
+      ],
+      [
+       20781,
+       116618.0
       ]
      ],
      "f": 20757,
-     "r": 20779,
-     "dist": "cercado-de-lima"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194485569": {
      "op": "alquiler",
@@ -159591,7 +159545,7 @@
      "lng": -77.00686,
      "mon": "USD",
      "monto": 240000.0,
-     "mant": 233.44,
+     "mant": 231.5,
      "anio": "",
      "dorm": "2",
      "zona": "Miraflores",
@@ -159605,8 +159559,8 @@
       ]
      ],
      "f": 20758,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194486764": {
      "op": "venta",
@@ -159632,8 +159586,8 @@
       ]
      ],
      "f": 20758,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194486766": {
      "op": "alquiler",
@@ -159726,7 +159680,7 @@
      "lng": -77.082,
      "mon": "USD",
      "monto": 66000.0,
-     "mant": 20.43,
+     "mant": 20.27,
      "anio": "",
      "dorm": "Mono",
      "zona": "San Miguel",
@@ -159741,7 +159695,7 @@
      ],
      "f": 20759,
      "r": 20781,
-     "dist": "san-miguel"
+     "dist": "carabayllo"
     },
     "194487785": {
      "op": "venta",
@@ -159753,7 +159707,7 @@
      "lng": -76.96589,
      "mon": "USD",
      "monto": 220000.0,
-     "mant": 131.31,
+     "mant": 130.22,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -159772,13 +159726,13 @@
      ],
      "f": 20759,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194489283": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 131036.0,
+     "usd": 129945.0,
      "area": 73.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -159792,10 +159746,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-203-al-1203-b-609-893-102/194489283",
      "flags": [],
      "p": [
-      [
-       20764,
-       130370.0
-      ],
       [
        20765,
        130094.0
@@ -159823,17 +159773,21 @@
       [
        20779,
        131036.0
+      ],
+      [
+       20781,
+       129945.0
       ]
      ],
      "f": 20760,
-     "r": 20779,
-     "dist": "cercado-de-lima"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194489278": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 117597.0,
+     "usd": 116618.0,
      "area": 61.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -159847,10 +159801,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-304-al-1304-a-609-893-95/194489278",
      "flags": [],
      "p": [
-      [
-       20764,
-       116999.0
-      ],
       [
        20765,
        116752.0
@@ -159878,17 +159828,21 @@
       [
        20779,
        117597.0
+      ],
+      [
+       20781,
+       116618.0
       ]
      ],
      "f": 20760,
-     "r": 20779,
-     "dist": "cercado-de-lima"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194489282": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 131036.0,
+     "usd": 129945.0,
      "area": 67.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -159902,10 +159856,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-202-al-1202-b-609-893-101/194489282",
      "flags": [],
      "p": [
-      [
-       20764,
-       130370.0
-      ],
       [
        20765,
        130094.0
@@ -159933,17 +159883,21 @@
       [
        20779,
        131036.0
+      ],
+      [
+       20781,
+       129945.0
       ]
      ],
      "f": 20760,
-     "r": 20779,
-     "dist": "cercado-de-lima"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194489284": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 140146.0,
+     "usd": 138979.0,
      "area": 73.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -159957,10 +159911,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-303-al-1303-b-609-893-103/194489284",
      "flags": [],
      "p": [
-      [
-       20764,
-       139434.0
-      ],
       [
        20765,
        139139.0
@@ -159988,17 +159938,21 @@
       [
        20779,
        140146.0
+      ],
+      [
+       20781,
+       138979.0
       ]
      ],
      "f": 20760,
-     "r": 20779,
-     "dist": "cercado-de-lima"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194489281": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 128806.0,
+     "usd": 127733.0,
      "area": 67.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -160012,10 +159966,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-302-al-1302-b-609-893-99/194489281",
      "flags": [],
      "p": [
-      [
-       20764,
-       128151.0
-      ],
       [
        20765,
        127880.0
@@ -160043,17 +159993,21 @@
       [
        20779,
        128806.0
+      ],
+      [
+       20781,
+       127733.0
       ]
      ],
      "f": 20760,
-     "r": 20779,
-     "dist": "cercado-de-lima"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194489280": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 122858.0,
+     "usd": 121835.0,
      "area": 64.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -160067,10 +160021,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-201-al-1301-b-609-893-99/194489280",
      "flags": [],
      "p": [
-      [
-       20764,
-       122234.0
-      ],
       [
        20765,
        121975.0
@@ -160098,17 +160048,21 @@
       [
        20779,
        122858.0
+      ],
+      [
+       20781,
+       121835.0
       ]
      ],
      "f": 20760,
-     "r": 20779,
-     "dist": "cercado-de-lima"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194489279": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 116987.0,
+     "usd": 116013.0,
      "area": 61.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -160122,10 +160076,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-606-al-1306-a-609-893-96/194489279",
      "flags": [],
      "p": [
-      [
-       20764,
-       116392.0
-      ],
       [
        20765,
        116146.0
@@ -160153,11 +160103,15 @@
       [
        20779,
        116987.0
+      ],
+      [
+       20781,
+       116013.0
       ]
      ],
      "f": 20760,
-     "r": 20779,
-     "dist": "cercado-de-lima"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194489911": {
      "op": "venta",
@@ -160221,13 +160175,13 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 224689.0,
+     "usd": 222818.0,
      "area": 93.0,
      "lat": -12.09866,
      "lng": -77.06075,
      "mon": "PEN",
      "monto": 770000.0,
-     "mant": 102.13,
+     "mant": 101.28,
      "anio": "",
      "dorm": "3",
      "zona": "Magdalena Del Mar",
@@ -160237,10 +160191,6 @@
       "independización"
      ],
      "p": [
-      [
-       20763,
-       223579.0
-      ],
       [
        20764,
        223547.0
@@ -160268,11 +160218,15 @@
       [
        20779,
        224689.0
+      ],
+      [
+       20781,
+       222818.0
       ]
      ],
      "f": 20760,
-     "r": 20779,
-     "dist": "magdalena-del-mar"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194494657": {
      "op": "venta",
@@ -160298,8 +160252,8 @@
       ]
      ],
      "f": 20760,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194494661": {
      "op": "alquiler",
@@ -160547,8 +160501,8 @@
       ]
      ],
      "f": 20761,
-     "r": 20780,
-     "dist": "pueblo-libre"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194496388": {
      "op": "venta",
@@ -160587,7 +160541,7 @@
      "lng": -76.7816,
      "mon": "USD",
      "monto": 185000.0,
-     "mant": 87.53,
+     "mant": 86.81,
      "anio": "",
      "dorm": "2",
      "zona": "San Bartolo",
@@ -160601,8 +160555,8 @@
       ]
      ],
      "f": 20761,
-     "r": 20780,
-     "dist": "san-bartolo"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194496747": {
      "op": "venta",
@@ -160614,7 +160568,7 @@
      "lng": -77.0685,
      "mon": "USD",
      "monto": 226000.0,
-     "mant": 102.13,
+     "mant": 101.28,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -160628,8 +160582,8 @@
       ]
      ],
      "f": 20761,
-     "r": 20780,
-     "dist": "san-borja"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194494658": {
      "op": "alquiler",
@@ -160668,7 +160622,7 @@
      "lng": -76.9738,
      "mon": "USD",
      "monto": 50000.0,
-     "mant": 5.84,
+     "mant": 5.79,
      "anio": "",
      "dorm": "2",
      "zona": "San Juan De Miraflores",
@@ -160683,19 +160637,19 @@
      ],
      "f": 20761,
      "r": 20781,
-     "dist": "san-juan-de-miraflores"
+     "dist": "carabayllo"
     },
     "194491363": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 138899.0,
+     "usd": 137742.0,
      "area": 76.0,
      "lat": -12.08929,
      "lng": -77.08112,
      "mon": "PEN",
      "monto": 476000.0,
-     "mant": 64.2,
+     "mant": 63.66,
      "anio": "",
      "dorm": "3",
      "zona": "San Miguel",
@@ -160703,10 +160657,6 @@
      "u": "https://www.infocasas.com.pe/departamento-remodelado-de-76-m-en-san-miguel/194491363",
      "flags": [],
      "p": [
-      [
-       20765,
-       137900.0
-      ],
       [
        20767,
        138338.0
@@ -160734,11 +160684,15 @@
       [
        20781,
        138899.0
+      ],
+      [
+       20781,
+       137742.0
       ]
      ],
      "f": 20761,
      "r": 20781,
-     "dist": "san-miguel"
+     "dist": "carabayllo"
     },
     "194499026": {
      "op": "venta",
@@ -160750,7 +160704,7 @@
      "lng": -77.05834,
      "mon": "USD",
      "monto": 350000.0,
-     "mant": 262.62,
+     "mant": 260.44,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -160765,7 +160719,7 @@
      ],
      "f": 20761,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194500459": {
      "op": "venta",
@@ -160795,8 +160749,8 @@
       ]
      ],
      "f": 20761,
-     "r": 20778,
-     "dist": "santiago-de-surco"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194493858": {
      "op": "venta",
@@ -160808,7 +160762,7 @@
      "lng": -77.00251,
      "mon": "USD",
      "monto": 125000.0,
-     "mant": 14.58,
+     "mant": 14.48,
      "anio": "",
      "dorm": "2",
      "zona": "Surquillo",
@@ -160822,8 +160776,8 @@
       ]
      ],
      "f": 20761,
-     "r": 20778,
-     "dist": "surquillo"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194494650": {
      "op": "alquiler",
@@ -160853,14 +160807,14 @@
       ]
      ],
      "f": 20761,
-     "r": 20778,
+     "r": 20781,
      "dist": "surquillo"
     },
     "194496715": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 350.0,
+     "usd": 347.0,
      "area": 59.0,
      "lat": -11.9865,
      "lng": -76.82096,
@@ -160897,10 +160851,14 @@
       [
        20779,
        350.0
+      ],
+      [
+       20781,
+       347.0
       ]
      ],
      "f": 20762,
-     "r": 20779,
+     "r": 20781,
      "dist": "ate"
     },
     "194500463": {
@@ -160927,7 +160885,7 @@
       ]
      ],
      "f": 20762,
-     "r": 20779,
+     "r": 20781,
      "dist": "barranco"
     },
     "194500453": {
@@ -160954,7 +160912,7 @@
       ]
      ],
      "f": 20762,
-     "r": 20779,
+     "r": 20781,
      "dist": "barranco"
     },
     "194493450": {
@@ -160981,8 +160939,8 @@
       ]
      ],
      "f": 20762,
-     "r": 20779,
-     "dist": "brena"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194497795": {
      "op": "alquiler",
@@ -161198,8 +161156,8 @@
       ]
      ],
      "f": 20762,
-     "r": 20779,
-     "dist": "la-victoria"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194508766": {
      "op": "venta",
@@ -161211,7 +161169,7 @@
      "lng": -77.03723,
      "mon": "USD",
      "monto": 169000.0,
-     "mant": 14.59,
+     "mant": 14.48,
      "anio": "",
      "dorm": "2",
      "zona": "Lince",
@@ -161229,8 +161187,8 @@
       ]
      ],
      "f": 20762,
-     "r": 20779,
-     "dist": "lince"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194500447": {
      "op": "venta",
@@ -161256,8 +161214,8 @@
       ]
      ],
      "f": 20763,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194500901": {
      "op": "venta",
@@ -161269,7 +161227,7 @@
      "lng": -77.03142,
      "mon": "USD",
      "monto": 168000.0,
-     "mant": 103.01,
+     "mant": 102.15,
      "anio": "",
      "dorm": "4",
      "zona": "Miraflores",
@@ -161283,8 +161241,8 @@
       ]
      ],
      "f": 20763,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194500891": {
      "op": "venta",
@@ -161296,7 +161254,7 @@
      "lng": -77.03142,
      "mon": "USD",
      "monto": 168000.0,
-     "mant": 103.41,
+     "mant": 102.15,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -161310,8 +161268,8 @@
       ]
      ],
      "f": 20763,
-     "r": 20777,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194506980": {
      "op": "venta",
@@ -161337,8 +161295,8 @@
       ]
      ],
      "f": 20763,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194500434": {
      "op": "venta",
@@ -161364,8 +161322,8 @@
       ]
      ],
      "f": 20763,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194500451": {
      "op": "venta",
@@ -161391,8 +161349,8 @@
       ]
      ],
      "f": 20763,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194500454": {
      "op": "venta",
@@ -161418,8 +161376,8 @@
       ]
      ],
      "f": 20763,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194506981": {
      "op": "venta",
@@ -161445,8 +161403,8 @@
       ]
      ],
      "f": 20763,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194500450": {
      "op": "venta",
@@ -161472,8 +161430,8 @@
       ]
      ],
      "f": 20763,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194500461": {
      "op": "venta",
@@ -161499,8 +161457,8 @@
       ]
      ],
      "f": 20763,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194500443": {
      "op": "alquiler",
@@ -161618,13 +161576,13 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 71200.0,
+     "usd": 70607.0,
      "area": 38.0,
      "lat": -12.06978,
      "lng": -77.06303,
      "mon": "PEN",
      "monto": 244000.0,
-     "mant": 29.18,
+     "mant": 28.94,
      "anio": "",
      "dorm": "1",
      "zona": "Pueblo Libre",
@@ -161632,10 +161590,6 @@
      "u": "https://www.infocasas.com.pe/de-estreno-venta-1-dormitorio/194510066",
      "flags": [],
      "p": [
-      [
-       20763,
-       70848.0
-      ],
       [
        20765,
        70688.0
@@ -161663,11 +161617,15 @@
       [
        20780,
        71200.0
+      ],
+      [
+       20781,
+       70607.0
       ]
      ],
      "f": 20763,
-     "r": 20780,
-     "dist": "pueblo-libre"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194500462": {
      "op": "venta",
@@ -161693,8 +161651,8 @@
       ]
      ],
      "f": 20763,
-     "r": 20780,
-     "dist": "pueblo-libre"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194500445": {
      "op": "alquiler",
@@ -161813,12 +161771,12 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 100000.0,
+     "usd": 99000.0,
      "area": 110.0,
      "lat": -12.16782,
      "lng": -76.97446,
      "mon": "USD",
-     "monto": 100000.0,
+     "monto": 99000.0,
      "mant": 0.0,
      "anio": "",
      "dorm": "3",
@@ -161830,11 +161788,15 @@
       [
        20763,
        100000.0
+      ],
+      [
+       20781,
+       99000.0
       ]
      ],
      "f": 20763,
      "r": 20781,
-     "dist": "san-juan-de-lurigancho"
+     "dist": "carabayllo"
     },
     "194509191": {
      "op": "venta",
@@ -161982,7 +161944,7 @@
      "lng": -77.00444,
      "mon": "USD",
      "monto": 145000.0,
-     "mant": 52.47,
+     "mant": 52.11,
      "anio": "",
      "dorm": "3",
      "zona": "Surquillo",
@@ -162000,8 +161962,8 @@
       ]
      ],
      "f": 20764,
-     "r": 20778,
-     "dist": "surquillo"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194517854": {
      "op": "venta",
@@ -162027,8 +161989,8 @@
       ]
      ],
      "f": 20764,
-     "r": 20779,
-     "dist": "barranco"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194513010": {
      "op": "alquiler",
@@ -162040,7 +162002,7 @@
      "lng": -77.02165,
      "mon": "USD",
      "monto": 580.0,
-     "mant": 43.79,
+     "mant": 43.4,
      "anio": "",
      "dorm": "Mono",
      "zona": "Barranco",
@@ -162054,7 +162016,7 @@
       ]
      ],
      "f": 20764,
-     "r": 20779,
+     "r": 20781,
      "dist": "barranco"
     },
     "194517843": {
@@ -162081,7 +162043,7 @@
       ]
      ],
      "f": 20764,
-     "r": 20779,
+     "r": 20781,
      "dist": "barranco"
     },
     "194512921": {
@@ -162094,7 +162056,7 @@
      "lng": -77.00895,
      "mon": "USD",
      "monto": 135000.0,
-     "mant": 58.33,
+     "mant": 57.87,
      "anio": "",
      "dorm": "3",
      "zona": "Chorrillos",
@@ -162108,8 +162070,8 @@
       ]
      ],
      "f": 20764,
-     "r": 20779,
-     "dist": "chorrillos"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194517845": {
      "op": "venta",
@@ -162213,8 +162175,8 @@
       ]
      ],
      "f": 20764,
-     "r": 20779,
-     "dist": "la-victoria"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194519236": {
      "op": "alquiler",
@@ -162263,12 +162225,12 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 221000.0,
+     "usd": 219000.0,
      "area": 79.0,
      "lat": -12.11526,
      "lng": -77.04275,
      "mon": "USD",
-     "monto": 221000.0,
+     "monto": 219000.0,
      "mant": 0.0,
      "anio": "",
      "dorm": "2",
@@ -162284,11 +162246,15 @@
       [
        20768,
        221000.0
+      ],
+      [
+       20781,
+       219000.0
       ]
      ],
      "f": 20764,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194517849": {
      "op": "venta",
@@ -162314,8 +162280,8 @@
       ]
      ],
      "f": 20764,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194517851": {
      "op": "venta",
@@ -162345,8 +162311,8 @@
       ]
      ],
      "f": 20764,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194517834": {
      "op": "venta",
@@ -162362,8 +162328,8 @@
      "anio": "",
      "dorm": "1",
      "zona": "Miraflores",
-     "titulo": "VENTA DEPARTAMENTO JOSE GONZALES - MIRAFLORES 69M2 1 DORMITORIO CON POSIBILIDAD ",
-     "u": "https://www.infocasas.com.pe/venta-departamento-jose-gonzales-miraflores-69m2-1-dormitorio-con-posibilidad-a-2/194517834",
+     "titulo": "VENTA DEPARTAMENTO JOSE GONZALES - MIRAFLORES 69M2 1 DORMITORIO CON ESTRUCTURA P",
+     "u": "https://www.infocasas.com.pe/venta-departamento-jose-gonzales-miraflores-69m2-1-dormitorio-con-estructura-para-2-dorm/194517834",
      "flags": [],
      "p": [
       [
@@ -162380,8 +162346,8 @@
       ]
      ],
      "f": 20764,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194517848": {
      "op": "venta",
@@ -162407,8 +162373,8 @@
       ]
      ],
      "f": 20764,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194517844": {
      "op": "alquiler",
@@ -162558,8 +162524,8 @@
       ]
      ],
      "f": 20765,
-     "r": 20780,
-     "dist": "pueblo-libre"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194517846": {
      "op": "alquiler",
@@ -162683,7 +162649,7 @@
      "lng": -76.99618,
      "mon": "USD",
      "monto": 249000.0,
-     "mant": 87.54,
+     "mant": 86.81,
      "anio": "",
      "dorm": "4",
      "zona": "Santiago De Surco",
@@ -162698,7 +162664,7 @@
      ],
      "f": 20765,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194520124": {
      "op": "alquiler",
@@ -162870,7 +162836,7 @@
      "lng": -77.03262,
      "mon": "USD",
      "monto": 185000.0,
-     "mant": 116.72,
+     "mant": 115.75,
      "anio": "",
      "dorm": "2",
      "zona": "Miraflores",
@@ -162884,8 +162850,8 @@
       ]
      ],
      "f": 20766,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194526106": {
      "op": "alquiler",
@@ -162924,7 +162890,7 @@
      "lng": -77.00162,
      "mon": "USD",
      "monto": 105000.0,
-     "mant": 55.44,
+     "mant": 54.98,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -162939,7 +162905,7 @@
      ],
      "f": 20767,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194532011": {
      "op": "venta",
@@ -162951,7 +162917,7 @@
      "lng": -76.9618,
      "mon": "USD",
      "monto": 555000.0,
-     "mant": 208.93,
+     "mant": 207.19,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -162966,7 +162932,7 @@
      ],
      "f": 20767,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194524144": {
      "op": "venta",
@@ -162978,7 +162944,7 @@
      "lng": -77.01342,
      "mon": "USD",
      "monto": 105000.0,
-     "mant": 58.36,
+     "mant": 57.87,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -162993,7 +162959,7 @@
      ],
      "f": 20767,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194528998": {
      "op": "alquiler",
@@ -163019,7 +162985,7 @@
       ]
      ],
      "f": 20767,
-     "r": 20778,
+     "r": 20781,
      "dist": "surquillo"
     },
     "194528993": {
@@ -163104,8 +163070,8 @@
       ]
      ],
      "f": 20768,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194528989": {
      "op": "alquiler",
@@ -163266,8 +163232,8 @@
       ]
      ],
      "f": 20769,
-     "r": 20780,
-     "dist": "pueblo-libre"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194536621": {
      "op": "venta",
@@ -163293,8 +163259,8 @@
       ]
      ],
      "f": 20769,
-     "r": 20780,
-     "dist": "pueblo-libre"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194536623": {
      "op": "venta",
@@ -163320,8 +163286,8 @@
       ]
      ],
      "f": 20769,
-     "r": 20780,
-     "dist": "pueblo-libre"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194536625": {
      "op": "venta",
@@ -163347,8 +163313,8 @@
       ]
      ],
      "f": 20769,
-     "r": 20780,
-     "dist": "pueblo-libre"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194536629": {
      "op": "venta",
@@ -163374,8 +163340,8 @@
       ]
      ],
      "f": 20769,
-     "r": 20780,
-     "dist": "punta-hermosa"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194528997": {
      "op": "venta",
@@ -163401,8 +163367,8 @@
       ]
      ],
      "f": 20769,
-     "r": 20780,
-     "dist": "san-borja"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194531371": {
      "op": "venta",
@@ -163414,7 +163380,7 @@
      "lng": -77.10043,
      "mon": "USD",
      "monto": 226000.0,
-     "mant": 102.13,
+     "mant": 101.28,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -163428,8 +163394,8 @@
       ]
      ],
      "f": 20769,
-     "r": 20780,
-     "dist": "san-borja"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194536627": {
      "op": "venta",
@@ -163455,8 +163421,8 @@
       ]
      ],
      "f": 20769,
-     "r": 20780,
-     "dist": "san-borja"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194531497": {
      "op": "venta",
@@ -163510,7 +163476,7 @@
      ],
      "f": 20769,
      "r": 20781,
-     "dist": "san-isidro"
+     "dist": "carabayllo"
     },
     "194545826": {
      "op": "venta",
@@ -163718,7 +163684,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 116430.0,
+     "usd": 115460.0,
      "area": 44.0,
      "lat": -12.14108,
      "lng": -77.01946,
@@ -163751,11 +163717,15 @@
       [
        20779,
        116430.0
+      ],
+      [
+       20781,
+       115460.0
       ]
      ],
      "f": 20770,
-     "r": 20779,
-     "dist": "barranco"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194548551": {
      "op": "venta",
@@ -163767,7 +163737,7 @@
      "lng": -77.01985,
      "mon": "USD",
      "monto": 195000.0,
-     "mant": 102.13,
+     "mant": 101.28,
      "anio": "",
      "dorm": "2",
      "zona": "Barranco",
@@ -163781,8 +163751,8 @@
       ]
      ],
      "f": 20770,
-     "r": 20779,
-     "dist": "barranco"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194547384": {
      "op": "venta",
@@ -163808,20 +163778,20 @@
       ]
      ],
      "f": 20770,
-     "r": 20779,
-     "dist": "barranco"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194543065": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 759.0,
+     "usd": 752.0,
      "area": 50.0,
      "lat": -12.16332,
      "lng": -77.07231,
      "mon": "PEN",
      "monto": 2600.0,
-     "mant": 78.82,
+     "mant": 78.11,
      "anio": "",
      "dorm": "1",
      "zona": "Barranco",
@@ -163848,10 +163818,14 @@
       [
        20779,
        759.0
+      ],
+      [
+       20781,
+       752.0
       ]
      ],
      "f": 20770,
-     "r": 20779,
+     "r": 20781,
      "dist": "barranco"
     },
     "194551531": {
@@ -163864,7 +163838,7 @@
      "lng": -77.01997,
      "mon": "USD",
      "monto": 970.0,
-     "mant": 102.17,
+     "mant": 101.26,
      "anio": "",
      "dorm": "2",
      "zona": "Barranco",
@@ -163878,7 +163852,7 @@
       ]
      ],
      "f": 20770,
-     "r": 20779,
+     "r": 20781,
      "dist": "barranco"
     },
     "194549010": {
@@ -164073,8 +164047,8 @@
       ]
      ],
      "f": 20771,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194552814": {
      "op": "alquiler",
@@ -164253,7 +164227,7 @@
      "lng": -77.02583,
      "mon": "USD",
      "monto": 60000.0,
-     "mant": 37.93,
+     "mant": 37.62,
      "anio": "",
      "dorm": "3",
      "zona": "Rimac",
@@ -164267,8 +164241,8 @@
       ]
      ],
      "f": 20771,
-     "r": 20780,
-     "dist": "rimac"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194553012": {
      "op": "venta",
@@ -164294,8 +164268,8 @@
       ]
      ],
      "f": 20771,
-     "r": 20780,
-     "dist": "san-borja"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194553014": {
      "op": "venta",
@@ -164321,8 +164295,8 @@
       ]
      ],
      "f": 20771,
-     "r": 20780,
-     "dist": "san-borja"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194553013": {
      "op": "venta",
@@ -164348,8 +164322,8 @@
       ]
      ],
      "f": 20771,
-     "r": 20780,
-     "dist": "san-borja"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194547388": {
      "op": "venta",
@@ -164375,8 +164349,8 @@
       ]
      ],
      "f": 20771,
-     "r": 20780,
-     "dist": "san-borja"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194555223": {
      "op": "venta",
@@ -164415,7 +164389,7 @@
      "lng": -77.13892,
      "mon": "USD",
      "monto": 226000.0,
-     "mant": 102.13,
+     "mant": 101.28,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -164429,14 +164403,14 @@
       ]
      ],
      "f": 20771,
-     "r": 20780,
-     "dist": "san-borja"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194547389": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 446460.0,
+     "usd": 442742.0,
      "area": 200.0,
      "lat": -12.10937,
      "lng": -76.98658,
@@ -164469,11 +164443,15 @@
       [
        20780,
        446460.0
+      ],
+      [
+       20781,
+       442742.0
       ]
      ],
      "f": 20771,
-     "r": 20780,
-     "dist": "san-borja"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194553006": {
      "op": "venta",
@@ -164504,7 +164482,7 @@
      ],
      "f": 20771,
      "r": 20781,
-     "dist": "san-isidro"
+     "dist": "carabayllo"
     },
     "194547382": {
      "op": "venta",
@@ -164531,7 +164509,7 @@
      ],
      "f": 20771,
      "r": 20781,
-     "dist": "san-isidro"
+     "dist": "carabayllo"
     },
     "194559030": {
      "op": "venta",
@@ -164597,7 +164575,7 @@
      "lng": -77.09579,
      "mon": "USD",
      "monto": 350000.0,
-     "mant": 262.62,
+     "mant": 260.44,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -164612,7 +164590,7 @@
      ],
      "f": 20771,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194558698": {
      "op": "venta",
@@ -164639,7 +164617,7 @@
      ],
      "f": 20771,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194558699": {
      "op": "venta",
@@ -164666,7 +164644,7 @@
      ],
      "f": 20771,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194553486": {
      "op": "alquiler",
@@ -164771,7 +164749,7 @@
      "lng": -77.0014,
      "mon": "USD",
      "monto": 125000.0,
-     "mant": 81.63,
+     "mant": 81.02,
      "anio": "",
      "dorm": "3",
      "zona": "Surquillo",
@@ -164785,8 +164763,8 @@
       ]
      ],
      "f": 20771,
-     "r": 20778,
-     "dist": "surquillo"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194555663": {
      "op": "alquiler",
@@ -164847,7 +164825,7 @@
       ]
      ],
      "f": 20771,
-     "r": 20779,
+     "r": 20781,
      "dist": "barranco"
     },
     "194558693": {
@@ -164874,8 +164852,8 @@
       ]
      ],
      "f": 20772,
-     "r": 20779,
-     "dist": "cercado-de-lima"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194559211": {
      "op": "alquiler",
@@ -165068,7 +165046,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 213309.0,
+     "usd": 211532.0,
      "area": 90.0,
      "lat": -12.09717,
      "lng": -77.05674,
@@ -165097,11 +165075,15 @@
       [
        20779,
        213309.0
+      ],
+      [
+       20781,
+       211532.0
       ]
      ],
      "f": 20772,
-     "r": 20779,
-     "dist": "magdalena-del-mar"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194560625": {
      "op": "venta",
@@ -165113,7 +165095,7 @@
      "lng": -77.07099,
      "mon": "USD",
      "monto": 130000.0,
-     "mant": 58.36,
+     "mant": 57.87,
      "anio": "",
      "dorm": "3",
      "zona": "Magdalena Del Mar",
@@ -165127,8 +165109,8 @@
       ]
      ],
      "f": 20772,
-     "r": 20779,
-     "dist": "magdalena-del-mar"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194562594": {
      "op": "venta",
@@ -165154,8 +165136,8 @@
       ]
      ],
      "f": 20772,
-     "r": 20779,
-     "dist": "magdalena-del-mar"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194558701": {
      "op": "venta",
@@ -165181,8 +165163,8 @@
       ]
      ],
      "f": 20772,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194562589": {
      "op": "venta",
@@ -165208,8 +165190,8 @@
       ]
      ],
      "f": 20772,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194558692": {
      "op": "venta",
@@ -165235,8 +165217,8 @@
       ]
      ],
      "f": 20772,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194558695": {
      "op": "venta",
@@ -165262,8 +165244,8 @@
       ]
      ],
      "f": 20772,
-     "r": 20777,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194558694": {
      "op": "venta",
@@ -165289,8 +165271,8 @@
       ]
      ],
      "f": 20772,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194562588": {
      "op": "venta",
@@ -165316,8 +165298,8 @@
       ]
      ],
      "f": 20772,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194558690": {
      "op": "venta",
@@ -165343,8 +165325,8 @@
       ]
      ],
      "f": 20772,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194560590": {
      "op": "alquiler",
@@ -165522,13 +165504,13 @@
      ],
      "f": 20773,
      "r": 20781,
-     "dist": "san-isidro"
+     "dist": "carabayllo"
     },
     "194562597": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 213309.0,
+     "usd": 211532.0,
      "area": 90.0,
      "lat": -12.09717,
      "lng": -77.05674,
@@ -165557,11 +165539,15 @@
       [
        20781,
        213309.0
+      ],
+      [
+       20781,
+       211532.0
       ]
      ],
      "f": 20773,
      "r": 20781,
-     "dist": "san-isidro"
+     "dist": "carabayllo"
     },
     "194563816": {
      "op": "venta",
@@ -165614,8 +165600,8 @@
       ]
      ],
      "f": 20773,
-     "r": 20778,
-     "dist": "surquillo"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194564164": {
      "op": "venta",
@@ -165668,8 +165654,8 @@
       ]
      ],
      "f": 20774,
-     "r": 20779,
-     "dist": "barranco"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194562591": {
      "op": "alquiler",
@@ -165695,20 +165681,20 @@
       ]
      ],
      "f": 20774,
-     "r": 20779,
+     "r": 20781,
      "dist": "barranco"
     },
     "194564926": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 759.0,
+     "usd": 752.0,
      "area": 50.0,
      "lat": -12.14115,
      "lng": -77.02212,
      "mon": "PEN",
      "monto": 2600.0,
-     "mant": 78.82,
+     "mant": 78.11,
      "anio": "",
      "dorm": "1",
      "zona": "Barranco",
@@ -165727,10 +165713,14 @@
       [
        20779,
        759.0
+      ],
+      [
+       20781,
+       752.0
       ]
      ],
      "f": 20774,
-     "r": 20779,
+     "r": 20781,
      "dist": "barranco"
     },
     "194567262": {
@@ -165757,8 +165747,8 @@
       ]
      ],
      "f": 20774,
-     "r": 20779,
-     "dist": "cercado-de-lima"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194562593": {
      "op": "alquiler",
@@ -165838,8 +165828,8 @@
       ]
      ],
      "f": 20775,
-     "r": 20779,
-     "dist": "magdalena-del-mar"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194567265": {
      "op": "venta",
@@ -165865,8 +165855,8 @@
       ]
      ],
      "f": 20775,
-     "r": 20779,
-     "dist": "magdalena-del-mar"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194567267": {
      "op": "venta",
@@ -165892,8 +165882,8 @@
       ]
      ],
      "f": 20775,
-     "r": 20779,
-     "dist": "magdalena-del-mar"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194572524": {
      "op": "venta",
@@ -165905,7 +165895,7 @@
      "lng": -77.06113,
      "mon": "USD",
      "monto": 260000.0,
-     "mant": 72.95,
+     "mant": 72.34,
      "anio": "",
      "dorm": "2",
      "zona": "Magdalena Del Mar",
@@ -165919,8 +165909,8 @@
       ]
      ],
      "f": 20775,
-     "r": 20779,
-     "dist": "magdalena-del-mar"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194567266": {
      "op": "venta",
@@ -165946,8 +165936,8 @@
       ]
      ],
      "f": 20775,
-     "r": 20779,
-     "dist": "magdalena-del-mar"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194572753": {
      "op": "alquiler",
@@ -166000,8 +165990,8 @@
       ]
      ],
      "f": 20775,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194572759": {
      "op": "venta",
@@ -166027,8 +166017,8 @@
       ]
      ],
      "f": 20775,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194571382": {
      "op": "venta",
@@ -166040,7 +166030,7 @@
      "lng": -77.02169,
      "mon": "USD",
      "monto": 131000.0,
-     "mant": 109.13,
+     "mant": 108.23,
      "anio": "",
      "dorm": "Mono",
      "zona": "Miraflores",
@@ -166054,8 +166044,8 @@
       ]
      ],
      "f": 20775,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194567261": {
      "op": "alquiler",
@@ -166142,7 +166132,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 119640.0,
+     "usd": 118643.0,
      "area": 56.0,
      "lat": -12.07076,
      "lng": -77.06802,
@@ -166167,11 +166157,15 @@
       [
        20780,
        119640.0
+      ],
+      [
+       20781,
+       118643.0
       ]
      ],
      "f": 20775,
-     "r": 20780,
-     "dist": "pueblo-libre"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194568844": {
      "op": "alquiler",
@@ -166259,8 +166253,8 @@
       ]
      ],
      "f": 20775,
-     "r": 20780,
-     "dist": "punta-negra"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194623510": {
      "op": "venta",
@@ -166299,7 +166293,7 @@
      "lng": -76.99235,
      "mon": "USD",
      "monto": 419500.0,
-     "mant": 245.12,
+     "mant": 243.07,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -166313,8 +166307,8 @@
       ]
      ],
      "f": 20776,
-     "r": 20780,
-     "dist": "san-borja"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194572749": {
      "op": "venta",
@@ -166340,8 +166334,8 @@
       ]
      ],
      "f": 20776,
-     "r": 20780,
-     "dist": "san-borja"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194572757": {
      "op": "venta",
@@ -166368,7 +166362,7 @@
      ],
      "f": 20776,
      "r": 20781,
-     "dist": "san-isidro"
+     "dist": "carabayllo"
     },
     "194572762": {
      "op": "alquiler",
@@ -166538,7 +166532,7 @@
      ],
      "f": 20776,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194567256": {
      "op": "venta",
@@ -166565,7 +166559,7 @@
      ],
      "f": 20776,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194572754": {
      "op": "alquiler",
@@ -166683,12 +166677,12 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 725.0,
+     "usd": 799.0,
      "area": 53.0,
      "lat": -12.10397,
      "lng": -77.01891,
      "mon": "USD",
-     "monto": 725.0,
+     "monto": 799.0,
      "mant": 0.0,
      "anio": "",
      "dorm": "2",
@@ -166700,23 +166694,27 @@
       [
        20776,
        725.0
+      ],
+      [
+       20781,
+       799.0
       ]
      ],
      "f": 20776,
-     "r": 20778,
+     "r": 20781,
      "dist": "surquillo"
     },
     "194626965": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 730.0,
+     "usd": 723.0,
      "area": 60.0,
      "lat": -12.06925,
      "lng": -77.03998,
      "mon": "PEN",
      "monto": 2500.0,
-     "mant": 81.71,
+     "mant": 80.97,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -166731,23 +166729,27 @@
       [
        20779,
        730.0
+      ],
+      [
+       20781,
+       723.0
       ]
      ],
      "f": 20776,
-     "r": 20779,
-     "dist": "jesus-maria"
+     "r": 20781,
+     "dist": "ate"
     },
     "194572017": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 467.0,
+     "usd": 463.0,
      "area": 60.0,
      "lat": -12.05057,
      "lng": -77.04977,
      "mon": "PEN",
      "monto": 1600.0,
-     "mant": 11.67,
+     "mant": 11.58,
      "anio": "",
      "dorm": "2",
      "zona": "Breña",
@@ -166762,10 +166764,14 @@
       [
        20779,
        467.0
+      ],
+      [
+       20781,
+       463.0
       ]
      ],
      "f": 20776,
-     "r": 20779,
+     "r": 20781,
      "dist": "brena"
     },
     "194627883": {
@@ -166832,7 +166838,7 @@
      "lng": -77.06132,
      "mon": "USD",
      "monto": 192700.0,
-     "mant": 72.95,
+     "mant": 72.34,
      "anio": "",
      "dorm": "1",
      "zona": "Magdalena Del Mar",
@@ -166846,8 +166852,8 @@
       ]
      ],
      "f": 20777,
-     "r": 20779,
-     "dist": "magdalena-del-mar"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194634055": {
      "op": "venta",
@@ -166873,8 +166879,8 @@
       ]
      ],
      "f": 20777,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194634416": {
      "op": "venta",
@@ -166900,8 +166906,8 @@
       ]
      ],
      "f": 20777,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194625624": {
      "op": "venta",
@@ -166927,8 +166933,8 @@
       ]
      ],
      "f": 20778,
-     "r": 20780,
-     "dist": "rimac"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194634052": {
      "op": "venta",
@@ -166982,7 +166988,7 @@
      ],
      "f": 20778,
      "r": 20781,
-     "dist": "san-isidro"
+     "dist": "carabayllo"
     },
     "194627889": {
      "op": "venta",
@@ -167009,7 +167015,7 @@
      ],
      "f": 20778,
      "r": 20781,
-     "dist": "san-isidro"
+     "dist": "carabayllo"
     },
     "194634054": {
      "op": "venta",
@@ -167036,7 +167042,7 @@
      ],
      "f": 20778,
      "r": 20781,
-     "dist": "san-isidro"
+     "dist": "carabayllo"
     },
     "194627890": {
      "op": "venta",
@@ -167063,7 +167069,7 @@
      ],
      "f": 20778,
      "r": 20781,
-     "dist": "san-isidro"
+     "dist": "carabayllo"
     },
     "194627888": {
      "op": "venta",
@@ -167090,19 +167096,19 @@
      ],
      "f": 20778,
      "r": 20781,
-     "dist": "san-isidro"
+     "dist": "carabayllo"
     },
     "194635424": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 233443.0,
+     "usd": 231499.0,
      "area": 108.0,
      "lat": -12.11886,
      "lng": -76.99252,
      "mon": "PEN",
      "monto": 800000.0,
-     "mant": 99.21,
+     "mant": 98.39,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -167117,11 +167123,15 @@
       [
        20781,
        233443.0
+      ],
+      [
+       20781,
+       231499.0
       ]
      ],
      "f": 20778,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194640164": {
      "op": "venta",
@@ -167148,7 +167158,7 @@
      ],
      "f": 20778,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194640165": {
      "op": "venta",
@@ -167175,7 +167185,7 @@
      ],
      "f": 20778,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194640166": {
      "op": "venta",
@@ -167202,7 +167212,7 @@
      ],
      "f": 20778,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194640167": {
      "op": "venta",
@@ -167229,7 +167239,7 @@
      ],
      "f": 20778,
      "r": 20781,
-     "dist": "santiago-de-surco"
+     "dist": "carabayllo"
     },
     "194640160": {
      "op": "venta",
@@ -167255,8 +167265,8 @@
       ]
      ],
      "f": 20778,
-     "r": 20778,
-     "dist": "surquillo"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194642323": {
      "op": "venta",
@@ -167282,8 +167292,8 @@
       ]
      ],
      "f": 20779,
-     "r": 20779,
-     "dist": "brena"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194634051": {
      "op": "venta",
@@ -167309,8 +167319,8 @@
       ]
      ],
      "f": 20779,
-     "r": 20779,
-     "dist": "jesus-maria"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194634616": {
      "op": "alquiler",
@@ -167363,8 +167373,8 @@
       ]
      ],
      "f": 20779,
-     "r": 20779,
-     "dist": "lince"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194642872": {
      "op": "venta",
@@ -167390,8 +167400,8 @@
       ]
      ],
      "f": 20779,
-     "r": 20779,
-     "dist": "lince"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194640162": {
      "op": "alquiler",
@@ -167444,8 +167454,8 @@
       ]
      ],
      "f": 20779,
-     "r": 20779,
-     "dist": "los-olivos"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194641985": {
      "op": "venta",
@@ -167498,8 +167508,8 @@
       ]
      ],
      "f": 20779,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194640169": {
      "op": "venta",
@@ -167525,8 +167535,8 @@
       ]
      ],
      "f": 20779,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194640175": {
      "op": "venta",
@@ -167552,8 +167562,8 @@
       ]
      ],
      "f": 20779,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194640174": {
      "op": "venta",
@@ -167579,8 +167589,8 @@
       ]
      ],
      "f": 20779,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194640172": {
      "op": "venta",
@@ -167606,8 +167616,8 @@
       ]
      ],
      "f": 20779,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194640170": {
      "op": "venta",
@@ -167633,8 +167643,8 @@
       ]
      ],
      "f": 20779,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194640171": {
      "op": "venta",
@@ -167660,8 +167670,8 @@
       ]
      ],
      "f": 20779,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194640155": {
      "op": "venta",
@@ -167700,7 +167710,7 @@
      "lng": -77.03768,
      "mon": "USD",
      "monto": 185000.0,
-     "mant": 75.87,
+     "mant": 75.27,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -167714,8 +167724,8 @@
       ]
      ],
      "f": 20779,
-     "r": 20779,
-     "dist": "miraflores"
+     "r": 20781,
+     "dist": "carabayllo"
     },
     "194640161": {
      "op": "alquiler",
@@ -167851,10 +167861,309 @@
      "f": 20781,
      "r": 20781,
      "dist": "san-juan-de-lurigancho"
+    },
+    "194649594": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 663.0,
+     "area": 82.0,
+     "lat": -12.11847,
+     "lng": -77.01684,
+     "mon": "PEN",
+     "monto": 2290.0,
+     "mant": 92.65,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Surquillo",
+     "titulo": "Barrio Medico Departamento Con Balcon Linda Vista Ciudad Semiamoblado",
+     "u": "https://www.infocasas.com.pe/barrio-medico-departamento-con-balcon-linda-vista-ciudad-semiamoblado/194649594",
+     "flags": [],
+     "p": [
+      [
+       20781,
+       663.0
+      ]
+     ],
+     "f": 20781,
+     "r": 20781,
+     "dist": "surquillo"
+    },
+    "194650030": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 670.0,
+     "area": 49.0,
+     "lat": -12.13715,
+     "lng": -77.02099,
+     "mon": "USD",
+     "monto": 670.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "Mono",
+     "zona": "Barranco",
+     "titulo": "Alquiler de lindo departamento de 1 dorm en la mejor zona de barranco",
+     "u": "https://www.infocasas.com.pe/alquiler-de-lindo-departamento-de-1-dorm-en-la-mejor-zona-de-barranco/194650030",
+     "flags": [],
+     "p": [
+      [
+       20781,
+       670.0
+      ]
+     ],
+     "f": 20781,
+     "r": 20781,
+     "dist": "barranco"
+    },
+    "194650027": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 850.0,
+     "area": 70.0,
+     "lat": -12.13356,
+     "lng": -77.01952,
+     "mon": "USD",
+     "monto": 850.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Barranco",
+     "titulo": "Departamento en barranco",
+     "u": "https://www.infocasas.com.pe/departamento-en-barranco/194650027",
+     "flags": [],
+     "p": [
+      [
+       20781,
+       850.0
+      ]
+     ],
+     "f": 20781,
+     "r": 20781,
+     "dist": "barranco"
+    },
+    "194650026": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 839.0,
+     "area": 70.0,
+     "lat": -12.13356,
+     "lng": -77.01952,
+     "mon": "PEN",
+     "monto": 2900.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Barranco",
+     "titulo": "Departamento en barranco",
+     "u": "https://www.infocasas.com.pe/departamento-en-barranco/194650026",
+     "flags": [],
+     "p": [
+      [
+       20781,
+       839.0
+      ]
+     ],
+     "f": 20781,
+     "r": 20781,
+     "dist": "barranco"
+    },
+    "194572751": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 225000.0,
+     "area": 117.0,
+     "lat": -12.13133,
+     "lng": -76.99473,
+     "mon": "USD",
+     "monto": 225000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Chanchamayo",
+     "titulo": "venta Departamento en CHAMA 2 dormitorios área de servicio",
+     "u": "https://www.infocasas.com.pe/venta-departamento-en-chama-2-dormitorios-area-de-servicio/194572751",
+     "flags": [],
+     "p": [
+      [
+       20781,
+       225000.0
+      ]
+     ],
+     "f": 20781,
+     "r": 20781,
+     "dist": "carabayllo"
+    },
+    "194549300": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 105000.0,
+     "area": 88.0,
+     "lat": -12.08136,
+     "lng": -76.98068,
+     "mon": "USD",
+     "monto": 105000.0,
+     "mant": 52.09,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Ate",
+     "titulo": "Departamento Remodelado En Venta En Salamanca, Ate",
+     "u": "https://www.infocasas.com.pe/departamento-remodelado-en-venta-en-salamanca-ate/194549300",
+     "flags": [],
+     "p": [
+      [
+       20781,
+       105000.0
+      ]
+     ],
+     "f": 20781,
+     "r": 20781,
+     "dist": "carabayllo"
+    },
+    "194478023": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 150000.0,
+     "area": 121.0,
+     "lat": -12.07117,
+     "lng": -77.11123,
+     "mon": "USD",
+     "monto": 150000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "La Perla",
+     "titulo": "¡121 M² + Aires Incluidos! Vive Con Amplitud En La Perla, Callao.",
+     "u": "https://www.infocasas.com.pe/121-m-aires-incluidos-vive-con-amplitud-en-la-perla-callao/194478023",
+     "flags": [
+      "independización"
+     ],
+     "p": [
+      [
+       20781,
+       150000.0
+      ]
+     ],
+     "f": 20781,
+     "r": 20781,
+     "dist": "carabayllo"
+    },
+    "194493746": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 238000.0,
+     "area": 123.0,
+     "lat": -12.09346,
+     "lng": -77.0411,
+     "mon": "USD",
+     "monto": 238000.0,
+     "mant": 72.34,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "Lindo Dpto Los Cipreses San isidro",
+     "u": "https://www.infocasas.com.pe/lindo-dpto-los-cipreses-san-isidro/194493746",
+     "flags": [],
+     "p": [
+      [
+       20781,
+       238000.0
+      ]
+     ],
+     "f": 20781,
+     "r": 20781,
+     "dist": "carabayllo"
+    },
+    "194461822": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 445000.0,
+     "area": 150.0,
+     "lat": -12.11292,
+     "lng": -77.04509,
+     "mon": "USD",
+     "monto": 445000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "4",
+     "zona": "",
+     "titulo": "Venta de Dúplex en Miraflores con Espectacular Terraza / 242 m²/ 4 Dorm   2 Esta",
+     "u": "https://www.infocasas.com.pe/venta-de-duplex-en-miraflores-con-espectacular-terraza-y-242-m-4-dorm-2-estacionamientos/194461822",
+     "flags": [],
+     "p": [
+      [
+       20781,
+       445000.0
+      ]
+     ],
+     "f": 20781,
+     "r": 20781,
+     "dist": "carabayllo"
+    },
+    "194572755": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 70000.0,
+     "area": 50.0,
+     "lat": -12.05848,
+     "lng": -76.94106,
+     "mon": "USD",
+     "monto": 70000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Ate Vitarte",
+     "titulo": "Venta de Dpto de 2 Dorm en Mayorazgo - cerca a la Pre Univ. de Lima",
+     "u": "https://www.infocasas.com.pe/venta-de-dpto-de-2-dorm-en-mayorazgo-cerca-a-la-pre-univ-de-lima/194572755",
+     "flags": [],
+     "p": [
+      [
+       20781,
+       70000.0
+      ]
+     ],
+     "f": 20781,
+     "r": 20781,
+     "dist": "carabayllo"
+    },
+    "194572760": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 239900.0,
+     "area": 90.0,
+     "lat": -12.11598,
+     "lng": -77.03842,
+     "mon": "USD",
+     "monto": 239900.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "",
+     "titulo": "Se Vende Duplex 90m2   1 cochera Cerca al Malecón Grau  y Colegio San Silvestre ",
+     "u": "https://www.infocasas.com.pe/se-vende-duplex-90m2-1-cochera-cerca-al-malecon-grau-y-colegio-san-silvestre-miraflores/194572760",
+     "flags": [],
+     "p": [
+      [
+       20781,
+       239900.0
+      ]
+     ],
+     "f": 20781,
+     "r": 20781,
+     "dist": "carabayllo"
     }
    },
-   "tc": 3.426959893482023,
-   "turno": 159,
+   "tc": 3.454133635334088,
+   "turno": 17,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -167881,50 +168190,50 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 83,
-     "fuera_ciudad": 0,
-     "momento": 1795478909
+     "validos": 245,
+     "fuera_ciudad": 5,
+     "momento": 1795515013
     },
     "arequipa": {
      "paginas": 4,
      "validos": 3,
      "fuera_ciudad": 0,
-     "momento": 1795478909
+     "momento": 1795515013
     },
     "cusco": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1795478909
+     "momento": 1795515013
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 3,
-     "momento": 1795478909
+     "momento": 1795515013
     },
     "trujillo": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1795478909
+     "momento": 1795515013
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1795478909
+     "momento": 1795515013
     }
    }
   },
   "cobertura_ciudades": {
    "lima": {
     "ciudad": "Lima",
-    "ventas": 1131,
-    "alquileres": 352,
+    "ventas": 1138,
+    "alquileres": 356,
     "estado": "con datos; comparables por microzona pendientes de cada aviso",
     "proyectos": 815,
-    "momento": 1795478909
+    "momento": 1795515013
    },
    "arequipa": {
     "ciudad": "Arequipa",
@@ -167932,7 +168241,7 @@
     "alquileres": 1,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 7,
-    "momento": 1795478909
+    "momento": 1795515013
    },
    "cusco": {
     "ciudad": "Cusco",
@@ -167940,7 +168249,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 1,
-    "momento": 1795478909
+    "momento": 1795515013
    },
    "cajamarca": {
     "ciudad": "Cajamarca",
@@ -167948,7 +168257,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1795478909
+    "momento": 1795515013
    },
    "trujillo": {
     "ciudad": "Trujillo",
@@ -167956,7 +168265,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1795478909
+    "momento": 1795515013
    },
    "huaraz": {
     "ciudad": "Huaraz",
@@ -167964,7 +168273,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1795478909
+    "momento": 1795515013
    }
   }
  }
