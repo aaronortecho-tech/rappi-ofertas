@@ -25,12 +25,10 @@
   "2cd8a8be71825b86": 1791940089,
   "2d9b49faf9ac13c1": 1793399610,
   "3024761f3ad8ae15": 1791247855,
-  "30f95cd6f1e2824a": 1790361594,
   "329566a144ce3726": 1793078477,
   "33f948595ae7b530": 1792559107,
   "364f270e15149055": 1791593538,
   "38de958e0a0719db": 1794176441,
-  "3a2f629c0d337823": 1790340170,
   "3d43069b46cad10f": 1794903155,
   "3f33d730d179e604": 1795377317,
   "45c109ac6687ba50": 1792732055,
@@ -111,13 +109,13 @@
   "fed3be03a3964ffa": 1795289628
  },
  "failures": {
-  "Nexo Inmobiliario/proyectos": 37
+  "Nexo Inmobiliario/proyectos": 38
  },
  "last_failure_notice": 1795478909,
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1795515013,
+ "saved_at": 1795560054,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -7622,7 +7620,7 @@
       ]
      },
      "r": 20760,
-     "x": 20777
+     "x": 20781
     },
     "2912": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/nueva-metropolis-2912",
@@ -7904,7 +7902,7 @@
       ]
      },
      "r": 20760,
-     "x": 20760
+     "x": 20781
     },
     "2947": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/los-gorriones-5-2947",
@@ -24734,7 +24732,7 @@
       ]
      },
      "r": 20768,
-     "x": 20778
+     "x": 20781
     },
     "3539": {
      "u": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/delamar-3539",
@@ -113950,6 +113948,316 @@
      },
      "r": 20781,
      "x": 20781
+    },
+    "4170": {
+     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/aura-sul-4170",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Santiago De Surco",
+     "nombre": "AURA SUL",
+     "marca": "GRUPO DICON",
+     "lat": -12.11451,
+     "lng": -76.98326,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo Tipo 4": [
+       137.79,
+       3,
+       "PEN",
+       1102749.0
+      ],
+      "Modelo Tipo 5": [
+       142.88,
+       3,
+       "PEN",
+       1143482.0
+      ],
+      "Modelo Tipo 6": [
+       100.39,
+       3,
+       "PEN",
+       803432.0
+      ],
+      "Modelo Tipo 7": [
+       112.65,
+       3,
+       "PEN",
+       901548.0
+      ]
+     },
+     "primero": {
+      "Modelo Tipo 4": [
+       "PEN",
+       1102749.0,
+       20781
+      ],
+      "Modelo Tipo 5": [
+       "PEN",
+       1143482.0,
+       20781
+      ],
+      "Modelo Tipo 6": [
+       "PEN",
+       803432.0,
+       20781
+      ],
+      "Modelo Tipo 7": [
+       "PEN",
+       901548.0,
+       20781
+      ]
+     },
+     "r": 20781,
+     "x": 20781
+    },
+    "4171": {
+     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/spazio-4171",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Santiago De Surco",
+     "nombre": "SPAZIO",
+     "marca": "GRUPO DICON",
+     "lat": -12.11146,
+     "lng": -76.97957,
+     "etapa": "en construcción",
+     "modelos": {
+      "Modelo TIPO A": [
+       100.92,
+       3,
+       "PEN",
+       734699.0
+      ],
+      "Modelo TIPO D": [
+       104.73,
+       3,
+       "PEN",
+       762433.0
+      ],
+      "Modelo TIPO F": [
+       83.08,
+       3,
+       "PEN",
+       610638.0
+      ],
+      "Modelo TIPO G": [
+       84.39,
+       3,
+       "PEN",
+       620267.0
+      ],
+      "Modelo TIPO H": [
+       104.53,
+       3,
+       "PEN",
+       760977.0
+      ],
+      "Modelo TIPO L": [
+       209.24,
+       3,
+       "PEN",
+       1303106.0
+      ],
+      "Modelo TIPO M": [
+       208.24,
+       3,
+       "PEN",
+       1299018.0
+      ],
+      "Modelo TIPO J": [
+       247.31,
+       6,
+       "PEN",
+       1356219.0
+      ],
+      "Modelo TIPO K": [
+       229.73,
+       6,
+       "PEN",
+       1267994.0
+      ]
+     },
+     "primero": {
+      "Modelo TIPO A": [
+       "PEN",
+       734699.0,
+       20781
+      ],
+      "Modelo TIPO D": [
+       "PEN",
+       762433.0,
+       20781
+      ],
+      "Modelo TIPO F": [
+       "PEN",
+       610638.0,
+       20781
+      ],
+      "Modelo TIPO G": [
+       "PEN",
+       620267.0,
+       20781
+      ],
+      "Modelo TIPO H": [
+       "PEN",
+       760977.0,
+       20781
+      ],
+      "Modelo TIPO L": [
+       "PEN",
+       1303106.0,
+       20781
+      ],
+      "Modelo TIPO M": [
+       "PEN",
+       1299018.0,
+       20781
+      ],
+      "Modelo TIPO J": [
+       "PEN",
+       1356219.0,
+       20781
+      ],
+      "Modelo TIPO K": [
+       "PEN",
+       1267994.0,
+       20781
+      ]
+     },
+     "r": 20781,
+     "x": 20781
+    },
+    "4314": {
+     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/inizio-4314",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "Santiago De Surco",
+     "nombre": "INIZIO",
+     "marca": "GRUPO DICON",
+     "lat": -12.13723,
+     "lng": -77.00332,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo FLAT 101": [
+       118.32,
+       3,
+       "PEN",
+       815633.0
+      ],
+      "Modelo TIPO X01": [
+       83.0,
+       3,
+       "PEN",
+       610050.0
+      ],
+      "Modelo DÚPLEX 601": [
+       167.52,
+       3,
+       "PEN",
+       1067136.0
+      ],
+      "Modelo DÚPLEX 602": [
+       135.22,
+       3,
+       "PEN",
+       868924.0
+      ],
+      "Modelo DÚPLEX 603": [
+       163.32,
+       3,
+       "PEN",
+       1035010.0
+      ]
+     },
+     "primero": {
+      "Modelo FLAT 101": [
+       "PEN",
+       815633.0,
+       20781
+      ],
+      "Modelo TIPO X01": [
+       "PEN",
+       610050.0,
+       20781
+      ],
+      "Modelo DÚPLEX 601": [
+       "PEN",
+       1067136.0,
+       20781
+      ],
+      "Modelo DÚPLEX 602": [
+       "PEN",
+       868924.0,
+       20781
+      ],
+      "Modelo DÚPLEX 603": [
+       "PEN",
+       1035010.0,
+       20781
+      ]
+     },
+     "r": 20781,
+     "x": 20781
+    },
+    "4488": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/grow-home-san-miguel-4488",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "San Miguel",
+     "nombre": "GROW HOME",
+     "marca": "CISSAC",
+     "lat": -12.06934,
+     "lng": -77.09559,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo X01": [
+       66.13,
+       3,
+       "PEN",
+       449000.0
+      ],
+      "Modelo X03": [
+       40.01,
+       1,
+       "PEN",
+       295400.0
+      ],
+      "Modelo X04": [
+       52.84,
+       2,
+       "PEN",
+       378900.0
+      ],
+      "Modelo X02": [
+       56.64,
+       2,
+       "PEN",
+       396000.0
+      ]
+     },
+     "primero": {
+      "Modelo X01": [
+       "PEN",
+       449000.0,
+       20781
+      ],
+      "Modelo X03": [
+       "PEN",
+       295400.0,
+       20781
+      ],
+      "Modelo X04": [
+       "PEN",
+       378900.0,
+       20781
+      ],
+      "Modelo X02": [
+       "PEN",
+       396000.0,
+       20781
+      ]
+     },
+     "r": 20781,
+     "x": 20781
     }
    },
    "ultima": 1793993830
@@ -156935,7 +157243,7 @@
      ],
      "f": 20754,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "cercado-de-lima"
     },
     "194462307": {
      "op": "alquiler",
@@ -157032,7 +157340,7 @@
      ],
      "f": 20754,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "la-molina"
     },
     "194465414": {
      "op": "venta",
@@ -157552,7 +157860,7 @@
      ],
      "f": 20756,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "jesus-maria"
     },
     "194477348": {
      "op": "venta",
@@ -157619,7 +157927,7 @@
      "lng": -77.04774,
      "mon": "USD",
      "monto": 272000.0,
-     "mant": 144.69,
+     "mant": 144.75,
      "anio": "",
      "dorm": "4",
      "zona": "Jesus Maria",
@@ -157634,7 +157942,7 @@
      ],
      "f": 20756,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "jesus-maria"
     },
     "194474607": {
      "op": "venta",
@@ -157660,7 +157968,7 @@
       ]
      ],
      "f": 20756,
-     "r": 20779,
+     "r": 20781,
      "dist": "la-molina"
     },
     "194482058": {
@@ -159018,7 +159326,7 @@
       ]
      ],
      "f": 20757,
-     "r": 20779,
+     "r": 20781,
      "dist": "carabayllo"
     },
     "194482072": {
@@ -159074,13 +159382,13 @@
      ],
      "f": 20757,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "cercado-de-lima"
     },
     "194482074": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 97980.0,
+     "usd": 97164.0,
      "area": 52.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -159094,10 +159402,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-202-al-1302-a-609-893-92/194482074",
      "flags": [],
      "p": [
-      [
-       20764,
-       97481.0
-      ],
       [
        20765,
        97275.0
@@ -159125,10 +159429,14 @@
       [
        20779,
        97980.0
+      ],
+      [
+       20781,
+       97164.0
       ]
      ],
      "f": 20757,
-     "r": 20779,
+     "r": 20781,
      "dist": "cercado-de-lima"
     },
     "194486770": {
@@ -159184,7 +159492,7 @@
      ],
      "f": 20757,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "cercado-de-lima"
     },
     "194486771": {
      "op": "venta",
@@ -159239,7 +159547,7 @@
      ],
      "f": 20757,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "cercado-de-lima"
     },
     "194482073": {
      "op": "venta",
@@ -159294,7 +159602,7 @@
      ],
      "f": 20757,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "cercado-de-lima"
     },
     "194482071": {
      "op": "venta",
@@ -159349,7 +159657,7 @@
      ],
      "f": 20757,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "cercado-de-lima"
     },
     "194486773": {
      "op": "venta",
@@ -159404,7 +159712,7 @@
      ],
      "f": 20757,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "cercado-de-lima"
     },
     "194485569": {
      "op": "alquiler",
@@ -159477,7 +159785,7 @@
       ]
      ],
      "f": 20758,
-     "r": 20779,
+     "r": 20781,
      "dist": "la-molina"
     },
     "194488878": {
@@ -159781,7 +160089,7 @@
      ],
      "f": 20760,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "cercado-de-lima"
     },
     "194489278": {
      "op": "venta",
@@ -159836,7 +160144,7 @@
      ],
      "f": 20760,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "cercado-de-lima"
     },
     "194489282": {
      "op": "venta",
@@ -159891,7 +160199,7 @@
      ],
      "f": 20760,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "cercado-de-lima"
     },
     "194489284": {
      "op": "venta",
@@ -159946,7 +160254,7 @@
      ],
      "f": 20760,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "cercado-de-lima"
     },
     "194489281": {
      "op": "venta",
@@ -160001,7 +160309,7 @@
      ],
      "f": 20760,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "cercado-de-lima"
     },
     "194489280": {
      "op": "venta",
@@ -160056,7 +160364,7 @@
      ],
      "f": 20760,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "cercado-de-lima"
     },
     "194489279": {
      "op": "venta",
@@ -160111,7 +160419,7 @@
      ],
      "f": 20760,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "cercado-de-lima"
     },
     "194489911": {
      "op": "venta",
@@ -160137,7 +160445,7 @@
       ]
      ],
      "f": 20760,
-     "r": 20779,
+     "r": 20781,
      "dist": "la-molina"
     },
     "194493597": {
@@ -160973,7 +161281,7 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 730.0,
+     "usd": 723.0,
      "area": 80.0,
      "lat": -12.07613,
      "lng": -77.0545,
@@ -161014,10 +161322,14 @@
       [
        20779,
        730.0
+      ],
+      [
+       20781,
+       723.0
       ]
      ],
      "f": 20762,
-     "r": 20779,
+     "r": 20781,
      "dist": "jesus-maria"
     },
     "194500444": {
@@ -161048,7 +161360,7 @@
       ]
      ],
      "f": 20762,
-     "r": 20779,
+     "r": 20781,
      "dist": "la-molina"
     },
     "194500438": {
@@ -161075,7 +161387,7 @@
       ]
      ],
      "f": 20762,
-     "r": 20779,
+     "r": 20781,
      "dist": "la-molina"
     },
     "194500435": {
@@ -161129,7 +161441,7 @@
       ]
      ],
      "f": 20762,
-     "r": 20779,
+     "r": 20781,
      "dist": "la-molina"
     },
     "194506977": {
@@ -161157,7 +161469,7 @@
      ],
      "f": 20762,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "la-victoria"
     },
     "194508766": {
      "op": "venta",
@@ -162056,7 +162368,7 @@
      "lng": -77.00895,
      "mon": "USD",
      "monto": 135000.0,
-     "mant": 57.87,
+     "mant": 57.85,
      "anio": "",
      "dorm": "3",
      "zona": "Chorrillos",
@@ -162071,7 +162383,7 @@
      ],
      "f": 20764,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "chorrillos"
     },
     "194517845": {
      "op": "venta",
@@ -162097,20 +162409,20 @@
       ]
      ],
      "f": 20764,
-     "r": 20779,
+     "r": 20781,
      "dist": "chorrillos"
     },
     "194514988": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 584.0,
+     "usd": 579.0,
      "area": 61.0,
      "lat": -11.99254,
      "lng": -77.05763,
      "mon": "PEN",
      "monto": 2000.0,
-     "mant": 58.4,
+     "mant": 57.9,
      "anio": "",
      "dorm": "2",
      "zona": "Independencia",
@@ -162145,10 +162457,14 @@
       [
        20779,
        584.0
+      ],
+      [
+       20781,
+       579.0
       ]
      ],
      "f": 20764,
-     "r": 20779,
+     "r": 20781,
      "dist": "independencia"
     },
     "194515017": {
@@ -162176,7 +162492,7 @@
      ],
      "f": 20764,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "la-victoria"
     },
     "194519236": {
      "op": "alquiler",
@@ -162779,13 +163095,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 759.0,
+     "usd": 752.0,
      "area": 57.0,
      "lat": -12.08112,
      "lng": -77.04875,
      "mon": "PEN",
      "monto": 2600.0,
-     "mant": 64.2,
+     "mant": 63.7,
      "anio": "",
      "dorm": "2",
      "zona": "Jesus Maria",
@@ -162820,10 +163136,14 @@
       [
        20779,
        759.0
+      ],
+      [
+       20781,
+       752.0
       ]
      ],
      "f": 20766,
-     "r": 20779,
+     "r": 20781,
      "dist": "jesus-maria"
     },
     "194519524": {
@@ -163859,7 +164179,7 @@
      "op": "alquiler",
      "tipo": "casas",
      "ciudad": "lima",
-     "usd": 671.0,
+     "usd": 666.0,
      "area": 272.0,
      "lat": -11.8354,
      "lng": -77.05331,
@@ -163892,17 +164212,21 @@
       [
        20779,
        671.0
+      ],
+      [
+       20781,
+       666.0
       ]
      ],
      "f": 20770,
-     "r": 20779,
+     "r": 20781,
      "dist": "carabayllo"
     },
     "194536631": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 788.0,
+     "usd": 781.0,
      "area": 75.0,
      "lat": -12.09146,
      "lng": -77.08228,
@@ -163935,17 +164259,21 @@
       [
        20779,
        788.0
+      ],
+      [
+       20781,
+       781.0
       ]
      ],
      "f": 20770,
-     "r": 20779,
+     "r": 20781,
      "dist": "cercado-de-lima"
     },
     "194549314": {
      "op": "alquiler",
      "tipo": "casas",
      "ciudad": "lima",
-     "usd": 2176.0,
+     "usd": 2158.0,
      "area": 96.0,
      "lat": -12.18281,
      "lng": -77.01094,
@@ -163978,10 +164306,14 @@
       [
        20779,
        2176.0
+      ],
+      [
+       20781,
+       2158.0
       ]
      ],
      "f": 20770,
-     "r": 20779,
+     "r": 20781,
      "dist": "chorrillos"
     },
     "194551318": {
@@ -164853,19 +165185,19 @@
      ],
      "f": 20772,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "cercado-de-lima"
     },
     "194559211": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 700.0,
+     "usd": 694.0,
      "area": 49.0,
      "lat": -12.07447,
      "lng": -77.03587,
      "mon": "PEN",
      "monto": 2400.0,
-     "mant": 71.46,
+     "mant": 70.87,
      "anio": "",
      "dorm": "2",
      "zona": "Cercado De Lima",
@@ -164888,23 +165220,27 @@
       [
        20779,
        700.0
+      ],
+      [
+       20781,
+       694.0
       ]
      ],
      "f": 20772,
-     "r": 20779,
+     "r": 20781,
      "dist": "cercado-de-lima"
     },
     "194560342": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 934.0,
+     "usd": 926.0,
      "area": 86.0,
      "lat": -12.08441,
      "lng": -77.04996,
      "mon": "PEN",
      "monto": 3200.0,
-     "mant": 102.14,
+     "mant": 101.34,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -164923,23 +165259,27 @@
       [
        20779,
        934.0
+      ],
+      [
+       20781,
+       926.0
       ]
      ],
      "f": 20772,
-     "r": 20779,
+     "r": 20781,
      "dist": "jesus-maria"
     },
     "194560115": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 525.0,
+     "usd": 521.0,
      "area": 38.0,
      "lat": -12.08441,
      "lng": -77.04996,
      "mon": "PEN",
      "monto": 1800.0,
-     "mant": 58.36,
+     "mant": 57.91,
      "anio": "",
      "dorm": "1",
      "zona": "Jesus Maria",
@@ -164958,10 +165298,14 @@
       [
        20779,
        525.0
+      ],
+      [
+       20781,
+       521.0
       ]
      ],
      "f": 20772,
-     "r": 20779,
+     "r": 20781,
      "dist": "jesus-maria"
     },
     "194559769": {
@@ -165748,7 +166092,7 @@
      ],
      "f": 20774,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "cercado-de-lima"
     },
     "194562593": {
      "op": "alquiler",
@@ -165774,7 +166118,7 @@
       ]
      ],
      "f": 20774,
-     "r": 20779,
+     "r": 20781,
      "dist": "cercado-de-lima"
     },
     "194569085": {
@@ -166714,7 +167058,7 @@
      "lng": -77.03998,
      "mon": "PEN",
      "monto": 2500.0,
-     "mant": 80.97,
+     "mant": 81.07,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -166737,7 +167081,7 @@
      ],
      "f": 20776,
      "r": 20781,
-     "dist": "ate"
+     "dist": "jesus-maria"
     },
     "194572017": {
      "op": "alquiler",
@@ -166798,7 +167142,7 @@
       ]
      ],
      "f": 20777,
-     "r": 20779,
+     "r": 20781,
      "dist": "cercado-de-lima"
     },
     "194627885": {
@@ -166825,7 +167169,7 @@
       ]
      ],
      "f": 20777,
-     "r": 20779,
+     "r": 20781,
      "dist": "la-molina"
     },
     "194626913": {
@@ -167320,13 +167664,13 @@
      ],
      "f": 20779,
      "r": 20781,
-     "dist": "carabayllo"
+     "dist": "jesus-maria"
     },
     "194634616": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 642.0,
+     "usd": 637.0,
      "area": 48.0,
      "lat": -12.08216,
      "lng": -77.04496,
@@ -167343,10 +167687,14 @@
       [
        20779,
        642.0
+      ],
+      [
+       20781,
+       637.0
       ]
      ],
      "f": 20779,
-     "r": 20779,
+     "r": 20781,
      "dist": "jesus-maria"
     },
     "194642871": {
@@ -168162,8 +168510,8 @@
      "dist": "carabayllo"
     }
    },
-   "tc": 3.454133635334088,
-   "turno": 17,
+   "tc": 3.4536891679748822,
+   "turno": 57,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -168190,39 +168538,39 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 245,
-     "fuera_ciudad": 5,
-     "momento": 1795515013
+     "validos": 46,
+     "fuera_ciudad": 1,
+     "momento": 1795560054
     },
     "arequipa": {
      "paginas": 4,
      "validos": 3,
      "fuera_ciudad": 0,
-     "momento": 1795515013
+     "momento": 1795560054
     },
     "cusco": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1795515013
+     "momento": 1795560054
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 3,
-     "momento": 1795515013
+     "momento": 1795560054
     },
     "trujillo": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1795515013
+     "momento": 1795560054
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1795515013
+     "momento": 1795560054
     }
    }
   },
@@ -168232,8 +168580,8 @@
     "ventas": 1138,
     "alquileres": 356,
     "estado": "con datos; comparables por microzona pendientes de cada aviso",
-    "proyectos": 815,
-    "momento": 1795515013
+    "proyectos": 819,
+    "momento": 1795560054
    },
    "arequipa": {
     "ciudad": "Arequipa",
@@ -168241,7 +168589,7 @@
     "alquileres": 1,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 7,
-    "momento": 1795515013
+    "momento": 1795560054
    },
    "cusco": {
     "ciudad": "Cusco",
@@ -168249,7 +168597,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 1,
-    "momento": 1795515013
+    "momento": 1795560054
    },
    "cajamarca": {
     "ciudad": "Cajamarca",
@@ -168257,7 +168605,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1795515013
+    "momento": 1795560054
    },
    "trujillo": {
     "ciudad": "Trujillo",
@@ -168265,7 +168613,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1795515013
+    "momento": 1795560054
    },
    "huaraz": {
     "ciudad": "Huaraz",
@@ -168273,7 +168621,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1795515013
+    "momento": 1795560054
    }
   }
  }
