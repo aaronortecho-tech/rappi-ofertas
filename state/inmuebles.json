@@ -46,6 +46,7 @@
   "64f0b02da57ce092": 1792946349,
   "656fdefdd2f1924f": 1794680547,
   "65a40b24021c9302": 1793253917,
+  "65f545ac5eedfceb": 1795643684,
   "665d99be163511fe": 1791983319,
   "666e393df0176d46": 1792048385,
   "6dc4f0d02ed4c6bf": 1793366185,
@@ -109,13 +110,13 @@
   "fed3be03a3964ffa": 1795289628
  },
  "failures": {
-  "Nexo Inmobiliario/proyectos": 39
+  "Nexo Inmobiliario/proyectos": 40
  },
  "last_failure_notice": 1795596960,
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1795596960,
+ "saved_at": 1795643684,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -28846,31 +28847,13 @@
        70.46,
        3,
        "PEN",
-       554040.0
-      ],
-      "Modelo TIPO 1X-B": [
-       70.46,
-       3,
-       "PEN",
-       552728.0
-      ],
-      "Modelo TIPO 1X-D": [
-       70.46,
-       3,
-       "PEN",
-       554040.0
+       555352.0
       ],
       "Modelo TIPO 1X-E": [
        71.02,
        3,
        "PEN",
        559607.0
-      ],
-      "Modelo TIPO 1X-F": [
-       70.25,
-       3,
-       "PEN",
-       555065.0
       ],
       "Modelo TIPO 1X-G": [
        71.02,
@@ -28883,12 +28866,6 @@
        3,
        "PEN",
        563422.0
-      ],
-      "Modelo TIPO 1Y-A": [
-       26.6,
-       1,
-       "PEN",
-       213965.0
       ],
       "Modelo TIPO 1Y-B": [
        26.38,
@@ -28980,12 +28957,6 @@
        "PEN",
        392267.0
       ],
-      "Modelo TIPO 3Y-A": [
-       48.29,
-       2,
-       "PEN",
-       391402.0
-      ],
       "Modelo TIPO 3Y-B": [
        48.29,
        2,
@@ -28997,12 +28968,6 @@
        2,
        "PEN",
        392769.0
-      ],
-      "Modelo TIPO 4X": [
-       37.61,
-       1,
-       "PEN",
-       259534.0
       ],
       "Modelo TIPO 4Y": [
        27.68,
@@ -29038,13 +29003,13 @@
        68.67,
        2,
        "PEN",
-       531521.0
+       586000.0
       ],
       "Modelo TIPO 102": [
        44.44,
        1,
        "PEN",
-       321033.0
+       400000.0
       ],
       "Modelo TIPO 1": [
        26.94,
@@ -29057,18 +29022,6 @@
        1,
        "PEN",
        240152.0
-      ],
-      "Modelo TIPO 3A": [
-       47.5,
-       2,
-       "PEN",
-       391252.0
-      ],
-      "Modelo TIPO 3D": [
-       27.71,
-       1,
-       "PEN",
-       228991.0
       ],
       "Modelo TIPO 4": [
        27.88,
@@ -29089,24 +29042,9 @@
        554040.0,
        20718
       ],
-      "Modelo TIPO 1X-B": [
-       "PEN",
-       552728.0,
-       20718
-      ],
-      "Modelo TIPO 1X-D": [
-       "PEN",
-       554040.0,
-       20718
-      ],
       "Modelo TIPO 1X-E": [
        "PEN",
        559607.0,
-       20718
-      ],
-      "Modelo TIPO 1X-F": [
-       "PEN",
-       555065.0,
        20718
       ],
       "Modelo TIPO 1X-G": [
@@ -29117,11 +29055,6 @@
       "Modelo TIPO 1X-H": [
        "PEN",
        563422.0,
-       20718
-      ],
-      "Modelo TIPO 1Y-A": [
-       "PEN",
-       213965.0,
        20718
       ],
       "Modelo TIPO 1Y-B": [
@@ -29199,11 +29132,6 @@
        392267.0,
        20718
       ],
-      "Modelo TIPO 3Y-A": [
-       "PEN",
-       391402.0,
-       20718
-      ],
       "Modelo TIPO 3Y-B": [
        "PEN",
        391402.0,
@@ -29212,11 +29140,6 @@
       "Modelo TIPO 3Y-C": [
        "PEN",
        392769.0,
-       20718
-      ],
-      "Modelo TIPO 4X": [
-       "PEN",
-       259534.0,
        20718
       ],
       "Modelo TIPO 4Y": [
@@ -29264,16 +29187,6 @@
        240152.0,
        20718
       ],
-      "Modelo TIPO 3A": [
-       "PEN",
-       391252.0,
-       20718
-      ],
-      "Modelo TIPO 3D": [
-       "PEN",
-       228991.0,
-       20718
-      ],
       "Modelo TIPO 4": [
        "PEN",
        210333.0,
@@ -29285,7 +29198,7 @@
        20718
       ]
      },
-     "r": 20752,
+     "r": 20782,
      "x": 20782
     },
     "3608": {
@@ -29306,7 +29219,7 @@
        627000.0
       ],
       "Modelo Tipo-102-T2": [
-       70.3,
+       61.03,
        3,
        "PEN",
        565000.0
@@ -29315,10 +29228,10 @@
        71.9,
        2,
        "PEN",
-       598000.0
+       612000.0
       ],
       "Modelo Tipo-103-T2": [
-       47.2,
+       42.4,
        1,
        "PEN",
        390000.0
@@ -29336,7 +29249,7 @@
        446000.0
       ],
       "Modelo Tipo-105-T2": [
-       64.3,
+       59.83,
        2,
        "PEN",
        508000.0
@@ -29369,7 +29282,7 @@
        57.1,
        2,
        "PEN",
-       480000.0
+       471000.0
       ],
       "Modelo Tipo-X10-T2": [
        40.0,
@@ -29399,7 +29312,7 @@
        66.2,
        2,
        "PEN",
-       570000.0
+       548000.0
       ],
       "Modelo Tipo-X15-T2": [
        57.0,
@@ -29420,10 +29333,10 @@
        396000.0
       ],
       "Modelo Tipo-X03-T1": [
-       73.5,
+       73.6,
        3,
        "PEN",
-       616000.0
+       642000.0
       ],
       "Modelo Tipo-X06-T1": [
        79.4,
@@ -29443,11 +29356,17 @@
        "PEN",
        473000.0
       ],
+      "Modelo Tipo-X09-T1": [
+       55.9,
+       2,
+       "PEN",
+       483000.0
+      ],
       "Modelo Tipo-X08-T1": [
        41.1,
        1,
        "PEN",
-       375000.0
+       369000.0
       ],
       "Modelo Tipo-X10-T1": [
        55.9,
@@ -29459,7 +29378,7 @@
        55.9,
        2,
        "PEN",
-       479000.0
+       474000.0
       ],
       "Modelo Tipo-X12-T1": [
        65.9,
@@ -29477,10 +29396,22 @@
        51.8,
        2,
        "PEN",
-       435000.0
+       431000.0
+      ],
+      "Modelo Tipo-X04-T1": [
+       74.4,
+       3,
+       "PEN",
+       619000.0
+      ],
+      "Modelo Tipo-X02-T1": [
+       40.6,
+       1,
+       "PEN",
+       402000.0
       ],
       "Modelo Tipo-101-T2": [
-       65.9,
+       60.97,
        2,
        "PEN",
        487000.0
@@ -29641,9 +29572,24 @@
        "PEN",
        565000.0,
        20742
+      ],
+      "Modelo Tipo-X09-T1": [
+       "PEN",
+       483000.0,
+       20782
+      ],
+      "Modelo Tipo-X04-T1": [
+       "PEN",
+       619000.0,
+       20782
+      ],
+      "Modelo Tipo-X02-T1": [
+       "PEN",
+       402000.0,
+       20782
       ]
      },
-     "r": 20752,
+     "r": 20782,
      "x": 20782
     },
     "3610": {
@@ -29664,10 +29610,10 @@
        304401.0
       ],
       "Modelo 1D-X02": [
-       40.9,
+       40.63,
        1,
        "PEN",
-       281582.0
+       246000.0
       ],
       "Modelo 3D-X03": [
        63.44,
@@ -29676,7 +29622,7 @@
        404151.0
       ],
       "Modelo 3D-X04": [
-       65.43,
+       65.52,
        3,
        "PEN",
        408879.0
@@ -29745,7 +29691,7 @@
        40.36,
        1,
        "PEN",
-       260000.0
+       260751.0
       ],
       "Modelo 3D-2X06": [
        66.94,
@@ -29770,12 +29716,6 @@
        2,
        "PEN",
        426371.0
-      ],
-      "Modelo DUPLEX-X03": [
-       87.05,
-       2,
-       "PEN",
-       488980.0
       ]
      },
      "primero": {
@@ -29873,14 +29813,9 @@
        "PEN",
        426371.0,
        20718
-      ],
-      "Modelo DUPLEX-X03": [
-       "PEN",
-       488980.0,
-       20718
       ]
      },
-     "r": 20752,
+     "r": 20782,
      "x": 20782
     },
     "3619": {
@@ -29898,49 +29833,49 @@
        65.76,
        3,
        "PEN",
-       707484.0
+       649167.0
       ],
       "Modelo X02": [
        54.43,
        2,
        "PEN",
-       597361.0
+       606945.0
       ],
       "Modelo X03": [
        53.95,
        2,
        "PEN",
-       597361.0
+       606945.0
       ],
       "Modelo X04": [
        70.0,
        3,
        "PEN",
-       710600.0
+       722000.0
       ],
       "Modelo X07": [
        58.81,
        2,
        "PEN",
-       481006.0
+       480786.0
       ],
       "Modelo X09": [
        55.5,
        2,
        "PEN",
-       502822.0
+       510889.0
       ],
       "Modelo X10": [
        66.42,
        3,
        "PEN",
-       582817.0
+       592167.0
       ],
       "Modelo X11": [
        55.73,
        2,
        "PEN",
-       466461.0
+       463382.0
       ]
      },
      "primero": {
@@ -29985,7 +29920,7 @@
        20718
       ]
      },
-     "r": 20752,
+     "r": 20782,
      "x": 20782
     },
     "3620": {
@@ -30066,23 +30001,23 @@
        "PEN",
        299768.0
       ],
-      "Modelo Departamento tipo BX04": [
-       67.63,
+      "Modelo Departamento tipo BX02": [
+       64.56,
        3,
        "PEN",
-       340414.0
+       330838.0
       ],
       "Modelo Departamento tipo BX05": [
-       68.18,
+       64.56,
        3,
        "PEN",
-       343004.0
+       310843.0
       ],
       "Modelo Departamento tipo BX06": [
        66.77,
        3,
        "PEN",
-       350734.0
+       355126.0
       ],
       "Modelo Departamento tipo CX01": [
        66.61,
@@ -30148,7 +30083,7 @@
        64.2,
        3,
        "PEN",
-       303773.0
+       306589.0
       ],
       "Modelo Departamento tipo X05": [
        66.77,
@@ -30161,23 +30096,12 @@
        3,
        "PEN",
        344790.0
-      ],
-      "Modelo Departamento tipo X08": [
-       67.18,
-       3,
-       "PEN",
-       345847.0
       ]
      },
      "primero": {
       "Modelo Departamento tipo BX01": [
        "PEN",
        299768.0,
-       20718
-      ],
-      "Modelo Departamento tipo BX04": [
-       "PEN",
-       327115.0,
        20718
       ],
       "Modelo Departamento tipo BX05": [
@@ -30255,13 +30179,13 @@
        340276.0,
        20718
       ],
-      "Modelo Departamento tipo X08": [
+      "Modelo Departamento tipo BX02": [
        "PEN",
-       313500.0,
-       20718
+       330838.0,
+       20782
       ]
      },
-     "r": 20752,
+     "r": 20782,
      "x": 20782
     },
     "3622": {
@@ -156646,14 +156570,14 @@
       ]
      ],
      "f": 20753,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-isidro"
     },
     "194463333": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 137858.0,
+     "usd": 137849.0,
      "area": 45.0,
      "lat": -12.09133,
      "lng": -77.02725,
@@ -156667,10 +156591,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-isidro-entrega-inmediata/194463333",
      "flags": [],
      "p": [
-      [
-       20767,
-       138455.0
-      ],
       [
        20769,
        138778.0
@@ -156698,11 +156618,15 @@
       [
        20781,
        137858.0
+      ],
+      [
+       20782,
+       137849.0
       ]
      ],
      "f": 20753,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-isidro"
     },
     "194459073": {
      "op": "alquiler",
@@ -156755,8 +156679,8 @@
       ]
      ],
      "f": 20753,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-juan-de-miraflores"
     },
     "194461795": {
      "op": "venta",
@@ -157572,7 +157496,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 181871.0,
+     "usd": 181860.0,
      "area": 60.0,
      "lat": -12.09133,
      "lng": -77.02725,
@@ -157586,10 +157510,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-san-isidro-entrega-inmediata/194468337",
      "flags": [],
      "p": [
-      [
-       20767,
-       182659.0
-      ],
       [
        20769,
        183086.0
@@ -157617,11 +157537,15 @@
       [
        20781,
        181871.0
+      ],
+      [
+       20782,
+       181860.0
       ]
      ],
      "f": 20755,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-isidro"
     },
     "194466058": {
      "op": "venta",
@@ -157647,8 +157571,8 @@
       ]
      ],
      "f": 20755,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-isidro"
     },
     "194472872": {
      "op": "venta",
@@ -158823,7 +158747,7 @@
       ]
      ],
      "f": 20757,
-     "r": 20780,
+     "r": 20782,
      "dist": "puente-piedra"
     },
     "194482048": {
@@ -158850,8 +158774,8 @@
       ]
      ],
      "f": 20757,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "punta-hermosa"
     },
     "194485533": {
      "op": "venta",
@@ -158877,8 +158801,8 @@
       ]
      ],
      "f": 20757,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "rimac"
     },
     "194478383": {
      "op": "alquiler",
@@ -158962,7 +158886,7 @@
       ]
      ],
      "f": 20757,
-     "r": 20781,
+     "r": 20782,
      "dist": "san-juan-de-lurigancho"
     },
     "194487096": {
@@ -160841,8 +160765,8 @@
       ]
      ],
      "f": 20761,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-bartolo"
     },
     "194496747": {
      "op": "venta",
@@ -160854,7 +160778,7 @@
      "lng": -77.0685,
      "mon": "USD",
      "monto": 226000.0,
-     "mant": 101.28,
+     "mant": 101.27,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -160868,8 +160792,8 @@
       ]
      ],
      "f": 20761,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-borja"
     },
     "194494658": {
      "op": "alquiler",
@@ -160895,7 +160819,7 @@
       ]
      ],
      "f": 20761,
-     "r": 20780,
+     "r": 20782,
      "dist": "san-borja"
     },
     "194492094": {
@@ -161975,7 +161899,7 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 496.0,
+     "usd": 492.0,
      "area": 45.0,
      "lat": -12.0974,
      "lng": -77.00806,
@@ -161989,10 +161913,6 @@
      "u": "https://www.infocasas.com.pe/departamento-san-borja/194500431",
      "flags": [],
      "p": [
-      [
-       20763,
-       592.0
-      ],
       [
        20765,
        591.0
@@ -162020,10 +161940,14 @@
       [
        20778,
        496.0
+      ],
+      [
+       20782,
+       492.0
       ]
      ],
      "f": 20763,
-     "r": 20780,
+     "r": 20782,
      "dist": "san-borja"
     },
     "194500432": {
@@ -162054,7 +161978,7 @@
       ]
      ],
      "f": 20763,
-     "r": 20780,
+     "r": 20782,
      "dist": "san-borja"
     },
     "194500446": {
@@ -162085,8 +162009,8 @@
       ]
      ],
      "f": 20763,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-juan-de-lurigancho"
     },
     "194509191": {
      "op": "venta",
@@ -162876,7 +162800,7 @@
       ]
      ],
      "f": 20765,
-     "r": 20780,
+     "r": 20782,
      "dist": "punta-hermosa"
     },
     "194517838": {
@@ -162903,7 +162827,7 @@
       ]
      ],
      "f": 20765,
-     "r": 20781,
+     "r": 20782,
      "dist": "san-isidro"
     },
     "194517847": {
@@ -162930,7 +162854,7 @@
       ]
      ],
      "f": 20765,
-     "r": 20781,
+     "r": 20782,
      "dist": "san-isidro"
     },
     "194520304": {
@@ -163642,8 +163566,8 @@
       ]
      ],
      "f": 20769,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "punta-hermosa"
     },
     "194528997": {
      "op": "venta",
@@ -163669,8 +163593,8 @@
       ]
      ],
      "f": 20769,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-borja"
     },
     "194531371": {
      "op": "venta",
@@ -163682,7 +163606,7 @@
      "lng": -77.10043,
      "mon": "USD",
      "monto": 226000.0,
-     "mant": 101.28,
+     "mant": 101.27,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -163696,8 +163620,8 @@
       ]
      ],
      "f": 20769,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-borja"
     },
     "194536627": {
      "op": "venta",
@@ -163723,8 +163647,8 @@
       ]
      ],
      "f": 20769,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-borja"
     },
     "194531497": {
      "op": "venta",
@@ -163777,8 +163701,8 @@
       ]
      ],
      "f": 20769,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-isidro"
     },
     "194545826": {
      "op": "venta",
@@ -163831,7 +163755,7 @@
       ]
      ],
      "f": 20769,
-     "r": 20781,
+     "r": 20782,
      "dist": "san-isidro"
     },
     "194547386": {
@@ -163858,14 +163782,14 @@
       ]
      ],
      "f": 20769,
-     "r": 20781,
+     "r": 20782,
      "dist": "san-isidro"
     },
     "194547385": {
      "op": "venta",
      "tipo": "casas",
      "ciudad": "lima",
-     "usd": 1363220.0,
+     "usd": 1351781.0,
      "area": 352.0,
      "lat": -12.10499,
      "lng": -77.0509,
@@ -163902,17 +163826,21 @@
       [
        20781,
        1363220.0
+      ],
+      [
+       20782,
+       1351781.0
       ]
      ],
      "f": 20769,
-     "r": 20781,
+     "r": 20782,
      "dist": "san-isidro"
     },
     "194536634": {
      "op": "alquiler",
      "tipo": "casas",
      "ciudad": "lima",
-     "usd": 3770.0,
+     "usd": 3738.0,
      "area": 300.0,
      "lat": -12.09528,
      "lng": -77.01383,
@@ -163949,10 +163877,14 @@
       [
        20781,
        3770.0
+      ],
+      [
+       20782,
+       3738.0
       ]
      ],
      "f": 20769,
-     "r": 20781,
+     "r": 20782,
      "dist": "san-isidro"
     },
     "194536633": {
@@ -163979,7 +163911,7 @@
       ]
      ],
      "f": 20769,
-     "r": 20781,
+     "r": 20782,
      "dist": "san-isidro"
     },
     "194536632": {
@@ -164434,12 +164366,12 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 496.0,
+     "usd": 463.0,
      "area": 132.0,
      "lat": -11.85534,
      "lng": -77.07961,
      "mon": "PEN",
-     "monto": 1700.0,
+     "monto": 1600.0,
      "mant": 0.29,
      "anio": "",
      "dorm": "4",
@@ -164459,17 +164391,21 @@
       [
        20778,
        496.0
+      ],
+      [
+       20782,
+       463.0
       ]
      ],
      "f": 20771,
-     "r": 20780,
+     "r": 20782,
      "dist": "puente-piedra"
     },
     "194551159": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 233.0,
+     "usd": 231.0,
      "area": 66.0,
      "lat": -11.85591,
      "lng": -77.07903,
@@ -164494,17 +164430,21 @@
       [
        20778,
        233.0
+      ],
+      [
+       20782,
+       231.0
       ]
      ],
      "f": 20771,
-     "r": 20780,
+     "r": 20782,
      "dist": "puente-piedra"
     },
     "194551188": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 263.0,
+     "usd": 260.0,
      "area": 66.0,
      "lat": -11.85332,
      "lng": -77.07881,
@@ -164533,10 +164473,14 @@
       [
        20780,
        263.0
+      ],
+      [
+       20782,
+       260.0
       ]
      ],
      "f": 20771,
-     "r": 20780,
+     "r": 20782,
      "dist": "puente-piedra"
     },
     "194552829": {
@@ -164563,8 +164507,8 @@
       ]
      ],
      "f": 20771,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "rimac"
     },
     "194553012": {
      "op": "venta",
@@ -164590,8 +164534,8 @@
       ]
      ],
      "f": 20771,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-borja"
     },
     "194553014": {
      "op": "venta",
@@ -164617,8 +164561,8 @@
       ]
      ],
      "f": 20771,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-borja"
     },
     "194553013": {
      "op": "venta",
@@ -164644,8 +164588,8 @@
       ]
      ],
      "f": 20771,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-borja"
     },
     "194547388": {
      "op": "venta",
@@ -164671,8 +164615,8 @@
       ]
      ],
      "f": 20771,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-borja"
     },
     "194555223": {
      "op": "venta",
@@ -164711,7 +164655,7 @@
      "lng": -77.13892,
      "mon": "USD",
      "monto": 226000.0,
-     "mant": 101.28,
+     "mant": 101.27,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -164725,14 +164669,14 @@
       ]
      ],
      "f": 20771,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-borja"
     },
     "194547389": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 442742.0,
+     "usd": 442713.0,
      "area": 200.0,
      "lat": -12.10937,
      "lng": -76.98658,
@@ -164769,11 +164713,15 @@
       [
        20781,
        442742.0
+      ],
+      [
+       20782,
+       442713.0
       ]
      ],
      "f": 20771,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-borja"
     },
     "194553006": {
      "op": "venta",
@@ -164803,8 +164751,8 @@
       ]
      ],
      "f": 20771,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-isidro"
     },
     "194547382": {
      "op": "venta",
@@ -164830,8 +164778,8 @@
       ]
      ],
      "f": 20771,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-isidro"
     },
     "194559030": {
      "op": "venta",
@@ -165853,14 +165801,14 @@
       ]
      ],
      "f": 20773,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-isidro"
     },
     "194562597": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 211532.0,
+     "usd": 211519.0,
      "area": 90.0,
      "lat": -12.09717,
      "lng": -77.05674,
@@ -165893,11 +165841,15 @@
       [
        20781,
        211532.0
+      ],
+      [
+       20782,
+       211519.0
       ]
      ],
      "f": 20773,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-isidro"
     },
     "194563816": {
      "op": "venta",
@@ -166615,8 +166567,8 @@
       ]
      ],
      "f": 20775,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "punta-negra"
     },
     "194623510": {
      "op": "venta",
@@ -166642,7 +166594,7 @@
       ]
      ],
      "f": 20775,
-     "r": 20780,
+     "r": 20782,
      "dist": "rimac"
     },
     "194564403": {
@@ -166655,7 +166607,7 @@
      "lng": -76.99235,
      "mon": "USD",
      "monto": 419500.0,
-     "mant": 243.07,
+     "mant": 243.06,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -166669,8 +166621,8 @@
       ]
      ],
      "f": 20776,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-borja"
     },
     "194572749": {
      "op": "venta",
@@ -166696,8 +166648,8 @@
       ]
      ],
      "f": 20776,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-borja"
     },
     "194572757": {
      "op": "venta",
@@ -166723,8 +166675,8 @@
       ]
      ],
      "f": 20776,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-isidro"
     },
     "194572762": {
      "op": "alquiler",
@@ -166750,7 +166702,7 @@
       ]
      ],
      "f": 20776,
-     "r": 20781,
+     "r": 20782,
      "dist": "san-isidro"
     },
     "194567264": {
@@ -166777,7 +166729,7 @@
       ]
      ],
      "f": 20776,
-     "r": 20781,
+     "r": 20782,
      "dist": "san-isidro"
     },
     "194567257": {
@@ -166804,7 +166756,7 @@
       ]
      ],
      "f": 20776,
-     "r": 20781,
+     "r": 20782,
      "dist": "san-juan-de-lurigancho"
     },
     "194571450": {
@@ -167295,8 +167247,8 @@
       ]
      ],
      "f": 20778,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "rimac"
     },
     "194634052": {
      "op": "venta",
@@ -167322,7 +167274,7 @@
       ]
      ],
      "f": 20778,
-     "r": 20780,
+     "r": 20782,
      "dist": "san-borja"
     },
     "194627887": {
@@ -167349,8 +167301,8 @@
       ]
      ],
      "f": 20778,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-isidro"
     },
     "194627889": {
      "op": "venta",
@@ -167376,8 +167328,8 @@
       ]
      ],
      "f": 20778,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-isidro"
     },
     "194634054": {
      "op": "venta",
@@ -167403,8 +167355,8 @@
       ]
      ],
      "f": 20778,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-isidro"
     },
     "194627890": {
      "op": "venta",
@@ -167430,8 +167382,8 @@
       ]
      ],
      "f": 20778,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-isidro"
     },
     "194627888": {
      "op": "venta",
@@ -167457,8 +167409,8 @@
       ]
      ],
      "f": 20778,
-     "r": 20781,
-     "dist": "carabayllo"
+     "r": 20782,
+     "dist": "san-isidro"
     },
     "194635424": {
      "op": "venta",
@@ -168144,7 +168096,7 @@
       ]
      ],
      "f": 20780,
-     "r": 20780,
+     "r": 20782,
      "dist": "punta-negra"
     },
     "194640158": {
@@ -168171,7 +168123,7 @@
       ]
      ],
      "f": 20781,
-     "r": 20781,
+     "r": 20782,
      "dist": "san-isidro"
     },
     "194642869": {
@@ -168198,20 +168150,20 @@
       ]
      ],
      "f": 20781,
-     "r": 20781,
+     "r": 20782,
      "dist": "san-isidro"
     },
     "194645218": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 467.0,
+     "usd": 463.0,
      "area": 65.0,
      "lat": -12.01692,
      "lng": -76.99722,
      "mon": "PEN",
      "monto": 1600.0,
-     "mant": 40.86,
+     "mant": 40.51,
      "anio": "",
      "dorm": "3",
      "zona": "San Juan De Lurigancho",
@@ -168222,10 +168174,14 @@
       [
        20781,
        467.0
+      ],
+      [
+       20782,
+       463.0
       ]
      ],
      "f": 20781,
-     "r": 20781,
+     "r": 20782,
      "dist": "san-juan-de-lurigancho"
     },
     "194649594": {
@@ -168688,10 +168644,199 @@
      "f": 20782,
      "r": 20782,
      "dist": "miraflores"
+    },
+    "194658252": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 136650.0,
+     "area": 95.0,
+     "lat": -12.37718,
+     "lng": -76.78848,
+     "mon": "USD",
+     "monto": 136650.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Punta Negra",
+     "titulo": "Flat de 95.50m2| 3 Habit| con espectaculares vistas al mar - Punta Negra",
+     "u": "https://www.infocasas.com.pe/flat-de-9550m2-3-habit-con-espectaculares-vistas-al-mar-punta-negra/194658252",
+     "flags": [],
+     "p": [
+      [
+       20782,
+       136650.0
+      ]
+     ],
+     "f": 20782,
+     "r": 20782,
+     "dist": "punta-negra"
+    },
+    "194658255": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 136650.0,
+     "area": 95.0,
+     "lat": -12.37718,
+     "lng": -76.78848,
+     "mon": "USD",
+     "monto": 136650.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Punta Negra",
+     "titulo": "Penthouse Flat de 95.50m2| 3 Habit| con espectaculares vistas al mar - Punta Neg",
+     "u": "https://www.infocasas.com.pe/penthouse-flat-de-9550m2-3-habit-con-espectaculares-vistas-al-mar-punta-negra/194658255",
+     "flags": [],
+     "p": [
+      [
+       20782,
+       136650.0
+      ]
+     ],
+     "f": 20782,
+     "r": 20782,
+     "dist": "punta-negra"
+    },
+    "194658250": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 108580.0,
+     "area": 74.0,
+     "lat": -12.37718,
+     "lng": -76.78848,
+     "mon": "USD",
+     "monto": 108580.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Punta Negra",
+     "titulo": "Duplex de 74m2| 2 Habit| con espectaculares vistas al mar - Punta Negra",
+     "u": "https://www.infocasas.com.pe/duplex-de-74m2-2-habit-con-espectaculares-vistas-al-mar-punta-negra/194658250",
+     "flags": [],
+     "p": [
+      [
+       20782,
+       108580.0
+      ]
+     ],
+     "f": 20782,
+     "r": 20782,
+     "dist": "punta-negra"
+    },
+    "194658254": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 115130.0,
+     "area": 78.0,
+     "lat": -12.37718,
+     "lng": -76.78848,
+     "mon": "USD",
+     "monto": 115130.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Punta Negra",
+     "titulo": "Duplex | 2 Habit | con espectaculares vistas al mar - Punta Negra",
+     "u": "https://www.infocasas.com.pe/duplex-2-habit-con-espectaculares-vistas-al-mar-punta-negra/194658254",
+     "flags": [],
+     "p": [
+      [
+       20782,
+       115130.0
+      ]
+     ],
+     "f": 20782,
+     "r": 20782,
+     "dist": "punta-negra"
+    },
+    "194660795": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 226000.0,
+     "area": 93.0,
+     "lat": -12.15633,
+     "lng": -77.07882,
+     "mon": "USD",
+     "monto": 226000.0,
+     "mant": 101.27,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "DEPARTAMENTO DE ESTRENO DE 93 M² CON COCHERA EN SAN BORJA ref 876",
+     "u": "https://www.infocasas.com.pe/departamento-de-estreno-de-93-m-con-cochera-en-san-borja-ref-876/194660795",
+     "flags": [],
+     "p": [
+      [
+       20782,
+       226000.0
+      ]
+     ],
+     "f": 20782,
+     "r": 20782,
+     "dist": "san-borja"
+    },
+    "194658264": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 1140.0,
+     "area": 80.0,
+     "lat": -12.10213,
+     "lng": -77.01024,
+     "mon": "USD",
+     "monto": 1140.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Borja",
+     "titulo": "ALQUILER DEPARTAMENTO 80 M², 3 DORMITORIOS, 1 COCHERA EN SAN BORJA – VISTA A AV.",
+     "u": "https://www.infocasas.com.pe/alquiler-departamento-80-m-3-dormitorios-1-cochera-en-san-borja-vista-a-av-del-parque-sur/194658264",
+     "flags": [],
+     "p": [
+      [
+       20782,
+       1140.0
+      ]
+     ],
+     "f": 20782,
+     "r": 20782,
+     "dist": "san-borja"
+    },
+    "194657547": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 2000.0,
+     "area": 240.0,
+     "lat": -12.09485,
+     "lng": -77.01513,
+     "mon": "USD",
+     "monto": 2000.0,
+     "mant": 130.21,
+     "anio": "",
+     "dorm": "3",
+     "zona": "San Isidro",
+     "titulo": "ALQUILO DEPARTAMENTO 240 MTS2 DE 3 DORM CORPAC",
+     "u": "https://www.infocasas.com.pe/alquilo-departamento-240-mts2-de-3-dorm-corpac/194657547",
+     "flags": [],
+     "p": [
+      [
+       20782,
+       2000.0
+      ]
+     ],
+     "f": 20782,
+     "r": 20782,
+     "dist": "san-isidro"
     }
    },
-   "tc": 3.4536891679748822,
-   "turno": 94,
+   "tc": 3.4557235421166306,
+   "turno": 134,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -168718,50 +168863,50 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 133,
-     "fuera_ciudad": 2,
-     "momento": 1795596960
+     "validos": 68,
+     "fuera_ciudad": 0,
+     "momento": 1795643684
     },
     "arequipa": {
      "paginas": 4,
      "validos": 3,
      "fuera_ciudad": 0,
-     "momento": 1795596960
+     "momento": 1795643684
     },
     "cusco": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1795596960
+     "momento": 1795643684
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 3,
-     "momento": 1795596960
+     "momento": 1795643684
     },
     "trujillo": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1795596960
+     "momento": 1795643684
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1795596960
+     "momento": 1795643684
     }
    }
   },
   "cobertura_ciudades": {
    "lima": {
     "ciudad": "Lima",
-    "ventas": 1138,
-    "alquileres": 362,
+    "ventas": 1143,
+    "alquileres": 364,
     "estado": "con datos; comparables por microzona pendientes de cada aviso",
     "proyectos": 819,
-    "momento": 1795596960
+    "momento": 1795643684
    },
    "arequipa": {
     "ciudad": "Arequipa",
@@ -168769,7 +168914,7 @@
     "alquileres": 1,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 7,
-    "momento": 1795596960
+    "momento": 1795643684
    },
    "cusco": {
     "ciudad": "Cusco",
@@ -168777,7 +168922,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 1,
-    "momento": 1795596960
+    "momento": 1795643684
    },
    "cajamarca": {
     "ciudad": "Cajamarca",
@@ -168785,7 +168930,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1795596960
+    "momento": 1795643684
    },
    "trujillo": {
     "ciudad": "Trujillo",
@@ -168793,7 +168938,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1795596960
+    "momento": 1795643684
    },
    "huaraz": {
     "ciudad": "Huaraz",
@@ -168801,7 +168946,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1795596960
+    "momento": 1795643684
    }
   }
  }
