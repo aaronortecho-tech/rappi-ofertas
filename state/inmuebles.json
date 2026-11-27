@@ -111,13 +111,13 @@
   "fed3be03a3964ffa": 1795289628
  },
  "failures": {
-  "Nexo Inmobiliario/proyectos": 43
+  "Nexo Inmobiliario/proyectos": 44
  },
  "last_failure_notice": 1795729657,
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1795769565,
+ "saved_at": 1795815104,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -681,8 +681,8 @@
        20714
       ]
      },
-     "r": 20747,
-     "x": 20755
+     "r": 20784,
+     "x": 20784
     },
     "1993": {
      "u": "https://nexoinmobiliario.pe/departamentos/cercado-de-lima/s14-apartments-1993",
@@ -2294,7 +2294,7 @@
       ]
      },
      "r": 20747,
-     "x": 20755
+     "x": 20784
     },
     "2393": {
      "u": "https://nexoinmobiliario.pe/departamentos/lince/lombardia-2393",
@@ -13495,7 +13495,7 @@
       ]
      },
      "r": 20761,
-     "x": 20781
+     "x": 20784
     },
     "3245": {
      "u": "https://nexoinmobiliario.pe/departamentos/los-olivos/gran-olivo-etapa-2-3245",
@@ -17025,7 +17025,7 @@
       ]
      },
      "r": 20763,
-     "x": 20781
+     "x": 20784
     },
     "3345": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/oceanika-3345",
@@ -24291,7 +24291,7 @@
       ]
      },
      "r": 20768,
-     "x": 20781
+     "x": 20784
     },
     "3527": {
      "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/lambayeque-197-3527",
@@ -29982,8 +29982,8 @@
        20718
       ]
      },
-     "r": 20752,
-     "x": 20755
+     "r": 20784,
+     "x": 20784
     },
     "3621": {
      "u": "https://nexoinmobiliario.pe/departamentos/bellavista/pazea-3621",
@@ -41852,7 +41852,7 @@
       ]
      },
      "r": 20753,
-     "x": 20781
+     "x": 20784
     },
     "3807": {
      "u": "https://nexoinmobiliario.pe/departamentos/chorrillos/arteco-jardines-3807",
@@ -114988,6 +114988,221 @@
      },
      "r": 20783,
      "x": 20784
+    },
+    "4483": {
+     "u": "https://nexoinmobiliario.pe/departamentos/san-miguel/inconnect-4483",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "dist": "San Miguel",
+     "nombre": "Inconnect",
+     "marca": "VITAIN",
+     "lat": -12.0886,
+     "lng": -77.07647,
+     "etapa": "en planos",
+     "modelos": {
+      "Modelo A-X01": [
+       67.9,
+       3,
+       "PEN",
+       438000.0
+      ],
+      "Modelo A-X02": [
+       67.58,
+       3,
+       "PEN",
+       436000.0
+      ],
+      "Modelo A-X03": [
+       67.06,
+       3,
+       "PEN",
+       427000.0
+      ],
+      "Modelo A-X04": [
+       55.36,
+       2,
+       "PEN",
+       353000.0
+      ],
+      "Modelo A-X05": [
+       40.29,
+       1,
+       "PEN",
+       257000.0
+      ],
+      "Modelo A-X06": [
+       68.54,
+       3,
+       "PEN",
+       436000.0
+      ],
+      "Modelo B-X01": [
+       40.97,
+       1,
+       "PEN",
+       262000.0
+      ],
+      "Modelo B-X02": [
+       56.29,
+       2,
+       "PEN",
+       358000.0
+      ],
+      "Modelo B-X03": [
+       58.16,
+       2,
+       "PEN",
+       370000.0
+      ],
+      "Modelo B-X04": [
+       58.25,
+       2,
+       "PEN",
+       365000.0
+      ],
+      "Modelo B-X05": [
+       55.48,
+       2,
+       "PEN",
+       348000.0
+      ],
+      "Modelo B-X06": [
+       40.23,
+       1,
+       "PEN",
+       253000.0
+      ],
+      "Modelo C-X01": [
+       40.23,
+       1,
+       "PEN",
+       253000.0
+      ],
+      "Modelo C-X02": [
+       55.48,
+       2,
+       "PEN",
+       348000.0
+      ],
+      "Modelo C-X03": [
+       58.25,
+       2,
+       "PEN",
+       365000.0
+      ],
+      "Modelo C-X04": [
+       58.16,
+       2,
+       "PEN",
+       357000.0
+      ],
+      "Modelo C-X05": [
+       56.35,
+       2,
+       "PEN",
+       346000.0
+      ],
+      "Modelo C-X06": [
+       50.52,
+       2,
+       "PEN",
+       311000.0
+      ]
+     },
+     "primero": {
+      "Modelo A-X01": [
+       "PEN",
+       438000.0,
+       20784
+      ],
+      "Modelo A-X02": [
+       "PEN",
+       436000.0,
+       20784
+      ],
+      "Modelo A-X03": [
+       "PEN",
+       427000.0,
+       20784
+      ],
+      "Modelo A-X04": [
+       "PEN",
+       353000.0,
+       20784
+      ],
+      "Modelo A-X05": [
+       "PEN",
+       257000.0,
+       20784
+      ],
+      "Modelo A-X06": [
+       "PEN",
+       436000.0,
+       20784
+      ],
+      "Modelo B-X01": [
+       "PEN",
+       262000.0,
+       20784
+      ],
+      "Modelo B-X02": [
+       "PEN",
+       358000.0,
+       20784
+      ],
+      "Modelo B-X03": [
+       "PEN",
+       370000.0,
+       20784
+      ],
+      "Modelo B-X04": [
+       "PEN",
+       365000.0,
+       20784
+      ],
+      "Modelo B-X05": [
+       "PEN",
+       348000.0,
+       20784
+      ],
+      "Modelo B-X06": [
+       "PEN",
+       253000.0,
+       20784
+      ],
+      "Modelo C-X01": [
+       "PEN",
+       253000.0,
+       20784
+      ],
+      "Modelo C-X02": [
+       "PEN",
+       348000.0,
+       20784
+      ],
+      "Modelo C-X03": [
+       "PEN",
+       365000.0,
+       20784
+      ],
+      "Modelo C-X04": [
+       "PEN",
+       357000.0,
+       20784
+      ],
+      "Modelo C-X05": [
+       "PEN",
+       346000.0,
+       20784
+      ],
+      "Modelo C-X06": [
+       "PEN",
+       311000.0,
+       20784
+      ]
+     },
+     "r": 20784,
+     "x": 20784
     }
    },
    "ultima": 1793993830
@@ -158163,7 +158378,7 @@
      "lng": -77.02817,
      "mon": "USD",
      "monto": 175000.0,
-     "mant": 57.87,
+     "mant": 57.7,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -158177,7 +158392,7 @@
       ]
      ],
      "f": 20755,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194470050": {
@@ -158190,7 +158405,7 @@
      "lng": -77.03115,
      "mon": "USD",
      "monto": 143000.0,
-     "mant": 69.45,
+     "mant": 69.25,
      "anio": "",
      "dorm": "1",
      "zona": "Miraflores",
@@ -158208,7 +158423,7 @@
       ]
      ],
      "f": 20755,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194469051": {
@@ -158221,7 +158436,7 @@
      "lng": -77.05888,
      "mon": "USD",
      "monto": 1700.0,
-     "mant": 268.96,
+     "mant": 268.32,
      "anio": "",
      "dorm": "2",
      "zona": "Miraflores",
@@ -158235,14 +158450,14 @@
       ]
      ],
      "f": 20755,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194468163": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 311636.0,
+     "usd": 310737.0,
      "area": 151.0,
      "lat": -12.07128,
      "lng": -77.06312,
@@ -158256,10 +158471,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-pueblo-libre-entrega-inmediata/194468163",
      "flags": [],
      "p": [
-      [
-       20769,
-       313737.0
-      ],
       [
        20771,
        316441.0
@@ -158287,10 +158498,14 @@
       [
        20782,
        311636.0
+      ],
+      [
+       20784,
+       310737.0
       ]
      ],
      "f": 20755,
-     "r": 20782,
+     "r": 20784,
      "dist": "pueblo-libre"
     },
     "194471709": {
@@ -159412,7 +159627,7 @@
       ]
      ],
      "f": 20756,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194472874": {
@@ -159439,14 +159654,14 @@
       ]
      ],
      "f": 20756,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194483120": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 180322.0,
+     "usd": 179802.0,
      "area": 75.0,
      "lat": -12.12766,
      "lng": -77.00753,
@@ -159460,10 +159675,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-miraflores-entrega-inmediata/194483120",
      "flags": [],
      "p": [
-      [
-       20766,
-       180541.0
-      ],
       [
        20768,
        182844.0
@@ -159491,10 +159702,14 @@
       [
        20782,
        180322.0
+      ],
+      [
+       20784,
+       179802.0
       ]
      ],
      "f": 20756,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194485100": {
@@ -159507,7 +159722,7 @@
      "lng": -77.03135,
      "mon": "USD",
      "monto": 1700.0,
-     "mant": 268.96,
+     "mant": 268.32,
      "anio": "",
      "dorm": "2",
      "zona": "Miraflores",
@@ -159521,7 +159736,7 @@
       ]
      ],
      "f": 20756,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194482049": {
@@ -159575,7 +159790,7 @@
       ]
      ],
      "f": 20757,
-     "r": 20782,
+     "r": 20784,
      "dist": "puente-piedra"
     },
     "194482048": {
@@ -159602,7 +159817,7 @@
       ]
      ],
      "f": 20757,
-     "r": 20782,
+     "r": 20784,
      "dist": "punta-hermosa"
     },
     "194485533": {
@@ -159629,7 +159844,7 @@
       ]
      ],
      "f": 20757,
-     "r": 20782,
+     "r": 20784,
      "dist": "rimac"
     },
     "194478383": {
@@ -160583,7 +160798,7 @@
      "lng": -77.00686,
      "mon": "USD",
      "monto": 240000.0,
-     "mant": 231.48,
+     "mant": 230.82,
      "anio": "",
      "dorm": "2",
      "zona": "Miraflores",
@@ -160597,7 +160812,7 @@
       ]
      ],
      "f": 20758,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194486764": {
@@ -161430,14 +161645,14 @@
       ]
      ],
      "f": 20760,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194496696": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 911.0,
+     "usd": 909.0,
      "area": 50.0,
      "lat": -12.11489,
      "lng": -77.0488,
@@ -161447,14 +161662,10 @@
      "anio": "",
      "dorm": "1",
      "zona": "Miraflores",
-     "titulo": "DEPARTAMENTO en ALQUILER en MIRAFLORES",
+     "titulo": "Departamento En Alquiler En Miraflores",
      "u": "https://www.infocasas.com.pe/departamento-en-alquiler-en-miraflores/194496696",
      "flags": [],
      "p": [
-      [
-       20763,
-       915.0
-      ],
       [
        20765,
        913.0
@@ -161482,10 +161693,14 @@
       [
        20782,
        911.0
+      ],
+      [
+       20784,
+       909.0
       ]
      ],
      "f": 20760,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194494652": {
@@ -161512,7 +161727,7 @@
       ]
      ],
      "f": 20760,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194494653": {
@@ -161539,7 +161754,7 @@
       ]
      ],
      "f": 20761,
-     "r": 20782,
+     "r": 20784,
      "dist": "pueblo-libre"
     },
     "194496388": {
@@ -161579,7 +161794,7 @@
      "lng": -76.7816,
      "mon": "USD",
      "monto": 185000.0,
-     "mant": 86.81,
+     "mant": 86.67,
      "anio": "",
      "dorm": "2",
      "zona": "San Bartolo",
@@ -161593,7 +161808,7 @@
       ]
      ],
      "f": 20761,
-     "r": 20782,
+     "r": 20784,
      "dist": "san-bartolo"
     },
     "194496747": {
@@ -161647,7 +161862,7 @@
       ]
      ],
      "f": 20761,
-     "r": 20782,
+     "r": 20784,
      "dist": "san-borja"
     },
     "194492094": {
@@ -162277,7 +162492,7 @@
      "lng": -77.03142,
      "mon": "USD",
      "monto": 168000.0,
-     "mant": 102.14,
+     "mant": 101.85,
      "anio": "",
      "dorm": "4",
      "zona": "Miraflores",
@@ -162291,7 +162506,7 @@
       ]
      ],
      "f": 20763,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194500891": {
@@ -162304,7 +162519,7 @@
      "lng": -77.03142,
      "mon": "USD",
      "monto": 168000.0,
-     "mant": 102.14,
+     "mant": 101.85,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -162318,7 +162533,7 @@
       ]
      ],
      "f": 20763,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194506980": {
@@ -162372,7 +162587,7 @@
       ]
      ],
      "f": 20763,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194500451": {
@@ -162426,7 +162641,7 @@
       ]
      ],
      "f": 20763,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194506981": {
@@ -162480,7 +162695,7 @@
       ]
      ],
      "f": 20763,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194500461": {
@@ -162507,7 +162722,7 @@
       ]
      ],
      "f": 20763,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194500443": {
@@ -162619,20 +162834,20 @@
       ]
      ],
      "f": 20763,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194510066": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 70603.0,
+     "usd": 70399.0,
      "area": 38.0,
      "lat": -12.06978,
      "lng": -77.06303,
      "mon": "PEN",
      "monto": 244000.0,
-     "mant": 28.94,
+     "mant": 28.85,
      "anio": "",
      "dorm": "1",
      "zona": "Pueblo Libre",
@@ -162640,10 +162855,6 @@
      "u": "https://www.infocasas.com.pe/de-estreno-venta-1-dormitorio/194510066",
      "flags": [],
      "p": [
-      [
-       20769,
-       71079.0
-      ],
       [
        20771,
        71691.0
@@ -162671,10 +162882,14 @@
       [
        20782,
        70603.0
+      ],
+      [
+       20784,
+       70399.0
       ]
      ],
      "f": 20763,
-     "r": 20782,
+     "r": 20784,
      "dist": "pueblo-libre"
     },
     "194500462": {
@@ -162701,7 +162916,7 @@
       ]
      ],
      "f": 20763,
-     "r": 20782,
+     "r": 20784,
      "dist": "pueblo-libre"
     },
     "194500445": {
@@ -162735,7 +162950,7 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 492.0,
+     "usd": 490.0,
      "area": 45.0,
      "lat": -12.0974,
      "lng": -77.00806,
@@ -162749,10 +162964,6 @@
      "u": "https://www.infocasas.com.pe/departamento-san-borja/194500431",
      "flags": [],
      "p": [
-      [
-       20765,
-       591.0
-      ],
       [
        20767,
        593.0
@@ -162780,10 +162991,14 @@
       [
        20782,
        492.0
+      ],
+      [
+       20784,
+       490.0
       ]
      ],
      "f": 20763,
-     "r": 20782,
+     "r": 20784,
      "dist": "san-borja"
     },
     "194500432": {
@@ -162814,7 +163029,7 @@
       ]
      ],
      "f": 20763,
-     "r": 20782,
+     "r": 20784,
      "dist": "san-borja"
     },
     "194500446": {
@@ -163365,7 +163580,7 @@
       ]
      ],
      "f": 20764,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194517834": {
@@ -163380,10 +163595,10 @@
      "monto": 175000.0,
      "mant": 0.0,
      "anio": "",
-     "dorm": "1",
+     "dorm": "2",
      "zona": "Miraflores",
-     "titulo": "VENTA DEPARTAMENTO JOSE GONZALES - MIRAFLORES 69M2 1 DORMITORIO CON ESTRUCTURA P",
-     "u": "https://www.infocasas.com.pe/venta-departamento-jose-gonzales-miraflores-69m2-1-dormitorio-con-estructura-para-2-dorm/194517834",
+     "titulo": "Venta de departamento rentable/vivienda en Calle José Gonzales cuadra 6 - Mirafl",
+     "u": "https://www.infocasas.com.pe/venta-de-departamento-rentablevivienda-en-calle-jose-gonzales-cuadra-6-miraflores/194517834",
      "flags": [],
      "p": [
       [
@@ -163400,7 +163615,7 @@
       ]
      ],
      "f": 20764,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194517848": {
@@ -163427,7 +163642,7 @@
       ]
      ],
      "f": 20764,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194517844": {
@@ -163458,7 +163673,7 @@
       ]
      ],
      "f": 20765,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194520059": {
@@ -163493,7 +163708,7 @@
       ]
      ],
      "f": 20765,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194517852": {
@@ -163520,7 +163735,7 @@
       ]
      ],
      "f": 20765,
-     "r": 20782,
+     "r": 20784,
      "dist": "pachacamac"
     },
     "194517850": {
@@ -163547,7 +163762,7 @@
       ]
      ],
      "f": 20765,
-     "r": 20782,
+     "r": 20784,
      "dist": "pachacamac"
     },
     "194517853": {
@@ -163578,7 +163793,7 @@
       ]
      ],
      "f": 20765,
-     "r": 20782,
+     "r": 20784,
      "dist": "pueblo-libre"
     },
     "194517846": {
@@ -163605,7 +163820,7 @@
       ]
      ],
      "f": 20765,
-     "r": 20782,
+     "r": 20784,
      "dist": "pueblo-libre"
     },
     "194517842": {
@@ -163636,7 +163851,7 @@
       ]
      ],
      "f": 20765,
-     "r": 20782,
+     "r": 20784,
      "dist": "punta-hermosa"
     },
     "194517838": {
@@ -163894,7 +164109,7 @@
      "lng": -77.03262,
      "mon": "USD",
      "monto": 185000.0,
-     "mant": 115.74,
+     "mant": 115.41,
      "anio": "",
      "dorm": "2",
      "zona": "Miraflores",
@@ -163908,7 +164123,7 @@
       ]
      ],
      "f": 20766,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194526106": {
@@ -163921,11 +164136,11 @@
      "lng": -77.03682,
      "mon": "USD",
      "monto": 1500.0,
-     "mant": 144.6,
+     "mant": 144.26,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
-     "titulo": "Departamento en alquiler en Miraflores",
+     "titulo": "Departamento En Alquiler En Miraflores",
      "u": "https://www.infocasas.com.pe/departamento-en-alquiler-en-miraflores/194526106",
      "flags": [],
      "p": [
@@ -163935,7 +164150,7 @@
       ]
      ],
      "f": 20766,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194532266": {
@@ -164132,19 +164347,19 @@
       ]
      ],
      "f": 20768,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194528989": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 1150.0,
+     "usd": 999.0,
      "area": 112.0,
      "lat": -12.11653,
      "lng": -77.03627,
      "mon": "USD",
-     "monto": 1150.0,
+     "monto": 999.0,
      "mant": 0.0,
      "anio": "",
      "dorm": "4",
@@ -164156,10 +164371,14 @@
       [
        20768,
        1150.0
+      ],
+      [
+       20784,
+       999.0
       ]
      ],
      "f": 20768,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194543241": {
@@ -164172,7 +164391,7 @@
      "lng": -77.05081,
      "mon": "USD",
      "monto": 1700.0,
-     "mant": 268.96,
+     "mant": 268.32,
      "anio": "",
      "dorm": "2",
      "zona": "Miraflores",
@@ -164186,7 +164405,7 @@
       ]
      ],
      "f": 20768,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194545843": {
@@ -164213,7 +164432,7 @@
       ]
      ],
      "f": 20769,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194529003": {
@@ -164267,7 +164486,7 @@
       ]
      ],
      "f": 20769,
-     "r": 20782,
+     "r": 20784,
      "dist": "pueblo-libre"
     },
     "194536624": {
@@ -164294,7 +164513,7 @@
       ]
      ],
      "f": 20769,
-     "r": 20782,
+     "r": 20784,
      "dist": "pueblo-libre"
     },
     "194536621": {
@@ -164321,7 +164540,7 @@
       ]
      ],
      "f": 20769,
-     "r": 20782,
+     "r": 20784,
      "dist": "pueblo-libre"
     },
     "194536623": {
@@ -164348,7 +164567,7 @@
       ]
      ],
      "f": 20769,
-     "r": 20782,
+     "r": 20784,
      "dist": "pueblo-libre"
     },
     "194536625": {
@@ -164375,7 +164594,7 @@
       ]
      ],
      "f": 20769,
-     "r": 20782,
+     "r": 20784,
      "dist": "pueblo-libre"
     },
     "194536629": {
@@ -164402,7 +164621,7 @@
       ]
      ],
      "f": 20769,
-     "r": 20782,
+     "r": 20784,
      "dist": "punta-hermosa"
     },
     "194528997": {
@@ -164429,7 +164648,7 @@
       ]
      ],
      "f": 20769,
-     "r": 20782,
+     "r": 20784,
      "dist": "san-borja"
     },
     "194531371": {
@@ -164483,7 +164702,7 @@
       ]
      ],
      "f": 20769,
-     "r": 20782,
+     "r": 20784,
      "dist": "san-borja"
     },
     "194531497": {
@@ -165170,7 +165389,7 @@
      "lng": -77.02991,
      "mon": "USD",
      "monto": 820.0,
-     "mant": 45.41,
+     "mant": 45.3,
      "anio": "",
      "dorm": "Mono",
      "zona": "Miraflores",
@@ -165192,7 +165411,7 @@
       ]
      ],
      "f": 20771,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194544380": {
@@ -165205,7 +165424,7 @@
      "lng": -77.03545,
      "mon": "USD",
      "monto": 3100.0,
-     "mant": 237.73,
+     "mant": 237.21,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -165219,14 +165438,14 @@
       ]
      ],
      "f": 20771,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194551471": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 463.0,
+     "usd": 462.0,
      "area": 132.0,
      "lat": -11.85534,
      "lng": -77.07961,
@@ -165255,10 +165474,14 @@
       [
        20782,
        463.0
+      ],
+      [
+       20784,
+       462.0
       ]
      ],
      "f": 20771,
-     "r": 20782,
+     "r": 20784,
      "dist": "puente-piedra"
     },
     "194551159": {
@@ -165297,7 +165520,7 @@
       ]
      ],
      "f": 20771,
-     "r": 20782,
+     "r": 20784,
      "dist": "puente-piedra"
     },
     "194551188": {
@@ -165340,7 +165563,7 @@
       ]
      ],
      "f": 20771,
-     "r": 20782,
+     "r": 20784,
      "dist": "puente-piedra"
     },
     "194552829": {
@@ -165353,7 +165576,7 @@
      "lng": -77.02583,
      "mon": "USD",
      "monto": 60000.0,
-     "mant": 37.62,
+     "mant": 37.56,
      "anio": "",
      "dorm": "3",
      "zona": "Rimac",
@@ -165367,7 +165590,7 @@
       ]
      ],
      "f": 20771,
-     "r": 20782,
+     "r": 20784,
      "dist": "rimac"
     },
     "194553012": {
@@ -165394,7 +165617,7 @@
       ]
      ],
      "f": 20771,
-     "r": 20782,
+     "r": 20784,
      "dist": "san-borja"
     },
     "194553014": {
@@ -165421,7 +165644,7 @@
       ]
      ],
      "f": 20771,
-     "r": 20782,
+     "r": 20784,
      "dist": "san-borja"
     },
     "194553013": {
@@ -165448,7 +165671,7 @@
       ]
      ],
      "f": 20771,
-     "r": 20782,
+     "r": 20784,
      "dist": "san-borja"
     },
     "194547388": {
@@ -165475,7 +165698,7 @@
       ]
      ],
      "f": 20771,
-     "r": 20782,
+     "r": 20784,
      "dist": "san-borja"
     },
     "194555223": {
@@ -165536,7 +165759,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 442713.0,
+     "usd": 441437.0,
      "area": 200.0,
      "lat": -12.10937,
      "lng": -76.98658,
@@ -165577,10 +165800,14 @@
       [
        20782,
        442713.0
+      ],
+      [
+       20784,
+       441437.0
       ]
      ],
      "f": 20771,
-     "r": 20782,
+     "r": 20784,
      "dist": "san-borja"
     },
     "194553006": {
@@ -166345,7 +166572,7 @@
       ]
      ],
      "f": 20772,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194562589": {
@@ -166399,7 +166626,7 @@
       ]
      ],
      "f": 20772,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194558695": {
@@ -166457,7 +166684,7 @@
       ]
      ],
      "f": 20772,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194562588": {
@@ -166484,7 +166711,7 @@
       ]
      ],
      "f": 20772,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194558690": {
@@ -166511,20 +166738,20 @@
       ]
      ],
      "f": 20772,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194560590": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 492.0,
+     "usd": 490.0,
      "area": 25.0,
      "lat": -12.12585,
      "lng": -77.01652,
      "mon": "PEN",
      "monto": 1700.0,
-     "mant": 20.24,
+     "mant": 20.2,
      "anio": "",
      "dorm": "Mono",
      "zona": "Miraflores",
@@ -166547,10 +166774,14 @@
       [
        20782,
        492.0
+      ],
+      [
+       20784,
+       490.0
       ]
      ],
      "f": 20772,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194558696": {
@@ -166577,7 +166808,7 @@
       ]
      ],
      "f": 20772,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194562590": {
@@ -166604,7 +166835,7 @@
       ]
      ],
      "f": 20772,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194562592": {
@@ -166631,7 +166862,7 @@
       ]
      ],
      "f": 20772,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194560613": {
@@ -167188,7 +167419,7 @@
       ]
      ],
      "f": 20775,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194572759": {
@@ -167215,7 +167446,7 @@
       ]
      ],
      "f": 20775,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194571382": {
@@ -167269,7 +167500,7 @@
       ]
      ],
      "f": 20775,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194565519": {
@@ -167282,7 +167513,7 @@
      "lng": -77.03135,
      "mon": "USD",
      "monto": 1700.0,
-     "mant": 268.96,
+     "mant": 268.32,
      "anio": "",
      "dorm": "2",
      "zona": "Miraflores",
@@ -167296,7 +167527,7 @@
       ]
      ],
      "f": 20775,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194574100": {
@@ -167309,7 +167540,7 @@
      "lng": -77.02803,
      "mon": "USD",
      "monto": 800.0,
-     "mant": 94.28,
+     "mant": 94.06,
      "anio": "",
      "dorm": "1",
      "zona": "Miraflores",
@@ -167323,14 +167554,14 @@
       ]
      ],
      "f": 20775,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194571768": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 118636.0,
+     "usd": 118294.0,
      "area": 56.0,
      "lat": -12.07076,
      "lng": -77.06802,
@@ -167363,23 +167594,27 @@
       [
        20782,
        118636.0
+      ],
+      [
+       20784,
+       118294.0
       ]
      ],
      "f": 20775,
-     "r": 20782,
+     "r": 20784,
      "dist": "pueblo-libre"
     },
     "194568844": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 637.0,
+     "usd": 635.0,
      "area": 55.0,
      "lat": -12.07513,
      "lng": -77.05416,
      "mon": "PEN",
      "monto": 2200.0,
-     "mant": 57.91,
+     "mant": 57.62,
      "anio": "",
      "dorm": "2",
      "zona": "Pueblo Libre",
@@ -167398,23 +167633,27 @@
       [
        20782,
        637.0
+      ],
+      [
+       20784,
+       635.0
       ]
      ],
      "f": 20775,
-     "r": 20782,
+     "r": 20784,
      "dist": "pueblo-libre"
     },
     "194624757": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 463.0,
+     "usd": 461.0,
      "area": 52.0,
      "lat": -12.08267,
      "lng": -77.06227,
      "mon": "PEN",
      "monto": 1600.0,
-     "mant": 8.69,
+     "mant": 8.64,
      "anio": "",
      "dorm": "1",
      "zona": "Pueblo Libre",
@@ -167433,10 +167672,14 @@
       [
        20782,
        463.0
+      ],
+      [
+       20784,
+       461.0
       ]
      ],
      "f": 20775,
-     "r": 20782,
+     "r": 20784,
      "dist": "pueblo-libre"
     },
     "194572763": {
@@ -167463,7 +167706,7 @@
       ]
      ],
      "f": 20775,
-     "r": 20782,
+     "r": 20784,
      "dist": "punta-negra"
     },
     "194623510": {
@@ -167490,7 +167733,7 @@
       ]
      ],
      "f": 20775,
-     "r": 20782,
+     "r": 20784,
      "dist": "rimac"
     },
     "194564403": {
@@ -167503,7 +167746,7 @@
      "lng": -76.99235,
      "mon": "USD",
      "monto": 419500.0,
-     "mant": 243.06,
+     "mant": 242.36,
      "anio": "",
      "dorm": "3",
      "zona": "San Borja",
@@ -167517,7 +167760,7 @@
       ]
      ],
      "f": 20776,
-     "r": 20782,
+     "r": 20784,
      "dist": "san-borja"
     },
     "194572749": {
@@ -167544,7 +167787,7 @@
       ]
      ],
      "f": 20776,
-     "r": 20782,
+     "r": 20784,
      "dist": "san-borja"
     },
     "194572757": {
@@ -168136,7 +168379,7 @@
       ]
      ],
      "f": 20777,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194625624": {
@@ -168163,7 +168406,7 @@
       ]
      ],
      "f": 20778,
-     "r": 20782,
+     "r": 20784,
      "dist": "rimac"
     },
     "194634052": {
@@ -168190,7 +168433,7 @@
       ]
      ],
      "f": 20778,
-     "r": 20782,
+     "r": 20784,
      "dist": "san-borja"
     },
     "194627887": {
@@ -168750,7 +168993,7 @@
       ]
      ],
      "f": 20779,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194640169": {
@@ -168912,7 +169155,7 @@
       ]
      ],
      "f": 20779,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194640155": {
@@ -168939,7 +169182,7 @@
       ]
      ],
      "f": 20779,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194642806": {
@@ -168952,7 +169195,7 @@
      "lng": -77.03768,
      "mon": "USD",
      "monto": 185000.0,
-     "mant": 75.23,
+     "mant": 75.02,
      "anio": "",
      "dorm": "3",
      "zona": "Miraflores",
@@ -168966,7 +169209,7 @@
       ]
      ],
      "f": 20779,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194640161": {
@@ -168993,7 +169236,7 @@
       ]
      ],
      "f": 20780,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194642008": {
@@ -169020,7 +169263,7 @@
       ]
      ],
      "f": 20780,
-     "r": 20782,
+     "r": 20784,
      "dist": "punta-negra"
     },
     "194640158": {
@@ -169481,13 +169724,13 @@
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 781.0,
+     "usd": 779.0,
      "area": 60.0,
      "lat": -12.12469,
      "lng": -77.03343,
      "mon": "PEN",
      "monto": 2700.0,
-     "mant": 60.73,
+     "mant": 60.59,
      "anio": "",
      "dorm": "Mono",
      "zona": "Miraflores",
@@ -169498,10 +169741,14 @@
       [
        20782,
        781.0
+      ],
+      [
+       20784,
+       779.0
       ]
      ],
      "f": 20782,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194656932": {
@@ -169514,7 +169761,7 @@
      "lng": -77.09205,
      "mon": "USD",
      "monto": 1700.0,
-     "mant": 268.96,
+     "mant": 268.32,
      "anio": "",
      "dorm": "2",
      "zona": "Miraflores",
@@ -169528,7 +169775,7 @@
       ]
      ],
      "f": 20782,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194650029": {
@@ -169555,7 +169802,7 @@
       ]
      ],
      "f": 20782,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194658246": {
@@ -169582,7 +169829,7 @@
       ]
      ],
      "f": 20782,
-     "r": 20782,
+     "r": 20784,
      "dist": "miraflores"
     },
     "194658252": {
@@ -169609,7 +169856,7 @@
       ]
      ],
      "f": 20782,
-     "r": 20782,
+     "r": 20784,
      "dist": "punta-negra"
     },
     "194658255": {
@@ -169636,7 +169883,7 @@
       ]
      ],
      "f": 20782,
-     "r": 20782,
+     "r": 20784,
      "dist": "punta-negra"
     },
     "194658250": {
@@ -169663,7 +169910,7 @@
       ]
      ],
      "f": 20782,
-     "r": 20782,
+     "r": 20784,
      "dist": "punta-negra"
     },
     "194658254": {
@@ -169690,7 +169937,7 @@
       ]
      ],
      "f": 20782,
-     "r": 20782,
+     "r": 20784,
      "dist": "punta-negra"
     },
     "194660795": {
@@ -169744,7 +169991,7 @@
       ]
      ],
      "f": 20782,
-     "r": 20782,
+     "r": 20784,
      "dist": "san-borja"
     },
     "194657547": {
@@ -170232,11 +170479,200 @@
      "f": 20784,
      "r": 20784,
      "dist": "miraflores"
+    },
+    "194666583": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 169990.0,
+     "area": 60.0,
+     "lat": -12.12783,
+     "lng": -77.02525,
+     "mon": "USD",
+     "monto": 169990.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "Vendo Dpto. Amoblado en Miraflores | 2 Dorms, 61 m², Piso 10 con Balcón, Piscina",
+     "u": "https://www.infocasas.com.pe/vendo-dpto-amoblado-en-miraflores-2-dorms-61-m-piso-10-con-balcon-piscina-cerca-a-larcomar/194666583",
+     "flags": [],
+     "p": [
+      [
+       20784,
+       169990.0
+      ]
+     ],
+     "f": 20784,
+     "r": 20784,
+     "dist": "miraflores"
+    },
+    "194664269": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 185294.0,
+     "area": 72.0,
+     "lat": -12.10672,
+     "lng": -77.0325,
+     "mon": "USD",
+     "monto": 185294.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "2 Dormitorios - 69 m2 - vista calle - Edificio exclusivo de pocos residentes",
+     "u": "https://www.infocasas.com.pe/2-dormitorios-69-m2-vista-calle-edificio-exclusivo-de-pocos-residentes/194664269",
+     "flags": [],
+     "p": [
+      [
+       20784,
+       185294.0
+      ]
+     ],
+     "f": 20784,
+     "r": 20784,
+     "dist": "miraflores"
+    },
+    "194664271": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 280882.0,
+     "area": 125.0,
+     "lat": -12.10672,
+     "lng": -77.0325,
+     "mon": "USD",
+     "monto": 280882.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "3 Dormitorios -  Cocina Cerrada - 125 m² -  Edificio de pocos departamentos",
+     "u": "https://www.infocasas.com.pe/3-dormitorios-cocina-cerrada-125-m-edificio-de-pocos-departamentos/194664271",
+     "flags": [],
+     "p": [
+      [
+       20784,
+       280882.0
+      ]
+     ],
+     "f": 20784,
+     "r": 20784,
+     "dist": "miraflores"
+    },
+    "194664267": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 641236.0,
+     "area": 166.0,
+     "lat": -12.124,
+     "lng": -77.0377,
+     "mon": "USD",
+     "monto": 641236.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Miraflores",
+     "titulo": "Vive en un edificio frente al mar en Malecón Cisneros – Miraflores",
+     "u": "https://www.infocasas.com.pe/vive-en-un-edificio-frente-al-mar-en-malecon-cisneros-miraflores/194664267",
+     "flags": [],
+     "p": [
+      [
+       20784,
+       641236.0
+      ]
+     ],
+     "f": 20784,
+     "r": 20784,
+     "dist": "miraflores"
+    },
+    "194671797": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 1150.0,
+     "area": 84.0,
+     "lat": -12.11887,
+     "lng": -77.03367,
+     "mon": "USD",
+     "monto": 1150.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Miraflores",
+     "titulo": "ALQUILER - DEPARTAMENTO - MIRAFLORES - 2 DOR. C/BAÑO- AMOBLADO",
+     "u": "https://www.infocasas.com.pe/alquiler-departamento-miraflores-2-dor-cbano-amoblado/194671797",
+     "flags": [],
+     "p": [
+      [
+       20784,
+       1150.0
+      ]
+     ],
+     "f": 20784,
+     "r": 20784,
+     "dist": "miraflores"
+    },
+    "194671796": {
+     "op": "venta",
+     "tipo": "casas",
+     "ciudad": "lima",
+     "usd": 330000.0,
+     "area": 148.0,
+     "lat": -12.31745,
+     "lng": -76.834,
+     "mon": "USD",
+     "monto": 330000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Punta Hermosa",
+     "titulo": "Casa de 3 pisos 3 dormitorios 3 baños en 1ra línea de Playa El Silencio con vist",
+     "u": "https://www.infocasas.com.pe/casa-de-3-pisos-3-dormitorios-3-banos-en-1ra-linea-de-playa-el-silencio-con-vista-al-mar/194671796",
+     "flags": [],
+     "p": [
+      [
+       20784,
+       330000.0
+      ]
+     ],
+     "f": 20784,
+     "r": 20784,
+     "dist": "punta-hermosa"
+    },
+    "194670804": {
+     "op": "venta",
+     "tipo": "casas",
+     "ciudad": "lima",
+     "usd": 622000.0,
+     "area": 383.0,
+     "lat": -12.3925,
+     "lng": -76.77723,
+     "mon": "USD",
+     "monto": 622000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "San Bartolo",
+     "titulo": "San Bartolo: Moderna Casa con Piscina y Terraza – 5 Dormitorios con Baño",
+     "u": "https://www.infocasas.com.pe/san-bartolo-moderna-casa-con-piscina-y-terraza-5-dormitorios-con-bano/194670804",
+     "flags": [],
+     "p": [
+      [
+       20784,
+       622000.0
+      ]
+     ],
+     "f": 20784,
+     "r": 20784,
+     "dist": "san-bartolo"
     }
    },
-   "tc": 3.4653465346534653,
-   "turno": 80,
-   "pagina": 2,
+   "tc": 3.4693877551020407,
+   "turno": 118,
+   "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
      "turno": 0,
@@ -170262,50 +170698,50 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 84,
-     "fuera_ciudad": 0,
-     "momento": 1795769565
+     "validos": 111,
+     "fuera_ciudad": 1,
+     "momento": 1795815104
     },
     "arequipa": {
      "paginas": 4,
      "validos": 3,
      "fuera_ciudad": 0,
-     "momento": 1795769565
+     "momento": 1795815104
     },
     "cusco": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1795769565
+     "momento": 1795815104
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 2,
-     "momento": 1795769565
+     "momento": 1795815104
     },
     "trujillo": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1795769565
+     "momento": 1795815104
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1795769565
+     "momento": 1795815104
     }
    }
   },
   "cobertura_ciudades": {
    "lima": {
     "ciudad": "Lima",
-    "ventas": 1154,
-    "alquileres": 370,
+    "ventas": 1160,
+    "alquileres": 371,
     "estado": "con datos; comparables por microzona pendientes de cada aviso",
-    "proyectos": 823,
-    "momento": 1795769565
+    "proyectos": 824,
+    "momento": 1795815104
    },
    "arequipa": {
     "ciudad": "Arequipa",
@@ -170313,7 +170749,7 @@
     "alquileres": 1,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 7,
-    "momento": 1795769565
+    "momento": 1795815104
    },
    "cusco": {
     "ciudad": "Cusco",
@@ -170321,7 +170757,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 1,
-    "momento": 1795769565
+    "momento": 1795815104
    },
    "cajamarca": {
     "ciudad": "Cajamarca",
@@ -170329,7 +170765,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1795769565
+    "momento": 1795815104
    },
    "trujillo": {
     "ciudad": "Trujillo",
@@ -170337,7 +170773,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1795769565
+    "momento": 1795815104
    },
    "huaraz": {
     "ciudad": "Huaraz",
@@ -170345,7 +170781,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1795769565
+    "momento": 1795815104
    }
   }
  }
