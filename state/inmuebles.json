@@ -18,6 +18,7 @@
   "1b85a40ca9129b2d": 1792252074,
   "1ba5cddc92587eb5": 1793734918,
   "1fa0947161914d50": 1793540618,
+  "229f4c66349d3418": 1795897455,
   "23465b6d11c4e841": 1792603619,
   "250c93b05392a815": 1793483292,
   "251f3d96ccae6a68": 1792671009,
@@ -111,13 +112,13 @@
   "fed3be03a3964ffa": 1795289628
  },
  "failures": {
-  "Nexo Inmobiliario/proyectos": 45
+  "Nexo Inmobiliario/proyectos": 46
  },
  "last_failure_notice": 1795853390,
  "store_list": {},
  "price_history": {},
  "value_notices": {},
- "saved_at": 1795853390,
+ "saved_at": 1795897455,
  "history": {},
  "cursors": {},
  "flight_alerts": {},
@@ -2247,7 +2248,7 @@
      "x": 20785
     },
     "2387": {
-     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/bongo-condominio-2387",
+     "u": "https://nexoinmobiliario.pe/departamentos/santiago-de-surco/bongo-condominio-e3-2387",
      "tipo": "departamentos",
      "ciudad": "lima",
      "dist": "Santiago De Surco",
@@ -2293,7 +2294,7 @@
        20732
       ]
      },
-     "r": 20747,
+     "r": 20785,
      "x": 20785
     },
     "2393": {
@@ -33333,25 +33334,25 @@
        48.91,
        2,
        "PEN",
-       344000.0
+       336000.0
       ],
       "Modelo Flat Típico 01": [
        53.83,
        2,
        "PEN",
-       395000.0
+       380000.0
       ],
       "Modelo Flat Típico 02": [
        37.14,
        1,
        "PEN",
-       284000.0
+       279000.0
       ],
       "Modelo Flat Típico 06": [
        57.11,
        2,
        "PEN",
-       367000.0
+       359000.0
       ]
      },
      "primero": {
@@ -33376,7 +33377,7 @@
        20718
       ]
      },
-     "r": 20753,
+     "r": 20785,
      "x": 20785
     },
     "3648": {
@@ -33394,97 +33395,97 @@
        60.03,
        1,
        "PEN",
-       823000.0
+       827000.0
       ],
       "Modelo 2C": [
        60.04,
        1,
        "PEN",
-       812000.0
+       817000.0
       ],
       "Modelo 3C": [
        104.68,
        2,
        "PEN",
-       1410000.0
+       1417000.0
       ],
       "Modelo 13": [
        94.13,
        1,
        "PEN",
-       780000.0
+       784000.0
       ],
       "Modelo 14": [
        151.25,
        2,
        "PEN",
-       1158000.0
+       1163000.0
       ],
       "Modelo 15": [
        135.11,
        1,
        "PEN",
-       947000.0
+       952000.0
       ],
       "Modelo 16": [
        113.59,
        1,
        "PEN",
-       829000.0
-      ],
-      "Modelo 1A": [
-       60.4,
-       1,
-       "PEN",
-       817000.0
+       833000.0
       ],
       "Modelo 17": [
        98.86,
        3,
        "PEN",
-       1361000.0
+       1368000.0
       ],
       "Modelo 5": [
        83.2,
        2,
        "PEN",
-       811000.0
+       815000.0
       ],
       "Modelo 6": [
        82.74,
        2,
        "PEN",
-       806000.0
+       810000.0
+      ],
+      "Modelo 7": [
+       60.79,
+       1,
+       "PEN",
+       573000.0
       ],
       "Modelo 9": [
        82.5,
        2,
        "PEN",
-       908000.0
+       912000.0
       ],
       "Modelo 10": [
        82.5,
        2,
        "PEN",
-       1042000.0
+       1047000.0
       ],
       "Modelo 3A": [
        91.64,
        2,
        "PEN",
-       1271000.0
+       1277000.0
       ],
       "Modelo 4": [
        60.05,
        1,
        "PEN",
-       672000.0
+       675000.0
       ],
       "Modelo 18": [
        75.66,
        1,
        "PEN",
-       1021000.0
+       1027000.0
       ],
       "Modelo 8": [
        64.09,
@@ -33571,11 +33572,6 @@
        829000.0,
        20718
       ],
-      "Modelo 1A": [
-       "PEN",
-       817000.0,
-       20718
-      ],
       "Modelo 17": [
        "PEN",
        1361000.0,
@@ -33655,9 +33651,14 @@
        "PEN",
        826000.0,
        20718
+      ],
+      "Modelo 7": [
+       "PEN",
+       573000.0,
+       20785
       ]
      },
-     "r": 20753,
+     "r": 20785,
      "x": 20785
     },
     "3653": {
@@ -33695,8 +33696,8 @@
      "dist": "Santiago De Surco",
      "nombre": "KAVA",
      "marca": "ABRIL GRUPO INMOBILIARIO",
-     "lat": -12.10037,
-     "lng": -76.97807,
+     "lat": -12.10007,
+     "lng": -76.97814,
      "etapa": "en construcción",
      "modelos": {
       "Modelo Tipo I": [
@@ -33900,7 +33901,7 @@
        20718
       ]
      },
-     "r": 20753,
+     "r": 20785,
      "x": 20785
     },
     "3660": {
@@ -158684,7 +158685,7 @@
       ]
      ],
      "f": 20756,
-     "r": 20783,
+     "r": 20785,
      "dist": "santiago-de-surco"
     },
     "194468470": {
@@ -160185,7 +160186,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 124349.0,
+     "usd": 124413.0,
      "area": 74.0,
      "lat": -12.06265,
      "lng": -77.04907,
@@ -160199,10 +160200,6 @@
      "u": "https://www.infocasas.com.pe/venta-de-departamento-en-brena-por-entregar-31-de-enero-del-2027/194482989",
      "flags": [],
      "p": [
-      [
-       20768,
-       126627.0
-      ],
       [
        20770,
        126533.0
@@ -160230,10 +160227,14 @@
       [
        20783,
        124349.0
+      ],
+      [
+       20785,
+       124413.0
       ]
      ],
      "f": 20757,
-     "r": 20783,
+     "r": 20785,
      "dist": "brena"
     },
     "194485407": {
@@ -160260,14 +160261,14 @@
       ]
      ],
      "f": 20757,
-     "r": 20783,
+     "r": 20785,
      "dist": "carabayllo"
     },
     "194482072": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 81406.0,
+     "usd": 81448.0,
      "area": 43.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -160281,10 +160282,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-305-al-1305-a-609-893-97/194482072",
      "flags": [],
      "p": [
-      [
-       20768,
-       82898.0
-      ],
       [
        20770,
        82836.0
@@ -160312,17 +160309,21 @@
       [
        20783,
        81406.0
+      ],
+      [
+       20785,
+       81448.0
       ]
      ],
      "f": 20757,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194482074": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 96744.0,
+     "usd": 96794.0,
      "area": 52.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -160336,10 +160337,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-202-al-1302-a-609-893-92/194482074",
      "flags": [],
      "p": [
-      [
-       20768,
-       98517.0
-      ],
       [
        20770,
        98443.0
@@ -160367,17 +160364,21 @@
       [
        20783,
        96744.0
+      ],
+      [
+       20785,
+       96794.0
       ]
      ],
      "f": 20757,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194486770": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 98225.0,
+     "usd": 98275.0,
      "area": 53.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -160391,10 +160392,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-204-al-1304-b-609-893-98/194486770",
      "flags": [],
      "p": [
-      [
-       20768,
-       100024.0
-      ],
       [
        20770,
        99950.0
@@ -160422,17 +160419,21 @@
       [
        20783,
        98225.0
+      ],
+      [
+       20785,
+       98275.0
       ]
      ],
      "f": 20757,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194486771": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 98188.0,
+     "usd": 98238.0,
      "area": 53.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -160446,10 +160447,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-201-al-1301-a-609-893-91/194486771",
      "flags": [],
      "p": [
-      [
-       20768,
-       99987.0
-      ],
       [
        20770,
        99912.0
@@ -160477,17 +160474,21 @@
       [
        20783,
        98188.0
+      ],
+      [
+       20785,
+       98238.0
       ]
      ],
      "f": 20757,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194482073": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 79559.0,
+     "usd": 79600.0,
      "area": 40.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -160501,10 +160502,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-403-al-1203-a-609-893-94/194482073",
      "flags": [],
      "p": [
-      [
-       20768,
-       81017.0
-      ],
       [
        20770,
        80956.0
@@ -160532,17 +160529,21 @@
       [
        20783,
        79559.0
+      ],
+      [
+       20785,
+       79600.0
       ]
      ],
      "f": 20757,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194482071": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 74349.0,
+     "usd": 74387.0,
      "area": 40.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -160556,10 +160557,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-303-al-1303-a-609-893-93/194482071",
      "flags": [],
      "p": [
-      [
-       20768,
-       75711.0
-      ],
       [
        20770,
        75655.0
@@ -160587,17 +160584,21 @@
       [
        20783,
        74349.0
+      ],
+      [
+       20785,
+       74387.0
       ]
      ],
      "f": 20757,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194486773": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 116115.0,
+     "usd": 116174.0,
      "area": 61.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -160611,10 +160612,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-304-al-1304-a-609-893-95/194486773",
      "flags": [],
      "p": [
-      [
-       20768,
-       118242.0
-      ],
       [
        20770,
        118154.0
@@ -160642,10 +160639,14 @@
       [
        20783,
        116115.0
+      ],
+      [
+       20785,
+       116174.0
       ]
      ],
      "f": 20757,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194485569": {
@@ -160974,7 +160975,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 129384.0,
+     "usd": 129450.0,
      "area": 73.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -160988,10 +160989,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-203-al-1203-b-609-893-102/194489283",
      "flags": [],
      "p": [
-      [
-       20768,
-       131754.0
-      ],
       [
        20770,
        131656.0
@@ -161019,17 +161016,21 @@
       [
        20783,
        129384.0
+      ],
+      [
+       20785,
+       129450.0
       ]
      ],
      "f": 20760,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194489278": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 116115.0,
+     "usd": 116174.0,
      "area": 61.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -161043,10 +161044,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-304-al-1304-a-609-893-95/194489278",
      "flags": [],
      "p": [
-      [
-       20768,
-       118242.0
-      ],
       [
        20770,
        118154.0
@@ -161074,17 +161071,21 @@
       [
        20783,
        116115.0
+      ],
+      [
+       20785,
+       116174.0
       ]
      ],
      "f": 20760,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194489282": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 129384.0,
+     "usd": 129450.0,
      "area": 67.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -161098,10 +161099,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-202-al-1202-b-609-893-101/194489282",
      "flags": [],
      "p": [
-      [
-       20768,
-       131754.0
-      ],
       [
        20770,
        131656.0
@@ -161129,17 +161126,21 @@
       [
        20783,
        129384.0
+      ],
+      [
+       20785,
+       129450.0
       ]
      ],
      "f": 20760,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194489284": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 138379.0,
+     "usd": 138450.0,
      "area": 73.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -161153,10 +161154,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-303-al-1303-b-609-893-103/194489284",
      "flags": [],
      "p": [
-      [
-       20768,
-       140914.0
-      ],
       [
        20770,
        140809.0
@@ -161184,17 +161181,21 @@
       [
        20783,
        138379.0
+      ],
+      [
+       20785,
+       138450.0
       ]
      ],
      "f": 20760,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194489281": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 127182.0,
+     "usd": 127247.0,
      "area": 67.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -161208,10 +161209,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-302-al-1302-b-609-893-99/194489281",
      "flags": [],
      "p": [
-      [
-       20768,
-       129512.0
-      ],
       [
        20770,
        129416.0
@@ -161239,17 +161236,21 @@
       [
        20783,
        127182.0
+      ],
+      [
+       20785,
+       127247.0
       ]
      ],
      "f": 20760,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194489280": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 121310.0,
+     "usd": 121372.0,
      "area": 64.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -161263,10 +161264,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-201-al-1301-b-609-893-99/194489280",
      "flags": [],
      "p": [
-      [
-       20768,
-       123532.0
-      ],
       [
        20770,
        123440.0
@@ -161294,17 +161291,21 @@
       [
        20783,
        121310.0
+      ],
+      [
+       20785,
+       121372.0
       ]
      ],
      "f": 20760,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194489279": {
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 115512.0,
+     "usd": 115571.0,
      "area": 61.0,
      "lat": -12.0826,
      "lng": -77.07403,
@@ -161318,10 +161319,6 @@
      "u": "https://www.infocasas.com.pe/venta-departamento-san-miguel-dpto-606-al-1306-a-609-893-96/194489279",
      "flags": [],
      "p": [
-      [
-       20768,
-       117628.0
-      ],
       [
        20770,
        117541.0
@@ -161349,10 +161346,14 @@
       [
        20783,
        115512.0
+      ],
+      [
+       20785,
+       115571.0
       ]
      ],
      "f": 20760,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194489911": {
@@ -162022,7 +162023,7 @@
       ]
      ],
      "f": 20761,
-     "r": 20783,
+     "r": 20785,
      "dist": "surquillo"
     },
     "194494650": {
@@ -162053,7 +162054,7 @@
       ]
      ],
      "f": 20761,
-     "r": 20783,
+     "r": 20785,
      "dist": "surquillo"
     },
     "194496715": {
@@ -162108,7 +162109,7 @@
       ]
      ],
      "f": 20762,
-     "r": 20783,
+     "r": 20785,
      "dist": "ate"
     },
     "194500463": {
@@ -162189,7 +162190,7 @@
       ]
      ],
      "f": 20762,
-     "r": 20783,
+     "r": 20785,
      "dist": "brena"
     },
     "194497795": {
@@ -163198,7 +163199,7 @@
      "lng": -77.00444,
      "mon": "USD",
      "monto": 145000.0,
-     "mant": 51.86,
+     "mant": 51.89,
      "anio": "",
      "dorm": "3",
      "zona": "Surquillo",
@@ -163216,7 +163217,7 @@
       ]
      ],
      "f": 20764,
-     "r": 20783,
+     "r": 20785,
      "dist": "surquillo"
     },
     "194517854": {
@@ -163243,7 +163244,7 @@
       ]
      ],
      "f": 20764,
-     "r": 20783,
+     "r": 20785,
      "dist": "barranco"
     },
     "194513010": {
@@ -163270,7 +163271,7 @@
       ]
      ],
      "f": 20764,
-     "r": 20783,
+     "r": 20785,
      "dist": "barranco"
     },
     "194517843": {
@@ -163297,7 +163298,7 @@
       ]
      ],
      "f": 20764,
-     "r": 20783,
+     "r": 20785,
      "dist": "barranco"
     },
     "194512921": {
@@ -163979,14 +163980,14 @@
       ]
      ],
      "f": 20765,
-     "r": 20783,
+     "r": 20785,
      "dist": "santiago-de-surco"
     },
     "194517860": {
      "op": "venta",
      "tipo": "casas",
      "ciudad": "lima",
-     "usd": 4898133.0,
+     "usd": 4900632.0,
      "area": 870.0,
      "lat": -12.11516,
      "lng": -76.96485,
@@ -164000,10 +164001,6 @@
      "u": "https://www.infocasas.com.pe/venta-lujosa-mansion-en-casuarinas-609-1071-1-lucy/194517860",
      "flags": [],
      "p": [
-      [
-       20767,
-       4940654.0
-      ],
       [
        20769,
        4952211.0
@@ -164031,10 +164028,14 @@
       [
        20783,
        4898133.0
+      ],
+      [
+       20785,
+       4900632.0
       ]
      ],
      "f": 20765,
-     "r": 20783,
+     "r": 20785,
      "dist": "santiago-de-surco"
     },
     "194521095": {
@@ -164974,7 +164975,7 @@
      "op": "venta",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 114962.0,
+     "usd": 115021.0,
      "area": 44.0,
      "lat": -12.14108,
      "lng": -77.01946,
@@ -165015,10 +165016,14 @@
       [
        20783,
        114962.0
+      ],
+      [
+       20785,
+       115021.0
       ]
      ],
      "f": 20770,
-     "r": 20783,
+     "r": 20785,
      "dist": "barranco"
     },
     "194548551": {
@@ -165031,7 +165036,7 @@
      "lng": -77.01985,
      "mon": "USD",
      "monto": 195000.0,
-     "mant": 100.84,
+     "mant": 100.9,
      "anio": "",
      "dorm": "2",
      "zona": "Barranco",
@@ -165045,7 +165050,7 @@
       ]
      ],
      "f": 20770,
-     "r": 20783,
+     "r": 20785,
      "dist": "barranco"
     },
     "194547384": {
@@ -165072,14 +165077,14 @@
       ]
      ],
      "f": 20770,
-     "r": 20783,
+     "r": 20785,
      "dist": "barranco"
     },
     "194543065": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 749.0,
+     "usd": 750.0,
      "area": 50.0,
      "lat": -12.16332,
      "lng": -77.07231,
@@ -165120,10 +165125,14 @@
       [
        20783,
        749.0
+      ],
+      [
+       20785,
+       750.0
       ]
      ],
      "f": 20770,
-     "r": 20783,
+     "r": 20785,
      "dist": "barranco"
     },
     "194551531": {
@@ -165150,7 +165159,7 @@
       ]
      ],
      "f": 20770,
-     "r": 20783,
+     "r": 20785,
      "dist": "barranco"
     },
     "194549010": {
@@ -165201,7 +165210,7 @@
       ]
      ],
      "f": 20770,
-     "r": 20783,
+     "r": 20785,
      "dist": "carabayllo"
     },
     "194536631": {
@@ -165252,7 +165261,7 @@
       ]
      ],
      "f": 20770,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194549314": {
@@ -166071,7 +166080,7 @@
       ]
      ],
      "f": 20771,
-     "r": 20783,
+     "r": 20785,
      "dist": "santiago-de-surco"
     },
     "194558697": {
@@ -166102,7 +166111,7 @@
       ]
      ],
      "f": 20771,
-     "r": 20783,
+     "r": 20785,
      "dist": "santiago-de-surco"
     },
     "194558561": {
@@ -166115,7 +166124,7 @@
      "lng": -77.0014,
      "mon": "USD",
      "monto": 125000.0,
-     "mant": 80.68,
+     "mant": 80.72,
      "anio": "",
      "dorm": "3",
      "zona": "Surquillo",
@@ -166129,7 +166138,7 @@
       ]
      ],
      "f": 20771,
-     "r": 20783,
+     "r": 20785,
      "dist": "surquillo"
     },
     "194555663": {
@@ -166191,7 +166200,7 @@
       ]
      ],
      "f": 20771,
-     "r": 20783,
+     "r": 20785,
      "dist": "barranco"
     },
     "194558693": {
@@ -166218,7 +166227,7 @@
       ]
      ],
      "f": 20772,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194559211": {
@@ -166265,7 +166274,7 @@
       ]
      ],
      "f": 20772,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194560342": {
@@ -167007,7 +167016,7 @@
       ]
      ],
      "f": 20773,
-     "r": 20783,
+     "r": 20785,
      "dist": "santiago-de-surco"
     },
     "194563818": {
@@ -167034,7 +167043,7 @@
       ]
      ],
      "f": 20773,
-     "r": 20783,
+     "r": 20785,
      "dist": "surquillo"
     },
     "194564164": {
@@ -167088,7 +167097,7 @@
       ]
      ],
      "f": 20774,
-     "r": 20783,
+     "r": 20785,
      "dist": "barranco"
     },
     "194562591": {
@@ -167115,14 +167124,14 @@
       ]
      ],
      "f": 20774,
-     "r": 20783,
+     "r": 20785,
      "dist": "barranco"
     },
     "194564926": {
      "op": "alquiler",
      "tipo": "departamentos",
      "ciudad": "lima",
-     "usd": 749.0,
+     "usd": 750.0,
      "area": 50.0,
      "lat": -12.14115,
      "lng": -77.02212,
@@ -167155,10 +167164,14 @@
       [
        20783,
        749.0
+      ],
+      [
+       20785,
+       750.0
       ]
      ],
      "f": 20774,
-     "r": 20783,
+     "r": 20785,
      "dist": "barranco"
     },
     "194567262": {
@@ -167185,7 +167198,7 @@
       ]
      ],
      "f": 20774,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194562593": {
@@ -167212,7 +167225,7 @@
       ]
      ],
      "f": 20774,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194569085": {
@@ -168051,7 +168064,7 @@
       ]
      ],
      "f": 20776,
-     "r": 20783,
+     "r": 20785,
      "dist": "santiago-de-surco"
     },
     "194572752": {
@@ -168078,7 +168091,7 @@
       ]
      ],
      "f": 20776,
-     "r": 20783,
+     "r": 20785,
      "dist": "santiago-de-surco"
     },
     "194571095": {
@@ -168113,7 +168126,7 @@
       ]
      ],
      "f": 20776,
-     "r": 20783,
+     "r": 20785,
      "dist": "santiago-de-surco"
     },
     "194567258": {
@@ -168140,7 +168153,7 @@
       ]
      ],
      "f": 20776,
-     "r": 20783,
+     "r": 20785,
      "dist": "santiago-de-surco"
     },
     "194627884": {
@@ -168171,7 +168184,7 @@
       ]
      ],
      "f": 20776,
-     "r": 20783,
+     "r": 20785,
      "dist": "surquillo"
     },
     "194626965": {
@@ -168184,7 +168197,7 @@
      "lng": -77.03998,
      "mon": "PEN",
      "monto": 2500.0,
-     "mant": 80.75,
+     "mant": 80.73,
      "anio": "",
      "dorm": "3",
      "zona": "Jesus Maria",
@@ -168214,8 +168227,8 @@
       ]
      ],
      "f": 20776,
-     "r": 20784,
-     "dist": "jesus-maria"
+     "r": 20785,
+     "dist": "ate"
     },
     "194572017": {
      "op": "alquiler",
@@ -168253,7 +168266,7 @@
       ]
      ],
      "f": 20776,
-     "r": 20783,
+     "r": 20785,
      "dist": "brena"
     },
     "194627883": {
@@ -168280,7 +168293,7 @@
       ]
      ],
      "f": 20777,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194627885": {
@@ -168755,7 +168768,7 @@
       ]
      ],
      "f": 20778,
-     "r": 20783,
+     "r": 20785,
      "dist": "surquillo"
     },
     "194642323": {
@@ -168782,7 +168795,7 @@
       ]
      ],
      "f": 20779,
-     "r": 20783,
+     "r": 20785,
      "dist": "brena"
     },
     "194634051": {
@@ -169396,7 +169409,7 @@
       ]
      ],
      "f": 20781,
-     "r": 20783,
+     "r": 20785,
      "dist": "surquillo"
     },
     "194650030": {
@@ -169423,7 +169436,7 @@
       ]
      ],
      "f": 20781,
-     "r": 20783,
+     "r": 20785,
      "dist": "barranco"
     },
     "194650027": {
@@ -169450,7 +169463,7 @@
       ]
      ],
      "f": 20781,
-     "r": 20783,
+     "r": 20785,
      "dist": "barranco"
     },
     "194650026": {
@@ -169481,7 +169494,7 @@
       ]
      ],
      "f": 20781,
-     "r": 20783,
+     "r": 20785,
      "dist": "barranco"
     },
     "194572751": {
@@ -170075,7 +170088,7 @@
      "lng": -76.98962,
      "mon": "PEN",
      "monto": 1800.0,
-     "mant": 66.29,
+     "mant": 66.3,
      "anio": "",
      "dorm": "3",
      "zona": "Santiago De Surco",
@@ -170089,7 +170102,7 @@
       ]
      ],
      "f": 20783,
-     "r": 20783,
+     "r": 20785,
      "dist": "santiago-de-surco"
     },
     "194657019": {
@@ -170116,7 +170129,7 @@
       ]
      ],
      "f": 20783,
-     "r": 20783,
+     "r": 20785,
      "dist": "surquillo"
     },
     "194658249": {
@@ -170143,7 +170156,7 @@
       ]
      ],
      "f": 20783,
-     "r": 20783,
+     "r": 20785,
      "dist": "cercado-de-lima"
     },
     "194658245": {
@@ -171063,10 +171076,280 @@
      "f": 20785,
      "r": 20785,
      "dist": "santiago-de-surco"
+    },
+    "194676812": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 1046.0,
+     "area": 87.0,
+     "lat": -12.13364,
+     "lng": -77.00958,
+     "mon": "USD",
+     "monto": 1046.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Santiago De Surco",
+     "titulo": "DEPARTAMENTO DE ESTRENO EN ALQUILER I 87 M2 -2 DORMITORIOS I SURCO - LIMITE CON ",
+     "u": "https://www.infocasas.com.pe/departamento-de-estreno-en-alquiler-i-87-m2-2-dormitorios-i-surco-limite-con-miraflores/194676812",
+     "flags": [],
+     "p": [
+      [
+       20785,
+       1046.0
+      ]
+     ],
+     "f": 20785,
+     "r": 20785,
+     "dist": "santiago-de-surco"
+    },
+    "194672851": {
+     "op": "venta",
+     "tipo": "casas",
+     "ciudad": "lima",
+     "usd": 425000.0,
+     "area": 313.0,
+     "lat": -12.1381,
+     "lng": -76.97807,
+     "mon": "USD",
+     "monto": 425000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Santiago De Surco",
+     "titulo": "Casa En Venta En Santiago De Surco",
+     "u": "https://www.infocasas.com.pe/casa-en-venta-en-santiago-de-surco/194672851",
+     "flags": [],
+     "p": [
+      [
+       20785,
+       425000.0
+      ]
+     ],
+     "f": 20785,
+     "r": 20785,
+     "dist": "santiago-de-surco"
+    },
+    "194676821": {
+     "op": "alquiler",
+     "tipo": "casas",
+     "ciudad": "lima",
+     "usd": 2100.0,
+     "area": 180.0,
+     "lat": -12.1368,
+     "lng": -76.99829,
+     "mon": "USD",
+     "monto": 2100.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Santiago De Surco",
+     "titulo": "ALQUILÓ CASA 2 PISOS AMOBLADA Y EQUIPADA EN SANTIAGO DE SURCO – DOÑA RAQUEL",
+     "u": "https://www.infocasas.com.pe/alquilo-casa-2-pisos-amoblada-y-equipada-en-santiago-de-surco-dona-raquel/194676821",
+     "flags": [],
+     "p": [
+      [
+       20785,
+       2100.0
+      ]
+     ],
+     "f": 20785,
+     "r": 20785,
+     "dist": "santiago-de-surco"
+    },
+    "194676224": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 807.0,
+     "area": 70.0,
+     "lat": -12.1161,
+     "lng": -77.01379,
+     "mon": "PEN",
+     "monto": 2800.0,
+     "mant": 89.34,
+     "anio": "",
+     "dorm": "3",
+     "zona": "Surquillo",
+     "titulo": "ALQUILO DPTO. MODERNO 3 DORM. - 2 BAÑOS ESTAC. - BARRIO MÉDICO - SURQUILLO",
+     "u": "https://www.infocasas.com.pe/alquilo-dpto-moderno-3-dorm-2-banos-estac-barrio-medico-surquillo/194676224",
+     "flags": [],
+     "p": [
+      [
+       20785,
+       807.0
+      ]
+     ],
+     "f": 20785,
+     "r": 20785,
+     "dist": "surquillo"
+    },
+    "194676806": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 98000.0,
+     "area": 42.0,
+     "lat": -12.13958,
+     "lng": -77.01809,
+     "mon": "USD",
+     "monto": 98000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Barranco",
+     "titulo": "Se vende o alquila departamento con vista a la ciudad cerca al metropolitano",
+     "u": "https://www.infocasas.com.pe/se-vende-o-alquila-departamento-con-vista-a-la-ciudad-cerca-al-metropolitano/194676806",
+     "flags": [],
+     "p": [
+      [
+       20785,
+       98000.0
+      ]
+     ],
+     "f": 20785,
+     "r": 20785,
+     "dist": "barranco"
+    },
+    "194676804": {
+     "op": "venta",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 180000.0,
+     "area": 57.0,
+     "lat": -12.13737,
+     "lng": -77.02234,
+     "mon": "USD",
+     "monto": 180000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "2",
+     "zona": "Barranco",
+     "titulo": "Se vende o alquila departamento dos dormitorios con vista al mar cerca al maleco",
+     "u": "https://www.infocasas.com.pe/se-vende-o-alquila-departamento-dos-dormitorios-con-vista-al-mar-cerca-al-malecon/194676804",
+     "flags": [],
+     "p": [
+      [
+       20785,
+       180000.0
+      ]
+     ],
+     "f": 20785,
+     "r": 20785,
+     "dist": "barranco"
+    },
+    "194676811": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 700.0,
+     "area": 40.0,
+     "lat": -12.13929,
+     "lng": -77.02338,
+     "mon": "USD",
+     "monto": 700.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Barranco",
+     "titulo": "Se alquila departamento con vista lateral al mar cerca al malecon de barranco",
+     "u": "https://www.infocasas.com.pe/se-alquila-departamento-con-vista-lateral-al-mar-cerca-al-malecon-de-barranco/194676811",
+     "flags": [],
+     "p": [
+      [
+       20785,
+       700.0
+      ]
+     ],
+     "f": 20785,
+     "r": 20785,
+     "dist": "barranco"
+    },
+    "194674093": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 750.0,
+     "area": 50.0,
+     "lat": -12.13989,
+     "lng": -77.05364,
+     "mon": "PEN",
+     "monto": 2600.0,
+     "mant": 77.83,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Barranco",
+     "titulo": "ALQUILO MODERNO DEPARTAMENTO AMOBLADO DE 1 DORMITORIO CON COCHERA",
+     "u": "https://www.infocasas.com.pe/alquilo-moderno-departamento-amoblado-de-1-dormitorio-con-cochera/194674093",
+     "flags": [],
+     "p": [
+      [
+       20785,
+       750.0
+      ]
+     ],
+     "f": 20785,
+     "r": 20785,
+     "dist": "barranco"
+    },
+    "194676817": {
+     "op": "alquiler",
+     "tipo": "departamentos",
+     "ciudad": "lima",
+     "usd": 650.0,
+     "area": 42.0,
+     "lat": -12.13734,
+     "lng": -77.02238,
+     "mon": "USD",
+     "monto": 650.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "1",
+     "zona": "Barranco",
+     "titulo": "Se alquila departamento frente al estadio chipoco con cochera",
+     "u": "https://www.infocasas.com.pe/se-alquila-departamento-frente-al-estadio-chipoco-con-cochera/194676817",
+     "flags": [],
+     "p": [
+      [
+       20785,
+       650.0
+      ]
+     ],
+     "f": 20785,
+     "r": 20785,
+     "dist": "barranco"
+    },
+    "194676819": {
+     "op": "venta",
+     "tipo": "casas",
+     "ciudad": "lima",
+     "usd": 299000.0,
+     "area": 218.0,
+     "lat": -12.06775,
+     "lng": -77.09348,
+     "mon": "USD",
+     "monto": 299000.0,
+     "mant": 0.0,
+     "anio": "",
+     "dorm": "5",
+     "zona": "Cercado De Lima",
+     "titulo": "Casa de 3 Pisos en Venta en San Miguel | 4 Dormitorios y Cochera",
+     "u": "https://www.infocasas.com.pe/casa-de-3-pisos-en-venta-en-san-miguel-4-dormitorios-y-cochera/194676819",
+     "flags": [],
+     "p": [
+      [
+       20785,
+       299000.0
+      ]
+     ],
+     "f": 20785,
+     "r": 20785,
+     "dist": "cercado-de-lima"
     }
    },
-   "tc": 3.468937689582887,
-   "turno": 157,
+   "tc": 3.468208092485549,
+   "turno": 25,
    "pagina": 1,
    "rotacion_ciudades": {
     "arequipa": {
@@ -171093,50 +171376,50 @@
    "ultima_cobertura": {
     "lima": {
      "paginas": 40,
-     "validos": 71,
-     "fuera_ciudad": 0,
-     "momento": 1795853390
+     "validos": 76,
+     "fuera_ciudad": 1,
+     "momento": 1795897455
     },
     "arequipa": {
      "paginas": 4,
      "validos": 3,
      "fuera_ciudad": 0,
-     "momento": 1795853390
+     "momento": 1795897455
     },
     "cusco": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1795853390
+     "momento": 1795897455
     },
     "cajamarca": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 2,
-     "momento": 1795853390
+     "momento": 1795897455
     },
     "trujillo": {
      "paginas": 4,
      "validos": 1,
      "fuera_ciudad": 0,
-     "momento": 1795853390
+     "momento": 1795897455
     },
     "huaraz": {
      "paginas": 4,
      "validos": 0,
      "fuera_ciudad": 0,
-     "momento": 1795853390
+     "momento": 1795897455
     }
    }
   },
   "cobertura_ciudades": {
    "lima": {
     "ciudad": "Lima",
-    "ventas": 1171,
-    "alquileres": 374,
+    "ventas": 1175,
+    "alquileres": 380,
     "estado": "con datos; comparables por microzona pendientes de cada aviso",
     "proyectos": 824,
-    "momento": 1795853390
+    "momento": 1795897455
    },
    "arequipa": {
     "ciudad": "Arequipa",
@@ -171144,7 +171427,7 @@
     "alquileres": 1,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 7,
-    "momento": 1795853390
+    "momento": 1795897455
    },
    "cusco": {
     "ciudad": "Cusco",
@@ -171152,7 +171435,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 1,
-    "momento": 1795853390
+    "momento": 1795897455
    },
    "cajamarca": {
     "ciudad": "Cajamarca",
@@ -171160,7 +171443,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1795853390
+    "momento": 1795897455
    },
    "trujillo": {
     "ciudad": "Trujillo",
@@ -171168,7 +171451,7 @@
     "alquileres": 0,
     "estado": "insuficiente para rentabilidad",
     "proyectos": 0,
-    "momento": 1795853390
+    "momento": 1795897455
    },
    "huaraz": {
     "ciudad": "Huaraz",
@@ -171176,7 +171459,7 @@
     "alquileres": 0,
     "estado": "sin datos",
     "proyectos": 0,
-    "momento": 1795853390
+    "momento": 1795897455
    }
   }
  }
